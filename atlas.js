@@ -18,10 +18,20 @@
     pending: {fill:'#f0eee7',stroke:'#d3cfc2',ink:'#726e5f'}
   };
 
-  // These are grouping boundaries, not numerical contour lines.
+  function shapeVariant(node) {
+    return [...String(node.id || '')].reduce((sum, char) => sum + char.charCodeAt(0), 0) % 3;
+  }
+
+  // These are cartographic grouping cells, not numerical contour lines.
   function regionPath(node) {
     const {x,y,rx,ry} = node;
-    return `M ${x-rx*.96} ${y-ry*.07} C ${x-rx} ${y-ry*.64} ${x-rx*.63} ${y-ry*1.01} ${x-rx*.12} ${y-ry} C ${x+rx*.43} ${y-ry*1.08} ${x+rx*.91} ${y-ry*.68} ${x+rx*.98} ${y-ry*.14} C ${x+rx*1.08} ${y+ry*.44} ${x+rx*.58} ${y+ry*.99} ${x+rx*.06} ${y+ry} C ${x-rx*.56} ${y+ry*1.04} ${x-rx*1.03} ${y+ry*.62} ${x-rx*.96} ${y-ry*.07} Z`;
+    if (node.kind !== 'discipline') {
+      return `M ${x-rx*.9} ${y-ry*.72} Q ${x-rx*.54} ${y-ry} ${x-rx*.08} ${y-ry*.94} L ${x+rx*.66} ${y-ry*.78} Q ${x+rx} ${y-ry*.58} ${x+rx*.94} ${y-ry*.12} L ${x+rx*.84} ${y+ry*.53} Q ${x+rx*.56} ${y+ry*.92} ${x+rx*.06} ${y+ry*.88} L ${x-rx*.68} ${y+ry*.72} Q ${x-rx} ${y+ry*.5} ${x-rx*.9} ${y-ry*.72} Z`;
+    }
+    const variant=shapeVariant(node);
+    const topLeft=[.82,.76,.88][variant],topRight=[.91,.84,.88][variant];
+    const lowerLeft=[.83,.91,.87][variant],lowerRight=[.9,.84,.94][variant];
+    return `M ${x-rx*.86} ${y-ry*topLeft} Q ${x-rx*.52} ${y-ry*1.03} ${x-rx*.08} ${y-ry*.94} L ${x+rx*.66} ${y-ry*topRight} Q ${x+rx*.98} ${y-ry*.61} ${x+rx*.91} ${y-ry*.12} L ${x+rx*lowerRight} ${y+ry*.58} Q ${x+rx*.57} ${y+ry*1.02} ${x+rx*.08} ${y+ry*.91} L ${x-rx*.66} ${y+ry*lowerLeft} Q ${x-rx*1.02} ${y+ry*.53} ${x-rx*.94} ${y-ry*.12} Z`;
   }
 
   function fitScale(width, height, bounds) {
@@ -144,7 +154,7 @@
   function render(model, state) {
     return `<section class="research-atlas" id="research-atlas" aria-label="Research Theme Map 学科区域地图">
       <div class="map-toolbar">
-        <div class="map-key" aria-label="地图图例"><span><i class="map-key-region"></i>学科区域</span><span><i class="map-key-subfield"></i>子领域</span><span><i class="map-key-topic"></i>研究主题</span></div>
+        <div class="map-key" aria-label="地图图例"><span class="map-basis"><b>CURATED BASEMAP</b><em>编辑分类底图</em></span><span><i class="map-key-region"></i>学科地块</span><span><i class="map-key-subfield"></i>子领域</span><span><i class="map-key-topic"></i>研究主题覆盖层</span></div>
         <div class="map-tools">
           <label class="map-locator"><span class="sr-only">定位研究主题</span><select aria-label="定位研究主题"><option value="">定位主题…</option>${model.themes.map(t=>`<option value="${escape(t.id)}">${escape(t.mapName)} · ${escape(t.zh)}</option>`).join('')}</select></label>
           <button type="button" data-map-action="expand" class="map-expand" aria-label="展开地图" aria-pressed="false"><span aria-hidden="true">⤢</span><span class="map-expand-copy">展开</span></button>
@@ -155,7 +165,7 @@
         <div class="map-labels" aria-hidden="true"></div>
         <div class="map-topics" role="group" aria-label="地图中的研究主题">${model.themes.map(t=>`<button type="button" class="map-topic${t.unmapped?' map-topic-pending':''}" data-map-theme="${escape(t.id)}" aria-pressed="${state.selected===t.id}" aria-controls="map-inspector" aria-label="${escape(t.name)}，${escape(t.zh)}，查看学科归属"><span class="map-topic-name">${escape(t.mapName)}</span><span class="map-topic-zh"><i aria-hidden="true"></i>${escape(t.zh)}</span></button>`).join('')}</div>
         <div class="map-edge-labels" aria-hidden="true"></div>
-        <div class="map-corner-note" aria-hidden="true"><span class="map-live-dot"></span><span>${model.nodes.filter(n=>n.kind==='discipline').length} 学科 · ${model.themes.length} 研究主题</span></div>
+        <div class="map-corner-note" aria-hidden="true"><span class="map-live-dot"></span><span>BASEMAP · ${model.nodes.filter(n=>n.kind==='discipline').length} 学科 · ${model.themes.length} 主题</span></div>
         <div class="map-camera-tools" role="group" aria-label="地图缩放与聚焦">
           <button type="button" data-map-action="out" aria-label="缩小地图">−</button><output class="map-zoom" aria-label="相对全景的缩放比例">100%</output><button type="button" data-map-action="in" aria-label="放大地图">＋</button><span class="map-tool-divider"></span><button type="button" data-map-action="overview" class="map-overview">全景</button><button type="button" data-map-action="focus" class="map-focus" disabled>聚焦所选</button>
         </div>
@@ -164,7 +174,7 @@
       <div class="map-inspector" id="map-inspector"></div>
       <p class="sr-only" id="map-status" role="status" aria-live="polite"></p>
     </section>
-    <p class="map-disclaimer">这是一张围绕当前研究兴趣整理的导航地图。边界表示归类，大小、距离与位置不代表热度、重要性或学科的全部范围。</p>`;
+    <p class="map-disclaimer"><strong>地图依据：</strong>底图使用通行的学科与子领域名称，并按本项目的研究范围进行编辑映射；主题是覆盖层。地块面积、距离和位置不代表论文数量、热度、重要性或严格的文献计量相似度。</p>`;
   }
 
   function mount(root, model, state, options={}) {
@@ -192,12 +202,12 @@
 
     for (const node of model.nodes) {
       const tone=tones[node.tone]||tones.pending;
-      const path=svgElement('path', {d:regionPath(node),fill:node.kind==='discipline'?tone.fill:'#ffffff',stroke:tone.stroke,'stroke-width':node.kind==='discipline'?1.3:1,'fill-opacity':node.kind==='discipline'?1:.43,'vector-effect':'non-scaling-stroke','data-map-node':node.id});
+      const path=svgElement('path', {d:regionPath(node),fill:node.kind==='discipline'?tone.fill:'#ffffff',stroke:tone.stroke,'stroke-width':node.kind==='discipline'?1.15:1,'fill-opacity':node.kind==='discipline'?'.94':'.58','vector-effect':'non-scaling-stroke','stroke-linejoin':'round','data-map-node':node.id,'data-map-kind':node.kind});
       regions.appendChild(path);
       const label=document.createElement('div');
       label.className=`map-label ${node.kind==='discipline'?'map-domain-label':'map-field-label'}${node.name.length>23?' map-long-label':''}`;
       label.dataset.nodeLabel=node.id;
-      label.innerHTML=`<span class="map-label-en">${escape(node.mapName||node.name)}</span><span class="map-label-zh">${escape(node.zh)}</span>`;
+      label.innerHTML=`${node.kind==='discipline'?`<span class="map-label-code">${escape(node.code||node.id.toUpperCase())}</span>`:''}<span class="map-label-en">${escape(node.mapName||node.name)}</span><span class="map-label-zh">${escape(node.zh)}</span>`;
       label.title=`${node.name} · ${node.zh}`;
       labels.appendChild(label);
       nodeElements.set(node.id,{path,label,depth:ancestry(node.id).length-1});
@@ -241,7 +251,7 @@
         const visible=depth<2||node.parentId==='ai'||detailed||related.has(node.id);
         path.setAttribute('opacity',active?'1':'.43');
         path.style.display=visible?'':'none';
-        path.setAttribute('stroke-width',selected&&related.has(node.id)?'1.7':node.kind==='discipline'?'1.3':'1');
+        path.setAttribute('stroke-width',selected&&related.has(node.id)?'1.7':node.kind==='discipline'?'1.15':'1');
         label.classList.toggle('map-label-muted',!active);
         label.hidden=!visible;
         const centered=node.id==='statistics'&&!detailed&&!related.has('timeseries');

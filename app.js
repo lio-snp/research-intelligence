@@ -17,16 +17,34 @@ const publicDisabledActions = new Set(['ideas','add-candidate','edit-candidate',
 let catalog, workspace, busy = false, pendingImport = null, briefText = '', noticeTimer, atlasController, atlasModel, paperOrigin = null;
 const atlasState = {selected:null,camera:null,overview:true,expanded:false};
 const dirty = new Set();
-let view = {page:'themes', theme:null, atlasTheme:null, type:null, id:null, search:'', institution:'all', verification:'all', stage:'all', scholarTab:'publications', candidateTab:'profiles', themeLens:'researcher', themeEntity:'all', authorContext:null, ...PublicationModel.defaults};
+let view = {page:'themes', theme:null, atlasTheme:null, type:null, id:null, search:'', institution:'all', verification:'all', stage:'all', scholarTab:'publications', candidateTab:'profiles', themeLens:'cluster', themeEntity:'all', authorContext:null, ...PublicationModel.defaults};
 function normalizeCatalog(raw = {}) {
+  const rawQuestions = optionalArray(raw.questions);
+  const questions = rawQuestions.map(q => {
+    const paperIds = optionalArray(q.paperIds);
+    const id = q.id || (paperIds.length === 1 ? `q_${paperIds[0]}` : '');
+    return {...q,id,paperIds,clusterIds:optionalArray(q.clusterIds),basis:q.basis || (q.evidence?.field === 'summary.question' || q.evidenceField === 'researchQuestion' ? 'full_text_summary' : 'abstract_summary')};
+  });
+  const questionClusters = optionalArray(raw.questionClusters).map(c => ({...c,paperIds:optionalArray(c.paperIds),questionIds:optionalArray(c.questionIds),researcherIds:optionalArray(c.researcherIds),themes:optionalArray(c.themes),basis:c.basis || 'editorial_synthesis'}));
+  const normalizedPapers = optionalArray(raw.papers).map(p => {
+    const paperQuestions = questions.filter(q => q.paperIds.includes(p.id));
+    const q = paperQuestions[0];
+    const questionId = p.questionId ?? q?.id ?? (p.researchQuestion ? `q_${p.id}` : null);
+    const researchQuestion = p.researchQuestion || q?.text || '';
+    const draft = {...p,authors:optionalArray(p.authors),authorships:optionalArray(p.authorships),researcherIds:optionalArray(p.researcherIds),themes:optionalArray(p.themes),paradigms:optionalArray(p.paradigms),sources:optionalArray(p.sources),versions:optionalArray(p.versions),questionId,researchQuestion};
+    return {...draft,questionStatus:PublicationModel.normalizedQuestionStatus(draft,questions)};
+  });
+  const coverage = raw.questionCoverage || PublicationModel.questionCoverage(normalizedPapers,questions,questionClusters,optionalArray(raw.themes));
   return {
     ...raw,
     themes: optionalArray(raw.themes),
     paradigms: optionalArray(raw.paradigms),
     researchers: optionalArray(raw.researchers).map(r => ({...r,themes:optionalArray(r.themes),topics:optionalArray(r.topics),sources:optionalArray(r.sources),researchLines:optionalArray(r.researchLines),questionsToVerify:optionalArray(r.questionsToVerify)})),
-    questions: optionalArray(raw.questions).map(q => ({...q,paperIds:optionalArray(q.paperIds)})),
+    questions,
+    questionClusters,
+    questionCoverage: coverage,
     programs: optionalArray(raw.programs).map(g => ({...g,paperIds:optionalArray(g.paperIds)})),
-    papers: optionalArray(raw.papers).map(p => ({...p,authors:optionalArray(p.authors),authorships:optionalArray(p.authorships),researcherIds:optionalArray(p.researcherIds),themes:optionalArray(p.themes),paradigms:optionalArray(p.paradigms),sources:optionalArray(p.sources),versions:optionalArray(p.versions)})),
+    papers: normalizedPapers,
     publicationStats: raw.publicationStats || {}
   };
 }
@@ -38,6 +56,9 @@ const allResearchers = () => {
 };
 const researcher = id => allResearchers().find(r => r.id === id);
 const paper = id => catalog.papers.find(p => p.id === id);
+const question = id => catalog.questions.find(q => q.id === id);
+const paperQuestion = p => PublicationModel.questionForPaper(p,catalog.questions);
+const cluster = id => catalog.questionClusters.find(c => c.id === id);
 const authorPapers = id => catalog.papers.filter(p => p.researcherIds.includes(id));
 const selectedPapers = id => authorPapers(id).filter(p=>p.selectedReading).sort((a,b)=>(a.readingOrder||99)-(b.readingOrder||99));
 const researcherNote = id => workspace.researcherNotes[id] || {stage:'candidate',note:'',nextAction:''};
@@ -138,10 +159,40 @@ function paperExcerpt(p) {
   if(isPublic()) return p.abstractSummary || p.summary?.question || '书目已收录，内容概览待补。';
   return p.readingReason || p.abstractSummary || '书目已收录，中文摘要概览待补。';
 }
+function questionStatusBadge(p) {
+  const status = PublicationModel.normalizedQuestionStatus(p,catalog.questions);
+  return badge(PublicationModel.questionStatusLabels[status] || '问题状态待核验', status === 'extracted' ? 'blue' : 'pending');
+}
+function questionBasisBadge(q) {
+  return badge(PublicationModel.questionBasisLabels[q?.basis] || (q?.basis || '问题依据待核验'), q?.basis === 'full_text_summary' ? 'blue' : '');
+}
+function clustersForPaper(p) {
+  return catalog.questionClusters.filter(c => c.paperIds?.includes(p.id));
+}
+function questionEvidence(q) {
+  if(!q?.evidence) return '';
+  const source = q.evidence.source || {};
+  const sourceLine = source.url ? link(source.label || '问题证据来源',source.url) : e(source.label || '');
+  const kindLabels = {abstract:'摘要概览归纳',abstract_summary:'摘要概览归纳',full_text:'全文归纳',full_text_summary:'全文归纳'};
+  const kind = kindLabels[source.kind] && kindLabels[source.kind] !== PublicationModel.questionBasisLabels[q.basis] ? ` · ${kindLabels[source.kind]}` : '';
+  return `<details class="question-evidence"><summary>查看问题提炼依据</summary><p>${e(q.evidence.excerpt || '证据摘录待补。')}</p>${sourceLine?`<p class="evidence-note">${sourceLine}${kind}${source.checkedAt?` · 核验于 ${e(source.checkedAt)}`:''}</p>`:''}</details>`;
+}
+function paperQuestionBlock(p,{compact=false}={}) {
+  const q = paperQuestion(p);
+  const status = PublicationModel.normalizedQuestionStatus(p,catalog.questions);
+  const text = PublicationModel.paperQuestionText(p,catalog.questions);
+  const cls = compact ? 'paper-question compact' : 'paper-question panel';
+  if(status !== 'extracted') {
+    return `<div class="${cls}"><div class="paper-question-head"><h4>论文核心问题</h4>${questionStatusBadge(p)}</div><p>${status === 'pending_evidence' ? '待补来源：尚缺可读摘要或全文依据，不从标题推断核心问题。' : status === 'stale_evidence' ? '证据已变化：需要复核摘要或全文后再展示核心问题。' : '待提炼：已有资料尚未整理成论文核心问题。'}</p></div>`;
+  }
+  const related = clustersForPaper(p);
+  const compactSource = compact && q?.evidence?.source?.url && q.evidence.source.url !== p.url && q.evidence.source.url !== p.abstractAvailability?.source?.url ? `<p class="evidence-note">${link(q.evidence.source.label || '问题依据',q.evidence.source.url)}</p>` : '';
+  return `<div class="${cls}"><div class="paper-question-head"><h4>论文核心问题</h4><div class="badges">${questionStatusBadge(p)}${questionBasisBadge(q)}</div></div><p>${e(text || '核心问题文本待补。')}</p>${compact?compactSource:questionEvidence(q)}${related.length?`<div class="chips">${related.map(c=>button(c.title || c.question || c.id,'cluster',c.id,'chip')).join('')}</div>`:'<p class="evidence-note">已提炼，但尚未归入主题问题簇。</p>'}</div>`;
+}
 function paperRow(p,contextId='',preview=false) {
   const progress = isPublic() ? '' : badge('我的进度：'+statuses[paperNote(p.id).status]);
   const selectedLabel = p.selectedReading ? badge(isPublic()?'代表性阅读':'重点选读') : '';
-  return `<article class="paper-row publication-row ${preview&&view.previewId===p.id?'is-selected':''}" data-paper-row="${e(p.id)}"><div class="paper-meta">${paperMeta(p)}</div><h3>${paperButton(p.title,preview?'preview-paper':'paper',p,contextId,'paper-title')}</h3>${authorLine(p,contextId)}<p class="paper-excerpt">${e(paperExcerpt(p))}</p><div class="row-actions"><div class="badges">${badge(PublicationModel.depthLabels[p.readDepth]||'书目信息',p.readDepth==='full_text'?'blue':p.readDepth==='metadata'?'pending':'')}${selectedLabel}${progress}</div><div class="paper-actions">${preview?paperButton('预览','preview-paper',p,contextId):''}${paperButton('进入阅读 →','paper',p,contextId)}</div></div></article>`;
+  return `<article class="paper-row publication-row ${preview&&view.previewId===p.id?'is-selected':''}" data-paper-row="${e(p.id)}"><div class="paper-meta">${paperMeta(p)}</div><h3>${paperButton(p.title,preview?'preview-paper':'paper',p,contextId,'paper-title')}</h3>${authorLine(p,contextId)}<p class="paper-excerpt">${e(paperExcerpt(p))}</p><div class="row-actions"><div class="badges">${badge(PublicationModel.depthLabels[p.readDepth]||'书目信息',p.readDepth==='full_text'?'blue':p.readDepth==='metadata'?'pending':'')}${questionStatusBadge(p)}${selectedLabel}${progress}</div><div class="paper-actions">${preview?paperButton('预览','preview-paper',p,contextId):''}${paperButton('进入阅读 →','paper',p,contextId)}</div></div></article>`;
 }
 function paperList(ps,contextId='') { return ps.length?`<div class="panel">${ps.map(p=>paperRow(p,contextId)).join('')}</div>`:empty('暂时没有论文','这里的空白表示资料尚未补齐，不代表这位学者没有发表。'); }
 
@@ -160,10 +211,11 @@ function abstractSourceInfo(p) {
 }
 function paperPreview(p,contextId='') {
   if(!p)return `<div class="preview-placeholder"><span class="preview-mark">↗</span><h3>给一篇论文，多一点上下文。</h3><p>选择左侧标题，查看作者、内容概览和原始来源。</p></div>`;
-  return `<div class="preview-heading"><div class="eyebrow">PAPER PREVIEW</div><span>${e(PublicationModel.depthLabels[p.readDepth]||'书目信息')}</span></div>${button('↑ 回到论文列表','preview-return','','preview-return')}<div class="paper-meta">${paperMeta(p)}</div><h3>${e(p.title)}</h3>${authorLine(p,contextId)}<div class="preview-summary"><h4>${p.readDepth==='metadata'?'内容整理状态':'研究概览'}</h4><p>${e(p.abstractSummary||p.summary?.question||p.researchQuestion||'已建立可追溯的书目记录，摘要与研究结论尚未核读；这里暂不生成方法或结果判断。')}</p>${p.summary?.method?`<h4>方法</h4><p>${e(p.summary.method)}</p>`:''}</div>${abstractSourceInfo(p)}${contributionInfo(p)}<div class="preview-links">${link('原始来源',p.url)}${p.authorEvidence?.url?link('署名来源',p.authorEvidence.url):''}</div><p class="evidence-note">${p.date?'出版 / 公开日期：'+e(p.date):p.year?'仅核到年份，具体日期待核验。':'公开年份与日期待核验。'}</p>${paperButton('打开完整阅读页 →','paper',p,contextId,'primary preview-open')}`;
+  return `<div class="preview-heading"><div class="eyebrow">PAPER PREVIEW</div><span>${e(PublicationModel.depthLabels[p.readDepth]||'书目信息')}</span></div>${button('↑ 回到论文列表','preview-return','','preview-return')}<div class="paper-meta">${paperMeta(p)}</div><h3>${e(p.title)}</h3>${authorLine(p,contextId)}${paperQuestionBlock(p,{compact:true})}<div class="preview-summary"><h4>${p.readDepth==='metadata'?'内容整理状态':p.readDepth==='full_text'?'全文归纳':'摘要概览归纳'}</h4><p>${e(p.abstractSummary||p.summary?.question||p.researchQuestion||'已建立可追溯的书目记录，摘要与研究结论尚未核读；这里暂不生成方法或结果判断。')}</p>${p.summary?.method?`<h4>方法</h4><p>${e(p.summary.method)}</p>`:''}</div>${abstractSourceInfo(p)}${contributionInfo(p)}<div class="preview-links">${link('原始来源',p.url)}${p.authorEvidence?.url?link('署名来源',p.authorEvidence.url):''}</div><p class="evidence-note">${p.date?'出版 / 公开日期：'+e(p.date):p.year?'仅核到年份，具体日期待核验。':'公开年份与日期待核验。'}</p>${paperButton('打开完整阅读页 →','paper',p,contextId,'primary preview-open')}`;
 }
-function renderLibrary(ps,{contextId='',showTheme=true,showResearcher=true,compactHeading=false}={}) {
-  const filtered=PublicationModel.filterPapers(ps,view,isPublic()?{}:workspace.paperNotes), page=PublicationModel.paginate(filtered,view.paperPage);
+function renderLibrary(ps,{contextId='',showTheme=true,showResearcher=true,compactHeading=false,showQuestionFilter=true,clusters=null}={}) {
+  const questionFiltered=PublicationModel.filterByQuestionState(ps,catalog.questions,clusters || catalog.questionClusters,showQuestionFilter ? view.questionFilter : 'all');
+  const filtered=PublicationModel.filterPapers(questionFiltered,view,isPublic()?{}:workspace.paperNotes), page=PublicationModel.paginate(filtered,view.paperPage);
   const current=filtered.find(p=>p.id===view.previewId)||page.items[0];
   view.previewId=current?.id||null;
   const context=contextId||(view.paperResearcher!=='all'?view.paperResearcher:'');
@@ -171,7 +223,7 @@ function renderLibrary(ps,{contextId='',showTheme=true,showResearcher=true,compa
   const people={all:'全部学者',...Object.fromEntries(allResearchers().filter(r=>ps.some(p=>p.researcherIds.includes(r.id))).map(r=>[r.id,r.name]))};
   let previousYear=null;
   const rows=page.items.map(p=>{const y=p.year||'年份待核验'; const heading=y!==previousYear?`<div class="publication-year"><span>${e(y)}</span><span>${filtered.filter(item=>(item.year||'年份待核验')===y).length} 篇</span></div>`:'';previousYear=y;return heading+paperRow(p,context,true);}).join('');
-  return `<section class="publication-library" aria-label="论文目录"><div class="library-head ${compactHeading?'compact':''}"><div>${compactHeading?'':'<h2>论文目录</h2>'}<p>选择标题预览，或打开完整阅读页。</p></div><span class="count" role="status">${filtered.length} / ${ps.length} 篇</span></div><form id="library-search" class="library-search" role="search"><label class="sr-only" for="library-query">在当前论文中搜索</label><input id="library-query" name="query" type="search" value="${e(view.libraryQuery)}" placeholder="在当前论文中搜索标题、作者或关键词"><button type="submit">检索</button>${button('重置筛选','library-reset')}</form><div class="filters library-filters">${filter('年份','paperYear',years,view.paperYear)}${filter('发表类型','paperType',{all:'全部类型',...PublicationModel.typeLabels},view.paperType)}${showTheme?filter('研究主题','paperTheme',{all:'全部主题',...Object.fromEntries(catalog.themes.map(t=>[t.id,t.name])),untagged:'主题尚未标注'},view.paperTheme):''}${showResearcher?filter('关注的学者','paperResearcher',people,view.paperResearcher):''}${isPublic()?'':filter('我的阅读状态','readingStatus',{all:'全部进度',...statuses},view.readingStatus)}${filter('资料深度','paperDepth',{all:'全部深度',...PublicationModel.depthLabels},view.paperDepth)}</div><div class="library-layout"><div class="library-results">${page.items.length?`<div class="publication-list">${rows}</div><div class="pagination"><span>第 ${page.start}–${page.end} 篇 · 共 ${page.total} 篇</span><div><button data-action="library-page" data-id="${page.page-1}" ${page.page===1?'disabled':''}>上一页</button><span>${page.page} / ${page.pageCount}</span><button data-action="library-page" data-id="${page.page+1}" ${page.page===page.pageCount?'disabled':''}>下一页</button></div></div>`:empty(ps.length?'没有符合筛选的论文':'这份目录还需要补充',ps.length?'更换条件或重置筛选，原有论文仍然保留。':'没有收录不等于没有发表；可以先检查学者的官方来源。')}</div><aside class="paper-preview" id="paper-preview" aria-label="论文预览" tabindex="-1">${paperPreview(current,context)}</aside></div></section>`;
+  return `<section class="publication-library" aria-label="论文目录"><div class="library-head ${compactHeading?'compact':''}"><div>${compactHeading?'':'<h2>论文目录</h2>'}<p>选择标题预览，或打开完整阅读页。</p></div><span class="count" role="status">${filtered.length} / ${ps.length} 篇</span></div><form id="library-search" class="library-search" role="search"><label class="sr-only" for="library-query">在当前论文中搜索</label><input id="library-query" name="query" type="search" value="${e(view.libraryQuery)}" placeholder="在当前论文中搜索标题、作者、关键词或论文核心问题"><button type="submit">检索</button>${button('重置筛选','library-reset')}</form><div class="filters library-filters">${filter('年份','paperYear',years,view.paperYear)}${filter('发表类型','paperType',{all:'全部类型',...PublicationModel.typeLabels},view.paperType)}${showTheme?filter('研究主题','paperTheme',{all:'全部主题',...Object.fromEntries(catalog.themes.map(t=>[t.id,t.name])),untagged:'主题尚未标注'},view.paperTheme):''}${showResearcher?filter('关注的学者','paperResearcher',people,view.paperResearcher):''}${showQuestionFilter?filter('问题整理','questionFilter',{all:'全部问题状态',extracted:'已提炼',ungrouped:'未归簇',pending_extraction:'待提炼',pending_evidence:'待补来源',stale_evidence:'证据已变化'},view.questionFilter):''}${isPublic()?'':filter('我的阅读状态','readingStatus',{all:'全部进度',...statuses},view.readingStatus)}${filter('资料深度','paperDepth',{all:'全部深度',...PublicationModel.depthLabels},view.paperDepth)}</div><div class="library-layout"><div class="library-results">${page.items.length?`<div class="publication-list">${rows}</div><div class="pagination"><span>第 ${page.start}–${page.end} 篇 · 共 ${page.total} 篇</span><div><button data-action="library-page" data-id="${page.page-1}" ${page.page===1?'disabled':''}>上一页</button><span>${page.page} / ${page.pageCount}</span><button data-action="library-page" data-id="${page.page+1}" ${page.page===page.pageCount?'disabled':''}>下一页</button></div></div>`:empty(ps.length?'没有符合筛选的论文':'这份目录还需要补充',ps.length?'更换条件或重置筛选，原有论文仍然保留。':'没有收录不等于没有发表；可以先检查学者的官方来源。')}</div><aside class="paper-preview" id="paper-preview" aria-label="论文预览" tabindex="-1">${paperPreview(current,context)}</aside></div></section>`;
 }
 
 function coverageSummary(r) {
@@ -184,7 +236,7 @@ function viewTabs(items,current,action,label) {
 }
 function renderThemes() {
   atlasState.selected=view.atlasTheme;
-  return `<div class="map-page-heading"><div><div class="eyebrow">01 / RESEARCH THEME MAP</div><h1>研究兴趣，有一张自己的地图。</h1></div><p>从学科到子领域，再到交叉问题。<br>选一个主题，沿着它的来路探索。</p></div>`+ResearchAtlas.render(atlasModel,atlasState);
+  return `<div class="map-page-heading"><div><div class="eyebrow">01 / RESEARCH THEME MAP</div><h1>把研究主题，放回学科版图。</h1></div><p>底图负责定位学科与子领域。<br>主题覆盖层说明问题、方法与研究视角。</p></div>`+ResearchAtlas.render(atlasModel,atlasState);
 }
 function disposeAtlas() {
   atlasController?.dispose();
@@ -198,20 +250,42 @@ function mountAtlas() {
     onOpen(id){navigate({page:'theme',theme:id,atlasTheme:id});}
   });
 }
-function entityCard(item,type) {return `<article class="card"><div class="eyebrow">${type==='program'?'阅读归纳 · SYNTHESIS':type==='question'?'论文问题 · SUMMARY':'研究范式 · TAG'}</div><h3>${button(item.title||item.text||item.name,type,item.id)}</h3>${item.summary||item.description?`<p>${e(item.summary||item.description)}</p>`:''}<div class="card-bottom"><span class="meta">${(item.paperIds||[]).length} 篇依据</span>${button('查看依据 →',type,item.id)}</div></article>`;}
+function entityCard(item,type) {return `<article class="card"><div class="eyebrow">${type==='program'?'阅读归纳 · SYNTHESIS':type==='question'?'论文核心问题 · PAPER':type==='cluster'?'主题问题簇 · CLUSTER':'研究范式 · TAG'}</div><h3>${button(item.title||item.text||item.question||item.name,type,item.id)}</h3>${item.summary||item.description?`<p>${e(item.summary||item.description)}</p>`:''}<div class="card-bottom"><span class="meta">${(item.paperIds||[]).length} 篇依据</span>${button('查看依据 →',type,item.id)}</div></article>`;}
 function expandable(items,renderItem,count=4) {return `<div class="grid">${items.slice(0,count).map(renderItem).join('')}</div>${items.length>count?`<details><summary>展开其余 ${items.length-count} 项（共 ${items.length} 项）</summary><div class="grid">${items.slice(count).map(renderItem).join('')}</div></details>`:''}`;}
+function scopedCluster(cluster, papers) {
+  const ids = new Set(papers.map(p => p.id));
+  const paperIds = PublicationModel.uniq((cluster.paperIds || []).filter(id => ids.has(id)));
+  const scopedPapers = papers.filter(p => paperIds.includes(p.id));
+  const researcherIds = PublicationModel.uniq(scopedPapers.flatMap(p => p.researcherIds || []));
+  const questionIds = PublicationModel.uniq((cluster.questionIds || []).filter(id => catalog.questions.some(q => q.id === id && q.paperIds?.some(pid => paperIds.includes(pid)))));
+  return {...cluster,paperIds,questionIds,researcherIds};
+}
+function clusterCard(c, themePapers = catalog.papers) {
+  const scoped = scopedCluster(c,themePapers);
+  const single = scoped.paperIds.length === 1;
+  const scopedTheme = themePapers !== catalog.papers;
+  return `<article class="card question-cluster-card"><div class="eyebrow">${single?(scopedTheme?'本主题仅一篇依据 · SINGLE IN THEME':'单篇依据 · SINGLE PAPER'):'主题问题簇 · CLUSTER'}</div><h3>${button(scoped.title || scoped.question || scoped.id,'cluster',scoped.id)}</h3><p class="cluster-question">${e(scoped.question || scoped.description || '问题簇说明待补。')}</p>${scoped.description?`<p>${e(scoped.description)}</p>`:''}<div class="cluster-metrics"><span><strong>${scoped.paperIds.length}</strong> 篇论文</span><span><strong>${scoped.researcherIds.length}</strong> 位学者</span></div><div class="card-bottom"><span class="meta">编辑归纳</span>${button('查看来源论文 →','cluster',scoped.id)}</div></article>`;
+}
+function themeCoverageBar(papers, clusters) {
+  const c = PublicationModel.questionCoverage(papers,catalog.questions,clusters);
+  const ratio = c.papers ? `${c.extracted} / ${c.papers}` : '0 / 0';
+  const stale = c.staleEvidence ? `<div><strong>${c.staleEvidence}</strong><span>待复核</span></div>` : '';
+  return `<div class="question-coverage"><div class="coverage-metrics"><div><strong>${ratio}</strong><span>核心问题</span></div><div><strong>${c.clustered}<small> / ${c.extracted}</small></strong><span>已归簇</span></div><div><strong>${c.awaitingExtraction}</strong><span>待提炼</span></div><div><strong>${c.awaitingEvidence}</strong><span>待补来源</span></div>${stale}<div><strong>${c.unclustered}</strong><span>未归簇</span></div></div><p class="evidence-note">计数按当前主题内不同论文记录去重；多簇成员只计一次。预印本与发表版本仍可能分开收录。</p></div>`;
+}
 function renderTheme() {
   const t=catalog.themes.find(t=>t.id===view.theme);if(!t)return empty('主题不存在','请返回主题地图。');
   const ps=catalog.papers.filter(p=>p.themes?.includes(t.id)), ids=new Set(ps.map(p=>p.id));
   const rs=allResearchers().filter(r=>r.themes?.includes(t.id)||ps.some(p=>p.researcherIds?.includes(r.id))).sort((a,b)=>Number(verified(b))-Number(verified(a)));
-  const qs=catalog.questions.filter(q=>q.paperIds?.some(id=>ids.has(id))), gs=catalog.programs.filter(g=>g.paperIds?.some(id=>ids.has(id)));
+  const clusters=catalog.questionClusters.map(c=>scopedCluster(c,ps)).filter(c=>c.paperIds.length).sort((a,b)=>b.paperIds.length-a.paperIds.length || (a.title || a.question || '').localeCompare(b.title || b.question || ''));
+  const gs=catalog.programs.filter(g=>g.paperIds?.some(id=>ids.has(id)));
   const paradigms=catalog.paradigms.filter(g=>ps.some(p=>p.paradigms?.includes(g.id)));
-  const lenses={question:{label:'研究问题',items:qs},researcher:{label:'学者',items:rs},paradigm:{label:'研究范式',items:paradigms},program:{label:'研究线',items:gs}};
-  const lens=lenses[view.themeLens]||lenses.researcher, item=lens.items.find(x=>x.id===view.themeEntity);
+  const lenses={cluster:{label:'主题问题簇',items:clusters},researcher:{label:'学者',items:rs},paradigm:{label:'研究范式',items:paradigms},program:{label:'研究线',items:gs}};
+  const lens=lenses[view.themeLens]||lenses.cluster, item=lens.items.find(x=>x.id===view.themeEntity);
   const scoped=!item?ps:ps.filter(p=>view.themeLens==='researcher'?p.researcherIds.includes(item.id):view.themeLens==='paradigm'?p.paradigms.includes(item.id):item.paperIds.includes(p.id));
   const context=view.themeLens==='researcher'&&item?item.id:'';
   const options=Object.fromEntries(lens.items.map(x=>[x.id,view.themeLens==='researcher'?`${x.name} · ${ps.filter(p=>p.researcherIds.includes(x.id)).length} 篇已关联`:x.name||x.title||x.text]));
-  return crumbs([e(t.name)])+intro('02 / THEME WORKSPACE',t.name,'从问题、学者、范式或研究线，浏览同一组论文。'+t.description)+`<div class="theme-lenses">${viewTabs(Object.entries(lenses).map(([id,l])=>[id,`${l.label} · ${l.items.length}`]),view.themeLens,'theme-lens','主题的四种浏览角度')}<div class="lens-selection">${filter('按'+lens.label+'查看','themeEntity',{all:'全部'+lens.label,...options},view.themeEntity)}${item?button('打开'+lens.label+'详情 →',view.themeLens,item.id):'<p>这些是并列的阅读入口，不需要按固定顺序探索。</p>'}</div>${item&&(item.summary||item.description)?`<p class="lens-description">${e(item.summary||item.description)}</p>`:''}${context&&!scoped.length?'<p class="evidence-note">这位学者是主题候选，但已收录论文尚未关联到本主题；可打开学者详情查看全部目录。</p>':''}</div>${renderLibrary(scoped,{contextId:context,showTheme:false,showResearcher:!context})}<p class="library-boundary">主题与范式是编辑归纳，研究线只依据已有选读。当前 ${ps.length} 篇关联论文不代表整个领域；同一主题也不代表学者之间存在合作。</p>`;
+  const clusterCards=view.themeLens==='cluster'&&!item?`<div class="cluster-card-set">${expandable(clusters,c=>clusterCard(c,ps),6)}</div>`:'';
+  return crumbs([e(t.name)])+intro('02 / THEME WORKSPACE',t.name,'从主题问题簇、学者、范式或研究线，浏览同一组论文。'+t.description)+themeCoverageBar(ps,clusters)+`<div class="theme-lenses">${viewTabs(Object.entries(lenses).map(([id,l])=>[id,`${l.label} · ${l.items.length}`]),view.themeLens,'theme-lens','主题的四种浏览角度')}<div class="lens-selection">${filter('按'+lens.label+'查看','themeEntity',{all:'全部'+lens.label,...options},view.themeEntity)}${item?button('打开'+lens.label+'详情 →',view.themeLens,item.id):'<p>这些是并列的阅读入口，不需要按固定顺序探索。</p>'}</div>${item&&(item.question||item.summary||item.description)?`<p class="lens-description">${e(item.question||item.summary||item.description)}</p>`:''}${context&&!scoped.length?'<p class="evidence-note">这位学者是主题候选，但已收录论文尚未关联到本主题；可打开学者详情查看全部目录。</p>':''}${clusterCards}</div>${renderLibrary(scoped,{contextId:context,showTheme:false,showResearcher:!context,showQuestionFilter:true,clusters})}<p class="library-boundary">主题问题簇是编辑归纳，不是已证明的新研究空白。当前 ${ps.length} 篇关联论文不代表整个领域；同一主题也不代表学者之间存在合作。</p>`;
 }
 function renderCandidates() {
   const rs=allResearchers().filter(r=>(view.institution==='all'||r.institution===view.institution)&&(view.verification==='all'||(view.verification==='verified'?verified(r):!verified(r)))&&(view.stage==='all'||researcherNote(r.id).stage===view.stage)).sort((a,b)=>Number(verified(b))-Number(verified(a)));
@@ -223,12 +297,25 @@ function renderCandidates() {
 function filter(label,name,options,current) {return `<label>${e(label)}<select data-filter="${name}" aria-label="${e(label)}">${optionHTML(options,current)}</select></label>`;}
 function renderFocus() {
   if(view.type==='researcher')return renderResearcher();
+  if(view.type==='cluster'){
+    const item=cluster(view.id);
+    if(!item)return empty('问题簇不存在','请返回主题地图。');
+    const themeScope=view.theme?catalog.papers.filter(p=>p.themes?.includes(view.theme)):catalog.papers;
+    const scoped=scopedCluster(item,themeScope);
+    const ps=catalog.papers.filter(p=>scoped.paperIds.includes(p.id));
+    const authors=allResearchers().filter(r=>ps.some(p=>p.researcherIds?.includes(r.id)));
+    const scopeText=view.theme?`当前范围：${catalog.themes.find(t=>t.id===view.theme)?.name || '所选主题'}。簇计数与主题页保持一致。`:'当前范围：跨主题全部关联论文；这里明确展示的是全库范围。';
+    return crumbs([view.theme?button(catalog.themes.find(t=>t.id===view.theme)?.name || '返回主题','theme',view.theme):'跨主题全部',e(item.title||item.question||item.id)])+intro('03 / QUESTION CLUSTER',item.title||item.question||item.id,item.question||item.description||'这个主题问题簇由论文核心问题归纳而来。')+`<div class="panel cluster-focus"><p>${e(item.description||'簇说明待补。')}</p><div class="cluster-metrics"><span><strong>${scoped.paperIds.length}</strong> 篇论文</span><span><strong>${scoped.researcherIds.length}</strong> 位学者</span><span><strong>${scoped.questionIds.length || scoped.paperIds.length}</strong> 个论文核心问题</span></div><p class="evidence-note">${e(scopeText)}</p></div>`+renderLibrary(ps,{showTheme:!view.theme,showQuestionFilter:true,clusters:[scoped]})+section('依据论文中的学者',`<div class="grid candidate-grid">${authors.map(personCard).join('')}</div>`)+`<p class="library-boundary">问题簇是编辑归纳；来源论文与论文核心问题仍是可追溯依据。</p>`;
+  }
   const list=view.type==='question'?catalog.questions:view.type==='program'?catalog.programs:catalog.paradigms;
   const item=list.find(x=>x.id===view.id);
   if(!item)return empty('条目不存在','请返回主题地图。');
   const ps=view.type==='paradigm'?catalog.papers.filter(p=>p.paradigms?.includes(item.id)):catalog.papers.filter(p=>item.paperIds?.includes(p.id));
   const authors=allResearchers().filter(r=>ps.some(p=>p.researcherIds?.includes(r.id)));
-  return crumbs([e(item.title||item.text||item.name)])+intro('03 / FOCUS',item.title||item.text||item.name,item.summary||item.description||'这个问题由下列论文整理而来，不是已确认的新研究空白。')+renderLibrary(ps)+section('依据论文中的学者',`<div class="grid candidate-grid">${authors.map(personCard).join('')}</div>`)+`<p class="library-boundary">这里的关系来自列出的论文。研究线是对选读的归纳，不代表完整研究生涯，也不自动推断其他合作关系。</p>`;
+  const title=item.title||item.text||item.name;
+  const eyebrow=view.type==='question'?'03 / PAPER QUESTION':'03 / FOCUS';
+  const description=view.type==='question'?'这是单篇论文的核心问题，由已有摘要或全文归纳而来，不是跨论文问题簇。':item.summary||item.description||'这个条目由下列论文整理而来，不是已确认的新研究空白。';
+  return crumbs([e(title)])+intro(eyebrow,title,description)+renderLibrary(ps)+section('依据论文中的学者',`<div class="grid candidate-grid">${authors.map(personCard).join('')}</div>`)+`<p class="library-boundary">这里的关系来自列出的论文。研究线是对选读的归纳，不代表完整研究生涯，也不自动推断其他合作关系。</p>`;
 }
 function renderResearcher() {
   const r=researcher(view.id);if(!r)return empty('找不到导师','请返回候选池。');
@@ -247,20 +334,21 @@ function renderResearcher() {
 }
 function renderPaper() {
   const p=paper(view.id);if(!p)return empty('找不到论文','请返回阅读清单。');
-  const n=paperNote(p.id), labels={question:'研究问题',gap:'论文针对的缺口',insight:'核心思路',method:'方法',evidence:'证据与结果',limitation:'局限与阅读边界'};
+  const n=paperNote(p.id), labels={question:'旧版论文问题',gap:'论文针对的缺口',insight:'核心思路',method:'方法',evidence:'证据与结果',limitation:'局限与阅读边界'};
   const context=p.researcherIds.includes(view.authorContext)?view.authorContext:'';
   const contextName=context?researcher(context)?.name:'';
-  const body=p.summary?`<div class="section prose">${Object.entries(labels).filter(([key])=>p.summary[key]).map(([key,label])=>`<section><h3>${label}${key==='limitation'?' · '+(p.limitationBasis==='author_stated'?'作者陈述':'整理者提醒'):''}</h3><p>${e(p.summary[key])}</p></section>`).join('')}</div>`:p.abstractSummary?`<div class="section prose"><h3>中文摘要概览</h3><p>${e(p.abstractSummary)}</p><p class="evidence-note">基于摘要整理；具体设定、完整实验与稳健性尚需核读全文。</p></div>`:section('内容解读待补',empty('书目已收录，尚未核读摘要或全文','这里不根据标题推断研究结论。可以打开原始来源，并将实际阅读所得记在右侧。'));
+  const summarySections=p.summary?Object.entries(labels).filter(([key])=>p.summary[key] && key !== 'question'):[];
+  const body=summarySections.length?`<div class="section prose">${summarySections.map(([key,label])=>`<section><h3>${label}${key==='limitation'?' · '+(p.limitationBasis==='author_stated'?'作者陈述':'整理者提醒'):''}</h3><p>${e(p.summary[key])}</p></section>`).join('')}</div>`:p.abstractSummary?`<div class="section prose"><h3>${p.readDepth==='full_text'?'全文归纳':'摘要概览归纳'}</h3><p>${e(p.abstractSummary)}</p><p class="evidence-note">基于${p.readDepth==='full_text'?'全文归纳':'摘要'}整理；具体设定、完整实验与稳健性以原文为准。</p></div>`:section('内容解读待补',empty('书目已收录，尚未核读摘要或全文','这里不根据标题推断研究结论。可以打开原始来源，并将实际阅读所得记在右侧。'));
   const versions=p.versions?.length?`<details class="panel paper-versions"><summary>版本与署名记录 · ${p.versions.length} 条</summary>${p.versions.map(v=>`<div class="version-record"><h4>${e(v.title||p.title)}</h4><p>${e(v.year||'年份待核验')} · ${e(v.venue||PublicationModel.statusLabels[v.publicationStatus]||'来源记录')}</p><p>${e((v.authors||[]).join(' · '))}</p>${link('查看此记录',v.url)}</div>`).join('')}</details>`:'';
   const extensionBlock = !isPublic() && p.suggestedExtension ? section('可以延伸的问题 · 建议',`<div class="callout"><p>${e(p.suggestedExtension)}</p><p class="form-note">尚未完成相关文献查重或新颖性验证。</p>${button('新建我的想法','new-idea',p.id,'primary')}</div>`) : !isPublic() ? `<div class="actions section">${button('基于论文新建我的想法','new-idea',p.id)}</div>` : '';
   const progressBadge = isPublic() ? '' : badge('我的进度：'+statuses[n.status]);
   const readingPanel = isPublic() ? '' : `<div class="panel"><div class="eyebrow">MY READING</div><h3>我的阅读笔记</h3><form id="paper-note" data-save="paper" data-id="${e(p.id)}">${selectField('我的阅读状态','status',statuses,n.status)}${textField('我的笔记','note',n.note,5000,6)}${textField('我的延伸问题','extension',n.extension,3000,4)}<button class="primary" type="submit">保存阅读记录</button><p class="form-note">资料整理与个人阅读进度分开；不会自动将论文标为已读。</p></form></div>`;
-  return crumbs([button('返回论文列表','paper-back'),e('论文资料卡')])+`<div class="paper-heading">${intro('04 / PAPER & IDEA',p.title,`${p.year||'年份待核验'} · ${p.venue||'来源待补'}`)}</div><div class="layout"><div><div class="panel paper-authorship">${contextName?`<div class="eyebrow">正在查看 ${e(contextName)} 的署名</div>`:'<div class="eyebrow">AUTHORS & EVIDENCE</div>'}${authorLine(p,context,true)}${contributionInfo(p)}${p.authorEvidence?.url?link(p.authorOrderVerified?'核对原始署名':'查看作者线索',p.authorEvidence.url):''}</div><div class="reading-evidence badges">${p.coverageScope&&p.coverageScope!=='recent'?badge('时间窗外 · 补充文献','pending'):''}${badge('资料：'+(PublicationModel.depthLabels[p.readDepth]||'书目信息'),p.readDepth==='full_text'?'blue':p.readDepth==='metadata'?'pending':'')}${p.verifiedAt?badge('核验于 '+p.verifiedAt):''}${progressBadge}</div>${p.readDepth==='abstract'?'<p class="evidence-note">以下基于摘要与元数据；不等于全文核读。</p>':''}${body}${abstractSourceInfo(p)}${!isPublic()&&p.readingReason?section('为什么值得读',`<div class="panel"><p>${e(p.readingReason)}</p></div>`):''}${extensionBlock}${versions}</div><aside>${readingPanel}<div class="panel"><h3>回到原始来源</h3>${link('打开来源',p.url)}${sources(p.sources)}<p class="evidence-note">${p.date?'公开 / 出版日期：'+e(p.date):'具体公开 / 出版日期待核验。'}</p>${p.doi?`<p class="evidence-note">DOI · ${e(p.doi)}</p>`:''}<p class="form-note">主题与范式标签是整理者归纳。</p>${themeChips(p.themes)}<div class="chips">${p.paradigms.map(id=>button(catalog.paradigms.find(x=>x.id===id)?.name||id,'paradigm',id,'chip')).join('')}</div></div></aside></div>`;
+  return crumbs([button('返回论文列表','paper-back'),e('论文资料卡')])+`<div class="paper-heading">${intro('04 / PAPER & IDEA',p.title,`${p.year||'年份待核验'} · ${p.venue||'来源待补'}`)}</div><div class="layout"><div><div class="panel paper-authorship">${contextName?`<div class="eyebrow">正在查看 ${e(contextName)} 的署名</div>`:'<div class="eyebrow">AUTHORS & EVIDENCE</div>'}${authorLine(p,context,true)}${contributionInfo(p)}${p.authorEvidence?.url?link(p.authorOrderVerified?'核对原始署名':'查看作者线索',p.authorEvidence.url):''}</div><div class="reading-evidence badges">${p.coverageScope&&p.coverageScope!=='recent'?badge('时间窗外 · 补充文献','pending'):''}${badge('资料：'+(PublicationModel.depthLabels[p.readDepth]||'书目信息'),p.readDepth==='full_text'?'blue':p.readDepth==='metadata'?'pending':'')}${questionStatusBadge(p)}${p.verifiedAt?badge('核验于 '+p.verifiedAt):''}${progressBadge}</div>${p.readDepth==='abstract'?'<p class="evidence-note">以下基于摘要与元数据；不等于全文核读。</p>':''}${paperQuestionBlock(p)}${body}${abstractSourceInfo(p)}${!isPublic()&&p.readingReason?section('为什么值得读',`<div class="panel"><p>${e(p.readingReason)}</p></div>`):''}${extensionBlock}${versions}</div><aside>${readingPanel}<div class="panel"><h3>回到原始来源</h3>${link('打开来源',p.url)}${sources(p.sources)}<p class="evidence-note">${p.date?'公开 / 出版日期：'+e(p.date):'具体公开 / 出版日期待核验。'}</p>${p.doi?`<p class="evidence-note">DOI · ${e(p.doi)}</p>`:''}<p class="form-note">主题、范式和问题簇标签是整理者归纳。</p>${themeChips(p.themes)}<div class="chips">${p.paradigms.map(id=>button(catalog.paradigms.find(x=>x.id===id)?.name||id,'paradigm',id,'chip')).join('')}${clustersForPaper(p).map(c=>button(c.title||c.question||c.id,'cluster',c.id,'chip')).join('')}</div></div></aside></div>`;
 }
 function renderReading() {
   const stats=catalog.publicationStats||{};
   const description = isPublic() ? '按学者、主题与年份浏览。作者署名、来源证据和资料深度分别保留。' : '按学者、主题与年份浏览。作者署名、来源证据和你的阅读进度分别保留。';
-  return `<div class="library-page-heading">${intro('PUBLICATION LIBRARY','近年论文库',description)}</div><div class="library-overview"><span><strong>${catalog.papers.length}</strong> 项已收录研究</span><span><strong>${stats.withPapers||0} / ${allResearchers().length}</strong> 位学者有论文收录</span><span><strong>${stats.verifiedBylines||0}</strong> 篇署名已核</span><span><strong>${stats.abstracts||0}</strong> 篇已整理内容</span></div>${renderLibrary(catalog.papers,{compactHeading:true})}<p class="library-boundary">默认近三年，不足五篇时回溯五年；另保留 ${stats.outsideWindow||0} 篇时间窗外的补充文献，并单独标注。预印本与发表版本合并，保留原有 ${stats.fullTexts||0} 篇全文解读；不把作者位次当作贡献排名。资料更新时间：${e(catalog.updatedAt)}。</p>`;
+  return `<div class="library-page-heading">${intro('PUBLICATION LIBRARY','近年论文库',description)}</div><div class="library-overview"><span><strong>${catalog.papers.length}</strong> 项已收录研究</span><span><strong>${stats.withPapers||0} / ${allResearchers().length}</strong> 位学者有论文收录</span><span><strong>${stats.verifiedBylines||0}</strong> 篇署名已核</span><span><strong>${stats.abstracts||0}</strong> 篇已整理内容</span></div>${renderLibrary(catalog.papers,{compactHeading:true})}<p class="library-boundary">默认近三年，不足五篇时回溯五年；另保留 ${stats.outsideWindow||0} 篇时间窗外的补充文献，并单独标注。已确认的预印本与发表版本已关联；未核清的版本仍可能分开收录。保留原有 ${stats.fullTexts||0} 篇全文解读；不把作者位次当作贡献排名。资料更新时间：${e(catalog.updatedAt)}。</p>`;
 }
 function renderIdeas() {
   if(isPublic()) return intro('PUBLIC STATIC','公开静态只读版','这个版本只展示主题地图、学者资料和论文库；个人想法、笔记和联系准备单保留在本地开发版。')+empty('个人工作区未发布','公开页面不会读取浏览器本地记录，也不会连接保存接口。');
@@ -268,8 +356,12 @@ function renderIdeas() {
 }
 function renderSearch() {
   const q=view.search.toLocaleLowerCase(), match=x=>JSON.stringify(x).toLocaleLowerCase().includes(q);
-  const rs=allResearchers().filter(r=>match([r.name,r.institution,r.topics])), ps=PublicationModel.filterPapers(catalog.papers,{libraryQuery:view.search}), qs=catalog.questions.filter(x=>match(x.text));
-  return intro('SEARCH',`“${view.search}” 的搜索结果`,`${rs.length} 位导师 · ${ps.length} 篇论文 · ${qs.length} 个问题`)+(rs.length?section('导师',`<div class="grid candidate-grid">${rs.map(personCard).join('')}</div>`):'')+(ps.length?renderLibrary(ps):'')+(qs.length?section('问题',`<div class="grid">${qs.map(q=>entityCard(q,'question')).join('')}</div>`):'')+(!rs.length&&!ps.length&&!qs.length?empty('没有找到匹配条目','试试作者姓氏、学校简称或论文中的关键词。'):'');
+  const rs=allResearchers().filter(r=>match([r.name,r.institution,r.topics]));
+  const searchHits=PublicationModel.searchQuestions(view.search,catalog.questions,catalog.questionClusters);
+  const questionPaperIds = new Set(searchHits.questions.flatMap(item => item.paperIds || []));
+  const ps=PublicationModel.filterPapers(catalog.papers,{libraryQuery:view.search}).concat(catalog.papers.filter(p=>questionPaperIds.has(p.id)));
+  const uniquePs=[...new Map(ps.map(p=>[p.id,p])).values()];
+  return intro('SEARCH',`“${view.search}” 的搜索结果`,`${rs.length} 位导师 · ${uniquePs.length} 篇论文 · ${searchHits.clusters.length} 个问题簇 · ${searchHits.questions.length} 个论文核心问题`)+(rs.length?section('导师',`<div class="grid candidate-grid">${rs.map(personCard).join('')}</div>`):'')+(searchHits.clusters.length?section('主题问题簇',`<div class="grid">${searchHits.clusters.map(c=>clusterCard(c)).join('')}</div>`):'')+(searchHits.questions.length?section('论文核心问题',`<div class="grid">${searchHits.questions.map(q=>entityCard(q,'question')).join('')}</div>`):'')+(uniquePs.length?renderLibrary(uniquePs):'')+(!rs.length&&!uniquePs.length&&!searchHits.clusters.length&&!searchHits.questions.length?empty('没有找到匹配条目','试试作者姓氏、学校简称、问题文字或论文中的关键词。'):'');
 }
 
 function openModal(title,body) {$('modal-title').textContent=title;$('modal-body').innerHTML='<p id="modal-notice" class="modal-error" role="alert"></p>'+body;$('modal').showModal();}
@@ -345,6 +437,7 @@ document.addEventListener('click',event=>{
   if(['themes','candidates','reading','ideas'].includes(action)){navigate({page:action,theme:null,institution:'all',verification:'all',stage:'all',...PublicationModel.defaults});return;}
   if(action==='theme')navigate({page:'theme',theme:id,atlasTheme:id});
   else if(['researcher','question','program','paradigm'].includes(action))navigate({page:'focus',type:action,id});
+  else if(action==='cluster')navigate({page:'focus',type:'cluster',id,theme:view.page==='theme'?view.theme:null});
   else if(action==='paper'){
     if(view.page!=='paper')paperOrigin={...view};
     navigate({page:'paper',id,authorContext:b.dataset.scholar||null});

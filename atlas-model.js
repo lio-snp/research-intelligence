@@ -13,12 +13,12 @@
   };
   const definition = {
     nodes: [
-      {id:'finance',kind:'discipline',parentId:null,name:'Finance',zh:'金融学',tone:'finance',x:340,y:184.1,rx:280,ry:147.7,labelX:340,labelY:81.2},
-      {id:'cs',kind:'discipline',parentId:null,name:'Computer Science',zh:'计算机科学',tone:'cs',x:1088,y:194.6,rx:332,ry:161.7,labelX:1105,labelY:74.9},
-      {id:'management',kind:'discipline',parentId:null,name:'Business & Management',mapName:'Management',zh:'商业与管理',tone:'management',x:210,y:557.2,rx:187,ry:116.9,labelX:207,labelY:478.1},
-      {id:'economics',kind:'discipline',parentId:null,name:'Economics',zh:'经济学',tone:'economics',x:568,y:558.6,rx:186,ry:115.5,labelX:552,labelY:479.5},
-      {id:'math',kind:'discipline',parentId:null,name:'Mathematics & Statistics',zh:'数学与统计',tone:'math',x:981,y:555.1,rx:226,ry:140,labelX:996,labelY:465.5},
-      {id:'or',kind:'discipline',parentId:null,name:'Operations Research & Control',zh:'运筹与控制',tone:'decision',x:1405,y:556.5,rx:218,ry:125.3,labelX:1405,labelY:483},
+      {id:'finance',code:'FIN',kind:'discipline',parentId:null,name:'Finance',zh:'金融学',tone:'finance',x:340,y:184.1,rx:280,ry:147.7,labelX:340,labelY:81.2},
+      {id:'cs',code:'CS',kind:'discipline',parentId:null,name:'Computer Science',zh:'计算机科学',tone:'cs',x:1088,y:194.6,rx:332,ry:161.7,labelX:1105,labelY:74.9},
+      {id:'management',code:'MGT',kind:'discipline',parentId:null,name:'Business & Management',mapName:'Management',zh:'商业与管理',tone:'management',x:210,y:557.2,rx:187,ry:116.9,labelX:207,labelY:478.1},
+      {id:'economics',code:'ECON',kind:'discipline',parentId:null,name:'Economics',zh:'经济学',tone:'economics',x:568,y:558.6,rx:186,ry:115.5,labelX:552,labelY:479.5},
+      {id:'math',code:'MATH',kind:'discipline',parentId:null,name:'Mathematics & Statistics',zh:'数学与统计',tone:'math',x:981,y:555.1,rx:226,ry:140,labelX:996,labelY:465.5},
+      {id:'or',code:'OR',kind:'discipline',parentId:null,name:'Operations Research & Control',zh:'运筹与控制',tone:'decision',x:1405,y:556.5,rx:218,ry:125.3,labelX:1405,labelY:483},
       {id:'markets',kind:'subfield',parentId:'finance',name:'Financial Markets',zh:'金融市场',tone:'finance',x:348,y:219.1,rx:204,ry:88.2,labelX:345,labelY:175},
       {id:'ai',kind:'subfield',parentId:'cs',name:'AI / ML',zh:'人工智能 / 机器学习',tone:'cs',x:1084,y:228.2,rx:271,ry:109.9,labelX:1098,labelY:152.6},
       {id:'theory',kind:'subfield',parentId:'ai',name:'ML Theory',zh:'机器学习理论',tone:'cs',x:955,y:239.4,rx:114,ry:47.6,labelX:955,labelY:234.5},

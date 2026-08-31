@@ -10,17 +10,17 @@
   },
   "files": {
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "app.css": "f85ed83bacedce2945cfa9d8bf7c379936f64009ecc0439d8adc192879b70274",
-    "app.js": "02a87aca1376aaaeb2cb5d0da1c822f4dfa9939f49a2257435e29dd6b71d0af1",
-    "atlas-model.js": "bf4757203444646e8c241f536da0dc550226828c9112a9ffc463eb962a19b575",
-    "atlas.css": "d3b55aff12b7c5200a9762585f6f816135cae45b7635f1f59aa814ae844e034e",
-    "atlas.js": "6555a9d6f06c6181345a8b4053f90580ede849b6ba6fbc2613c35df04ca47dde",
-    "catalog.json": "c16bf077ec0800dd143a96a2a15ec358fd4def482bb58812b80a309dae459c12",
-    "index.html": "13192217a59b238b34dbb7e0409b8b906928c66e5c9e6e5393d0d5104e89c87d",
-    "publication-model.js": "fd96a92ebd0e28f366295a46564c0c731e29003958c44560345e60ebe85a70a5"
+    "app.css": "58aaf1efcb41a77f5e4d24099ff054776466ef40a32fb48ed342366acb4f6ad6",
+    "app.js": "cf54b8d98dc38ee24dc1a048fb9310ca010e873a3b88dd3f2d887353b19adee2",
+    "atlas-model.js": "1e81aecb7b7f350d2e0d4bd747c4fbe303a9812d3684b07525520a9ba8145fed",
+    "atlas.css": "60fd8f36f45d4de1dd83d441e343e6cd212f704b4760821d05b44fdc4451a407",
+    "atlas.js": "9da7c13ed17e1393f93b0f3859a2361097fec585bcb86f012103eb81def18565",
+    "catalog.json": "5b77cfeb250aa0199986e893e6426ddf75d78e4cd1fa7aec0e1077f7c68f02c8",
+    "index.html": "b4026a16f9b83cf6943b60a42a980269ebb6f91106800fbc0ba6bef4facf6ada",
+    "publication-model.js": "9dc830314bc9b16cac37e72ba2923de8cd181a47033a8ab321781256fa837d6a"
   },
   "mode": "public",
   "schemaVersion": 1,
   "snapshotDate": "2026-08-31",
-  "version": "3.2.0"
+  "version": "3.3.0"
 }
