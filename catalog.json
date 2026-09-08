@@ -24332,7 +24332,15 @@
       "url": "https://arxiv.org/abs/2406.05358",
       "venue": "Operations Research, accepted 2026",
       "verifiedAt": "2026-08-31",
-      "versions": [],
+      "versions": [
+        {
+          "authorEvidence": {},
+          "authors": [],
+          "date": "2026-04-12",
+          "sources": [],
+          "url": "https://arxiv.org/abs/2406.05358v3"
+        }
+      ],
       "year": 2024
     },
     {
@@ -38457,6 +38465,370 @@
         }
       ],
       "year": 2022
+    },
+    {
+      "abstractAvailability": {
+        "reason": "内容依据所列来源整理；摘要概览与全文解读分别标注。",
+        "status": "available"
+      },
+      "abstractSummary": "CMRAG 把文本与图像映射到共享检索空间，融合跨模态信号用于视觉文档问答。实验包括金融报告和金融幻灯片基准；这属于金融文档应用，不是金融定价或风险机制研究。",
+      "authorEvidence": {
+        "checkedAt": "2026-09-07",
+        "kind": "preprint",
+        "url": "https://arxiv.org/abs/2509.02123"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Wang Chen",
+        "Wenhan Yu",
+        "Guanqiang Qi",
+        "Weikang Li",
+        "Yang Li",
+        "Lei Sha",
+        "Deguo Xia",
+        "Jizhou Huang"
+      ],
+      "authorships": [
+        {
+          "name": "Wang Chen",
+          "position": 1,
+          "researcherId": null
+        },
+        {
+          "name": "Wenhan Yu",
+          "position": 2,
+          "researcherId": null
+        },
+        {
+          "name": "Guanqiang Qi",
+          "position": 3,
+          "researcherId": null
+        },
+        {
+          "name": "Weikang Li",
+          "position": 4,
+          "researcherId": null
+        },
+        {
+          "name": "Yang Li",
+          "position": 5,
+          "researcherId": null
+        },
+        {
+          "name": "Lei Sha",
+          "position": 6,
+          "researcherId": "r_lei_sha"
+        },
+        {
+          "name": "Deguo Xia",
+          "position": 7,
+          "researcherId": null
+        },
+        {
+          "name": "Jizhou Huang",
+          "position": 8,
+          "researcherId": null
+        }
+      ],
+      "contribution": {
+        "note": "具体贡献及通讯/共同贡献标记待核；不由位次推断贡献。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2025-09-02",
+      "datePrecision": "day",
+      "doi": "",
+      "id": "pub_sha_cmrag",
+      "paradigms": [
+        "system"
+      ],
+      "publicationStatus": "published",
+      "publicationType": "conference",
+      "questionId": "q_pub_sha_cmrag",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "如何融合文本与图像证据，提高视觉文档的检索与问答质量？",
+      "researcherIds": [
+        "r_lei_sha"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "kind": "preprint",
+          "label": "Paper record",
+          "url": "https://arxiv.org/abs/2509.02123"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "ml"
+      ],
+      "title": "CMRAG: Co-modality-based visual document retrieval and question answering",
+      "url": "https://arxiv.org/abs/2509.02123",
+      "venue": "ICLR 2026 Workshop on Multimodal Intelligence（作者标注；非主会）",
+      "verifiedAt": "2026-09-07",
+      "versions": [
+        {
+          "authorEvidence": {},
+          "authors": [],
+          "date": "2026-03-06",
+          "sources": [],
+          "url": "https://arxiv.org/abs/2509.02123v3"
+        }
+      ],
+      "year": 2025
+    },
+    {
+      "abstractAvailability": {
+        "reason": "内容依据所列来源整理；摘要概览与全文解读分别标注。",
+        "status": "available"
+      },
+      "abstractSummary": "MVRAG 通过面向不同领域视角的意图感知查询重写，改善知识密集领域的检索。实验涉及法律和医疗案例检索；尚未验证金融应用。",
+      "authorEvidence": {
+        "checkedAt": "2026-09-07",
+        "kind": "preprint",
+        "url": "https://arxiv.org/abs/2404.12879"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Guanhua Chen",
+        "Wenhan Yu",
+        "Xiao Lu",
+        "Xiao Zhang",
+        "Erli Meng",
+        "Lei Sha"
+      ],
+      "authorships": [
+        {
+          "name": "Guanhua Chen",
+          "position": 1,
+          "researcherId": null
+        },
+        {
+          "name": "Wenhan Yu",
+          "position": 2,
+          "researcherId": null
+        },
+        {
+          "name": "Xiao Lu",
+          "position": 3,
+          "researcherId": null
+        },
+        {
+          "name": "Xiao Zhang",
+          "position": 4,
+          "researcherId": null
+        },
+        {
+          "name": "Erli Meng",
+          "position": 5,
+          "researcherId": null
+        },
+        {
+          "name": "Lei Sha",
+          "position": 6,
+          "researcherId": "r_lei_sha"
+        }
+      ],
+      "contribution": {
+        "note": "具体贡献及通讯/共同贡献标记待核；不由位次推断贡献。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2024-04-19",
+      "datePrecision": "day",
+      "doi": "10.1109/taslpro.2025.3622944",
+      "id": "pub_sha_multiview_rag",
+      "paradigms": [
+        "system"
+      ],
+      "publicationStatus": "published",
+      "publicationType": "journal",
+      "questionId": "q_pub_sha_multiview_rag",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "如何利用领域的不同知识视角改善知识密集文档检索？",
+      "researcherIds": [
+        "r_lei_sha"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "kind": "preprint",
+          "label": "Paper record",
+          "url": "https://arxiv.org/abs/2404.12879"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "ml"
+      ],
+      "title": "Unlocking Multi-View Insights in Knowledge-Dense Retrieval-Augmented Generation",
+      "url": "https://arxiv.org/abs/2404.12879",
+      "venue": "TASLP 2025（关联正式版本）",
+      "verifiedAt": "2026-09-07",
+      "versions": [
+        {
+          "authorEvidence": {},
+          "authors": [],
+          "sources": [],
+          "url": "https://doi.org/10.1109/TASLPRO.2025.3622944"
+        }
+      ],
+      "year": 2024
+    },
+    {
+      "abstractAvailability": {
+        "reason": "尚未核实可读的完整摘要；保留书目信息，不据题名推断内容。",
+        "status": "not_found"
+      },
+      "authorEvidence": {
+        "checkedAt": "2026-09-07",
+        "kind": "publisher",
+        "url": "https://www.nature.com/articles/s41467-026-74411-3"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Siwei Deng",
+        "Lei Sha",
+        "Yongcheng Jin",
+        "Tianyao Zhou",
+        "Chengen Wang",
+        "Qianpu Liu",
+        "Hongjie Guo",
+        "Chengjie Xiong",
+        "Yangtao Xue",
+        "Xiaoguang Li",
+        "Yuanming Li",
+        "Yaping Gao",
+        "Mengyu Hong",
+        "Junjie Xu",
+        "Shanwen Chen",
+        "Pengyuan Wang"
+      ],
+      "authorships": [
+        {
+          "name": "Siwei Deng",
+          "position": 1,
+          "researcherId": null
+        },
+        {
+          "name": "Lei Sha",
+          "position": 2,
+          "researcherId": "r_lei_sha"
+        },
+        {
+          "name": "Yongcheng Jin",
+          "position": 3,
+          "researcherId": null
+        },
+        {
+          "name": "Tianyao Zhou",
+          "position": 4,
+          "researcherId": null
+        },
+        {
+          "name": "Chengen Wang",
+          "position": 5,
+          "researcherId": null
+        },
+        {
+          "name": "Qianpu Liu",
+          "position": 6,
+          "researcherId": null
+        },
+        {
+          "name": "Hongjie Guo",
+          "position": 7,
+          "researcherId": null
+        },
+        {
+          "name": "Chengjie Xiong",
+          "position": 8,
+          "researcherId": null
+        },
+        {
+          "name": "Yangtao Xue",
+          "position": 9,
+          "researcherId": null
+        },
+        {
+          "name": "Xiaoguang Li",
+          "position": 10,
+          "researcherId": null
+        },
+        {
+          "name": "Yuanming Li",
+          "position": 11,
+          "researcherId": null
+        },
+        {
+          "name": "Yaping Gao",
+          "position": 12,
+          "researcherId": null
+        },
+        {
+          "name": "Mengyu Hong",
+          "position": 13,
+          "researcherId": null
+        },
+        {
+          "name": "Junjie Xu",
+          "position": 14,
+          "researcherId": null
+        },
+        {
+          "name": "Shanwen Chen",
+          "position": 15,
+          "researcherId": null
+        },
+        {
+          "name": "Pengyuan Wang",
+          "position": 16,
+          "researcherId": null
+        }
+      ],
+      "contribution": {
+        "note": "具体贡献及通讯/共同贡献标记待核；不由位次推断贡献。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2026-07-09",
+      "datePrecision": "day",
+      "doi": "10.1038/s41467-026-74411-3",
+      "id": "pub_sha_cancer_transcriptomic",
+      "paradigms": [
+        "system"
+      ],
+      "publicationStatus": "published",
+      "publicationType": "journal",
+      "questionId": null,
+      "questionStatus": "pending_evidence",
+      "readDepth": "metadata",
+      "researcherIds": [
+        "r_lei_sha"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "kind": "publisher",
+          "label": "Paper record",
+          "url": "https://www.nature.com/articles/s41467-026-74411-3"
+        }
+      ],
+      "summaryBasis": "metadata",
+      "themes": [
+        "ml"
+      ],
+      "title": "Decoding cancer circulating transcriptomic signatures with language models",
+      "url": "https://www.nature.com/articles/s41467-026-74411-3",
+      "venue": "Nature Communications",
+      "verifiedAt": "2026-09-07",
+      "versions": [],
+      "year": 2026
     }
   ],
   "paradigms": [
@@ -38558,8 +38930,8 @@
   "publicCurationNote": "公开研究资料快照。主题、研究问题与研究线为编辑归纳，不代表学者本人陈述或机构背书。",
   "publicRelease": {
     "channel": "stable",
-    "snapshotDate": "2026-08-31",
-    "version": "3.3.0"
+    "snapshotDate": "2026-09-07",
+    "version": "3.3.1"
   },
   "publicationPolicy": {
     "authorshipNote": "署名位次不等于贡献排名；通讯作者、共同贡献和具体分工只按原文证据标注。",
@@ -38573,15 +38945,15 @@
     "versionNote": "同一研究的预印本与发表版本分开保留证据；摘要来源可能与主书目版本不同。"
   },
   "publicationStats": {
-    "abstracts": 363,
+    "abstracts": 365,
     "fullTexts": 4,
     "outsideWindow": 6,
-    "papers": 375,
-    "recentPapers": 369,
-    "researchers": 20,
+    "papers": 378,
+    "recentPapers": 372,
+    "researchers": 21,
     "reviewedSources": 12,
-    "verifiedBylines": 374,
-    "withPapers": 20
+    "verifiedBylines": 377,
+    "withPapers": 21
   },
   "questionClusters": [
     {
@@ -40572,7 +40944,8 @@
         "pub_difan_2026_toward_native_multimodal_modeling_a_roadmap",
         "pub_difan_2025_parallelized_autoregressive_visual_generation",
         "pub_difan_2025_self_contradiction_as_self_improvement_mitigatin",
-        "pub_difan_2025_speculative_jacobi_denoising_decoding_for_accele"
+        "pub_difan_2025_speculative_jacobi_denoising_decoding_for_accele",
+        "pub_sha_cmrag"
       ],
       "question": "如何对齐和融合不同模态的信息来完成学习任务？",
       "questionIds": [
@@ -40586,13 +40959,15 @@
         "q_pub_difan_2026_toward_native_multimodal_modeling_a_roadmap",
         "q_pub_difan_2025_parallelized_autoregressive_visual_generation",
         "q_pub_difan_2025_self_contradiction_as_self_improvement_mitigatin",
-        "q_pub_difan_2025_speculative_jacobi_denoising_decoding_for_accele"
+        "q_pub_difan_2025_speculative_jacobi_denoising_decoding_for_accele",
+        "q_pub_sha_cmrag"
       ],
       "researcherIds": [
         "r_chao",
-        "r_difan"
+        "r_difan",
+        "r_lei_sha"
       ],
-      "reviewedAt": "2026-08-31",
+      "reviewedAt": "2026-09-08",
       "themes": [
         "decision",
         "digital",
@@ -40610,7 +40985,9 @@
         "pub_chao_2026_videorag_retrieval_augmented_generation_with_ext",
         "pub_chao_2025_lightrag_simple_and_fast_retrieval_augmented_gen",
         "pub_chao_2025_minirag_towards_extremely_simple_retrieval_augme",
-        "pub_chao_2025_rag_anything_all_in_one_rag_framework"
+        "pub_chao_2025_rag_anything_all_in_one_rag_framework",
+        "pub_sha_cmrag",
+        "pub_sha_multiview_rag"
       ],
       "question": "如何组织和检索外部知识，使生成系统能利用相关且可追溯的证据？",
       "questionIds": [
@@ -40618,12 +40995,15 @@
         "q_pub_chao_2026_videorag_retrieval_augmented_generation_with_ext",
         "q_pub_chao_2025_lightrag_simple_and_fast_retrieval_augmented_gen",
         "q_pub_chao_2025_minirag_towards_extremely_simple_retrieval_augme",
-        "q_pub_chao_2025_rag_anything_all_in_one_rag_framework"
+        "q_pub_chao_2025_rag_anything_all_in_one_rag_framework",
+        "q_pub_sha_cmrag",
+        "q_pub_sha_multiview_rag"
       ],
       "researcherIds": [
-        "r_chao"
+        "r_chao",
+        "r_lei_sha"
       ],
-      "reviewedAt": "2026-08-31",
+      "reviewedAt": "2026-09-08",
       "themes": [
         "digital",
         "ml"
@@ -40911,7 +41291,7 @@
     }
   ],
   "questionCoverage": {
-    "awaitingEvidence": 12,
+    "awaitingEvidence": 13,
     "awaitingExtraction": 0,
     "byTheme": [
       {
@@ -40980,24 +41360,24 @@
         "unclustered": 0
       },
       {
-        "awaitingEvidence": 2,
+        "awaitingEvidence": 3,
         "awaitingExtraction": 0,
-        "clustered": 216,
+        "clustered": 218,
         "clusters": 37,
-        "extracted": 216,
+        "extracted": 218,
         "multiPaperClusters": 31,
-        "papers": 218,
+        "papers": 221,
         "singlePaperClusters": 6,
         "staleEvidence": 0,
         "themeId": "ml",
         "unclustered": 0
       }
     ],
-    "clustered": 363,
+    "clustered": 365,
     "clusters": 50,
-    "extracted": 363,
+    "extracted": 365,
     "multiPaperClusters": 43,
-    "papers": 375,
+    "papers": 378,
     "singlePaperClusters": 7,
     "staleEvidence": 0,
     "unclustered": 0
@@ -49591,6 +49971,53 @@
       ],
       "reviewedAt": "2026-08-31",
       "text": "本地性别失衡如何通过风险偏好渠道关联公司风险承担和融资条件？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_rag_knowledge",
+        "qc_multimodal_learning"
+      ],
+      "evidence": {
+        "digest": "3fcb7cbf143ce1642255272e439a2657404dfc95cf6aa6706f778e4f9fcb2aa4",
+        "excerpt": "CMRAG 把文本与图像映射到共享检索空间，融合跨模态信号用于视觉文档问答。实验包括金融报告和金融幻灯片基准；这属于金融文档应用，不是金融定价或风险机制研究。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-09-07",
+          "kind": "abstract_summary",
+          "label": "已有摘要概览所列来源",
+          "url": "https://arxiv.org/abs/2509.02123"
+        }
+      },
+      "id": "q_pub_sha_cmrag",
+      "paperIds": [
+        "pub_sha_cmrag"
+      ],
+      "reviewedAt": "2026-09-08",
+      "text": "如何融合文本与图像证据，提高视觉文档的检索与问答质量？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_rag_knowledge"
+      ],
+      "evidence": {
+        "digest": "e64865dd608af6fbf4d4d6a62e7f92dbfcc5687c35db9e827dd890c46c30ebac",
+        "excerpt": "MVRAG 通过面向不同领域视角的意图感知查询重写，改善知识密集领域的检索。实验涉及法律和医疗案例检索；尚未验证金融应用。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-09-07",
+          "kind": "abstract_summary",
+          "label": "已有摘要概览所列来源",
+          "url": "https://arxiv.org/abs/2404.12879"
+        }
+      },
+      "id": "q_pub_sha_multiview_rag",
+      "paperIds": [
+        "pub_sha_multiview_rag"
+      ],
+      "reviewedAt": "2026-09-08",
+      "text": "如何利用领域的不同知识视角改善知识密集文档检索？"
     }
   ],
   "researchers": [
@@ -51709,6 +52136,78 @@
       ],
       "verification": "verified",
       "verifiedAt": "2026-08-31"
+    },
+    {
+      "department": "人工智能学院",
+      "homepage": "https://shalei120.github.io/",
+      "id": "r_lei_sha",
+      "institution": "Beihang University",
+      "institutionFull": "北京航空航天大学",
+      "name": "Lei Sha / 沙磊",
+      "nameVariants": [],
+      "position": "教授、博士生导师",
+      "publicationCoverage": {
+        "abstractCount": 2,
+        "authorVerifiedCount": 3,
+        "boundaryDateCount": 0,
+        "checkedAt": "2026-09-07",
+        "collectedCount": 3,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [
+          "pub_sha_cmrag",
+          "pub_sha_multiview_rag",
+          "pub_sha_cancer_transcriptomic"
+        ],
+        "recentCount": 3,
+        "sourcesChecked": [
+          {
+            "checkedAt": "2026-09-07",
+            "kind": "faculty_page",
+            "label": "Lei Sha selected publications",
+            "status": "checked",
+            "url": "https://shalei120.github.io/"
+          }
+        ],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "kind": "official",
+          "label": "北航人工智能学院官方简介",
+          "url": "https://iai.buaa.edu.cn/info/1013/1853.htm"
+        },
+        {
+          "kind": "official",
+          "label": "北航英文教师主页：Apple Siri 任职",
+          "url": "https://teacher.buaa.edu.cn/shalei/en/index.htm"
+        },
+        {
+          "kind": "homepage",
+          "label": "个人主页与 Scholar 身份关联",
+          "url": "https://shalei120.github.io/"
+        }
+      ],
+      "summary": "研究主题：Trustworthy LLMs、NLP / RAG、AI for Science。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "ml"
+      ],
+      "topics": [
+        "Trustworthy LLMs",
+        "NLP / RAG",
+        "AI for Science"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-07"
     }
   ],
   "schemaVersion": 3,
@@ -51744,5 +52243,5 @@
       "name": "ML Theory & Optimization"
     }
   ],
-  "updatedAt": "2026-08-31"
+  "updatedAt": "2026-09-07"
 }
