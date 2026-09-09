@@ -13,11 +13,39 @@ const runtime = {mode:meta('ri-mode') === 'public' ? 'public' : 'local', version
 const isPublic = () => runtime.mode === 'public';
 const optionalArray = value => Array.isArray(value) ? value : [];
 const emptyWorkspace = () => ({schemaVersion:1,revision:0,updatedAt:null,researcherNotes:{},paperNotes:{},ideas:[],customResearchers:[]});
+// Personal bookmarks are browser-only, separate from the public catalog and local notes.
+const favoriteKey = `ri:advisor-favorites:v1:${(globalThis.location?.pathname || '/').replace(/index\.html$/, '')}`;
+function readFavorites() {
+  const raw = JSON.parse(localStorage.getItem(favoriteKey) || '[]');
+  if(!Array.isArray(raw) || raw.some(id => typeof id !== 'string')) throw new Error('收藏数据格式异常');
+  return new Set(raw);
+}
+let favorites = new Set();
+let favoritesError = '';
+try { favorites = readFavorites(); } catch(err) { favoritesError = err.message; }
+const favoriteButton = id => `<button type="button" data-action="favorite" data-id="${e(id)}" aria-pressed="${favorites.has(id)}">${favorites.has(id)?'★ 已收藏':'☆ 收藏导师'}</button>`;
+function toggleFavorite(id) {
+  if(!researcher(id)) return;
+  try {
+    const next = readFavorites();
+    const adding = !next.has(id);
+    if(adding) next.add(id); else next.delete(id);
+    localStorage.setItem(favoriteKey, JSON.stringify([...next]));
+    favorites = next; favoritesError = '';
+    // Preserve unsaved note inputs and the reader's scroll position.
+    document.querySelectorAll('[data-action="favorite"]').forEach(b => {
+      b.setAttribute('aria-pressed', String(favorites.has(b.dataset.id)));
+      b.textContent = favorites.has(b.dataset.id) ? '★ 已收藏' : '☆ 收藏导师';
+    });
+    if(view.page === 'candidates' && view.favorite === 'saved') render(false);
+    notify(adding ? '已收藏，可在学者目录选择“只看收藏”，方便之后准备联系。' : '已取消收藏。');
+  } catch(err) { notify(`收藏未保存：${err.message}。请检查浏览器是否允许本地存储。`, true); }
+}
 const publicDisabledActions = new Set(['ideas','add-candidate','edit-candidate','new-idea','edit-idea','brief','download-brief','export','import','confirm-import']);
 let catalog, workspace, busy = false, pendingImport = null, briefText = '', noticeTimer, atlasController, atlasModel, paperOrigin = null;
 const atlasState = {selected:null,camera:null,overview:true,expanded:false};
 const dirty = new Set();
-let view = {page:'themes', theme:null, atlasTheme:null, type:null, id:null, search:'', institution:'all', verification:'all', stage:'all', scholarTab:'publications', candidateTab:'profiles', themeLens:'cluster', themeEntity:'all', authorContext:null, ...PublicationModel.defaults};
+let view = {page:'themes', theme:null, atlasTheme:null, type:null, id:null, search:'', institution:'all', verification:'all', stage:'all', scholarTab:'publications', candidateTab:'profiles', favorite:'all', themeLens:'cluster', themeEntity:'all', authorContext:null, ...PublicationModel.defaults};
 function normalizeCatalog(raw = {}) {
   const rawQuestions = optionalArray(raw.questions);
   const questions = rawQuestions.map(q => {
@@ -126,7 +154,7 @@ function render(scroll=true) {
 function personCard(r) {
   const c=r.publicationCoverage, n=researcherNote(r.id);
   const meta = isPublic() ? (c?.status==='reviewed_sources'?'来源列表已核对':'目录仍有缺口') : `${stages[n.stage]} · ${c?.status==='reviewed_sources'?'来源列表已核对':'目录仍有缺口'}`;
-  return `<article class="card"><div class="badges">${badge(r.institution||'机构待补充')}${badge(verified(r)?'官网身份已核实':'候选 · 待核实',verified(r)?'blue':'pending')}</div><h3>${button(r.name,'researcher',r.id)}</h3><p>${e((r.topics||[]).join(' · '))}</p><div class="candidate-coverage"><span>近 ${c?.windowYears||3} 年 · <strong>${c?.collectedCount||0}</strong> 篇收录</span><span>作者已核 ${c?.authorVerifiedCount||0} 篇</span></div><div class="card-bottom"><span class="meta">${e(meta)}</span>${button('查看论文 →','researcher',r.id)}</div></article>`;
+  return `<article class="card"><div class="badges">${badge(r.institution||'机构待补充')}${badge(verified(r)?'官网身份已核实':'候选 · 待核实',verified(r)?'blue':'pending')}</div><h3>${button(r.name,'researcher',r.id)}</h3><p>${e((r.topics||[]).join(' · '))}</p><div class="candidate-coverage"><span>近 ${c?.windowYears||3} 年 · <strong>${c?.collectedCount||0}</strong> 篇收录</span><span>作者已核 ${c?.authorVerifiedCount||0} 篇</span></div><div class="card-bottom"><span class="meta">${e(meta)}</span>${favoriteButton(r.id)}${button('查看论文 →','researcher',r.id)}</div></article>`;
 }
 function paperButton(label,action,p,contextId='',cls='') {
   return `<button class="${cls}" data-action="${action}" data-id="${e(p.id)}" data-scholar="${e(contextId||'')}">${e(label)}</button>`;
@@ -288,11 +316,11 @@ function renderTheme() {
   return crumbs([e(t.name)])+intro('02 / THEME WORKSPACE',t.name,'从主题问题簇、学者、范式或研究线，浏览同一组论文。'+t.description)+themeCoverageBar(ps,clusters)+`<div class="theme-lenses">${viewTabs(Object.entries(lenses).map(([id,l])=>[id,`${l.label} · ${l.items.length}`]),view.themeLens,'theme-lens','主题的四种浏览角度')}<div class="lens-selection">${filter('按'+lens.label+'查看','themeEntity',{all:'全部'+lens.label,...options},view.themeEntity)}${item?button('打开'+lens.label+'详情 →',view.themeLens,item.id):'<p>这些是并列的阅读入口，不需要按固定顺序探索。</p>'}</div>${item&&(item.question||item.summary||item.description)?`<p class="lens-description">${e(item.question||item.summary||item.description)}</p>`:''}${context&&!scoped.length?'<p class="evidence-note">这位学者是主题候选，但已收录论文尚未关联到本主题；可打开学者详情查看全部目录。</p>':''}${clusterCards}</div>${renderLibrary(scoped,{contextId:context,showTheme:false,showResearcher:!context,showQuestionFilter:true,clusters})}<p class="library-boundary">主题问题簇是编辑归纳，不是已证明的新研究空白。当前 ${ps.length} 篇关联论文不代表整个领域；同一主题也不代表学者之间存在合作。</p>`;
 }
 function renderCandidates() {
-  const rs=allResearchers().filter(r=>(view.institution==='all'||r.institution===view.institution)&&(view.verification==='all'||(view.verification==='verified'?verified(r):!verified(r)))&&(view.stage==='all'||researcherNote(r.id).stage===view.stage)).sort((a,b)=>Number(verified(b))-Number(verified(a)));
+  const rs=allResearchers().filter(r=>(view.favorite!=='saved'||favorites.has(r.id))&&(view.institution==='all'||r.institution===view.institution)&&(view.verification==='all'||(view.verification==='verified'?verified(r):!verified(r)))&&(view.stage==='all'||researcherNote(r.id).stage===view.stage)).sort((a,b)=>Number(verified(b))-Number(verified(a)));
   const schools={all:'全部学校',...Object.fromEntries([...new Set(allResearchers().map(r=>r.institution).filter(Boolean))].sort().map(s=>[s,s]))};
   const table=`<div class="coverage-table-wrap"><table class="coverage-table"><caption class="sr-only">每位候选学者的近年论文整理进度</caption><thead><tr><th scope="col">学者</th><th scope="col">收录范围</th><th scope="col">论文</th><th scope="col">作者已核</th><th scope="col">内容解读</th><th scope="col">检索状态</th></tr></thead><tbody>${rs.map(r=>{const c=r.publicationCoverage;return `<tr><th scope="row">${button(r.name,'researcher',r.id)}<small>${e(r.institution)}</small></th><td>近 ${c?.windowYears||3} 年<small>${e(c?.windowStart||'待检查')}</small></td><td>${c?.collectedCount||0}</td><td>${c?.authorVerifiedCount||0} / ${c?.collectedCount||0}</td><td>${c?.abstractCount||0} / ${c?.collectedCount||0}</td><td>${badge(c?.status==='reviewed_sources'?'来源列表已核对':'仍有待补项',c?.status==='reviewed_sources'?'blue':'pending')}<small>${e(c?.checkedAt||'未检查')}</small></td></tr>`;}).join('')}</tbody></table></div>`;
   const addAction = isPublic() ? '' : button('＋ 添加候选导师','add-candidate','','primary');
-  return intro(isPublic()?'SCHOLAR DIRECTORY':'CANDIDATE POOL',isPublic()?'沿着论文，了解学者的研究。':'把名单，变成有依据的选择。','身份核验、论文收录、作者核验与内容解读分别管理；不据此给学者排名。')+`<div class="actions">${addAction}<span class="count">当前 ${rs.length} / ${allResearchers().length} 位</span></div>${viewTabs([['profiles',isPublic()?'学者画像':'候选画像'],['coverage','整理进度']],view.candidateTab,'candidate-tab',isPublic()?'学者目录视图':'候选池视图')}<div class="filters">${filter('学校','institution',schools,view.institution)}${filter('身份资料','verification',{all:'全部资料',verified:'官网已核实',pending:'待核实'},view.verification)}${isPublic()?'':filter('我的阶段','stage',{all:'全部阶段',...stages},view.stage)}</div>${rs.length?(view.candidateTab==='coverage'?table:`<div class="grid candidate-grid">${rs.map(personCard).join('')}</div>`):empty('当前筛选没有结果','尝试更换学校或资料状态。')}<p class="library-boundary">“来源列表已核对”仅指已列来源，不代表没有遗漏。点开学者可查看来源、时间边界和具体缺口。</p>`;
+  return intro(isPublic()?'SCHOLAR DIRECTORY':'CANDIDATE POOL',isPublic()?'沿着论文，了解学者的研究。':'把名单，变成有依据的选择。','身份核验、论文收录、作者核验与内容解读分别管理；不据此给学者排名。')+`<div class="actions">${addAction}<span class="count">当前 ${rs.length} / ${allResearchers().length} 位</span></div>${viewTabs([['profiles',isPublic()?'学者画像':'候选画像'],['coverage','整理进度']],view.candidateTab,'candidate-tab',isPublic()?'学者目录视图':'候选池视图')}<p class="library-boundary">收藏用于标记之后考虑联系的导师，仅保存在当前浏览器；不跨设备同步，清除浏览器数据会丢失。${favoritesError?e(' 收藏暂不可读取：'+favoritesError):''}</p><div class="filters">${filter('收藏','favorite',{all:'全部导师',saved:'只看收藏'},view.favorite)}${filter('学校','institution',schools,view.institution)}${filter('身份资料','verification',{all:'全部资料',verified:'官网已核实',pending:'待核实'},view.verification)}${isPublic()?'':filter('我的阶段','stage',{all:'全部阶段',...stages},view.stage)}</div>${rs.length?(view.candidateTab==='coverage'?table:`<div class="grid candidate-grid">${rs.map(personCard).join('')}</div>`):empty('当前筛选没有结果','尝试更换学校或资料状态。')}<p class="library-boundary">“来源列表已核对”仅指已列来源，不代表没有遗漏。点开学者可查看来源、时间边界和具体缺口。</p>`;
 }
 function filter(label,name,options,current) {return `<label>${e(label)}<select data-filter="${name}" aria-label="${e(label)}">${optionHTML(options,current)}</select></label>`;}
 function renderFocus() {
@@ -323,7 +351,7 @@ function renderResearcher() {
   const ps=PublicationModel.recentPapers(r,catalog.papers), selected=selectedPapers(r.id), n=researcherNote(r.id), fit=r.fit;
   const tabs=[['publications',`近年全部收录 · ${ps.length}`],['selected',`重点阅读 · ${selected.length}`],['lines','研究脉络']];
   if(!isPublic()) tabs.push(['notes','我的记录']);
-  const header=crumbs([button(isPublic()?'学者目录':'导师候选池','candidates'),e(r.name)])+intro('03 / RESEARCHER FOCUS',r.name,`${r.institution} · ${r.department||'院系待核实'}`)+`<div class="scholar-meta">${badge(verified(r)?'官网身份已核实':'身份资料待核实',verified(r)?'blue':'pending')}${badge(r.position||'任职待核实')}${r.homepage?link('官方主页',r.homepage):''}</div>`+coverageSummary(r)+viewTabs(tabs,view.scholarTab,'scholar-tab','学者内容分区');
+  const header=crumbs([button(isPublic()?'学者目录':'导师候选池','candidates'),e(r.name)])+intro('03 / RESEARCHER FOCUS',r.name,`${r.institution} · ${r.department||'院系待核实'}`)+`<div class="scholar-meta">${favoriteButton(r.id)}${badge(verified(r)?'官网身份已核实':'身份资料待核实',verified(r)?'blue':'pending')}${badge(r.position||'任职待核实')}${r.homepage?link('官方主页',r.homepage):''}</div>`+coverageSummary(r)+viewTabs(tabs,view.scholarTab,'scholar-tab','学者内容分区');
   if(view.scholarTab==='publications')return header+renderLibrary(ps,{contextId:r.id,showResearcher:false});
   if(view.scholarTab==='selected')return header+`<p class="tab-explanation">按阅读建议排列，可能包含时间窗以外的经典选文。这不是完整发表列表。</p>`+paperList(selected,r.id);
   const sourcePanel=`<div class="panel"><h3>来源与待核实信息</h3>${sources(r.sources)}${isPublic()?'':`<div class="warning"><strong>招生状态：未核实</strong><br>${e(r.recruitment?.note||'具体年份、名额和资助需另行确认。')}</div>${r.questionsToVerify?.length?`<ul class="detail-list">${r.questionsToVerify.map(q=>`<li>${e(q)}</li>`).join('')}</ul>`:''}`}</div>`;
@@ -435,7 +463,8 @@ document.addEventListener('click',event=>{
   const b=event.target.closest('[data-action]');if(!b)return;const action=b.dataset.action,id=b.dataset.id;
   if(isPublic() && publicDisabledActions.has(action)){notify('公开静态版只读；个人记录、导入导出和联系准备单保留在本地开发版。',true);return;}
   if(['themes','candidates','reading','ideas'].includes(action)){navigate({page:action,theme:null,institution:'all',verification:'all',stage:'all',...PublicationModel.defaults});return;}
-  if(action==='theme')navigate({page:'theme',theme:id,atlasTheme:id});
+  if(action==='favorite')toggleFavorite(id);
+  else if(action==='theme')navigate({page:'theme',theme:id,atlasTheme:id});
   else if(['researcher','question','program','paradigm'].includes(action))navigate({page:'focus',type:action,id});
   else if(action==='cluster')navigate({page:'focus',type:'cluster',id,theme:view.page==='theme'?view.theme:null});
   else if(action==='paper'){
