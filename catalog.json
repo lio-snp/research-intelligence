@@ -38829,6 +38829,202 @@
       "verifiedAt": "2026-09-07",
       "versions": [],
       "year": 2026
+    },
+    {
+      "abstractAvailability": {
+        "reason": "内容依据所列来源整理；摘要概览与全文解读分别标注。",
+        "status": "available"
+      },
+      "abstractSummary": "用轻量校正模型改善 LLM 不确定性估计的指示性、平衡性与校准；金融外推未验证。",
+      "authorEvidence": {
+        "checkedAt": "2026-09-10",
+        "kind": "publisher",
+        "url": "https://aclanthology.org/2025.acl-long.1118.pdf"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Rui Li",
+        "Jing Long",
+        "Muge Qi",
+        "Heming Xia",
+        "Lei Sha",
+        "Peiyi Wang",
+        "Zhifang Sui"
+      ],
+      "authorships": [
+        {
+          "name": "Rui Li",
+          "position": 1,
+          "researcherId": null
+        },
+        {
+          "name": "Jing Long",
+          "position": 2,
+          "researcherId": null
+        },
+        {
+          "name": "Muge Qi",
+          "position": 3,
+          "researcherId": null
+        },
+        {
+          "name": "Heming Xia",
+          "position": 4,
+          "researcherId": null
+        },
+        {
+          "name": "Lei Sha",
+          "position": 5,
+          "researcherId": "r_lei_sha"
+        },
+        {
+          "name": "Peiyi Wang",
+          "position": 6,
+          "researcherId": null
+        },
+        {
+          "name": "Zhifang Sui",
+          "position": 7,
+          "researcherId": null
+        }
+      ],
+      "contribution": {
+        "note": "作者位次已核；具体贡献不由位次推断。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2025-07",
+      "datePrecision": "month",
+      "doi": "10.18653/v1/2025.acl-long.1118",
+      "id": "pub_sha_harmonized_uncertainty",
+      "paradigms": [
+        "system"
+      ],
+      "publicationStatus": "published",
+      "publicationType": "conference",
+      "questionId": "q_pub_sha_harmonized_uncertainty",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "如何让 LLM 的置信度与实际正确性一致？",
+      "researcherIds": [
+        "r_lei_sha"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "kind": "publisher",
+          "label": "ACL Anthology",
+          "url": "https://aclanthology.org/2025.acl-long.1118/"
+        },
+        {
+          "kind": "publisher",
+          "label": "ACL Anthology",
+          "url": "https://aclanthology.org/2025.acl-long.1118.pdf"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "ml"
+      ],
+      "title": "Towards Harmonized Uncertainty Estimation for Large Language Models",
+      "url": "https://aclanthology.org/2025.acl-long.1118/",
+      "venue": "ACL 2025 Long Papers",
+      "verifiedAt": "2026-09-10",
+      "versions": [],
+      "year": 2025
+    },
+    {
+      "abstractAvailability": {
+        "reason": "内容依据所列来源整理；摘要概览与全文解读分别标注。",
+        "status": "available"
+      },
+      "abstractSummary": "攻击者与生成器迭代对抗训练，提高对含噪声或伪造检索材料的问答鲁棒性；不是已验证的金融研究。",
+      "authorEvidence": {
+        "checkedAt": "2026-09-10",
+        "kind": "publisher",
+        "url": "https://aclanthology.org/2024.emnlp-main.610.pdf"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Junda Zhu",
+        "Lingyong Yan",
+        "Haibo Shi",
+        "Dawei Yin",
+        "Lei Sha"
+      ],
+      "authorships": [
+        {
+          "name": "Junda Zhu",
+          "position": 1,
+          "researcherId": null
+        },
+        {
+          "name": "Lingyong Yan",
+          "position": 2,
+          "researcherId": null
+        },
+        {
+          "name": "Haibo Shi",
+          "position": 3,
+          "researcherId": null
+        },
+        {
+          "name": "Dawei Yin",
+          "position": 4,
+          "researcherId": null
+        },
+        {
+          "name": "Lei Sha",
+          "position": 5,
+          "researcherId": "r_lei_sha"
+        }
+      ],
+      "contribution": {
+        "note": "作者位次已核；具体贡献不由位次推断。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2024-11",
+      "datePrecision": "month",
+      "doi": "10.18653/v1/2024.emnlp-main.610",
+      "id": "pub_sha_atm",
+      "paradigms": [
+        "system"
+      ],
+      "publicationStatus": "published",
+      "publicationType": "conference",
+      "questionId": "q_pub_sha_atm",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "如何减少误导性检索材料对生成答案的影响？",
+      "researcherIds": [
+        "r_lei_sha"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "kind": "publisher",
+          "label": "ACL Anthology",
+          "url": "https://aclanthology.org/2024.emnlp-main.610/"
+        },
+        {
+          "kind": "publisher",
+          "label": "ACL Anthology",
+          "url": "https://aclanthology.org/2024.emnlp-main.610.pdf"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "ml"
+      ],
+      "title": "ATM: Adversarial Tuning Multi-agent System Makes a Robust Retrieval-Augmented Generator",
+      "url": "https://aclanthology.org/2024.emnlp-main.610/",
+      "venue": "EMNLP 2024 Main",
+      "verifiedAt": "2026-09-10",
+      "versions": [],
+      "year": 2024
     }
   ],
   "paradigms": [
@@ -38930,8 +39126,8 @@
   "publicCurationNote": "公开研究资料快照。主题、研究问题与研究线为编辑归纳，不代表学者本人陈述或机构背书。",
   "publicRelease": {
     "channel": "stable",
-    "snapshotDate": "2026-09-07",
-    "version": "3.3.2"
+    "snapshotDate": "2026-09-09",
+    "version": "3.3.3"
   },
   "publicationPolicy": {
     "authorshipNote": "署名位次不等于贡献排名；通讯作者、共同贡献和具体分工只按原文证据标注。",
@@ -38945,14 +39141,14 @@
     "versionNote": "同一研究的预印本与发表版本分开保留证据；摘要来源可能与主书目版本不同。"
   },
   "publicationStats": {
-    "abstracts": 365,
+    "abstracts": 367,
     "fullTexts": 4,
     "outsideWindow": 6,
-    "papers": 378,
-    "recentPapers": 372,
+    "papers": 380,
+    "recentPapers": 374,
     "researchers": 21,
     "reviewedSources": 12,
-    "verifiedBylines": 377,
+    "verifiedBylines": 379,
     "withPapers": 21
   },
   "questionClusters": [
@@ -40987,7 +41183,8 @@
         "pub_chao_2025_minirag_towards_extremely_simple_retrieval_augme",
         "pub_chao_2025_rag_anything_all_in_one_rag_framework",
         "pub_sha_cmrag",
-        "pub_sha_multiview_rag"
+        "pub_sha_multiview_rag",
+        "pub_sha_atm"
       ],
       "question": "如何组织和检索外部知识，使生成系统能利用相关且可追溯的证据？",
       "questionIds": [
@@ -40997,13 +41194,14 @@
         "q_pub_chao_2025_minirag_towards_extremely_simple_retrieval_augme",
         "q_pub_chao_2025_rag_anything_all_in_one_rag_framework",
         "q_pub_sha_cmrag",
-        "q_pub_sha_multiview_rag"
+        "q_pub_sha_multiview_rag",
+        "q_pub_sha_atm"
       ],
       "researcherIds": [
         "r_chao",
         "r_lei_sha"
       ],
-      "reviewedAt": "2026-09-08",
+      "reviewedAt": "2026-09-10",
       "themes": [
         "digital",
         "ml"
@@ -41021,7 +41219,8 @@
         "pub_chao_2023_largest_a_benchmark_dataset_for_large_scale_traf",
         "pub_difan_2026_aesrm_improving_video_aesthetics_with_expert_lev",
         "pub_difan_2026_msavbench_towards_comprehensive_and_reliable_eva",
-        "pub_difan_2025_beyond_surface_structure_a_causal_assessment_of_"
+        "pub_difan_2025_beyond_surface_structure_a_causal_assessment_of_",
+        "pub_sha_harmonized_uncertainty"
       ],
       "question": "如何评价模型能力与可靠性，并识别和缓解系统性偏差？",
       "questionIds": [
@@ -41031,13 +41230,15 @@
         "q_pub_chao_2023_largest_a_benchmark_dataset_for_large_scale_traf",
         "q_pub_difan_2026_aesrm_improving_video_aesthetics_with_expert_lev",
         "q_pub_difan_2026_msavbench_towards_comprehensive_and_reliable_eva",
-        "q_pub_difan_2025_beyond_surface_structure_a_causal_assessment_of_"
+        "q_pub_difan_2025_beyond_surface_structure_a_causal_assessment_of_",
+        "q_pub_sha_harmonized_uncertainty"
       ],
       "researcherIds": [
         "r_chao",
-        "r_difan"
+        "r_difan",
+        "r_lei_sha"
       ],
-      "reviewedAt": "2026-08-31",
+      "reviewedAt": "2026-09-10",
       "themes": [
         "asset",
         "decision",
@@ -41362,22 +41563,22 @@
       {
         "awaitingEvidence": 3,
         "awaitingExtraction": 0,
-        "clustered": 218,
+        "clustered": 220,
         "clusters": 37,
-        "extracted": 218,
+        "extracted": 220,
         "multiPaperClusters": 31,
-        "papers": 221,
+        "papers": 223,
         "singlePaperClusters": 6,
         "staleEvidence": 0,
         "themeId": "ml",
         "unclustered": 0
       }
     ],
-    "clustered": 365,
+    "clustered": 367,
     "clusters": 50,
-    "extracted": 365,
+    "extracted": 367,
     "multiPaperClusters": 43,
-    "papers": 378,
+    "papers": 380,
     "singlePaperClusters": 7,
     "staleEvidence": 0,
     "unclustered": 0
@@ -50018,6 +50219,52 @@
       ],
       "reviewedAt": "2026-09-08",
       "text": "如何利用领域的不同知识视角改善知识密集文档检索？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_model_evaluation"
+      ],
+      "evidence": {
+        "digest": "56fb3cd5ed3a7bdab8701c53080dbb8091b6c39bfcfb5472c076a07414dc8cd8",
+        "excerpt": "用轻量校正模型改善 LLM 不确定性估计的指示性、平衡性与校准；金融外推未验证。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-09-10",
+          "kind": "abstract_summary",
+          "label": "已有摘要概览所列来源",
+          "url": "https://aclanthology.org/2025.acl-long.1118/"
+        }
+      },
+      "id": "q_pub_sha_harmonized_uncertainty",
+      "paperIds": [
+        "pub_sha_harmonized_uncertainty"
+      ],
+      "reviewedAt": "2026-09-10",
+      "text": "如何让 LLM 的置信度与实际正确性一致？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_rag_knowledge"
+      ],
+      "evidence": {
+        "digest": "b1237d290605072089cb1831821937dd69d7725f2072b0b7331f8c99b2c78ff8",
+        "excerpt": "攻击者与生成器迭代对抗训练，提高对含噪声或伪造检索材料的问答鲁棒性；不是已验证的金融研究。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-09-10",
+          "kind": "abstract_summary",
+          "label": "已有摘要概览所列来源",
+          "url": "https://aclanthology.org/2024.emnlp-main.610/"
+        }
+      },
+      "id": "q_pub_sha_atm",
+      "paperIds": [
+        "pub_sha_atm"
+      ],
+      "reviewedAt": "2026-09-10",
+      "text": "如何减少误导性检索材料对生成答案的影响？"
     }
   ],
   "researchers": [
@@ -52147,12 +52394,12 @@
       "nameVariants": [],
       "position": "教授、博士生导师",
       "publicationCoverage": {
-        "abstractCount": 2,
-        "authorVerifiedCount": 3,
+        "abstractCount": 4,
+        "authorVerifiedCount": 5,
         "boundaryDateCount": 0,
-        "checkedAt": "2026-09-07",
-        "collectedCount": 3,
-        "extended": true,
+        "checkedAt": "2026-09-10",
+        "collectedCount": 5,
+        "extended": false,
         "fullTextCount": 0,
         "gaps": [
           "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
@@ -52161,9 +52408,11 @@
         "paperIds": [
           "pub_sha_cmrag",
           "pub_sha_multiview_rag",
-          "pub_sha_cancer_transcriptomic"
+          "pub_sha_cancer_transcriptomic",
+          "pub_sha_harmonized_uncertainty",
+          "pub_sha_atm"
         ],
-        "recentCount": 3,
+        "recentCount": 5,
         "sourcesChecked": [
           {
             "checkedAt": "2026-09-07",
@@ -52175,10 +52424,10 @@
         ],
         "status": "partial",
         "threshold": 5,
-        "uncertainDateCount": 0,
+        "uncertainDateCount": 2,
         "windowEnd": "2026-08-31",
-        "windowStart": "2021-08-31",
-        "windowYears": 5
+        "windowStart": "2023-08-31",
+        "windowYears": 3
       },
       "sources": [
         {
@@ -52243,5 +52492,5 @@
       "name": "ML Theory & Optimization"
     }
   ],
-  "updatedAt": "2026-09-07"
+  "updatedAt": "2026-09-09"
 }
