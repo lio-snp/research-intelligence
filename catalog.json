@@ -39025,6 +39025,107 @@
       "verifiedAt": "2026-09-10",
       "versions": [],
       "year": 2024
+    },
+    {
+      "abstractAvailability": {
+        "reason": "内容依据所列来源整理；摘要概览与全文解读分别标注。",
+        "status": "available"
+      },
+      "abstractSummary": "VALG 将机器学习理论问题的表述、定理目标与证明组织为智能体工作流，结合多层验证、问题调整和证明依赖图。摘要报告五个 COLT 2026 开放问题中的九个子问题：两次运行得到内部定稿且符合原问题范围的定理候选，其余为受限方法、特殊情形或条件性结果；不能据此称已解决九个开放问题，金融应用未验证。",
+      "authorEvidence": {
+        "checkedAt": "2026-09-11",
+        "kind": "preprint",
+        "url": "https://arxiv.org/abs/2608.13060"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Dechen Zhang",
+        "Xuan Tang",
+        "Xinxiang Yin",
+        "Xingwu Chen",
+        "Jian Qian",
+        "Difan Zou"
+      ],
+      "authorships": [
+        {
+          "name": "Dechen Zhang",
+          "position": 1,
+          "researcherId": null
+        },
+        {
+          "name": "Xuan Tang",
+          "position": 2,
+          "researcherId": null
+        },
+        {
+          "name": "Xinxiang Yin",
+          "position": 3,
+          "researcherId": null
+        },
+        {
+          "name": "Xingwu Chen",
+          "position": 4,
+          "researcherId": null
+        },
+        {
+          "name": "Jian Qian",
+          "position": 5,
+          "researcherId": null
+        },
+        {
+          "name": "Difan Zou",
+          "position": 6,
+          "researcherId": "r_difan"
+        }
+      ],
+      "contribution": {
+        "note": "署名位次6/6；具体贡献与通讯作者未核，不由位次推断。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2026-08-13",
+      "datePrecision": "day",
+      "doi": "10.48550/arxiv.2608.13060",
+      "id": "pub_difan_valg",
+      "paradigms": [
+        "system"
+      ],
+      "publicationStatus": "preprint",
+      "publicationType": "preprint",
+      "questionId": "q_pub_difan_valg",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "如何组织并验证面向机器学习理论研究的智能体工作流，同时区分原问题解答与放宽条件后的结果？",
+      "researcherIds": [
+        "r_difan"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "kind": "preprint",
+          "label": "arXiv original record",
+          "url": "https://arxiv.org/abs/2608.13060"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "ml"
+      ],
+      "title": "VALG: An Agentic System for ML Theory Research",
+      "url": "https://arxiv.org/abs/2608.13060",
+      "venue": "arXiv",
+      "verifiedAt": "2026-09-11",
+      "versions": [
+        {
+          "authorEvidence": {},
+          "authors": [],
+          "date": "2026-08-13",
+          "sources": [],
+          "url": "https://arxiv.org/abs/2608.13060v1"
+        }
+      ],
+      "year": 2026
     }
   ],
   "paradigms": [
@@ -39126,8 +39227,8 @@
   "publicCurationNote": "公开研究资料快照。主题、研究问题与研究线为编辑归纳，不代表学者本人陈述或机构背书。",
   "publicRelease": {
     "channel": "stable",
-    "snapshotDate": "2026-09-09",
-    "version": "3.3.3"
+    "snapshotDate": "2026-09-10",
+    "version": "3.3.4"
   },
   "publicationPolicy": {
     "authorshipNote": "署名位次不等于贡献排名；通讯作者、共同贡献和具体分工只按原文证据标注。",
@@ -39141,14 +39242,14 @@
     "versionNote": "同一研究的预印本与发表版本分开保留证据；摘要来源可能与主书目版本不同。"
   },
   "publicationStats": {
-    "abstracts": 367,
+    "abstracts": 368,
     "fullTexts": 4,
     "outsideWindow": 6,
-    "papers": 380,
-    "recentPapers": 374,
+    "papers": 381,
+    "recentPapers": 375,
     "researchers": 21,
-    "reviewedSources": 12,
-    "verifiedBylines": 379,
+    "reviewedSources": 11,
+    "verifiedBylines": 380,
     "withPapers": 21
   },
   "questionClusters": [
@@ -40671,7 +40772,8 @@
         "pub_chao_2025_graphagent_agentic_graph_language_assistant",
         "pub_chao_2025_lightagent_mobile_agentic_foundation_models",
         "pub_difan_2025_swe_fixer_training_open_source_llms_for_effectiv",
-        "pub_difan_2024_a_human_like_reasoning_framework_for_multi_phase"
+        "pub_difan_2024_a_human_like_reasoning_framework_for_multi_phase",
+        "pub_difan_valg"
       ],
       "question": "如何让智能体可靠地规划任务、使用工具并完成交互式工作？",
       "questionIds": [
@@ -40687,13 +40789,14 @@
         "q_pub_chao_2025_graphagent_agentic_graph_language_assistant",
         "q_pub_chao_2025_lightagent_mobile_agentic_foundation_models",
         "q_pub_difan_2025_swe_fixer_training_open_source_llms_for_effectiv",
-        "q_pub_difan_2024_a_human_like_reasoning_framework_for_multi_phase"
+        "q_pub_difan_2024_a_human_like_reasoning_framework_for_multi_phase",
+        "q_pub_difan_valg"
       ],
       "researcherIds": [
         "r_chao",
         "r_difan"
       ],
-      "reviewedAt": "2026-08-31",
+      "reviewedAt": "2026-09-11",
       "themes": [
         "asset",
         "decision",
@@ -41563,22 +41666,22 @@
       {
         "awaitingEvidence": 3,
         "awaitingExtraction": 0,
-        "clustered": 220,
+        "clustered": 221,
         "clusters": 37,
-        "extracted": 220,
+        "extracted": 221,
         "multiPaperClusters": 31,
-        "papers": 223,
+        "papers": 224,
         "singlePaperClusters": 6,
         "staleEvidence": 0,
         "themeId": "ml",
         "unclustered": 0
       }
     ],
-    "clustered": 367,
+    "clustered": 368,
     "clusters": 50,
-    "extracted": 367,
+    "extracted": 368,
     "multiPaperClusters": 43,
-    "papers": 380,
+    "papers": 381,
     "singlePaperClusters": 7,
     "staleEvidence": 0,
     "unclustered": 0
@@ -50265,6 +50368,29 @@
       ],
       "reviewedAt": "2026-09-10",
       "text": "如何减少误导性检索材料对生成答案的影响？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_agent_planning_tools"
+      ],
+      "evidence": {
+        "digest": "86fc8f1dfb7c6f164f7061a57d8d4ad693d04361334c8468f096246e86a65cb6",
+        "excerpt": "VALG 将机器学习理论问题的表述、定理目标与证明组织为智能体工作流，结合多层验证、问题调整和证明依赖图。摘要报告五个 COLT 2026 开放问题中的九个子问题：两次运行得到内部定稿且符合原问题范围的定理候选，其余为受限方法、特殊情形或条件性结果；不能据此称已解决九个开放问题，金融应用未验证。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-09-11",
+          "kind": "abstract_summary",
+          "label": "已有摘要概览所列来源",
+          "url": "https://arxiv.org/abs/2608.13060"
+        }
+      },
+      "id": "q_pub_difan_valg",
+      "paperIds": [
+        "pub_difan_valg"
+      ],
+      "reviewedAt": "2026-09-11",
+      "text": "如何组织并验证面向机器学习理论研究的智能体工作流，同时区分原问题解答与放宽条件后的结果？"
     }
   ],
   "researchers": [
@@ -50278,11 +50404,11 @@
       "nameVariants": [],
       "position": "Assistant Professor",
       "publicationCoverage": {
-        "abstractCount": 84,
-        "authorVerifiedCount": 87,
+        "abstractCount": 85,
+        "authorVerifiedCount": 88,
         "boundaryDateCount": 29,
         "checkedAt": "2026-08-31",
-        "collectedCount": 87,
+        "collectedCount": 88,
         "extended": false,
         "fullTextCount": 0,
         "gaps": [
@@ -50376,9 +50502,10 @@
           "pub_difan_2023_the_benefits_of_mixup_for_feature_learning",
           "pub_difan_2023_the_implicit_bias_of_batch_normalization_in_line",
           "pub_difan_2023_towards_robust_graph_incremental_learning_on_evo",
-          "pub_difan_2023_understanding_the_generalization_of_adam_in_lear"
+          "pub_difan_2023_understanding_the_generalization_of_adam_in_lear",
+          "pub_difan_valg"
         ],
-        "recentCount": 87,
+        "recentCount": 88,
         "sourcesChecked": [
           {
             "checkedAt": "2026-08-31",
@@ -50395,7 +50522,7 @@
             "url": "https://dblp.org/pid/161/8923.html"
           }
         ],
-        "status": "reviewed_sources",
+        "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 87,
         "windowEnd": "2026-08-31",
@@ -52492,5 +52619,5 @@
       "name": "ML Theory & Optimization"
     }
   ],
-  "updatedAt": "2026-09-09"
+  "updatedAt": "2026-09-10"
 }
