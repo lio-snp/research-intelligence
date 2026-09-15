@@ -39227,8 +39227,8 @@
   "publicCurationNote": "公开研究资料快照。主题、研究问题与研究线为编辑归纳，不代表学者本人陈述或机构背书。",
   "publicRelease": {
     "channel": "stable",
-    "snapshotDate": "2026-09-10",
-    "version": "3.3.4"
+    "snapshotDate": "2026-09-14",
+    "version": "3.3.5"
   },
   "publicationPolicy": {
     "authorshipNote": "署名位次不等于贡献排名；通讯作者、共同贡献和具体分工只按原文证据标注。",
@@ -39238,7 +39238,7 @@
     "extendedStart": "2021-08-31",
     "extendedYears": 5,
     "extensionThreshold": 5,
-    "snapshotDate": "2026-08-31",
+    "snapshotDate": "2026-09-14",
     "versionNote": "同一研究的预印本与发表版本分开保留证据；摘要来源可能与主书目版本不同。"
   },
   "publicationStats": {
@@ -39247,7 +39247,7 @@
     "outsideWindow": 6,
     "papers": 381,
     "recentPapers": 375,
-    "researchers": 21,
+    "researchers": 33,
     "reviewedSources": 11,
     "verifiedBylines": 380,
     "withPapers": 21
@@ -50396,6 +50396,7 @@
   "researchers": [
     {
       "department": "Department of Computer Science / Institute of Data Science",
+      "education": [],
       "homepage": "https://difanzou.github.io/",
       "id": "r_difan",
       "institution": "HKU",
@@ -50561,6 +50562,7 @@
     },
     {
       "department": "Department of Systems Engineering and Engineering Management",
+      "education": [],
       "homepage": "https://www1.se.cuhk.edu.hk/~xfgao/",
       "id": "r_gao",
       "institution": "CUHK",
@@ -50662,6 +50664,7 @@
     },
     {
       "department": "Department of Systems Engineering and Engineering Management",
+      "education": [],
       "homepage": "https://research.cuhk.edu.hk/en/persons/xuedong-he/",
       "id": "r_he",
       "institution": "CUHK",
@@ -50781,6 +50784,7 @@
     },
     {
       "department": "Department of Statistics & Actuarial Science",
+      "education": [],
       "homepage": "https://mazhuke.w3spaces.com/",
       "id": "r_ke",
       "institution": "HKU",
@@ -50864,6 +50868,7 @@
     },
     {
       "department": "Department of Computer Science / Institute of Data Science",
+      "education": [],
       "homepage": "https://sites.google.com/view/chaoh/home",
       "id": "r_chao",
       "institution": "HKU",
@@ -51032,6 +51037,7 @@
     },
     {
       "department": "Department of Information Systems, Business Statistics and Operations Management",
+      "education": [],
       "homepage": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=yanzhen-chen-imyanzhen",
       "id": "r_yanzhen",
       "institution": "HKUST",
@@ -51125,6 +51131,7 @@
     },
     {
       "department": "Department of Systems Engineering and Engineering Management",
+      "education": [],
       "homepage": "https://research.cuhk.edu.hk/en/persons/yanwei-jia/",
       "id": "r_jia",
       "institution": "CUHK",
@@ -51210,6 +51217,7 @@
     },
     {
       "department": "School of Management / Fudan International School of Finance",
+      "education": [],
       "homepage": "https://junye-li.github.io/",
       "id": "r_junye",
       "institution": "Fudan",
@@ -51311,6 +51319,7 @@
     },
     {
       "department": "HKU Business School, Economics and Finance",
+      "education": [],
       "homepage": "https://www.hkubs.hku.hk/sc/people/ye-luo/",
       "id": "r_ye",
       "institution": "HKU",
@@ -51408,6 +51417,7 @@
     },
     {
       "department": "Department of Information Systems, Business Statistics and Operations Management; Department of Finance",
+      "education": [],
       "homepage": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=yingying-li-yyli",
       "id": "r_yingying",
       "institution": "HKUST",
@@ -51503,6 +51513,7 @@
     },
     {
       "department": "Department of Systems Engineering and Engineering Management",
+      "education": [],
       "homepage": "https://research.cuhk.edu.hk/en/persons/lingfei-li/",
       "id": "r_lingfei",
       "institution": "CUHK",
@@ -51590,6 +51601,7 @@
     },
     {
       "department": "Department of Finance",
+      "education": [],
       "homepage": "https://www.bschool.cuhk.edu.hk/staff/li-gang/",
       "id": "r_gang",
       "institution": "CUHK",
@@ -51667,6 +51679,7 @@
     },
     {
       "department": "Department of Statistics & Actuarial Science",
+      "education": [],
       "homepage": "https://gdli-stat.github.io/",
       "id": "r_guodong",
       "institution": "HKU",
@@ -51762,6 +51775,7 @@
     },
     {
       "department": "HKU Business School, Finance",
+      "education": [],
       "homepage": "https://www.hkubs.hku.hk/people/yang-you/",
       "id": "r_yang",
       "institution": "HKU",
@@ -51862,6 +51876,7 @@
     },
     {
       "department": "Department of Finance",
+      "education": [],
       "homepage": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=zhanhui-chen-chenzhanhui",
       "id": "r_zhanhui",
       "institution": "HKUST",
@@ -51969,6 +51984,7 @@
     },
     {
       "department": "PBC School of Finance",
+      "education": [],
       "homepage": "https://eng.pbcsf.tsinghua.edu.cn/info/1084/2109.htm",
       "id": "r_clark",
       "institution": "Tsinghua",
@@ -52054,6 +52070,7 @@
     },
     {
       "department": "PBC School of Finance",
+      "education": [],
       "homepage": "https://eng.pbcsf.tsinghua.edu.cn/info/1084/2118.htm",
       "id": "r_lian",
       "institution": "Tsinghua",
@@ -52171,6 +52188,7 @@
     },
     {
       "department": "PBC School of Finance",
+      "education": [],
       "homepage": "https://sites.google.com/view/xiaoyanzhang/home",
       "id": "r_xiaoyan",
       "institution": "Tsinghua",
@@ -52296,6 +52314,7 @@
     },
     {
       "department": "National School of Development; Guanghua School of Management finance research network",
+      "education": [],
       "homepage": "https://www.hu-jiayin.com/",
       "id": "r_jiayin",
       "institution": "PKU",
@@ -52406,6 +52425,7 @@
     },
     {
       "department": "Shanghai Advanced Institute of Finance",
+      "education": [],
       "homepage": "https://en.saif.sjtu.edu.cn/faculty-research/hong-yurong",
       "id": "r_claire",
       "institution": "SJTU",
@@ -52513,6 +52533,7 @@
     },
     {
       "department": "人工智能学院",
+      "education": [],
       "homepage": "https://shalei120.github.io/",
       "id": "r_lei_sha",
       "institution": "Beihang University",
@@ -52584,6 +52605,846 @@
       ],
       "verification": "verified",
       "verifiedAt": "2026-09-07"
+    },
+    {
+      "department": "北京大学经济学院 金融学系",
+      "education": [
+        {
+          "degree": "2011-2015 西南财经大学 金融学学士",
+          "institution": "西南财经大学",
+          "institutionId": "swufe",
+          "sources": [
+            {
+              "checkedAt": "2026-09-13",
+              "kind": "official_profile",
+              "label": "李少然 · 官方资料",
+              "status": "checked",
+              "url": "https://econ.pku.edu.cn/szdw/zzjs/ybjs/sjrxx/50170econ356259.htm"
+            }
+          ],
+          "verification": "verified"
+        }
+      ],
+      "homepage": "https://econ.pku.edu.cn/szdw/zzjs/ybjs/sjrxx/50170econ356259.htm",
+      "id": "r_shaoran_li",
+      "institution": "PKU",
+      "institutionFull": "Peking University",
+      "name": "李少然 / Shaoran Li",
+      "nameVariants": [],
+      "position": "助理教授、博士生导师",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-13",
+          "kind": "official_profile",
+          "label": "李少然 · 官方资料",
+          "status": "checked",
+          "url": "https://econ.pku.edu.cn/szdw/zzjs/ybjs/sjrxx/50170econ356259.htm"
+        }
+      ],
+      "summary": "研究主题：金融计量、资产定价、投资组合、机器学习。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "finai",
+        "asset",
+        "ts"
+      ],
+      "topics": [
+        "金融计量",
+        "资产定价",
+        "投资组合",
+        "机器学习"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "department": "清华大学经济管理学院 会计系",
+      "education": [
+        {
+          "degree": "2012 西南财经大学学士",
+          "institution": "西南财经大学",
+          "institutionId": "swufe",
+          "sources": [
+            {
+              "checkedAt": "2026-09-13",
+              "kind": "official_profile",
+              "label": "清华经管2025–2026年册 · PDF第11页（印刷17–18页），原页视觉核验",
+              "status": "checked",
+              "url": "https://sem.tsinghua.edu.cn/2026xueyuanzhongwence.pdf"
+            }
+          ],
+          "verification": "verified"
+        }
+      ],
+      "homepage": "https://www.sem.tsinghua.edu.cn/info/1205/32029.htm",
+      "id": "r_cheng_yin",
+      "institution": "Tsinghua",
+      "institutionFull": "Tsinghua University",
+      "name": "尹程 / Cheng Yin",
+      "nameVariants": [],
+      "position": "助理教授",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-13",
+          "kind": "official_profile",
+          "label": "尹程 · 官方资料",
+          "status": "checked",
+          "url": "https://www.sem.tsinghua.edu.cn/info/1205/32029.htm"
+        },
+        {
+          "checkedAt": "2026-09-13",
+          "kind": "official_profile",
+          "label": "清华经管2025–2026年册 · PDF第11页（印刷17–18页），原页视觉核验",
+          "status": "checked",
+          "url": "https://sem.tsinghua.edu.cn/2026xueyuanzhongwence.pdf"
+        }
+      ],
+      "summary": "研究主题：会计信息系统、财务会计。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "digital"
+      ],
+      "topics": [
+        "会计信息系统",
+        "财务会计"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "department": "复旦大学经济学院",
+      "education": [
+        {
+          "degree": "2009-2013 西南财经大学 经济学学士",
+          "institution": "西南财经大学",
+          "institutionId": "swufe",
+          "sources": [
+            {
+              "checkedAt": "2026-09-13",
+              "kind": "official_profile",
+              "label": "胡博 · 官方资料",
+              "status": "checked",
+              "url": "https://econ.fudan.edu.cn/info/1028/14435.htm"
+            }
+          ],
+          "verification": "verified"
+        }
+      ],
+      "homepage": "https://econ.fudan.edu.cn/info/1028/14435.htm",
+      "id": "r_bo_hu",
+      "institution": "Fudan",
+      "institutionFull": "Fudan University",
+      "name": "胡博 / Bo Hu",
+      "nameVariants": [],
+      "position": "青年副研究员",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-13",
+          "kind": "official_profile",
+          "label": "胡博 · 官方资料",
+          "status": "checked",
+          "url": "https://econ.fudan.edu.cn/info/1028/14435.htm"
+        }
+      ],
+      "summary": "研究主题：平台经济、信贷与支付、搜寻匹配、经济理论。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "digital"
+      ],
+      "topics": [
+        "平台经济",
+        "信贷与支付",
+        "搜寻匹配",
+        "经济理论"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "department": "上海交通大学外国语学院",
+      "education": [
+        {
+          "degree": "2011-2015 西南财经大学统计学院 经济学学士",
+          "institution": "西南财经大学",
+          "institutionId": "swufe",
+          "sources": [
+            {
+              "checkedAt": "2026-09-13",
+              "kind": "official_profile",
+              "label": "段思宇 · 官方资料",
+              "status": "checked",
+              "url": "https://sfl.sjtu.edu.cn/faculty/44515"
+            }
+          ],
+          "verification": "verified"
+        }
+      ],
+      "homepage": "https://sfl.sjtu.edu.cn/faculty/44515",
+      "id": "r_siyu_duan",
+      "institution": "SJTU",
+      "institutionFull": "Shanghai Jiao Tong University",
+      "name": "段思宇 / Siyu Duan",
+      "nameVariants": [],
+      "position": "长聘教轨助理教授、硕士生导师",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-13",
+          "kind": "official_profile",
+          "label": "段思宇 · 官方资料",
+          "status": "checked",
+          "url": "https://sfl.sjtu.edu.cn/faculty/44515"
+        }
+      ],
+      "summary": "研究主题：自然语言处理、数字人文、AI与人文社科。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [],
+      "topics": [
+        "自然语言处理",
+        "数字人文",
+        "AI与人文社科"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "department": "上海交通大学安泰经济与管理学院 经济系",
+      "education": [
+        {
+          "degree": "2012-2015 西南财经大学 经济与管理研究院 经济学硕士",
+          "institution": "西南财经大学",
+          "institutionId": "swufe",
+          "sources": [
+            {
+              "checkedAt": "2026-09-13",
+              "kind": "official_profile",
+              "label": "郭士祺 · 官方资料",
+              "status": "checked",
+              "url": "https://acem.sjtu.edu.cn/faculty/guoshiqi.html"
+            }
+          ],
+          "verification": "verified"
+        }
+      ],
+      "homepage": "https://acem.sjtu.edu.cn/faculty/guoshiqi.html",
+      "id": "r_shiqi_guo",
+      "institution": "SJTU",
+      "institutionFull": "Shanghai Jiao Tong University",
+      "name": "郭士祺 / Shiqi Guo",
+      "nameVariants": [],
+      "position": "副教授",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-13",
+          "kind": "official_profile",
+          "label": "郭士祺 · 官方资料",
+          "status": "checked",
+          "url": "https://acem.sjtu.edu.cn/faculty/guoshiqi.html"
+        }
+      ],
+      "summary": "研究主题：应用微观经济学、发展经济学、因果识别。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "ts"
+      ],
+      "topics": [
+        "应用微观经济学",
+        "发展经济学",
+        "因果识别"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "department": "中国人民大学商学院 财务与金融系",
+      "education": [
+        {
+          "degree": "2012-2016 西南财经大学 金融学双语实验班 经济学学士",
+          "institution": "西南财经大学",
+          "institutionId": "swufe",
+          "sources": [
+            {
+              "checkedAt": "2026-09-13",
+              "kind": "official_profile",
+              "label": "闫景达 · 官方资料",
+              "status": "checked",
+              "url": "https://www.rmbs.ruc.edu.cn/szyky/sz/qzjs/yjd/2f912166f93f4eefa94356c14cd5991c.htm"
+            }
+          ],
+          "verification": "verified"
+        }
+      ],
+      "homepage": "https://www.rmbs.ruc.edu.cn/szyky/sz/qzjs/yjd/2f912166f93f4eefa94356c14cd5991c.htm",
+      "id": "r_jingda_yan",
+      "institution": "RUC",
+      "institutionFull": "Renmin University of China",
+      "name": "闫景达 / Jingda Yan",
+      "nameVariants": [],
+      "position": "助理教授",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-13",
+          "kind": "official_profile",
+          "label": "闫景达 · 官方资料",
+          "status": "checked",
+          "url": "https://www.rmbs.ruc.edu.cn/szyky/sz/qzjs/yjd/2f912166f93f4eefa94356c14cd5991c.htm"
+        }
+      ],
+      "summary": "研究主题：实证资产定价、大数据、机器学习、衍生品定价。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "finai",
+        "asset"
+      ],
+      "topics": [
+        "实证资产定价",
+        "大数据",
+        "机器学习",
+        "衍生品定价"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "department": "中国人民大学商学院 会计系",
+      "education": [
+        {
+          "degree": "2008-2012 西南财经大学 经济学学士",
+          "institution": "西南财经大学",
+          "institutionId": "swufe",
+          "sources": [
+            {
+              "checkedAt": "2026-09-13",
+              "kind": "official_profile",
+              "label": "程鑫 · 官方资料",
+              "status": "checked",
+              "url": "https://www.rmbs.ruc.edu.cn/szyky/sz/qzjs/cx/index.htm"
+            }
+          ],
+          "verification": "verified"
+        }
+      ],
+      "homepage": "https://www.rmbs.ruc.edu.cn/szyky/sz/qzjs/cx/index.htm",
+      "id": "r_xin_cheng",
+      "institution": "RUC",
+      "institutionFull": "Renmin University of China",
+      "name": "程鑫 / Xin Cheng",
+      "nameVariants": [],
+      "position": "助理教授",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-13",
+          "kind": "official_profile",
+          "label": "程鑫 · 官方资料",
+          "status": "checked",
+          "url": "https://www.rmbs.ruc.edu.cn/szyky/sz/qzjs/cx/index.htm"
+        }
+      ],
+      "summary": "研究主题：信息披露、公司财务、公司治理、市政债券。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "digital",
+        "asset"
+      ],
+      "topics": [
+        "信息披露",
+        "公司财务",
+        "公司治理",
+        "市政债券"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "department": "中国人民大学应用经济学院",
+      "education": [
+        {
+          "degree": "2013-2017 西南财经大学 本科",
+          "institution": "西南财经大学",
+          "institutionId": "swufe",
+          "sources": [
+            {
+              "checkedAt": "2026-09-13",
+              "kind": "official_profile",
+              "label": "吕媛 · 官方资料",
+              "status": "checked",
+              "url": "https://ae.ruc.edu.cn/szdw/qzjs/apypx/L/lyapy/index.htm"
+            }
+          ],
+          "verification": "verified"
+        }
+      ],
+      "homepage": "https://ae.ruc.edu.cn/szdw/qzjs/apypx/L/lyapy/index.htm",
+      "id": "r_yuan_lyu",
+      "institution": "RUC",
+      "institutionFull": "Renmin University of China",
+      "name": "吕媛 / Yuan Lyu",
+      "nameVariants": [],
+      "position": "讲师/助理教授",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-13",
+          "kind": "official_profile",
+          "label": "吕媛 · 官方资料",
+          "status": "checked",
+          "url": "https://ae.ruc.edu.cn/szdw/qzjs/apypx/L/lyapy/index.htm"
+        }
+      ],
+      "summary": "研究主题：产业组织、数据隐私、健康经济学、能源经济学。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "digital"
+      ],
+      "topics": [
+        "产业组织",
+        "数据隐私",
+        "健康经济学",
+        "能源经济学"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "department": "中国人民大学农业与农村发展学院",
+      "education": [
+        {
+          "degree": "2012 西南财经大学 数学与应用数学，理学与经济学双学士",
+          "institution": "西南财经大学",
+          "institutionId": "swufe",
+          "sources": [
+            {
+              "checkedAt": "2026-09-13",
+              "kind": "official_profile",
+              "label": "张君 · 官方资料",
+              "status": "checked",
+              "url": "https://www.sard.ruc.edu.cn/szll/zzjs/fjs/f0c8491cea4e427d868fa9580f952ed6.htm"
+            }
+          ],
+          "verification": "verified"
+        }
+      ],
+      "homepage": "https://www.sard.ruc.edu.cn/szll/zzjs/fjs/f0c8491cea4e427d868fa9580f952ed6.htm",
+      "id": "r_jun_zhang_ruc",
+      "institution": "RUC",
+      "institutionFull": "Renmin University of China",
+      "name": "张君 / Jun Zhang",
+      "nameVariants": [],
+      "position": "副教授",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-13",
+          "kind": "official_profile",
+          "label": "张君 · 官方资料",
+          "status": "checked",
+          "url": "https://www.sard.ruc.edu.cn/szll/zzjs/fjs/f0c8491cea4e427d868fa9580f952ed6.htm"
+        }
+      ],
+      "summary": "研究主题：产业组织、能源经济学、环境经济学。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [],
+      "topics": [
+        "产业组织",
+        "能源经济学",
+        "环境经济学"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "department": "HKU Business School; Accounting and Law",
+      "education": [
+        {
+          "degree": "B.B.A., Southwestern University of Finance and Economics",
+          "institution": "西南财经大学",
+          "institutionId": "swufe",
+          "sources": [
+            {
+              "checkedAt": "2026-09-13",
+              "kind": "official_profile",
+              "label": "Wenjie Xue · 官方资料",
+              "status": "checked",
+              "url": "https://www.hkubs.hku.hk/sc/people/wenjie-xue/"
+            }
+          ],
+          "verification": "verified"
+        }
+      ],
+      "homepage": "https://www.hkubs.hku.hk/sc/people/wenjie-xue/",
+      "id": "r_wenjie_xue",
+      "institution": "HKU",
+      "institutionFull": "The University of Hong Kong",
+      "name": "Wenjie Xue",
+      "nameVariants": [],
+      "position": "Assistant Professor",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-13",
+          "kind": "official_profile",
+          "label": "Wenjie Xue · 官方资料",
+          "status": "checked",
+          "url": "https://www.hkubs.hku.hk/sc/people/wenjie-xue/"
+        }
+      ],
+      "summary": "研究主题：数据与AI的信息经济学、信息披露、资本市场。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "digital",
+        "finai",
+        "asset"
+      ],
+      "topics": [
+        "数据与AI的信息经济学",
+        "信息披露",
+        "资本市场"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "department": "Lee Kong Chian School of Business; Marketing",
+      "education": [
+        {
+          "degree": "Bachelor of Economics (Finance), Southwestern University of Finance and Economics, 2013",
+          "institution": "西南财经大学",
+          "institutionId": "swufe",
+          "sources": [
+            {
+              "checkedAt": "2026-09-13",
+              "kind": "official_profile",
+              "label": "Yixing Chen · 官方资料",
+              "status": "checked",
+              "url": "https://faculty.smu.edu.sg/profile/chen-yixing-8586"
+            }
+          ],
+          "verification": "verified"
+        }
+      ],
+      "homepage": "https://faculty.smu.edu.sg/profile/chen-yixing-8586",
+      "id": "r_yixing_chen",
+      "institution": "SMU",
+      "institutionFull": "Singapore Management University",
+      "name": "Yixing Chen",
+      "nameVariants": [],
+      "position": "Associate Professor of Marketing",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-13",
+          "kind": "official_profile",
+          "label": "Yixing Chen · 官方资料",
+          "status": "checked",
+          "url": "https://faculty.smu.edu.sg/profile/chen-yixing-8586"
+        }
+      ],
+      "summary": "研究主题：数字平台、AI与计算社会科学、营销分析、医疗健康分析。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "digital"
+      ],
+      "topics": [
+        "数字平台",
+        "AI与计算社会科学",
+        "营销分析",
+        "医疗健康分析"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-13"
+    },
+    {
+      "department": "Economics · Research Staff",
+      "education": [
+        {
+          "degree": "BA in Management",
+          "institution": "西南财经大学",
+          "institutionId": "swufe",
+          "sources": [
+            {
+              "checkedAt": "2026-09-13",
+              "kind": "official_profile",
+              "label": "CUHK经济系 · Education",
+              "status": "checked",
+              "url": "https://www.econ.cuhk.edu.hk/en/about/people/faculty/research-staff/prof-huang-ji/"
+            }
+          ],
+          "verification": "verified"
+        }
+      ],
+      "homepage": "https://www.econ.cuhk.edu.hk/en/about/people/faculty/research-staff/prof-huang-ji/",
+      "id": "r_ji_huang",
+      "institution": "CUHK",
+      "name": "HUANG Ji",
+      "nameVariants": [],
+      "position": "Research Fellow",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-13",
+          "kind": "official_profile",
+          "label": "CUHK经济系 · 官方资料",
+          "status": "checked",
+          "url": "https://www.econ.cuhk.edu.hk/en/about/people/faculty/research-staff/prof-huang-ji/"
+        }
+      ],
+      "summary": "研究主题：银行、宏观金融。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "asset"
+      ],
+      "topics": [
+        "银行",
+        "宏观金融"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-13"
     }
   ],
   "schemaVersion": 3,
@@ -52619,5 +53480,5 @@
       "name": "ML Theory & Optimization"
     }
   ],
-  "updatedAt": "2026-09-10"
+  "updatedAt": "2026-09-14"
 }
