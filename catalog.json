@@ -39227,8 +39227,8 @@
   "publicCurationNote": "公开研究资料快照。主题、研究问题与研究线为编辑归纳，不代表学者本人陈述或机构背书。",
   "publicRelease": {
     "channel": "stable",
-    "snapshotDate": "2026-09-14",
-    "version": "3.3.5"
+    "snapshotDate": "2026-09-15",
+    "version": "3.3.6"
   },
   "publicationPolicy": {
     "authorshipNote": "署名位次不等于贡献排名；通讯作者、共同贡献和具体分工只按原文证据标注。",
@@ -39238,7 +39238,7 @@
     "extendedStart": "2021-08-31",
     "extendedYears": 5,
     "extensionThreshold": 5,
-    "snapshotDate": "2026-09-14",
+    "snapshotDate": "2026-09-15",
     "versionNote": "同一研究的预印本与发表版本分开保留证据；摘要来源可能与主书目版本不同。"
   },
   "publicationStats": {
@@ -53310,76 +53310,6 @@
       "verifiedAt": "2026-09-13"
     },
     {
-      "department": "Lee Kong Chian School of Business; Marketing",
-      "education": [
-        {
-          "degree": "Bachelor of Economics (Finance), Southwestern University of Finance and Economics, 2013",
-          "institution": "西南财经大学",
-          "institutionId": "swufe",
-          "sources": [
-            {
-              "checkedAt": "2026-09-13",
-              "kind": "official_profile",
-              "label": "Yixing Chen · 官方资料",
-              "status": "checked",
-              "url": "https://faculty.smu.edu.sg/profile/chen-yixing-8586"
-            }
-          ],
-          "verification": "verified"
-        }
-      ],
-      "homepage": "https://faculty.smu.edu.sg/profile/chen-yixing-8586",
-      "id": "r_yixing_chen",
-      "institution": "SMU",
-      "institutionFull": "Singapore Management University",
-      "name": "Yixing Chen",
-      "nameVariants": [],
-      "position": "Associate Professor of Marketing",
-      "publicationCoverage": {
-        "abstractCount": 0,
-        "authorVerifiedCount": 0,
-        "boundaryDateCount": 0,
-        "checkedAt": null,
-        "collectedCount": 0,
-        "extended": true,
-        "fullTextCount": 0,
-        "gaps": [
-          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
-        ],
-        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
-        "paperIds": [],
-        "recentCount": 0,
-        "sourcesChecked": [],
-        "status": "partial",
-        "threshold": 5,
-        "uncertainDateCount": 0,
-        "windowEnd": "2026-08-31",
-        "windowStart": "2021-08-31",
-        "windowYears": 5
-      },
-      "sources": [
-        {
-          "checkedAt": "2026-09-13",
-          "kind": "official_profile",
-          "label": "Yixing Chen · 官方资料",
-          "status": "checked",
-          "url": "https://faculty.smu.edu.sg/profile/chen-yixing-8586"
-        }
-      ],
-      "summary": "研究主题：数字平台、AI与计算社会科学、营销分析、医疗健康分析。主题关联为编辑归纳，请结合论文和官方来源判断。",
-      "themes": [
-        "digital"
-      ],
-      "topics": [
-        "数字平台",
-        "AI与计算社会科学",
-        "营销分析",
-        "医疗健康分析"
-      ],
-      "verification": "verified",
-      "verifiedAt": "2026-09-13"
-    },
-    {
       "department": "Economics · Research Staff",
       "education": [
         {
@@ -53445,6 +53375,79 @@
       ],
       "verification": "verified",
       "verifiedAt": "2026-09-13"
+    },
+    {
+      "department": "交叉信息研究院（IIIS）",
+      "education": [],
+      "homepage": "https://people.iiis.tsinghua.edu.cn/~jianli/index.htm",
+      "id": "r_jian_li",
+      "institution": "Tsinghua University",
+      "institutionFull": "清华大学",
+      "name": "李建 / Jian Li",
+      "nameVariants": [
+        "Jian Li",
+        "李建"
+      ],
+      "position": "教授",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-15",
+          "kind": "official_profile",
+          "label": "清华交叉信息研究院李建课题组",
+          "url": "https://iiis.tsinghua.edu.cn/kxyj/ktzjs/ljktz.htm"
+        },
+        {
+          "checkedAt": "2026-09-15",
+          "kind": "faculty_page",
+          "label": "李建个人主页",
+          "url": "https://people.iiis.tsinghua.edu.cn/~jianli/index.htm"
+        },
+        {
+          "checkedAt": "2026-09-15",
+          "kind": "faculty_page",
+          "label": "招生与实习招募说明（未注明适用年份）",
+          "url": "https://people.iiis.tsinghua.edu.cn/~jianli/recruit.htm"
+        }
+      ],
+      "summary": "研究主题：机器学习与金融、金融大模型、理论计算机科学、机器学习理论、随机与组合优化。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "finai",
+        "ml",
+        "decision",
+        "asset",
+        "ts"
+      ],
+      "topics": [
+        "机器学习与金融",
+        "金融大模型",
+        "理论计算机科学",
+        "机器学习理论",
+        "随机与组合优化"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-15"
     }
   ],
   "schemaVersion": 3,
@@ -53480,5 +53483,5 @@
       "name": "ML Theory & Optimization"
     }
   ],
-  "updatedAt": "2026-09-14"
+  "updatedAt": "2026-09-15"
 }

@@ -15,12 +15,12 @@
     "atlas-model.js": "1e81aecb7b7f350d2e0d4bd747c4fbe303a9812d3684b07525520a9ba8145fed",
     "atlas.css": "60fd8f36f45d4de1dd83d441e343e6cd212f704b4760821d05b44fdc4451a407",
     "atlas.js": "9da7c13ed17e1393f93b0f3859a2361097fec585bcb86f012103eb81def18565",
-    "catalog.json": "e57420eb1db49da25921233bafe0c685dfd8664abc04915fa1f79244087b0589",
-    "index.html": "5f9f0ea5322783343a0facdf3fbbcec2f1f242f874d98483a1b1d30e417377c9",
+    "catalog.json": "ec4899272072cffdd12adcca32724d4988cf5fd03564b880bb0c0ae71068353a",
+    "index.html": "e97a344f9a8b0af5da17843405fdcaf94151073e723a6141cdcdb7e8b9ecf92b",
     "publication-model.js": "9dc830314bc9b16cac37e72ba2923de8cd181a47033a8ab321781256fa837d6a"
   },
   "mode": "public",
   "schemaVersion": 1,
-  "snapshotDate": "2026-09-14",
-  "version": "3.3.5"
+  "snapshotDate": "2026-09-15",
+  "version": "3.3.6"
 }
