@@ -5,7 +5,7 @@
     "fullText": 4,
     "metadataOnly": 13,
     "papers": 381,
-    "researchers": 50,
+    "researchers": 71,
     "verifiedBylines": 380
   },
   "files": {
@@ -15,12 +15,12 @@
     "atlas-model.js": "1e81aecb7b7f350d2e0d4bd747c4fbe303a9812d3684b07525520a9ba8145fed",
     "atlas.css": "60fd8f36f45d4de1dd83d441e343e6cd212f704b4760821d05b44fdc4451a407",
     "atlas.js": "9da7c13ed17e1393f93b0f3859a2361097fec585bcb86f012103eb81def18565",
-    "catalog.json": "39d5313831896e1341d79659efec6217d09ef380f9c89cdf91ca324d94e51832",
-    "index.html": "97523b6dad6c837c7dde95c71a4f53b2a2a5600132673c67aa5346b431c38811",
+    "catalog.json": "a28b887b8661cf6788aff930bc231b699adc8167d9b2c2d6f2661dcaf6acd6ef",
+    "index.html": "361380ca39a556cd1065ee28aaafd76dc5b27d96c9ae087656496a5e6d25cf64",
     "publication-model.js": "9dc830314bc9b16cac37e72ba2923de8cd181a47033a8ab321781256fa837d6a"
   },
   "mode": "public",
   "schemaVersion": 1,
-  "snapshotDate": "2026-09-16",
-  "version": "3.3.7"
+  "snapshotDate": "2026-09-18",
+  "version": "3.3.8"
 }

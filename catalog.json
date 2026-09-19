@@ -39227,8 +39227,8 @@
   "publicCurationNote": "公开研究资料快照。主题、研究问题与研究线为编辑归纳，不代表学者本人陈述或机构背书。",
   "publicRelease": {
     "channel": "stable",
-    "snapshotDate": "2026-09-16",
-    "version": "3.3.7"
+    "snapshotDate": "2026-09-18",
+    "version": "3.3.8"
   },
   "publicationPolicy": {
     "authorshipNote": "署名位次不等于贡献排名；通讯作者、共同贡献和具体分工只按原文证据标注。",
@@ -39238,7 +39238,7 @@
     "extendedStart": "2021-08-31",
     "extendedYears": 5,
     "extensionThreshold": 5,
-    "snapshotDate": "2026-09-16",
+    "snapshotDate": "2026-09-18",
     "versionNote": "同一研究的预印本与发表版本分开保留证据；摘要来源可能与主书目版本不同。"
   },
   "publicationStats": {
@@ -39247,7 +39247,7 @@
     "outsideWindow": 6,
     "papers": 381,
     "recentPapers": 375,
-    "researchers": 50,
+    "researchers": 71,
     "reviewedSources": 11,
     "verifiedBylines": 380,
     "withPapers": 21
@@ -54502,6 +54502,1319 @@
       ],
       "verification": "verified",
       "verifiedAt": "2026-09-16"
+    },
+    {
+      "department": "School of Computing and Data Science / Department of Computer Science",
+      "education": [],
+      "homepage": "https://www.cs.hku.hk/index.php/people/academic-staff/liuqi",
+      "id": "r_qi_liu_hku",
+      "institution": "HKU",
+      "institutionFull": "The University of Hong Kong",
+      "name": "Qi Liu 刘琦",
+      "nameVariants": [],
+      "position": "Assistant Professor; Director of BASc(FinTech)",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-18",
+          "kind": "official_profile",
+          "label": "HKU Department of Computer Science profile",
+          "url": "https://www.cs.hku.hk/index.php/people/academic-staff/liuqi"
+        }
+      ],
+      "summary": "研究主题：Natural language processing、Machine learning、FinTech。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "finai",
+        "digital",
+        "ml"
+      ],
+      "topics": [
+        "Natural language processing",
+        "Machine learning",
+        "FinTech"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-18"
+    },
+    {
+      "department": "HKU Business School, Innovation and Information Management",
+      "education": [],
+      "homepage": "https://www.hkubs.hku.hk/people/weichen-wang/",
+      "id": "r_weichen_wang_hku",
+      "institution": "HKU",
+      "institutionFull": "The University of Hong Kong",
+      "name": "Weichen Wang 王维宸",
+      "nameVariants": [],
+      "position": "Assistant Professor",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-18",
+          "kind": "official_profile",
+          "label": "HKU Business School profile",
+          "url": "https://www.hkubs.hku.hk/people/weichen-wang/"
+        }
+      ],
+      "summary": "研究主题：Machine learning、deep learning、asset pricing、financial markets、factor structure、quantitative equity forecasting。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "finai",
+        "asset",
+        "digital"
+      ],
+      "topics": [
+        "Machine learning",
+        "deep learning",
+        "asset pricing",
+        "financial markets",
+        "factor structure",
+        "quantitative equity forecasting"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-18"
+    },
+    {
+      "department": "HKU Business School, Innovation and Information Management",
+      "education": [],
+      "homepage": "https://www.hkubs.hku.hk/sc/people/hailiang-chen/",
+      "id": "r_hailiang_chen_hku",
+      "institution": "HKU",
+      "institutionFull": "The University of Hong Kong",
+      "name": "Hailiang Chen 陈海亮",
+      "nameVariants": [],
+      "position": "Professor",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-18",
+          "kind": "official_profile",
+          "label": "HKU Business School profile",
+          "url": "https://www.hkubs.hku.hk/sc/people/hailiang-chen/"
+        }
+      ],
+      "summary": "研究主题：Financial text analysis、social media and finance、FinTech、artificial intelligence、analyst reports、online stock opinions。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "finai",
+        "digital",
+        "asset"
+      ],
+      "topics": [
+        "Financial text analysis",
+        "social media and finance",
+        "FinTech",
+        "artificial intelligence",
+        "analyst reports",
+        "online stock opinions"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-18"
+    },
+    {
+      "department": "HKU Business School, Finance",
+      "education": [],
+      "homepage": "https://www.hkubs.hku.hk/people/jiantao-huang/",
+      "id": "r_jiantao_huang_hku",
+      "institution": "HKU",
+      "institutionFull": "The University of Hong Kong",
+      "name": "Jiantao Huang 黄建涛",
+      "nameVariants": [],
+      "position": "Assistant Professor",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-18",
+          "kind": "official_profile",
+          "label": "HKU Business School profile",
+          "url": "https://www.hkubs.hku.hk/people/jiantao-huang/"
+        }
+      ],
+      "summary": "研究主题：Empirical asset pricing、cross-section of stock returns、factor models、Bayesian methods、high-dimensional modeling。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "asset",
+        "ts",
+        "ml"
+      ],
+      "topics": [
+        "Empirical asset pricing",
+        "cross-section of stock returns",
+        "factor models",
+        "Bayesian methods",
+        "high-dimensional modeling"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-18"
+    },
+    {
+      "department": "HKU Business School, Innovation and Information Management",
+      "education": [],
+      "homepage": "https://www.hkubs.hku.hk/sc/people/michael-c-l-chau/",
+      "id": "r_michael_chau_hku",
+      "institution": "HKU",
+      "institutionFull": "The University of Hong Kong",
+      "name": "Michael C. L. Chau 周志强",
+      "nameVariants": [],
+      "position": "Professor",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-18",
+          "kind": "official_profile",
+          "label": "HKU Business School profile",
+          "url": "https://www.hkubs.hku.hk/sc/people/michael-c-l-chau/"
+        }
+      ],
+      "summary": "研究主题：Artificial intelligence、web mining、social media analytics、business analytics、FinTech。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "digital",
+        "finai"
+      ],
+      "topics": [
+        "Artificial intelligence",
+        "web mining",
+        "social media analytics",
+        "business analytics",
+        "FinTech"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-18"
+    },
+    {
+      "department": "HKU Business School, Finance",
+      "education": [],
+      "homepage": "https://mba.hkubs.hku.hk/our-faculty/dr-matthias-buehlmaier/",
+      "id": "r_matthias_buehlmaier_hku",
+      "institution": "HKU",
+      "institutionFull": "The University of Hong Kong",
+      "name": "Matthias Buehlmaier",
+      "nameVariants": [],
+      "position": "Associate Professor of Teaching",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-18",
+          "kind": "official_profile",
+          "label": "HKU MBA faculty profile",
+          "url": "https://mba.hkubs.hku.hk/our-faculty/dr-matthias-buehlmaier/"
+        }
+      ],
+      "summary": "研究主题：Natural language processing in finance、machine learning、asset pricing、financial media、social media、company filings、教学岗 · 博导资格待核。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "finai",
+        "asset",
+        "digital"
+      ],
+      "topics": [
+        "Natural language processing in finance",
+        "machine learning",
+        "asset pricing",
+        "financial media",
+        "social media",
+        "company filings",
+        "教学岗 · 博导资格待核"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-18"
+    },
+    {
+      "department": "Department of Systems Engineering and Engineering Management",
+      "education": [],
+      "homepage": "https://www1.se.cuhk.edu.hk/~nchenweb/",
+      "id": "r_nan_chen_cuhk",
+      "institution": "CUHK",
+      "institutionFull": "The Chinese University of Hong Kong",
+      "name": "Nan Chen 陈南",
+      "nameVariants": [],
+      "position": "Professor; Department Vice-Chairman (Graduate)",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-18",
+          "kind": "official_profile",
+          "label": "CUHK-hosted personal homepage",
+          "url": "https://www1.se.cuhk.edu.hk/~nchenweb/"
+        },
+        {
+          "checkedAt": "2026-09-18",
+          "kind": "official_profile",
+          "label": "CUHK Research Portal profile",
+          "url": "https://research.cuhk.edu.hk/en/persons/nan-chen/"
+        },
+        {
+          "checkedAt": "2026-09-18",
+          "kind": "official_profile",
+          "label": "CUHK SEEM academic staff directory",
+          "url": "https://www.se.cuhk.edu.hk/people/academic-staff/"
+        }
+      ],
+      "summary": "研究主题：financial engineering、FinTech、quantitative finance、risk management、single-agent and multi-agent reinforcement learning、Monte Carlo simulation、decentralized finance、generative models in stochastic control。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "decision",
+        "finai",
+        "asset",
+        "ts"
+      ],
+      "topics": [
+        "financial engineering",
+        "FinTech",
+        "quantitative finance",
+        "risk management",
+        "single-agent and multi-agent reinforcement learning",
+        "Monte Carlo simulation",
+        "decentralized finance",
+        "generative models in stochastic control"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-18"
+    },
+    {
+      "department": "Department of Systems Engineering and Engineering Management",
+      "education": [],
+      "homepage": "https://www1.se.cuhk.edu.hk/~cyang/",
+      "id": "r_chen_yang_cuhk",
+      "institution": "CUHK",
+      "institutionFull": "The Chinese University of Hong Kong",
+      "name": "Chen Yang 杨晨",
+      "nameVariants": [],
+      "position": "Associate Professor",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-18",
+          "kind": "official_profile",
+          "label": "CUHK-hosted personal homepage",
+          "url": "https://www1.se.cuhk.edu.hk/~cyang/"
+        },
+        {
+          "checkedAt": "2026-09-18",
+          "kind": "official_profile",
+          "label": "CUHK SEEM academic staff directory",
+          "url": "https://www.se.cuhk.edu.hk/people/academic-staff/"
+        }
+      ],
+      "summary": "研究主题：portfolio selection、market frictions and microstructure、price impact、transaction costs、stochastic control、decentralized exchanges、stablecoins、DeFi lending、data asset pricing。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "asset",
+        "digital",
+        "decision"
+      ],
+      "topics": [
+        "portfolio selection",
+        "market frictions and microstructure",
+        "price impact",
+        "transaction costs",
+        "stochastic control",
+        "decentralized exchanges",
+        "stablecoins",
+        "DeFi lending",
+        "data asset pricing"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-18"
+    },
+    {
+      "department": "Department of Systems Engineering and Engineering Management",
+      "education": [],
+      "homepage": "https://sites.google.com/view/dohyun",
+      "id": "r_dohyun_ahn_cuhk",
+      "institution": "CUHK",
+      "institutionFull": "The Chinese University of Hong Kong",
+      "name": "Dohyun Ahn",
+      "nameVariants": [],
+      "position": "Associate Professor",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-18",
+          "kind": "faculty_homepage",
+          "label": "Personal homepage",
+          "url": "https://sites.google.com/view/dohyun"
+        },
+        {
+          "checkedAt": "2026-09-18",
+          "kind": "official_profile",
+          "label": "CUHK SEEM academic staff directory",
+          "url": "https://www.se.cuhk.edu.hk/people/academic-staff/"
+        },
+        {
+          "checkedAt": "2026-09-18",
+          "kind": "official_profile",
+          "label": "CUHK Research Portal persons directory",
+          "url": "https://research.cuhk.edu.hk/en/persons/"
+        }
+      ],
+      "summary": "研究主题：financial engineering、stochastic systems、risk analytics、systemic risk、model risk、Monte Carlo and sequential learning、financial networks、rare-event simulation、DeFi cascading liquidation。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "decision",
+        "asset",
+        "ml"
+      ],
+      "topics": [
+        "financial engineering",
+        "stochastic systems",
+        "risk analytics",
+        "systemic risk",
+        "model risk",
+        "Monte Carlo and sequential learning",
+        "financial networks",
+        "rare-event simulation",
+        "DeFi cascading liquidation"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-18"
+    },
+    {
+      "department": "Department of Systems Engineering and Engineering Management",
+      "education": [],
+      "homepage": "https://www1.se.cuhk.edu.hk/~textmine/",
+      "id": "r_wai_lam_cuhk",
+      "institution": "CUHK",
+      "institutionFull": "The Chinese University of Hong Kong",
+      "name": "Wai Lam 林伟",
+      "nameVariants": [],
+      "position": "Professor",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-18",
+          "kind": "official_profile",
+          "label": "CUHK Text Mining Group page",
+          "url": "https://www1.se.cuhk.edu.hk/~textmine/"
+        },
+        {
+          "checkedAt": "2026-09-18",
+          "kind": "official_profile",
+          "label": "CUHK SEEM academic staff directory",
+          "url": "https://www.se.cuhk.edu.hk/people/academic-staff/"
+        }
+      ],
+      "summary": "研究主题：natural language processing、text mining、intelligent information retrieval、machine learning、knowledge-based systems、financial text mining as an application route、金融应用主线待核。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "finai",
+        "digital",
+        "ml"
+      ],
+      "topics": [
+        "natural language processing",
+        "text mining",
+        "intelligent information retrieval",
+        "machine learning",
+        "knowledge-based systems",
+        "financial text mining as an application route",
+        "金融应用主线待核"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-18"
+    },
+    {
+      "department": "Department of Finance",
+      "education": [],
+      "homepage": "https://www.bschool.cuhk.edu.hk/staff/li-sicong/",
+      "id": "r_sicong_li_cuhk",
+      "institution": "CUHK",
+      "institutionFull": "The Chinese University of Hong Kong",
+      "name": "Sicong Li 李思聪",
+      "nameVariants": [],
+      "position": "Assistant Professor",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-18",
+          "kind": "official_profile",
+          "label": "CUHK Business School staff profile",
+          "url": "https://www.bschool.cuhk.edu.hk/staff/li-sicong/"
+        },
+        {
+          "checkedAt": "2026-09-18",
+          "kind": "faculty_homepage",
+          "label": "London Business School PhD profile",
+          "url": "https://www.london.edu/faculty-and-research/management-science-and-operations/student-testimonials/sicong-li"
+        }
+      ],
+      "summary": "研究主题：empirical asset pricing、applied financial econometrics、machine learning、factor models、price-impact costs、portfolio management。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "asset",
+        "ts",
+        "finai"
+      ],
+      "topics": [
+        "empirical asset pricing",
+        "applied financial econometrics",
+        "machine learning",
+        "factor models",
+        "price-impact costs",
+        "portfolio management"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-18"
+    },
+    {
+      "department": "Department of Decisions, Operations and Technology",
+      "education": [],
+      "homepage": "https://www.bschool.cuhk.edu.hk/staff/zhang-michael-xiaoquan/",
+      "id": "r_michael_xiaoquan_zhang_cuhk",
+      "institution": "CUHK",
+      "institutionFull": "The Chinese University of Hong Kong",
+      "name": "Michael Xiaoquan Zhang 张晓泉",
+      "nameVariants": [],
+      "position": "Wei Lun Professor of Business AI; RGC Senior Research Fellow",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-18",
+          "kind": "official_profile",
+          "label": "CUHK Business School staff profile",
+          "url": "https://www.bschool.cuhk.edu.hk/staff/zhang-michael-xiaoquan/"
+        },
+        {
+          "checkedAt": "2026-09-18",
+          "kind": "official_profile",
+          "label": "CUHK Research Portal profile",
+          "url": "https://research.cuhk.edu.hk/en/persons/xiaoquan-zhang/"
+        }
+      ],
+      "summary": "研究主题：business analytics、digital finance、economics of artificial intelligence、AI in financial markets、financial AI stress testing、algorithmic agents、online investment communities。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "finai",
+        "digital",
+        "decision"
+      ],
+      "topics": [
+        "business analytics",
+        "digital finance",
+        "economics of artificial intelligence",
+        "AI in financial markets",
+        "financial AI stress testing",
+        "algorithmic agents",
+        "online investment communities"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-18"
+    },
+    {
+      "department": "Department of Statistics and Data Science",
+      "education": [],
+      "homepage": "https://www.sta.cuhk.edu.hk/peoples/jiachengzh/",
+      "id": "r_jiacheng_zhang_cuhk",
+      "institution": "CUHK",
+      "institutionFull": "The Chinese University of Hong Kong",
+      "name": "Jiacheng Zhang 张嘉成",
+      "nameVariants": [],
+      "position": "Assistant Professor",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-18",
+          "kind": "official_profile",
+          "label": "CUHK Statistics and Data Science faculty profile",
+          "url": "https://www.sta.cuhk.edu.hk/peoples/jiachengzh/"
+        },
+        {
+          "checkedAt": "2026-09-18",
+          "kind": "faculty_homepage",
+          "label": "Personal homepage",
+          "url": "https://jiachengzh.github.io/"
+        }
+      ],
+      "summary": "研究主题：mathematical finance、probability theory、stochastic analysis、stochastic portfolio theory、stochastic volatility、mean field systems、stochastic optimization。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "asset",
+        "ml",
+        "ts"
+      ],
+      "topics": [
+        "mathematical finance",
+        "probability theory",
+        "stochastic analysis",
+        "stochastic portfolio theory",
+        "stochastic volatility",
+        "mean field systems",
+        "stochastic optimization"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-18"
+    },
+    {
+      "department": "Department of Accounting",
+      "education": [],
+      "homepage": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=allen-hao-huang-acahuang",
+      "id": "r_allen_huang_hkust",
+      "institution": "HKUST",
+      "institutionFull": "The Hong Kong University of Science and Technology",
+      "name": "Allen Hao Huang / Allen Huang / 黄昊",
+      "nameVariants": [],
+      "position": "Head and Professor",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-18",
+          "kind": "official_profile",
+          "label": "官方身份与研究方向",
+          "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=allen-hao-huang-acahuang"
+        },
+        {
+          "checkedAt": "2026-09-18",
+          "kind": "official_profile",
+          "label": "官方身份与研究方向",
+          "url": "https://bm.hkust.edu.hk/faculty/huang-allen"
+        }
+      ],
+      "summary": "研究主题：financial NLP、FinBERT、financial text extraction、capital markets、earnings quality、accounting information。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "finai",
+        "digital"
+      ],
+      "topics": [
+        "financial NLP",
+        "FinBERT",
+        "financial text extraction",
+        "capital markets",
+        "earnings quality",
+        "accounting information"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-18"
+    },
+    {
+      "department": "Department of Accounting",
+      "education": [],
+      "homepage": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=tony-cho-accho",
+      "id": "r_tony_cho_hkust",
+      "institution": "HKUST",
+      "institutionFull": "The Hong Kong University of Science and Technology",
+      "name": "Tony Cho",
+      "nameVariants": [],
+      "position": "Assistant Professor",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-18",
+          "kind": "official_profile",
+          "label": "官方身份与研究方向",
+          "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=tony-cho-accho"
+        },
+        {
+          "checkedAt": "2026-09-18",
+          "kind": "official_profile",
+          "label": "官方身份与研究方向",
+          "url": "https://bm.hkust.edu.hk/faculty/cho-tony"
+        }
+      ],
+      "summary": "研究主题：machine learning for earnings prediction、detailed financial data、data analytics in accounting、disclosure、capital markets。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "finai",
+        "digital"
+      ],
+      "topics": [
+        "machine learning for earnings prediction",
+        "detailed financial data",
+        "data analytics in accounting",
+        "disclosure",
+        "capital markets"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-18"
+    },
+    {
+      "department": "Department of Information Systems, Business Statistics and Operations Management",
+      "education": [],
+      "homepage": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=xinghua-zheng-xhzheng",
+      "id": "r_xinghua_zheng_hkust",
+      "institution": "HKUST",
+      "institutionFull": "The Hong Kong University of Science and Technology",
+      "name": "Xinghua Zheng / 郑兴华",
+      "nameVariants": [],
+      "position": "Professor",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-18",
+          "kind": "official_profile",
+          "label": "官方身份与研究方向",
+          "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=xinghua-zheng-xhzheng"
+        },
+        {
+          "checkedAt": "2026-09-18",
+          "kind": "official_profile",
+          "label": "官方身份与研究方向",
+          "url": "https://xhzheng.people.ust.hk/research.htm"
+        }
+      ],
+      "summary": "研究主题：financial big data、high-dimensional statistics、large portfolio management、high-frequency data、stochastic discount factor learning、financial econometrics。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "asset",
+        "ts",
+        "finai"
+      ],
+      "topics": [
+        "financial big data",
+        "high-dimensional statistics",
+        "large portfolio management",
+        "high-frequency data",
+        "stochastic discount factor learning",
+        "financial econometrics"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-18"
+    },
+    {
+      "department": "Department of Electronic and Computer Engineering; Department of Industrial Engineering and Decision Analytics",
+      "education": [],
+      "homepage": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=daniel-p-palomar-palomar",
+      "id": "r_daniel_palomar_hkust",
+      "institution": "HKUST",
+      "institutionFull": "The Hong Kong University of Science and Technology",
+      "name": "Daniel P. Palomar",
+      "nameVariants": [],
+      "position": "Professor",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-18",
+          "kind": "official_profile",
+          "label": "官方身份与研究方向",
+          "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=daniel-p-palomar-palomar"
+        },
+        {
+          "checkedAt": "2026-09-18",
+          "kind": "official_profile",
+          "label": "官方身份与研究方向",
+          "url": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&id=37&sid=0"
+        }
+      ],
+      "summary": "研究主题：optimization、financial econometrics、financial risk management、portfolio optimization、graphical models in financial markets、signal processing for financial engineering。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "ml",
+        "asset",
+        "ts"
+      ],
+      "topics": [
+        "optimization",
+        "financial econometrics",
+        "financial risk management",
+        "portfolio optimization",
+        "graphical models in financial markets",
+        "signal processing for financial engineering"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-18"
+    },
+    {
+      "department": "Department of Industrial Engineering and Decision Analytics; Department of Economics",
+      "education": [],
+      "homepage": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=xiaowei-zhang-xiaoweiz",
+      "id": "r_xiaowei_zhang_hkust",
+      "institution": "HKUST",
+      "institutionFull": "The Hong Kong University of Science and Technology",
+      "name": "Xiaowei Zhang / 张晓煒",
+      "nameVariants": [],
+      "position": "Associate Professor; Program Director of MSc in Financial Technology",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-18",
+          "kind": "official_profile",
+          "label": "官方身份与研究方向",
+          "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=xiaowei-zhang-xiaoweiz"
+        },
+        {
+          "checkedAt": "2026-09-18",
+          "kind": "official_profile",
+          "label": "官方身份与研究方向",
+          "url": "https://ieda.ust.hk/eng/faculty-staff.php?catid=8&id=45&sid=15"
+        }
+      ],
+      "summary": "研究主题：reinforcement learning、stochastic optimization、AI simulation、FinTech、service operations management。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "decision",
+        "finai",
+        "ml"
+      ],
+      "topics": [
+        "reinforcement learning",
+        "stochastic optimization",
+        "AI simulation",
+        "FinTech",
+        "service operations management"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-18"
+    },
+    {
+      "department": "Department of Finance",
+      "education": [],
+      "homepage": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=yan-ji-jiy",
+      "id": "r_yan_ji_hkust",
+      "institution": "HKUST",
+      "institutionFull": "The Hong Kong University of Science and Technology",
+      "name": "Yan Ji / 吉岩",
+      "nameVariants": [],
+      "position": "Liwei Huang Associate Professor of Business; Associate Professor; MPhil and PhD Programs Coordinator (Finance)",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-18",
+          "kind": "official_profile",
+          "label": "官方身份与研究方向",
+          "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=yan-ji-jiy"
+        },
+        {
+          "checkedAt": "2026-09-18",
+          "kind": "official_profile",
+          "label": "官方身份与研究方向",
+          "url": "https://bm.hkust.edu.hk/faculty/ji-yan"
+        },
+        {
+          "checkedAt": "2026-09-18",
+          "kind": "official_profile",
+          "label": "官方身份与研究方向",
+          "url": "https://bm.hkust.edu.hk/feature-stories/2025/01/rise-ai-algorithmic-trading"
+        }
+      ],
+      "summary": "研究主题：AI-powered trading、reinforcement learning in financial markets、asset pricing、macrofinance、capital markets、algorithmic collusion。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "decision",
+        "asset",
+        "finai"
+      ],
+      "topics": [
+        "AI-powered trading",
+        "reinforcement learning in financial markets",
+        "asset pricing",
+        "macrofinance",
+        "capital markets",
+        "algorithmic collusion"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-18"
+    },
+    {
+      "department": "Department of Finance; Division of Environment and Sustainability",
+      "education": [],
+      "homepage": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=darwin-choi-dchoi",
+      "id": "r_darwin_choi_hkust",
+      "institution": "HKUST",
+      "institutionFull": "The Hong Kong University of Science and Technology",
+      "name": "Darwin Choi / 蔡達銘",
+      "nameVariants": [],
+      "position": "Associate Head and Associate Professor; Academic Director of MSc in Finance",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-18",
+          "kind": "official_profile",
+          "label": "官方身份与研究方向",
+          "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=darwin-choi-dchoi"
+        },
+        {
+          "checkedAt": "2026-09-18",
+          "kind": "official_profile",
+          "label": "官方身份与研究方向",
+          "url": "https://bm.hkust.edu.hk/faculty/choi-darwin-1"
+        },
+        {
+          "checkedAt": "2026-09-18",
+          "kind": "official_profile",
+          "label": "官方身份与研究方向",
+          "url": "https://www.envr.ust.hk/our-division/people/faculty-staff/dchoi.html"
+        }
+      ],
+      "summary": "研究主题：machine learning for international stock returns、asset pricing、behavioral finance、mutual funds and hedge funds、climate finance、ESG。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "asset",
+        "finai"
+      ],
+      "topics": [
+        "machine learning for international stock returns",
+        "asset pricing",
+        "behavioral finance",
+        "mutual funds and hedge funds",
+        "climate finance",
+        "ESG"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-18"
+    },
+    {
+      "department": "Department of Information Systems, Business Statistics and Operations Management",
+      "education": [],
+      "homepage": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=carsten-hao-ye-chong-carstenchong",
+      "id": "r_carsten_chong_hkust",
+      "institution": "HKUST",
+      "institutionFull": "The Hong Kong University of Science and Technology",
+      "name": "Carsten Hao Ye Chong / Carsten Chong / 鍾浩業",
+      "nameVariants": [],
+      "position": "Lee Heng Fellow, Assistant Professor",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-18",
+          "kind": "official_profile",
+          "label": "官方身份与研究方向",
+          "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=carsten-hao-ye-chong-carstenchong"
+        },
+        {
+          "checkedAt": "2026-09-18",
+          "kind": "official_profile",
+          "label": "官方身份与研究方向",
+          "url": "https://bm.hkust.edu.hk/faculty/chong-carsten"
+        }
+      ],
+      "summary": "研究主题：financial econometrics、high-frequency data、volatility estimation、financial risk management、market microstructure、rough volatility、options。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "ts",
+        "asset"
+      ],
+      "topics": [
+        "financial econometrics",
+        "high-frequency data",
+        "volatility estimation",
+        "financial risk management",
+        "market microstructure",
+        "rough volatility",
+        "options"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-18"
     }
   ],
   "schemaVersion": 3,
@@ -54537,5 +55850,5 @@
       "name": "ML Theory & Optimization"
     }
   ],
-  "updatedAt": "2026-09-16"
+  "updatedAt": "2026-09-18"
 }
