@@ -39126,6 +39126,310 @@
         }
       ],
       "year": 2026
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-09-19",
+        "reason": "依据出版方摘要归纳；署名核对不等于全文阅读。",
+        "source": "https://aclanthology.org/2026.acl-long.538/",
+        "status": "available"
+      },
+      "abstractSummary": "以代码表示因子，结合LLM推理与进化搜索生成、修改及组合候选信号；摘要报告跨市场数据集实验。尚未进行独立实验复核。",
+      "authorEvidence": {
+        "checkedAt": "2026-09-19",
+        "kind": "publisher",
+        "label": "ACL Anthology publisher record",
+        "url": "https://aclanthology.org/2026.acl-long.538/"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Fengyuan Liu",
+        "Yi Huang",
+        "Sichun Luo",
+        "Yuqi Wang",
+        "Yazheng Yang",
+        "Xinye Li",
+        "Zefa Hu",
+        "Junlan Feng",
+        "Qi Liu"
+      ],
+      "authorships": [
+        {
+          "name": "Fengyuan Liu",
+          "position": 1,
+          "researcherId": null
+        },
+        {
+          "name": "Yi Huang",
+          "position": 2,
+          "researcherId": null
+        },
+        {
+          "name": "Sichun Luo",
+          "position": 3,
+          "researcherId": null
+        },
+        {
+          "name": "Yuqi Wang",
+          "position": 4,
+          "researcherId": null
+        },
+        {
+          "name": "Yazheng Yang",
+          "position": 5,
+          "researcherId": null
+        },
+        {
+          "name": "Xinye Li",
+          "position": 6,
+          "researcherId": null
+        },
+        {
+          "name": "Zefa Hu",
+          "position": 7,
+          "researcherId": null
+        },
+        {
+          "name": "Junlan Feng",
+          "position": 8,
+          "researcherId": null
+        },
+        {
+          "name": "Qi Liu",
+          "position": 9,
+          "researcherId": "r_qi_liu_hku"
+        }
+      ],
+      "contribution": {
+        "note": "作者顺序已核；位次不代表贡献大小，具体分工未核。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2026-07",
+      "datePrecision": "month",
+      "doi": "10.18653/v1/2026.acl-long.538",
+      "id": "pub_qi_liu_cogalpha",
+      "paradigms": [
+        "system",
+        "measurement"
+      ],
+      "publicationStatus": "published",
+      "publicationType": "conference",
+      "questionId": "q_pub_qi_liu_cogalpha",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "如何利用语言模型与进化搜索扩大金融因子搜索空间，同时维持经济可解释性和跨市场泛化？",
+      "researcherIds": [
+        "r_qi_liu_hku"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-09-19",
+          "kind": "publisher",
+          "label": "ACL Anthology publisher record",
+          "url": "https://aclanthology.org/2026.acl-long.538/"
+        },
+        {
+          "checkedAt": "2026-09-19",
+          "kind": "preprint",
+          "url": "https://arxiv.org/abs/2511.18850"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "finai",
+        "asset",
+        "ml"
+      ],
+      "title": "Cognitive Alpha Mining via LLM-Driven Code-Based Evolution",
+      "url": "https://aclanthology.org/2026.acl-long.538/",
+      "venue": "ACL 2026, Volume 1: Long Papers",
+      "verifiedAt": "2026-09-19",
+      "versions": [
+        {
+          "authorEvidence": {
+            "checkedAt": "2026-09-19",
+            "kind": "preprint",
+            "url": "https://arxiv.org/abs/2511.18850"
+          },
+          "authorListComplete": true,
+          "authorOrderVerified": true,
+          "authors": [
+            "Fengyuan Liu",
+            "Yi Huang",
+            "Sichun Luo",
+            "Yuqi Wang",
+            "Yazheng Yang",
+            "Xinye Li",
+            "Zefa Hu",
+            "Junlan Feng",
+            "Qi Liu"
+          ],
+          "date": "2026-07-11",
+          "datePrecision": "day",
+          "doi": "10.48550/arXiv.2511.18850",
+          "publicationStatus": "preprint",
+          "publicationType": "preprint",
+          "sources": [
+            {
+              "checkedAt": "2026-09-19",
+              "kind": "preprint",
+              "url": "https://arxiv.org/abs/2511.18850"
+            }
+          ],
+          "title": "Cognitive Alpha Mining via LLM-Driven Code-Based Evolution",
+          "url": "https://arxiv.org/abs/2511.18850v4",
+          "venue": "arXiv v4 (first submitted 2025-11-24)",
+          "year": 2026
+        }
+      ],
+      "year": 2026
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-09-19",
+        "reason": "依据出版方摘要归纳；署名核对不等于全文阅读。",
+        "source": "https://aclanthology.org/2026.findings-acl.138.pdf",
+        "status": "available"
+      },
+      "abstractSummary": "评估金融代码的可执行性、时序因果安全、功能正确性及结构约束；摘要报告12个模型在可运行代码与量化逻辑正确性之间仍有差距。",
+      "authorEvidence": {
+        "checkedAt": "2026-09-19",
+        "kind": "publisher",
+        "label": "Publisher PDF page 1 byline and corresponding-author footnote",
+        "url": "https://aclanthology.org/2026.findings-acl.138.pdf"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Sichun Luo",
+        "Yi Huang",
+        "Shichang Meng",
+        "Fengyuan Liu",
+        "Mukai Li",
+        "Qinghua Yao",
+        "Zefa Hu",
+        "Junlan Feng",
+        "Qi Liu"
+      ],
+      "authorships": [
+        {
+          "name": "Sichun Luo",
+          "position": 1,
+          "researcherId": null
+        },
+        {
+          "corresponding": true,
+          "name": "Yi Huang",
+          "position": 2,
+          "researcherId": null,
+          "source": {
+            "checkedAt": "2026-09-19",
+            "kind": "publisher",
+            "label": "Publisher PDF page 1 byline and corresponding-author footnote",
+            "url": "https://aclanthology.org/2026.findings-acl.138.pdf"
+          }
+        },
+        {
+          "name": "Shichang Meng",
+          "position": 3,
+          "researcherId": null
+        },
+        {
+          "name": "Fengyuan Liu",
+          "position": 4,
+          "researcherId": null
+        },
+        {
+          "name": "Mukai Li",
+          "position": 5,
+          "researcherId": null
+        },
+        {
+          "name": "Qinghua Yao",
+          "position": 6,
+          "researcherId": null
+        },
+        {
+          "name": "Zefa Hu",
+          "position": 7,
+          "researcherId": null
+        },
+        {
+          "name": "Junlan Feng",
+          "position": 8,
+          "researcherId": null
+        },
+        {
+          "corresponding": true,
+          "name": "Qi Liu",
+          "position": 9,
+          "researcherId": "r_qi_liu_hku",
+          "source": {
+            "checkedAt": "2026-09-19",
+            "kind": "publisher",
+            "label": "Publisher PDF page 1 byline and corresponding-author footnote",
+            "url": "https://aclanthology.org/2026.findings-acl.138.pdf"
+          }
+        }
+      ],
+      "contribution": {
+        "checkedAt": "2026-09-19",
+        "note": "出版PDF首页标注Yi Huang与Qi Liu为通讯作者；未核具体贡献分工，不按位次推断。",
+        "source": {
+          "checkedAt": "2026-09-19",
+          "kind": "publisher",
+          "label": "Publisher PDF page 1 byline and corresponding-author footnote",
+          "url": "https://aclanthology.org/2026.findings-acl.138.pdf"
+        },
+        "status": "partially_verified"
+      },
+      "coverageScope": "recent",
+      "date": "2026-07",
+      "datePrecision": "month",
+      "doi": "10.18653/v1/2026.findings-acl.138",
+      "id": "pub_qi_liu_alphaqt",
+      "paradigms": [
+        "measurement",
+        "diagnostic"
+      ],
+      "publicationStatus": "published",
+      "publicationType": "conference",
+      "questionId": "q_pub_qi_liu_alphaqt",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "如何区分金融代码能够运行与量化推理真正正确，识别未来信息泄漏及状态逻辑错误？",
+      "researcherIds": [
+        "r_qi_liu_hku"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-09-19",
+          "kind": "publisher",
+          "label": "ACL Anthology publisher record",
+          "url": "https://aclanthology.org/2026.findings-acl.138/"
+        },
+        {
+          "checkedAt": "2026-09-19",
+          "kind": "publisher",
+          "label": "Publisher PDF page 1 byline and corresponding-author footnote",
+          "url": "https://aclanthology.org/2026.findings-acl.138.pdf"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "finai",
+        "ml"
+      ],
+      "title": "AlphaQT-Bench: Diagnosing the Gap between Financial Code Generation and Quantitative Reasoning in LLMs",
+      "url": "https://aclanthology.org/2026.findings-acl.138/",
+      "venue": "Findings of ACL 2026",
+      "verifiedAt": "2026-09-19",
+      "versions": [],
+      "year": 2026
     }
   ],
   "paradigms": [
@@ -39227,8 +39531,8 @@
   "publicCurationNote": "公开研究资料快照。主题、研究问题与研究线为编辑归纳，不代表学者本人陈述或机构背书。",
   "publicRelease": {
     "channel": "stable",
-    "snapshotDate": "2026-09-18",
-    "version": "3.3.8"
+    "snapshotDate": "2026-09-19",
+    "version": "3.3.9"
   },
   "publicationPolicy": {
     "authorshipNote": "署名位次不等于贡献排名；通讯作者、共同贡献和具体分工只按原文证据标注。",
@@ -39238,19 +39542,19 @@
     "extendedStart": "2021-08-31",
     "extendedYears": 5,
     "extensionThreshold": 5,
-    "snapshotDate": "2026-09-18",
+    "snapshotDate": "2026-09-19",
     "versionNote": "同一研究的预印本与发表版本分开保留证据；摘要来源可能与主书目版本不同。"
   },
   "publicationStats": {
-    "abstracts": 368,
+    "abstracts": 370,
     "fullTexts": 4,
     "outsideWindow": 6,
-    "papers": 381,
-    "recentPapers": 375,
+    "papers": 383,
+    "recentPapers": 377,
     "researchers": 71,
     "reviewedSources": 11,
-    "verifiedBylines": 380,
-    "withPapers": 21
+    "verifiedBylines": 382,
+    "withPapers": 22
   },
   "questionClusters": [
     {
@@ -39404,6 +39708,7 @@
         "pub_ke_2024_asset_pricing_via_the_conditional_quantile_varia",
         "pub_lian_attention_spillover_asset_pricing",
         "pub_lian_wealth_redistribution_bubbles",
+        "pub_qi_liu_cogalpha",
         "pub_xiaoyan_2026_uncertainty_risk_resolution_before_earnings_anno",
         "pub_xiaoyan_2026_foreign_capital_in_the_chinese_stock_market_a_fi",
         "pub_xiaoyan_2025_listing_location_matters_a_tale_of_two_betas",
@@ -39449,6 +39754,7 @@
         "q_pub_ke_2024_asset_pricing_via_the_conditional_quantile_varia",
         "q_pub_lian_attention_spillover_asset_pricing",
         "q_pub_lian_wealth_redistribution_bubbles",
+        "q_pub_qi_liu_cogalpha",
         "q_pub_xiaoyan_2026_uncertainty_risk_resolution_before_earnings_anno",
         "q_pub_xiaoyan_2026_foreign_capital_in_the_chinese_stock_market_a_fi",
         "q_pub_xiaoyan_2025_listing_location_matters_a_tale_of_two_betas",
@@ -39469,11 +39775,12 @@
         "r_junye",
         "r_ke",
         "r_lian",
+        "r_qi_liu_hku",
         "r_xiaoyan",
         "r_yingying",
         "r_zhanhui"
       ],
-      "reviewedAt": "2026-08-31",
+      "reviewedAt": "2026-09-19",
       "themes": [
         "asset",
         "decision",
@@ -40717,7 +41024,9 @@
         "pub_difan_2024_how_many_pretraining_tasks_are_needed_for_in_con",
         "pub_difan_2024_how_transformers_utilize_multi_head_attention_in",
         "pub_difan_2024_self_control_of_llm_behaviors_by_compressing_suf",
-        "pub_difan_2024_what_can_transformer_learn_with_varying_depth_ca"
+        "pub_difan_2024_what_can_transformer_learn_with_varying_depth_ca",
+        "pub_qi_liu_cogalpha",
+        "pub_qi_liu_alphaqt"
       ],
       "question": "如何理解和改善语言模型的推理、指令遵循与偏好对齐？",
       "questionIds": [
@@ -40741,16 +41050,21 @@
         "q_pub_difan_2024_how_many_pretraining_tasks_are_needed_for_in_con",
         "q_pub_difan_2024_how_transformers_utilize_multi_head_attention_in",
         "q_pub_difan_2024_self_control_of_llm_behaviors_by_compressing_suf",
-        "q_pub_difan_2024_what_can_transformer_learn_with_varying_depth_ca"
+        "q_pub_difan_2024_what_can_transformer_learn_with_varying_depth_ca",
+        "q_pub_qi_liu_cogalpha",
+        "q_pub_qi_liu_alphaqt"
       ],
       "researcherIds": [
         "r_chao",
-        "r_difan"
+        "r_difan",
+        "r_qi_liu_hku"
       ],
-      "reviewedAt": "2026-08-31",
+      "reviewedAt": "2026-09-19",
       "themes": [
+        "asset",
         "decision",
         "digital",
+        "finai",
         "ml"
       ],
       "title": "语言模型的推理与对齐"
@@ -41323,7 +41637,8 @@
         "pub_difan_2026_aesrm_improving_video_aesthetics_with_expert_lev",
         "pub_difan_2026_msavbench_towards_comprehensive_and_reliable_eva",
         "pub_difan_2025_beyond_surface_structure_a_causal_assessment_of_",
-        "pub_sha_harmonized_uncertainty"
+        "pub_sha_harmonized_uncertainty",
+        "pub_qi_liu_alphaqt"
       ],
       "question": "如何评价模型能力与可靠性，并识别和缓解系统性偏差？",
       "questionIds": [
@@ -41334,17 +41649,20 @@
         "q_pub_difan_2026_aesrm_improving_video_aesthetics_with_expert_lev",
         "q_pub_difan_2026_msavbench_towards_comprehensive_and_reliable_eva",
         "q_pub_difan_2025_beyond_surface_structure_a_causal_assessment_of_",
-        "q_pub_sha_harmonized_uncertainty"
+        "q_pub_sha_harmonized_uncertainty",
+        "q_pub_qi_liu_alphaqt"
       ],
       "researcherIds": [
         "r_chao",
         "r_difan",
-        "r_lei_sha"
+        "r_lei_sha",
+        "r_qi_liu_hku"
       ],
-      "reviewedAt": "2026-09-10",
+      "reviewedAt": "2026-09-19",
       "themes": [
         "asset",
         "decision",
+        "finai",
         "ml",
         "ts"
       ],
@@ -41601,12 +41919,12 @@
       {
         "awaitingEvidence": 0,
         "awaitingExtraction": 0,
-        "clustered": 27,
-        "clusters": 14,
-        "extracted": 27,
-        "multiPaperClusters": 8,
-        "papers": 27,
-        "singlePaperClusters": 6,
+        "clustered": 29,
+        "clusters": 16,
+        "extracted": 29,
+        "multiPaperClusters": 9,
+        "papers": 29,
+        "singlePaperClusters": 7,
         "staleEvidence": 0,
         "themeId": "finai",
         "unclustered": 0
@@ -41627,12 +41945,12 @@
       {
         "awaitingEvidence": 6,
         "awaitingExtraction": 0,
-        "clustered": 117,
-        "clusters": 26,
-        "extracted": 117,
+        "clustered": 118,
+        "clusters": 27,
+        "extracted": 118,
         "multiPaperClusters": 20,
-        "papers": 123,
-        "singlePaperClusters": 6,
+        "papers": 124,
+        "singlePaperClusters": 7,
         "staleEvidence": 0,
         "themeId": "asset",
         "unclustered": 0
@@ -41666,22 +41984,22 @@
       {
         "awaitingEvidence": 3,
         "awaitingExtraction": 0,
-        "clustered": 221,
+        "clustered": 223,
         "clusters": 37,
-        "extracted": 221,
+        "extracted": 223,
         "multiPaperClusters": 31,
-        "papers": 224,
+        "papers": 226,
         "singlePaperClusters": 6,
         "staleEvidence": 0,
         "themeId": "ml",
         "unclustered": 0
       }
     ],
-    "clustered": 368,
+    "clustered": 370,
     "clusters": 50,
-    "extracted": 368,
+    "extracted": 370,
     "multiPaperClusters": 43,
-    "papers": 381,
+    "papers": 383,
     "singlePaperClusters": 7,
     "staleEvidence": 0,
     "unclustered": 0
@@ -50391,6 +50709,54 @@
       ],
       "reviewedAt": "2026-09-11",
       "text": "如何组织并验证面向机器学习理论研究的智能体工作流，同时区分原问题解答与放宽条件后的结果？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_asset_risk_premia",
+        "qc_llm_reasoning_alignment"
+      ],
+      "evidence": {
+        "digest": "e56ad3121d69e40e5e3950650216019dcc70b6af0c1dba9952e1efcf38b32869",
+        "excerpt": "以代码表示因子，结合LLM推理与进化搜索生成、修改及组合候选信号；摘要报告跨市场数据集实验。尚未进行独立实验复核。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-09-19",
+          "kind": "abstract_summary",
+          "label": "已有摘要概览所列来源",
+          "url": "https://aclanthology.org/2026.acl-long.538/"
+        }
+      },
+      "id": "q_pub_qi_liu_cogalpha",
+      "paperIds": [
+        "pub_qi_liu_cogalpha"
+      ],
+      "reviewedAt": "2026-09-19",
+      "text": "如何利用语言模型与进化搜索扩大金融因子搜索空间，同时维持经济可解释性和跨市场泛化？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_model_evaluation",
+        "qc_llm_reasoning_alignment"
+      ],
+      "evidence": {
+        "digest": "1d4ddae61142b95ab481ebf712cc227a062675b17d110f797e5a87c25a013c6a",
+        "excerpt": "评估金融代码的可执行性、时序因果安全、功能正确性及结构约束；摘要报告12个模型在可运行代码与量化逻辑正确性之间仍有差距。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-09-19",
+          "kind": "abstract_summary",
+          "label": "已有摘要概览所列来源",
+          "url": "https://aclanthology.org/2026.findings-acl.138.pdf"
+        }
+      },
+      "id": "q_pub_qi_liu_alphaqt",
+      "paperIds": [
+        "pub_qi_liu_alphaqt"
+      ],
+      "reviewedAt": "2026-09-19",
+      "text": "如何区分金融代码能够运行与量化推理真正正确，识别未来信息泄漏及状态逻辑错误？"
     }
   ],
   "researchers": [
@@ -54514,23 +54880,56 @@
       "nameVariants": [],
       "position": "Assistant Professor; Director of BASc(FinTech)",
       "publicationCoverage": {
-        "abstractCount": 0,
-        "authorVerifiedCount": 0,
+        "abstractCount": 2,
+        "authorVerifiedCount": 2,
         "boundaryDateCount": 0,
-        "checkedAt": null,
-        "collectedCount": 0,
+        "checkedAt": "2026-09-19",
+        "collectedCount": 2,
         "extended": true,
         "fullTextCount": 0,
         "gaps": [
           "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
         ],
         "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
-        "paperIds": [],
-        "recentCount": 0,
-        "sourcesChecked": [],
+        "paperIds": [
+          "pub_qi_liu_cogalpha",
+          "pub_qi_liu_alphaqt"
+        ],
+        "recentCount": 2,
+        "sourcesChecked": [
+          {
+            "checkedAt": "2026-09-19",
+            "kind": "faculty_homepage",
+            "label": "Qi Liu selected publications",
+            "url": "https://leuchine.github.io/"
+          },
+          {
+            "checkedAt": "2026-09-19",
+            "kind": "publisher",
+            "label": "ACL Anthology publisher record",
+            "url": "https://aclanthology.org/2026.acl-long.538/"
+          },
+          {
+            "checkedAt": "2026-09-19",
+            "kind": "preprint",
+            "url": "https://arxiv.org/abs/2511.18850"
+          },
+          {
+            "checkedAt": "2026-09-19",
+            "kind": "publisher",
+            "label": "ACL Anthology publisher record",
+            "url": "https://aclanthology.org/2026.findings-acl.138/"
+          },
+          {
+            "checkedAt": "2026-09-19",
+            "kind": "publisher",
+            "label": "Publisher PDF page 1 byline and corresponding-author footnote",
+            "url": "https://aclanthology.org/2026.findings-acl.138.pdf"
+          }
+        ],
         "status": "partial",
         "threshold": 5,
-        "uncertainDateCount": 0,
+        "uncertainDateCount": 2,
         "windowEnd": "2026-08-31",
         "windowStart": "2021-08-31",
         "windowYears": 5
@@ -55850,5 +56249,5 @@
       "name": "ML Theory & Optimization"
     }
   ],
-  "updatedAt": "2026-09-18"
+  "updatedAt": "2026-09-19"
 }
