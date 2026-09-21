@@ -39430,6 +39430,283 @@
       "verifiedAt": "2026-09-19",
       "versions": [],
       "year": 2026
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-09-21",
+        "reason": "摘要级及首页署名核验，非全文评审。",
+        "source": "https://www3.ntu.edu.sg/home/boan/papers/KDD26_AlphaForgeBench.pdf",
+        "status": "available"
+      },
+      "abstractSummary": "将LLM生成金融因子与策略代码，同确定性执行分离，用于检验直接交易动作的不稳定性与评估可重复性。摘要报告多模型实验；结论限于作者实验设置，未独立复现。",
+      "authorEvidence": {
+        "checkedAt": "2026-09-21",
+        "kind": "faculty_paper",
+        "label": "Author-hosted ACM-formatted manuscript: title, byline, DOI and abstract",
+        "url": "https://www3.ntu.edu.sg/home/boan/papers/KDD26_AlphaForgeBench.pdf"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Wentao Zhang",
+        "Mingxuan Zhao",
+        "Jincheng Gao",
+        "Jieshun You",
+        "Huaiyu Jia",
+        "Yilei Zhao",
+        "Bo An",
+        "Shuo Sun"
+      ],
+      "authorships": [
+        {
+          "equalContribution": true,
+          "name": "Wentao Zhang",
+          "position": 1,
+          "researcherId": null,
+          "source": {
+            "checkedAt": "2026-09-21",
+            "kind": "faculty_paper",
+            "label": "Author-hosted ACM-formatted manuscript: title, byline, DOI and abstract",
+            "url": "https://www3.ntu.edu.sg/home/boan/papers/KDD26_AlphaForgeBench.pdf"
+          }
+        },
+        {
+          "equalContribution": true,
+          "name": "Mingxuan Zhao",
+          "position": 2,
+          "researcherId": null,
+          "source": {
+            "checkedAt": "2026-09-21",
+            "kind": "faculty_paper",
+            "label": "Author-hosted ACM-formatted manuscript: title, byline, DOI and abstract",
+            "url": "https://www3.ntu.edu.sg/home/boan/papers/KDD26_AlphaForgeBench.pdf"
+          }
+        },
+        {
+          "equalContribution": true,
+          "name": "Jincheng Gao",
+          "position": 3,
+          "researcherId": null,
+          "source": {
+            "checkedAt": "2026-09-21",
+            "kind": "faculty_paper",
+            "label": "Author-hosted ACM-formatted manuscript: title, byline, DOI and abstract",
+            "url": "https://www3.ntu.edu.sg/home/boan/papers/KDD26_AlphaForgeBench.pdf"
+          }
+        },
+        {
+          "name": "Jieshun You",
+          "position": 4,
+          "researcherId": null
+        },
+        {
+          "name": "Huaiyu Jia",
+          "position": 5,
+          "researcherId": null
+        },
+        {
+          "name": "Yilei Zhao",
+          "position": 6,
+          "researcherId": null
+        },
+        {
+          "name": "Bo An",
+          "position": 7,
+          "researcherId": "r_bo_an"
+        },
+        {
+          "corresponding": true,
+          "name": "Shuo Sun",
+          "position": 8,
+          "researcherId": null,
+          "source": {
+            "checkedAt": "2026-09-21",
+            "kind": "faculty_paper",
+            "label": "Author-hosted ACM-formatted manuscript: title, byline, DOI and abstract",
+            "url": "https://www3.ntu.edu.sg/home/boan/papers/KDD26_AlphaForgeBench.pdf"
+          }
+        }
+      ],
+      "contribution": {
+        "checkedAt": "2026-09-21",
+        "note": "稿件首页标前三位共同一作、Shuo Sun通讯；未据Bo An第7位推断具体贡献。",
+        "source": {
+          "checkedAt": "2026-09-21",
+          "kind": "faculty_paper",
+          "label": "Author-hosted ACM-formatted manuscript: title, byline, DOI and abstract",
+          "url": "https://www3.ntu.edu.sg/home/boan/papers/KDD26_AlphaForgeBench.pdf"
+        },
+        "status": "partially_verified"
+      },
+      "coverageScope": "recent",
+      "date": "2026-08",
+      "datePrecision": "month",
+      "doi": "10.1145/3770855.3817500",
+      "id": "pub_bo_an_alphaforgebench",
+      "paradigms": [
+        "measurement",
+        "diagnostic"
+      ],
+      "publicationStatus": "published",
+      "publicationType": "conference",
+      "questionId": "q_pub_bo_an_alphaforgebench",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "如何把金融策略推理与执行过程分开评估，减少直接交易动作不稳定性对LLM比较的干扰？",
+      "researcherIds": [
+        "r_bo_an"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-09-21",
+          "kind": "faculty_paper",
+          "label": "Author-hosted ACM-formatted manuscript: title, byline, DOI and abstract",
+          "url": "https://www3.ntu.edu.sg/home/boan/papers/KDD26_AlphaForgeBench.pdf"
+        },
+        {
+          "checkedAt": "2026-09-21",
+          "kind": "preprint",
+          "label": "arXiv v2 byline and abstract",
+          "url": "https://arxiv.org/abs/2602.18481v2"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "finai",
+        "decision",
+        "ml"
+      ],
+      "title": "AlphaForgeBench: Benchmarking End-to-End Trading Strategy Design with Large Language Models",
+      "url": "https://www3.ntu.edu.sg/home/boan/papers/KDD26_AlphaForgeBench.pdf",
+      "venue": "KDD 2026, Volume 2",
+      "verifiedAt": "2026-09-21",
+      "versions": [
+        {
+          "authorEvidence": {
+            "checkedAt": "2026-09-21",
+            "kind": "preprint",
+            "label": "arXiv v2 byline and abstract",
+            "url": "https://arxiv.org/abs/2602.18481v2"
+          },
+          "authorListComplete": true,
+          "authorOrderVerified": true,
+          "authors": [
+            "Wentao Zhang",
+            "Mingxuan Zhao",
+            "Jincheng Gao",
+            "Jieshun You",
+            "Huaiyu Jia",
+            "Yilei Zhao",
+            "Bo An",
+            "Shuo Sun"
+          ],
+          "date": "2026-05-27",
+          "datePrecision": "day",
+          "doi": "10.48550/arXiv.2602.18481",
+          "publicationStatus": "preprint",
+          "publicationType": "preprint",
+          "sources": [
+            {
+              "checkedAt": "2026-09-21",
+              "kind": "preprint",
+              "label": "arXiv v2 byline and abstract",
+              "url": "https://arxiv.org/abs/2602.18481v2"
+            }
+          ],
+          "title": "AlphaForgeBench: Benchmarking End-to-End Trading Strategy Design with Large Language Models",
+          "url": "https://arxiv.org/abs/2602.18481v2",
+          "venue": "arXiv v2 (first submitted 2026-02-10)",
+          "year": 2026
+        }
+      ],
+      "year": 2026
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-09-21",
+        "reason": "摘要级及首页署名核验，非全文评审。",
+        "source": "https://ojs.aaai.org/index.php/AAAI/article/view/40166",
+        "status": "available"
+      },
+      "abstractSummary": "从动态规划示范中学习离散交易策略原型，由强化学习选择原型，再随市场观测调整动作。摘要报告四个加密货币交易对上的收益与风险实验；未独立验证实盘有效性。",
+      "authorEvidence": {
+        "checkedAt": "2026-09-21",
+        "kind": "publisher",
+        "label": "AAAI publisher record",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/40166"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Chuqiao Zong",
+        "Molei Qin",
+        "Haochong Xia",
+        "Bo An"
+      ],
+      "authorships": [
+        {
+          "name": "Chuqiao Zong",
+          "position": 1,
+          "researcherId": null
+        },
+        {
+          "name": "Molei Qin",
+          "position": 2,
+          "researcherId": null
+        },
+        {
+          "name": "Haochong Xia",
+          "position": 3,
+          "researcherId": null
+        },
+        {
+          "name": "Bo An",
+          "position": 4,
+          "researcherId": "r_bo_an"
+        }
+      ],
+      "contribution": {
+        "note": "完整作者顺序已核；通讯及具体贡献未核，不根据末位推断。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2026-03-14",
+      "datePrecision": "day",
+      "doi": "10.1609/aaai.v40i34.40166",
+      "id": "pub_bo_an_archetypetrader",
+      "paradigms": [
+        "system"
+      ],
+      "publicationStatus": "published",
+      "publicationType": "conference",
+      "questionId": "q_pub_bo_an_archetypetrader",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "如何从交易示范学习可复用的策略原型，并通过强化学习选择和动态调整以适应市场变化？",
+      "researcherIds": [
+        "r_bo_an"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-09-21",
+          "kind": "publisher",
+          "label": "AAAI publisher record",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/40166"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "finai",
+        "decision"
+      ],
+      "title": "ArchetypeTrader: Reinforcement Learning for Selecting and Refining Learnable Strategic Archetypes in Quantitative Trading",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/40166",
+      "venue": "AAAI 2026, 40(34): 29269–29276",
+      "verifiedAt": "2026-09-21",
+      "versions": [],
+      "year": 2026
     }
   ],
   "paradigms": [
@@ -39531,8 +39808,8 @@
   "publicCurationNote": "公开研究资料快照。主题、研究问题与研究线为编辑归纳，不代表学者本人陈述或机构背书。",
   "publicRelease": {
     "channel": "stable",
-    "snapshotDate": "2026-09-19",
-    "version": "3.3.9"
+    "snapshotDate": "2026-09-20",
+    "version": "3.3.10"
   },
   "publicationPolicy": {
     "authorshipNote": "署名位次不等于贡献排名；通讯作者、共同贡献和具体分工只按原文证据标注。",
@@ -39542,19 +39819,19 @@
     "extendedStart": "2021-08-31",
     "extendedYears": 5,
     "extensionThreshold": 5,
-    "snapshotDate": "2026-09-19",
+    "snapshotDate": "2026-09-20",
     "versionNote": "同一研究的预印本与发表版本分开保留证据；摘要来源可能与主书目版本不同。"
   },
   "publicationStats": {
-    "abstracts": 370,
+    "abstracts": 372,
     "fullTexts": 4,
     "outsideWindow": 6,
-    "papers": 383,
-    "recentPapers": 377,
+    "papers": 385,
+    "recentPapers": 379,
     "researchers": 71,
     "reviewedSources": 11,
-    "verifiedBylines": 382,
-    "withPapers": 22
+    "verifiedBylines": 384,
+    "withPapers": 23
   },
   "questionClusters": [
     {
@@ -40073,6 +40350,7 @@
       "id": "qc_portfolio_risk_control",
       "paperIds": [
         "paper_gao_optimal_execution_ac",
+        "pub_bo_an_archetypetrader",
         "pub_claire_risk_subst",
         "pub_gang_cond_returns",
         "pub_gao_factor_port",
@@ -40100,6 +40378,7 @@
       "question": "在不确定性和实际约束下，如何构建投资组合并控制风险？",
       "questionIds": [
         "q_paper_gao_optimal_execution_ac",
+        "q_pub_bo_an_archetypetrader",
         "q_pub_claire_risk_subst",
         "q_pub_gang_cond_returns",
         "q_pub_gao_factor_port",
@@ -40125,6 +40404,7 @@
         "q_pub_zhanhui_weather_risk_index_insurance"
       ],
       "researcherIds": [
+        "r_bo_an",
         "r_claire",
         "r_gang",
         "r_gao",
@@ -40136,7 +40416,7 @@
         "r_lingfei",
         "r_zhanhui"
       ],
-      "reviewedAt": "2026-08-31",
+      "reviewedAt": "2026-09-21",
       "themes": [
         "asset",
         "decision",
@@ -41004,6 +41284,7 @@
       "description": "区分模型能力、训练方法和评估证据，不将基准提升写成普遍保证。",
       "id": "qc_llm_reasoning_alignment",
       "paperIds": [
+        "pub_bo_an_alphaforgebench",
         "pub_chao_2026_lightreasoner_can_small_language_models_teach_la",
         "pub_chao_2024_graphgpt_graph_instruction_tuning_for_large_lang",
         "pub_difan_2026_breaking_contextual_inertia_reinforcement_learni",
@@ -41030,6 +41311,7 @@
       ],
       "question": "如何理解和改善语言模型的推理、指令遵循与偏好对齐？",
       "questionIds": [
+        "q_pub_bo_an_alphaforgebench",
         "q_pub_chao_2026_lightreasoner_can_small_language_models_teach_la",
         "q_pub_chao_2024_graphgpt_graph_instruction_tuning_for_large_lang",
         "q_pub_difan_2026_breaking_contextual_inertia_reinforcement_learni",
@@ -41055,11 +41337,12 @@
         "q_pub_qi_liu_alphaqt"
       ],
       "researcherIds": [
+        "r_bo_an",
         "r_chao",
         "r_difan",
         "r_qi_liu_hku"
       ],
-      "reviewedAt": "2026-09-19",
+      "reviewedAt": "2026-09-21",
       "themes": [
         "asset",
         "decision",
@@ -41630,6 +41913,7 @@
       "description": "包括评价框架、基准和公平性研究；评价结果不等于所有场景下的能力保证。",
       "id": "qc_model_evaluation",
       "paperIds": [
+        "pub_bo_an_alphaforgebench",
         "pub_chao_2025_ai_trader_benchmarking_autonomous_agents_in_real",
         "pub_chao_2025_justice_or_prejudice_quantifying_biases_in_llm_a",
         "pub_chao_2023_fair_graph_representation_learning_via_diverse_m",
@@ -41642,6 +41926,7 @@
       ],
       "question": "如何评价模型能力与可靠性，并识别和缓解系统性偏差？",
       "questionIds": [
+        "q_pub_bo_an_alphaforgebench",
         "q_pub_chao_2025_ai_trader_benchmarking_autonomous_agents_in_real",
         "q_pub_chao_2025_justice_or_prejudice_quantifying_biases_in_llm_a",
         "q_pub_chao_2023_fair_graph_representation_learning_via_diverse_m",
@@ -41653,12 +41938,13 @@
         "q_pub_qi_liu_alphaqt"
       ],
       "researcherIds": [
+        "r_bo_an",
         "r_chao",
         "r_difan",
         "r_lei_sha",
         "r_qi_liu_hku"
       ],
-      "reviewedAt": "2026-09-19",
+      "reviewedAt": "2026-09-21",
       "themes": [
         "asset",
         "decision",
@@ -41919,12 +42205,12 @@
       {
         "awaitingEvidence": 0,
         "awaitingExtraction": 0,
-        "clustered": 29,
+        "clustered": 31,
         "clusters": 16,
-        "extracted": 29,
-        "multiPaperClusters": 9,
-        "papers": 29,
-        "singlePaperClusters": 7,
+        "extracted": 31,
+        "multiPaperClusters": 10,
+        "papers": 31,
+        "singlePaperClusters": 6,
         "staleEvidence": 0,
         "themeId": "finai",
         "unclustered": 0
@@ -41932,11 +42218,11 @@
       {
         "awaitingEvidence": 1,
         "awaitingExtraction": 0,
-        "clustered": 72,
+        "clustered": 74,
         "clusters": 30,
-        "extracted": 72,
+        "extracted": 74,
         "multiPaperClusters": 19,
-        "papers": 73,
+        "papers": 75,
         "singlePaperClusters": 11,
         "staleEvidence": 0,
         "themeId": "decision",
@@ -41984,22 +42270,22 @@
       {
         "awaitingEvidence": 3,
         "awaitingExtraction": 0,
-        "clustered": 223,
+        "clustered": 224,
         "clusters": 37,
-        "extracted": 223,
+        "extracted": 224,
         "multiPaperClusters": 31,
-        "papers": 226,
+        "papers": 227,
         "singlePaperClusters": 6,
         "staleEvidence": 0,
         "themeId": "ml",
         "unclustered": 0
       }
     ],
-    "clustered": 370,
+    "clustered": 372,
     "clusters": 50,
-    "extracted": 370,
+    "extracted": 372,
     "multiPaperClusters": 43,
-    "papers": 383,
+    "papers": 385,
     "singlePaperClusters": 7,
     "staleEvidence": 0,
     "unclustered": 0
@@ -50757,6 +51043,53 @@
       ],
       "reviewedAt": "2026-09-19",
       "text": "如何区分金融代码能够运行与量化推理真正正确，识别未来信息泄漏及状态逻辑错误？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_model_evaluation",
+        "qc_llm_reasoning_alignment"
+      ],
+      "evidence": {
+        "digest": "379168fac588981a465f5a56e0a9a77c7fa519ba5220bdb249b15e7a32c0280e",
+        "excerpt": "将LLM生成金融因子与策略代码，同确定性执行分离，用于检验直接交易动作的不稳定性与评估可重复性。摘要报告多模型实验；结论限于作者实验设置，未独立复现。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-09-21",
+          "kind": "abstract_summary",
+          "label": "已有摘要概览所列来源",
+          "url": "https://www3.ntu.edu.sg/home/boan/papers/KDD26_AlphaForgeBench.pdf"
+        }
+      },
+      "id": "q_pub_bo_an_alphaforgebench",
+      "paperIds": [
+        "pub_bo_an_alphaforgebench"
+      ],
+      "reviewedAt": "2026-09-21",
+      "text": "如何把金融策略推理与执行过程分开评估，减少直接交易动作不稳定性对LLM比较的干扰？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_portfolio_risk_control"
+      ],
+      "evidence": {
+        "digest": "ec4066e13b36c763d596a66a4c350f408704c5847f20a9660cdd815236ef8cf9",
+        "excerpt": "从动态规划示范中学习离散交易策略原型，由强化学习选择原型，再随市场观测调整动作。摘要报告四个加密货币交易对上的收益与风险实验；未独立验证实盘有效性。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-09-21",
+          "kind": "abstract_summary",
+          "label": "已有摘要概览所列来源",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/40166"
+        }
+      },
+      "id": "q_pub_bo_an_archetypetrader",
+      "paperIds": [
+        "pub_bo_an_archetypetrader"
+      ],
+      "reviewedAt": "2026-09-21",
+      "text": "如何从交易示范学习可复用的策略原型，并通过强化学习选择和动态调整以适应市场变化？"
     }
   ],
   "researchers": [
@@ -53900,23 +54233,45 @@
       "nameVariants": [],
       "position": "President’s Chair Professor",
       "publicationCoverage": {
-        "abstractCount": 0,
-        "authorVerifiedCount": 0,
+        "abstractCount": 2,
+        "authorVerifiedCount": 2,
         "boundaryDateCount": 0,
-        "checkedAt": null,
-        "collectedCount": 0,
+        "checkedAt": "2026-09-21",
+        "collectedCount": 2,
         "extended": true,
         "fullTextCount": 0,
         "gaps": [
           "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
         ],
         "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
-        "paperIds": [],
-        "recentCount": 0,
-        "sourcesChecked": [],
+        "paperIds": [
+          "pub_bo_an_alphaforgebench",
+          "pub_bo_an_archetypetrader"
+        ],
+        "recentCount": 2,
+        "sourcesChecked": [
+          {
+            "checkedAt": "2026-09-21",
+            "kind": "faculty_paper",
+            "label": "Author-hosted ACM-formatted manuscript: title, byline, DOI and abstract",
+            "url": "https://www3.ntu.edu.sg/home/boan/papers/KDD26_AlphaForgeBench.pdf"
+          },
+          {
+            "checkedAt": "2026-09-21",
+            "kind": "preprint",
+            "label": "arXiv v2 byline and abstract",
+            "url": "https://arxiv.org/abs/2602.18481v2"
+          },
+          {
+            "checkedAt": "2026-09-21",
+            "kind": "publisher",
+            "label": "AAAI publisher record",
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/view/40166"
+          }
+        ],
         "status": "partial",
         "threshold": 5,
-        "uncertainDateCount": 0,
+        "uncertainDateCount": 1,
         "windowEnd": "2026-08-31",
         "windowStart": "2021-08-31",
         "windowYears": 5
@@ -56249,5 +56604,5 @@
       "name": "ML Theory & Optimization"
     }
   ],
-  "updatedAt": "2026-09-19"
+  "updatedAt": "2026-09-20"
 }
