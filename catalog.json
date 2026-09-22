@@ -39707,6 +39707,276 @@
       "verifiedAt": "2026-09-21",
       "versions": [],
       "year": 2026
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-09-22",
+        "reason": "摘要及署名核验；非全文评审。",
+        "source": "https://ojs.aaai.org/index.php/AAAI/article/view/37069",
+        "status": "available"
+      },
+      "abstractSummary": "结合语言模型与蒙特卡洛树搜索，在回测反馈下生成和改进符号化金融因子；通过避免频繁重复子树提高搜索多样性。摘要报告股票数据实验，未独立复现或验证实盘收益。",
+      "authorEvidence": {
+        "checkedAt": "2026-09-22",
+        "kind": "publisher",
+        "label": "AAAI正式记录：作者顺序、日期及摘要",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37069"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Yu Shi",
+        "Yitong Duan",
+        "Jian Li"
+      ],
+      "authorships": [
+        {
+          "name": "Yu Shi",
+          "position": 1,
+          "researcherId": null
+        },
+        {
+          "name": "Yitong Duan",
+          "position": 2,
+          "researcherId": null
+        },
+        {
+          "name": "Jian Li",
+          "position": 3,
+          "researcherId": "r_jian_li"
+        }
+      ],
+      "contribution": {
+        "note": "完整作者顺序已核；通讯及具体贡献未核，不根据末位推断。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2026-03-14",
+      "datePrecision": "day",
+      "doi": "10.1609/aaai.v40i2.37069",
+      "id": "pub_jian_li_alpha_jungle",
+      "paradigms": [
+        "system",
+        "measurement"
+      ],
+      "publicationStatus": "published",
+      "publicationType": "conference",
+      "questionId": "q_pub_jian_li_alpha_jungle",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "如何用语言模型与树搜索在回测反馈下发现可解释的金融因子，并提高搜索多样性与效率？",
+      "researcherIds": [
+        "r_jian_li"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "publisher",
+          "label": "AAAI正式记录：作者顺序、日期及摘要",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37069"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "preprint",
+          "label": "arXiv署名与版本历史",
+          "url": "https://arxiv.org/abs/2505.11122v3"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "finai",
+        "asset",
+        "ml"
+      ],
+      "title": "Navigating the Alpha Jungle: An LLM-Powered MCTS Framework for Formulaic Alpha Factor Mining",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37069",
+      "venue": "AAAI 2026, 40(2): 997–1005",
+      "verifiedAt": "2026-09-22",
+      "versions": [
+        {
+          "authorEvidence": {
+            "checkedAt": "2026-09-22",
+            "kind": "preprint",
+            "label": "arXiv署名与版本历史",
+            "url": "https://arxiv.org/abs/2505.11122v3"
+          },
+          "authorListComplete": true,
+          "authorOrderVerified": true,
+          "authors": [
+            "Yu Shi",
+            "Yitong Duan",
+            "Jian Li"
+          ],
+          "date": "2025-11-12",
+          "datePrecision": "day",
+          "doi": "10.48550/arXiv.2505.11122",
+          "publicationStatus": "preprint",
+          "publicationType": "preprint",
+          "sources": [
+            {
+              "checkedAt": "2026-09-22",
+              "kind": "preprint",
+              "label": "arXiv署名与版本历史",
+              "url": "https://arxiv.org/abs/2505.11122v3"
+            }
+          ],
+          "title": "Navigating the Alpha Jungle: An LLM-Powered MCTS Framework for Formulaic Factor Mining",
+          "url": "https://arxiv.org/abs/2505.11122v3",
+          "venue": "arXiv v3 (first submitted 2025-05-16)",
+          "year": 2025
+        }
+      ],
+      "year": 2026
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-09-22",
+        "reason": "摘要及署名核验；非全文评审。",
+        "source": "https://ojs.aaai.org/index.php/AAAI/article/view/39730",
+        "status": "available"
+      },
+      "abstractSummary": "将金融K线中的价格与交易活动离散为序列，并通过自回归预训练学习市场表示，用于价格和波动预测及合成K线生成。摘要报告零样本评估；结果限于作者基准，不代表实盘盈利已验证。",
+      "authorEvidence": {
+        "checkedAt": "2026-09-22",
+        "kind": "publisher",
+        "label": "AAAI正式记录：作者顺序、日期及摘要",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/39730"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Yu Shi",
+        "Zongliang Fu",
+        "Shuo Chen",
+        "Bohan Zhao",
+        "Wei Xu",
+        "Changshui Zhang",
+        "Jian Li"
+      ],
+      "authorships": [
+        {
+          "name": "Yu Shi",
+          "position": 1,
+          "researcherId": null
+        },
+        {
+          "name": "Zongliang Fu",
+          "position": 2,
+          "researcherId": null
+        },
+        {
+          "name": "Shuo Chen",
+          "position": 3,
+          "researcherId": null
+        },
+        {
+          "name": "Bohan Zhao",
+          "position": 4,
+          "researcherId": null
+        },
+        {
+          "name": "Wei Xu",
+          "position": 5,
+          "researcherId": null
+        },
+        {
+          "name": "Changshui Zhang",
+          "position": 6,
+          "researcherId": null
+        },
+        {
+          "name": "Jian Li",
+          "position": 7,
+          "researcherId": "r_jian_li"
+        }
+      ],
+      "contribution": {
+        "note": "完整作者顺序已核；通讯及具体贡献未核，不根据末位推断。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2026-03-14",
+      "datePrecision": "day",
+      "doi": "10.1609/aaai.v40i30.39730",
+      "id": "pub_jian_li_kronos",
+      "paradigms": [
+        "system",
+        "measurement"
+      ],
+      "publicationStatus": "published",
+      "publicationType": "conference",
+      "questionId": "q_pub_jian_li_kronos",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "如何为金融K线学习统一的预训练表示，同时支持价格与波动预测以及合成序列生成？",
+      "researcherIds": [
+        "r_jian_li"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "publisher",
+          "label": "AAAI正式记录：作者顺序、日期及摘要",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/39730"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "preprint",
+          "label": "arXiv署名与版本历史",
+          "url": "https://arxiv.org/abs/2508.02739v1"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "finai",
+        "ts",
+        "ml"
+      ],
+      "title": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/39730",
+      "venue": "AAAI 2026, 40(30): 25366–25373",
+      "verifiedAt": "2026-09-22",
+      "versions": [
+        {
+          "authorEvidence": {
+            "checkedAt": "2026-09-22",
+            "kind": "preprint",
+            "label": "arXiv署名与版本历史",
+            "url": "https://arxiv.org/abs/2508.02739v1"
+          },
+          "authorListComplete": true,
+          "authorOrderVerified": true,
+          "authors": [
+            "Yu Shi",
+            "Zongliang Fu",
+            "Shuo Chen",
+            "Bohan Zhao",
+            "Wei Xu",
+            "Changshui Zhang",
+            "Jian Li"
+          ],
+          "date": "2025-08-02",
+          "datePrecision": "day",
+          "doi": "10.48550/arXiv.2508.02739",
+          "publicationStatus": "preprint",
+          "publicationType": "preprint",
+          "sources": [
+            {
+              "checkedAt": "2026-09-22",
+              "kind": "preprint",
+              "label": "arXiv署名与版本历史",
+              "url": "https://arxiv.org/abs/2508.02739v1"
+            }
+          ],
+          "title": "Kronos: A Foundation Model for the Language of Financial Markets",
+          "url": "https://arxiv.org/abs/2508.02739v1",
+          "venue": "arXiv v1 (first submitted 2025-08-02)",
+          "year": 2025
+        }
+      ],
+      "year": 2026
     }
   ],
   "paradigms": [
@@ -39808,8 +40078,8 @@
   "publicCurationNote": "公开研究资料快照。主题、研究问题与研究线为编辑归纳，不代表学者本人陈述或机构背书。",
   "publicRelease": {
     "channel": "stable",
-    "snapshotDate": "2026-09-20",
-    "version": "3.3.10"
+    "snapshotDate": "2026-09-21",
+    "version": "3.3.11"
   },
   "publicationPolicy": {
     "authorshipNote": "署名位次不等于贡献排名；通讯作者、共同贡献和具体分工只按原文证据标注。",
@@ -39819,19 +40089,19 @@
     "extendedStart": "2021-08-31",
     "extendedYears": 5,
     "extensionThreshold": 5,
-    "snapshotDate": "2026-09-20",
+    "snapshotDate": "2026-09-21",
     "versionNote": "同一研究的预印本与发表版本分开保留证据；摘要来源可能与主书目版本不同。"
   },
   "publicationStats": {
-    "abstracts": 372,
+    "abstracts": 374,
     "fullTexts": 4,
     "outsideWindow": 6,
-    "papers": 385,
-    "recentPapers": 379,
+    "papers": 387,
+    "recentPapers": 381,
     "researchers": 71,
     "reviewedSources": 11,
-    "verifiedBylines": 384,
-    "withPapers": 23
+    "verifiedBylines": 386,
+    "withPapers": 24
   },
   "questionClusters": [
     {
@@ -39964,6 +40234,7 @@
         "pub_gang_event_repr",
         "pub_gang_option_news",
         "pub_he_alpha_meu",
+        "pub_jian_li_alpha_jungle",
         "pub_junye_deep_tangency",
         "pub_junye_rt_macro_bond",
         "pub_junye_skew_fx",
@@ -40010,6 +40281,7 @@
         "q_pub_gang_event_repr",
         "q_pub_gang_option_news",
         "q_pub_he_alpha_meu",
+        "q_pub_jian_li_alpha_jungle",
         "q_pub_junye_deep_tangency",
         "q_pub_junye_rt_macro_bond",
         "q_pub_junye_skew_fx",
@@ -40049,6 +40321,7 @@
         "r_clark",
         "r_gang",
         "r_he",
+        "r_jian_li",
         "r_junye",
         "r_ke",
         "r_lian",
@@ -40057,7 +40330,7 @@
         "r_yingying",
         "r_zhanhui"
       ],
-      "reviewedAt": "2026-09-19",
+      "reviewedAt": "2026-09-22",
       "themes": [
         "asset",
         "decision",
@@ -40812,6 +41085,7 @@
         "pub_guodong_2025_volatility_analysis_with_high_frequency_and_low_",
         "pub_guodong_2024_high_dimensional_vector_autoregression_with_comm",
         "pub_guodong_2024_high_frequency_based_volatility_model_with_netwo",
+        "pub_jian_li_kronos",
         "pub_junye_rt_macro_bond",
         "pub_junye_factor_zoo",
         "pub_ke_2026_conditional_quantile_adjusted_conformal_predicti",
@@ -40826,6 +41100,7 @@
         "q_pub_guodong_2025_volatility_analysis_with_high_frequency_and_low_",
         "q_pub_guodong_2024_high_dimensional_vector_autoregression_with_comm",
         "q_pub_guodong_2024_high_frequency_based_volatility_model_with_netwo",
+        "q_pub_jian_li_kronos",
         "q_pub_junye_rt_macro_bond",
         "q_pub_junye_factor_zoo",
         "q_pub_ke_2026_conditional_quantile_adjusted_conformal_predicti",
@@ -40835,11 +41110,12 @@
       "researcherIds": [
         "r_difan",
         "r_guodong",
+        "r_jian_li",
         "r_junye",
         "r_ke",
         "r_yingying"
       ],
-      "reviewedAt": "2026-08-31",
+      "reviewedAt": "2026-09-22",
       "themes": [
         "asset",
         "finai",
@@ -41306,6 +41582,7 @@
         "pub_difan_2024_how_transformers_utilize_multi_head_attention_in",
         "pub_difan_2024_self_control_of_llm_behaviors_by_compressing_suf",
         "pub_difan_2024_what_can_transformer_learn_with_varying_depth_ca",
+        "pub_jian_li_alpha_jungle",
         "pub_qi_liu_cogalpha",
         "pub_qi_liu_alphaqt"
       ],
@@ -41333,6 +41610,7 @@
         "q_pub_difan_2024_how_transformers_utilize_multi_head_attention_in",
         "q_pub_difan_2024_self_control_of_llm_behaviors_by_compressing_suf",
         "q_pub_difan_2024_what_can_transformer_learn_with_varying_depth_ca",
+        "q_pub_jian_li_alpha_jungle",
         "q_pub_qi_liu_cogalpha",
         "q_pub_qi_liu_alphaqt"
       ],
@@ -41340,9 +41618,10 @@
         "r_bo_an",
         "r_chao",
         "r_difan",
+        "r_jian_li",
         "r_qi_liu_hku"
       ],
-      "reviewedAt": "2026-09-21",
+      "reviewedAt": "2026-09-22",
       "themes": [
         "asset",
         "decision",
@@ -42205,11 +42484,11 @@
       {
         "awaitingEvidence": 0,
         "awaitingExtraction": 0,
-        "clustered": 31,
+        "clustered": 33,
         "clusters": 16,
-        "extracted": 31,
+        "extracted": 33,
         "multiPaperClusters": 10,
-        "papers": 31,
+        "papers": 33,
         "singlePaperClusters": 6,
         "staleEvidence": 0,
         "themeId": "finai",
@@ -42231,12 +42510,12 @@
       {
         "awaitingEvidence": 6,
         "awaitingExtraction": 0,
-        "clustered": 118,
+        "clustered": 119,
         "clusters": 27,
-        "extracted": 118,
-        "multiPaperClusters": 20,
-        "papers": 124,
-        "singlePaperClusters": 7,
+        "extracted": 119,
+        "multiPaperClusters": 21,
+        "papers": 125,
+        "singlePaperClusters": 6,
         "staleEvidence": 0,
         "themeId": "asset",
         "unclustered": 0
@@ -42244,11 +42523,11 @@
       {
         "awaitingEvidence": 7,
         "awaitingExtraction": 0,
-        "clustered": 84,
+        "clustered": 85,
         "clusters": 27,
-        "extracted": 84,
+        "extracted": 85,
         "multiPaperClusters": 16,
-        "papers": 91,
+        "papers": 92,
         "singlePaperClusters": 11,
         "staleEvidence": 0,
         "themeId": "ts",
@@ -42270,22 +42549,22 @@
       {
         "awaitingEvidence": 3,
         "awaitingExtraction": 0,
-        "clustered": 224,
+        "clustered": 226,
         "clusters": 37,
-        "extracted": 224,
+        "extracted": 226,
         "multiPaperClusters": 31,
-        "papers": 227,
+        "papers": 229,
         "singlePaperClusters": 6,
         "staleEvidence": 0,
         "themeId": "ml",
         "unclustered": 0
       }
     ],
-    "clustered": 372,
+    "clustered": 374,
     "clusters": 50,
-    "extracted": 372,
+    "extracted": 374,
     "multiPaperClusters": 43,
-    "papers": 385,
+    "papers": 387,
     "singlePaperClusters": 7,
     "staleEvidence": 0,
     "unclustered": 0
@@ -51090,6 +51369,53 @@
       ],
       "reviewedAt": "2026-09-21",
       "text": "如何从交易示范学习可复用的策略原型，并通过强化学习选择和动态调整以适应市场变化？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_asset_risk_premia",
+        "qc_llm_reasoning_alignment"
+      ],
+      "evidence": {
+        "digest": "e5287908bce92be7d5edb068ab82ca1b2ec1f9fb645e0942357a35ec601926d9",
+        "excerpt": "结合语言模型与蒙特卡洛树搜索，在回测反馈下生成和改进符号化金融因子；通过避免频繁重复子树提高搜索多样性。摘要报告股票数据实验，未独立复现或验证实盘收益。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-09-22",
+          "kind": "abstract_summary",
+          "label": "已有摘要概览所列来源",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37069"
+        }
+      },
+      "id": "q_pub_jian_li_alpha_jungle",
+      "paperIds": [
+        "pub_jian_li_alpha_jungle"
+      ],
+      "reviewedAt": "2026-09-22",
+      "text": "如何用语言模型与树搜索在回测反馈下发现可解释的金融因子，并提高搜索多样性与效率？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_time_series_forecasting"
+      ],
+      "evidence": {
+        "digest": "dac5e856f4debb38418e64d0e546dd11f940d568bf9425d5e8ad1987cc96e7bb",
+        "excerpt": "将金融K线中的价格与交易活动离散为序列，并通过自回归预训练学习市场表示，用于价格和波动预测及合成K线生成。摘要报告零样本评估；结果限于作者基准，不代表实盘盈利已验证。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-09-22",
+          "kind": "abstract_summary",
+          "label": "已有摘要概览所列来源",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/39730"
+        }
+      },
+      "id": "q_pub_jian_li_kronos",
+      "paperIds": [
+        "pub_jian_li_kronos"
+      ],
+      "reviewedAt": "2026-09-22",
+      "text": "如何为金融K线学习统一的预训练表示，同时支持价格与波动预测以及合成序列生成？"
     }
   ],
   "researchers": [
@@ -54089,20 +54415,36 @@
       ],
       "position": "教授",
       "publicationCoverage": {
-        "abstractCount": 0,
-        "authorVerifiedCount": 0,
+        "abstractCount": 2,
+        "authorVerifiedCount": 2,
         "boundaryDateCount": 0,
-        "checkedAt": null,
-        "collectedCount": 0,
+        "checkedAt": "2026-09-22",
+        "collectedCount": 2,
         "extended": true,
         "fullTextCount": 0,
         "gaps": [
           "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
         ],
         "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
-        "paperIds": [],
-        "recentCount": 0,
-        "sourcesChecked": [],
+        "paperIds": [
+          "pub_jian_li_alpha_jungle",
+          "pub_jian_li_kronos"
+        ],
+        "recentCount": 2,
+        "sourcesChecked": [
+          {
+            "checkedAt": "2026-09-22",
+            "kind": "publisher",
+            "label": "AAAI正式记录：作者顺序、日期及摘要",
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37069"
+          },
+          {
+            "checkedAt": "2026-09-22",
+            "kind": "publisher",
+            "label": "AAAI正式记录：作者顺序、日期及摘要",
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/view/39730"
+          }
+        ],
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
@@ -56604,5 +56946,5 @@
       "name": "ML Theory & Optimization"
     }
   ],
-  "updatedAt": "2026-09-20"
+  "updatedAt": "2026-09-21"
 }
