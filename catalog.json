@@ -39878,7 +39878,7 @@
         {
           "name": "Wei Xu",
           "position": 5,
-          "researcherId": null
+          "researcherId": "r_wei_xu_tsinghua"
         },
         {
           "name": "Changshui Zhang",
@@ -39911,7 +39911,8 @@
       "readDepth": "abstract",
       "researchQuestion": "如何为金融K线学习统一的预训练表示，同时支持价格与波动预测以及合成序列生成？",
       "researcherIds": [
-        "r_jian_li"
+        "r_jian_li",
+        "r_wei_xu_tsinghua"
       ],
       "selectedReading": false,
       "sources": [
@@ -39926,6 +39927,12 @@
           "kind": "preprint",
           "label": "arXiv署名与版本历史",
           "url": "https://arxiv.org/abs/2508.02739v1"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "publisher",
+          "label": "作者单位核验：第5位Wei Xu对应清华IIIS徐葳，不是人大许伟",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/download/39730/43691"
         }
       ],
       "summaryBasis": "abstract",
@@ -39976,6 +39983,182 @@
           "year": 2025
         }
       ],
+      "year": 2026
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-09-24",
+        "reason": "核对arXiv摘要及作者主页；未找到可确认的正式发表版本，保留预印本状态。",
+        "source": "https://arxiv.org/abs/2607.04278",
+        "status": "available"
+      },
+      "abstractSummary": "针对递归效用动态规划中难以计算的确定性等价项，CEL用神经网络联合近似该项、价值函数和策略函数，以仿真训练处理高维状态与控制。方法不依赖一阶最优条件；摘要列举稳健控制、DSGE及战略资产配置应用。性能仅为作者摘要报告，未独立复现。",
+      "authorEvidence": {
+        "checkedAt": "2026-09-24",
+        "kind": "preprint",
+        "label": "arXiv v1：完整作者顺序、提交日期及摘要",
+        "url": "https://arxiv.org/abs/2607.04278"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Xianhua Peng",
+        "Wu Guo"
+      ],
+      "authorships": [
+        {
+          "name": "Xianhua Peng",
+          "position": 1,
+          "researcherId": "r_xianhua_peng"
+        },
+        {
+          "name": "Wu Guo",
+          "position": 2,
+          "researcherId": null
+        }
+      ],
+      "contribution": {
+        "note": "作者位次已核，具体贡献与通讯身份未核；不由第一作者位置推断贡献。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2026-07-05",
+      "datePrecision": "day",
+      "doi": "10.48550/arxiv.2607.04278",
+      "id": "pub_xianhua_peng_cel",
+      "paradigms": [
+        "control",
+        "measurement"
+      ],
+      "publicationStatus": "preprint",
+      "publicationType": "preprint",
+      "questionId": "q_pub_xianhua_peng_cel",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "如何在不依赖一阶最优条件的情况下，用神经网络求解含递归效用的高维动态规划和资产配置问题？",
+      "researcherIds": [
+        "r_xianhua_peng"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-09-24",
+          "kind": "preprint",
+          "label": "arXiv v1：完整作者顺序、提交日期及摘要",
+          "url": "https://arxiv.org/abs/2607.04278"
+        },
+        {
+          "checkedAt": "2026-09-24",
+          "kind": "official",
+          "label": "北京大学汇丰商学院作者主页：两篇工作论文分别列出",
+          "url": "https://www.phbs.pku.edu.cn/info/1291/101641.htm"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "finai",
+        "decision",
+        "ml"
+      ],
+      "title": "Deep Learning for Dynamic Programming with Recursive Utility",
+      "url": "https://arxiv.org/abs/2607.04278",
+      "venue": "arXiv:2607.04278 v1",
+      "verifiedAt": "2026-09-24",
+      "versions": [],
+      "year": 2026
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-09-24",
+        "reason": "核对arXiv摘要及作者主页；未找到可确认的正式发表版本，保留预印本状态。",
+        "source": "https://arxiv.org/abs/2607.09461",
+        "status": "available"
+      },
+      "abstractSummary": "CEFOL用独立神经网络近似确定性等价项，并利用Bellman方程、一阶条件与KKT残差学习价值函数、策略和乘子，处理控制变量的等式及不等式约束。摘要应用包括消费储蓄、稳健控制和递归偏好DSGE；约束边界处残差可能更大。仅核摘要，未验证全文推导或复现实验。",
+      "authorEvidence": {
+        "checkedAt": "2026-09-24",
+        "kind": "preprint",
+        "label": "arXiv v1：完整作者顺序、提交日期及摘要",
+        "url": "https://arxiv.org/abs/2607.09461"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Xianhua Peng",
+        "Wu Guo",
+        "Songyan Wang",
+        "Jianfei Zhu"
+      ],
+      "authorships": [
+        {
+          "name": "Xianhua Peng",
+          "position": 1,
+          "researcherId": "r_xianhua_peng"
+        },
+        {
+          "name": "Wu Guo",
+          "position": 2,
+          "researcherId": null
+        },
+        {
+          "name": "Songyan Wang",
+          "position": 3,
+          "researcherId": null
+        },
+        {
+          "name": "Jianfei Zhu",
+          "position": 4,
+          "researcherId": null
+        }
+      ],
+      "contribution": {
+        "note": "作者位次已核，具体贡献与通讯身份未核；不由第一作者位置推断贡献。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2026-07-10",
+      "datePrecision": "day",
+      "doi": "10.48550/arxiv.2607.09461",
+      "id": "pub_xianhua_peng_cefol",
+      "paradigms": [
+        "control",
+        "measurement"
+      ],
+      "publicationStatus": "preprint",
+      "publicationType": "preprint",
+      "questionId": "q_pub_xianhua_peng_cefol",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "如何利用一阶最优条件和KKT残差训练神经网络，求解含递归效用及控制约束的消费储蓄与动态决策问题？",
+      "researcherIds": [
+        "r_xianhua_peng"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-09-24",
+          "kind": "preprint",
+          "label": "arXiv v1：完整作者顺序、提交日期及摘要",
+          "url": "https://arxiv.org/abs/2607.09461"
+        },
+        {
+          "checkedAt": "2026-09-24",
+          "kind": "official",
+          "label": "北京大学汇丰商学院作者主页：两篇工作论文分别列出",
+          "url": "https://www.phbs.pku.edu.cn/info/1291/101641.htm"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "finai",
+        "decision",
+        "ml"
+      ],
+      "title": "Deep Learning for Dynamic Programming with Recursive Utility Using First-order Conditions",
+      "url": "https://arxiv.org/abs/2607.09461",
+      "venue": "arXiv:2607.09461 v1",
+      "verifiedAt": "2026-09-24",
+      "versions": [],
       "year": 2026
     }
   ],
@@ -40078,8 +40261,8 @@
   "publicCurationNote": "公开研究资料快照。主题、研究问题与研究线为编辑归纳，不代表学者本人陈述或机构背书。",
   "publicRelease": {
     "channel": "stable",
-    "snapshotDate": "2026-09-21",
-    "version": "3.3.11"
+    "snapshotDate": "2026-09-23",
+    "version": "3.3.13"
   },
   "publicationPolicy": {
     "authorshipNote": "署名位次不等于贡献排名；通讯作者、共同贡献和具体分工只按原文证据标注。",
@@ -40089,19 +40272,19 @@
     "extendedStart": "2021-08-31",
     "extendedYears": 5,
     "extensionThreshold": 5,
-    "snapshotDate": "2026-09-21",
+    "snapshotDate": "2026-08-31",
     "versionNote": "同一研究的预印本与发表版本分开保留证据；摘要来源可能与主书目版本不同。"
   },
   "publicationStats": {
-    "abstracts": 374,
+    "abstracts": 376,
     "fullTexts": 4,
     "outsideWindow": 6,
-    "papers": 387,
-    "recentPapers": 381,
-    "researchers": 71,
+    "papers": 389,
+    "recentPapers": 383,
+    "researchers": 103,
     "reviewedSources": 11,
-    "verifiedBylines": 386,
-    "withPapers": 24
+    "verifiedBylines": 388,
+    "withPapers": 26
   },
   "questionClusters": [
     {
@@ -40646,6 +40829,8 @@
         "pub_li_drawdown_speed",
         "pub_li_regime_mv",
         "pub_li_parisian",
+        "pub_xianhua_peng_cel",
+        "pub_xianhua_peng_cefol",
         "pub_zhanhui_weather_risk_index_insurance"
       ],
       "question": "在不确定性和实际约束下，如何构建投资组合并控制风险？",
@@ -40674,6 +40859,8 @@
         "q_pub_li_drawdown_speed",
         "q_pub_li_regime_mv",
         "q_pub_li_parisian",
+        "q_pub_xianhua_peng_cel",
+        "q_pub_xianhua_peng_cefol",
         "q_pub_zhanhui_weather_risk_index_insurance"
       ],
       "researcherIds": [
@@ -40687,9 +40874,10 @@
         "r_ke",
         "r_lian",
         "r_lingfei",
+        "r_xianhua_peng",
         "r_zhanhui"
       ],
-      "reviewedAt": "2026-09-21",
+      "reviewedAt": "2026-09-24",
       "themes": [
         "asset",
         "decision",
@@ -41113,6 +41301,7 @@
         "r_jian_li",
         "r_junye",
         "r_ke",
+        "r_wei_xu_tsinghua",
         "r_yingying"
       ],
       "reviewedAt": "2026-09-22",
@@ -42484,11 +42673,11 @@
       {
         "awaitingEvidence": 0,
         "awaitingExtraction": 0,
-        "clustered": 33,
+        "clustered": 35,
         "clusters": 16,
-        "extracted": 33,
+        "extracted": 35,
         "multiPaperClusters": 10,
-        "papers": 33,
+        "papers": 35,
         "singlePaperClusters": 6,
         "staleEvidence": 0,
         "themeId": "finai",
@@ -42497,11 +42686,11 @@
       {
         "awaitingEvidence": 1,
         "awaitingExtraction": 0,
-        "clustered": 74,
+        "clustered": 76,
         "clusters": 30,
-        "extracted": 74,
+        "extracted": 76,
         "multiPaperClusters": 19,
-        "papers": 75,
+        "papers": 77,
         "singlePaperClusters": 11,
         "staleEvidence": 0,
         "themeId": "decision",
@@ -42549,22 +42738,22 @@
       {
         "awaitingEvidence": 3,
         "awaitingExtraction": 0,
-        "clustered": 226,
+        "clustered": 228,
         "clusters": 37,
-        "extracted": 226,
+        "extracted": 228,
         "multiPaperClusters": 31,
-        "papers": 229,
+        "papers": 231,
         "singlePaperClusters": 6,
         "staleEvidence": 0,
         "themeId": "ml",
         "unclustered": 0
       }
     ],
-    "clustered": 374,
+    "clustered": 376,
     "clusters": 50,
-    "extracted": 374,
+    "extracted": 376,
     "multiPaperClusters": 43,
-    "papers": 387,
+    "papers": 389,
     "singlePaperClusters": 7,
     "staleEvidence": 0,
     "unclustered": 0
@@ -51416,6 +51605,52 @@
       ],
       "reviewedAt": "2026-09-22",
       "text": "如何为金融K线学习统一的预训练表示，同时支持价格与波动预测以及合成序列生成？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_portfolio_risk_control"
+      ],
+      "evidence": {
+        "digest": "96f99649d596b3b86aa4325a000893eded56dc2365df9301077ab4d6216ff60d",
+        "excerpt": "针对递归效用动态规划中难以计算的确定性等价项，CEL用神经网络联合近似该项、价值函数和策略函数，以仿真训练处理高维状态与控制。方法不依赖一阶最优条件；摘要列举稳健控制、DSGE及战略资产配置应用。性能仅为作者摘要报告，未独立复现。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-09-24",
+          "kind": "abstract_summary",
+          "label": "已有摘要概览所列来源",
+          "url": "https://arxiv.org/abs/2607.04278"
+        }
+      },
+      "id": "q_pub_xianhua_peng_cel",
+      "paperIds": [
+        "pub_xianhua_peng_cel"
+      ],
+      "reviewedAt": "2026-09-24",
+      "text": "如何在不依赖一阶最优条件的情况下，用神经网络求解含递归效用的高维动态规划和资产配置问题？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_portfolio_risk_control"
+      ],
+      "evidence": {
+        "digest": "d04604c05e5d7392109127e045ae5437a7970edac0870e5d2198ecb3c936d48c",
+        "excerpt": "CEFOL用独立神经网络近似确定性等价项，并利用Bellman方程、一阶条件与KKT残差学习价值函数、策略和乘子，处理控制变量的等式及不等式约束。摘要应用包括消费储蓄、稳健控制和递归偏好DSGE；约束边界处残差可能更大。仅核摘要，未验证全文推导或复现实验。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-09-24",
+          "kind": "abstract_summary",
+          "label": "已有摘要概览所列来源",
+          "url": "https://arxiv.org/abs/2607.09461"
+        }
+      },
+      "id": "q_pub_xianhua_peng_cefol",
+      "paperIds": [
+        "pub_xianhua_peng_cefol"
+      ],
+      "reviewedAt": "2026-09-24",
+      "text": "如何利用一阶最优条件和KKT残差训练神经网络，求解含递归效用及控制约束的消费储蓄与动态决策问题？"
     }
   ],
   "researchers": [
@@ -55089,20 +55324,36 @@
       "nameVariants": [],
       "position": "长聘副教授、博士导师",
       "publicationCoverage": {
-        "abstractCount": 0,
-        "authorVerifiedCount": 0,
+        "abstractCount": 2,
+        "authorVerifiedCount": 2,
         "boundaryDateCount": 0,
-        "checkedAt": null,
-        "collectedCount": 0,
+        "checkedAt": "2026-09-24",
+        "collectedCount": 2,
         "extended": true,
         "fullTextCount": 0,
         "gaps": [
           "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
         ],
         "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
-        "paperIds": [],
-        "recentCount": 0,
-        "sourcesChecked": [],
+        "paperIds": [
+          "pub_xianhua_peng_cel",
+          "pub_xianhua_peng_cefol"
+        ],
+        "recentCount": 2,
+        "sourcesChecked": [
+          {
+            "checkedAt": "2026-09-24",
+            "kind": "preprint",
+            "label": "arXiv v1：完整作者顺序、提交日期及摘要",
+            "url": "https://arxiv.org/abs/2607.04278"
+          },
+          {
+            "checkedAt": "2026-09-24",
+            "kind": "preprint",
+            "label": "arXiv v1：完整作者顺序、提交日期及摘要",
+            "url": "https://arxiv.org/abs/2607.09461"
+          }
+        ],
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
@@ -56911,6 +57162,2136 @@
       ],
       "verification": "verified",
       "verifiedAt": "2026-09-18"
+    },
+    {
+      "department": "Institute for Interdisciplinary Information Sciences (IIIS)",
+      "education": [],
+      "homepage": "https://iiis.tsinghua.edu.cn/rydw/qzjs/xuwei.htm",
+      "id": "r_wei_xu_tsinghua",
+      "institution": "Tsinghua",
+      "institutionFull": "清华大学",
+      "name": "徐葳 / Wei Xu",
+      "nameVariants": [
+        "徐葳",
+        "Wei Xu"
+      ],
+      "position": "Professor; Deputy Dean, IIIS",
+      "publicationCoverage": {
+        "abstractCount": 1,
+        "authorVerifiedCount": 1,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 1,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [
+          "pub_jian_li_kronos"
+        ],
+        "recentCount": 1,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_profile",
+          "label": "Current Tsinghua IIIS 徐葳 / Wei Xu identity; used to disambiguate from RUC 许伟.",
+          "url": "https://iiis.tsinghua.edu.cn/rydw/qzjs/xuwei.htm"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "arxiv_paper_page",
+          "label": "Kronos paper title, author list including Wei Xu, and financial foundation model abstract.",
+          "url": "https://arxiv.org/abs/2508.02739"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "publisher_pdf",
+          "label": "AAAI 2026 version; author affiliation line places Wei Xu at IIIS, Tsinghua University.",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/download/39730/43691"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_iiis_publication_page",
+          "label": "IIIS Jian Li publications page lists Kronos and its financial-market abstract.",
+          "url": "https://people.iiis.tsinghua.edu.cn/~jianli/paper-date.htm"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_institute_page",
+          "label": "Secondary Tsinghua FinTech Institute context.",
+          "url": "https://thuifr.pbcsf.tsinghua.edu.cn/gywm.htm"
+        }
+      ],
+      "summary": "研究主题：金融基础模型、金融时间序列、分布式系统。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "finai",
+        "ts",
+        "ml"
+      ],
+      "topics": [
+        "金融基础模型",
+        "金融时间序列",
+        "分布式系统"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "department": "Gaoling School of Artificial Intelligence",
+      "education": [],
+      "homepage": "https://ai.ruc.edu.cn/szdw/zrjs/dzc/index.htm",
+      "id": "r_zhicheng_dou_ruc",
+      "institution": "RUC",
+      "institutionFull": "中国人民大学",
+      "name": "窦志成 / Zhicheng Dou",
+      "nameVariants": [
+        "窦志成",
+        "Zhicheng Dou"
+      ],
+      "position": "Professor; Vice Dean; Doctoral Supervisor",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_profile",
+          "label": "Current RUC Gaoling AI affiliation, professor/doctoral-supervisor identity, and agent/RAG/AI-search method fit.",
+          "url": "https://ai.ruc.edu.cn/szdw/zrjs/dzc/index.htm"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "arxiv_paper_page",
+          "label": "FinSight title and author list including Zhicheng Dou; direct personal authorship evidence.",
+          "url": "https://arxiv.org/abs/2510.16844"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_project_news",
+          "label": "Official RUC Gaoling AI news names 窦志成 among participating FinSight developers; not used to infer sole leadership.",
+          "url": "https://ai.ruc.edu.cn/xwgg/xyxw/20251219001.html"
+        }
+      ],
+      "summary": "研究主题：金融研报智能体、信息检索、大语言模型。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "finai",
+        "digital",
+        "ml"
+      ],
+      "topics": [
+        "金融研报智能体",
+        "信息检索",
+        "大语言模型"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "department": "Gaoling School of Artificial Intelligence",
+      "education": [],
+      "homepage": "https://ai.ruc.edu.cn/szdw/zrjs/mjx/index.htm",
+      "id": "r_jiaxin_mao_ruc",
+      "institution": "RUC",
+      "institutionFull": "中国人民大学",
+      "name": "毛佳昕 / Jiaxin Mao",
+      "nameVariants": [
+        "毛佳昕",
+        "Jiaxin Mao"
+      ],
+      "position": "Tenure-track Associate Professor",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_profile",
+          "label": "Current RUC Gaoling AI affiliation, research areas, and direct project entry for CCF-Tencent Rhino-Bird financial wealth-management assistant research.",
+          "url": "https://ai.ruc.edu.cn/szdw/zrjs/mjx/index.htm"
+        }
+      ],
+      "summary": "研究主题：金融理财助手、大模型智能体、信息检索。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "finai",
+        "digital",
+        "ml"
+      ],
+      "topics": [
+        "金融理财助手",
+        "大模型智能体",
+        "信息检索"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "department": "Gaoling School of Artificial Intelligence",
+      "education": [],
+      "homepage": "https://ai.ruc.edu.cn/szdw/zrjs/xj/index.htm",
+      "id": "r_jun_xu_ruc",
+      "institution": "RUC",
+      "institutionFull": "中国人民大学",
+      "name": "徐君 / Jun Xu",
+      "nameVariants": [
+        "徐君",
+        "Jun Xu"
+      ],
+      "position": "Professor; Doctoral Supervisor",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_profile",
+          "label": "Current RUC Gaoling AI affiliation, doctoral-supervisor status, and risk-prediction project evidence.",
+          "url": "https://ai.ruc.edu.cn/szdw/zrjs/xj/index.htm"
+        }
+      ],
+      "summary": "研究主题：金融风险预测、信息检索、机器学习。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "finai",
+        "ml"
+      ],
+      "topics": [
+        "金融风险预测",
+        "信息检索",
+        "机器学习"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "department": "School of Finance",
+      "education": [],
+      "homepage": "https://sf.ruc.edu.cn/jszy/wk/",
+      "id": "r_ke_wu_ruc",
+      "institution": "RUC",
+      "institutionFull": "中国人民大学",
+      "name": "吴轲 / Ke Wu",
+      "nameVariants": [
+        "吴轲",
+        "Ke Wu"
+      ],
+      "position": "Associate Professor",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_profile",
+          "label": "Directly verified current RUC School of Finance profile, AI-finance research areas, student guidance directions, projects and publications.",
+          "url": "https://sf.ruc.edu.cn/jszy/wk/"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_news",
+          "label": "Official RUC finance forum evidence on portfolio choice and machine-learning comparison context.",
+          "url": "https://sf.ruc.edu.cn/sylm/xw/f62dbea2daea46b2988181a311669e66.htm"
+        }
+      ],
+      "summary": "研究主题：量化投资、生成式AI、资产定价。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "finai",
+        "asset",
+        "ts"
+      ],
+      "topics": [
+        "量化投资",
+        "生成式AI",
+        "资产定价"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "department": "School of Information, Department of Economic Information Management",
+      "education": [],
+      "homepage": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jjxxglx1/fjs_a/fe64172ae39e4e11bba8adf2def4246b.htm",
+      "id": "r_wei_du_ruc",
+      "institution": "RUC",
+      "institutionFull": "中国人民大学",
+      "name": "杜玮 / Wei Du",
+      "nameVariants": [
+        "杜玮",
+        "Wei Du"
+      ],
+      "position": "Associate Professor",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_profile",
+          "label": "Directly verified RUC Information School profile, FinTech/LLM-agent/recommender/knowledge-graph directions, finance-risk projects/patents and student-contact signal.",
+          "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jjxxglx1/fjs_a/fe64172ae39e4e11bba8adf2def4246b.htm"
+        }
+      ],
+      "summary": "研究主题：金融知识图谱、财务欺诈预警、信贷风险、大模型智能体。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "finai",
+        "digital",
+        "ml"
+      ],
+      "topics": [
+        "金融知识图谱",
+        "财务欺诈预警",
+        "信贷风险",
+        "大模型智能体"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "department": "School of Statistics / Center for Applied Statistics",
+      "education": [],
+      "homepage": "https://stat.ruc.edu.cn/jszy/zm/index.html",
+      "id": "r_ming_zhou_ruc",
+      "institution": "RUC",
+      "institutionFull": "中国人民大学",
+      "name": "周明 / Ming Zhou",
+      "nameVariants": [
+        "周明",
+        "Ming Zhou"
+      ],
+      "position": "Professor; Doctoral Supervisor",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_profile",
+          "label": "Directly verified RUC Statistics profile, research directions and finance/insurance/RL/optimization projects.",
+          "url": "https://stat.ruc.edu.cn/jszy/zm/index.html"
+        }
+      ],
+      "summary": "研究主题：强化学习金融应用、随机控制、保险精算、风险管理。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "decision",
+        "asset",
+        "ml"
+      ],
+      "topics": [
+        "强化学习金融应用",
+        "随机控制",
+        "保险精算",
+        "风险管理"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "department": "Guanghua School of Management, Department of Finance",
+      "education": [],
+      "homepage": "https://www.gsm.pku.edu.cn/finance/jsjs.htm",
+      "id": "r_yingguang_zhang_pku",
+      "institution": "PKU",
+      "institutionFull": "北京大学",
+      "name": "张英广 / Yingguang Zhang",
+      "nameVariants": [
+        "张英广",
+        "Yingguang Zhang"
+      ],
+      "position": "Associate Professor",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_profile",
+          "label": "北大光华金融学系当前名单：张英广副教授",
+          "url": "https://www.gsm.pku.edu.cn/finance/jsjs.htm"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "publisher_paper_page",
+          "label": "Man versus Machine Learning Revisited: International Evidence; Zhang, Zhu, Linnainmaa; RFS 38(12):3768–3790, 2025",
+          "url": "https://academic.oup.com/rfs/article-abstract/38/12/3768/8246070"
+        }
+      ],
+      "summary": "研究主题：机器学习资产定价、国际股票市场、收益预测。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "finai",
+        "asset",
+        "ts"
+      ],
+      "topics": [
+        "机器学习资产定价",
+        "国际股票市场",
+        "收益预测"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "department": "School of Computer Science; Beijing Key Laboratory of Blockchain and Security Technology",
+      "education": [],
+      "homepage": "https://cs.pku.edu.cn/info/1062/1605.htm",
+      "id": "r_zhong_chen_pku",
+      "institution": "PKU",
+      "institutionFull": "北京大学",
+      "name": "陈钟 / Zhong Chen",
+      "nameVariants": [
+        "陈钟",
+        "Zhong Chen"
+      ],
+      "position": "Professor; Director of Blockchain Research Center / related PKU center roles",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_profile",
+          "label": "Current PKU CS affiliation and blockchain/security technical profile.",
+          "url": "https://cs.pku.edu.cn/info/1062/1605.htm"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_center_page",
+          "label": "PKU center context involving blockchain and finance-related digital infrastructure.",
+          "url": "https://bda.pku.edu.cn/info/1161/2030.htm"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_news",
+          "label": "Blockchain research center finance/digital-currency context.",
+          "url": "https://brc.pku.edu.cn/xwdt/xwhd/1201870qklyjzx1357357.htm"
+        }
+      ],
+      "summary": "研究主题：区块链、数字货币、金融安全、监管科技。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "digital",
+        "ml"
+      ],
+      "topics": [
+        "区块链",
+        "数字货币",
+        "金融安全",
+        "监管科技"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "department": "School of Computer Science / APEX Lab",
+      "education": [],
+      "homepage": "https://wnzhang.net/",
+      "id": "r_weinan_zhang_sjtu",
+      "institution": "SJTU",
+      "institutionFull": "上海交通大学",
+      "name": "张伟楠 / Weinan Zhang",
+      "nameVariants": [
+        "张伟楠",
+        "Weinan Zhang"
+      ],
+      "position": "Professor; PhD Advisor",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official/personal faculty homepage",
+          "label": "Current SJTU CS appointment, research areas, PhD recruiting language, and finance/order-execution publication list.",
+          "url": "https://wnzhang.net/"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "paper PDF",
+          "label": "Specific quantitative-finance/order-execution research with Weinan Zhang and Yong Yu.",
+          "url": "https://drl4ir.github.io/paper3.pdf"
+        }
+      ],
+      "summary": "研究主题：强化学习、多智能体、金融订单执行。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "decision",
+        "finai",
+        "ml"
+      ],
+      "topics": [
+        "强化学习",
+        "多智能体",
+        "金融订单执行"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "department": "School of Economics, Department of International Finance",
+      "education": [],
+      "homepage": "https://econ.fudan.edu.cn/info/1028/14399.htm",
+      "id": "r_li_guo_fudan",
+      "institution": "Fudan",
+      "institutionFull": "复旦大学",
+      "name": "郭雳 / Li Guo",
+      "nameVariants": [
+        "郭雳",
+        "Li Guo"
+      ],
+      "position": "Associate Professor",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official faculty profile",
+          "label": "Current Fudan affiliation, associate professor role, international finance department, and finance plus ML/text-mining/social-network research areas.",
+          "url": "https://econ.fudan.edu.cn/info/1028/14399.htm"
+        }
+      ],
+      "summary": "研究主题：文本挖掘、机器学习、社会网络、资产定价。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "finai",
+        "asset",
+        "digital"
+      ],
+      "topics": [
+        "文本挖掘",
+        "机器学习",
+        "社会网络",
+        "资产定价"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "department": "School of Economics",
+      "education": [],
+      "homepage": "https://econ.fudan.edu.cn/info/1028/14278.htm",
+      "id": "r_qingfu_liu_fudan",
+      "institution": "Fudan",
+      "institutionFull": "复旦大学",
+      "name": "刘庆富 / Qingfu Liu",
+      "nameVariants": [
+        "刘庆富",
+        "Qingfu Liu"
+      ],
+      "position": "Professor",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official faculty profile",
+          "label": "Current Fudan economics affiliation and strong financial engineering / financial big-data / intelligent risk-monitoring evidence.",
+          "url": "https://econ.fudan.edu.cn/info/1028/14278.htm"
+        }
+      ],
+      "summary": "研究主题：金融计量、异常交易监测、金融风险。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "ts",
+        "finai",
+        "asset"
+      ],
+      "topics": [
+        "金融计量",
+        "异常交易监测",
+        "金融风险"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "department": "Institute of Financial Technology",
+      "education": [],
+      "homepage": "https://fintech.fudan.edu.cn/info/1005/1367.htm",
+      "id": "r_zhixin_li_fudan",
+      "institution": "Fudan",
+      "institutionFull": "复旦大学",
+      "name": "李智鑫 / Zhixin Li",
+      "nameVariants": [
+        "李智鑫",
+        "Zhixin Li"
+      ],
+      "position": "Young Associate Researcher",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official faculty profile",
+          "label": "Current Fudan FinTech Institute role and direct AI-for-FinTech / financial-risk / financial-big-data research areas.",
+          "url": "https://fintech.fudan.edu.cn/info/1005/1367.htm"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "journal article PDF",
+          "label": "Recent blockchain anti-money-laundering financial-security publication involvement.",
+          "url": "https://www.engineering.org.cn/sscae/EN/PDF/10.15302/J-SSCAE-2024.11.025"
+        }
+      ],
+      "summary": "研究主题：AI for FinTech、金融风险管理、反洗钱、金融大数据。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "finai",
+        "digital",
+        "ml"
+      ],
+      "topics": [
+        "AI for FinTech",
+        "金融风险管理",
+        "反洗钱",
+        "金融大数据"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "department": "School of Mathematical Sciences; Quantitative Finance Research Center",
+      "education": [],
+      "homepage": "https://qf.sjtu.edu.cn/en/about/members/drapeau/",
+      "id": "r_samuel_drapeau_sjtu",
+      "institution": "SJTU",
+      "institutionFull": "上海交通大学",
+      "name": "Samuel Drapeau / 杜尚慕",
+      "nameVariants": [
+        "Samuel Drapeau",
+        "杜尚慕"
+      ],
+      "position": "Tenured Associate Professor; Director, Quantitative Finance Research Center",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official center profile",
+          "label": "Current SJTU math/QFRC role and substantive quantitative-finance / AI-market-simulation evidence.",
+          "url": "https://qf.sjtu.edu.cn/en/about/members/drapeau/"
+        }
+      ],
+      "summary": "研究主题：AI市场模拟、压力测试、随机控制、风险管理。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "decision",
+        "asset",
+        "finai"
+      ],
+      "topics": [
+        "AI市场模拟",
+        "压力测试",
+        "随机控制",
+        "风险管理"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "department": "Antai College of Economics and Management, Department of Finance; Bank of China FinTech School",
+      "education": [],
+      "homepage": "https://www.acem.sjtu.edu.cn/faculty/tujun.html",
+      "id": "r_jun_tu_sjtu",
+      "institution": "SJTU",
+      "institutionFull": "上海交通大学",
+      "name": "凃俊 / Jun Tu",
+      "nameVariants": [
+        "凃俊",
+        "Jun Tu"
+      ],
+      "position": "Professor",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official faculty profile",
+          "label": "Current SJTU ACEM role and finance plus ML/text-analysis research areas.",
+          "url": "https://www.acem.sjtu.edu.cn/faculty/tujun.html"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official recruitment notice",
+          "label": "Recent active postdoc recruiting signal in fintech / ML / portfolio optimization.",
+          "url": "https://acem.sjtu.edu.cn/acem/hr/97766.html"
+        }
+      ],
+      "summary": "研究主题：文本分析、机器学习、投资组合、金融计量。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "finai",
+        "asset",
+        "ts"
+      ],
+      "topics": [
+        "文本分析",
+        "机器学习",
+        "投资组合",
+        "金融计量"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "department": "College of Computer Science and Technology",
+      "education": [],
+      "homepage": "https://person.zju.edu.cn/person/0002380",
+      "id": "r_liang_cai_zju",
+      "institution": "ZJU",
+      "institutionFull": "浙江大学",
+      "name": "蔡亮 / Liang Cai",
+      "nameVariants": [
+        "蔡亮",
+        "Liang Cai"
+      ],
+      "position": "Researcher, Doctoral Supervisor; Executive Deputy Director of Blockchain Research Center",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official personal profile",
+          "label": "Current ZJU CS appointment, doctoral-supervisor status, blockchain-center role, and fintech direction.",
+          "url": "https://person.zju.edu.cn/person/0002380"
+        }
+      ],
+      "summary": "研究主题：区块链、金融科技、分布式系统。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "digital",
+        "ml"
+      ],
+      "topics": [
+        "区块链",
+        "金融科技",
+        "分布式系统"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "department": "Department of Computer Science and Engineering",
+      "education": [],
+      "homepage": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=lei-chen-leichen",
+      "id": "r_lei_chen_hkust",
+      "institution": "HKUST",
+      "institutionFull": "The Hong Kong University of Science and Technology",
+      "name": "Lei Chen / CHEN Lei / 陳雷",
+      "nameVariants": [
+        "Lei Chen",
+        "CHEN Lei",
+        "陳雷"
+      ],
+      "position": "Chair Professor; Associate Director of Brain and Intelligence Research Institute",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_profile",
+          "label": "Current HKUST CSE identity, CS PhD, technical research interests, finance-linked publications, and fintech/quant investment project.",
+          "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=lei-chen-leichen"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_personal_page",
+          "label": "Personal CSE page, CS/data systems profile, courses and research interests.",
+          "url": "https://cse.hkust.edu.hk/~leichen/"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_profile",
+          "label": "HKUST清水湾CSE当前身份；不归入广州校区",
+          "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/leichen"
+        }
+      ],
+      "summary": "研究主题：金融知识图谱、DeFi、数据驱动机器学习。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "finai",
+        "digital",
+        "ml"
+      ],
+      "topics": [
+        "金融知识图谱",
+        "DeFi",
+        "数据驱动机器学习"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "department": "Department of Mathematics",
+      "education": [],
+      "homepage": "https://www.scifac.hku.hk/people/li-guanglian",
+      "id": "r_guanglian_li_hku",
+      "institution": "HKU",
+      "institutionFull": "The University of Hong Kong",
+      "name": "Guanglian Li / 李光莲",
+      "nameVariants": [
+        "Guanglian Li",
+        "李光莲"
+      ],
+      "position": "Assistant Professor",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_profile",
+          "label": "HKU科学学院当前数学系身份与职称",
+          "url": "https://www.scifac.hku.hk/people/li-guanglian"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_repository_record",
+          "label": "HKU-linked article metadata, authorship, venue, DOI, and abstract for high-dimensional American option pricing and hedging.",
+          "url": "https://hub.hku.hk/handle/10722/359634"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_repository_record",
+          "label": "HKU-linked article metadata for sparse-grid interpolation in American option pricing.",
+          "url": "https://repository.hku.hk/handle/10722/354827"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_event_page",
+          "label": "Current title as a tenure-track Assistant Professor at HKU and technical biography.",
+          "url": "https://calendar.hkust.edu.hk/events/fintech-thrust-seminar-gradient-enhanced-sparse-hermite-polynomial-expansions-pricing-and"
+        }
+      ],
+      "summary": "研究主题：高维期权定价、对冲、稀疏网格、数值计算。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "asset",
+        "ml"
+      ],
+      "topics": [
+        "高维期权定价",
+        "对冲",
+        "稀疏网格",
+        "数值计算"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "department": "Department of Systems Engineering and Engineering Management",
+      "education": [],
+      "homepage": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-xu-huifu/",
+      "id": "r_huifu_xu_cuhk",
+      "institution": "CUHK",
+      "institutionFull": "The Chinese University of Hong Kong",
+      "name": "Huifu Xu / 徐慧福",
+      "nameVariants": [
+        "Huifu Xu",
+        "徐慧福"
+      ],
+      "position": "Professor",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_profile",
+          "label": "CUHK当前SEEM教授身份及风险/金融优化方向",
+          "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-xu-huifu/"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_personal_page",
+          "label": "Current CUHK SEEM identity, professor title, technical background, and finance-linked optimization research interests.",
+          "url": "https://www1.se.cuhk.edu.hk/~hfxu/"
+        }
+      ],
+      "summary": "研究主题：鲁棒优化、风险分析、随机规划、金融优化。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "decision",
+        "asset",
+        "ml"
+      ],
+      "topics": [
+        "鲁棒优化",
+        "风险分析",
+        "随机规划",
+        "金融优化"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "department": "School of Computing, Department of Information Systems & Analytics",
+      "education": [],
+      "homepage": "https://www.comp.nus.edu.sg/disa/people/skok/",
+      "id": "r_stanley_kok_nus",
+      "institution": "NUS",
+      "institutionFull": "National University of Singapore",
+      "name": "Stanley Kok",
+      "nameVariants": [
+        "Stanley Kok"
+      ],
+      "position": "Assistant Professor",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_profile",
+          "label": "Current NUS SoC/DISA role, CS PhD, research interests including AI/ML and FinTech, and finance/analytics courses.",
+          "url": "https://www.comp.nus.edu.sg/disa/people/skok/"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_course_schedule",
+          "label": "FT5011 Deep Learning for Finance is listed with Stanley Kok.",
+          "url": "https://www.comp.nus.edu.sg/cug/soc-sched/"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_program_student_page",
+          "label": "AIDF PhD students page lists supervisor Stanley Kok and student/project context.",
+          "url": "https://www.aidf.nus.edu.sg/education/phd-in-digital-finance-technology/our-phd-students/"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_profile",
+          "label": "本人当前主页；不将CV列至2024的AI Lab行政职务写成当前身份",
+          "url": "https://www.comp.nus.edu.sg/~skok/"
+        }
+      ],
+      "summary": "研究主题：机器学习、金融科技、金融深度学习。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "finai",
+        "digital",
+        "ml"
+      ],
+      "topics": [
+        "机器学习",
+        "金融科技",
+        "金融深度学习"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "department": "School of Computing, Department of Information Systems & Analytics",
+      "education": [],
+      "homepage": "https://www.comp.nus.edu.sg/disa/people/lixf/",
+      "id": "r_xiaofan_li_nus",
+      "institution": "NUS",
+      "institutionFull": "National University of Singapore",
+      "name": "Li Xiaofan",
+      "nameVariants": [
+        "Li Xiaofan"
+      ],
+      "position": "Assistant Professor",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_profile",
+          "label": "Current SoC role, education, cryptocurrency/cybersecurity research, FinTech project and courses.",
+          "url": "https://www.comp.nus.edu.sg/disa/people/lixf/"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_research_area",
+          "label": "NUS DISA FinTech page describes his cryptocurrency/ICO/cybercrime project.",
+          "url": "https://www.comp.nus.edu.sg/disa/research/fintech/"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_program_student_page",
+          "label": "AIDF student page lists Xiaofan Li as supervisor for CBDC/DeFi/systemic-risk student.",
+          "url": "https://www.aidf.nus.edu.sg/education/phd-in-digital-finance-technology/our-phd-students/"
+        }
+      ],
+      "summary": "研究主题：加密货币、网络安全、DeFi、金融科技。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "digital",
+        "ml"
+      ],
+      "topics": [
+        "加密货币",
+        "网络安全",
+        "DeFi",
+        "金融科技"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "department": "Department of Mathematics; Centre for Quantitative Finance; AIDF",
+      "education": [],
+      "homepage": "https://blog.nus.edu.sg/matcheny/home/",
+      "id": "r_ying_chen_nus",
+      "institution": "NUS",
+      "institutionFull": "National University of Singapore",
+      "name": "Ying Chen",
+      "nameVariants": [
+        "Ying Chen"
+      ],
+      "position": "Associate Professor; Director, Centre for Quantitative Finance",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_profile",
+          "label": "NUS数学系当前名录确认副教授及量化金融中心主任",
+          "url": "https://www.math.nus.edu.sg/people/regular-faculty/"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_or_nus_hosted_personal_profile",
+          "label": "NUS-hosted personal page establishes finance/stat/ML research details and appointments.",
+          "url": "https://blog.nus.edu.sg/matcheny/home/"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_center_page",
+          "label": "NUS CQF page establishes role and financial statistician/data scientist profile.",
+          "url": "https://www.math.nus.edu.sg/cqf/people/management-board/"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_program_student_page",
+          "label": "AIDF student page lists Ying Chen supervisees with financial forecasting, generative language models and ML/RL in finance topics.",
+          "url": "https://www.aidf.nus.edu.sg/education/phd-in-digital-finance-technology/our-phd-students/"
+        }
+      ],
+      "summary": "研究主题：金融时间序列、机器学习、订单簿、金融文本。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "finai",
+        "ts",
+        "asset"
+      ],
+      "topics": [
+        "金融时间序列",
+        "机器学习",
+        "订单簿",
+        "金融文本"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "department": "Department of Mathematics",
+      "education": [],
+      "homepage": "https://sites.google.com/view/juliansester/home",
+      "id": "r_julian_sester_nus",
+      "institution": "NUS",
+      "institutionFull": "National University of Singapore",
+      "name": "Julian Sester",
+      "nameVariants": [
+        "Julian Sester"
+      ],
+      "position": "Tenure-track Assistant Professor",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_or_personal_academic_profile",
+          "label": "Current NUS Math role, financial mathematics focus, recent robust/deep Q-learning updates, PhD student defence.",
+          "url": "https://sites.google.com/view/juliansester/home"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_program_student_page",
+          "label": "AIDF student page lists Julian Sester supervisees on RL/portfolio and dynamic risk topics.",
+          "url": "https://www.aidf.nus.edu.sg/education/phd-in-digital-finance-technology/our-phd-students/"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_department_event_page",
+          "label": "NUS Math QF page describes Sester as NUS assistant professor and cites robust finance, credit risk, ML applications in finance.",
+          "url": "https://www.math.nus.edu.sg/quantitative-finance-conference-2025/"
+        }
+      ],
+      "summary": "研究主题：鲁棒强化学习、投资组合、风险管理、金融数学。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "finai",
+        "decision",
+        "asset"
+      ],
+      "topics": [
+        "鲁棒强化学习",
+        "投资组合",
+        "风险管理",
+        "金融数学"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "department": "NUS Business School, Analytics & Operations; Institute of Operations Research and Analytics",
+      "education": [],
+      "homepage": "https://bizfaculty.nus.edu.sg/faculty-directory/?letter=k",
+      "id": "r_jussi_keppo_nus",
+      "institution": "NUS",
+      "institutionFull": "National University of Singapore",
+      "name": "Jussi Keppo",
+      "nameVariants": [
+        "Jussi Keppo"
+      ],
+      "position": "Professor (Provost’s Chair)",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_profile",
+          "label": "NUS当前名单列Professor、Provost’s Chair、Analytics & Operations系主任；替换2021副教授旧头衔",
+          "url": "https://bizfaculty.nus.edu.sg/faculty-directory/?letter=k"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_nus_profile",
+          "label": "NUS Graduate School profile establishes role, risk analytics teaching and publication areas.",
+          "url": "https://nusgs.nus.edu.sg/virtual-open-house-2021/schedule/non-stem/"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_cv_pdf",
+          "label": "NUS-hosted CV establishes applied-math training, big-data/ML teaching and financial institution/fintech consulting context.",
+          "url": "https://bizfaculty.nus.edu.sg/wp-content/uploads/sites/139/2026/01/Keppo_2601.pdf"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_program_supervisor_page",
+          "label": "AIDF supervisor taxonomy lists Keppo across FinTech platform/economics, forecasting and credit/risk/investment themes.",
+          "url": "https://www.aidf.nus.edu.sg/prospective-supervisors/"
+        }
+      ],
+      "summary": "研究主题：风险管理、运筹优化、银行监管、投资决策。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "decision",
+        "asset",
+        "digital"
+      ],
+      "topics": [
+        "风险管理",
+        "运筹优化",
+        "银行监管",
+        "投资决策"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "department": "Department of Mathematics; Centre for Quantitative Finance",
+      "education": [],
+      "homepage": "https://www.math.nus.edu.sg/quantitative-finance-conference-2025/",
+      "id": "r_marko_weber_nus",
+      "institution": "NUS",
+      "institutionFull": "National University of Singapore",
+      "name": "Marko Weber",
+      "nameVariants": [
+        "Marko Weber"
+      ],
+      "position": "Assistant Professor in Mathematical Finance",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_profile",
+          "label": "NUS数学系当前名录确认助理教授、市场摩擦与系统风险",
+          "url": "https://www.math.nus.edu.sg/people/regular-faculty/"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_department_event_page",
+          "label": "NUS Math page establishes current position and mathematical-finance research focus.",
+          "url": "https://www.math.nus.edu.sg/quantitative-finance-conference-2025/"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_department_pdf",
+          "label": "NUS QF 2025 program links Weber to machine-learning applications to finance/deep hedging work.",
+          "url": "https://www.math.nus.edu.sg/wp-content/uploads/sites/4/2025/07/2025_CQF_Conference_Program-6.pdf"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_program_supervisor_page",
+          "label": "AIDF supervisor taxonomy lists Weber in forecasting and credit/risk/investment categories.",
+          "url": "https://www.aidf.nus.edu.sg/prospective-supervisors/"
+        }
+      ],
+      "summary": "研究主题：数学金融、系统性风险、市场摩擦、深度对冲。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "asset",
+        "decision",
+        "ml"
+      ],
+      "topics": [
+        "数学金融",
+        "系统性风险",
+        "市场摩擦",
+        "深度对冲"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "department": "School of Computing, Department of Computer Science",
+      "education": [],
+      "homepage": "https://www.comp.nus.edu.sg/~atung/",
+      "id": "r_anthony_tung_nus",
+      "institution": "NUS",
+      "institutionFull": "National University of Singapore",
+      "name": "Anthony K. H. Tung",
+      "nameVariants": [
+        "Anthony K. H. Tung"
+      ],
+      "position": "Professor",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_profile",
+          "label": "Current NUS CS professor role and CS PhD; official faculty identity.",
+          "url": "https://www.comp.nus.edu.sg/cs/people/atung/"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "nus_hosted_personal_profile",
+          "label": "NUS-hosted homepage establishes finance/crypto application domain and financial time-series/agentic workflow items.",
+          "url": "https://www.comp.nus.edu.sg/~atung/"
+        }
+      ],
+      "summary": "研究主题：金融时序智能体、可解释机器学习、加密市场模拟。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "finai",
+        "ts",
+        "ml"
+      ],
+      "topics": [
+        "金融时序智能体",
+        "可解释机器学习",
+        "加密市场模拟"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "department": "School of Physical and Mathematical Sciences, Division of Mathematical Sciences",
+      "education": [],
+      "homepage": "https://personal.ntu.edu.sg/ariel.neufeld/",
+      "id": "r_ariel_neufeld_ntu",
+      "institution": "NTU",
+      "institutionFull": "Nanyang Technological University",
+      "name": "Ariel Neufeld",
+      "nameVariants": [
+        "Ariel Neufeld"
+      ],
+      "position": "Tenured Associate Professor",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_faculty_list",
+          "label": "NTU SPMS faculty list establishes role, PhD and research interests.",
+          "url": "https://www.ntu.edu.sg/spms/about-us/mathematics/people/faculty"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_university_personal_profile",
+          "label": "NTU-hosted homepage establishes research focus, open positions and current group members.",
+          "url": "https://personal.ntu.edu.sg/ariel.neufeld/"
+        }
+      ],
+      "summary": "研究主题：神经网络对冲、鲁棒Q-learning、金融数学、随机控制。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "finai",
+        "decision",
+        "asset",
+        "ml"
+      ],
+      "topics": [
+        "神经网络对冲",
+        "鲁棒Q-learning",
+        "金融数学",
+        "随机控制"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "department": "School of Physical and Mathematical Sciences, Division of Mathematical Sciences",
+      "education": [],
+      "homepage": "https://personal.ntu.edu.sg/cspun/",
+      "id": "r_patrick_pun_ntu",
+      "institution": "NTU",
+      "institutionFull": "Nanyang Technological University",
+      "name": "Chi Seng Patrick Pun",
+      "nameVariants": [
+        "Chi Seng Patrick Pun"
+      ],
+      "position": "Associate Professor",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_faculty_list",
+          "label": "NTU SPMS page establishes role, graduate-studies/FinTech programme roles, PhD and research interests.",
+          "url": "https://www.ntu.edu.sg/spms/about-us/mathematics/people/faculty"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_university_personal_profile",
+          "label": "NTU-hosted personal redirect; full page requires external redirect, so use official faculty list for substantive claims.",
+          "url": "https://personal.ntu.edu.sg/cspun/"
+        }
+      ],
+      "summary": "研究主题：金融数学、鲁棒随机控制、高维统计、衍生品定价。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "asset",
+        "decision",
+        "ts"
+      ],
+      "topics": [
+        "金融数学",
+        "鲁棒随机控制",
+        "高维统计",
+        "衍生品定价"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "department": "Nanyang Business School; College of Computing and Data Science; Global Institute of Finance, Technology, and Society",
+      "education": [],
+      "homepage": "https://www.linwilliamcong.com/about",
+      "id": "r_lin_william_cong_ntu",
+      "institution": "NTU",
+      "institutionFull": "Nanyang Technological University",
+      "name": "Lin William Cong",
+      "nameVariants": [
+        "Lin William Cong"
+      ],
+      "position": "President’s Chair Professor of Finance, Computing and Data Science; Founding Director, GIFTS",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_profile",
+          "label": "NTU CCDS当前名录确认联合任职",
+          "url": "https://www.ntu.edu.sg/computing/our-faculty/faculty-at-ccds"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_institute_news",
+          "label": "NTU launch article establishes role, institute mission, AI+finance focus and joint PhD pathway language.",
+          "url": "https://www.ntu.edu.sg/gifts/events-and-programmes/news/detail/launch-of-the-global-institute-of-finance--technology--and-society-gifts"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "personal_academic_profile",
+          "label": "Academic profile establishes joint NTU NBS/CCDS role and broader finance/AI/digital economy leadership.",
+          "url": "https://www.linwilliamcong.com/about"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "lab_page",
+          "label": "DEFT Lab page lists research areas including AI for Finance and Social Sciences.",
+          "url": "https://www.linwilliamcong.com/deft-members"
+        }
+      ],
+      "summary": "研究主题：AI与金融、数字经济、金融科技、智能体经济。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "finai",
+        "digital",
+        "asset"
+      ],
+      "topics": [
+        "AI与金融",
+        "数字经济",
+        "金融科技",
+        "智能体经济"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "department": "Nanyang Business School, Division of Finance; GIFTS/DEFT affiliate",
+      "education": [],
+      "homepage": "https://www.zhiminchen.net/",
+      "id": "r_zhimin_chen_ntu",
+      "institution": "NTU",
+      "institutionFull": "Nanyang Technological University",
+      "name": "Zhimin Chen",
+      "nameVariants": [
+        "Zhimin Chen"
+      ],
+      "position": "Assistant Professor of Finance; Faculty Affiliate, GIFTS",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_profile",
+          "label": "NTU Finance当前名录确认助理教授",
+          "url": "https://www.ntu.edu.sg/business/academic-divisions/finance/our-faculty"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "personal_academic_profile",
+          "label": "Current NTU role and AI-in-finance research agenda.",
+          "url": "https://www.zhiminchen.net/"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "lab_page",
+          "label": "DEFT Lab page lists Zhimin Chen and research areas asset pricing and AI in finance.",
+          "url": "https://www.linwilliamcong.com/deft-members"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_institute_people_page",
+          "label": "NTU GIFTS people page lists Chen Zhimin as NBS finance faculty affiliate with AI/green-finance keywords.",
+          "url": "https://www.ntu.edu.sg/gifts/people"
+        }
+      ],
+      "summary": "研究主题：机器学习资产定价、AI in Finance、气候金融。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "finai",
+        "asset"
+      ],
+      "topics": [
+        "机器学习资产定价",
+        "AI in Finance",
+        "气候金融"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "department": "College of Computer Science and Artificial Intelligence / Shanghai Key Laboratory of Data Science",
+      "education": [],
+      "homepage": "https://datascience.fudan.edu.cn/e1/61/c13398a123233/page.htm",
+      "id": "r_yun_xiong_fudan",
+      "institution": "Fudan",
+      "institutionFull": "复旦大学",
+      "name": "熊赟 / Yun Xiong",
+      "nameVariants": [
+        "熊赟",
+        "Yun Xiong"
+      ],
+      "position": "Professor, Doctoral Supervisor",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official faculty profile",
+          "label": "Current Fudan CS professor and doctoral-supervisor status plus data-mining applications in finance and insurance.",
+          "url": "https://datascience.fudan.edu.cn/e1/61/c13398a123233/page.htm"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "lecture/training profile",
+          "label": "Financial-market trading-behavior analysis / financial-technology-facing evidence.",
+          "url": "https://sef.shisu.edu.cn/b8/1b/c10094a112667/page.psp"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "coauthor ecosystem reference",
+          "label": "Connection to Jiarong Xu financial foundation model / graph risk-assessment ecosystem.",
+          "url": "https://galina0217.github.io/"
+        }
+      ],
+      "summary": "研究主题：金融数据挖掘、图学习、金融风险评估。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "finai",
+        "ts",
+        "ml"
+      ],
+      "topics": [
+        "金融数据挖掘",
+        "图学习",
+        "金融风险评估"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-22"
+    },
+    {
+      "department": "Department of Computer Science and Engineering",
+      "education": [],
+      "homepage": "https://cse.hkust.edu.hk/admin/people/faculty/profile/qyang?u=qyang",
+      "id": "r_qiang_yang_hkust",
+      "institution": "HKUST",
+      "institutionFull": "The Hong Kong University of Science and Technology",
+      "name": "Qiang Yang / YANG Qiang / 杨强",
+      "nameVariants": [
+        "Qiang Yang",
+        "YANG Qiang",
+        "杨强"
+      ],
+      "position": "Professor Emeritus",
+      "publicationCoverage": {
+        "abstractCount": 0,
+        "authorVerifiedCount": 0,
+        "boundaryDateCount": 0,
+        "checkedAt": null,
+        "collectedCount": 0,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [],
+        "recentCount": 0,
+        "sourcesChecked": [],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-08-31",
+        "windowStart": "2021-08-31",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_profile",
+          "label": "Current HKUST CSE emeritus identity, CS PhD and technical research interests.",
+          "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/qyang?u=qyang"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_faculty_roster",
+          "label": "Qiang Yang remains listed in HKUST CSE emeritus faculty roster.",
+          "url": "https://cse.hkust.edu.hk/admin/people/faculty/?c=emeritus&s=name"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_personal_page",
+          "label": "Professor Emeritus since 2023 and WeBank Chief AI Officer from 2018 to 2025, plus federated/transfer learning interests.",
+          "url": "https://home.cse.ust.hk/~qyang/"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "official_event_page",
+          "label": "HKUST-hosted finance application evidence for federated learning.",
+          "url": "https://caire.hkust.edu.hk/events/federated-learning-applications-health-care-finance-and-edge-computing"
+        },
+        {
+          "checkedAt": "2026-09-22",
+          "kind": "formal_company_filing",
+          "label": "Current external biography: Chief AI Advisor of WeBank, Professor Emeritus and former HKUST CSE head; useful for industry-finance status, not PhD supervision.",
+          "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0411/2025041100488.pdf"
+        }
+      ],
+      "summary": "研究主题：联邦学习、隐私保护、银行AI、迁移学习。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "finai",
+        "digital",
+        "ml"
+      ],
+      "topics": [
+        "联邦学习",
+        "隐私保护",
+        "银行AI",
+        "迁移学习"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-09-22"
     }
   ],
   "schemaVersion": 3,
@@ -56946,5 +59327,5 @@
       "name": "ML Theory & Optimization"
     }
   ],
-  "updatedAt": "2026-09-21"
+  "updatedAt": "2026-09-23"
 }
