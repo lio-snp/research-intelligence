@@ -40160,6 +40160,396 @@
       "verifiedAt": "2026-09-24",
       "versions": [],
       "year": 2026
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-09-25",
+        "reason": "原始论文页摘要核验，非全文评审。",
+        "source": "https://aclanthology.org/2026.findings-acl.775/",
+        "status": "available"
+      },
+      "abstractSummary": "金融视觉检索将页面图像的多个patch向量汇成单向量后，可能丢失数字细节。作者用金融文档诊断基准发现，单个数字变化的文档可被聚合为近似向量，而patch层面仍能区分；摘要将该现象归因于全局纹理主导。仅核摘要，不推断所有视觉检索系统均失效。",
+      "authorEvidence": {
+        "checkedAt": "2026-09-25",
+        "kind": "publisher",
+        "label": "原始论文页：作者顺序、日期及摘要",
+        "url": "https://aclanthology.org/2026.findings-acl.775/"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Ho Hung Lim",
+        "Yi Yang"
+      ],
+      "authorships": [
+        {
+          "name": "Ho Hung Lim",
+          "position": 1,
+          "researcherId": null
+        },
+        {
+          "name": "Yi Yang",
+          "position": 2,
+          "researcherId": "r_yi_yang_hkust"
+        }
+      ],
+      "contribution": {
+        "note": "完整作者顺序已核，具体贡献未核；不以位次推断贡献。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2026-07",
+      "datePrecision": "month",
+      "doi": "10.18653/v1/2026.findings-acl.775",
+      "id": "pub_yi_yang_visual_retrieval",
+      "paradigms": [
+        "diagnostic",
+        "measurement"
+      ],
+      "publicationStatus": "published",
+      "publicationType": "conference",
+      "questionId": "q_pub_yi_yang_visual_retrieval",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "将金融页面的视觉patch聚合成单向量，会在何种情况下掩盖影响含义的数字变化？",
+      "researcherIds": [
+        "r_yi_yang_hkust"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-09-25",
+          "kind": "publisher",
+          "label": "原始论文页：作者顺序、日期及摘要",
+          "url": "https://aclanthology.org/2026.findings-acl.775/"
+        },
+        {
+          "checkedAt": "2026-09-25",
+          "kind": "preprint",
+          "label": "原始论文页：作者顺序、日期及摘要",
+          "url": "https://arxiv.org/abs/2605.14581v1"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "finai"
+      ],
+      "title": "A Picture is Worth a Thousand Words? An Empirical Study of Aggregation Strategies for Visual Financial Document Retrieval",
+      "url": "https://aclanthology.org/2026.findings-acl.775/",
+      "venue": "Findings of ACL 2026: 15820–15829",
+      "verifiedAt": "2026-09-25",
+      "versions": [
+        {
+          "authorEvidence": {
+            "checkedAt": "2026-09-25",
+            "kind": "preprint",
+            "label": "原始论文页：作者顺序、日期及摘要",
+            "url": "https://arxiv.org/abs/2605.14581v1"
+          },
+          "authorListComplete": true,
+          "authorOrderVerified": true,
+          "authors": [
+            "Ho Hung Lim",
+            "Yi Yang"
+          ],
+          "date": "2026-05-14",
+          "datePrecision": "day",
+          "doi": "10.48550/arXiv.2605.14581",
+          "publicationStatus": "preprint",
+          "publicationType": "preprint",
+          "sources": [
+            {
+              "checkedAt": "2026-09-25",
+              "kind": "preprint",
+              "label": "原始论文页：作者顺序、日期及摘要",
+              "url": "https://arxiv.org/abs/2605.14581v1"
+            }
+          ],
+          "title": "A Picture is Worth a Thousand Words? An Empirical Study of Aggregation Strategies for Visual Financial Document Retrieval",
+          "url": "https://arxiv.org/abs/2605.14581v1",
+          "venue": "arXiv v1",
+          "year": 2026
+        }
+      ],
+      "year": 2026
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-09-25",
+        "reason": "原始论文页摘要核验，非全文评审。",
+        "source": "https://pubsonline.informs.org/doi/abs/10.1287/isre.2023.0519",
+        "status": "available"
+      },
+      "abstractSummary": "针对业绩电话会议文本长、风险预测信号分散的问题，作者将讨论主题建为节点、主题相似性建为边，用会话图组织文本并学习用于金融风险预测的表示。这里依据出版商摘要概括方法，不将预测效果解释为因果关系，也未核全文或复现实验。",
+      "authorEvidence": {
+        "checkedAt": "2026-09-25",
+        "kind": "publisher",
+        "label": "原始论文页：作者顺序、日期及摘要",
+        "url": "https://pubsonline.informs.org/doi/abs/10.1287/isre.2023.0519"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Yi Yang",
+        "Yixuan Tang",
+        "Yangyang Fan",
+        "Kunpeng Zhang"
+      ],
+      "authorships": [
+        {
+          "name": "Yi Yang",
+          "position": 1,
+          "researcherId": "r_yi_yang_hkust"
+        },
+        {
+          "name": "Yixuan Tang",
+          "position": 2,
+          "researcherId": null
+        },
+        {
+          "name": "Yangyang Fan",
+          "position": 3,
+          "researcherId": null
+        },
+        {
+          "name": "Kunpeng Zhang",
+          "position": 4,
+          "researcherId": null
+        }
+      ],
+      "contribution": {
+        "note": "完整作者顺序已核，具体贡献未核；不以位次推断贡献。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2026-01-16",
+      "datePrecision": "day",
+      "doi": "10.1287/isre.2023.0519",
+      "id": "pub_yi_yang_earnings_graph",
+      "paradigms": [
+        "measurement"
+      ],
+      "publicationStatus": "published",
+      "publicationType": "journal",
+      "questionId": "q_pub_yi_yang_earnings_graph",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "如何用主题及其关联构成的会话图，从冗长的业绩电话会议中提取分散的金融风险预测信号？",
+      "researcherIds": [
+        "r_yi_yang_hkust"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-09-25",
+          "kind": "publisher",
+          "label": "原始论文页：作者顺序、日期及摘要",
+          "url": "https://pubsonline.informs.org/doi/abs/10.1287/isre.2023.0519"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "finai",
+        "digital"
+      ],
+      "title": "Learning from Earnings Calls: Graph-Based Conversational Modeling for Financial Prediction",
+      "url": "https://pubsonline.informs.org/doi/abs/10.1287/isre.2023.0519",
+      "venue": "Information Systems Research (advance online publication)",
+      "verifiedAt": "2026-09-25",
+      "versions": [],
+      "year": 2026
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-09-25",
+        "reason": "原始论文页摘要核验，非全文评审。",
+        "source": "https://aclanthology.org/2025.emnlp-main.179/",
+        "status": "available"
+      },
+      "abstractSummary": "FinMTEB包含中英双语的64个金融数据集、7类嵌入任务，并评估15种模型。作者用角色合成数据适配Fin-E5；摘要报告通用基准表现不能很好预测金融任务表现，且词袋模型在金融语义相似度任务中优于所测稠密嵌入。结论限于所测任务与模型，未独立复现。",
+      "authorEvidence": {
+        "checkedAt": "2026-09-25",
+        "kind": "publisher",
+        "label": "原始论文页：作者顺序、日期及摘要",
+        "url": "https://aclanthology.org/2025.emnlp-main.179/"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Yixuan Tang",
+        "Yi Yang"
+      ],
+      "authorships": [
+        {
+          "name": "Yixuan Tang",
+          "position": 1,
+          "researcherId": null
+        },
+        {
+          "name": "Yi Yang",
+          "position": 2,
+          "researcherId": "r_yi_yang_hkust"
+        }
+      ],
+      "contribution": {
+        "note": "完整作者顺序已核，具体贡献未核；不以位次推断贡献。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2025-11",
+      "datePrecision": "month",
+      "doi": "10.18653/v1/2025.emnlp-main.179",
+      "id": "pub_yi_yang_finmteb",
+      "paradigms": [
+        "measurement",
+        "diagnostic"
+      ],
+      "publicationStatus": "published",
+      "publicationType": "conference",
+      "questionId": "q_pub_yi_yang_finmteb",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "通用文本嵌入基准能否反映金融领域表现，领域适配与传统词袋方法在不同金融任务上各有什么边界？",
+      "researcherIds": [
+        "r_yi_yang_hkust"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-09-25",
+          "kind": "publisher",
+          "label": "原始论文页：作者顺序、日期及摘要",
+          "url": "https://aclanthology.org/2025.emnlp-main.179/"
+        },
+        {
+          "checkedAt": "2026-09-25",
+          "kind": "preprint",
+          "label": "原始论文页：作者顺序、日期及摘要",
+          "url": "https://arxiv.org/abs/2502.10990v1"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "finai"
+      ],
+      "title": "FinMTEB: Finance Massive Text Embedding Benchmark",
+      "url": "https://aclanthology.org/2025.emnlp-main.179/",
+      "venue": "EMNLP 2025: 3620–3638",
+      "verifiedAt": "2026-09-25",
+      "versions": [
+        {
+          "authorEvidence": {
+            "checkedAt": "2026-09-25",
+            "kind": "preprint",
+            "label": "原始论文页：作者顺序、日期及摘要",
+            "url": "https://arxiv.org/abs/2502.10990v1"
+          },
+          "authorListComplete": true,
+          "authorOrderVerified": true,
+          "authors": [
+            "Yixuan Tang",
+            "Yi Yang"
+          ],
+          "date": "2025-02-16",
+          "datePrecision": "day",
+          "doi": "10.48550/arXiv.2502.10990",
+          "publicationStatus": "preprint",
+          "publicationType": "preprint",
+          "sources": [
+            {
+              "checkedAt": "2026-09-25",
+              "kind": "preprint",
+              "label": "原始论文页：作者顺序、日期及摘要",
+              "url": "https://arxiv.org/abs/2502.10990v1"
+            }
+          ],
+          "title": "FinMTEB: Finance Massive Text Embedding Benchmark",
+          "url": "https://arxiv.org/abs/2502.10990v1",
+          "venue": "arXiv v1",
+          "year": 2025
+        }
+      ],
+      "year": 2025
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-09-25",
+        "reason": "原始论文页摘要核验，非全文评审。",
+        "source": "https://arxiv.org/abs/2605.00501v1",
+        "status": "available"
+      },
+      "abstractSummary": "针对回归或常用排序损失与金融Rank IC指标不一致，LambdaRankIC从成对名次交换推导lambda梯度，并作为XGBoost自定义目标训练。作者在模拟和金融数据上报告排序及投资指标改善。仅核预印本摘要，未验证理论证明、回测设计或实盘收益，未确认正式录用。",
+      "authorEvidence": {
+        "checkedAt": "2026-09-25",
+        "kind": "preprint",
+        "label": "原始论文页：作者顺序、日期及摘要",
+        "url": "https://arxiv.org/abs/2605.00501v1"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Yan Lin",
+        "Yihong Su",
+        "Yi Yang"
+      ],
+      "authorships": [
+        {
+          "name": "Yan Lin",
+          "position": 1,
+          "researcherId": null
+        },
+        {
+          "name": "Yihong Su",
+          "position": 2,
+          "researcherId": null
+        },
+        {
+          "name": "Yi Yang",
+          "position": 3,
+          "researcherId": "r_yi_yang_hkust"
+        }
+      ],
+      "contribution": {
+        "note": "完整作者顺序已核，具体贡献未核；不以位次推断贡献。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2026-05-01",
+      "datePrecision": "day",
+      "doi": "10.48550/arxiv.2605.00501",
+      "id": "pub_yi_yang_lambdarankic",
+      "paradigms": [
+        "measurement"
+      ],
+      "publicationStatus": "preprint",
+      "publicationType": "preprint",
+      "questionId": "q_pub_yi_yang_lambdarankic",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "如何使金融收益预测的训练目标更贴近Rank IC，并检验其相较回归和其他排序目标的样本外表现？",
+      "researcherIds": [
+        "r_yi_yang_hkust"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-09-25",
+          "kind": "preprint",
+          "label": "原始论文页：作者顺序、日期及摘要",
+          "url": "https://arxiv.org/abs/2605.00501v1"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "finai",
+        "asset"
+      ],
+      "title": "LambdaRankIC: Directly Optimizing Rank IC for Financial Prediction",
+      "url": "https://arxiv.org/abs/2605.00501v1",
+      "venue": "arXiv:2605.00501 v1",
+      "verifiedAt": "2026-09-25",
+      "versions": [],
+      "year": 2026
     }
   ],
   "paradigms": [
@@ -40261,8 +40651,8 @@
   "publicCurationNote": "公开研究资料快照。主题、研究问题与研究线为编辑归纳，不代表学者本人陈述或机构背书。",
   "publicRelease": {
     "channel": "stable",
-    "snapshotDate": "2026-09-23",
-    "version": "3.3.13"
+    "snapshotDate": "2026-09-24",
+    "version": "3.3.14"
   },
   "publicationPolicy": {
     "authorshipNote": "署名位次不等于贡献排名；通讯作者、共同贡献和具体分工只按原文证据标注。",
@@ -40276,15 +40666,15 @@
     "versionNote": "同一研究的预印本与发表版本分开保留证据；摘要来源可能与主书目版本不同。"
   },
   "publicationStats": {
-    "abstracts": 376,
+    "abstracts": 380,
     "fullTexts": 4,
     "outsideWindow": 6,
-    "papers": 389,
-    "recentPapers": 383,
+    "papers": 393,
+    "recentPapers": 387,
     "researchers": 103,
     "reviewedSources": 11,
-    "verifiedBylines": 388,
-    "withPapers": 26
+    "verifiedBylines": 392,
+    "withPapers": 27
   },
   "questionClusters": [
     {
@@ -40448,6 +40838,7 @@
         "pub_xiaoyan_2025_when_do_short_sellers_trade_evidence_from_intrad",
         "pub_xiaoyan_2023_finding_anomalies_in_china",
         "pub_xiaoyan_undated_the_china_u_s_equity_valuation_gap",
+        "pub_yi_yang_lambdarankic",
         "pub_yingying_dominate_historical_average",
         "pub_yingying_cross_sectional_sdf",
         "pub_zhanhui_inferring_stock_duration"
@@ -40495,6 +40886,7 @@
         "q_pub_xiaoyan_2025_when_do_short_sellers_trade_evidence_from_intrad",
         "q_pub_xiaoyan_2023_finding_anomalies_in_china",
         "q_pub_xiaoyan_undated_the_china_u_s_equity_valuation_gap",
+        "q_pub_yi_yang_lambdarankic",
         "q_pub_yingying_dominate_historical_average",
         "q_pub_yingying_cross_sectional_sdf",
         "q_pub_zhanhui_inferring_stock_duration"
@@ -40510,10 +40902,11 @@
         "r_lian",
         "r_qi_liu_hku",
         "r_xiaoyan",
+        "r_yi_yang_hkust",
         "r_yingying",
         "r_zhanhui"
       ],
-      "reviewedAt": "2026-09-22",
+      "reviewedAt": "2026-09-25",
       "themes": [
         "asset",
         "decision",
@@ -41987,7 +42380,8 @@
         "pub_difan_2025_stgan_spatial_temporal_graph_autoregression_netw",
         "pub_difan_2024_on_the_limitation_and_experience_replay_for_gnns",
         "pub_difan_2024_pres_toward_scalable_memory_based_dynamic_graph_",
-        "pub_ke_2024_big_portfolio_selection_by_graph_based_condition"
+        "pub_ke_2024_big_portfolio_selection_by_graph_based_condition",
+        "pub_yi_yang_earnings_graph"
       ],
       "question": "如何利用或学习图结构，获得适合下游任务的表示？",
       "questionIds": [
@@ -42004,18 +42398,21 @@
         "q_pub_difan_2025_stgan_spatial_temporal_graph_autoregression_netw",
         "q_pub_difan_2024_on_the_limitation_and_experience_replay_for_gnns",
         "q_pub_difan_2024_pres_toward_scalable_memory_based_dynamic_graph_",
-        "q_pub_ke_2024_big_portfolio_selection_by_graph_based_condition"
+        "q_pub_ke_2024_big_portfolio_selection_by_graph_based_condition",
+        "q_pub_yi_yang_earnings_graph"
       ],
       "researcherIds": [
         "r_chao",
         "r_difan",
-        "r_ke"
+        "r_ke",
+        "r_yi_yang_hkust"
       ],
-      "reviewedAt": "2026-08-31",
+      "reviewedAt": "2026-09-25",
       "themes": [
         "asset",
         "decision",
         "digital",
+        "finai",
         "ml",
         "ts"
       ],
@@ -42309,7 +42706,8 @@
         "pub_difan_2025_parallelized_autoregressive_visual_generation",
         "pub_difan_2025_self_contradiction_as_self_improvement_mitigatin",
         "pub_difan_2025_speculative_jacobi_denoising_decoding_for_accele",
-        "pub_sha_cmrag"
+        "pub_sha_cmrag",
+        "pub_yi_yang_visual_retrieval"
       ],
       "question": "如何对齐和融合不同模态的信息来完成学习任务？",
       "questionIds": [
@@ -42324,17 +42722,20 @@
         "q_pub_difan_2025_parallelized_autoregressive_visual_generation",
         "q_pub_difan_2025_self_contradiction_as_self_improvement_mitigatin",
         "q_pub_difan_2025_speculative_jacobi_denoising_decoding_for_accele",
-        "q_pub_sha_cmrag"
+        "q_pub_sha_cmrag",
+        "q_pub_yi_yang_visual_retrieval"
       ],
       "researcherIds": [
         "r_chao",
         "r_difan",
-        "r_lei_sha"
+        "r_lei_sha",
+        "r_yi_yang_hkust"
       ],
-      "reviewedAt": "2026-09-08",
+      "reviewedAt": "2026-09-25",
       "themes": [
         "decision",
         "digital",
+        "finai",
         "ml",
         "ts"
       ],
@@ -42352,7 +42753,8 @@
         "pub_chao_2025_rag_anything_all_in_one_rag_framework",
         "pub_sha_cmrag",
         "pub_sha_multiview_rag",
-        "pub_sha_atm"
+        "pub_sha_atm",
+        "pub_yi_yang_visual_retrieval"
       ],
       "question": "如何组织和检索外部知识，使生成系统能利用相关且可追溯的证据？",
       "questionIds": [
@@ -42363,15 +42765,18 @@
         "q_pub_chao_2025_rag_anything_all_in_one_rag_framework",
         "q_pub_sha_cmrag",
         "q_pub_sha_multiview_rag",
-        "q_pub_sha_atm"
+        "q_pub_sha_atm",
+        "q_pub_yi_yang_visual_retrieval"
       ],
       "researcherIds": [
         "r_chao",
-        "r_lei_sha"
+        "r_lei_sha",
+        "r_yi_yang_hkust"
       ],
-      "reviewedAt": "2026-09-10",
+      "reviewedAt": "2026-09-25",
       "themes": [
         "digital",
+        "finai",
         "ml"
       ],
       "title": "检索增强与知识组织"
@@ -42390,7 +42795,8 @@
         "pub_difan_2026_msavbench_towards_comprehensive_and_reliable_eva",
         "pub_difan_2025_beyond_surface_structure_a_causal_assessment_of_",
         "pub_sha_harmonized_uncertainty",
-        "pub_qi_liu_alphaqt"
+        "pub_qi_liu_alphaqt",
+        "pub_yi_yang_finmteb"
       ],
       "question": "如何评价模型能力与可靠性，并识别和缓解系统性偏差？",
       "questionIds": [
@@ -42403,16 +42809,18 @@
         "q_pub_difan_2026_msavbench_towards_comprehensive_and_reliable_eva",
         "q_pub_difan_2025_beyond_surface_structure_a_causal_assessment_of_",
         "q_pub_sha_harmonized_uncertainty",
-        "q_pub_qi_liu_alphaqt"
+        "q_pub_qi_liu_alphaqt",
+        "q_pub_yi_yang_finmteb"
       ],
       "researcherIds": [
         "r_bo_an",
         "r_chao",
         "r_difan",
         "r_lei_sha",
-        "r_qi_liu_hku"
+        "r_qi_liu_hku",
+        "r_yi_yang_hkust"
       ],
-      "reviewedAt": "2026-09-21",
+      "reviewedAt": "2026-09-25",
       "themes": [
         "asset",
         "decision",
@@ -42673,12 +43081,12 @@
       {
         "awaitingEvidence": 0,
         "awaitingExtraction": 0,
-        "clustered": 35,
-        "clusters": 16,
-        "extracted": 35,
+        "clustered": 39,
+        "clusters": 19,
+        "extracted": 39,
         "multiPaperClusters": 10,
-        "papers": 35,
-        "singlePaperClusters": 6,
+        "papers": 39,
+        "singlePaperClusters": 9,
         "staleEvidence": 0,
         "themeId": "finai",
         "unclustered": 0
@@ -42699,11 +43107,11 @@
       {
         "awaitingEvidence": 6,
         "awaitingExtraction": 0,
-        "clustered": 119,
+        "clustered": 120,
         "clusters": 27,
-        "extracted": 119,
+        "extracted": 120,
         "multiPaperClusters": 21,
-        "papers": 125,
+        "papers": 126,
         "singlePaperClusters": 6,
         "staleEvidence": 0,
         "themeId": "asset",
@@ -42725,12 +43133,12 @@
       {
         "awaitingEvidence": 0,
         "awaitingExtraction": 0,
-        "clustered": 45,
+        "clustered": 46,
         "clusters": 23,
-        "extracted": 45,
-        "multiPaperClusters": 15,
-        "papers": 45,
-        "singlePaperClusters": 8,
+        "extracted": 46,
+        "multiPaperClusters": 16,
+        "papers": 46,
+        "singlePaperClusters": 7,
         "staleEvidence": 0,
         "themeId": "digital",
         "unclustered": 0
@@ -42749,11 +43157,11 @@
         "unclustered": 0
       }
     ],
-    "clustered": 376,
+    "clustered": 380,
     "clusters": 50,
-    "extracted": 376,
+    "extracted": 380,
     "multiPaperClusters": 43,
-    "papers": 389,
+    "papers": 393,
     "singlePaperClusters": 7,
     "staleEvidence": 0,
     "unclustered": 0
@@ -51651,6 +52059,99 @@
       ],
       "reviewedAt": "2026-09-24",
       "text": "如何利用一阶最优条件和KKT残差训练神经网络，求解含递归效用及控制约束的消费储蓄与动态决策问题？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_rag_knowledge",
+        "qc_multimodal_learning"
+      ],
+      "evidence": {
+        "digest": "b1b05f7c9165c2716f135d9ff0daf70b5f00fe359ebb54df7b8d2bae66c4fbe9",
+        "excerpt": "金融视觉检索将页面图像的多个patch向量汇成单向量后，可能丢失数字细节。作者用金融文档诊断基准发现，单个数字变化的文档可被聚合为近似向量，而patch层面仍能区分；摘要将该现象归因于全局纹理主导。仅核摘要，不推断所有视觉检索系统均失效。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-09-25",
+          "kind": "abstract_summary",
+          "label": "已有摘要概览所列来源",
+          "url": "https://aclanthology.org/2026.findings-acl.775/"
+        }
+      },
+      "id": "q_pub_yi_yang_visual_retrieval",
+      "paperIds": [
+        "pub_yi_yang_visual_retrieval"
+      ],
+      "reviewedAt": "2026-09-25",
+      "text": "将金融页面的视觉patch聚合成单向量，会在何种情况下掩盖影响含义的数字变化？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_graph_representation"
+      ],
+      "evidence": {
+        "digest": "5b168b059c0381bd2ab2419e294663b869798fe5fe7f202a768232636300cc6a",
+        "excerpt": "针对业绩电话会议文本长、风险预测信号分散的问题，作者将讨论主题建为节点、主题相似性建为边，用会话图组织文本并学习用于金融风险预测的表示。这里依据出版商摘要概括方法，不将预测效果解释为因果关系，也未核全文或复现实验。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-09-25",
+          "kind": "abstract_summary",
+          "label": "已有摘要概览所列来源",
+          "url": "https://pubsonline.informs.org/doi/abs/10.1287/isre.2023.0519"
+        }
+      },
+      "id": "q_pub_yi_yang_earnings_graph",
+      "paperIds": [
+        "pub_yi_yang_earnings_graph"
+      ],
+      "reviewedAt": "2026-09-25",
+      "text": "如何用主题及其关联构成的会话图，从冗长的业绩电话会议中提取分散的金融风险预测信号？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_model_evaluation"
+      ],
+      "evidence": {
+        "digest": "4d11addfca8a9fbe5461091b5eab23ea6775cbd6bdeb111f612007a1286db927",
+        "excerpt": "FinMTEB包含中英双语的64个金融数据集、7类嵌入任务，并评估15种模型。作者用角色合成数据适配Fin-E5；摘要报告通用基准表现不能很好预测金融任务表现，且词袋模型在金融语义相似度任务中优于所测稠密嵌入。结论限于所测任务与模型，未独立复现。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-09-25",
+          "kind": "abstract_summary",
+          "label": "已有摘要概览所列来源",
+          "url": "https://aclanthology.org/2025.emnlp-main.179/"
+        }
+      },
+      "id": "q_pub_yi_yang_finmteb",
+      "paperIds": [
+        "pub_yi_yang_finmteb"
+      ],
+      "reviewedAt": "2026-09-25",
+      "text": "通用文本嵌入基准能否反映金融领域表现，领域适配与传统词袋方法在不同金融任务上各有什么边界？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_asset_risk_premia"
+      ],
+      "evidence": {
+        "digest": "764569d1e40c43aa5ac2d0111bc91f43902051899e8ed8344aec28c7f61b0d38",
+        "excerpt": "针对回归或常用排序损失与金融Rank IC指标不一致，LambdaRankIC从成对名次交换推导lambda梯度，并作为XGBoost自定义目标训练。作者在模拟和金融数据上报告排序及投资指标改善。仅核预印本摘要，未验证理论证明、回测设计或实盘收益，未确认正式录用。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-09-25",
+          "kind": "abstract_summary",
+          "label": "已有摘要概览所列来源",
+          "url": "https://arxiv.org/abs/2605.00501v1"
+        }
+      },
+      "id": "q_pub_yi_yang_lambdarankic",
+      "paperIds": [
+        "pub_yi_yang_lambdarankic"
+      ],
+      "reviewedAt": "2026-09-25",
+      "text": "如何使金融收益预测的训练目标更贴近Rank IC，并检验其相较回归和其他排序目标的样本外表现？"
     }
   ],
   "researchers": [
@@ -55569,23 +56070,53 @@
       "nameVariants": [],
       "position": "Associate Professor",
       "publicationCoverage": {
-        "abstractCount": 0,
-        "authorVerifiedCount": 0,
+        "abstractCount": 4,
+        "authorVerifiedCount": 4,
         "boundaryDateCount": 0,
-        "checkedAt": null,
-        "collectedCount": 0,
+        "checkedAt": "2026-09-25",
+        "collectedCount": 4,
         "extended": true,
         "fullTextCount": 0,
         "gaps": [
           "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
         ],
         "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
-        "paperIds": [],
-        "recentCount": 0,
-        "sourcesChecked": [],
+        "paperIds": [
+          "pub_yi_yang_visual_retrieval",
+          "pub_yi_yang_earnings_graph",
+          "pub_yi_yang_finmteb",
+          "pub_yi_yang_lambdarankic"
+        ],
+        "recentCount": 4,
+        "sourcesChecked": [
+          {
+            "checkedAt": "2026-09-25",
+            "kind": "publisher",
+            "label": "原始论文页：作者顺序、日期及摘要",
+            "url": "https://aclanthology.org/2026.findings-acl.775/"
+          },
+          {
+            "checkedAt": "2026-09-25",
+            "kind": "publisher",
+            "label": "原始论文页：作者顺序、日期及摘要",
+            "url": "https://pubsonline.informs.org/doi/abs/10.1287/isre.2023.0519"
+          },
+          {
+            "checkedAt": "2026-09-25",
+            "kind": "publisher",
+            "label": "原始论文页：作者顺序、日期及摘要",
+            "url": "https://aclanthology.org/2025.emnlp-main.179/"
+          },
+          {
+            "checkedAt": "2026-09-25",
+            "kind": "preprint",
+            "label": "原始论文页：作者顺序、日期及摘要",
+            "url": "https://arxiv.org/abs/2605.00501v1"
+          }
+        ],
         "status": "partial",
         "threshold": 5,
-        "uncertainDateCount": 0,
+        "uncertainDateCount": 2,
         "windowEnd": "2026-08-31",
         "windowStart": "2021-08-31",
         "windowYears": 5
@@ -59327,5 +59858,5 @@
       "name": "ML Theory & Optimization"
     }
   ],
-  "updatedAt": "2026-09-23"
+  "updatedAt": "2026-09-24"
 }
