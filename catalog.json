@@ -13853,16 +13853,16 @@
     },
     {
       "abstractAvailability": {
-        "checkedAt": "2026-08-31",
-        "reason": "已读取公开摘要并写入具体中文概览",
-        "source": "https://arxiv.org/abs/2602.05859",
+        "checkedAt": "2026-09-27",
+        "reason": "已对照会议官方摘要与arXiv摘要，核心结论无实质变化，保留原摘要级概览；OpenReview版本修订记录未直接获取。",
+        "source": "https://icml.cc/virtual/2026/poster/63199",
         "status": "available"
       },
       "abstractSummary": "DLM-Scope 将 sparse autoencoder 引入 diffusion language models，发现 Top-K SAE 可抽取可解释特征；摘要还指出早层插入 SAE 在 DLM 中可能降低 cross-entropy，并可用于 diffusion-time steering 与解码顺序信号分析。",
       "authorEvidence": {
-        "checkedAt": "2026-08-31",
-        "kind": "dblp_ee",
-        "url": "https://doi.org/10.48550/arXiv.2602.05859"
+        "checkedAt": "2026-09-27",
+        "kind": "official_conference_record",
+        "url": "https://icml.cc/virtual/2026/poster/63199"
       },
       "authorListComplete": true,
       "authorOrderVerified": true,
@@ -13912,12 +13912,18 @@
       },
       "coverageScope": "recent",
       "date": null,
+      "dateEvidence": {
+        "checkedAt": "2026-09-27",
+        "kind": "official_conference_record",
+        "note": "会议年份已核；具体出版日未核，不以海报日冒充出版日。首个预印本日期单列于版本。",
+        "url": "https://icml.cc/virtual/2026/poster/63199"
+      },
       "datePrecision": "year",
-      "doi": "10.48550/arxiv.2602.05859",
+      "doi": "",
       "id": "pub_difan_2026_dlm_scope_mechanistic_interpretability_of_diffus",
       "paradigms": [],
-      "publicationStatus": "preprint",
-      "publicationType": "preprint",
+      "publicationStatus": "accepted",
+      "publicationType": "conference",
       "questionId": "q_pub_difan_2026_dlm_scope_mechanistic_interpretability_of_diffus",
       "questionStatus": "extracted",
       "readDepth": "abstract",
@@ -13941,18 +13947,64 @@
           "kind": "preprint",
           "label": "Abstract source",
           "url": "https://arxiv.org/abs/2602.05859"
+        },
+        {
+          "checkedAt": "2026-09-27",
+          "kind": "official_conference_record",
+          "label": "ICML 2026 official accepted poster record",
+          "url": "https://icml.cc/virtual/2026/poster/63199"
+        },
+        {
+          "checkedAt": "2026-09-27",
+          "kind": "official_conference_metadata",
+          "label": "ICML 2026 official metadata: authors and acceptance",
+          "url": "https://icml.cc/static/virtual/data/icml-2026-orals-posters.json"
         }
       ],
       "summaryBasis": "abstract",
       "themes": [
-        "ml",
-        "digital"
+        "ml"
       ],
       "title": "DLM-Scope: Mechanistic Interpretability of Diffusion Language Models via Sparse Autoencoders",
-      "url": "https://doi.org/10.48550/arXiv.2602.05859",
-      "venue": "CoRR",
-      "verifiedAt": "2026-08-31",
-      "versions": [],
+      "url": "https://icml.cc/virtual/2026/poster/63199",
+      "venue": "ICML 2026",
+      "verifiedAt": "2026-09-27",
+      "versions": [
+        {
+          "authorEvidence": {
+            "checkedAt": "2026-09-27",
+            "kind": "preprint",
+            "url": "https://arxiv.org/abs/2602.05859"
+          },
+          "authorListComplete": true,
+          "authorOrderVerified": true,
+          "authors": [
+            "Xu Wang",
+            "Bingqing Jiang",
+            "Yu Wan",
+            "Baosong Yang",
+            "Lingpeng Kong",
+            "Difan Zou"
+          ],
+          "date": "2026-02-05",
+          "datePrecision": "day",
+          "doi": "10.48550/arXiv.2602.05859",
+          "publicationStatus": "preprint",
+          "publicationType": "preprint",
+          "sources": [
+            {
+              "checkedAt": "2026-09-27",
+              "kind": "preprint",
+              "label": "arXiv v1: original submission date and complete author order",
+              "url": "https://arxiv.org/abs/2602.05859"
+            }
+          ],
+          "title": "DLM-Scope: Mechanistic Interpretability of Diffusion Language Models via Sparse Autoencoders",
+          "url": "https://doi.org/10.48550/arXiv.2602.05859",
+          "venue": "CoRR",
+          "year": 2026
+        }
+      ],
       "year": 2026
     },
     {
@@ -15999,16 +16051,16 @@
     },
     {
       "abstractAvailability": {
-        "checkedAt": "2026-08-31",
-        "reason": "已读取公开摘要并写入具体中文概览",
-        "source": "https://arxiv.org/abs/2510.03659",
+        "checkedAt": "2026-09-27",
+        "reason": "已对照会议官方摘要与arXiv摘要，核心结论无实质变化，保留原摘要级概览；OpenReview版本修订记录未直接获取。",
+        "source": "https://iclr.cc/virtual/2026/poster/10009623",
         "status": "available"
       },
       "abstractSummary": "通过成对分析检验 SAE feature 的 interpretability 是否等于 steering utility；摘要报告二者只有弱正相关，按 Delta Token Confidence 选高效 steering features 后相关性消失甚至转负，说明可解释性和可控性不能直接画等号。",
       "authorEvidence": {
-        "checkedAt": "2026-08-31",
-        "kind": "dblp_ee",
-        "url": "https://doi.org/10.48550/arXiv.2510.03659"
+        "checkedAt": "2026-09-27",
+        "kind": "official_conference_record",
+        "url": "https://iclr.cc/virtual/2026/poster/10009623"
       },
       "authorListComplete": true,
       "authorOrderVerified": true,
@@ -16046,12 +16098,18 @@
       },
       "coverageScope": "recent",
       "date": null,
+      "dateEvidence": {
+        "checkedAt": "2026-09-27",
+        "kind": "official_conference_record",
+        "note": "会议年份已核；具体出版日未核，不以海报日冒充出版日。首个预印本日期单列于版本。",
+        "url": "https://iclr.cc/virtual/2026/poster/10009623"
+      },
       "datePrecision": "year",
-      "doi": "10.48550/arxiv.2510.03659",
+      "doi": "",
       "id": "pub_difan_2025_does_higher_interpretability_imply_better_utilit",
       "paradigms": [],
-      "publicationStatus": "preprint",
-      "publicationType": "preprint",
+      "publicationStatus": "accepted",
+      "publicationType": "conference",
       "questionId": "q_pub_difan_2025_does_higher_interpretability_imply_better_utilit",
       "questionStatus": "extracted",
       "readDepth": "abstract",
@@ -16075,18 +16133,63 @@
           "kind": "preprint",
           "label": "Abstract source",
           "url": "https://arxiv.org/abs/2510.03659"
+        },
+        {
+          "checkedAt": "2026-09-27",
+          "kind": "official_conference_record",
+          "label": "ICLR 2026 official accepted poster record",
+          "url": "https://iclr.cc/virtual/2026/poster/10009623"
+        },
+        {
+          "checkedAt": "2026-09-27",
+          "kind": "official_conference_metadata",
+          "label": "ICLR 2026 official metadata: authors and acceptance",
+          "url": "https://iclr.cc/static/virtual/data/iclr-2026-orals-posters.json"
         }
       ],
       "summaryBasis": "abstract",
       "themes": [
-        "digital"
+        "ml"
       ],
       "title": "Does higher interpretability imply better utility? A Pairwise Analysis on Sparse Autoencoders",
-      "url": "https://doi.org/10.48550/arXiv.2510.03659",
-      "venue": "CoRR",
-      "verifiedAt": "2026-08-31",
-      "versions": [],
-      "year": 2025
+      "url": "https://iclr.cc/virtual/2026/poster/10009623",
+      "venue": "ICLR 2026",
+      "verifiedAt": "2026-09-27",
+      "versions": [
+        {
+          "authorEvidence": {
+            "checkedAt": "2026-09-27",
+            "kind": "preprint",
+            "url": "https://arxiv.org/abs/2510.03659"
+          },
+          "authorListComplete": true,
+          "authorOrderVerified": true,
+          "authors": [
+            "Xu Wang",
+            "Yan Hu",
+            "Benyou Wang",
+            "Difan Zou"
+          ],
+          "date": "2025-10-04",
+          "datePrecision": "day",
+          "doi": "10.48550/arXiv.2510.03659",
+          "publicationStatus": "preprint",
+          "publicationType": "preprint",
+          "sources": [
+            {
+              "checkedAt": "2026-09-27",
+              "kind": "preprint",
+              "label": "arXiv v1: original submission date and complete author order",
+              "url": "https://arxiv.org/abs/2510.03659"
+            }
+          ],
+          "title": "Does higher interpretability imply better utility? A Pairwise Analysis on Sparse Autoencoders",
+          "url": "https://doi.org/10.48550/arXiv.2510.03659",
+          "venue": "CoRR",
+          "year": 2025
+        }
+      ],
+      "year": 2026
     },
     {
       "abstractAvailability": {
@@ -40868,18 +40971,18 @@
   "publicCurationNote": "公开研究资料快照。主题、研究问题与研究线为编辑归纳，不代表学者本人陈述或机构背书。",
   "publicRelease": {
     "channel": "stable",
-    "snapshotDate": "2026-09-25",
-    "version": "3.3.15"
+    "snapshotDate": "2026-09-26",
+    "version": "3.3.16"
   },
   "publicationPolicy": {
     "authorshipNote": "署名位次不等于贡献排名；通讯作者、共同贡献和具体分工只按原文证据标注。",
     "coverageNote": "近三年资料不足时回溯五年；日期不完整与补充文献分别标明，收录不承诺穷尽。",
-    "defaultStart": "2023-09-25",
+    "defaultStart": "2023-09-26",
     "defaultYears": 3,
-    "extendedStart": "2021-09-25",
+    "extendedStart": "2021-09-26",
     "extendedYears": 5,
     "extensionThreshold": 5,
-    "snapshotDate": "2026-09-25",
+    "snapshotDate": "2026-09-26",
     "versionNote": "同一研究的预印本与发表版本分开保留证据；摘要来源可能与主书目版本不同。"
   },
   "publicationStats": {
@@ -43361,12 +43464,12 @@
       {
         "awaitingEvidence": 0,
         "awaitingExtraction": 0,
-        "clustered": 46,
+        "clustered": 44,
         "clusters": 23,
-        "extracted": 46,
-        "multiPaperClusters": 16,
-        "papers": 46,
-        "singlePaperClusters": 7,
+        "extracted": 44,
+        "multiPaperClusters": 14,
+        "papers": 44,
+        "singlePaperClusters": 9,
         "staleEvidence": 0,
         "themeId": "digital",
         "unclustered": 0
@@ -43374,11 +43477,11 @@
       {
         "awaitingEvidence": 3,
         "awaitingExtraction": 0,
-        "clustered": 229,
+        "clustered": 230,
         "clusters": 37,
-        "extracted": 229,
+        "extracted": 230,
         "multiPaperClusters": 32,
-        "papers": 232,
+        "papers": 233,
         "singlePaperClusters": 5,
         "staleEvidence": 0,
         "themeId": "ml",
@@ -46216,10 +46319,10 @@
         "excerpt": "DLM-Scope 将 sparse autoencoder 引入 diffusion language models，发现 Top-K SAE 可抽取可解释特征；摘要还指出早层插入 SAE 在 DLM 中可能降低 cross-entropy，并可用于 diffusion-time steering 与解码顺序信号分析。",
         "field": "abstractSummary",
         "source": {
-          "checkedAt": "2026-08-31",
+          "checkedAt": "2026-09-27",
           "kind": "abstract_summary",
           "label": "已有摘要概览所列来源",
-          "url": "https://arxiv.org/abs/2602.05859"
+          "url": "https://icml.cc/virtual/2026/poster/63199"
         }
       },
       "id": "q_pub_difan_2026_dlm_scope_mechanistic_interpretability_of_diffus",
@@ -46691,10 +46794,10 @@
         "excerpt": "通过成对分析检验 SAE feature 的 interpretability 是否等于 steering utility；摘要报告二者只有弱正相关，按 Delta Token Confidence 选高效 steering features 后相关性消失甚至转负，说明可解释性和可控性不能直接画等号。",
         "field": "abstractSummary",
         "source": {
-          "checkedAt": "2026-08-31",
+          "checkedAt": "2026-09-27",
           "kind": "abstract_summary",
           "label": "已有摘要概览所列来源",
-          "url": "https://arxiv.org/abs/2510.03659"
+          "url": "https://iclr.cc/virtual/2026/poster/10009623"
         }
       },
       "id": "q_pub_difan_2025_does_higher_interpretability_imply_better_utilit",
@@ -52432,7 +52535,7 @@
   ],
   "researchers": [
     {
-      "department": "Department of Computer Science / Institute of Data Science",
+      "department": "School of Computing and Data Science / Department of Computer Science / Institute of Data Science",
       "education": [],
       "homepage": "https://difanzou.github.io/",
       "id": "r_difan",
@@ -52444,7 +52547,7 @@
       "publicationCoverage": {
         "abstractCount": 85,
         "authorVerifiedCount": 88,
-        "boundaryDateCount": 29,
+        "boundaryDateCount": 30,
         "checkedAt": "2026-08-31",
         "collectedCount": 88,
         "extended": false,
@@ -52563,8 +52666,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 87,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2023-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2023-09-26",
         "windowYears": 3
       },
       "sources": [
@@ -52582,20 +52685,28 @@
           "kind": "bibliographic_index",
           "label": "DBLP person record",
           "url": "https://dblp.org/pid/161/8923.html"
+        },
+        {
+          "checkedAt": "2026-09-27",
+          "kind": "official_university_event",
+          "label": "HKU IDS官方讲座：任职、SAE解释性、控制与模型遗忘研究",
+          "url": "https://datascience.hku.hk/2026/03/hku-ids-scholar-seminar-series-24-unlocking-interpretable-control-for-large-language-models-and-beyond-via-sparse-autoencoders/"
         }
       ],
-      "summary": "研究主题：ML theory、optimization、diffusion。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "summary": "研究主题：机器学习理论、优化、扩散模型、LLM机制解释、稀疏自编码器与模型控制。主题关联为编辑归纳，请结合论文和官方来源判断。",
       "themes": [
         "ml",
         "decision"
       ],
       "topics": [
-        "ML theory",
-        "optimization",
-        "diffusion"
+        "机器学习理论",
+        "优化",
+        "扩散模型",
+        "LLM机制解释",
+        "稀疏自编码器与模型控制"
       ],
       "verification": "verified",
-      "verifiedAt": "2026-08-31"
+      "verifiedAt": "2026-09-27"
     },
     {
       "department": "Department of Systems Engineering and Engineering Management",
@@ -52666,8 +52777,8 @@
         "status": "reviewed_sources",
         "threshold": 5,
         "uncertainDateCount": 6,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2023-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2023-09-26",
         "windowYears": 3
       },
       "sources": [
@@ -52790,8 +52901,8 @@
         "status": "reviewed_sources",
         "threshold": 5,
         "uncertainDateCount": 2,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2023-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2023-09-26",
         "windowYears": 3
       },
       "sources": [
@@ -52879,8 +52990,8 @@
         "status": "reviewed_sources",
         "threshold": 5,
         "uncertainDateCount": 23,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2023-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2023-09-26",
         "windowYears": 3
       },
       "sources": [
@@ -53043,8 +53154,8 @@
         "status": "reviewed_sources",
         "threshold": 5,
         "uncertainDateCount": 96,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2023-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2023-09-26",
         "windowYears": 3
       },
       "sources": [
@@ -53131,8 +53242,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 8,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2023-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2023-09-26",
         "windowYears": 3
       },
       "sources": [
@@ -53222,8 +53333,8 @@
         "status": "reviewed_sources",
         "threshold": 5,
         "uncertainDateCount": 9,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2023-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2023-09-26",
         "windowYears": 3
       },
       "sources": [
@@ -53321,8 +53432,8 @@
         "status": "reviewed_sources",
         "threshold": 5,
         "uncertainDateCount": 17,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2023-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2023-09-26",
         "windowYears": 3
       },
       "sources": [
@@ -53417,8 +53528,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 5,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -53515,8 +53626,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 5,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2023-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2023-09-26",
         "windowYears": 3
       },
       "sources": [
@@ -53603,8 +53714,8 @@
         "status": "reviewed_sources",
         "threshold": 5,
         "uncertainDateCount": 7,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2023-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2023-09-26",
         "windowYears": 3
       },
       "sources": [
@@ -53690,8 +53801,8 @@
         "status": "reviewed_sources",
         "threshold": 5,
         "uncertainDateCount": 7,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2023-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2023-09-26",
         "windowYears": 3
       },
       "sources": [
@@ -53782,8 +53893,8 @@
         "status": "reviewed_sources",
         "threshold": 5,
         "uncertainDateCount": 24,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2023-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2023-09-26",
         "windowYears": 3
       },
       "sources": [
@@ -53881,8 +53992,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 3,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2023-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2023-09-26",
         "windowYears": 3
       },
       "sources": [
@@ -53990,8 +54101,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 7,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -54082,8 +54193,8 @@
         "status": "reviewed_sources",
         "threshold": 5,
         "uncertainDateCount": 3,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2023-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2023-09-26",
         "windowYears": 3
       },
       "sources": [
@@ -54196,8 +54307,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 2,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -54326,8 +54437,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 9,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2023-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2023-09-26",
         "windowYears": 3
       },
       "sources": [
@@ -54426,8 +54537,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 4,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2023-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2023-09-26",
         "windowYears": 3
       },
       "sources": [
@@ -54544,8 +54655,8 @@
         "status": "reviewed_sources",
         "threshold": 5,
         "uncertainDateCount": 7,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2023-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2023-09-26",
         "windowYears": 3
       },
       "sources": [
@@ -54610,8 +54721,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 2,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2023-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2023-09-26",
         "windowYears": 3
       },
       "sources": [
@@ -54687,8 +54798,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -54759,8 +54870,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -54834,8 +54945,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -54904,8 +55015,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -54971,8 +55082,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -55040,8 +55151,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -55111,8 +55222,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -55182,8 +55293,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -55252,8 +55363,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -55319,8 +55430,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -55389,8 +55500,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -55460,8 +55571,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -55530,8 +55641,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -55626,8 +55737,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 1,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -55682,8 +55793,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -55746,8 +55857,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -55800,8 +55911,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -55869,8 +55980,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -55925,8 +56036,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -55999,8 +56110,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -56061,8 +56172,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -56134,8 +56245,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -56191,8 +56302,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -56219,15 +56330,15 @@
       "verifiedAt": "2026-09-16"
     },
     {
-      "department": "深圳国际研究生院 / 经管深圳院区",
+      "department": "经济管理学院金融系 / 经管深圳院区 / 深圳国际研究生院",
       "education": [],
-      "homepage": "https://www.sigs.tsinghua.edu.cn/ly1_7168/main.htm",
+      "homepage": "https://www.sigs.tsinghua.edu.cn/ly1_7168/main.psp",
       "id": "r_yan_liu_tsinghua_sigs",
       "institution": "Tsinghua",
       "institutionFull": "清华大学",
       "name": "刘岩 / Yan Liu",
       "nameVariants": [],
-      "position": "教授、博士生导师",
+      "position": "讲席教授、博士生导师",
       "publicationCoverage": {
         "abstractCount": 0,
         "authorVerifiedCount": 0,
@@ -56246,8 +56357,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -56256,6 +56367,12 @@
           "kind": "official_profile",
           "label": "SIGS page lists Liu Yan as professor and doctoral supervisor, with SEM Shenzhen finance appointment and Center for Computational Finance director role.",
           "url": "https://www.sigs.tsinghua.edu.cn/ly1_7168/main.htm"
+        },
+        {
+          "checkedAt": "2026-09-27",
+          "kind": "official_profile",
+          "label": "SIGS官方主页：双聘讲席教授、计算金融研究中心主任；常年博士招生说明不代表特定年份名额",
+          "url": "https://www.sigs.tsinghua.edu.cn/ly1_7168/main.psp"
         }
       ],
       "summary": "研究主题：计算金融、机器学习金融、资产定价、计量经济学、另类数据。主题关联为编辑归纳，请结合论文和官方来源判断。",
@@ -56272,7 +56389,7 @@
         "另类数据"
       ],
       "verification": "verified",
-      "verifiedAt": "2026-09-16"
+      "verifiedAt": "2026-09-27"
     },
     {
       "department": "School of Computing, Department of Computer Science",
@@ -56302,8 +56419,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -56407,8 +56524,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 3,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2023-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2023-09-26",
         "windowYears": 3
       },
       "sources": [
@@ -56476,8 +56593,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -56540,8 +56657,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -56602,8 +56719,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -56699,8 +56816,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 2,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -56753,8 +56870,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -56810,8 +56927,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -56867,8 +56984,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -56923,8 +57040,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -56978,8 +57095,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -57036,8 +57153,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -57108,8 +57225,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -57174,8 +57291,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -57246,8 +57363,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -57310,8 +57427,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -57373,8 +57490,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -57437,8 +57554,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -57501,8 +57618,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -57563,8 +57680,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -57624,8 +57741,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -57687,8 +57804,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -57750,8 +57867,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -57812,8 +57929,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -57881,8 +57998,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -57949,8 +58066,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -58017,8 +58134,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -58098,8 +58215,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -58167,8 +58284,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -58224,8 +58341,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -58280,8 +58397,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -58343,8 +58460,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -58401,8 +58518,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -58459,8 +58576,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -58522,8 +58639,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -58591,8 +58708,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -58654,8 +58771,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -58712,8 +58829,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -58769,8 +58886,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -58833,8 +58950,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -58891,8 +59008,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -58955,8 +59072,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -59012,8 +59129,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -59081,8 +59198,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -59156,8 +59273,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -59219,8 +59336,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -59293,8 +59410,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -59361,8 +59478,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -59436,8 +59553,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -59505,8 +59622,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -59580,8 +59697,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -59655,8 +59772,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -59717,8 +59834,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -59781,8 +59898,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -59844,8 +59961,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -59919,8 +60036,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -59999,8 +60116,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -60069,8 +60186,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-25",
-        "windowStart": "2021-09-25",
+        "windowEnd": "2026-09-26",
+        "windowStart": "2021-09-26",
         "windowYears": 5
       },
       "sources": [
@@ -60154,5 +60271,5 @@
       "name": "ML Theory & Optimization"
     }
   ],
-  "updatedAt": "2026-09-25"
+  "updatedAt": "2026-09-26"
 }
