@@ -40870,6 +40870,475 @@
         }
       ],
       "year": 2026
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-09-28",
+        "reason": "摘要级证据；未独立核证全文方法与实验。",
+        "source": "https://arxiv.org/abs/2401.15139",
+        "status": "available"
+      },
+      "abstractSummary": "针对股票收益等高度相关变量，作者扩展T-Rex变量筛选框架，以近邻惩罚处理重叠相关组，并在所述假设下控制错误发现率。摘要展示用较少股票跟踪S&P 500的稀疏组合实例。仅核摘要、完整署名和正式版元数据，未审查回测交易成本或独立验证收益。",
+      "authorEvidence": {
+        "checkedAt": "2026-09-28",
+        "kind": "publisher_metadata",
+        "label": "IEEE提交的正式出版元数据：完整署名与DOI",
+        "url": "https://api.crossref.org/works/10.1109/icassp49660.2025.10890629"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Jasin Machkour",
+        "Daniel P. Palomar",
+        "Michael Muma"
+      ],
+      "authorships": [
+        {
+          "name": "Jasin Machkour",
+          "position": 1,
+          "researcherId": null
+        },
+        {
+          "name": "Daniel P. Palomar",
+          "position": 2,
+          "researcherId": "r_daniel_palomar_hkust"
+        },
+        {
+          "name": "Michael Muma",
+          "position": 3,
+          "researcherId": null
+        }
+      ],
+      "contribution": {
+        "note": "完整署名及位次已核；不以位次推断贡献。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": null,
+      "dateEvidence": {
+        "checkedAt": "2026-09-28",
+        "note": "HKUST记录电子发布2025-03-07，而出版商Crossref登记出版日期2025-04-06与会议开始日相同；保留年份并记录差异，不把会议日默认为首次发表日。"
+      },
+      "datePrecision": "year",
+      "doi": "10.1109/icassp49660.2025.10890629",
+      "id": "pub_palomar_fdr_index_tracking",
+      "paradigms": [
+        "measurement"
+      ],
+      "publicationStatus": "published",
+      "publicationType": "conference",
+      "questionId": "q_pub_palomar_fdr_index_tracking",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "如何在股票高度相关时控制变量筛选的错误发现率，并构建稀疏指数跟踪组合？",
+      "researcherIds": [
+        "r_daniel_palomar_hkust"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-09-28",
+          "kind": "publisher_metadata",
+          "label": "IEEE提交的正式出版元数据：完整署名与DOI",
+          "url": "https://api.crossref.org/works/10.1109/icassp49660.2025.10890629"
+        },
+        {
+          "checkedAt": "2026-09-28",
+          "kind": "official_publications",
+          "label": "大学官方论文目录",
+          "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=daniel-p-palomar-palomar"
+        },
+        {
+          "checkedAt": "2026-09-28",
+          "kind": "preprint",
+          "label": "同题同署名arXiv预印本：摘要与版本日期",
+          "url": "https://arxiv.org/abs/2401.15139"
+        },
+        {
+          "checkedAt": "2026-09-28",
+          "kind": "official_publications",
+          "label": "HKUST正式会议记录与摘要",
+          "url": "https://researchportal.hkust.edu.hk/en/publications/fdr-controlled-portfolio-optimization-for-sparse-financial-index-/"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "asset",
+        "ml"
+      ],
+      "title": "FDR-Controlled Portfolio Optimization for Sparse Financial Index Tracking",
+      "url": "https://doi.org/10.1109/ICASSP49660.2025.10890629",
+      "venue": "ICASSP 2025, article 10890629",
+      "verifiedAt": "2026-09-28",
+      "versions": [
+        {
+          "authorEvidence": {
+            "checkedAt": "2026-09-28",
+            "kind": "preprint",
+            "label": "同题同署名arXiv预印本：摘要与版本日期",
+            "url": "https://arxiv.org/abs/2401.15139"
+          },
+          "authorListComplete": true,
+          "authorOrderVerified": true,
+          "authors": [
+            "Jasin Machkour",
+            "Daniel P. Palomar",
+            "Michael Muma"
+          ],
+          "date": "2024-01-26",
+          "datePrecision": "day",
+          "doi": "10.48550/arXiv.2401.15139",
+          "publicationStatus": "preprint",
+          "publicationType": "preprint",
+          "sources": [
+            {
+              "checkedAt": "2026-09-28",
+              "kind": "preprint",
+              "label": "同题同署名arXiv预印本：摘要与版本日期",
+              "url": "https://arxiv.org/abs/2401.15139"
+            }
+          ],
+          "title": "FDR-Controlled Portfolio Optimization for Sparse Financial Index Tracking",
+          "url": "https://arxiv.org/abs/2401.15139",
+          "venue": "arXiv",
+          "year": 2024
+        }
+      ],
+      "year": 2025
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-09-28",
+        "reason": "摘要级证据；未独立核证全文方法与实验。",
+        "source": "https://arxiv.org/abs/2602.05798",
+        "status": "available"
+      },
+      "abstractSummary": "作者用合成数据训练的神经网络替代T-Rex中的解析错误发现比例估计器，试图在近似错误发现率控制下提高真变量检出能力。摘要报告模拟和合成GWAS评估；属于通用高维统计与机器学习方法，来源未验证金融应用。仅核摘要与书目，不将近似控制提升为严格普适保证。",
+      "authorEvidence": {
+        "checkedAt": "2026-09-28",
+        "kind": "publisher_metadata",
+        "label": "IEEE提交的正式出版元数据：完整署名与DOI",
+        "url": "https://api.crossref.org/works/10.1109/icassp55912.2026.11463077"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Arnau Vilella",
+        "Jasin Machkour",
+        "Michael Muma",
+        "Daniel P. Palomar"
+      ],
+      "authorships": [
+        {
+          "name": "Arnau Vilella",
+          "position": 1,
+          "researcherId": null
+        },
+        {
+          "name": "Jasin Machkour",
+          "position": 2,
+          "researcherId": null
+        },
+        {
+          "name": "Michael Muma",
+          "position": 3,
+          "researcherId": null
+        },
+        {
+          "name": "Daniel P. Palomar",
+          "position": 4,
+          "researcherId": "r_daniel_palomar_hkust"
+        }
+      ],
+      "contribution": {
+        "note": "完整署名及位次已核；不以位次推断贡献。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": null,
+      "dateEvidence": {
+        "checkedAt": "2026-09-28",
+        "note": "出版商Crossref记录2026-05-03与会议开始日相同；主记录只填2026年，arXiv初版日期独立保存。"
+      },
+      "datePrecision": "year",
+      "doi": "10.1109/icassp55912.2026.11463077",
+      "id": "pub_palomar_learning_fdr_nn",
+      "paradigms": [
+        "measurement"
+      ],
+      "publicationStatus": "published",
+      "publicationType": "conference",
+      "questionId": "q_pub_palomar_learning_fdr_nn",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "用合成数据训练的错误发现比例估计器，能否在近似错误发现率控制下提升高维变量筛选能力？",
+      "researcherIds": [
+        "r_daniel_palomar_hkust"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-09-28",
+          "kind": "publisher_metadata",
+          "label": "IEEE提交的正式出版元数据：完整署名与DOI",
+          "url": "https://api.crossref.org/works/10.1109/icassp55912.2026.11463077"
+        },
+        {
+          "checkedAt": "2026-09-28",
+          "kind": "official_publications",
+          "label": "大学官方论文目录",
+          "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=daniel-p-palomar-palomar"
+        },
+        {
+          "checkedAt": "2026-09-28",
+          "kind": "preprint",
+          "label": "同题同署名arXiv预印本：摘要与版本日期",
+          "url": "https://arxiv.org/abs/2602.05798"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "ml"
+      ],
+      "title": "Learning False Discovery Rate Control via Model-Based Neural Networks",
+      "url": "https://doi.org/10.1109/ICASSP55912.2026.11463077",
+      "venue": "ICASSP 2026, article 11463077",
+      "verifiedAt": "2026-09-28",
+      "versions": [
+        {
+          "authorEvidence": {
+            "checkedAt": "2026-09-28",
+            "kind": "preprint",
+            "label": "同题同署名arXiv预印本：摘要与版本日期",
+            "url": "https://arxiv.org/abs/2602.05798"
+          },
+          "authorListComplete": true,
+          "authorOrderVerified": true,
+          "authors": [
+            "Arnau Vilella",
+            "Jasin Machkour",
+            "Michael Muma",
+            "Daniel P. Palomar"
+          ],
+          "date": "2026-02-05",
+          "datePrecision": "day",
+          "doi": "10.48550/arXiv.2602.05798",
+          "publicationStatus": "preprint",
+          "publicationType": "preprint",
+          "sources": [
+            {
+              "checkedAt": "2026-09-28",
+              "kind": "preprint",
+              "label": "同题同署名arXiv预印本：摘要与版本日期",
+              "url": "https://arxiv.org/abs/2602.05798"
+            }
+          ],
+          "title": "Learning False Discovery Rate Control via Model-Based Neural Networks",
+          "url": "https://arxiv.org/abs/2602.05798",
+          "venue": "arXiv",
+          "year": 2026
+        }
+      ],
+      "year": 2026
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-09-28",
+        "reason": "摘要级证据；未独立核证全文方法与实验。",
+        "source": "https://www1.se.cuhk.edu.hk/~nchenweb/Publications/ssrn-6426761.pdf",
+        "status": "available"
+      },
+      "abstractSummary": "在序贯泡沫博弈中，LLM智能体即使面对唯一不交易均衡也可能投机。作者通过推理能力、对手标签和均衡结构的变化分析信念形成；提高推理能力可减轻部分非理性投机，但不保证消除泡沫，多重均衡下仍可能协调到投机均衡。本条内容依据CUHK保存的2026-03-16版本摘要；SSRN索引显示后续修订，但最新PDF未取得，未宣称全文或最新版本结果已审查。",
+      "authorEvidence": {
+        "checkedAt": "2026-09-28",
+        "kind": "paper_pdf",
+        "label": "CUHK原文首页：完整署名及摘要",
+        "url": "https://www1.se.cuhk.edu.hk/~nchenweb/Publications/ssrn-6426761.pdf"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Álvaro Cartea",
+        "Patrick Chang",
+        "Nan Chen",
+        "Mingyue Zhong"
+      ],
+      "authorships": [
+        {
+          "name": "Álvaro Cartea",
+          "position": 1,
+          "researcherId": null
+        },
+        {
+          "name": "Patrick Chang",
+          "position": 2,
+          "researcherId": null
+        },
+        {
+          "name": "Nan Chen",
+          "position": 3,
+          "researcherId": "r_nan_chen_cuhk"
+        },
+        {
+          "name": "Mingyue Zhong",
+          "position": 4,
+          "researcherId": null
+        }
+      ],
+      "contribution": {
+        "note": "完整署名及位次已核；不以位次推断贡献。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": null,
+      "dateEvidence": {
+        "checkedAt": "2026-09-28",
+        "note": "2026-03-16为CUHK PDF版本日期；SSRN检索记录显示首次发布2026-03-31、修订2026-07-12。因最新PDF未直接获取，主记录保守只填年份，不以写作日冒充发表日。"
+      },
+      "datePrecision": "year",
+      "doi": "10.2139/ssrn.6426761",
+      "id": "pub_nan_chen_ai_bubbles",
+      "paradigms": [
+        "diagnostic",
+        "measurement"
+      ],
+      "publicationStatus": "working_paper",
+      "publicationType": "working_paper",
+      "questionId": "q_pub_nan_chen_ai_bubbles",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "LLM智能体的推理能力、信念与对手标签如何影响其泡沫交易及均衡选择？",
+      "researcherIds": [
+        "r_nan_chen_cuhk"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-09-28",
+          "kind": "paper_pdf",
+          "label": "CUHK原文首页：完整署名及摘要",
+          "url": "https://www1.se.cuhk.edu.hk/~nchenweb/Publications/ssrn-6426761.pdf"
+        },
+        {
+          "checkedAt": "2026-09-28",
+          "kind": "official_publications",
+          "label": "大学官方论文目录",
+          "url": "https://www1.se.cuhk.edu.hk/~nchenweb/Publications.html"
+        },
+        {
+          "checkedAt": "2026-09-28",
+          "kind": "preprint",
+          "label": "SSRN检索索引：同题同署名、DOI及修订记录；直连403",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6426761"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "finai",
+        "asset"
+      ],
+      "title": "AI Bubbles with Large Language Models",
+      "url": "https://www1.se.cuhk.edu.hk/~nchenweb/Publications/ssrn-6426761.pdf",
+      "venue": "SSRN working paper 6426761",
+      "verifiedAt": "2026-09-28",
+      "versions": [],
+      "year": 2026
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-09-28",
+        "reason": "摘要级证据；未独立核证全文方法与实验。",
+        "source": "https://www1.se.cuhk.edu.hk/~nchenweb/Publications/MARL_Nan_Chen_Short.pdf",
+        "status": "available"
+      },
+      "abstractSummary": "作者提出一般和随机博弈中的去中心化双时间尺度多智能体学习：根据对手动作估计信念，以扰动最佳响应更新策略，并让Q值更新快于策略与信念。在特定局部稳定吸引域条件下分析近似纳什收敛；Bertrand竞争和算法做市场景显示合谋取决于初始策略、耐心与信念，知情交易可抑制做市合谋。仅核摘要与署名，未独立核证证明或复现实验。",
+      "authorEvidence": {
+        "checkedAt": "2026-09-28",
+        "kind": "paper_pdf",
+        "label": "CUHK原文首页：完整署名及摘要",
+        "url": "https://www1.se.cuhk.edu.hk/~nchenweb/Publications/MARL_Nan_Chen_Short.pdf"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Nan Chen",
+        "Yumin Xu",
+        "Ruixun Zhang",
+        "Mingyue Zhong"
+      ],
+      "authorships": [
+        {
+          "name": "Nan Chen",
+          "position": 1,
+          "researcherId": "r_nan_chen_cuhk"
+        },
+        {
+          "name": "Yumin Xu",
+          "position": 2,
+          "researcherId": null
+        },
+        {
+          "name": "Ruixun Zhang",
+          "position": 3,
+          "researcherId": null
+        },
+        {
+          "name": "Mingyue Zhong",
+          "position": 4,
+          "researcherId": null
+        }
+      ],
+      "contribution": {
+        "note": "完整署名及位次已核；不以位次推断贡献。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": null,
+      "dateEvidence": {
+        "checkedAt": "2026-09-28",
+        "note": "CUHK列为2026工作论文；PDF上的2026-11-06至07会议标记是未来活动信息，不作为已发表或已录用证据。"
+      },
+      "datePrecision": "year",
+      "doi": "",
+      "id": "pub_nan_chen_belief_two_timescale",
+      "paradigms": [
+        "measurement"
+      ],
+      "publicationStatus": "working_paper",
+      "publicationType": "working_paper",
+      "questionId": "q_pub_nan_chen_belief_two_timescale",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "基于对手信念的双时间尺度学习在何种局部条件下收敛，并如何影响市场中的合谋与均衡选择？",
+      "researcherIds": [
+        "r_nan_chen_cuhk"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-09-28",
+          "kind": "paper_pdf",
+          "label": "CUHK原文首页：完整署名及摘要",
+          "url": "https://www1.se.cuhk.edu.hk/~nchenweb/Publications/MARL_Nan_Chen_Short.pdf"
+        },
+        {
+          "checkedAt": "2026-09-28",
+          "kind": "official_publications",
+          "label": "大学官方论文目录",
+          "url": "https://www1.se.cuhk.edu.hk/~nchenweb/Publications.html"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "finai",
+        "decision"
+      ],
+      "title": "Belief-Based Two-Timescale Learning in General-Sum Stochastic Games: Convergence, Equilibrium Selection, and Algorithmic Collusion",
+      "url": "https://www1.se.cuhk.edu.hk/~nchenweb/Publications/MARL_Nan_Chen_Short.pdf",
+      "venue": "Working paper (CUHK-hosted manuscript)",
+      "verifiedAt": "2026-09-28",
+      "versions": [],
+      "year": 2026
     }
   ],
   "paradigms": [
@@ -40971,30 +41440,30 @@
   "publicCurationNote": "公开研究资料快照。主题、研究问题与研究线为编辑归纳，不代表学者本人陈述或机构背书。",
   "publicRelease": {
     "channel": "stable",
-    "snapshotDate": "2026-09-26",
-    "version": "3.3.16"
+    "snapshotDate": "2026-09-27",
+    "version": "3.3.17"
   },
   "publicationPolicy": {
     "authorshipNote": "署名位次不等于贡献排名；通讯作者、共同贡献和具体分工只按原文证据标注。",
     "coverageNote": "近三年资料不足时回溯五年；日期不完整与补充文献分别标明，收录不承诺穷尽。",
-    "defaultStart": "2023-09-26",
+    "defaultStart": "2023-09-27",
     "defaultYears": 3,
-    "extendedStart": "2021-09-26",
+    "extendedStart": "2021-09-27",
     "extendedYears": 5,
     "extensionThreshold": 5,
-    "snapshotDate": "2026-09-26",
+    "snapshotDate": "2026-09-27",
     "versionNote": "同一研究的预印本与发表版本分开保留证据；摘要来源可能与主书目版本不同。"
   },
   "publicationStats": {
-    "abstracts": 382,
+    "abstracts": 386,
     "fullTexts": 4,
     "outsideWindow": 6,
-    "papers": 395,
-    "recentPapers": 389,
+    "papers": 399,
+    "recentPapers": 393,
     "researchers": 103,
     "reviewedSources": 11,
-    "verifiedBylines": 394,
-    "withPapers": 27
+    "verifiedBylines": 398,
+    "withPapers": 29
   },
   "questionClusters": [
     {
@@ -41066,6 +41535,7 @@
         "pub_lian_portfolio_driven_disposition",
         "pub_lian_attention_spillover_asset_pricing",
         "pub_lian_wealth_redistribution_bubbles",
+        "pub_nan_chen_ai_bubbles",
         "pub_xiaoyan_2025_retail_trading_and_return_predictability_in_chin",
         "pub_xiaoyan_undated_retail_investors_during_pandemic",
         "pub_xiaoyan_undated_social_finance_in_the_age_of_ai_a_tale_of_two_pl",
@@ -41085,6 +41555,7 @@
         "q_pub_lian_portfolio_driven_disposition",
         "q_pub_lian_attention_spillover_asset_pricing",
         "q_pub_lian_wealth_redistribution_bubbles",
+        "q_pub_nan_chen_ai_bubbles",
         "q_pub_xiaoyan_2025_retail_trading_and_return_predictability_in_chin",
         "q_pub_xiaoyan_undated_retail_investors_during_pandemic",
         "q_pub_xiaoyan_undated_social_finance_in_the_age_of_ai_a_tale_of_two_pl",
@@ -41099,11 +41570,12 @@
         "r_gang",
         "r_jia",
         "r_lian",
+        "r_nan_chen_cuhk",
         "r_xiaoyan",
         "r_yang",
         "r_yanzhen"
       ],
-      "reviewedAt": "2026-08-31",
+      "reviewedAt": "2026-09-28",
       "themes": [
         "asset",
         "decision",
@@ -41249,6 +41721,7 @@
         "pub_he_amm_design",
         "pub_junye_option_alpha",
         "pub_lian_overselling_winners_losers",
+        "pub_nan_chen_belief_two_timescale",
         "pub_xiaoyan_2025_when_do_short_sellers_trade_evidence_from_intrad",
         "pub_xiaoyan_undated_retail_investors_during_pandemic",
         "pub_yang_crypto_wash_trading"
@@ -41260,6 +41733,7 @@
         "q_pub_he_amm_design",
         "q_pub_junye_option_alpha",
         "q_pub_lian_overselling_winners_losers",
+        "q_pub_nan_chen_belief_two_timescale",
         "q_pub_xiaoyan_2025_when_do_short_sellers_trade_evidence_from_intrad",
         "q_pub_xiaoyan_undated_retail_investors_during_pandemic",
         "q_pub_yang_crypto_wash_trading"
@@ -41269,13 +41743,16 @@
         "r_he",
         "r_junye",
         "r_lian",
+        "r_nan_chen_cuhk",
         "r_xiaoyan",
         "r_yang"
       ],
-      "reviewedAt": "2026-08-31",
+      "reviewedAt": "2026-09-28",
       "themes": [
         "asset",
-        "digital"
+        "decision",
+        "digital",
+        "finai"
       ],
       "title": "市场流动性与交易机制"
     },
@@ -41523,6 +42000,7 @@
         "paper_gao_optimal_execution_ac",
         "pub_bo_an_archetypetrader",
         "pub_claire_risk_subst",
+        "pub_palomar_fdr_index_tracking",
         "pub_gang_cond_returns",
         "pub_gao_factor_port",
         "pub_he_monotone_heston",
@@ -41554,6 +42032,7 @@
         "q_paper_gao_optimal_execution_ac",
         "q_pub_bo_an_archetypetrader",
         "q_pub_claire_risk_subst",
+        "q_pub_palomar_fdr_index_tracking",
         "q_pub_gang_cond_returns",
         "q_pub_gao_factor_port",
         "q_pub_he_monotone_heston",
@@ -41583,6 +42062,7 @@
       "researcherIds": [
         "r_bo_an",
         "r_claire",
+        "r_daniel_palomar_hkust",
         "r_gang",
         "r_gao",
         "r_he",
@@ -41595,7 +42075,7 @@
         "r_yi_yang_hkust",
         "r_zhanhui"
       ],
-      "reviewedAt": "2026-09-26",
+      "reviewedAt": "2026-09-28",
       "themes": [
         "asset",
         "decision",
@@ -41723,21 +42203,28 @@
       "paperIds": [
         "pub_gao_lq_unaware",
         "pub_gao_thompson_collusion",
-        "pub_jia_wisdom_crowds"
+        "pub_jia_wisdom_crowds",
+        "pub_nan_chen_ai_bubbles",
+        "pub_nan_chen_belief_two_timescale"
       ],
       "question": "当多个决策主体相互影响时，如何分析或学习策略和均衡？",
       "questionIds": [
         "q_pub_gao_lq_unaware",
         "q_pub_gao_thompson_collusion",
-        "q_pub_jia_wisdom_crowds"
+        "q_pub_jia_wisdom_crowds",
+        "q_pub_nan_chen_ai_bubbles",
+        "q_pub_nan_chen_belief_two_timescale"
       ],
       "researcherIds": [
         "r_gao",
-        "r_jia"
+        "r_jia",
+        "r_nan_chen_cuhk"
       ],
-      "reviewedAt": "2026-08-31",
+      "reviewedAt": "2026-09-28",
       "themes": [
+        "asset",
         "decision",
+        "finai",
         "ml"
       ],
       "title": "多主体互动与均衡"
@@ -41842,6 +42329,8 @@
       "paperIds": [
         "paper_ye_treatment_effects_l2_boosting",
         "paper_ye_high_dimensional_l2_boosting",
+        "pub_palomar_fdr_index_tracking",
+        "pub_palomar_learning_fdr_nn",
         "pub_difan_2026_scaling_laws_for_precision_in_high_dimensional_l",
         "pub_difan_2025_learning_under_quantization_for_high_dimensional",
         "pub_difan_2024_how_transformers_utilize_multi_head_attention_in",
@@ -41867,6 +42356,8 @@
       "questionIds": [
         "q_paper_ye_treatment_effects_l2_boosting",
         "q_paper_ye_high_dimensional_l2_boosting",
+        "q_pub_palomar_fdr_index_tracking",
+        "q_pub_palomar_learning_fdr_nn",
         "q_pub_difan_2026_scaling_laws_for_precision_in_high_dimensional_l",
         "q_pub_difan_2025_learning_under_quantization_for_high_dimensional",
         "q_pub_difan_2024_how_transformers_utilize_multi_head_attention_in",
@@ -41889,6 +42380,7 @@
         "q_pub_yingying_cross_sectional_sdf"
       ],
       "researcherIds": [
+        "r_daniel_palomar_hkust",
         "r_difan",
         "r_guodong",
         "r_junye",
@@ -41897,7 +42389,7 @@
         "r_yingying",
         "r_zhanhui"
       ],
-      "reviewedAt": "2026-08-31",
+      "reviewedAt": "2026-09-28",
       "themes": [
         "asset",
         "finai",
@@ -43412,12 +43904,12 @@
       {
         "awaitingEvidence": 0,
         "awaitingExtraction": 0,
-        "clustered": 40,
-        "clusters": 19,
-        "extracted": 40,
-        "multiPaperClusters": 10,
-        "papers": 40,
-        "singlePaperClusters": 9,
+        "clustered": 42,
+        "clusters": 21,
+        "extracted": 42,
+        "multiPaperClusters": 11,
+        "papers": 42,
+        "singlePaperClusters": 10,
         "staleEvidence": 0,
         "themeId": "finai",
         "unclustered": 0
@@ -43425,12 +43917,12 @@
       {
         "awaitingEvidence": 1,
         "awaitingExtraction": 0,
-        "clustered": 77,
-        "clusters": 30,
-        "extracted": 77,
+        "clustered": 78,
+        "clusters": 31,
+        "extracted": 78,
         "multiPaperClusters": 19,
-        "papers": 78,
-        "singlePaperClusters": 11,
+        "papers": 79,
+        "singlePaperClusters": 12,
         "staleEvidence": 0,
         "themeId": "decision",
         "unclustered": 0
@@ -43438,12 +43930,12 @@
       {
         "awaitingEvidence": 6,
         "awaitingExtraction": 0,
-        "clustered": 121,
-        "clusters": 27,
-        "extracted": 121,
+        "clustered": 123,
+        "clusters": 28,
+        "extracted": 123,
         "multiPaperClusters": 21,
-        "papers": 127,
-        "singlePaperClusters": 6,
+        "papers": 129,
+        "singlePaperClusters": 7,
         "staleEvidence": 0,
         "themeId": "asset",
         "unclustered": 0
@@ -43477,22 +43969,22 @@
       {
         "awaitingEvidence": 3,
         "awaitingExtraction": 0,
-        "clustered": 230,
+        "clustered": 232,
         "clusters": 37,
-        "extracted": 230,
+        "extracted": 232,
         "multiPaperClusters": 32,
-        "papers": 233,
+        "papers": 235,
         "singlePaperClusters": 5,
         "staleEvidence": 0,
         "themeId": "ml",
         "unclustered": 0
       }
     ],
-    "clustered": 382,
+    "clustered": 386,
     "clusters": 50,
-    "extracted": 382,
+    "extracted": 386,
     "multiPaperClusters": 44,
-    "papers": 395,
+    "papers": 399,
     "singlePaperClusters": 6,
     "staleEvidence": 0,
     "unclustered": 0
@@ -52531,6 +53023,101 @@
       ],
       "reviewedAt": "2026-09-26",
       "text": "如何通过重用冻结LLM内部的KV状态缓解上下文访问限制，在不训练参数的条件下提取文本嵌入？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_high_dim_inference",
+        "qc_portfolio_risk_control"
+      ],
+      "evidence": {
+        "digest": "c7780070af038a3b3d6437b417fc69b4dc33536be194e5aebe444957319aedf4",
+        "excerpt": "针对股票收益等高度相关变量，作者扩展T-Rex变量筛选框架，以近邻惩罚处理重叠相关组，并在所述假设下控制错误发现率。摘要展示用较少股票跟踪S&P 500的稀疏组合实例。仅核摘要、完整署名和正式版元数据，未审查回测交易成本或独立验证收益。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-09-28",
+          "kind": "abstract_summary",
+          "label": "已有摘要概览所列来源",
+          "url": "https://arxiv.org/abs/2401.15139"
+        }
+      },
+      "id": "q_pub_palomar_fdr_index_tracking",
+      "paperIds": [
+        "pub_palomar_fdr_index_tracking"
+      ],
+      "reviewedAt": "2026-09-28",
+      "text": "如何在股票高度相关时控制变量筛选的错误发现率，并构建稀疏指数跟踪组合？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_high_dim_inference"
+      ],
+      "evidence": {
+        "digest": "6f1324998deedda70f443b99e128c85693234e236bc9c91553904c6c2e66bb53",
+        "excerpt": "作者用合成数据训练的神经网络替代T-Rex中的解析错误发现比例估计器，试图在近似错误发现率控制下提高真变量检出能力。摘要报告模拟和合成GWAS评估；属于通用高维统计与机器学习方法，来源未验证金融应用。仅核摘要与书目，不将近似控制提升为严格普适保证。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-09-28",
+          "kind": "abstract_summary",
+          "label": "已有摘要概览所列来源",
+          "url": "https://arxiv.org/abs/2602.05798"
+        }
+      },
+      "id": "q_pub_palomar_learning_fdr_nn",
+      "paperIds": [
+        "pub_palomar_learning_fdr_nn"
+      ],
+      "reviewedAt": "2026-09-28",
+      "text": "用合成数据训练的错误发现比例估计器，能否在近似错误发现率控制下提升高维变量筛选能力？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_investor_behavior",
+        "qc_multiagent_decisions"
+      ],
+      "evidence": {
+        "digest": "9d25e23b3687806b4f1b8b620cfb538105d90495f330ae81e516d124498adae7",
+        "excerpt": "在序贯泡沫博弈中，LLM智能体即使面对唯一不交易均衡也可能投机。作者通过推理能力、对手标签和均衡结构的变化分析信念形成；提高推理能力可减轻部分非理性投机，但不保证消除泡沫，多重均衡下仍可能协调到投机均衡。本条内容依据CUHK保存的2026-03-16版本摘要；SSRN索引显示后续修订，但最新PDF未取得，未宣称全文或最新版本结果已审查。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-09-28",
+          "kind": "abstract_summary",
+          "label": "已有摘要概览所列来源",
+          "url": "https://www1.se.cuhk.edu.hk/~nchenweb/Publications/ssrn-6426761.pdf"
+        }
+      },
+      "id": "q_pub_nan_chen_ai_bubbles",
+      "paperIds": [
+        "pub_nan_chen_ai_bubbles"
+      ],
+      "reviewedAt": "2026-09-28",
+      "text": "LLM智能体的推理能力、信念与对手标签如何影响其泡沫交易及均衡选择？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_multiagent_decisions",
+        "qc_market_liquidity_trading"
+      ],
+      "evidence": {
+        "digest": "dbb3b692729a02ea01942412146b847d45dbce2c8ca37a0814c0361424ebcb6b",
+        "excerpt": "作者提出一般和随机博弈中的去中心化双时间尺度多智能体学习：根据对手动作估计信念，以扰动最佳响应更新策略，并让Q值更新快于策略与信念。在特定局部稳定吸引域条件下分析近似纳什收敛；Bertrand竞争和算法做市场景显示合谋取决于初始策略、耐心与信念，知情交易可抑制做市合谋。仅核摘要与署名，未独立核证证明或复现实验。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-09-28",
+          "kind": "abstract_summary",
+          "label": "已有摘要概览所列来源",
+          "url": "https://www1.se.cuhk.edu.hk/~nchenweb/Publications/MARL_Nan_Chen_Short.pdf"
+        }
+      },
+      "id": "q_pub_nan_chen_belief_two_timescale",
+      "paperIds": [
+        "pub_nan_chen_belief_two_timescale"
+      ],
+      "reviewedAt": "2026-09-28",
+      "text": "基于对手信念的双时间尺度学习在何种局部条件下收敛，并如何影响市场中的合谋与均衡选择？"
     }
   ],
   "researchers": [
@@ -52666,8 +53253,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 87,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2023-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2023-09-27",
         "windowYears": 3
       },
       "sources": [
@@ -52777,8 +53364,8 @@
         "status": "reviewed_sources",
         "threshold": 5,
         "uncertainDateCount": 6,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2023-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2023-09-27",
         "windowYears": 3
       },
       "sources": [
@@ -52901,8 +53488,8 @@
         "status": "reviewed_sources",
         "threshold": 5,
         "uncertainDateCount": 2,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2023-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2023-09-27",
         "windowYears": 3
       },
       "sources": [
@@ -52990,8 +53577,8 @@
         "status": "reviewed_sources",
         "threshold": 5,
         "uncertainDateCount": 23,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2023-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2023-09-27",
         "windowYears": 3
       },
       "sources": [
@@ -53154,8 +53741,8 @@
         "status": "reviewed_sources",
         "threshold": 5,
         "uncertainDateCount": 96,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2023-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2023-09-27",
         "windowYears": 3
       },
       "sources": [
@@ -53242,8 +53829,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 8,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2023-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2023-09-27",
         "windowYears": 3
       },
       "sources": [
@@ -53333,8 +53920,8 @@
         "status": "reviewed_sources",
         "threshold": 5,
         "uncertainDateCount": 9,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2023-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2023-09-27",
         "windowYears": 3
       },
       "sources": [
@@ -53432,8 +54019,8 @@
         "status": "reviewed_sources",
         "threshold": 5,
         "uncertainDateCount": 17,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2023-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2023-09-27",
         "windowYears": 3
       },
       "sources": [
@@ -53528,8 +54115,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 5,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -53626,8 +54213,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 5,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2023-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2023-09-27",
         "windowYears": 3
       },
       "sources": [
@@ -53714,8 +54301,8 @@
         "status": "reviewed_sources",
         "threshold": 5,
         "uncertainDateCount": 7,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2023-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2023-09-27",
         "windowYears": 3
       },
       "sources": [
@@ -53801,8 +54388,8 @@
         "status": "reviewed_sources",
         "threshold": 5,
         "uncertainDateCount": 7,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2023-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2023-09-27",
         "windowYears": 3
       },
       "sources": [
@@ -53893,8 +54480,8 @@
         "status": "reviewed_sources",
         "threshold": 5,
         "uncertainDateCount": 24,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2023-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2023-09-27",
         "windowYears": 3
       },
       "sources": [
@@ -53992,8 +54579,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 3,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2023-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2023-09-27",
         "windowYears": 3
       },
       "sources": [
@@ -54101,8 +54688,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 7,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -54193,8 +54780,8 @@
         "status": "reviewed_sources",
         "threshold": 5,
         "uncertainDateCount": 3,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2023-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2023-09-27",
         "windowYears": 3
       },
       "sources": [
@@ -54307,8 +54894,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 2,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -54437,8 +55024,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 9,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2023-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2023-09-27",
         "windowYears": 3
       },
       "sources": [
@@ -54537,8 +55124,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 4,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2023-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2023-09-27",
         "windowYears": 3
       },
       "sources": [
@@ -54655,8 +55242,8 @@
         "status": "reviewed_sources",
         "threshold": 5,
         "uncertainDateCount": 7,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2023-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2023-09-27",
         "windowYears": 3
       },
       "sources": [
@@ -54721,8 +55308,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 2,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2023-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2023-09-27",
         "windowYears": 3
       },
       "sources": [
@@ -54798,8 +55385,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -54870,8 +55457,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -54945,8 +55532,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -55015,8 +55602,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -55082,8 +55669,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -55151,8 +55738,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -55222,8 +55809,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -55293,8 +55880,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -55363,8 +55950,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -55430,8 +56017,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -55500,8 +56087,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -55571,8 +56158,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -55641,8 +56228,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -55737,8 +56324,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 1,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -55793,8 +56380,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -55857,8 +56444,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -55911,8 +56498,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -55980,8 +56567,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -56036,8 +56623,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -56110,8 +56697,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -56172,8 +56759,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -56245,8 +56832,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -56302,8 +56889,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -56357,8 +56944,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -56419,8 +57006,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -56524,8 +57111,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 3,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2023-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2023-09-27",
         "windowYears": 3
       },
       "sources": [
@@ -56593,8 +57180,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -56657,8 +57244,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -56719,8 +57306,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -56816,8 +57403,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 2,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -56870,8 +57457,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -56927,8 +57514,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -56984,8 +57571,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -57040,8 +57627,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -57095,8 +57682,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -57136,25 +57723,41 @@
       "nameVariants": [],
       "position": "Professor; Department Vice-Chairman (Graduate)",
       "publicationCoverage": {
-        "abstractCount": 0,
-        "authorVerifiedCount": 0,
-        "boundaryDateCount": 0,
-        "checkedAt": null,
-        "collectedCount": 0,
+        "abstractCount": 2,
+        "authorVerifiedCount": 2,
+        "boundaryDateCount": 2,
+        "checkedAt": "2026-09-28",
+        "collectedCount": 2,
         "extended": true,
         "fullTextCount": 0,
         "gaps": [
           "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
         ],
         "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
-        "paperIds": [],
-        "recentCount": 0,
-        "sourcesChecked": [],
+        "paperIds": [
+          "pub_nan_chen_ai_bubbles",
+          "pub_nan_chen_belief_two_timescale"
+        ],
+        "recentCount": 2,
+        "sourcesChecked": [
+          {
+            "checkedAt": "2026-09-28",
+            "kind": "paper_pdf",
+            "label": "CUHK原文首页：完整署名及摘要",
+            "url": "https://www1.se.cuhk.edu.hk/~nchenweb/Publications/ssrn-6426761.pdf"
+          },
+          {
+            "checkedAt": "2026-09-28",
+            "kind": "paper_pdf",
+            "label": "CUHK原文首页：完整署名及摘要",
+            "url": "https://www1.se.cuhk.edu.hk/~nchenweb/Publications/MARL_Nan_Chen_Short.pdf"
+          }
+        ],
         "status": "partial",
         "threshold": 5,
-        "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "uncertainDateCount": 2,
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -57225,8 +57828,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -57291,8 +57894,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -57363,8 +57966,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -57427,8 +58030,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -57490,8 +58093,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -57554,8 +58157,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -57618,8 +58221,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -57680,8 +58283,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -57741,8 +58344,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -57787,25 +58390,41 @@
       "nameVariants": [],
       "position": "Professor",
       "publicationCoverage": {
-        "abstractCount": 0,
-        "authorVerifiedCount": 0,
-        "boundaryDateCount": 0,
-        "checkedAt": null,
-        "collectedCount": 0,
+        "abstractCount": 2,
+        "authorVerifiedCount": 2,
+        "boundaryDateCount": 1,
+        "checkedAt": "2026-09-28",
+        "collectedCount": 2,
         "extended": true,
         "fullTextCount": 0,
         "gaps": [
           "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
         ],
         "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
-        "paperIds": [],
-        "recentCount": 0,
-        "sourcesChecked": [],
+        "paperIds": [
+          "pub_palomar_fdr_index_tracking",
+          "pub_palomar_learning_fdr_nn"
+        ],
+        "recentCount": 2,
+        "sourcesChecked": [
+          {
+            "checkedAt": "2026-09-28",
+            "kind": "publisher_metadata",
+            "label": "IEEE提交的正式出版元数据：完整署名与DOI",
+            "url": "https://api.crossref.org/works/10.1109/icassp49660.2025.10890629"
+          },
+          {
+            "checkedAt": "2026-09-28",
+            "kind": "publisher_metadata",
+            "label": "IEEE提交的正式出版元数据：完整署名与DOI",
+            "url": "https://api.crossref.org/works/10.1109/icassp55912.2026.11463077"
+          }
+        ],
         "status": "partial",
         "threshold": 5,
-        "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "uncertainDateCount": 2,
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -57867,8 +58486,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -57929,8 +58548,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -57998,8 +58617,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -58066,8 +58685,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -58134,8 +58753,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -58215,8 +58834,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -58284,8 +58903,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -58341,8 +58960,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -58397,8 +59016,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -58460,8 +59079,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -58518,8 +59137,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -58576,8 +59195,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -58639,8 +59258,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -58708,8 +59327,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -58771,8 +59390,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -58829,8 +59448,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -58886,8 +59505,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -58950,8 +59569,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -59008,8 +59627,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -59072,8 +59691,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -59129,8 +59748,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -59198,8 +59817,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -59273,8 +59892,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -59336,8 +59955,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -59410,8 +60029,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -59478,8 +60097,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -59553,8 +60172,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -59622,8 +60241,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -59697,8 +60316,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -59772,8 +60391,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -59834,8 +60453,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -59898,8 +60517,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -59961,8 +60580,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -60036,8 +60655,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -60116,8 +60735,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -60186,8 +60805,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-09-26",
-        "windowStart": "2021-09-26",
+        "windowEnd": "2026-09-27",
+        "windowStart": "2021-09-27",
         "windowYears": 5
       },
       "sources": [
@@ -60271,5 +60890,5 @@
       "name": "ML Theory & Optimization"
     }
   ],
-  "updatedAt": "2026-09-26"
+  "updatedAt": "2026-09-27"
 }
