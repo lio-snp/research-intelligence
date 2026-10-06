@@ -38304,6 +38304,276 @@
     },
     {
       "abstractAvailability": {
+        "checkedAt": "2026-10-06",
+        "reason": "已有摘要级来源；未独立复现实验、估计或理论证明。",
+        "source": "https://www.hkubs.hku.hk/people/weichen-wang/",
+        "status": "available"
+      },
+      "abstractSummary": "在高维投资组合优化中，论文指出样本内估计协方差矩阵不适合直接评估样本外 Sharpe ratio，并提出基于样本内数据和随机矩阵理论的估计方法，用于构造现实组合并改善样本外表现评估。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-06",
+        "kind": "publisher_metadata",
+        "label": "Crossref/Taylor metadata: full byline, online date, issue and pages",
+        "url": "https://api.crossref.org/works/10.1080/01621459.2025.2535757"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Xuran Meng",
+        "Yuan Cao",
+        "Weichen Wang"
+      ],
+      "authorships": [
+        {
+          "name": "Xuran Meng",
+          "position": 1,
+          "researcherId": null
+        },
+        {
+          "name": "Yuan Cao",
+          "position": 2,
+          "researcherId": null
+        },
+        {
+          "name": "Weichen Wang",
+          "position": 3,
+          "researcherId": "r_weichen_wang_hku"
+        }
+      ],
+      "contribution": {
+        "note": "完整作者顺序已核；作者位次不等于贡献大小，具体贡献声明待核。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2025-09-30",
+      "dateEvidence": {
+        "checkedAt": "2026-10-06",
+        "kind": "date_note",
+        "label": "日期与版本说明",
+        "note": "在线发表日期取 Crossref 2025-09-30；JASA 卷期为 2026 年 121(553)，不把 issue year 改写为首次公开日期。",
+        "url": "https://doi.org/10.1080/01621459.2025.2535757"
+      },
+      "datePrecision": "day",
+      "doi": "10.1080/01621459.2025.2535757",
+      "id": "pub_weichen_wang_oos_sharpe_high_dim_portfolio_2025",
+      "paradigms": [
+        "measurement",
+        "theory"
+      ],
+      "publicationStatus": "published_online",
+      "publicationType": "journal",
+      "questionId": "q_pub_weichen_wang_oos_sharpe_high_dim_portfolio_2025",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "在高维投资组合优化中，如何仅用样本内数据更可靠地估计样本外 Sharpe ratio？",
+      "researcherIds": [
+        "r_weichen_wang_hku"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-06",
+          "kind": "publisher_metadata",
+          "label": "Crossref/Taylor metadata: full byline, online date, issue and pages",
+          "url": "https://api.crossref.org/works/10.1080/01621459.2025.2535757"
+        },
+        {
+          "checkedAt": "2026-10-06",
+          "kind": "preprint",
+          "label": "arXiv record: preprint title, author order, first version and abstract",
+          "url": "https://arxiv.org/abs/2406.03954"
+        },
+        {
+          "checkedAt": "2026-10-06",
+          "kind": "official_profile",
+          "label": "HKU Business School profile: official identity, publication list and Sharpe abstract snippet",
+          "url": "https://www.hkubs.hku.hk/people/weichen-wang/"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "asset",
+        "ts",
+        "ml",
+        "finai"
+      ],
+      "title": "Estimation of Out-of-Sample Sharpe Ratio for High Dimensional Portfolio Optimization",
+      "url": "https://doi.org/10.1080/01621459.2025.2535757",
+      "venue": "Journal of the American Statistical Association 121(553):548-560",
+      "verifiedAt": "2026-10-06",
+      "versions": [
+        {
+          "authorEvidence": {
+            "checkedAt": "2026-10-06",
+            "kind": "preprint",
+            "label": "arXiv record: preprint title, author order, first version and abstract",
+            "url": "https://arxiv.org/abs/2406.03954"
+          },
+          "authorListComplete": true,
+          "authorOrderVerified": true,
+          "authors": [
+            "Xuran Meng",
+            "Yuan Cao",
+            "Weichen Wang"
+          ],
+          "date": "2024-06-06",
+          "datePrecision": "day",
+          "doi": "10.48550/arXiv.2406.03954",
+          "publicationStatus": "preprint",
+          "publicationType": "preprint",
+          "sources": [
+            {
+              "checkedAt": "2026-10-06",
+              "kind": "preprint",
+              "label": "arXiv record: preprint title, author order, first version and abstract",
+              "url": "https://arxiv.org/abs/2406.03954"
+            }
+          ],
+          "title": "Estimation of Out-of-Sample Sharpe Ratio for High Dimensional Portfolio Optimization",
+          "url": "https://arxiv.org/abs/2406.03954",
+          "venue": "arXiv stat.ME",
+          "year": 2024
+        }
+      ],
+      "year": 2025
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-06",
+        "reason": "已有摘要级来源；未独立复现实验、估计或理论证明。",
+        "source": "https://arxiv.org/abs/2301.00092",
+        "status": "available"
+      },
+      "abstractSummary": "论文研究弱依赖时间序列中基于一般非线性 sieve 的条件矩限制推断，用多层神经网络学习满足条件矩限制的非参数函数；其 GN-QLR 统计量用于期望函数推断，并把强化学习 off-policy evaluation 中的 Bellman 方程表述为条件矩限制以推断 state-specific value functional。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-06",
+        "kind": "publisher_metadata",
+        "label": "Crossref/Elsevier metadata: full byline, journal date and article number",
+        "url": "https://api.crossref.org/works/10.1016/j.jeconom.2024.105920"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Xiaohong Chen",
+        "Yuan Liao",
+        "Weichen Wang"
+      ],
+      "authorships": [
+        {
+          "name": "Xiaohong Chen",
+          "position": 1,
+          "researcherId": null
+        },
+        {
+          "name": "Yuan Liao",
+          "position": 2,
+          "researcherId": null
+        },
+        {
+          "name": "Weichen Wang",
+          "position": 3,
+          "researcherId": "r_weichen_wang_hku"
+        }
+      ],
+      "contribution": {
+        "note": "完整作者顺序已核；作者位次不等于贡献大小，具体贡献声明待核。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2025-05",
+      "dateEvidence": {
+        "checkedAt": "2026-10-06",
+        "kind": "date_note",
+        "label": "日期与版本说明",
+        "note": "正式版日期取 Journal of Econometrics/Crossref 2025-05；arXiv 2301.00092 的 first post 为 2022-12-31、v2 为 2023-01-03，仅作为摘要与版本证据。",
+        "url": "https://doi.org/10.1016/j.jeconom.2024.105920"
+      },
+      "datePrecision": "month",
+      "doi": "10.1016/j.jeconom.2024.105920",
+      "id": "pub_weichen_wang_time_series_nonlinear_sieves_2025",
+      "paradigms": [
+        "theory",
+        "measurement"
+      ],
+      "publicationStatus": "published",
+      "publicationType": "journal",
+      "questionId": "q_pub_weichen_wang_time_series_nonlinear_sieves_2025",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "在弱依赖时间序列中，如何用非线性 sieve 支持条件矩限制推断并服务动态决策评估？",
+      "researcherIds": [
+        "r_weichen_wang_hku"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-06",
+          "kind": "publisher_metadata",
+          "label": "Crossref/Elsevier metadata: full byline, journal date and article number",
+          "url": "https://api.crossref.org/works/10.1016/j.jeconom.2024.105920"
+        },
+        {
+          "checkedAt": "2026-10-06",
+          "kind": "personal_academic_profile",
+          "label": "Personal academic page: research statement and publication list",
+          "url": "https://wweichen.github.io/"
+        },
+        {
+          "checkedAt": "2026-10-06",
+          "kind": "preprint",
+          "label": "arXiv record: earlier General Sieves title, author order and abstract",
+          "url": "https://arxiv.org/abs/2301.00092"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "ts",
+        "ml",
+        "decision",
+        "finai"
+      ],
+      "title": "Inference on Time Series Nonparametric Conditional Moment Restrictions Using Nonlinear Sieves",
+      "url": "https://doi.org/10.1016/j.jeconom.2024.105920",
+      "venue": "Journal of Econometrics 249, 105920",
+      "verifiedAt": "2026-10-06",
+      "versions": [
+        {
+          "authorEvidence": {
+            "checkedAt": "2026-10-06",
+            "kind": "preprint",
+            "label": "arXiv record: earlier General Sieves title, author order and abstract",
+            "url": "https://arxiv.org/abs/2301.00092"
+          },
+          "authorListComplete": true,
+          "authorOrderVerified": true,
+          "authors": [
+            "Xiaohong Chen",
+            "Yuan Liao",
+            "Weichen Wang"
+          ],
+          "date": "2022-12-31",
+          "datePrecision": "day",
+          "doi": "10.48550/arXiv.2301.00092",
+          "publicationStatus": "preprint",
+          "publicationType": "preprint",
+          "sources": [
+            {
+              "checkedAt": "2026-10-06",
+              "kind": "preprint",
+              "label": "arXiv record: earlier General Sieves title, author order and abstract",
+              "url": "https://arxiv.org/abs/2301.00092"
+            }
+          ],
+          "title": "Inference on Time Series Nonparametric Conditional Moment Restrictions Using General Sieves",
+          "url": "https://arxiv.org/abs/2301.00092",
+          "venue": "arXiv econ.EM",
+          "year": 2022
+        }
+      ],
+      "year": 2025
+    },
+    {
+      "abstractAvailability": {
         "checkedAt": "2026-09-24",
         "reason": "核对arXiv摘要及作者主页；未找到可确认的正式发表版本，保留预印本状态。",
         "source": "https://arxiv.org/abs/2607.04278",
@@ -43715,6 +43985,189 @@
         }
       ],
       "year": 2022
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-06",
+        "reason": "已有摘要级来源；未独立复现实验、估计或理论证明。",
+        "source": "https://arxiv.org/abs/2512.12735",
+        "status": "available"
+      },
+      "abstractSummary": "论文从有限样本角度分析机器学习在资产定价中的可预测性边界，定义 Limits-to-Learning Gap，并说明它会使研究者低估回报、收益率、信用利差和估值比率中的真实 predictability；校正后结果与 Hansen-Jagannathan bounds 和 excess volatility puzzles 相联系。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-06",
+        "kind": "publisher_metadata",
+        "label": "Crossref/SSRN metadata: full byline and 2025 DOI metadata",
+        "url": "https://api.crossref.org/works/10.2139/ssrn.5909844"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Zhimin Chen",
+        "Bryan T. Kelly",
+        "Semyon Malamud"
+      ],
+      "authorships": [
+        {
+          "name": "Zhimin Chen",
+          "position": 1,
+          "researcherId": "r_zhimin_chen_ntu"
+        },
+        {
+          "name": "Bryan T. Kelly",
+          "position": 2,
+          "researcherId": null
+        },
+        {
+          "name": "Semyon Malamud",
+          "position": 3,
+          "researcherId": null
+        }
+      ],
+      "contribution": {
+        "note": "完整作者顺序已核；作者位次不等于贡献大小，具体贡献声明待核。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2025-12",
+      "dateEvidence": {
+        "checkedAt": "2026-10-06",
+        "kind": "date_note",
+        "label": "日期与版本说明",
+        "note": "Direct SSRN page was blocked; date recorded at month precision from Crossref 2025 metadata and arXiv v1 posted 2025-12-14. Crossref creation on 2025-12-12 is metadata timing, not claimed as date written.",
+        "url": "https://doi.org/10.2139/ssrn.5909844"
+      },
+      "datePrecision": "month",
+      "doi": "10.2139/ssrn.5909844",
+      "id": "pub_zhimin_chen_limits_machine_learning_2025",
+      "paradigms": [
+        "diagnostic",
+        "measurement"
+      ],
+      "publicationStatus": "preprint",
+      "publicationType": "preprint",
+      "questionId": "q_pub_zhimin_chen_limits_machine_learning_2025",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "有限样本如何限制机器学习在资产定价中的可预测性估计，并影响对真实 predictability 的判断？",
+      "researcherIds": [
+        "r_zhimin_chen_ntu"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-06",
+          "kind": "publisher_metadata",
+          "label": "Crossref/SSRN metadata: full byline and 2025 DOI metadata",
+          "url": "https://api.crossref.org/works/10.2139/ssrn.5909844"
+        },
+        {
+          "checkedAt": "2026-10-06",
+          "kind": "personal_academic_profile",
+          "label": "Personal academic homepage links both SSRN works and lists AI/carbon/biodiversity agenda",
+          "url": "https://www.zhiminchen.net/"
+        },
+        {
+          "checkedAt": "2026-10-06",
+          "kind": "preprint",
+          "label": "arXiv record: title, full byline, date and abstract",
+          "url": "https://arxiv.org/abs/2512.12735"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "asset",
+        "finai",
+        "ml",
+        "ts"
+      ],
+      "title": "Limits To (Machine) Learning",
+      "url": "https://doi.org/10.2139/ssrn.5909844",
+      "venue": "SSRN / SFI Research Paper 25-106",
+      "verifiedAt": "2026-10-06",
+      "versions": [],
+      "year": 2025
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-06",
+        "reason": "已有摘要级来源；未独立复现实验、估计或理论证明。",
+        "source": "https://api.crossref.org/works/10.2139/ssrn.4829942",
+        "status": "available"
+      },
+      "abstractSummary": "论文研究金融交易者进入碳配额市场后的真实效应，指出套利资本缺乏与碳配额价格信息性下降相关；对于私人信息较弱的企业，价格信息性下降会降低减排效率，并伴随企业碳强度离散度上升。论文用管理者从价格学习的模型解释这些经验事实。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-06",
+        "kind": "personal_academic_profile",
+        "label": "Personal academic homepage links both SSRN works and lists AI/carbon/biodiversity agenda",
+        "url": "https://www.zhiminchen.net/"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Zhimin Chen"
+      ],
+      "authorships": [
+        {
+          "name": "Zhimin Chen",
+          "position": 1,
+          "researcherId": "r_zhimin_chen_ntu"
+        }
+      ],
+      "contribution": {
+        "note": "完整作者顺序已核；作者位次不等于贡献大小，具体贡献声明待核。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2024-05",
+      "dateEvidence": {
+        "checkedAt": "2026-10-06",
+        "kind": "date_note",
+        "label": "日期与版本说明",
+        "note": "主日期保守记录为 2024-05：Crossref/SSRN DOI metadata created date 为 2024-05-16，但 direct SSRN page 被阻断，不能仅凭 created 字段断言 posted date；staged evidence 中的 Date Written 2024-04-29 不等同于 posted date。",
+        "url": "https://doi.org/10.2139/ssrn.4829942"
+      },
+      "datePrecision": "month",
+      "doi": "10.2139/ssrn.4829942",
+      "id": "pub_zhimin_chen_carbon_financialization_2024",
+      "paradigms": [
+        "empirical",
+        "measurement"
+      ],
+      "publicationStatus": "working_paper",
+      "publicationType": "working_paper",
+      "questionId": "q_pub_zhimin_chen_carbon_financialization_2024",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "金融交易者进入碳配额市场后，价格信息性变化会如何影响企业减排效率？",
+      "researcherIds": [
+        "r_zhimin_chen_ntu"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-06",
+          "kind": "personal_academic_profile",
+          "label": "Personal academic homepage links both SSRN works and lists AI/carbon/biodiversity agenda",
+          "url": "https://www.zhiminchen.net/"
+        },
+        {
+          "checkedAt": "2026-10-06",
+          "kind": "publisher_metadata",
+          "label": "Crossref/SSRN metadata: title, author, posted date and abstract",
+          "url": "https://api.crossref.org/works/10.2139/ssrn.4829942"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "asset"
+      ],
+      "title": "Real Effects of Carbon Financialization",
+      "url": "https://doi.org/10.2139/ssrn.4829942",
+      "venue": "SSRN working paper",
+      "verifiedAt": "2026-10-06",
+      "versions": [],
+      "year": 2024
     }
   ],
   "paradigms": [
@@ -43816,30 +44269,30 @@
   "publicCurationNote": "公开研究资料快照。主题、研究问题与研究线为编辑归纳，不代表学者本人陈述或机构背书。",
   "publicRelease": {
     "channel": "stable",
-    "snapshotDate": "2026-10-04",
-    "version": "3.3.24"
+    "snapshotDate": "2026-10-05",
+    "version": "3.3.25"
   },
   "publicationPolicy": {
     "authorshipNote": "署名位次不等于贡献排名；通讯作者、共同贡献和具体分工只按原文证据标注。",
     "coverageNote": "近三年资料不足时回溯五年；日期不完整与补充文献分别标明，收录不承诺穷尽。",
-    "defaultStart": "2023-10-04",
+    "defaultStart": "2023-10-05",
     "defaultYears": 3,
-    "extendedStart": "2021-10-04",
+    "extendedStart": "2021-10-05",
     "extendedYears": 5,
     "extensionThreshold": 5,
-    "snapshotDate": "2026-10-04",
+    "snapshotDate": "2026-10-05",
     "versionNote": "同一研究的预印本与发表版本分开保留证据；摘要来源可能与主书目版本不同。"
   },
   "publicationStats": {
-    "abstracts": 405,
+    "abstracts": 409,
     "fullTexts": 4,
     "outsideWindow": 7,
-    "papers": 418,
-    "recentPapers": 411,
+    "papers": 422,
+    "recentPapers": 415,
     "researchers": 104,
     "reviewedSources": 11,
-    "verifiedBylines": 417,
-    "withPapers": 35
+    "verifiedBylines": 421,
+    "withPapers": 37
   },
   "questionClusters": [
     {
@@ -44008,6 +44461,7 @@
         "pub_lian_attention_spillover_asset_pricing",
         "pub_lian_wealth_redistribution_bubbles",
         "pub_qi_liu_cogalpha",
+        "pub_weichen_wang_oos_sharpe_high_dim_portfolio_2025",
         "pub_xiaoyan_2026_uncertainty_risk_resolution_before_earnings_anno",
         "pub_xiaoyan_2026_foreign_capital_in_the_chinese_stock_market_a_fi",
         "pub_xiaoyan_2025_listing_location_matters_a_tale_of_two_betas",
@@ -44020,7 +44474,9 @@
         "pub_yi_yang_finrankgrpo",
         "pub_yingying_dominate_historical_average",
         "pub_yingying_cross_sectional_sdf",
-        "pub_zhanhui_inferring_stock_duration"
+        "pub_zhanhui_inferring_stock_duration",
+        "pub_zhimin_chen_limits_machine_learning_2025",
+        "pub_zhimin_chen_carbon_financialization_2024"
       ],
       "question": "哪些风险、特征和经济机制能够解释或预测资产回报？",
       "questionIds": [
@@ -44058,6 +44514,7 @@
         "q_pub_lian_attention_spillover_asset_pricing",
         "q_pub_lian_wealth_redistribution_bubbles",
         "q_pub_qi_liu_cogalpha",
+        "q_pub_weichen_wang_oos_sharpe_high_dim_portfolio_2025",
         "q_pub_xiaoyan_2026_uncertainty_risk_resolution_before_earnings_anno",
         "q_pub_xiaoyan_2026_foreign_capital_in_the_chinese_stock_market_a_fi",
         "q_pub_xiaoyan_2025_listing_location_matters_a_tale_of_two_betas",
@@ -44070,7 +44527,9 @@
         "q_pub_yi_yang_finrankgrpo",
         "q_pub_yingying_dominate_historical_average",
         "q_pub_yingying_cross_sectional_sdf",
-        "q_pub_zhanhui_inferring_stock_duration"
+        "q_pub_zhanhui_inferring_stock_duration",
+        "q_pub_zhimin_chen_limits_machine_learning_2025",
+        "q_pub_zhimin_chen_carbon_financialization_2024"
       ],
       "researcherIds": [
         "r_claire",
@@ -44083,12 +44542,14 @@
         "r_ke",
         "r_lian",
         "r_qi_liu_hku",
+        "r_weichen_wang_hku",
         "r_xiaoyan",
         "r_yi_yang_hkust",
         "r_yingying",
-        "r_zhanhui"
+        "r_zhanhui",
+        "r_zhimin_chen_ntu"
       ],
-      "reviewedAt": "2026-10-05",
+      "reviewedAt": "2026-10-06",
       "themes": [
         "asset",
         "decision",
@@ -44114,7 +44575,8 @@
         "pub_nan_chen_belief_two_timescale",
         "pub_xiaoyan_2025_when_do_short_sellers_trade_evidence_from_intrad",
         "pub_xiaoyan_undated_retail_investors_during_pandemic",
-        "pub_yang_crypto_wash_trading"
+        "pub_yang_crypto_wash_trading",
+        "pub_zhimin_chen_carbon_financialization_2024"
       ],
       "question": "交易制度、参与者互动和市场摩擦如何影响流动性与价格效率？",
       "questionIds": [
@@ -44128,7 +44590,8 @@
         "q_pub_nan_chen_belief_two_timescale",
         "q_pub_xiaoyan_2025_when_do_short_sellers_trade_evidence_from_intrad",
         "q_pub_xiaoyan_undated_retail_investors_during_pandemic",
-        "q_pub_yang_crypto_wash_trading"
+        "q_pub_yang_crypto_wash_trading",
+        "q_pub_zhimin_chen_carbon_financialization_2024"
       ],
       "researcherIds": [
         "r_bo_an",
@@ -44142,9 +44605,10 @@
         "r_nan_chen_cuhk",
         "r_ruixun_zhang_pku",
         "r_xiaoyan",
-        "r_yang"
+        "r_yang",
+        "r_zhimin_chen_ntu"
       ],
-      "reviewedAt": "2026-10-03",
+      "reviewedAt": "2026-10-06",
       "themes": [
         "asset",
         "decision",
@@ -44356,7 +44820,8 @@
         "pub_yang_convergence_financial_development",
         "pub_zhanhui_carbon_markets_china",
         "pub_zhanhui_transition_risk_green_finance",
-        "pub_zhanhui_inferring_stock_duration"
+        "pub_zhanhui_inferring_stock_duration",
+        "pub_zhimin_chen_carbon_financialization_2024"
       ],
       "question": "政策、制度和宏观冲击通过哪些机制影响金融市场与实体经济？",
       "questionIds": [
@@ -44378,7 +44843,8 @@
         "q_pub_yang_convergence_financial_development",
         "q_pub_zhanhui_carbon_markets_china",
         "q_pub_zhanhui_transition_risk_green_finance",
-        "q_pub_zhanhui_inferring_stock_duration"
+        "q_pub_zhanhui_inferring_stock_duration",
+        "q_pub_zhimin_chen_carbon_financialization_2024"
       ],
       "researcherIds": [
         "r_claire",
@@ -44388,9 +44854,10 @@
         "r_junye",
         "r_xiaoyan",
         "r_yang",
-        "r_zhanhui"
+        "r_zhanhui",
+        "r_zhimin_chen_ntu"
       ],
-      "reviewedAt": "2026-08-31",
+      "reviewedAt": "2026-10-06",
       "themes": [
         "asset",
         "decision",
@@ -44434,6 +44901,7 @@
         "pub_li_regime_mv",
         "pub_li_parisian",
         "pub_ruixun_diffusion_factor_models",
+        "pub_weichen_wang_oos_sharpe_high_dim_portfolio_2025",
         "pub_xianhua_peng_cel",
         "pub_xianhua_peng_cefol",
         "pub_xianhua_peng_contract_unified_option_hedging_rl",
@@ -44474,6 +44942,7 @@
         "q_pub_li_regime_mv",
         "q_pub_li_parisian",
         "q_pub_ruixun_diffusion_factor_models",
+        "q_pub_weichen_wang_oos_sharpe_high_dim_portfolio_2025",
         "q_pub_xianhua_peng_cel",
         "q_pub_xianhua_peng_cefol",
         "q_pub_xianhua_peng_contract_unified_option_hedging_rl",
@@ -44497,12 +44966,13 @@
         "r_lian",
         "r_lingfei",
         "r_ruixun_zhang_pku",
+        "r_weichen_wang_hku",
         "r_xianhua_peng",
         "r_yao_lu_nus",
         "r_yi_yang_hkust",
         "r_zhanhui"
       ],
-      "reviewedAt": "2026-10-05",
+      "reviewedAt": "2026-10-06",
       "themes": [
         "asset",
         "decision",
@@ -44592,6 +45062,7 @@
         "pub_jian_li_imm_imitative_market_making",
         "pub_jian_li_macmic_iceberg_order_execution",
         "pub_ke_2025_alphaqcm_alpha_discovery_in_finance_with_distrib",
+        "pub_weichen_wang_time_series_nonlinear_sieves_2025",
         "pub_ye_causal_reinforcement_learning_iv"
       ],
       "question": "如何在有限交互和不确定环境中高效学习具有保证的策略？",
@@ -44612,6 +45083,7 @@
         "q_pub_jian_li_imm_imitative_market_making",
         "q_pub_jian_li_macmic_iceberg_order_execution",
         "q_pub_ke_2025_alphaqcm_alpha_discovery_in_finance_with_distrib",
+        "q_pub_weichen_wang_time_series_nonlinear_sieves_2025",
         "q_pub_ye_causal_reinforcement_learning_iv"
       ],
       "researcherIds": [
@@ -44622,14 +45094,16 @@
         "r_jia",
         "r_jian_li",
         "r_ke",
+        "r_weichen_wang_hku",
         "r_ye"
       ],
-      "reviewedAt": "2026-10-04",
+      "reviewedAt": "2026-10-06",
       "themes": [
         "asset",
         "decision",
         "finai",
-        "ml"
+        "ml",
+        "ts"
       ],
       "title": "强化学习的效率与保证"
     },
@@ -44791,6 +45265,8 @@
         "pub_ke_2025_efficient_estimation_of_large_time_varying_facto",
         "pub_ke_2025_inference_for_the_panel_arma_garch_model_when_bo",
         "pub_ke_2025_estimation_for_conditional_moment_models_based_o",
+        "pub_weichen_wang_oos_sharpe_high_dim_portfolio_2025",
+        "pub_weichen_wang_time_series_nonlinear_sieves_2025",
         "pub_ye_treatment_effects_l2_boosting",
         "pub_yingying_cross_sectional_sdf"
       ],
@@ -44818,6 +45294,8 @@
         "q_pub_ke_2025_efficient_estimation_of_large_time_varying_facto",
         "q_pub_ke_2025_inference_for_the_panel_arma_garch_model_when_bo",
         "q_pub_ke_2025_estimation_for_conditional_moment_models_based_o",
+        "q_pub_weichen_wang_oos_sharpe_high_dim_portfolio_2025",
+        "q_pub_weichen_wang_time_series_nonlinear_sieves_2025",
         "q_pub_ye_treatment_effects_l2_boosting",
         "q_pub_yingying_cross_sectional_sdf"
       ],
@@ -44827,13 +45305,15 @@
         "r_guodong",
         "r_junye",
         "r_ke",
+        "r_weichen_wang_hku",
         "r_ye",
         "r_yingying",
         "r_zhanhui"
       ],
-      "reviewedAt": "2026-09-28",
+      "reviewedAt": "2026-10-06",
       "themes": [
         "asset",
+        "decision",
         "finai",
         "ml",
         "ts"
@@ -44868,6 +45348,7 @@
         "pub_ke_2025_testing_and_estimation_of_change_point_in_arma_m",
         "pub_ke_2026_quantiled_conditional_variance_skewness_and_kurt",
         "pub_ke_2025_automatic_tests_for_serial_correlation_and_arch_",
+        "pub_weichen_wang_time_series_nonlinear_sieves_2025",
         "pub_xiaoyan_2025_the_international_commonality_of_idiosyncratic_v",
         "pub_yanzhen_deep_learning_change_point",
         "pub_yingying_tests_principal_eigen"
@@ -44897,6 +45378,7 @@
         "q_pub_ke_2025_testing_and_estimation_of_change_point_in_arma_m",
         "q_pub_ke_2026_quantiled_conditional_variance_skewness_and_kurt",
         "q_pub_ke_2025_automatic_tests_for_serial_correlation_and_arch_",
+        "q_pub_weichen_wang_time_series_nonlinear_sieves_2025",
         "q_pub_xiaoyan_2025_the_international_commonality_of_idiosyncratic_v",
         "q_pub_yanzhen_deep_learning_change_point",
         "q_pub_yingying_tests_principal_eigen"
@@ -44907,13 +45389,15 @@
         "r_guodong",
         "r_junye",
         "r_ke",
+        "r_weichen_wang_hku",
         "r_xiaoyan",
         "r_yanzhen",
         "r_yingying"
       ],
-      "reviewedAt": "2026-10-04",
+      "reviewedAt": "2026-10-06",
       "themes": [
         "asset",
+        "decision",
         "finai",
         "ml",
         "ts"
@@ -45185,7 +45669,8 @@
         "pub_difan_2023_the_implicit_bias_of_batch_normalization_in_line",
         "pub_difan_2023_understanding_the_generalization_of_adam_in_lear",
         "pub_guodong_2023_cross_layer_retrospective_retrieving_via_layer_a",
-        "pub_guodong_2023_encoding_recurrence_into_transformers"
+        "pub_guodong_2023_encoding_recurrence_into_transformers",
+        "pub_zhimin_chen_limits_machine_learning_2025"
       ],
       "question": "模型的结构、数据和训练方式如何决定其可学习性与泛化能力？",
       "questionIds": [
@@ -45220,15 +45705,19 @@
         "q_pub_difan_2023_the_implicit_bias_of_batch_normalization_in_line",
         "q_pub_difan_2023_understanding_the_generalization_of_adam_in_lear",
         "q_pub_guodong_2023_cross_layer_retrospective_retrieving_via_layer_a",
-        "q_pub_guodong_2023_encoding_recurrence_into_transformers"
+        "q_pub_guodong_2023_encoding_recurrence_into_transformers",
+        "q_pub_zhimin_chen_limits_machine_learning_2025"
       ],
       "researcherIds": [
         "r_difan",
-        "r_guodong"
+        "r_guodong",
+        "r_zhimin_chen_ntu"
       ],
-      "reviewedAt": "2026-08-31",
+      "reviewedAt": "2026-10-06",
       "themes": [
+        "asset",
         "decision",
+        "finai",
         "ml",
         "ts"
       ],
@@ -46107,7 +46596,8 @@
         "pub_difan_2025_beyond_surface_structure_a_causal_assessment_of_",
         "pub_sha_harmonized_uncertainty",
         "pub_qi_liu_alphaqt",
-        "pub_yi_yang_finmteb"
+        "pub_yi_yang_finmteb",
+        "pub_zhimin_chen_limits_machine_learning_2025"
       ],
       "question": "如何评价模型能力与可靠性，并识别和缓解系统性偏差？",
       "questionIds": [
@@ -46123,7 +46613,8 @@
         "q_pub_difan_2025_beyond_surface_structure_a_causal_assessment_of_",
         "q_pub_sha_harmonized_uncertainty",
         "q_pub_qi_liu_alphaqt",
-        "q_pub_yi_yang_finmteb"
+        "q_pub_yi_yang_finmteb",
+        "q_pub_zhimin_chen_limits_machine_learning_2025"
       ],
       "researcherIds": [
         "r_anthony_tung_nus",
@@ -46132,9 +46623,10 @@
         "r_difan",
         "r_lei_sha",
         "r_qi_liu_hku",
-        "r_yi_yang_hkust"
+        "r_yi_yang_hkust",
+        "r_zhimin_chen_ntu"
       ],
-      "reviewedAt": "2026-10-04",
+      "reviewedAt": "2026-10-06",
       "themes": [
         "asset",
         "decision",
@@ -46403,12 +46895,12 @@
       {
         "awaitingEvidence": 0,
         "awaitingExtraction": 0,
-        "clustered": 56,
-        "clusters": 27,
-        "extracted": 56,
+        "clustered": 59,
+        "clusters": 28,
+        "extracted": 59,
         "multiPaperClusters": 16,
-        "papers": 56,
-        "singlePaperClusters": 11,
+        "papers": 59,
+        "singlePaperClusters": 12,
         "staleEvidence": 0,
         "themeId": "finai",
         "unclustered": 0
@@ -46416,12 +46908,12 @@
       {
         "awaitingEvidence": 1,
         "awaitingExtraction": 0,
-        "clustered": 88,
-        "clusters": 34,
-        "extracted": 88,
+        "clustered": 89,
+        "clusters": 36,
+        "extracted": 89,
         "multiPaperClusters": 21,
-        "papers": 89,
-        "singlePaperClusters": 13,
+        "papers": 90,
+        "singlePaperClusters": 15,
         "staleEvidence": 0,
         "themeId": "decision",
         "unclustered": 0
@@ -46429,12 +46921,12 @@
       {
         "awaitingEvidence": 6,
         "awaitingExtraction": 0,
-        "clustered": 136,
-        "clusters": 28,
-        "extracted": 136,
+        "clustered": 139,
+        "clusters": 29,
+        "extracted": 139,
         "multiPaperClusters": 25,
-        "papers": 142,
-        "singlePaperClusters": 3,
+        "papers": 145,
+        "singlePaperClusters": 4,
         "staleEvidence": 0,
         "themeId": "asset",
         "unclustered": 0
@@ -46442,11 +46934,11 @@
       {
         "awaitingEvidence": 7,
         "awaitingExtraction": 0,
-        "clustered": 90,
-        "clusters": 28,
-        "extracted": 90,
-        "multiPaperClusters": 17,
-        "papers": 97,
+        "clustered": 93,
+        "clusters": 29,
+        "extracted": 93,
+        "multiPaperClusters": 18,
+        "papers": 100,
         "singlePaperClusters": 11,
         "staleEvidence": 0,
         "themeId": "ts",
@@ -46468,22 +46960,22 @@
       {
         "awaitingEvidence": 3,
         "awaitingExtraction": 0,
-        "clustered": 237,
+        "clustered": 240,
         "clusters": 39,
-        "extracted": 237,
+        "extracted": 240,
         "multiPaperClusters": 32,
-        "papers": 240,
+        "papers": 243,
         "singlePaperClusters": 7,
         "staleEvidence": 0,
         "themeId": "ml",
         "unclustered": 0
       }
     ],
-    "clustered": 405,
+    "clustered": 409,
     "clusters": 50,
-    "extracted": 405,
+    "extracted": 409,
     "multiPaperClusters": 44,
-    "papers": 418,
+    "papers": 422,
     "singlePaperClusters": 6,
     "staleEvidence": 0,
     "unclustered": 0
@@ -54750,6 +55242,56 @@
     {
       "basis": "abstract_summary",
       "clusterIds": [
+        "qc_portfolio_risk_control",
+        "qc_high_dim_inference",
+        "qc_asset_risk_premia"
+      ],
+      "evidence": {
+        "digest": "589148f65d5d3cba74cb19ca9c0fe52a6eafb569fdbe07264f4714b66efc155c",
+        "excerpt": "在高维投资组合优化中，论文指出样本内估计协方差矩阵不适合直接评估样本外 Sharpe ratio，并提出基于样本内数据和随机矩阵理论的估计方法，用于构造现实组合并改善样本外表现评估。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-06",
+          "kind": "abstract_summary",
+          "label": "已有摘要概览所列来源",
+          "url": "https://www.hkubs.hku.hk/people/weichen-wang/"
+        }
+      },
+      "id": "q_pub_weichen_wang_oos_sharpe_high_dim_portfolio_2025",
+      "paperIds": [
+        "pub_weichen_wang_oos_sharpe_high_dim_portfolio_2025"
+      ],
+      "reviewedAt": "2026-10-06",
+      "text": "在高维投资组合优化中，如何仅用样本内数据更可靠地估计样本外 Sharpe ratio？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_high_dim_inference",
+        "qc_time_series_structure",
+        "qc_rl_sample_efficiency"
+      ],
+      "evidence": {
+        "digest": "02495f143502fe11d60b82b36310ca1100dff64ee3c6a22139f0cd6c6efaffd1",
+        "excerpt": "论文研究弱依赖时间序列中基于一般非线性 sieve 的条件矩限制推断，用多层神经网络学习满足条件矩限制的非参数函数；其 GN-QLR 统计量用于期望函数推断，并把强化学习 off-policy evaluation 中的 Bellman 方程表述为条件矩限制以推断 state-specific value functional。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-06",
+          "kind": "abstract_summary",
+          "label": "已有摘要概览所列来源",
+          "url": "https://arxiv.org/abs/2301.00092"
+        }
+      },
+      "id": "q_pub_weichen_wang_time_series_nonlinear_sieves_2025",
+      "paperIds": [
+        "pub_weichen_wang_time_series_nonlinear_sieves_2025"
+      ],
+      "reviewedAt": "2026-10-06",
+      "text": "在弱依赖时间序列中，如何用非线性 sieve 支持条件矩限制推断并服务动态决策评估？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
         "qc_portfolio_risk_control"
       ],
       "evidence": {
@@ -56073,6 +56615,56 @@
       ],
       "reviewedAt": "2026-08-31",
       "text": "本地性别失衡如何通过风险偏好渠道关联公司风险承担和融资条件？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_learning_generalization",
+        "qc_asset_risk_premia",
+        "qc_model_evaluation"
+      ],
+      "evidence": {
+        "digest": "a2f9641271479a7b71f141946dd2564cbc2bfbb0890222b5028b09e7beb8875f",
+        "excerpt": "论文从有限样本角度分析机器学习在资产定价中的可预测性边界，定义 Limits-to-Learning Gap，并说明它会使研究者低估回报、收益率、信用利差和估值比率中的真实 predictability；校正后结果与 Hansen-Jagannathan bounds 和 excess volatility puzzles 相联系。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-06",
+          "kind": "abstract_summary",
+          "label": "已有摘要概览所列来源",
+          "url": "https://arxiv.org/abs/2512.12735"
+        }
+      },
+      "id": "q_pub_zhimin_chen_limits_machine_learning_2025",
+      "paperIds": [
+        "pub_zhimin_chen_limits_machine_learning_2025"
+      ],
+      "reviewedAt": "2026-10-06",
+      "text": "有限样本如何限制机器学习在资产定价中的可预测性估计，并影响对真实 predictability 的判断？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_policy_macro_risk",
+        "qc_market_liquidity_trading",
+        "qc_asset_risk_premia"
+      ],
+      "evidence": {
+        "digest": "d02e897458e46cfd58cc0385e7b631aef5c8041692429eed5ba8fbf5a99d803d",
+        "excerpt": "论文研究金融交易者进入碳配额市场后的真实效应，指出套利资本缺乏与碳配额价格信息性下降相关；对于私人信息较弱的企业，价格信息性下降会降低减排效率，并伴随企业碳强度离散度上升。论文用管理者从价格学习的模型解释这些经验事实。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-06",
+          "kind": "abstract_summary",
+          "label": "已有摘要概览所列来源",
+          "url": "https://api.crossref.org/works/10.2139/ssrn.4829942"
+        }
+      },
+      "id": "q_pub_zhimin_chen_carbon_financialization_2024",
+      "paperIds": [
+        "pub_zhimin_chen_carbon_financialization_2024"
+      ],
+      "reviewedAt": "2026-10-06",
+      "text": "金融交易者进入碳配额市场后，价格信息性变化会如何影响企业减排效率？"
     }
   ],
   "researchers": [
@@ -56208,8 +56800,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 87,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2023-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2023-10-05",
         "windowYears": 3
       },
       "sources": [
@@ -56319,8 +56911,8 @@
         "status": "reviewed_sources",
         "threshold": 5,
         "uncertainDateCount": 6,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2023-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2023-10-05",
         "windowYears": 3
       },
       "sources": [
@@ -56443,8 +57035,8 @@
         "status": "reviewed_sources",
         "threshold": 5,
         "uncertainDateCount": 2,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2023-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2023-10-05",
         "windowYears": 3
       },
       "sources": [
@@ -56532,8 +57124,8 @@
         "status": "reviewed_sources",
         "threshold": 5,
         "uncertainDateCount": 23,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2023-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2023-10-05",
         "windowYears": 3
       },
       "sources": [
@@ -56696,8 +57288,8 @@
         "status": "reviewed_sources",
         "threshold": 5,
         "uncertainDateCount": 96,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2023-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2023-10-05",
         "windowYears": 3
       },
       "sources": [
@@ -56784,8 +57376,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 8,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2023-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2023-10-05",
         "windowYears": 3
       },
       "sources": [
@@ -56875,8 +57467,8 @@
         "status": "reviewed_sources",
         "threshold": 5,
         "uncertainDateCount": 9,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2023-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2023-10-05",
         "windowYears": 3
       },
       "sources": [
@@ -56974,8 +57566,8 @@
         "status": "reviewed_sources",
         "threshold": 5,
         "uncertainDateCount": 17,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2023-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2023-10-05",
         "windowYears": 3
       },
       "sources": [
@@ -57070,8 +57662,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 5,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -57168,8 +57760,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 5,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2023-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2023-10-05",
         "windowYears": 3
       },
       "sources": [
@@ -57256,8 +57848,8 @@
         "status": "reviewed_sources",
         "threshold": 5,
         "uncertainDateCount": 7,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2023-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2023-10-05",
         "windowYears": 3
       },
       "sources": [
@@ -57343,8 +57935,8 @@
         "status": "reviewed_sources",
         "threshold": 5,
         "uncertainDateCount": 7,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2023-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2023-10-05",
         "windowYears": 3
       },
       "sources": [
@@ -57435,8 +58027,8 @@
         "status": "reviewed_sources",
         "threshold": 5,
         "uncertainDateCount": 24,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2023-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2023-10-05",
         "windowYears": 3
       },
       "sources": [
@@ -57534,8 +58126,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 3,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2023-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2023-10-05",
         "windowYears": 3
       },
       "sources": [
@@ -57643,8 +58235,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 7,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -57735,8 +58327,8 @@
         "status": "reviewed_sources",
         "threshold": 5,
         "uncertainDateCount": 3,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2023-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2023-10-05",
         "windowYears": 3
       },
       "sources": [
@@ -57848,8 +58440,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 1,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -57978,8 +58570,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 9,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2023-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2023-10-05",
         "windowYears": 3
       },
       "sources": [
@@ -58078,8 +58670,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 4,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2023-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2023-10-05",
         "windowYears": 3
       },
       "sources": [
@@ -58196,8 +58788,8 @@
         "status": "reviewed_sources",
         "threshold": 5,
         "uncertainDateCount": 7,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2023-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2023-10-05",
         "windowYears": 3
       },
       "sources": [
@@ -58262,8 +58854,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 2,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2023-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2023-10-05",
         "windowYears": 3
       },
       "sources": [
@@ -58339,8 +58931,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -58411,8 +59003,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -58486,8 +59078,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -58556,8 +59148,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -58623,8 +59215,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -58692,8 +59284,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -58763,8 +59355,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -58834,8 +59426,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -58904,8 +59496,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -58971,8 +59563,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -59041,8 +59633,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -59139,8 +59731,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 2,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2023-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2023-10-05",
         "windowYears": 3
       },
       "sources": [
@@ -59270,8 +59862,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 2,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2023-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2023-10-05",
         "windowYears": 3
       },
       "sources": [
@@ -59326,8 +59918,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -59390,8 +59982,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -59484,8 +60076,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -59541,8 +60133,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -59626,8 +60218,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -59731,8 +60323,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 3,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2023-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2023-10-05",
         "windowYears": 3
       },
       "sources": [
@@ -59800,8 +60392,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -59855,8 +60447,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -59917,8 +60509,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -59981,8 +60573,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -60043,8 +60635,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -60105,8 +60697,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -60174,8 +60766,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -60248,8 +60840,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -60322,8 +60914,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -60376,8 +60968,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -60465,8 +61057,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 2,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -60502,25 +61094,28 @@
       "nameVariants": [],
       "position": "Assistant Professor",
       "publicationCoverage": {
-        "abstractCount": 0,
-        "authorVerifiedCount": 0,
+        "abstractCount": 2,
+        "authorVerifiedCount": 2,
         "boundaryDateCount": 0,
-        "checkedAt": null,
-        "collectedCount": 0,
+        "checkedAt": "2026-10-06",
+        "collectedCount": 2,
         "extended": true,
         "fullTextCount": 0,
         "gaps": [
           "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
         ],
         "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
-        "paperIds": [],
-        "recentCount": 0,
+        "paperIds": [
+          "pub_weichen_wang_oos_sharpe_high_dim_portfolio_2025",
+          "pub_weichen_wang_time_series_nonlinear_sieves_2025"
+        ],
+        "recentCount": 2,
         "sourcesChecked": [],
         "status": "partial",
         "threshold": 5,
-        "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "uncertainDateCount": 1,
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -60529,6 +61124,24 @@
           "kind": "official_profile",
           "label": "HKU Business School profile",
           "url": "https://www.hkubs.hku.hk/people/weichen-wang/"
+        },
+        {
+          "checkedAt": "2026-10-06",
+          "kind": "personal_academic_profile",
+          "label": "Personal academic page: research statement and publication list",
+          "url": "https://wweichen.github.io/"
+        },
+        {
+          "checkedAt": "2026-10-06",
+          "kind": "publisher_metadata",
+          "label": "Crossref/Taylor metadata: full byline, online date, issue and pages",
+          "url": "https://api.crossref.org/works/10.1080/01621459.2025.2535757"
+        },
+        {
+          "checkedAt": "2026-10-06",
+          "kind": "publisher_metadata",
+          "label": "Crossref/Elsevier metadata: full byline, journal date and article number",
+          "url": "https://api.crossref.org/works/10.1016/j.jeconom.2024.105920"
         }
       ],
       "summary": "研究主题：Machine learning、deep learning、asset pricing、financial markets、factor structure、quantitative equity forecasting。主题关联为编辑归纳，请结合论文和官方来源判断。",
@@ -60622,8 +61235,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -60679,8 +61292,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -60735,8 +61348,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -60790,8 +61403,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -60864,8 +61477,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 2,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -60995,8 +61608,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -61061,8 +61674,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -61133,8 +61746,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -61197,8 +61810,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -61269,8 +61882,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -61333,8 +61946,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -61397,8 +62010,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -61459,8 +62072,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -61520,8 +62133,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -61619,8 +62232,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 2,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -61682,8 +62295,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -61744,8 +62357,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -61813,8 +62426,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -61881,8 +62494,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -61949,8 +62562,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -62030,8 +62643,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -62099,8 +62712,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -62156,8 +62769,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -62212,8 +62825,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -62275,8 +62888,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -62333,8 +62946,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -62391,8 +63004,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -62454,8 +63067,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -62523,8 +63136,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -62586,8 +63199,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -62644,8 +63257,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -62701,8 +63314,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -62765,8 +63378,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -62823,8 +63436,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -62887,8 +63500,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -62944,8 +63557,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -63013,8 +63626,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -63088,8 +63701,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -63151,8 +63764,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -63225,8 +63838,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -63293,8 +63906,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -63368,8 +63981,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -63437,8 +64050,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -63512,8 +64125,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -63621,8 +64234,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 1,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -63683,8 +64296,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -63747,8 +64360,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -63810,8 +64423,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -63868,25 +64481,28 @@
       ],
       "position": "Assistant Professor of Finance; Faculty Affiliate, GIFTS",
       "publicationCoverage": {
-        "abstractCount": 0,
-        "authorVerifiedCount": 0,
+        "abstractCount": 2,
+        "authorVerifiedCount": 2,
         "boundaryDateCount": 0,
-        "checkedAt": null,
-        "collectedCount": 0,
+        "checkedAt": "2026-10-06",
+        "collectedCount": 2,
         "extended": true,
         "fullTextCount": 0,
         "gaps": [
           "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
         ],
         "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
-        "paperIds": [],
-        "recentCount": 0,
+        "paperIds": [
+          "pub_zhimin_chen_limits_machine_learning_2025",
+          "pub_zhimin_chen_carbon_financialization_2024"
+        ],
+        "recentCount": 2,
         "sourcesChecked": [],
         "status": "partial",
         "threshold": 5,
-        "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "uncertainDateCount": 2,
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -63919,6 +64535,30 @@
           "kind": "official_student_profiles",
           "label": "NTU官方：2024/2025博士入学与联合指导记录；非2028名额",
           "url": "https://www.ntu.edu.sg/business/admissions/phd-programme/areas-of-specialisations/banking-finance/phd-student-profiles"
+        },
+        {
+          "checkedAt": "2026-10-06",
+          "kind": "publisher_metadata",
+          "label": "Crossref/SSRN metadata: full byline and 2025 DOI metadata",
+          "url": "https://api.crossref.org/works/10.2139/ssrn.5909844"
+        },
+        {
+          "checkedAt": "2026-10-06",
+          "kind": "preprint_index",
+          "label": "RePEc record: full byline, abstract and 2025/12 publication date",
+          "url": "https://ideas.repec.org/p/arx/papers/2512.09344.html"
+        },
+        {
+          "checkedAt": "2026-10-06",
+          "kind": "publisher_metadata",
+          "label": "Crossref/SSRN metadata: title, author, posted date and abstract",
+          "url": "https://api.crossref.org/works/10.2139/ssrn.4829942"
+        },
+        {
+          "checkedAt": "2026-10-06",
+          "kind": "preprint",
+          "label": "arXiv record: title, full byline, date and abstract",
+          "url": "https://arxiv.org/abs/2512.12735"
         }
       ],
       "summary": "研究主题：机器学习资产定价、AI in Finance、气候金融。主题关联为编辑归纳，请结合论文和官方来源判断。",
@@ -63965,8 +64605,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -64035,8 +64675,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -64174,8 +64814,8 @@
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 1,
-        "windowEnd": "2026-10-04",
-        "windowStart": "2021-10-04",
+        "windowEnd": "2026-10-05",
+        "windowStart": "2021-10-05",
         "windowYears": 5
       },
       "sources": [
@@ -64242,5 +64882,5 @@
       "name": "ML Theory & Optimization"
     }
   ],
-  "updatedAt": "2026-10-04"
+  "updatedAt": "2026-10-05"
 }
