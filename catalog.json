@@ -44168,6 +44168,594 @@
       "verifiedAt": "2026-10-06",
       "versions": [],
       "year": 2024
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-07",
+        "reason": "已有摘要级来源；未独立复现实验、估计或理论证明。",
+        "source": "https://ideas.repec.org/a/eee/jfinec/v162y2024ics0304405x2400166x.html",
+        "status": "available"
+      },
+      "abstractSummary": "论文提出在存在价格冲击成本时比较资产定价模型的正式统计检验，说明交易成本会使最优模型随投资者绝对风险厌恶而变化；经验结果中，Hou et al.、Fama-French 与高维模型分别更适合高、中、低绝对风险厌恶情形。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-07",
+        "kind": "publisher_metadata",
+        "label": "Crossref/JFE metadata: title, full byline, journal record and DOI",
+        "url": "https://api.crossref.org/works/10.1016/j.jfineco.2024.103949"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Sicong Li",
+        "Victor DeMiguel",
+        "Alberto Martín-Utrera"
+      ],
+      "authorships": [
+        {
+          "name": "Sicong Li",
+          "position": 1,
+          "researcherId": "r_sicong_li_cuhk"
+        },
+        {
+          "name": "Victor DeMiguel",
+          "position": 2,
+          "researcherId": null
+        },
+        {
+          "name": "Alberto Martín-Utrera",
+          "position": 3,
+          "researcherId": null
+        }
+      ],
+      "contribution": {
+        "note": "完整作者顺序已核；作者位次不等于贡献大小，具体贡献声明待核。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2024-09-21",
+      "dateEvidence": {
+        "checkedAt": "2026-10-07",
+        "kind": "date_note",
+        "label": "日期与版本说明",
+        "note": "正式期刊记录取 JFE/Crossref；日期以 Crossref created/online-indexed date 2024-09-21 记录，JFE volume year 为 2024。",
+        "url": "https://doi.org/10.1016/j.jfineco.2024.103949"
+      },
+      "datePrecision": "day",
+      "doi": "10.1016/j.jfineco.2024.103949",
+      "id": "pub_sicong_li_factor_models_price_impact_costs_2024",
+      "paradigms": [
+        "measurement",
+        "empirical"
+      ],
+      "publicationStatus": "published",
+      "publicationType": "journal",
+      "questionId": "q_pub_sicong_li_factor_models_price_impact_costs_2024",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "在存在价格冲击交易成本时，如何比较资产定价因子模型对不同风险厌恶投资者的有效性？",
+      "researcherIds": [
+        "r_sicong_li_cuhk"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-07",
+          "kind": "publisher_metadata",
+          "label": "Crossref/JFE metadata: title, full byline, journal record and DOI",
+          "url": "https://api.crossref.org/works/10.1016/j.jfineco.2024.103949"
+        },
+        {
+          "checkedAt": "2026-10-07",
+          "kind": "official_profile",
+          "label": "CUHK Business School profile: official identity and publication list",
+          "url": "https://www.bschool.cuhk.edu.hk/staff/li-sicong/"
+        },
+        {
+          "checkedAt": "2026-10-07",
+          "kind": "repository_pdf",
+          "label": "London Business School repository PDF: formal paper copy checked by parent lane",
+          "url": "https://lbsresearch.london.edu/id/eprint/3863/1/1-s2.0-S0304405X24001727-main.pdf"
+        },
+        {
+          "checkedAt": "2026-10-07",
+          "kind": "index_abstract",
+          "label": "RePEc/JFE index: abstract and bibliographic metadata",
+          "url": "https://ideas.repec.org/a/eee/jfinec/v162y2024ics0304405x2400166x.html"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "asset",
+        "ts"
+      ],
+      "title": "Comparing Factor Models with Price-Impact Costs",
+      "url": "https://doi.org/10.1016/j.jfineco.2024.103949",
+      "venue": "Journal of Financial Economics 162, 103949",
+      "verifiedAt": "2026-10-07",
+      "versions": [],
+      "year": 2024
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-07",
+        "reason": "已有摘要级来源；未独立复现实验、估计或理论证明。",
+        "source": "https://www.aeaweb.org/conference/2024/program/paper/A574DrN5",
+        "status": "available"
+      },
+      "abstractSummary": "论文把经济动机的横截面与时间序列矩条件嵌入潜在因子估计，以识别弱因子；经验上，该框架用于构造更强的资产定价因子组合，并报告更高 Sharpe ratio 与更低 mispricing。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-07",
+        "kind": "publisher_metadata",
+        "label": "Crossref/SSRN metadata: DOI, full byline, posted-content record and abstract",
+        "url": "https://api.crossref.org/works/10.2139/ssrn.4344837"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Svetlana Bryzgalova",
+        "Victor DeMiguel",
+        "Sicong Li",
+        "Markus Pelger"
+      ],
+      "authorships": [
+        {
+          "name": "Svetlana Bryzgalova",
+          "position": 1,
+          "researcherId": null
+        },
+        {
+          "name": "Victor DeMiguel",
+          "position": 2,
+          "researcherId": null
+        },
+        {
+          "name": "Sicong Li",
+          "position": 3,
+          "researcherId": "r_sicong_li_cuhk"
+        },
+        {
+          "name": "Markus Pelger",
+          "position": 4,
+          "researcherId": null
+        }
+      ],
+      "contribution": {
+        "note": "完整作者顺序已核；作者位次不等于贡献大小，具体贡献声明待核。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2023-02-01",
+      "dateEvidence": {
+        "checkedAt": "2026-10-07",
+        "kind": "date_note",
+        "label": "日期与版本说明",
+        "note": "主日期保留 SSRN/Crossref posted-content created date 2023-02-01；父级核验的 SSRN revision date 为 2026-07-08，不改写首次记录日期。",
+        "url": "https://doi.org/10.2139/ssrn.4344837"
+      },
+      "datePrecision": "day",
+      "doi": "10.2139/ssrn.4344837",
+      "id": "pub_sicong_li_asset_pricing_factors_economic_targets_2023",
+      "paradigms": [
+        "measurement",
+        "theory",
+        "empirical"
+      ],
+      "publicationStatus": "working_paper",
+      "publicationType": "working_paper",
+      "questionId": "q_pub_sicong_li_asset_pricing_factors_economic_targets_2023",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "如何把经济目标嵌入潜在因子估计，以识别弱因子并降低资产定价误差？",
+      "researcherIds": [
+        "r_sicong_li_cuhk"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-07",
+          "kind": "publisher_metadata",
+          "label": "Crossref/SSRN metadata: DOI, full byline, posted-content record and abstract",
+          "url": "https://api.crossref.org/works/10.2139/ssrn.4344837"
+        },
+        {
+          "checkedAt": "2026-10-07",
+          "kind": "official_profile",
+          "label": "CUHK Business School profile: official identity and publication list",
+          "url": "https://www.bschool.cuhk.edu.hk/staff/li-sicong/"
+        },
+        {
+          "checkedAt": "2026-10-07",
+          "kind": "conference_program",
+          "label": "AEA conference program: four-author byline and July 2023 abstract verified by parent lane",
+          "url": "https://www.aeaweb.org/conference/2024/program/paper/A574DrN5"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "asset",
+        "ts",
+        "ml"
+      ],
+      "title": "Asset-Pricing Factors with Economic Targets",
+      "url": "https://doi.org/10.2139/ssrn.4344837",
+      "venue": "SSRN working paper",
+      "verifiedAt": "2026-10-07",
+      "versions": [
+        {
+          "authorEvidence": {
+            "checkedAt": "2026-10-07",
+            "kind": "publisher_metadata",
+            "label": "Crossref/SSRN metadata: DOI, full byline, posted-content record and abstract",
+            "url": "https://api.crossref.org/works/10.2139/ssrn.4344837"
+          },
+          "authorListComplete": true,
+          "authorOrderVerified": true,
+          "authors": [
+            "Svetlana Bryzgalova",
+            "Victor DeMiguel",
+            "Sicong Li",
+            "Markus Pelger"
+          ],
+          "date": "2026-07-08",
+          "datePrecision": "day",
+          "doi": "10.2139/ssrn.4344837",
+          "publicationStatus": "working_paper_revision",
+          "publicationType": "working_paper",
+          "sources": [
+            {
+              "checkedAt": "2026-10-07",
+              "kind": "publisher_metadata",
+              "label": "Crossref/SSRN metadata: DOI, full byline, posted-content record and abstract",
+              "url": "https://api.crossref.org/works/10.2139/ssrn.4344837"
+            },
+            {
+              "checkedAt": "2026-10-07",
+              "kind": "working_paper_landing",
+              "label": "SSRN working paper landing page: direct page may be access-gated; indexed metadata verified separately",
+              "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4344837"
+            },
+            {
+              "checkedAt": "2026-10-07",
+              "kind": "conference_program",
+              "label": "AEA conference program: four-author byline and July 2023 abstract verified by parent lane",
+              "url": "https://www.aeaweb.org/conference/2024/program/paper/A574DrN5"
+            }
+          ],
+          "title": "Asset-Pricing Factors with Economic Targets",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4344837",
+          "venue": "SSRN revised version",
+          "year": 2026
+        }
+      ],
+      "year": 2023
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-07",
+        "reason": "已有摘要级来源；未独立复现实验、估计或理论证明。",
+        "source": "https://www.nber.org/papers/w34054",
+        "status": "available"
+      },
+      "abstractSummary": "论文研究带强化学习的 AI 交易者在知情投机者模型中的行为，指出 AI 投机者可在没有协议、沟通或意图的情况下维持合谋式超竞争利润，从而削弱竞争并降低价格效率。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-07",
+        "kind": "publisher_metadata",
+        "label": "Crossref/NBER metadata: DOI, byline and July 2025 report record",
+        "url": "https://api.crossref.org/works/10.3386/w34054"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Winston Wei Dou",
+        "Itay Goldstein",
+        "Yan Ji"
+      ],
+      "authorships": [
+        {
+          "name": "Winston Wei Dou",
+          "position": 1,
+          "researcherId": null
+        },
+        {
+          "name": "Itay Goldstein",
+          "position": 2,
+          "researcherId": null
+        },
+        {
+          "name": "Yan Ji",
+          "position": 3,
+          "researcherId": "r_yan_ji_hkust"
+        }
+      ],
+      "contribution": {
+        "note": "完整作者顺序已核；作者位次不等于贡献大小，具体贡献声明待核。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2025-07",
+      "dateEvidence": {
+        "checkedAt": "2026-10-07",
+        "kind": "date_note",
+        "label": "日期与版本说明",
+        "note": "主记录取 NBER Working Paper 34054 的 July 2025 DOI/report month；相关 SSRN 2023 working-paper version 和 AER R&R 状态仅列入 versions，不视为已录用。",
+        "url": "https://www.nber.org/papers/w34054"
+      },
+      "datePrecision": "month",
+      "doi": "10.3386/w34054",
+      "id": "pub_yan_ji_ai_powered_trading_collusion_price_efficiency_2025",
+      "paradigms": [
+        "empirical",
+        "diagnostic"
+      ],
+      "publicationStatus": "working_paper",
+      "publicationType": "working_paper",
+      "questionId": "q_pub_yan_ji_ai_powered_trading_collusion_price_efficiency_2025",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "强化学习交易者在无协议、沟通或意图的条件下，如何形成算法合谋并影响价格效率？",
+      "researcherIds": [
+        "r_yan_ji_hkust"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-07",
+          "kind": "publisher_metadata",
+          "label": "Crossref/NBER metadata: DOI, byline and July 2025 report record",
+          "url": "https://api.crossref.org/works/10.3386/w34054"
+        },
+        {
+          "checkedAt": "2026-10-07",
+          "kind": "personal_academic_profile",
+          "label": "Yan Ji personal academic page: working-paper list and R&R status notes",
+          "url": "https://sites.google.com/site/yanjiphd/home"
+        },
+        {
+          "checkedAt": "2026-10-07",
+          "kind": "personal_academic_profile",
+          "label": "Wharton author page: AER revise-and-resubmit status in July 2025; not accepted",
+          "url": "https://finance-faculty.wharton.upenn.edu/wdou/2023/05/19/ai-powered-trading-algorithmic-collusion-and-price-efficiency/"
+        },
+        {
+          "checkedAt": "2026-10-07",
+          "kind": "working_paper",
+          "label": "NBER Working Paper 34054 page: byline, DOI, abstract and associated SSRN link verified",
+          "url": "https://www.nber.org/papers/w34054"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "finai",
+        "decision",
+        "asset"
+      ],
+      "title": "AI-Powered Trading, Algorithmic Collusion, and Price Efficiency",
+      "url": "https://www.nber.org/papers/w34054",
+      "venue": "NBER Working Paper 34054",
+      "verifiedAt": "2026-10-07",
+      "versions": [
+        {
+          "authorEvidence": {
+            "checkedAt": "2026-10-07",
+            "kind": "working_paper",
+            "label": "NBER Working Paper 34054 page: byline, DOI, abstract and associated SSRN link verified",
+            "url": "https://www.nber.org/papers/w34054"
+          },
+          "authorListComplete": true,
+          "authorOrderVerified": true,
+          "authors": [
+            "Winston Wei Dou",
+            "Itay Goldstein",
+            "Yan Ji"
+          ],
+          "date": "2023-05-23",
+          "datePrecision": "day",
+          "publicationStatus": "working_paper",
+          "publicationType": "working_paper",
+          "sources": [
+            {
+              "checkedAt": "2026-10-07",
+              "kind": "working_paper",
+              "label": "NBER Working Paper 34054 page: byline, DOI, abstract and associated SSRN link verified",
+              "url": "https://www.nber.org/papers/w34054"
+            },
+            {
+              "checkedAt": "2026-10-07",
+              "kind": "personal_academic_profile",
+              "label": "Yan Ji personal academic page: working-paper list and R&R status notes",
+              "url": "https://sites.google.com/site/yanjiphd/home"
+            }
+          ],
+          "title": "AI-Powered Trading, Algorithmic Collusion, and Price Efficiency",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4452704",
+          "venue": "SSRN earlier version",
+          "year": 2023
+        },
+        {
+          "authorEvidence": {
+            "checkedAt": "2026-10-07",
+            "kind": "personal_academic_profile",
+            "label": "Wharton author page: AER revise-and-resubmit status in July 2025; not accepted",
+            "url": "https://finance-faculty.wharton.upenn.edu/wdou/2023/05/19/ai-powered-trading-algorithmic-collusion-and-price-efficiency/"
+          },
+          "authorListComplete": true,
+          "authorOrderVerified": true,
+          "authors": [
+            "Winston Wei Dou",
+            "Itay Goldstein",
+            "Yan Ji"
+          ],
+          "date": "2025-07",
+          "datePrecision": "month",
+          "publicationStatus": "revise_and_resubmit",
+          "publicationType": "working_paper",
+          "sources": [
+            {
+              "checkedAt": "2026-10-07",
+              "kind": "personal_academic_profile",
+              "label": "Wharton author page: AER revise-and-resubmit status in July 2025; not accepted",
+              "url": "https://finance-faculty.wharton.upenn.edu/wdou/2023/05/19/ai-powered-trading-algorithmic-collusion-and-price-efficiency/"
+            },
+            {
+              "checkedAt": "2026-10-07",
+              "kind": "personal_academic_profile",
+              "label": "Yan Ji personal academic page: working-paper list and R&R status notes",
+              "url": "https://sites.google.com/site/yanjiphd/home"
+            }
+          ],
+          "title": "AI-Powered Trading, Algorithmic Collusion, and Price Efficiency",
+          "url": "https://finance-faculty.wharton.upenn.edu/wdou/2023/05/19/ai-powered-trading-algorithmic-collusion-and-price-efficiency/",
+          "venue": "American Economic Review R&R status note",
+          "year": 2025
+        }
+      ],
+      "year": 2025
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-07",
+        "reason": "已有摘要级来源；未独立复现实验、估计或理论证明。",
+        "source": "https://papers.ssrn.com/sol3/Delivery.cfm/5763222.pdf?abstractid=5763222&mirid=1&type=2",
+        "status": "available"
+      },
+      "abstractSummary": "论文研究 AI planning 对金融市场稳定性的影响，构建包含正反馈投资者、受约束套利者和寡头知情投机者的动态交易框架；摘要指出，具备规划能力的 AI 投机者可能通过跨期协调形成操纵性或剥削性泡沫，进而放大市场脆弱性。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-07",
+        "kind": "publisher_metadata",
+        "label": "Crossref/SSRN metadata: DOI, full byline, posted-content record and abstract",
+        "url": "https://api.crossref.org/works/10.2139/ssrn.5763222"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Winston Wei Dou",
+        "Itay Goldstein",
+        "Yan Ji"
+      ],
+      "authorships": [
+        {
+          "name": "Winston Wei Dou",
+          "position": 1,
+          "researcherId": null
+        },
+        {
+          "name": "Itay Goldstein",
+          "position": 2,
+          "researcherId": null
+        },
+        {
+          "name": "Yan Ji",
+          "position": 3,
+          "researcherId": "r_yan_ji_hkust"
+        }
+      ],
+      "contribution": {
+        "note": "完整作者顺序已核；作者位次不等于贡献大小，具体贡献声明待核。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2025-11-18",
+      "dateEvidence": {
+        "checkedAt": "2026-10-07",
+        "kind": "date_note",
+        "label": "日期与版本说明",
+        "note": "主日期取 SSRN/Crossref posted-content created date 2025-11-18；父级核验 Date Written/Last revised 为 2026-04-23，仅作为版本说明。",
+        "url": "https://doi.org/10.2139/ssrn.5763222"
+      },
+      "datePrecision": "day",
+      "doi": "10.2139/ssrn.5763222",
+      "id": "pub_yan_ji_financial_market_fragility_ai_planning_2025",
+      "paradigms": [
+        "diagnostic",
+        "empirical"
+      ],
+      "publicationStatus": "working_paper",
+      "publicationType": "working_paper",
+      "questionId": "q_pub_yan_ji_financial_market_fragility_ai_planning_2025",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "带规划能力的 AI 投机者如何通过跨期协调放大金融市场脆弱性？",
+      "researcherIds": [
+        "r_yan_ji_hkust"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-07",
+          "kind": "publisher_metadata",
+          "label": "Crossref/SSRN metadata: DOI, full byline, posted-content record and abstract",
+          "url": "https://api.crossref.org/works/10.2139/ssrn.5763222"
+        },
+        {
+          "checkedAt": "2026-10-07",
+          "kind": "personal_academic_profile",
+          "label": "Yan Ji personal academic page: working-paper list and R&R status notes",
+          "url": "https://sites.google.com/site/yanjiphd/home"
+        },
+        {
+          "checkedAt": "2026-10-07",
+          "kind": "working_paper_pdf",
+          "label": "SSRN indexed PDF delivery: full byline, posted and revised dates verified by parent lane",
+          "url": "https://papers.ssrn.com/sol3/Delivery.cfm/5763222.pdf?abstractid=5763222&mirid=1&type=2"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "finai",
+        "decision",
+        "asset"
+      ],
+      "title": "Financial Market Fragility in the Era of AI Planning",
+      "url": "https://doi.org/10.2139/ssrn.5763222",
+      "venue": "SSRN working paper",
+      "verifiedAt": "2026-10-07",
+      "versions": [
+        {
+          "authorEvidence": {
+            "checkedAt": "2026-10-07",
+            "kind": "publisher_metadata",
+            "label": "Crossref/SSRN metadata: DOI, full byline, posted-content record and abstract",
+            "url": "https://api.crossref.org/works/10.2139/ssrn.5763222"
+          },
+          "authorListComplete": true,
+          "authorOrderVerified": true,
+          "authors": [
+            "Winston Wei Dou",
+            "Itay Goldstein",
+            "Yan Ji"
+          ],
+          "date": "2026-04-23",
+          "datePrecision": "day",
+          "doi": "10.2139/ssrn.5763222",
+          "publicationStatus": "working_paper_revision",
+          "publicationType": "working_paper",
+          "sources": [
+            {
+              "checkedAt": "2026-10-07",
+              "kind": "publisher_metadata",
+              "label": "Crossref/SSRN metadata: DOI, full byline, posted-content record and abstract",
+              "url": "https://api.crossref.org/works/10.2139/ssrn.5763222"
+            },
+            {
+              "checkedAt": "2026-10-07",
+              "kind": "working_paper_pdf",
+              "label": "SSRN indexed PDF delivery: full byline, posted and revised dates verified by parent lane",
+              "url": "https://papers.ssrn.com/sol3/Delivery.cfm/5763222.pdf?abstractid=5763222&mirid=1&type=2"
+            },
+            {
+              "checkedAt": "2026-10-07",
+              "kind": "personal_academic_profile",
+              "label": "Yan Ji personal academic page: working-paper list and R&R status notes",
+              "url": "https://sites.google.com/site/yanjiphd/home"
+            }
+          ],
+          "title": "Financial Market Fragility in the Era of AI Planning",
+          "url": "https://papers.ssrn.com/sol3/Delivery.cfm/5763222.pdf?abstractid=5763222&mirid=1&type=2",
+          "venue": "SSRN revised/date-written version",
+          "year": 2026
+        }
+      ],
+      "year": 2025
     }
   ],
   "paradigms": [
@@ -44269,30 +44857,30 @@
   "publicCurationNote": "公开研究资料快照。主题、研究问题与研究线为编辑归纳，不代表学者本人陈述或机构背书。",
   "publicRelease": {
     "channel": "stable",
-    "snapshotDate": "2026-10-05",
-    "version": "3.3.25"
+    "snapshotDate": "2026-10-06",
+    "version": "3.3.26"
   },
   "publicationPolicy": {
     "authorshipNote": "署名位次不等于贡献排名；通讯作者、共同贡献和具体分工只按原文证据标注。",
     "coverageNote": "近三年资料不足时回溯五年；日期不完整与补充文献分别标明，收录不承诺穷尽。",
-    "defaultStart": "2023-10-05",
+    "defaultStart": "2023-10-06",
     "defaultYears": 3,
-    "extendedStart": "2021-10-05",
+    "extendedStart": "2021-10-06",
     "extendedYears": 5,
     "extensionThreshold": 5,
-    "snapshotDate": "2026-10-05",
+    "snapshotDate": "2026-10-06",
     "versionNote": "同一研究的预印本与发表版本分开保留证据；摘要来源可能与主书目版本不同。"
   },
   "publicationStats": {
-    "abstracts": 409,
+    "abstracts": 413,
     "fullTexts": 4,
     "outsideWindow": 7,
-    "papers": 422,
-    "recentPapers": 415,
+    "papers": 426,
+    "recentPapers": 419,
     "researchers": 104,
     "reviewedSources": 11,
-    "verifiedBylines": 421,
-    "withPapers": 37
+    "verifiedBylines": 425,
+    "withPapers": 39
   },
   "questionClusters": [
     {
@@ -44476,7 +45064,9 @@
         "pub_yingying_cross_sectional_sdf",
         "pub_zhanhui_inferring_stock_duration",
         "pub_zhimin_chen_limits_machine_learning_2025",
-        "pub_zhimin_chen_carbon_financialization_2024"
+        "pub_zhimin_chen_carbon_financialization_2024",
+        "pub_sicong_li_factor_models_price_impact_costs_2024",
+        "pub_sicong_li_asset_pricing_factors_economic_targets_2023"
       ],
       "question": "哪些风险、特征和经济机制能够解释或预测资产回报？",
       "questionIds": [
@@ -44529,7 +45119,9 @@
         "q_pub_yingying_cross_sectional_sdf",
         "q_pub_zhanhui_inferring_stock_duration",
         "q_pub_zhimin_chen_limits_machine_learning_2025",
-        "q_pub_zhimin_chen_carbon_financialization_2024"
+        "q_pub_zhimin_chen_carbon_financialization_2024",
+        "q_pub_sicong_li_factor_models_price_impact_costs_2024",
+        "q_pub_sicong_li_asset_pricing_factors_economic_targets_2023"
       ],
       "researcherIds": [
         "r_claire",
@@ -44542,6 +45134,7 @@
         "r_ke",
         "r_lian",
         "r_qi_liu_hku",
+        "r_sicong_li_cuhk",
         "r_weichen_wang_hku",
         "r_xiaoyan",
         "r_yi_yang_hkust",
@@ -44549,7 +45142,7 @@
         "r_zhanhui",
         "r_zhimin_chen_ntu"
       ],
-      "reviewedAt": "2026-10-06",
+      "reviewedAt": "2026-10-07",
       "themes": [
         "asset",
         "decision",
@@ -44576,7 +45169,9 @@
         "pub_xiaoyan_2025_when_do_short_sellers_trade_evidence_from_intrad",
         "pub_xiaoyan_undated_retail_investors_during_pandemic",
         "pub_yang_crypto_wash_trading",
-        "pub_zhimin_chen_carbon_financialization_2024"
+        "pub_zhimin_chen_carbon_financialization_2024",
+        "pub_yan_ji_ai_powered_trading_collusion_price_efficiency_2025",
+        "pub_yan_ji_financial_market_fragility_ai_planning_2025"
       ],
       "question": "交易制度、参与者互动和市场摩擦如何影响流动性与价格效率？",
       "questionIds": [
@@ -44591,7 +45186,9 @@
         "q_pub_xiaoyan_2025_when_do_short_sellers_trade_evidence_from_intrad",
         "q_pub_xiaoyan_undated_retail_investors_during_pandemic",
         "q_pub_yang_crypto_wash_trading",
-        "q_pub_zhimin_chen_carbon_financialization_2024"
+        "q_pub_zhimin_chen_carbon_financialization_2024",
+        "q_pub_yan_ji_ai_powered_trading_collusion_price_efficiency_2025",
+        "q_pub_yan_ji_financial_market_fragility_ai_planning_2025"
       ],
       "researcherIds": [
         "r_bo_an",
@@ -44605,10 +45202,11 @@
         "r_nan_chen_cuhk",
         "r_ruixun_zhang_pku",
         "r_xiaoyan",
+        "r_yan_ji_hkust",
         "r_yang",
         "r_zhimin_chen_ntu"
       ],
-      "reviewedAt": "2026-10-06",
+      "reviewedAt": "2026-10-07",
       "themes": [
         "asset",
         "decision",
@@ -44909,7 +45507,8 @@
         "pub_yao_lu_2026_portfolio_rl_scenario_context_rollout",
         "pub_yao_lu_2026_financial_kol_policy_completion",
         "pub_yi_yang_finrankgrpo",
-        "pub_zhanhui_weather_risk_index_insurance"
+        "pub_zhanhui_weather_risk_index_insurance",
+        "pub_sicong_li_factor_models_price_impact_costs_2024"
       ],
       "question": "在不确定性和实际约束下，如何构建投资组合并控制风险？",
       "questionIds": [
@@ -44950,7 +45549,8 @@
         "q_pub_yao_lu_2026_portfolio_rl_scenario_context_rollout",
         "q_pub_yao_lu_2026_financial_kol_policy_completion",
         "q_pub_yi_yang_finrankgrpo",
-        "q_pub_zhanhui_weather_risk_index_insurance"
+        "q_pub_zhanhui_weather_risk_index_insurance",
+        "q_pub_sicong_li_factor_models_price_impact_costs_2024"
       ],
       "researcherIds": [
         "r_bo_an",
@@ -44966,13 +45566,14 @@
         "r_lian",
         "r_lingfei",
         "r_ruixun_zhang_pku",
+        "r_sicong_li_cuhk",
         "r_weichen_wang_hku",
         "r_xianhua_peng",
         "r_yao_lu_nus",
         "r_yi_yang_hkust",
         "r_zhanhui"
       ],
-      "reviewedAt": "2026-10-06",
+      "reviewedAt": "2026-10-07",
       "themes": [
         "asset",
         "decision",
@@ -45116,7 +45717,9 @@
         "pub_gao_thompson_collusion",
         "pub_jia_wisdom_crowds",
         "pub_nan_chen_ai_bubbles",
-        "pub_nan_chen_belief_two_timescale"
+        "pub_nan_chen_belief_two_timescale",
+        "pub_yan_ji_ai_powered_trading_collusion_price_efficiency_2025",
+        "pub_yan_ji_financial_market_fragility_ai_planning_2025"
       ],
       "question": "当多个决策主体相互影响时，如何分析或学习策略和均衡？",
       "questionIds": [
@@ -45124,15 +45727,18 @@
         "q_pub_gao_thompson_collusion",
         "q_pub_jia_wisdom_crowds",
         "q_pub_nan_chen_ai_bubbles",
-        "q_pub_nan_chen_belief_two_timescale"
+        "q_pub_nan_chen_belief_two_timescale",
+        "q_pub_yan_ji_ai_powered_trading_collusion_price_efficiency_2025",
+        "q_pub_yan_ji_financial_market_fragility_ai_planning_2025"
       ],
       "researcherIds": [
         "r_gao",
         "r_jia",
         "r_nan_chen_cuhk",
-        "r_ruixun_zhang_pku"
+        "r_ruixun_zhang_pku",
+        "r_yan_ji_hkust"
       ],
-      "reviewedAt": "2026-09-28",
+      "reviewedAt": "2026-10-07",
       "themes": [
         "asset",
         "decision",
@@ -45268,7 +45874,9 @@
         "pub_weichen_wang_oos_sharpe_high_dim_portfolio_2025",
         "pub_weichen_wang_time_series_nonlinear_sieves_2025",
         "pub_ye_treatment_effects_l2_boosting",
-        "pub_yingying_cross_sectional_sdf"
+        "pub_yingying_cross_sectional_sdf",
+        "pub_sicong_li_factor_models_price_impact_costs_2024",
+        "pub_sicong_li_asset_pricing_factors_economic_targets_2023"
       ],
       "question": "在变量很多或模型经过选择时，如何保持估计与推断的可靠性？",
       "questionIds": [
@@ -45297,7 +45905,9 @@
         "q_pub_weichen_wang_oos_sharpe_high_dim_portfolio_2025",
         "q_pub_weichen_wang_time_series_nonlinear_sieves_2025",
         "q_pub_ye_treatment_effects_l2_boosting",
-        "q_pub_yingying_cross_sectional_sdf"
+        "q_pub_yingying_cross_sectional_sdf",
+        "q_pub_sicong_li_factor_models_price_impact_costs_2024",
+        "q_pub_sicong_li_asset_pricing_factors_economic_targets_2023"
       ],
       "researcherIds": [
         "r_daniel_palomar_hkust",
@@ -45305,12 +45915,13 @@
         "r_guodong",
         "r_junye",
         "r_ke",
+        "r_sicong_li_cuhk",
         "r_weichen_wang_hku",
         "r_ye",
         "r_yingying",
         "r_zhanhui"
       ],
-      "reviewedAt": "2026-10-06",
+      "reviewedAt": "2026-10-07",
       "themes": [
         "asset",
         "decision",
@@ -46597,7 +47208,8 @@
         "pub_sha_harmonized_uncertainty",
         "pub_qi_liu_alphaqt",
         "pub_yi_yang_finmteb",
-        "pub_zhimin_chen_limits_machine_learning_2025"
+        "pub_zhimin_chen_limits_machine_learning_2025",
+        "pub_sicong_li_asset_pricing_factors_economic_targets_2023"
       ],
       "question": "如何评价模型能力与可靠性，并识别和缓解系统性偏差？",
       "questionIds": [
@@ -46614,7 +47226,8 @@
         "q_pub_sha_harmonized_uncertainty",
         "q_pub_qi_liu_alphaqt",
         "q_pub_yi_yang_finmteb",
-        "q_pub_zhimin_chen_limits_machine_learning_2025"
+        "q_pub_zhimin_chen_limits_machine_learning_2025",
+        "q_pub_sicong_li_asset_pricing_factors_economic_targets_2023"
       ],
       "researcherIds": [
         "r_anthony_tung_nus",
@@ -46623,10 +47236,11 @@
         "r_difan",
         "r_lei_sha",
         "r_qi_liu_hku",
+        "r_sicong_li_cuhk",
         "r_yi_yang_hkust",
         "r_zhimin_chen_ntu"
       ],
-      "reviewedAt": "2026-10-06",
+      "reviewedAt": "2026-10-07",
       "themes": [
         "asset",
         "decision",
@@ -46895,11 +47509,11 @@
       {
         "awaitingEvidence": 0,
         "awaitingExtraction": 0,
-        "clustered": 59,
+        "clustered": 61,
         "clusters": 28,
-        "extracted": 59,
+        "extracted": 61,
         "multiPaperClusters": 16,
-        "papers": 59,
+        "papers": 61,
         "singlePaperClusters": 12,
         "staleEvidence": 0,
         "themeId": "finai",
@@ -46908,11 +47522,11 @@
       {
         "awaitingEvidence": 1,
         "awaitingExtraction": 0,
-        "clustered": 89,
+        "clustered": 91,
         "clusters": 36,
-        "extracted": 89,
+        "extracted": 91,
         "multiPaperClusters": 21,
-        "papers": 90,
+        "papers": 92,
         "singlePaperClusters": 15,
         "staleEvidence": 0,
         "themeId": "decision",
@@ -46921,12 +47535,12 @@
       {
         "awaitingEvidence": 6,
         "awaitingExtraction": 0,
-        "clustered": 139,
+        "clustered": 143,
         "clusters": 29,
-        "extracted": 139,
-        "multiPaperClusters": 25,
-        "papers": 145,
-        "singlePaperClusters": 4,
+        "extracted": 143,
+        "multiPaperClusters": 26,
+        "papers": 149,
+        "singlePaperClusters": 3,
         "staleEvidence": 0,
         "themeId": "asset",
         "unclustered": 0
@@ -46934,11 +47548,11 @@
       {
         "awaitingEvidence": 7,
         "awaitingExtraction": 0,
-        "clustered": 93,
+        "clustered": 95,
         "clusters": 29,
-        "extracted": 93,
+        "extracted": 95,
         "multiPaperClusters": 18,
-        "papers": 100,
+        "papers": 102,
         "singlePaperClusters": 11,
         "staleEvidence": 0,
         "themeId": "ts",
@@ -46960,22 +47574,22 @@
       {
         "awaitingEvidence": 3,
         "awaitingExtraction": 0,
-        "clustered": 240,
+        "clustered": 241,
         "clusters": 39,
-        "extracted": 240,
+        "extracted": 241,
         "multiPaperClusters": 32,
-        "papers": 243,
+        "papers": 244,
         "singlePaperClusters": 7,
         "staleEvidence": 0,
         "themeId": "ml",
         "unclustered": 0
       }
     ],
-    "clustered": 409,
+    "clustered": 413,
     "clusters": 50,
-    "extracted": 409,
+    "extracted": 413,
     "multiPaperClusters": 44,
-    "papers": 422,
+    "papers": 426,
     "singlePaperClusters": 6,
     "staleEvidence": 0,
     "unclustered": 0
@@ -56665,6 +57279,104 @@
       ],
       "reviewedAt": "2026-10-06",
       "text": "金融交易者进入碳配额市场后，价格信息性变化会如何影响企业减排效率？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_asset_risk_premia",
+        "qc_portfolio_risk_control",
+        "qc_high_dim_inference"
+      ],
+      "evidence": {
+        "digest": "e222d1f485b8111fac09b75be7de74a914191c8b5bc2d8ba566fe3d29bc463b6",
+        "excerpt": "论文提出在存在价格冲击成本时比较资产定价模型的正式统计检验，说明交易成本会使最优模型随投资者绝对风险厌恶而变化；经验结果中，Hou et al.、Fama-French 与高维模型分别更适合高、中、低绝对风险厌恶情形。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-07",
+          "kind": "abstract_summary",
+          "label": "已有摘要概览所列来源",
+          "url": "https://ideas.repec.org/a/eee/jfinec/v162y2024ics0304405x2400166x.html"
+        }
+      },
+      "id": "q_pub_sicong_li_factor_models_price_impact_costs_2024",
+      "paperIds": [
+        "pub_sicong_li_factor_models_price_impact_costs_2024"
+      ],
+      "reviewedAt": "2026-10-07",
+      "text": "在存在价格冲击交易成本时，如何比较资产定价因子模型对不同风险厌恶投资者的有效性？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_asset_risk_premia",
+        "qc_high_dim_inference",
+        "qc_model_evaluation"
+      ],
+      "evidence": {
+        "digest": "807aa8ff1320a62194cd1b971bc038cecaca02786da401132306c96f525dd63b",
+        "excerpt": "论文把经济动机的横截面与时间序列矩条件嵌入潜在因子估计，以识别弱因子；经验上，该框架用于构造更强的资产定价因子组合，并报告更高 Sharpe ratio 与更低 mispricing。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-07",
+          "kind": "abstract_summary",
+          "label": "已有摘要概览所列来源",
+          "url": "https://www.aeaweb.org/conference/2024/program/paper/A574DrN5"
+        }
+      },
+      "id": "q_pub_sicong_li_asset_pricing_factors_economic_targets_2023",
+      "paperIds": [
+        "pub_sicong_li_asset_pricing_factors_economic_targets_2023"
+      ],
+      "reviewedAt": "2026-10-07",
+      "text": "如何把经济目标嵌入潜在因子估计，以识别弱因子并降低资产定价误差？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_multiagent_decisions",
+        "qc_market_liquidity_trading"
+      ],
+      "evidence": {
+        "digest": "62f419c1c7dbed4a88c0fb0a23418b5743f358607a90690583a9ed433a37c6bb",
+        "excerpt": "论文研究带强化学习的 AI 交易者在知情投机者模型中的行为，指出 AI 投机者可在没有协议、沟通或意图的情况下维持合谋式超竞争利润，从而削弱竞争并降低价格效率。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-07",
+          "kind": "abstract_summary",
+          "label": "已有摘要概览所列来源",
+          "url": "https://www.nber.org/papers/w34054"
+        }
+      },
+      "id": "q_pub_yan_ji_ai_powered_trading_collusion_price_efficiency_2025",
+      "paperIds": [
+        "pub_yan_ji_ai_powered_trading_collusion_price_efficiency_2025"
+      ],
+      "reviewedAt": "2026-10-07",
+      "text": "强化学习交易者在无协议、沟通或意图的条件下，如何形成算法合谋并影响价格效率？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_multiagent_decisions",
+        "qc_market_liquidity_trading"
+      ],
+      "evidence": {
+        "digest": "83121903ef8e8ef092647a69d405a4113d0f72e9e61e53bd2dd40a653a11e97f",
+        "excerpt": "论文研究 AI planning 对金融市场稳定性的影响，构建包含正反馈投资者、受约束套利者和寡头知情投机者的动态交易框架；摘要指出，具备规划能力的 AI 投机者可能通过跨期协调形成操纵性或剥削性泡沫，进而放大市场脆弱性。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-07",
+          "kind": "abstract_summary",
+          "label": "已有摘要概览所列来源",
+          "url": "https://papers.ssrn.com/sol3/Delivery.cfm/5763222.pdf?abstractid=5763222&mirid=1&type=2"
+        }
+      },
+      "id": "q_pub_yan_ji_financial_market_fragility_ai_planning_2025",
+      "paperIds": [
+        "pub_yan_ji_financial_market_fragility_ai_planning_2025"
+      ],
+      "reviewedAt": "2026-10-07",
+      "text": "带规划能力的 AI 投机者如何通过跨期协调放大金融市场脆弱性？"
     }
   ],
   "researchers": [
@@ -61793,25 +62505,28 @@
       "nameVariants": [],
       "position": "Assistant Professor",
       "publicationCoverage": {
-        "abstractCount": 0,
-        "authorVerifiedCount": 0,
+        "abstractCount": 2,
+        "authorVerifiedCount": 2,
         "boundaryDateCount": 0,
-        "checkedAt": null,
-        "collectedCount": 0,
+        "checkedAt": "2026-10-07",
+        "collectedCount": 2,
         "extended": true,
         "fullTextCount": 0,
         "gaps": [
           "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
         ],
         "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
-        "paperIds": [],
-        "recentCount": 0,
+        "paperIds": [
+          "pub_sicong_li_factor_models_price_impact_costs_2024",
+          "pub_sicong_li_asset_pricing_factors_economic_targets_2023"
+        ],
+        "recentCount": 1,
         "sourcesChecked": [],
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-05",
-        "windowStart": "2021-10-05",
+        "windowEnd": "2026-10-06",
+        "windowStart": "2021-10-06",
         "windowYears": 5
       },
       "sources": [
@@ -61826,6 +62541,48 @@
           "kind": "faculty_homepage",
           "label": "London Business School PhD profile",
           "url": "https://www.london.edu/faculty-and-research/management-science-and-operations/student-testimonials/sicong-li"
+        },
+        {
+          "checkedAt": "2026-10-07",
+          "kind": "publisher_metadata",
+          "label": "Crossref/JFE metadata: title, full byline, journal record and DOI",
+          "url": "https://api.crossref.org/works/10.1016/j.jfineco.2024.103949"
+        },
+        {
+          "checkedAt": "2026-10-07",
+          "kind": "index_abstract",
+          "label": "RePEc/JFE index: abstract and bibliographic metadata",
+          "url": "https://ideas.repec.org/a/eee/jfinec/v162y2024ics0304405x2400166x.html"
+        },
+        {
+          "checkedAt": "2026-10-07",
+          "kind": "repository_pdf",
+          "label": "London Business School repository PDF: formal paper copy checked by parent lane",
+          "url": "https://www.london.edu/-/media/files/faculty-and-research/sicong-li/comparing-factor-models-with-price-impact-costs.pdf"
+        },
+        {
+          "checkedAt": "2026-10-07",
+          "kind": "publisher_metadata",
+          "label": "Crossref/SSRN metadata: DOI, full byline, posted-content record and abstract",
+          "url": "https://api.crossref.org/works/10.2139/ssrn.4344837"
+        },
+        {
+          "checkedAt": "2026-10-07",
+          "kind": "working_paper_landing",
+          "label": "SSRN working paper landing page: direct page may be access-gated; indexed metadata verified separately",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4344837"
+        },
+        {
+          "checkedAt": "2026-10-07",
+          "kind": "conference_program",
+          "label": "AEA conference program: four-author byline and July 2023 abstract verified by parent lane",
+          "url": "https://www.aeaweb.org/conference/2024/program/paper/A574DrN5"
+        },
+        {
+          "checkedAt": "2026-10-07",
+          "kind": "repository_pdf",
+          "label": "London Business School repository PDF: formal paper copy checked by parent lane",
+          "url": "https://lbsresearch.london.edu/id/eprint/3863/1/1-s2.0-S0304405X24001727-main.pdf"
         }
       ],
       "summary": "研究主题：empirical asset pricing、applied financial econometrics、machine learning、factor models、price-impact costs、portfolio management。主题关联为编辑归纳，请结合论文和官方来源判断。",
@@ -62340,25 +63097,28 @@
       "nameVariants": [],
       "position": "Liwei Huang Associate Professor of Business; Associate Professor; MPhil and PhD Programs Coordinator (Finance)",
       "publicationCoverage": {
-        "abstractCount": 0,
-        "authorVerifiedCount": 0,
+        "abstractCount": 2,
+        "authorVerifiedCount": 2,
         "boundaryDateCount": 0,
-        "checkedAt": null,
-        "collectedCount": 0,
+        "checkedAt": "2026-10-07",
+        "collectedCount": 2,
         "extended": true,
         "fullTextCount": 0,
         "gaps": [
           "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
         ],
         "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
-        "paperIds": [],
-        "recentCount": 0,
+        "paperIds": [
+          "pub_yan_ji_ai_powered_trading_collusion_price_efficiency_2025",
+          "pub_yan_ji_financial_market_fragility_ai_planning_2025"
+        ],
+        "recentCount": 2,
         "sourcesChecked": [],
         "status": "partial",
         "threshold": 5,
-        "uncertainDateCount": 0,
-        "windowEnd": "2026-10-05",
-        "windowStart": "2021-10-05",
+        "uncertainDateCount": 1,
+        "windowEnd": "2026-10-06",
+        "windowStart": "2021-10-06",
         "windowYears": 5
       },
       "sources": [
@@ -62379,6 +63139,42 @@
           "kind": "official_profile",
           "label": "官方身份与研究方向",
           "url": "https://bm.hkust.edu.hk/feature-stories/2025/01/rise-ai-algorithmic-trading"
+        },
+        {
+          "checkedAt": "2026-10-07",
+          "kind": "personal_academic_profile",
+          "label": "Yan Ji personal academic page: working-paper list and R&R status notes",
+          "url": "https://sites.google.com/site/yanjiphd/home"
+        },
+        {
+          "checkedAt": "2026-10-07",
+          "kind": "publisher_metadata",
+          "label": "Crossref/NBER metadata: DOI, byline and July 2025 report record",
+          "url": "https://api.crossref.org/works/10.3386/w34054"
+        },
+        {
+          "checkedAt": "2026-10-07",
+          "kind": "working_paper",
+          "label": "NBER Working Paper 34054 page: byline, DOI, abstract and associated SSRN link verified",
+          "url": "https://www.nber.org/papers/w34054"
+        },
+        {
+          "checkedAt": "2026-10-07",
+          "kind": "personal_academic_profile",
+          "label": "Wharton author page: AER revise-and-resubmit status in July 2025; not accepted",
+          "url": "https://finance-faculty.wharton.upenn.edu/wdou/2023/05/19/ai-powered-trading-algorithmic-collusion-and-price-efficiency/"
+        },
+        {
+          "checkedAt": "2026-10-07",
+          "kind": "publisher_metadata",
+          "label": "Crossref/SSRN metadata: DOI, full byline, posted-content record and abstract",
+          "url": "https://api.crossref.org/works/10.2139/ssrn.5763222"
+        },
+        {
+          "checkedAt": "2026-10-07",
+          "kind": "working_paper_pdf",
+          "label": "SSRN indexed PDF delivery: full byline, posted and revised dates verified by parent lane",
+          "url": "https://papers.ssrn.com/sol3/Delivery.cfm/5763222.pdf?abstractid=5763222&mirid=1&type=2"
         }
       ],
       "summary": "研究主题：AI-powered trading、reinforcement learning in financial markets、asset pricing、macrofinance、capital markets、algorithmic collusion。主题关联为编辑归纳，请结合论文和官方来源判断。",
@@ -64882,5 +65678,5 @@
       "name": "ML Theory & Optimization"
     }
   ],
-  "updatedAt": "2026-10-05"
+  "updatedAt": "2026-10-06"
 }
