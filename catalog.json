@@ -44756,6 +44756,353 @@
         }
       ],
       "year": 2025
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-08",
+        "reason": "已有摘要级来源；未独立复现实验、估计或理论证明。",
+        "source": "https://onlinelibrary.wiley.com/doi/full/10.1111/1911-3846.12832",
+        "status": "available"
+      },
+      "abstractSummary": "论文提出面向金融文本的 FinBERT，将 BERT 迁移并适配到金融语料与金融信息抽取任务，用于从财报、ESG 文本和业绩电话会等材料中识别情绪与信息。摘要级证据显示，它在金融情绪分类中相对词典、传统机器学习和通用深度学习基线表现更好，尤其适用于训练样本较少和金融专有词汇明显的场景。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-08",
+        "kind": "publisher_full_text_primary",
+        "label": "Wiley/CAR publisher full text: title, full byline and first-online date independently verified by parent lane",
+        "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/1911-3846.12832"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Allen H. Huang",
+        "Hui Wang",
+        "Yi Yang"
+      ],
+      "authorships": [
+        {
+          "name": "Allen H. Huang",
+          "position": 1,
+          "researcherId": "r_allen_huang_hkust"
+        },
+        {
+          "name": "Hui Wang",
+          "position": 2,
+          "researcherId": null
+        },
+        {
+          "name": "Yi Yang",
+          "position": 3,
+          "researcherId": "r_yi_yang_hkust"
+        }
+      ],
+      "contribution": {
+        "note": "完整作者顺序已核；作者位次不等于贡献大小，具体贡献声明待核。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2022-09-29",
+      "dateEvidence": {
+        "checkedAt": "2026-10-08",
+        "kind": "date_note",
+        "label": "日期与版本说明",
+        "note": "Wiley/CAR 记录 first online 2022-09-29，正式期刊 issue 为 Contemporary Accounting Research 2023, 40(2), 806–841；year 按期刊 issue 记录。",
+        "url": "https://doi.org/10.1111/1911-3846.12832"
+      },
+      "datePrecision": "day",
+      "doi": "10.1111/1911-3846.12832",
+      "id": "pub_allen_huang_finbert_2023",
+      "paradigms": [
+        "measurement",
+        "empirical"
+      ],
+      "publicationStatus": "published",
+      "publicationType": "journal",
+      "questionId": "q_pub_allen_huang_finbert_2023",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "如何把通用语言模型适配到金融文本，使其在小样本和金融专有词汇下更可靠地抽取情绪与信息？",
+      "researcherIds": [
+        "r_allen_huang_hkust",
+        "r_yi_yang_hkust"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-08",
+          "kind": "publisher_full_text_primary",
+          "label": "Wiley/CAR publisher full text: title, full byline and first-online date",
+          "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/1911-3846.12832"
+        },
+        {
+          "checkedAt": "2026-10-08",
+          "kind": "official_profile",
+          "label": "HKUST official faculty profile: identity, role and publication list",
+          "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=allen-hao-huang-acahuang"
+        },
+        {
+          "checkedAt": "2026-10-08",
+          "kind": "publisher_metadata",
+          "label": "Crossref DOI metadata: DOI, journal issue and byline corroboration",
+          "url": "https://api.crossref.org/works/10.1111/1911-3846.12832"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "finai",
+        "digital"
+      ],
+      "title": "FinBERT: A Large Language Model for Extracting Information from Financial Text",
+      "url": "https://doi.org/10.1111/1911-3846.12832",
+      "venue": "Contemporary Accounting Research 40(2), 806–841",
+      "verifiedAt": "2026-10-08",
+      "versions": [
+        {
+          "authorEvidence": {
+            "checkedAt": "2026-10-08",
+            "kind": "publisher_full_text_primary",
+            "label": "Wiley/CAR publisher full text: title, full byline and first-online date independently verified by parent lane",
+            "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/1911-3846.12832"
+          },
+          "authorListComplete": true,
+          "authorOrderVerified": true,
+          "authors": [
+            "Allen H. Huang",
+            "Hui Wang",
+            "Yi Yang"
+          ],
+          "date": "2022-09-29",
+          "datePrecision": "day",
+          "doi": "10.1111/1911-3846.12832",
+          "publicationStatus": "published",
+          "publicationType": "journal",
+          "sources": [
+            {
+              "checkedAt": "2026-10-08",
+              "kind": "publisher_full_text_primary",
+              "label": "Wiley/CAR publisher full text: title, full byline and first-online date independently verified by parent lane",
+              "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/1911-3846.12832"
+            },
+            {
+              "checkedAt": "2026-10-08",
+              "kind": "publisher_metadata",
+              "label": "Crossref DOI metadata: DOI, journal issue and byline corroboration",
+              "url": "https://api.crossref.org/works/10.1111/1911-3846.12832"
+            }
+          ],
+          "title": "FinBERT—A Deep Learning Approach to Extracting Textual Information",
+          "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/1911-3846.12832",
+          "venue": "Contemporary Accounting Research first-online/version alias",
+          "year": 2022
+        }
+      ],
+      "year": 2023
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-08",
+        "reason": "已有摘要级来源；未独立复现实验、估计或理论证明。",
+        "source": "https://aclanthology.org/2023.emnlp-main.956/",
+        "status": "available"
+      },
+      "abstractSummary": "论文构建 FinEntity 数据集，标注金融新闻中的实体跨度及正向、中性、负向情绪，并用 BERT、FinBERT 与 ChatGPT 等模型进行实体级金融情绪分类基准测试；摘要中的用例展示其可用于加密市场新闻监测和实体层面的金融文本分析。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-08",
+        "kind": "proceedings_primary",
+        "label": "ACL Anthology EMNLP proceedings: title, full byline, date, pages, DOI and abstract",
+        "url": "https://aclanthology.org/2023.emnlp-main.956/"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Yixuan Tang",
+        "Yi Yang",
+        "Allen Huang",
+        "Andy Tam",
+        "Justin Tang"
+      ],
+      "authorships": [
+        {
+          "name": "Yixuan Tang",
+          "position": 1,
+          "researcherId": null
+        },
+        {
+          "name": "Yi Yang",
+          "position": 2,
+          "researcherId": "r_yi_yang_hkust"
+        },
+        {
+          "name": "Allen Huang",
+          "position": 3,
+          "researcherId": "r_allen_huang_hkust"
+        },
+        {
+          "name": "Andy Tam",
+          "position": 4,
+          "researcherId": null
+        },
+        {
+          "name": "Justin Tang",
+          "position": 5,
+          "researcherId": null
+        }
+      ],
+      "contribution": {
+        "note": "完整作者顺序已核；作者位次不等于贡献大小，具体贡献声明待核。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2023-12",
+      "dateEvidence": {
+        "checkedAt": "2026-10-08",
+        "kind": "date_note",
+        "label": "日期与版本说明",
+        "note": "ACL Anthology 记录为 EMNLP 2023 December proceedings；未从题名推断额外研究问题。",
+        "url": "https://aclanthology.org/2023.emnlp-main.956/"
+      },
+      "datePrecision": "month",
+      "doi": "10.18653/v1/2023.emnlp-main.956",
+      "id": "pub_allen_huang_finentity_2023",
+      "paradigms": [
+        "measurement",
+        "empirical"
+      ],
+      "publicationStatus": "published",
+      "publicationType": "conference",
+      "questionId": "q_pub_allen_huang_finentity_2023",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "如何从整体金融文本情绪推进到实体级情绪识别，并比较 BERT、FinBERT 与 ChatGPT 在金融新闻中的适用性？",
+      "researcherIds": [
+        "r_allen_huang_hkust",
+        "r_yi_yang_hkust"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-08",
+          "kind": "proceedings_primary",
+          "label": "ACL Anthology EMNLP proceedings: title, full byline, date, pages, DOI and abstract",
+          "url": "https://aclanthology.org/2023.emnlp-main.956/"
+        },
+        {
+          "checkedAt": "2026-10-08",
+          "kind": "official_profile",
+          "label": "HKUST official faculty profile: identity, role and publication list",
+          "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=allen-hao-huang-acahuang"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "finai",
+        "digital"
+      ],
+      "title": "FinEntity: Entity-level Sentiment Classification for Financial Texts",
+      "url": "https://aclanthology.org/2023.emnlp-main.956/",
+      "venue": "Proceedings of EMNLP 2023, 15465–15471",
+      "verifiedAt": "2026-10-08",
+      "versions": [],
+      "year": 2023
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-08",
+        "reason": "已有摘要级来源；未独立复现实验、估计或理论证明。",
+        "source": "https://researchportal.hkust.edu.hk/en/publications/in-sample-and-out-of-sample-sharpe-ratios-of-multi-factor-asset-p/",
+        "status": "available"
+      },
+      "abstractSummary": "论文从理论上研究估计风险如何使多因子资产定价模型的样本内 Sharpe ratio 与投资者可实现的样本外 Sharpe ratio 出现落差，并推导样本内外 Sharpe ratio 的精确分布。摘要级证据强调，模型比较和投资表现评估需要把这种估计风险纳入，否则样本内拟合较强的模型可能无法对应更高的样本外表现。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-08",
+        "kind": "official_research_portal",
+        "label": "HKUST Research Portal: title, full byline, JFE venue, DOI, online date and abstract",
+        "url": "https://researchportal.hkust.edu.hk/en/publications/in-sample-and-out-of-sample-sharpe-ratios-of-multi-factor-asset-p/"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Raymond Kan",
+        "Xiaolu Wang",
+        "Xinghua Zheng"
+      ],
+      "authorships": [
+        {
+          "name": "Raymond Kan",
+          "position": 1,
+          "researcherId": null
+        },
+        {
+          "name": "Xiaolu Wang",
+          "position": 2,
+          "researcherId": null
+        },
+        {
+          "name": "Xinghua Zheng",
+          "position": 3,
+          "researcherId": "r_xinghua_zheng_hkust"
+        }
+      ],
+      "contribution": {
+        "note": "完整作者顺序已核；作者位次不等于贡献大小，具体贡献声明待核。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2024-04-04",
+      "dateEvidence": {
+        "checkedAt": "2026-10-08",
+        "kind": "date_note",
+        "label": "日期与版本说明",
+        "note": "HKUST Research Portal 记录 early online 2024-04-04，JFE issue 为 2024 May, volume 155, article 103837。",
+        "url": "https://doi.org/10.1016/j.jfineco.2024.103837"
+      },
+      "datePrecision": "day",
+      "doi": "10.1016/j.jfineco.2024.103837",
+      "id": "pub_xinghua_zheng_sharpe_ratios_2024",
+      "paradigms": [
+        "measurement",
+        "theory"
+      ],
+      "publicationStatus": "published",
+      "publicationType": "journal",
+      "questionId": "q_pub_xinghua_zheng_sharpe_ratios_2024",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "多因子资产定价模型的样本内 Sharpe ratio 如何受估计风险影响，样本外模型比较应如何修正？",
+      "researcherIds": [
+        "r_xinghua_zheng_hkust"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-08",
+          "kind": "official_research_portal",
+          "label": "HKUST Research Portal: title, full byline, JFE venue, DOI, online date and abstract",
+          "url": "https://researchportal.hkust.edu.hk/en/publications/in-sample-and-out-of-sample-sharpe-ratios-of-multi-factor-asset-p/"
+        },
+        {
+          "checkedAt": "2026-10-08",
+          "kind": "official_profile",
+          "label": "HKUST official faculty profile: identity, Chinese name, research interests, projects and publication list",
+          "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=xinghua-zheng-xhzheng"
+        },
+        {
+          "checkedAt": "2026-10-08",
+          "kind": "publisher_metadata",
+          "label": "Journal of Financial Economics DOI record",
+          "url": "https://doi.org/10.1016/j.jfineco.2024.103837"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "asset",
+        "ts"
+      ],
+      "title": "In-sample and out-of-sample Sharpe ratios of multi-factor asset pricing models",
+      "url": "https://doi.org/10.1016/j.jfineco.2024.103837",
+      "venue": "Journal of Financial Economics 155, 103837",
+      "verifiedAt": "2026-10-08",
+      "versions": [],
+      "year": 2024
     }
   ],
   "paradigms": [
@@ -44857,30 +45204,30 @@
   "publicCurationNote": "公开研究资料快照。主题、研究问题与研究线为编辑归纳，不代表学者本人陈述或机构背书。",
   "publicRelease": {
     "channel": "stable",
-    "snapshotDate": "2026-10-06",
-    "version": "3.3.26"
+    "snapshotDate": "2026-10-07",
+    "version": "3.3.27"
   },
   "publicationPolicy": {
     "authorshipNote": "署名位次不等于贡献排名；通讯作者、共同贡献和具体分工只按原文证据标注。",
     "coverageNote": "近三年资料不足时回溯五年；日期不完整与补充文献分别标明，收录不承诺穷尽。",
-    "defaultStart": "2023-10-06",
+    "defaultStart": "2023-10-07",
     "defaultYears": 3,
-    "extendedStart": "2021-10-06",
+    "extendedStart": "2021-10-07",
     "extendedYears": 5,
     "extensionThreshold": 5,
-    "snapshotDate": "2026-10-06",
+    "snapshotDate": "2026-10-07",
     "versionNote": "同一研究的预印本与发表版本分开保留证据；摘要来源可能与主书目版本不同。"
   },
   "publicationStats": {
-    "abstracts": 413,
+    "abstracts": 416,
     "fullTexts": 4,
     "outsideWindow": 7,
-    "papers": 426,
-    "recentPapers": 419,
+    "papers": 429,
+    "recentPapers": 422,
     "researchers": 104,
     "reviewedSources": 11,
-    "verifiedBylines": 425,
-    "withPapers": 39
+    "verifiedBylines": 428,
+    "withPapers": 41
   },
   "questionClusters": [
     {
@@ -44903,7 +45250,9 @@
         "pub_xiaoyan_undated_the_rise_of_reddit_how_social_media_affects_reta",
         "pub_yang_fiscal_risk_perception",
         "pub_yanzhen_ai_news_retail_investors",
-        "pub_yao_lu_2026_financial_kol_policy_completion"
+        "pub_yao_lu_2026_financial_kol_policy_completion",
+        "pub_allen_huang_finbert_2023",
+        "pub_allen_huang_finentity_2023"
       ],
       "question": "金融信息的生产、披露和传播如何影响投资者行为与价格形成？",
       "questionIds": [
@@ -44922,9 +45271,12 @@
         "q_pub_xiaoyan_undated_the_rise_of_reddit_how_social_media_affects_reta",
         "q_pub_yang_fiscal_risk_perception",
         "q_pub_yanzhen_ai_news_retail_investors",
-        "q_pub_yao_lu_2026_financial_kol_policy_completion"
+        "q_pub_yao_lu_2026_financial_kol_policy_completion",
+        "q_pub_allen_huang_finbert_2023",
+        "q_pub_allen_huang_finentity_2023"
       ],
       "researcherIds": [
+        "r_allen_huang_hkust",
         "r_clark",
         "r_gang",
         "r_hailiang_chen_hku",
@@ -44932,9 +45284,10 @@
         "r_xiaoyan",
         "r_yang",
         "r_yanzhen",
-        "r_yao_lu_nus"
+        "r_yao_lu_nus",
+        "r_yi_yang_hkust"
       ],
-      "reviewedAt": "2026-10-05",
+      "reviewedAt": "2026-10-08",
       "themes": [
         "asset",
         "decision",
@@ -45066,7 +45419,8 @@
         "pub_zhimin_chen_limits_machine_learning_2025",
         "pub_zhimin_chen_carbon_financialization_2024",
         "pub_sicong_li_factor_models_price_impact_costs_2024",
-        "pub_sicong_li_asset_pricing_factors_economic_targets_2023"
+        "pub_sicong_li_asset_pricing_factors_economic_targets_2023",
+        "pub_xinghua_zheng_sharpe_ratios_2024"
       ],
       "question": "哪些风险、特征和经济机制能够解释或预测资产回报？",
       "questionIds": [
@@ -45121,7 +45475,8 @@
         "q_pub_zhimin_chen_limits_machine_learning_2025",
         "q_pub_zhimin_chen_carbon_financialization_2024",
         "q_pub_sicong_li_factor_models_price_impact_costs_2024",
-        "q_pub_sicong_li_asset_pricing_factors_economic_targets_2023"
+        "q_pub_sicong_li_asset_pricing_factors_economic_targets_2023",
+        "q_pub_xinghua_zheng_sharpe_ratios_2024"
       ],
       "researcherIds": [
         "r_claire",
@@ -45137,12 +45492,13 @@
         "r_sicong_li_cuhk",
         "r_weichen_wang_hku",
         "r_xiaoyan",
+        "r_xinghua_zheng_hkust",
         "r_yi_yang_hkust",
         "r_yingying",
         "r_zhanhui",
         "r_zhimin_chen_ntu"
       ],
-      "reviewedAt": "2026-10-07",
+      "reviewedAt": "2026-10-08",
       "themes": [
         "asset",
         "decision",
@@ -46140,7 +46496,8 @@
         "pub_yanzhen_uncertainty_quantification_trees",
         "pub_yanzhen_deep_learning_change_point",
         "pub_yingying_tests_principal_eigen",
-        "pub_yingying_volatility_extreme_persistence"
+        "pub_yingying_volatility_extreme_persistence",
+        "pub_xinghua_zheng_sharpe_ratios_2024"
       ],
       "question": "复杂数据条件下，如何量化不确定性、构造有效检验并诊断模型失配？",
       "questionIds": [
@@ -46159,15 +46516,17 @@
         "q_pub_yanzhen_uncertainty_quantification_trees",
         "q_pub_yanzhen_deep_learning_change_point",
         "q_pub_yingying_tests_principal_eigen",
-        "q_pub_yingying_volatility_extreme_persistence"
+        "q_pub_yingying_volatility_extreme_persistence",
+        "q_pub_xinghua_zheng_sharpe_ratios_2024"
       ],
       "researcherIds": [
         "r_guodong",
         "r_ke",
+        "r_xinghua_zheng_hkust",
         "r_yanzhen",
         "r_yingying"
       ],
-      "reviewedAt": "2026-08-31",
+      "reviewedAt": "2026-10-08",
       "themes": [
         "asset",
         "decision",
@@ -47209,7 +47568,10 @@
         "pub_qi_liu_alphaqt",
         "pub_yi_yang_finmteb",
         "pub_zhimin_chen_limits_machine_learning_2025",
-        "pub_sicong_li_asset_pricing_factors_economic_targets_2023"
+        "pub_sicong_li_asset_pricing_factors_economic_targets_2023",
+        "pub_allen_huang_finbert_2023",
+        "pub_allen_huang_finentity_2023",
+        "pub_xinghua_zheng_sharpe_ratios_2024"
       ],
       "question": "如何评价模型能力与可靠性，并识别和缓解系统性偏差？",
       "questionIds": [
@@ -47227,9 +47589,13 @@
         "q_pub_qi_liu_alphaqt",
         "q_pub_yi_yang_finmteb",
         "q_pub_zhimin_chen_limits_machine_learning_2025",
-        "q_pub_sicong_li_asset_pricing_factors_economic_targets_2023"
+        "q_pub_sicong_li_asset_pricing_factors_economic_targets_2023",
+        "q_pub_allen_huang_finbert_2023",
+        "q_pub_allen_huang_finentity_2023",
+        "q_pub_xinghua_zheng_sharpe_ratios_2024"
       ],
       "researcherIds": [
+        "r_allen_huang_hkust",
         "r_anthony_tung_nus",
         "r_bo_an",
         "r_chao",
@@ -47237,13 +47603,15 @@
         "r_lei_sha",
         "r_qi_liu_hku",
         "r_sicong_li_cuhk",
+        "r_xinghua_zheng_hkust",
         "r_yi_yang_hkust",
         "r_zhimin_chen_ntu"
       ],
-      "reviewedAt": "2026-10-07",
+      "reviewedAt": "2026-10-08",
       "themes": [
         "asset",
         "decision",
+        "digital",
         "finai",
         "ml",
         "ts"
@@ -47509,11 +47877,11 @@
       {
         "awaitingEvidence": 0,
         "awaitingExtraction": 0,
-        "clustered": 61,
+        "clustered": 63,
         "clusters": 28,
-        "extracted": 61,
+        "extracted": 63,
         "multiPaperClusters": 16,
-        "papers": 61,
+        "papers": 63,
         "singlePaperClusters": 12,
         "staleEvidence": 0,
         "themeId": "finai",
@@ -47535,11 +47903,11 @@
       {
         "awaitingEvidence": 6,
         "awaitingExtraction": 0,
-        "clustered": 143,
+        "clustered": 144,
         "clusters": 29,
-        "extracted": 143,
+        "extracted": 144,
         "multiPaperClusters": 26,
-        "papers": 149,
+        "papers": 150,
         "singlePaperClusters": 3,
         "staleEvidence": 0,
         "themeId": "asset",
@@ -47548,11 +47916,11 @@
       {
         "awaitingEvidence": 7,
         "awaitingExtraction": 0,
-        "clustered": 95,
+        "clustered": 96,
         "clusters": 29,
-        "extracted": 95,
+        "extracted": 96,
         "multiPaperClusters": 18,
-        "papers": 102,
+        "papers": 103,
         "singlePaperClusters": 11,
         "staleEvidence": 0,
         "themeId": "ts",
@@ -47561,11 +47929,11 @@
       {
         "awaitingEvidence": 0,
         "awaitingExtraction": 0,
-        "clustered": 50,
-        "clusters": 25,
-        "extracted": 50,
-        "multiPaperClusters": 16,
-        "papers": 50,
+        "clustered": 52,
+        "clusters": 26,
+        "extracted": 52,
+        "multiPaperClusters": 17,
+        "papers": 52,
         "singlePaperClusters": 9,
         "staleEvidence": 0,
         "themeId": "digital",
@@ -47585,11 +47953,11 @@
         "unclustered": 0
       }
     ],
-    "clustered": 413,
+    "clustered": 416,
     "clusters": 50,
-    "extracted": 413,
+    "extracted": 416,
     "multiPaperClusters": 44,
-    "papers": 426,
+    "papers": 429,
     "singlePaperClusters": 6,
     "staleEvidence": 0,
     "unclustered": 0
@@ -57377,6 +57745,79 @@
       ],
       "reviewedAt": "2026-10-07",
       "text": "带规划能力的 AI 投机者如何通过跨期协调放大金融市场脆弱性？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_financial_information",
+        "qc_model_evaluation"
+      ],
+      "evidence": {
+        "digest": "19d7a7511d75b97eaa15b86f12000283f65e8b4a6e79c3c14f82ba013773f45b",
+        "excerpt": "将 BERT 迁移并适配到金融语料与金融信息抽取任务",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-08",
+          "kind": "abstract_summary",
+          "label": "已有摘要概览所列来源",
+          "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/1911-3846.12832"
+        }
+      },
+      "id": "q_pub_allen_huang_finbert_2023",
+      "paperIds": [
+        "pub_allen_huang_finbert_2023"
+      ],
+      "reviewedAt": "2026-10-08",
+      "text": "如何把通用语言模型适配到金融文本，使其在小样本和金融专有词汇下更可靠地抽取情绪与信息？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_financial_information",
+        "qc_model_evaluation"
+      ],
+      "evidence": {
+        "digest": "8f89e65e0a7a28e6de98e8acdd21660cf03627515f1b3779e49b266ffa6d6257",
+        "excerpt": "标注金融新闻中的实体跨度及正向、中性、负向情绪",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-08",
+          "kind": "abstract_summary",
+          "label": "已有摘要概览所列来源",
+          "url": "https://aclanthology.org/2023.emnlp-main.956/"
+        }
+      },
+      "id": "q_pub_allen_huang_finentity_2023",
+      "paperIds": [
+        "pub_allen_huang_finentity_2023"
+      ],
+      "reviewedAt": "2026-10-08",
+      "text": "如何从整体金融文本情绪推进到实体级情绪识别，并比较 BERT、FinBERT 与 ChatGPT 在金融新闻中的适用性？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_asset_risk_premia",
+        "qc_statistical_testing",
+        "qc_model_evaluation"
+      ],
+      "evidence": {
+        "digest": "cc14507012cb5158b98b9fd380ca40888bf116ebd77c05b2c306dc202903e166",
+        "excerpt": "估计风险如何使多因子资产定价模型的样本内 Sharpe ratio 与投资者可实现的样本外 Sharpe ratio 出现落差",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-08",
+          "kind": "abstract_summary",
+          "label": "已有摘要概览所列来源",
+          "url": "https://researchportal.hkust.edu.hk/en/publications/in-sample-and-out-of-sample-sharpe-ratios-of-multi-factor-asset-p/"
+        }
+      },
+      "id": "q_pub_xinghua_zheng_sharpe_ratios_2024",
+      "paperIds": [
+        "pub_xinghua_zheng_sharpe_ratios_2024"
+      ],
+      "reviewedAt": "2026-10-08",
+      "text": "多因子资产定价模型的样本内 Sharpe ratio 如何受估计风险影响，样本外模型比较应如何修正？"
     }
   ],
   "researchers": [
@@ -60974,11 +61415,11 @@
       "nameVariants": [],
       "position": "Associate Professor",
       "publicationCoverage": {
-        "abstractCount": 6,
-        "authorVerifiedCount": 6,
+        "abstractCount": 7,
+        "authorVerifiedCount": 7,
         "boundaryDateCount": 0,
-        "checkedAt": "2026-09-26",
-        "collectedCount": 6,
+        "checkedAt": "2026-10-08",
+        "collectedCount": 7,
         "extended": false,
         "fullTextCount": 0,
         "gaps": [
@@ -60986,6 +61427,7 @@
         ],
         "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
         "paperIds": [
+          "pub_allen_huang_finentity_2023",
           "pub_yi_yang_visual_retrieval",
           "pub_yi_yang_earnings_graph",
           "pub_yi_yang_finmteb",
@@ -60993,7 +61435,7 @@
           "pub_yi_yang_finrankgrpo",
           "pub_yi_yang_kv_embedding"
         ],
-        "recentCount": 6,
+        "recentCount": 7,
         "sourcesChecked": [
           {
             "checkedAt": "2026-09-25",
@@ -61030,13 +61472,25 @@
             "kind": "paper_pdf",
             "label": "原文首页：完整作者顺序及HKUST单位",
             "url": "https://aclanthology.org/2026.acl-long.540.pdf"
+          },
+          {
+            "checkedAt": "2026-10-08",
+            "kind": "official_profile",
+            "label": "HKUST official profile: identity and FinBERT publication corroboration",
+            "url": "https://bm.hkust.edu.hk/faculty/yang-yi"
+          },
+          {
+            "checkedAt": "2026-10-08",
+            "kind": "faculty_page",
+            "label": "Yi Yang personal research page: FinBERT and FinEntity publication corroboration",
+            "url": "https://yya518.github.io/research"
           }
         ],
         "status": "partial",
         "threshold": 5,
-        "uncertainDateCount": 3,
-        "windowEnd": "2026-10-05",
-        "windowStart": "2023-10-05",
+        "uncertainDateCount": 4,
+        "windowEnd": "2026-10-07",
+        "windowStart": "2023-10-07",
         "windowYears": 3
       },
       "sources": [
@@ -61057,6 +61511,12 @@
           "kind": "faculty_page",
           "label": "个人主页：NLP/LLM/金融研究与RA招募",
           "url": "https://yya518.github.io/index"
+        },
+        {
+          "checkedAt": "2026-10-08",
+          "kind": "faculty_page",
+          "label": "个人研究页：FinBERT与FinEntity byline",
+          "url": "https://yya518.github.io/research"
         }
       ],
       "summary": "研究主题：金融NLP、金融LLM、FinBERT、金融文本、风险预测。主题关联为编辑归纳，请结合论文和官方来源判断。",
@@ -61074,7 +61534,7 @@
         "风险预测"
       ],
       "verification": "verified",
-      "verifiedAt": "2026-09-16"
+      "verifiedAt": "2026-10-08"
     },
     {
       "department": "人工智能学院",
@@ -62745,30 +63205,52 @@
       "homepage": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=allen-hao-huang-acahuang",
       "id": "r_allen_huang_hkust",
       "institution": "HKUST",
-      "institutionFull": "The Hong Kong University of Science and Technology",
+      "institutionFull": "Hong Kong University of Science and Technology",
       "name": "Allen Hao Huang / Allen Huang / 黄昊",
       "nameVariants": [],
       "position": "Head and Professor",
       "publicationCoverage": {
-        "abstractCount": 0,
-        "authorVerifiedCount": 0,
+        "abstractCount": 2,
+        "authorVerifiedCount": 2,
         "boundaryDateCount": 0,
-        "checkedAt": null,
-        "collectedCount": 0,
+        "checkedAt": "2026-10-08",
+        "collectedCount": 2,
         "extended": true,
         "fullTextCount": 0,
         "gaps": [
           "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
         ],
         "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
-        "paperIds": [],
-        "recentCount": 0,
-        "sourcesChecked": [],
+        "paperIds": [
+          "pub_allen_huang_finbert_2023",
+          "pub_allen_huang_finentity_2023"
+        ],
+        "recentCount": 1,
+        "sourcesChecked": [
+          {
+            "checkedAt": "2026-10-08",
+            "kind": "official_profile",
+            "label": "HKUST official faculty profile: identity, role and publication list",
+            "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=allen-hao-huang-acahuang"
+          },
+          {
+            "checkedAt": "2026-10-08",
+            "kind": "publisher_full_text_primary",
+            "label": "Wiley/CAR publisher full text: title, full byline and first-online date independently verified by parent lane",
+            "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/1911-3846.12832"
+          },
+          {
+            "checkedAt": "2026-10-08",
+            "kind": "proceedings_primary",
+            "label": "ACL Anthology EMNLP proceedings: title, full byline, date, pages, DOI and abstract",
+            "url": "https://aclanthology.org/2023.emnlp-main.956/"
+          }
+        ],
         "status": "partial",
         "threshold": 5,
-        "uncertainDateCount": 0,
-        "windowEnd": "2026-10-05",
-        "windowStart": "2021-10-05",
+        "uncertainDateCount": 1,
+        "windowEnd": "2026-10-07",
+        "windowStart": "2021-10-07",
         "windowYears": 5
       },
       "sources": [
@@ -62783,6 +63265,18 @@
           "kind": "official_profile",
           "label": "官方身份与研究方向",
           "url": "https://bm.hkust.edu.hk/faculty/huang-allen"
+        },
+        {
+          "checkedAt": "2026-10-08",
+          "kind": "publisher_full_text_primary",
+          "label": "Wiley/CAR publisher full text: title, full byline and first-online date independently verified by parent lane",
+          "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/1911-3846.12832"
+        },
+        {
+          "checkedAt": "2026-10-08",
+          "kind": "proceedings_primary",
+          "label": "ACL Anthology EMNLP proceedings: title, full byline, date, pages, DOI and abstract",
+          "url": "https://aclanthology.org/2023.emnlp-main.956/"
         }
       ],
       "summary": "研究主题：financial NLP、FinBERT、financial text extraction、capital markets、earnings quality、accounting information。主题关联为编辑归纳，请结合论文和官方来源判断。",
@@ -62799,7 +63293,7 @@
         "accounting information"
       ],
       "verification": "verified",
-      "verifiedAt": "2026-09-18"
+      "verifiedAt": "2026-10-08"
     },
     {
       "department": "Department of Accounting",
@@ -62868,30 +63362,45 @@
       "homepage": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=xinghua-zheng-xhzheng",
       "id": "r_xinghua_zheng_hkust",
       "institution": "HKUST",
-      "institutionFull": "The Hong Kong University of Science and Technology",
-      "name": "Xinghua Zheng / 郑兴华",
+      "institutionFull": "Hong Kong University of Science and Technology",
+      "name": "Xinghua Zheng / 郑星华（官网繁体：鄭星華）",
       "nameVariants": [],
       "position": "Professor",
       "publicationCoverage": {
-        "abstractCount": 0,
-        "authorVerifiedCount": 0,
+        "abstractCount": 1,
+        "authorVerifiedCount": 1,
         "boundaryDateCount": 0,
-        "checkedAt": null,
-        "collectedCount": 0,
+        "checkedAt": "2026-10-08",
+        "collectedCount": 1,
         "extended": true,
         "fullTextCount": 0,
         "gaps": [
           "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
         ],
         "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
-        "paperIds": [],
-        "recentCount": 0,
-        "sourcesChecked": [],
+        "paperIds": [
+          "pub_xinghua_zheng_sharpe_ratios_2024"
+        ],
+        "recentCount": 1,
+        "sourcesChecked": [
+          {
+            "checkedAt": "2026-10-08",
+            "kind": "official_profile",
+            "label": "HKUST official faculty profile: identity, Chinese name, research interests, projects and publication list",
+            "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=xinghua-zheng-xhzheng"
+          },
+          {
+            "checkedAt": "2026-10-08",
+            "kind": "official_research_portal",
+            "label": "HKUST Research Portal: title, full byline, JFE venue, DOI, online date and abstract",
+            "url": "https://researchportal.hkust.edu.hk/en/publications/in-sample-and-out-of-sample-sharpe-ratios-of-multi-factor-asset-p/"
+          }
+        ],
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-05",
-        "windowStart": "2021-10-05",
+        "windowEnd": "2026-10-07",
+        "windowStart": "2021-10-07",
         "windowYears": 5
       },
       "sources": [
@@ -62906,6 +63415,12 @@
           "kind": "official_profile",
           "label": "官方身份与研究方向",
           "url": "https://xhzheng.people.ust.hk/research.htm"
+        },
+        {
+          "checkedAt": "2026-10-08",
+          "kind": "official_research_portal",
+          "label": "HKUST Research Portal: title, full byline, JFE venue, DOI, online date and abstract",
+          "url": "https://researchportal.hkust.edu.hk/en/publications/in-sample-and-out-of-sample-sharpe-ratios-of-multi-factor-asset-p/"
         }
       ],
       "summary": "研究主题：financial big data、high-dimensional statistics、large portfolio management、high-frequency data、stochastic discount factor learning、financial econometrics。主题关联为编辑归纳，请结合论文和官方来源判断。",
@@ -62923,7 +63438,7 @@
         "financial econometrics"
       ],
       "verification": "verified",
-      "verifiedAt": "2026-09-18"
+      "verifiedAt": "2026-10-08"
     },
     {
       "department": "Department of Electronic and Computer Engineering; Department of Industrial Engineering and Decision Analytics",
@@ -65678,5 +66193,5 @@
       "name": "ML Theory & Optimization"
     }
   ],
-  "updatedAt": "2026-10-06"
+  "updatedAt": "2026-10-07"
 }
