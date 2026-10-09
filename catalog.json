@@ -45103,6 +45103,377 @@
       "verifiedAt": "2026-10-08",
       "versions": [],
       "year": 2024
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-09",
+        "reason": "ScienceDirect 直连在核对时返回访问阻塞；摘要级内容来自 CUFE 官方科研新闻，书目与作者顺序由 RUC 官方页及 Crossref 元数据交叉核验。",
+        "source": "https://www.sciencedirect.com/science/article/abs/pii/S016766872500112X",
+        "status": "available"
+      },
+      "abstractSummary": "论文在连续时间框架下研究包含愿望型效用的最优消费、休闲、投资与自愿退休决策。官方研究概览说明其运用鞅对偶方法与凹化原理求解，分析愿望实现前后的消费、休闲、风险投资和退休选择变化，并讨论愿望水平对努力激励的非单调关系。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-09",
+        "kind": "official_profile",
+        "label": "RUC Statistics English profile: identity, research interests, selected publications and corresponding-author legend",
+        "url": "https://stat.ruc.edu.cn/EN/DepartmentFaculty/Department_of_Risk_Management_and_Actuarial_Science/df1bc36f295b4dfd8d39b3b37e2da57f.htm"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Shuang Li",
+        "Hui Meng",
+        "Ming Zhou"
+      ],
+      "authorships": [
+        {
+          "name": "Shuang Li",
+          "position": 1,
+          "researcherId": null
+        },
+        {
+          "name": "Hui Meng",
+          "position": 2,
+          "researcherId": null
+        },
+        {
+          "corresponding": true,
+          "name": "Ming Zhou",
+          "position": 3,
+          "researcherId": "r_ming_zhou_ruc",
+          "source": {
+            "checkedAt": "2026-10-09",
+            "kind": "official_profile",
+            "label": "RUC Statistics English profile: identity, research interests, selected publications and corresponding-author legend",
+            "url": "https://stat.ruc.edu.cn/EN/DepartmentFaculty/Department_of_Risk_Management_and_Actuarial_Science/df1bc36f295b4dfd8d39b3b37e2da57f.htm"
+          }
+        }
+      ],
+      "contribution": {
+        "checkedAt": "2026-10-09",
+        "note": "RUC Statistics English profile marks selected publications with '*Corresponding Author' and lists Ming Zhou* on this paper.",
+        "source": {
+          "checkedAt": "2026-10-09",
+          "kind": "official_profile",
+          "label": "RUC Statistics English profile: identity, research interests, selected publications and corresponding-author legend",
+          "url": "https://stat.ruc.edu.cn/EN/DepartmentFaculty/Department_of_Risk_Management_and_Actuarial_Science/df1bc36f295b4dfd8d39b3b37e2da57f.htm"
+        },
+        "status": "corresponding_verified"
+      },
+      "coverageScope": "recent",
+      "date": "2025-11",
+      "dateEvidence": {
+        "checkedAt": "2026-10-09",
+        "kind": "date_note",
+        "label": "日期、版本与书目信息核对",
+        "note": "Crossref 记录 publication month 为 2025-11；RUC 官方页列 Insurance: Mathematics and Economics 125, 103165。",
+        "url": "https://doi.org/10.1016/j.insmatheco.2025.103165"
+      },
+      "datePrecision": "month",
+      "doi": "10.1016/j.insmatheco.2025.103165",
+      "id": "pub_ming_zhou_consumption_leisure_investment_retirement_2025",
+      "paradigms": [
+        "theory",
+        "control"
+      ],
+      "publicationStatus": "published",
+      "publicationType": "journal",
+      "questionId": "q_pub_ming_zhou_consumption_leisure_investment_retirement_2025",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "非凹愿望型效用如何改变连续时间消费、休闲、投资与自愿退休决策？",
+      "researcherIds": [
+        "r_ming_zhou_ruc"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-09",
+          "kind": "official_profile",
+          "label": "RUC Statistics English profile: identity, research interests, selected publications and corresponding-author legend",
+          "url": "https://stat.ruc.edu.cn/EN/DepartmentFaculty/Department_of_Risk_Management_and_Actuarial_Science/df1bc36f295b4dfd8d39b3b37e2da57f.htm"
+        },
+        {
+          "checkedAt": "2026-10-09",
+          "kind": "publisher_metadata",
+          "label": "Crossref metadata: title, ordered byline, DOI, journal and 2025-11 publication month",
+          "url": "https://api.crossref.org/works/10.1016/j.insmatheco.2025.103165"
+        },
+        {
+          "checkedAt": "2026-10-09",
+          "kind": "official_research_news",
+          "label": "CUFE official research news: coauthor institution summary of the Insurance: Mathematics and Economics paper",
+          "url": "https://cias.cufe.edu.cn/info/1037/5172.htm"
+        },
+        {
+          "checkedAt": "2026-10-09",
+          "kind": "publisher_record_blocked",
+          "label": "ScienceDirect landing page: direct access blocked during this run, retained as publisher URL",
+          "status": "blocked",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S016766872500112X"
+        }
+      ],
+      "summaryBasis": "abstract_or_official_research_summary",
+      "themes": [
+        "decision",
+        "asset"
+      ],
+      "title": "Optimal consumption-leisure-investment and retirement choices with nonconcave aspirational utility",
+      "url": "https://doi.org/10.1016/j.insmatheco.2025.103165",
+      "venue": "Insurance: Mathematics and Economics 125, 103165",
+      "verifiedAt": "2026-10-09",
+      "versions": [],
+      "year": 2025
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-09",
+        "reason": "已读到来源页的摘要或官方研究概览；未复现实验、估计或理论证明。",
+        "source": "https://brain.ruc.edu.cn/jcyj/jctd/qklyszjjsys/qklyszjjsys_jctd/qklyszjjsys_fzls/21e26634913d48ca91abe5c12789fdc0.htm",
+        "status": "available"
+      },
+      "abstractSummary": "论文研究公司欺诈检测，指出传统依赖财务报表的方法检测力有限，动态异质商业网络仍未被充分利用。NetDetect 同时学习静态元路径结构信息与时间变化，在包含56.1万个节点的中国上市公司网络上评估，用于提高欺诈检测准确性、提前预警能力与结果可解释性。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-09",
+        "kind": "publisher_record_with_abstract",
+        "label": "AIS eLibrary / MIS Quarterly record: title, ordered byline, abstract and citation",
+        "url": "https://aisel.aisnet.org/misq/vol50/iss3/13/"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Wei Du",
+        "Qi Lu",
+        "Wei Xu",
+        "J. Leon Zhao"
+      ],
+      "authorships": [
+        {
+          "name": "Wei Du",
+          "position": 1,
+          "researcherId": "r_wei_du_ruc"
+        },
+        {
+          "name": "Qi Lu",
+          "position": 2,
+          "researcherId": null
+        },
+        {
+          "name": "Wei Xu",
+          "position": 3,
+          "researcherId": "r_wei_xu_ruc"
+        },
+        {
+          "name": "J. Leon Zhao",
+          "position": 4,
+          "researcherId": null
+        }
+      ],
+      "contribution": {
+        "note": "完整作者顺序已核；署名位次不等于贡献大小，具体贡献声明待核。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": null,
+      "dateEvidence": {
+        "checkedAt": "2026-10-09",
+        "kind": "date_note",
+        "label": "日期、版本与书目信息核对",
+        "note": "AIS eLibrary 期刊页列为 MIS Quarterly 50(3), 2026, 1059–1086；RUC 杜玮官方页列 DOI 与 2025 版本题名差异，按同 DOI 合并为同一研究。",
+        "url": "https://aisel.aisnet.org/misq/vol50/iss3/13/"
+      },
+      "datePrecision": "year",
+      "doi": "10.25300/misq/2025/18940",
+      "id": "pub_wei_xu_corporate_fraud_dynamic_business_networks_2026",
+      "paradigms": [
+        "diagnostic",
+        "system",
+        "measurement"
+      ],
+      "publicationStatus": "published",
+      "publicationType": "journal",
+      "questionId": "q_pub_wei_xu_corporate_fraud_dynamic_business_networks_2026",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "动态异质商业网络如何提升公司欺诈检测、提前预警与可解释风险监测？",
+      "researcherIds": [
+        "r_wei_du_ruc",
+        "r_wei_xu_ruc"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-09",
+          "kind": "publisher_record_with_abstract",
+          "label": "AIS eLibrary / MIS Quarterly record: title, ordered byline, abstract and citation",
+          "url": "https://aisel.aisnet.org/misq/vol50/iss3/13/"
+        },
+        {
+          "checkedAt": "2026-10-09",
+          "kind": "official_profile",
+          "label": "RUC official Wei Du profile: identity, fintech directions and publication list",
+          "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jjxxglx1/fjs_a/fe64172ae39e4e11bba8adf2def4246b.htm"
+        },
+        {
+          "checkedAt": "2026-10-09",
+          "kind": "official_profile",
+          "label": "RUC AI governance platform Wei Xu profile: professor, doctoral supervisor, fintech and business analytics",
+          "url": "https://brain.ruc.edu.cn/jcyj/jctd/qklyszjjsys/qklyszjjsys_jctd/qklyszjjsys_fzls/21e26634913d48ca91abe5c12789fdc0.htm"
+        }
+      ],
+      "summaryBasis": "abstract_or_official_research_summary",
+      "themes": [
+        "finai",
+        "digital",
+        "ml"
+      ],
+      "title": "How a Rotten Apple Can Spoil the Barrel: Corporate Fraud Detection via Dynamic Business Networks",
+      "url": "https://aisel.aisnet.org/misq/vol50/iss3/13/",
+      "venue": "MIS Quarterly 50(3), 1059–1086",
+      "verifiedAt": "2026-10-09",
+      "versions": [
+        {
+          "authorEvidence": {
+            "checkedAt": "2026-10-09",
+            "kind": "official_profile",
+            "label": "RUC official Wei Du profile: identity, fintech directions and publication list",
+            "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jjxxglx1/fjs_a/fe64172ae39e4e11bba8adf2def4246b.htm"
+          },
+          "authorListComplete": true,
+          "authorOrderVerified": true,
+          "authors": [
+            "Wei Du",
+            "Qi Lu",
+            "Wei Xu",
+            "J. Leon Zhao"
+          ],
+          "date": null,
+          "datePrecision": "year",
+          "doi": "10.25300/MISQ/2025/18940",
+          "publicationStatus": "published",
+          "publicationType": "journal",
+          "sources": [
+            {
+              "checkedAt": "2026-10-09",
+              "kind": "official_profile",
+              "label": "RUC official Wei Du profile: identity, fintech directions and publication list",
+              "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jjxxglx1/fjs_a/fe64172ae39e4e11bba8adf2def4246b.htm"
+            }
+          ],
+          "title": "How a Rotten Apple May Spoil the Barrel: Corporate Fraud Detection via Dynamic Business Networks",
+          "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jjxxglx1/fjs_a/fe64172ae39e4e11bba8adf2def4246b.htm",
+          "venue": "RUC Wei Du official profile publication list",
+          "year": 2025
+        }
+      ],
+      "year": 2026
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-09",
+        "reason": "已读到来源页的摘要或官方研究概览；未复现实验、估计或理论证明。",
+        "source": "https://scholars.cityu.edu.hk/en/publications/consumers-opinion-orientations-and-their-credit-risk-an-econometr/",
+        "status": "available"
+      },
+      "abstractSummary": "论文研究金融科技场景中，消费者多模态社交媒体帖子能否增强信用风险评估。作者提出生活方式风险构念并纳入计量模型，发现由文本与图像提取的 opinion risk 与信用风险正相关，且结合图像和文本的构念能提高信用风险预测效果。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-09",
+        "kind": "publisher_record_with_affiliation",
+        "label": "AIS eLibrary / JAIS record: ordered byline and Wei Xu affiliation as Renmin University of China",
+        "url": "https://aisel.aisnet.org/jais/vol25/iss4/1/"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Qiping Wang",
+        "Raymond Yiu Keung Lau",
+        "Wai Ting Eric Ngai",
+        "Jason Bennett Thatcher",
+        "Wei Xu"
+      ],
+      "authorships": [
+        {
+          "name": "Qiping Wang",
+          "position": 1,
+          "researcherId": null
+        },
+        {
+          "name": "Raymond Yiu Keung Lau",
+          "position": 2,
+          "researcherId": null
+        },
+        {
+          "name": "Wai Ting Eric Ngai",
+          "position": 3,
+          "researcherId": null
+        },
+        {
+          "name": "Jason Bennett Thatcher",
+          "position": 4,
+          "researcherId": null
+        },
+        {
+          "name": "Wei Xu",
+          "position": 5,
+          "researcherId": "r_wei_xu_ruc"
+        }
+      ],
+      "contribution": {
+        "note": "完整作者顺序已核；署名位次不等于贡献大小，具体贡献声明待核。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2024-07",
+      "dateEvidence": {
+        "checkedAt": "2026-10-09",
+        "kind": "date_note",
+        "label": "日期、版本与书目信息核对",
+        "note": "AIS eLibrary / JAIS 记录核到第五作者 Wei Xu 单位为 Renmin University of China；CityUHK Scholars 记录列为 2024-07 发表，JAIS 25(4), 1117–1156。",
+        "url": "https://doi.org/10.17705/1JAIS.00856"
+      },
+      "datePrecision": "month",
+      "doi": "10.17705/1jais.00856",
+      "id": "pub_wei_xu_consumers_opinion_credit_risk_2024",
+      "paradigms": [
+        "empirical",
+        "measurement"
+      ],
+      "publicationStatus": "published",
+      "publicationType": "journal",
+      "questionId": "q_pub_wei_xu_consumers_opinion_credit_risk_2024",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "多模态社交媒体中的生活方式和观点风险信息能否改进消费者信用风险评估？",
+      "researcherIds": [
+        "r_wei_xu_ruc"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-09",
+          "kind": "publisher_record_with_affiliation",
+          "label": "AIS eLibrary / JAIS record: ordered byline and Wei Xu affiliation as Renmin University of China",
+          "url": "https://aisel.aisnet.org/jais/vol25/iss4/1/"
+        },
+        {
+          "checkedAt": "2026-10-09",
+          "kind": "institutional_record_with_abstract",
+          "label": "CityUHK Scholars record: ordered byline, abstract, pages and DOI",
+          "url": "https://scholars.cityu.edu.hk/en/publications/consumers-opinion-orientations-and-their-credit-risk-an-econometr/"
+        }
+      ],
+      "summaryBasis": "abstract_or_official_research_summary",
+      "themes": [
+        "finai",
+        "digital",
+        "ts"
+      ],
+      "title": "Consumers' Opinion Orientations and Their Credit Risk: An Econometric Analysis Enhanced by Multimodal Analytics",
+      "url": "https://doi.org/10.17705/1JAIS.00856",
+      "venue": "Journal of the Association for Information Systems 25(4), 1117–1156",
+      "verifiedAt": "2026-10-09",
+      "versions": [],
+      "year": 2024
     }
   ],
   "paradigms": [
@@ -45204,30 +45575,30 @@
   "publicCurationNote": "公开研究资料快照。主题、研究问题与研究线为编辑归纳，不代表学者本人陈述或机构背书。",
   "publicRelease": {
     "channel": "stable",
-    "snapshotDate": "2026-10-07",
-    "version": "3.3.27"
+    "snapshotDate": "2026-10-08",
+    "version": "3.3.29"
   },
   "publicationPolicy": {
     "authorshipNote": "署名位次不等于贡献排名；通讯作者、共同贡献和具体分工只按原文证据标注。",
     "coverageNote": "近三年资料不足时回溯五年；日期不完整与补充文献分别标明，收录不承诺穷尽。",
-    "defaultStart": "2023-10-07",
+    "defaultStart": "2023-10-08",
     "defaultYears": 3,
-    "extendedStart": "2021-10-07",
+    "extendedStart": "2021-10-08",
     "extendedYears": 5,
     "extensionThreshold": 5,
-    "snapshotDate": "2026-10-07",
+    "snapshotDate": "2026-10-08",
     "versionNote": "同一研究的预印本与发表版本分开保留证据；摘要来源可能与主书目版本不同。"
   },
   "publicationStats": {
-    "abstracts": 416,
+    "abstracts": 419,
     "fullTexts": 4,
     "outsideWindow": 7,
-    "papers": 429,
-    "recentPapers": 422,
+    "papers": 432,
+    "recentPapers": 425,
     "researchers": 104,
     "reviewedSources": 11,
-    "verifiedBylines": 428,
-    "withPapers": 41
+    "verifiedBylines": 431,
+    "withPapers": 44
   },
   "questionClusters": [
     {
@@ -45631,7 +46002,9 @@
         "pub_claire_platform_mf",
         "pub_hailiang_chen_sociolink_startup_recommendations_2023",
         "pub_jiayin_fintech_reduce_discrimination",
-        "pub_jiayin_bnpl_credit_reporting"
+        "pub_jiayin_bnpl_credit_reporting",
+        "pub_wei_xu_corporate_fraud_dynamic_business_networks_2026",
+        "pub_wei_xu_consumers_opinion_credit_risk_2024"
       ],
       "question": "数字技术、平台规则和信息如何改变信贷获取、风险评估与资源配置？",
       "questionIds": [
@@ -45639,20 +46012,25 @@
         "q_pub_claire_platform_mf",
         "q_pub_hailiang_chen_sociolink_startup_recommendations_2023",
         "q_pub_jiayin_fintech_reduce_discrimination",
-        "q_pub_jiayin_bnpl_credit_reporting"
+        "q_pub_jiayin_bnpl_credit_reporting",
+        "q_pub_wei_xu_corporate_fraud_dynamic_business_networks_2026",
+        "q_pub_wei_xu_consumers_opinion_credit_risk_2024"
       ],
       "researcherIds": [
         "r_claire",
         "r_hailiang_chen_hku",
-        "r_jiayin"
+        "r_jiayin",
+        "r_wei_du_ruc",
+        "r_wei_xu_ruc"
       ],
-      "reviewedAt": "2026-10-05",
+      "reviewedAt": "2026-10-09",
       "themes": [
-        "asset",
-        "decision",
         "digital",
+        "asset",
         "finai",
-        "ml"
+        "ml",
+        "decision",
+        "ts"
       ],
       "title": "数字平台与信贷配置"
     },
@@ -45864,7 +46242,8 @@
         "pub_yao_lu_2026_financial_kol_policy_completion",
         "pub_yi_yang_finrankgrpo",
         "pub_zhanhui_weather_risk_index_insurance",
-        "pub_sicong_li_factor_models_price_impact_costs_2024"
+        "pub_sicong_li_factor_models_price_impact_costs_2024",
+        "pub_ming_zhou_consumption_leisure_investment_retirement_2025"
       ],
       "question": "在不确定性和实际约束下，如何构建投资组合并控制风险？",
       "questionIds": [
@@ -45906,37 +46285,39 @@
         "q_pub_yao_lu_2026_financial_kol_policy_completion",
         "q_pub_yi_yang_finrankgrpo",
         "q_pub_zhanhui_weather_risk_index_insurance",
-        "q_pub_sicong_li_factor_models_price_impact_costs_2024"
+        "q_pub_sicong_li_factor_models_price_impact_costs_2024",
+        "q_pub_ming_zhou_consumption_leisure_investment_retirement_2025"
       ],
       "researcherIds": [
+        "r_gao",
+        "r_lingfei",
         "r_bo_an",
         "r_chen_yang_cuhk",
         "r_claire",
         "r_daniel_palomar_hkust",
         "r_gang",
-        "r_gao",
         "r_he",
         "r_jia",
         "r_junye",
         "r_ke",
         "r_lian",
-        "r_lingfei",
         "r_ruixun_zhang_pku",
-        "r_sicong_li_cuhk",
         "r_weichen_wang_hku",
         "r_xianhua_peng",
         "r_yao_lu_nus",
         "r_yi_yang_hkust",
-        "r_zhanhui"
+        "r_zhanhui",
+        "r_sicong_li_cuhk",
+        "r_ming_zhou_ruc"
       ],
-      "reviewedAt": "2026-10-07",
+      "reviewedAt": "2026-10-09",
       "themes": [
         "asset",
-        "decision",
-        "digital",
         "finai",
+        "decision",
+        "ts",
         "ml",
-        "ts"
+        "digital"
       ],
       "title": "投资组合与风险控制"
     },
@@ -45961,7 +46342,8 @@
         "pub_jia_policy_rand",
         "pub_jia_mv_ctrl",
         "pub_li_value_diff",
-        "pub_li_regime_mv"
+        "pub_li_regime_mv",
+        "pub_ming_zhou_consumption_leisure_investment_retirement_2025"
       ],
       "question": "如何利用连续时间模型和随机控制结构学习金融决策策略？",
       "questionIds": [
@@ -45981,20 +46363,22 @@
         "q_pub_jia_policy_rand",
         "q_pub_jia_mv_ctrl",
         "q_pub_li_value_diff",
-        "q_pub_li_regime_mv"
+        "q_pub_li_regime_mv",
+        "q_pub_ming_zhou_consumption_leisure_investment_retirement_2025"
       ],
       "researcherIds": [
         "r_gao",
+        "r_lingfei",
         "r_jia",
-        "r_lingfei"
+        "r_ming_zhou_ruc"
       ],
-      "reviewedAt": "2026-08-31",
+      "reviewedAt": "2026-10-09",
       "themes": [
         "asset",
-        "decision",
         "finai",
-        "ml",
-        "ts"
+        "decision",
+        "ts",
+        "ml"
       ],
       "title": "连续时间学习与金融控制"
     },
@@ -46120,7 +46504,8 @@
         "pub_jia_learning_eq_mv",
         "pub_jia_mv_tx_costs",
         "pub_xiaoyan_2023_risking_or_de_risking_how_management_fees_affect",
-        "pub_zhanhui_local_gender_imbalance_risk_taking"
+        "pub_zhanhui_local_gender_imbalance_risk_taking",
+        "pub_ming_zhou_consumption_leisure_investment_retirement_2025"
       ],
       "question": "风险偏好、时间偏好和模型不确定性如何改变最优决策？",
       "questionIds": [
@@ -46136,7 +46521,8 @@
         "q_pub_jia_learning_eq_mv",
         "q_pub_jia_mv_tx_costs",
         "q_pub_xiaoyan_2023_risking_or_de_risking_how_management_fees_affect",
-        "q_pub_zhanhui_local_gender_imbalance_risk_taking"
+        "q_pub_zhanhui_local_gender_imbalance_risk_taking",
+        "q_pub_ming_zhou_consumption_leisure_investment_retirement_2025"
       ],
       "researcherIds": [
         "r_chen_yang_cuhk",
@@ -46144,16 +46530,17 @@
         "r_he",
         "r_jia",
         "r_xiaoyan",
-        "r_zhanhui"
+        "r_zhanhui",
+        "r_ming_zhou_ruc"
       ],
-      "reviewedAt": "2026-10-05",
+      "reviewedAt": "2026-10-09",
       "themes": [
         "asset",
-        "decision",
         "digital",
-        "finai",
+        "decision",
         "ml",
-        "ts"
+        "ts",
+        "finai"
       ],
       "title": "偏好与时间一致性"
     },
@@ -47141,7 +47528,8 @@
         "pub_hailiang_chen_sociolink_startup_recommendations_2023",
         "pub_jian_li_factorgcl_stock_returns_prediction",
         "pub_ke_2024_big_portfolio_selection_by_graph_based_condition",
-        "pub_yi_yang_earnings_graph"
+        "pub_yi_yang_earnings_graph",
+        "pub_wei_xu_corporate_fraud_dynamic_business_networks_2026"
       ],
       "question": "如何利用或学习图结构，获得适合下游任务的表示？",
       "questionIds": [
@@ -47161,7 +47549,8 @@
         "q_pub_hailiang_chen_sociolink_startup_recommendations_2023",
         "q_pub_jian_li_factorgcl_stock_returns_prediction",
         "q_pub_ke_2024_big_portfolio_selection_by_graph_based_condition",
-        "q_pub_yi_yang_earnings_graph"
+        "q_pub_yi_yang_earnings_graph",
+        "q_pub_wei_xu_corporate_fraud_dynamic_business_networks_2026"
       ],
       "researcherIds": [
         "r_chao",
@@ -47169,16 +47558,18 @@
         "r_hailiang_chen_hku",
         "r_jian_li",
         "r_ke",
-        "r_yi_yang_hkust"
+        "r_yi_yang_hkust",
+        "r_wei_du_ruc",
+        "r_wei_xu_ruc"
       ],
-      "reviewedAt": "2026-10-05",
+      "reviewedAt": "2026-10-09",
       "themes": [
-        "asset",
+        "ml",
         "decision",
         "digital",
+        "ts",
         "finai",
-        "ml",
-        "ts"
+        "asset"
       ],
       "title": "图表示与结构学习"
     },
@@ -47372,19 +47763,25 @@
       "description": "区分图异常、时间异常和实际监测场景；不把异常分数直接当作已确认风险。",
       "id": "qc_anomaly_detection",
       "paperIds": [
-        "pub_chao_2023_online_anomalous_subtrajectory_detection_on_road"
+        "pub_chao_2023_online_anomalous_subtrajectory_detection_on_road",
+        "pub_wei_xu_corporate_fraud_dynamic_business_networks_2026"
       ],
       "question": "如何从复杂结构或不完整数据中识别异常、故障和欺诈？",
       "questionIds": [
-        "q_pub_chao_2023_online_anomalous_subtrajectory_detection_on_road"
+        "q_pub_chao_2023_online_anomalous_subtrajectory_detection_on_road",
+        "q_pub_wei_xu_corporate_fraud_dynamic_business_networks_2026"
       ],
       "researcherIds": [
-        "r_chao"
+        "r_chao",
+        "r_wei_du_ruc",
+        "r_wei_xu_ruc"
       ],
-      "reviewedAt": "2026-08-31",
+      "reviewedAt": "2026-10-09",
       "themes": [
+        "ml",
         "decision",
-        "ml"
+        "finai",
+        "digital"
       ],
       "title": "异常识别与监测"
     },
@@ -47475,7 +47872,8 @@
         "pub_difan_2025_self_contradiction_as_self_improvement_mitigatin",
         "pub_difan_2025_speculative_jacobi_denoising_decoding_for_accele",
         "pub_sha_cmrag",
-        "pub_yi_yang_visual_retrieval"
+        "pub_yi_yang_visual_retrieval",
+        "pub_wei_xu_consumers_opinion_credit_risk_2024"
       ],
       "question": "如何对齐和融合不同模态的信息来完成学习任务？",
       "questionIds": [
@@ -47491,21 +47889,23 @@
         "q_pub_difan_2025_self_contradiction_as_self_improvement_mitigatin",
         "q_pub_difan_2025_speculative_jacobi_denoising_decoding_for_accele",
         "q_pub_sha_cmrag",
-        "q_pub_yi_yang_visual_retrieval"
+        "q_pub_yi_yang_visual_retrieval",
+        "q_pub_wei_xu_consumers_opinion_credit_risk_2024"
       ],
       "researcherIds": [
         "r_chao",
         "r_difan",
         "r_lei_sha",
-        "r_yi_yang_hkust"
+        "r_yi_yang_hkust",
+        "r_wei_xu_ruc"
       ],
-      "reviewedAt": "2026-09-25",
+      "reviewedAt": "2026-10-09",
       "themes": [
+        "ml",
         "decision",
         "digital",
-        "finai",
-        "ml",
-        "ts"
+        "ts",
+        "finai"
       ],
       "title": "多模态理解与融合"
     },
@@ -47877,12 +48277,12 @@
       {
         "awaitingEvidence": 0,
         "awaitingExtraction": 0,
-        "clustered": 63,
-        "clusters": 28,
-        "extracted": 63,
-        "multiPaperClusters": 16,
-        "papers": 63,
-        "singlePaperClusters": 12,
+        "clustered": 65,
+        "clusters": 29,
+        "extracted": 65,
+        "multiPaperClusters": 18,
+        "papers": 65,
+        "singlePaperClusters": 11,
         "staleEvidence": 0,
         "themeId": "finai",
         "unclustered": 0
@@ -47890,11 +48290,11 @@
       {
         "awaitingEvidence": 1,
         "awaitingExtraction": 0,
-        "clustered": 91,
+        "clustered": 92,
         "clusters": 36,
-        "extracted": 91,
+        "extracted": 92,
         "multiPaperClusters": 21,
-        "papers": 92,
+        "papers": 93,
         "singlePaperClusters": 15,
         "staleEvidence": 0,
         "themeId": "decision",
@@ -47903,11 +48303,11 @@
       {
         "awaitingEvidence": 6,
         "awaitingExtraction": 0,
-        "clustered": 144,
+        "clustered": 145,
         "clusters": 29,
-        "extracted": 144,
+        "extracted": 145,
         "multiPaperClusters": 26,
-        "papers": 150,
+        "papers": 151,
         "singlePaperClusters": 3,
         "staleEvidence": 0,
         "themeId": "asset",
@@ -47916,12 +48316,12 @@
       {
         "awaitingEvidence": 7,
         "awaitingExtraction": 0,
-        "clustered": 96,
-        "clusters": 29,
-        "extracted": 96,
+        "clustered": 97,
+        "clusters": 30,
+        "extracted": 97,
         "multiPaperClusters": 18,
-        "papers": 103,
-        "singlePaperClusters": 11,
+        "papers": 104,
+        "singlePaperClusters": 12,
         "staleEvidence": 0,
         "themeId": "ts",
         "unclustered": 0
@@ -47929,12 +48329,12 @@
       {
         "awaitingEvidence": 0,
         "awaitingExtraction": 0,
-        "clustered": 52,
-        "clusters": 26,
-        "extracted": 52,
+        "clustered": 54,
+        "clusters": 27,
+        "extracted": 54,
         "multiPaperClusters": 17,
-        "papers": 52,
-        "singlePaperClusters": 9,
+        "papers": 54,
+        "singlePaperClusters": 10,
         "staleEvidence": 0,
         "themeId": "digital",
         "unclustered": 0
@@ -47942,23 +48342,23 @@
       {
         "awaitingEvidence": 3,
         "awaitingExtraction": 0,
-        "clustered": 241,
+        "clustered": 242,
         "clusters": 39,
-        "extracted": 241,
-        "multiPaperClusters": 32,
-        "papers": 244,
-        "singlePaperClusters": 7,
+        "extracted": 242,
+        "multiPaperClusters": 34,
+        "papers": 245,
+        "singlePaperClusters": 5,
         "staleEvidence": 0,
         "themeId": "ml",
         "unclustered": 0
       }
     ],
-    "clustered": 416,
+    "clustered": 419,
     "clusters": 50,
-    "extracted": 416,
-    "multiPaperClusters": 44,
-    "papers": 429,
-    "singlePaperClusters": 6,
+    "extracted": 419,
+    "multiPaperClusters": 45,
+    "papers": 432,
+    "singlePaperClusters": 5,
     "staleEvidence": 0,
     "unclustered": 0
   },
@@ -57818,6 +58218,80 @@
       ],
       "reviewedAt": "2026-10-08",
       "text": "多因子资产定价模型的样本内 Sharpe ratio 如何受估计风险影响，样本外模型比较应如何修正？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_continuous_time_rl",
+        "qc_portfolio_risk_control",
+        "qc_risk_preferences"
+      ],
+      "evidence": {
+        "digest": "bb9aac4ce49d199d414f693f5705a2c257b253d307a5aeb1eb9cace9a2220cfd",
+        "excerpt": "包含愿望型效用的最优消费、休闲、投资与自愿退休决策",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-09",
+          "kind": "abstract_summary",
+          "label": "已有摘要概览所列来源",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S016766872500112X"
+        }
+      },
+      "id": "q_pub_ming_zhou_consumption_leisure_investment_retirement_2025",
+      "paperIds": [
+        "pub_ming_zhou_consumption_leisure_investment_retirement_2025"
+      ],
+      "reviewedAt": "2026-10-09",
+      "text": "非凹愿望型效用如何改变连续时间消费、休闲、投资与自愿退休决策？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_anomaly_detection",
+        "qc_graph_representation",
+        "qc_digital_credit_platforms"
+      ],
+      "evidence": {
+        "digest": "31ddf1178d6c7bb358f20f9bf6f522555e16eaa56fdfaa94de67e8e494e32bf4",
+        "excerpt": "NetDetect 同时学习静态元路径结构信息与时间变化",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-09",
+          "kind": "abstract_summary",
+          "label": "已有摘要概览所列来源",
+          "url": "https://brain.ruc.edu.cn/jcyj/jctd/qklyszjjsys/qklyszjjsys_jctd/qklyszjjsys_fzls/21e26634913d48ca91abe5c12789fdc0.htm"
+        }
+      },
+      "id": "q_pub_wei_xu_corporate_fraud_dynamic_business_networks_2026",
+      "paperIds": [
+        "pub_wei_xu_corporate_fraud_dynamic_business_networks_2026"
+      ],
+      "reviewedAt": "2026-10-09",
+      "text": "动态异质商业网络如何提升公司欺诈检测、提前预警与可解释风险监测？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_digital_credit_platforms",
+        "qc_multimodal_learning"
+      ],
+      "evidence": {
+        "digest": "c41d1c539fc06a6efbb0de9361df32300b51c05d261458f42b5a0756dc036a87",
+        "excerpt": "由文本与图像提取的 opinion risk 与信用风险正相关",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-09",
+          "kind": "abstract_summary",
+          "label": "已有摘要概览所列来源",
+          "url": "https://scholars.cityu.edu.hk/en/publications/consumers-opinion-orientations-and-their-credit-risk-an-econometr/"
+        }
+      },
+      "id": "q_pub_wei_xu_consumers_opinion_credit_risk_2024",
+      "paperIds": [
+        "pub_wei_xu_consumers_opinion_credit_risk_2024"
+      ],
+      "reviewedAt": "2026-10-09",
+      "text": "多模态社交媒体中的生活方式和观点风险信息能否改进消费者信用风险评估？"
     }
   ],
   "researchers": [
@@ -61780,7 +62254,7 @@
       "verifiedAt": "2026-09-27"
     },
     {
-      "department": "信息学院 / 智慧治理学院",
+      "department": "School of Information / School of Smart Governance",
       "education": [],
       "homepage": "https://brain.ruc.edu.cn/jcyj/jctd/qklyszjjsys/qklyszjjsys_jctd/qklyszjjsys_fzls/21e26634913d48ca91abe5c12789fdc0.htm",
       "id": "r_wei_xu_ruc",
@@ -61788,27 +62262,61 @@
       "institutionFull": "中国人民大学",
       "name": "许伟 / Wei Xu",
       "nameVariants": [],
-      "position": "教授、博士生导师",
+      "position": "Professor; Doctoral Supervisor",
       "publicationCoverage": {
-        "abstractCount": 0,
-        "authorVerifiedCount": 0,
-        "boundaryDateCount": 0,
-        "checkedAt": null,
-        "collectedCount": 0,
+        "abstractCount": 2,
+        "authorVerifiedCount": 2,
+        "boundaryDateCount": 1,
+        "checkedAt": "2026-10-09",
+        "collectedCount": 2,
         "extended": true,
         "fullTextCount": 0,
         "gaps": [
           "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
         ],
         "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
-        "paperIds": [],
-        "recentCount": 0,
-        "sourcesChecked": [],
+        "paperIds": [
+          "pub_wei_xu_corporate_fraud_dynamic_business_networks_2026",
+          "pub_wei_xu_consumers_opinion_credit_risk_2024"
+        ],
+        "recentCount": 2,
+        "sourcesChecked": [
+          {
+            "checkedAt": "2026-10-09",
+            "kind": "official_profile",
+            "label": "RUC AI governance platform Wei Xu profile: professor, doctoral supervisor, fintech and business analytics",
+            "url": "https://brain.ruc.edu.cn/jcyj/jctd/qklyszjjsys/qklyszjjsys_jctd/qklyszjjsys_fzls/21e26634913d48ca91abe5c12789fdc0.htm"
+          },
+          {
+            "checkedAt": "2026-10-09",
+            "kind": "official_advisor_directory",
+            "label": "RUC School of Information doctoral-advisor directory: Wei Xu finance-related directions",
+            "url": "https://info.ruc.edu.cn/jsky/szdw/adszycx/bssds/glkxygc1/index.htm"
+          },
+          {
+            "checkedAt": "2026-10-09",
+            "kind": "publisher_record_with_abstract",
+            "label": "AIS eLibrary / MIS Quarterly record: title, ordered byline, abstract and citation",
+            "url": "https://aisel.aisnet.org/misq/vol50/iss3/13/"
+          },
+          {
+            "checkedAt": "2026-10-09",
+            "kind": "institutional_record_with_abstract",
+            "label": "CityUHK Scholars record: ordered byline, abstract, pages and DOI",
+            "url": "https://scholars.cityu.edu.hk/en/publications/consumers-opinion-orientations-and-their-credit-risk-an-econometr/"
+          },
+          {
+            "checkedAt": "2026-10-09",
+            "kind": "publisher_record_with_affiliation",
+            "label": "AIS eLibrary / JAIS record: ordered byline and Wei Xu affiliation as Renmin University of China",
+            "url": "https://aisel.aisnet.org/jais/vol25/iss4/1/"
+          }
+        ],
         "status": "partial",
         "threshold": 5,
-        "uncertainDateCount": 0,
-        "windowEnd": "2026-10-05",
-        "windowStart": "2021-10-05",
+        "uncertainDateCount": 2,
+        "windowEnd": "2026-10-08",
+        "windowStart": "2021-10-08",
         "windowYears": 5
       },
       "sources": [
@@ -61823,9 +62331,21 @@
           "kind": "official_advisor_directory",
           "label": "RUC School of Information doctoral-advisor directory lists Xu Wei and finance-related directions including quantitative investment, intelligent risk control, and digital finance.",
           "url": "https://info.ruc.edu.cn/jsky/szdw/adszycx/bssds/glkxygc1/index.htm"
+        },
+        {
+          "checkedAt": "2026-10-09",
+          "kind": "publisher_record_with_abstract",
+          "label": "AIS eLibrary / MIS Quarterly record: title, ordered byline, abstract and citation",
+          "url": "https://aisel.aisnet.org/misq/vol50/iss3/13/"
+        },
+        {
+          "checkedAt": "2026-10-09",
+          "kind": "institutional_record_with_abstract",
+          "label": "CityUHK Scholars record: ordered byline, abstract, pages and DOI",
+          "url": "https://scholars.cityu.edu.hk/en/publications/consumers-opinion-orientations-and-their-credit-risk-an-econometr/"
         }
       ],
-      "summary": "研究主题：金融科技、商业分析、信息系统、金融风险、大数据。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "summary": "研究主题：金融科技、商业分析、智能风控、数字金融、信息系统。主题关联为编辑归纳，请结合论文和官方来源判断。",
       "themes": [
         "finai",
         "digital",
@@ -61834,12 +62354,12 @@
       "topics": [
         "金融科技",
         "商业分析",
-        "信息系统",
-        "金融风险",
-        "大数据"
+        "智能风控",
+        "数字金融",
+        "信息系统"
       ],
       "verification": "verified",
-      "verifiedAt": "2026-09-16"
+      "verifiedAt": "2026-10-09"
     },
     {
       "department": "Information Systems & Analytics / AIDF",
@@ -64182,25 +64702,40 @@
       ],
       "position": "Associate Professor",
       "publicationCoverage": {
-        "abstractCount": 0,
-        "authorVerifiedCount": 0,
-        "boundaryDateCount": 0,
-        "checkedAt": null,
-        "collectedCount": 0,
+        "abstractCount": 1,
+        "authorVerifiedCount": 1,
+        "boundaryDateCount": 1,
+        "checkedAt": "2026-10-09",
+        "collectedCount": 1,
         "extended": true,
         "fullTextCount": 0,
         "gaps": [
           "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
         ],
         "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
-        "paperIds": [],
-        "recentCount": 0,
-        "sourcesChecked": [],
+        "paperIds": [
+          "pub_wei_xu_corporate_fraud_dynamic_business_networks_2026"
+        ],
+        "recentCount": 1,
+        "sourcesChecked": [
+          {
+            "checkedAt": "2026-10-09",
+            "kind": "official_profile",
+            "label": "RUC official Wei Du profile: identity, fintech directions and publication list",
+            "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jjxxglx1/fjs_a/fe64172ae39e4e11bba8adf2def4246b.htm"
+          },
+          {
+            "checkedAt": "2026-10-09",
+            "kind": "publisher_record_with_abstract",
+            "label": "AIS eLibrary / MIS Quarterly record: title, ordered byline, abstract and citation",
+            "url": "https://aisel.aisnet.org/misq/vol50/iss3/13/"
+          }
+        ],
         "status": "partial",
         "threshold": 5,
-        "uncertainDateCount": 0,
-        "windowEnd": "2026-10-05",
-        "windowStart": "2021-10-05",
+        "uncertainDateCount": 1,
+        "windowEnd": "2026-10-08",
+        "windowStart": "2021-10-08",
         "windowYears": 5
       },
       "sources": [
@@ -64209,27 +64744,34 @@
           "kind": "official_profile",
           "label": "Directly verified RUC Information School profile, FinTech/LLM-agent/recommender/knowledge-graph directions, finance-risk projects/patents and student-contact signal.",
           "url": "https://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jjxxglx1/fjs_a/fe64172ae39e4e11bba8adf2def4246b.htm"
+        },
+        {
+          "checkedAt": "2026-10-09",
+          "kind": "publisher_record_with_abstract",
+          "label": "AIS eLibrary / MIS Quarterly record: title, ordered byline, abstract and citation",
+          "url": "https://aisel.aisnet.org/misq/vol50/iss3/13/"
         }
       ],
-      "summary": "研究主题：金融知识图谱、财务欺诈预警、信贷风险、大模型智能体。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "summary": "研究主题：大模型智能体、推荐系统、金融科技、知识图谱、财务欺诈预警。主题关联为编辑归纳，请结合论文和官方来源判断。",
       "themes": [
         "finai",
         "digital",
         "ml"
       ],
       "topics": [
-        "金融知识图谱",
-        "财务欺诈预警",
-        "信贷风险",
-        "大模型智能体"
+        "大模型智能体",
+        "推荐系统",
+        "金融科技",
+        "知识图谱",
+        "财务欺诈预警"
       ],
       "verification": "verified",
-      "verifiedAt": "2026-09-22"
+      "verifiedAt": "2026-10-09"
     },
     {
-      "department": "School of Statistics / Center for Applied Statistics",
+      "department": "School of Statistics / Department of Risk Management and Actuarial Science",
       "education": [],
-      "homepage": "https://stat.ruc.edu.cn/jszy/zm/index.html",
+      "homepage": "https://stat.ruc.edu.cn/EN/DepartmentFaculty/Department_of_Risk_Management_and_Actuarial_Science/df1bc36f295b4dfd8d39b3b37e2da57f.htm",
       "id": "r_ming_zhou_ruc",
       "institution": "RUC",
       "institutionFull": "中国人民大学",
@@ -64238,27 +64780,55 @@
         "周明",
         "Ming Zhou"
       ],
-      "position": "Professor; Doctoral Supervisor",
+      "position": "Professor; Doctoral Supervisor; Associate Dean",
       "publicationCoverage": {
-        "abstractCount": 0,
-        "authorVerifiedCount": 0,
+        "abstractCount": 1,
+        "authorVerifiedCount": 1,
         "boundaryDateCount": 0,
-        "checkedAt": null,
-        "collectedCount": 0,
+        "checkedAt": "2026-10-09",
+        "collectedCount": 1,
         "extended": true,
         "fullTextCount": 0,
         "gaps": [
           "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
         ],
         "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
-        "paperIds": [],
-        "recentCount": 0,
-        "sourcesChecked": [],
+        "paperIds": [
+          "pub_ming_zhou_consumption_leisure_investment_retirement_2025"
+        ],
+        "recentCount": 1,
+        "sourcesChecked": [
+          {
+            "checkedAt": "2026-10-09",
+            "kind": "official_profile",
+            "label": "RUC Statistics English profile: identity, research interests, selected publications and corresponding-author legend",
+            "url": "https://stat.ruc.edu.cn/EN/DepartmentFaculty/Department_of_Risk_Management_and_Actuarial_Science/df1bc36f295b4dfd8d39b3b37e2da57f.htm"
+          },
+          {
+            "checkedAt": "2026-10-09",
+            "kind": "official_research_news",
+            "label": "CUFE official research news: coauthor institution summary of the Insurance: Mathematics and Economics paper",
+            "url": "https://cias.cufe.edu.cn/info/1037/5172.htm"
+          },
+          {
+            "checkedAt": "2026-10-09",
+            "kind": "publisher_metadata",
+            "label": "Crossref metadata: title, ordered byline, DOI, journal and 2025-11 publication month",
+            "url": "https://api.crossref.org/works/10.1016/j.insmatheco.2025.103165"
+          },
+          {
+            "checkedAt": "2026-10-09",
+            "kind": "publisher_record_blocked",
+            "label": "ScienceDirect landing page: direct access blocked during this run, retained as publisher URL",
+            "status": "blocked",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S016766872500112X"
+          }
+        ],
         "status": "partial",
         "threshold": 5,
-        "uncertainDateCount": 0,
-        "windowEnd": "2026-10-05",
-        "windowStart": "2021-10-05",
+        "uncertainDateCount": 1,
+        "windowEnd": "2026-10-08",
+        "windowStart": "2021-10-08",
         "windowYears": 5
       },
       "sources": [
@@ -64267,22 +64837,34 @@
           "kind": "official_profile",
           "label": "Directly verified RUC Statistics profile, research directions and finance/insurance/RL/optimization projects.",
           "url": "https://stat.ruc.edu.cn/jszy/zm/index.html"
+        },
+        {
+          "checkedAt": "2026-10-09",
+          "kind": "official_profile",
+          "label": "RUC Statistics English profile: identity, research interests, selected publications and corresponding-author legend",
+          "url": "https://stat.ruc.edu.cn/EN/DepartmentFaculty/Department_of_Risk_Management_and_Actuarial_Science/df1bc36f295b4dfd8d39b3b37e2da57f.htm"
+        },
+        {
+          "checkedAt": "2026-10-09",
+          "kind": "official_research_news",
+          "label": "CUFE official research news: coauthor institution summary of the Insurance: Mathematics and Economics paper",
+          "url": "https://cias.cufe.edu.cn/info/1037/5172.htm"
         }
       ],
-      "summary": "研究主题：强化学习金融应用、随机控制、保险精算、风险管理。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "summary": "研究主题：金融风险管理、保险精算、随机控制、强化学习金融应用。主题关联为编辑归纳，请结合论文和官方来源判断。",
       "themes": [
         "decision",
         "asset",
         "ml"
       ],
       "topics": [
-        "强化学习金融应用",
-        "随机控制",
+        "金融风险管理",
         "保险精算",
-        "风险管理"
+        "随机控制",
+        "强化学习金融应用"
       ],
       "verification": "verified",
-      "verifiedAt": "2026-09-22"
+      "verifiedAt": "2026-10-09"
     },
     {
       "department": "Guanghua School of Management, Department of Finance",
@@ -66193,5 +66775,5 @@
       "name": "ML Theory & Optimization"
     }
   ],
-  "updatedAt": "2026-10-07"
+  "updatedAt": "2026-10-08"
 }
