@@ -45474,6 +45474,370 @@
       "verifiedAt": "2026-10-09",
       "versions": [],
       "year": 2024
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-10",
+        "reason": "已核到出版方/作者页摘要或书目元数据；本次为摘要级整理。",
+        "source": "https://pubsonline.informs.org/doi/abs/10.1287/opre.2023.0151",
+        "status": "available"
+      },
+      "abstractSummary": "The paper studies optimal liquidation when a large investor's trades trigger child orders and endogenously change future order flow. It models self-exciting order flow and derives closed-form or semiclosed-form execution strategies, with NASDAQ evidence comparing performance against a benchmark execution strategy.",
+      "authorEvidence": {
+        "checkedAt": "2026-10-10",
+        "kind": "publisher_record_with_abstract",
+        "label": "INFORMS Operations Research record: full byline, abstract, DOI, online date and issue metadata",
+        "url": "https://pubsonline.informs.org/doi/abs/10.1287/opre.2023.0151"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Ying Chen",
+        "Ulrich Horst",
+        "Hoang Hai Tran"
+      ],
+      "authorships": [
+        {
+          "corresponding": true,
+          "name": "Ying Chen",
+          "position": 1,
+          "researcherId": "r_ying_chen_nus",
+          "source": {
+            "checkedAt": "2026-10-10",
+            "kind": "publisher_record_with_abstract",
+            "label": "INFORMS Operations Research record: full byline, abstract, DOI, online date and issue metadata",
+            "url": "https://pubsonline.informs.org/doi/abs/10.1287/opre.2023.0151"
+          }
+        },
+        {
+          "name": "Ulrich Horst",
+          "position": 2
+        },
+        {
+          "name": "Hoang Hai Tran",
+          "position": 3
+        }
+      ],
+      "contribution": {
+        "checkedAt": "2026-10-10",
+        "note": "完整作者顺序已核；署名位次不等于贡献大小，通讯作者只在来源明确时标注。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2025-08-26",
+      "dateEvidence": {
+        "checkedAt": "2026-10-10",
+        "kind": "date_note",
+        "label": "日期、版本与书目信息核对",
+        "note": "Online publication date is 2025-08-26; formal Operations Research issue is 74(1), 2026. Kept as one final record, not a separate preprint/final duplicate.",
+        "url": "https://pubsonline.informs.org/doi/abs/10.1287/opre.2023.0151"
+      },
+      "datePrecision": "day",
+      "doi": "10.1287/opre.2023.0151",
+      "id": "pub_ying_chen_optimal_trade_execution_endogenous_order_flow_2025",
+      "paradigms": [
+        "control",
+        "theory",
+        "empirical"
+      ],
+      "publicationStatus": "published_online_2025_issue_2026",
+      "publicationType": "journal",
+      "questionId": "q_pub_ying_chen_optimal_trade_execution_endogenous_order_flow_2025",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "How should execution policies adapt when a large investor's trades endogenously change future order flow?",
+      "researcherIds": [
+        "r_ying_chen_nus"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-10",
+          "kind": "publisher_record_with_abstract",
+          "label": "INFORMS Operations Research record: full byline, abstract, DOI, online date and issue metadata",
+          "url": "https://pubsonline.informs.org/doi/abs/10.1287/opre.2023.0151"
+        },
+        {
+          "checkedAt": "2026-10-10",
+          "kind": "publisher_issue_metadata",
+          "label": "INFORMS issue front matter: Operations Research 74(1) issue-year context",
+          "url": "https://pubsonline.informs.org/doi/pdf/10.1287/opre.2026.inthisissue.v74.n1"
+        }
+      ],
+      "summary": {
+        "evidence": "The paper studies optimal liquidation when a large investor's trades trigger child orders and endogenously change future order flow. It models self-exciting order flow and derives closed-form or semiclosed-form execution strategies, with NASDAQ evidence comparing performance against a benchmark execution strategy.",
+        "gap": "Optimal execution models need to account for the fact that a trader’s own orders can endogenously alter future order flow and market impact.",
+        "insight": "The paper studies optimal liquidation when a large investor's trades trigger child orders and endogenously change future order flow. It models self-exciting order flow and derives closed-form or semiclosed-form execution strategies, with NASDAQ evidence comparing performance against a benchmark execution strategy.",
+        "limitation": "摘要级核验，不代表完整论文复现；招生名额与申请可行性另行核验。",
+        "method": "依据出版方摘要或作者/出版元数据整理；未复现实验、估计或证明。",
+        "question": "How should execution policies adapt when a large investor's trades endogenously change future order flow?"
+      },
+      "summaryBasis": "abstract_or_official_research_summary",
+      "themes": [
+        "asset",
+        "decision",
+        "ts"
+      ],
+      "title": "Optimal Trade Execution Under Endogenous Order Flow",
+      "url": "https://pubsonline.informs.org/doi/abs/10.1287/opre.2023.0151",
+      "venue": "Operations Research 74(1), 72–92",
+      "verifiedAt": "2026-10-10",
+      "versions": [],
+      "year": 2026
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-10",
+        "reason": "已核到出版方/作者页摘要或书目元数据；本次为摘要级整理。",
+        "source": "https://www.mariagrith.com/publication/fntk/",
+        "status": "available"
+      },
+      "abstractSummary": "The paper applies functional neural tangent kernel methods to nonlinear functional autoregression for implied-volatility surface forecasting. It treats volatility as a high-dimensional moneyness-maturity surface and connects S&P 500 option forecasts to delta-neutral straddle trading performance.",
+      "authorEvidence": {
+        "checkedAt": "2026-10-10",
+        "kind": "publisher_metadata",
+        "label": "Crossref/Taylor metadata: full byline, online 2025-06-03, print 2026-01-02, JBES 44(1), 24-38",
+        "url": "https://api.crossref.org/works/10.1080/07350015.2025.2489087"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Ying Chen",
+        "Maria Grith",
+        "Hannah L. H. Lai"
+      ],
+      "authorships": [
+        {
+          "name": "Ying Chen",
+          "position": 1,
+          "researcherId": "r_ying_chen_nus"
+        },
+        {
+          "name": "Maria Grith",
+          "position": 2
+        },
+        {
+          "name": "Hannah L. H. Lai",
+          "position": 3
+        }
+      ],
+      "contribution": {
+        "checkedAt": "2026-10-10",
+        "note": "完整作者顺序已核；署名位次不等于贡献大小，通讯作者只在来源明确时标注。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2025-06-03",
+      "dateEvidence": {
+        "checkedAt": "2026-10-10",
+        "kind": "date_note",
+        "label": "日期、版本与书目信息核对",
+        "note": "Crossref/Taylor metadata gives online 2025-06-03 and print issue 2026-01-02 in JBES 44(1), 24–38. Formal record supersedes older preprint copies; no duplicate record created.",
+        "url": "https://www.tandfonline.com/doi/full/10.1080/07350015.2025.2489087"
+      },
+      "datePrecision": "day",
+      "doi": "10.1080/07350015.2025.2489087",
+      "id": "pub_ying_chen_neural_tangent_kernel_implied_volatility_2026",
+      "paradigms": [
+        "empirical",
+        "measurement",
+        "theory"
+      ],
+      "publicationStatus": "published_online_2025_issue_2026",
+      "publicationType": "journal",
+      "questionId": "q_pub_ying_chen_neural_tangent_kernel_implied_volatility_2026",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "Can neural tangent kernel methods improve nonlinear functional forecasting of implied-volatility surfaces and translate into economically valuable options strategies?",
+      "researcherIds": [
+        "r_ying_chen_nus"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-10",
+          "kind": "publisher_metadata",
+          "label": "Crossref/Taylor metadata: full byline, online 2025-06-03, print 2026-01-02, JBES 44(1), 24-38",
+          "url": "https://api.crossref.org/works/10.1080/07350015.2025.2489087"
+        },
+        {
+          "checkedAt": "2026-10-10",
+          "kind": "author_publication_page_with_abstract",
+          "label": "Coauthor publication page: current abstract for the fNTK implied-volatility paper",
+          "url": "https://www.mariagrith.com/publication/fntk/"
+        },
+        {
+          "checkedAt": "2026-10-10",
+          "kind": "publisher_record_blocked",
+          "label": "Taylor & Francis landing page: direct access blocked in this run; kept as official publisher URL",
+          "status": "blocked",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/07350015.2025.2489087"
+        }
+      ],
+      "summary": {
+        "evidence": "The paper applies functional neural tangent kernel methods to nonlinear functional autoregression for implied-volatility surface forecasting. It treats volatility as a high-dimensional moneyness-maturity surface and connects S&P 500 option forecasts to delta-neutral straddle trading performance.",
+        "gap": "Implied-volatility surfaces are high-dimensional functional time series with nonlinear spatial and temporal dependence that standard linear forecasting models may miss.",
+        "insight": "The paper applies functional neural tangent kernel methods to nonlinear functional autoregression for implied-volatility surface forecasting. It treats volatility as a high-dimensional moneyness-maturity surface and connects S&P 500 option forecasts to delta-neutral straddle trading performance.",
+        "limitation": "摘要级核验，不代表完整论文复现；招生名额与申请可行性另行核验。",
+        "method": "依据出版方摘要或作者/出版元数据整理；未复现实验、估计或证明。",
+        "question": "Can neural tangent kernel methods improve nonlinear functional forecasting of implied-volatility surfaces and translate into economically valuable options strategies?"
+      },
+      "summaryBasis": "abstract_or_official_research_summary",
+      "themes": [
+        "finai",
+        "ts",
+        "asset"
+      ],
+      "title": "Neural Tangent Kernel in Implied Volatility Forecasting: A Nonlinear Functional Autoregression Approach",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/07350015.2025.2489087",
+      "venue": "Journal of Business & Economic Statistics 44(1), 24–38",
+      "verifiedAt": "2026-10-10",
+      "versions": [],
+      "year": 2026
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-10",
+        "reason": "已核到出版方/作者页摘要或书目元数据；本次为摘要级整理。",
+        "source": "https://epubs.siam.org/doi/10.1137/22M1487928",
+        "status": "available"
+      },
+      "abstractSummary": "The paper uses deep neural networks to detect robust statistical arbitrage under model ambiguity in high-dimensional financial markets. It derives ambiguity sets from observed market data and tests performance in high dimensions, crisis periods, and settings where pair cointegration breaks down.",
+      "authorEvidence": {
+        "checkedAt": "2026-10-10",
+        "kind": "publisher_record_with_abstract",
+        "label": "SIAM Journal on Financial Mathematics record: full byline, affiliations, abstract, pages and online date",
+        "url": "https://epubs.siam.org/doi/10.1137/22M1487928"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Ariel Neufeld",
+        "Julian Sester",
+        "Daiying Yin"
+      ],
+      "authorships": [
+        {
+          "name": "Ariel Neufeld",
+          "position": 1,
+          "researcherId": "r_ariel_neufeld_ntu"
+        },
+        {
+          "name": "Julian Sester",
+          "position": 2,
+          "researcherId": "r_julian_sester_nus"
+        },
+        {
+          "name": "Daiying Yin",
+          "position": 3
+        }
+      ],
+      "contribution": {
+        "checkedAt": "2026-10-10",
+        "note": "完整作者顺序已核；署名位次不等于贡献大小，通讯作者只在来源明确时标注。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2024-05-30",
+      "dateEvidence": {
+        "checkedAt": "2026-10-10",
+        "kind": "date_note",
+        "label": "日期、版本与书目信息核对",
+        "note": "SIAM final version published online 2024-05-30 in SIFIN 15(2), 436–472; arXiv 2203.03179 kept as earlier version, not a duplicate paper.",
+        "url": "https://epubs.siam.org/doi/10.1137/22M1487928"
+      },
+      "datePrecision": "day",
+      "doi": "10.1137/22M1487928",
+      "id": "pub_ariel_neufeld_robust_stat_arb_deep_neural_networks_2024",
+      "paradigms": [
+        "diagnostic",
+        "control",
+        "theory"
+      ],
+      "publicationStatus": "published",
+      "publicationType": "journal",
+      "questionId": "q_pub_ariel_neufeld_robust_stat_arb_deep_neural_networks_2024",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "Can deep neural networks identify robust statistical arbitrage strategies in high-dimensional markets under model ambiguity without relying on pair cointegration?",
+      "researcherIds": [
+        "r_ariel_neufeld_ntu",
+        "r_julian_sester_nus"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-10",
+          "kind": "publisher_record_with_abstract",
+          "label": "SIAM Journal on Financial Mathematics record: full byline, affiliations, abstract, pages and online date",
+          "url": "https://epubs.siam.org/doi/10.1137/22M1487928"
+        },
+        {
+          "checkedAt": "2026-10-10",
+          "kind": "official_university_hosted_profile",
+          "label": "NTU-hosted Ariel Neufeld homepage: publication list, research focus, open positions and group members",
+          "url": "https://personal.ntu.edu.sg/ariel.neufeld/"
+        },
+        {
+          "checkedAt": "2026-10-10",
+          "kind": "preprint_record",
+          "label": "arXiv preprint page: earlier version of robust statistical arbitrage paper",
+          "url": "https://arxiv.org/abs/2203.03179"
+        }
+      ],
+      "summary": {
+        "evidence": "The paper uses deep neural networks to detect robust statistical arbitrage under model ambiguity in high-dimensional financial markets. It derives ambiguity sets from observed market data and tests performance in high dimensions, crisis periods, and settings where pair cointegration breaks down.",
+        "gap": "Classical statistical arbitrage can rely on fragile pair cointegration assumptions and struggles with high-dimensional markets under model ambiguity.",
+        "insight": "The paper uses deep neural networks to detect robust statistical arbitrage under model ambiguity in high-dimensional financial markets. It derives ambiguity sets from observed market data and tests performance in high dimensions, crisis periods, and settings where pair cointegration breaks down.",
+        "limitation": "摘要级核验，不代表完整论文复现；招生名额与申请可行性另行核验。",
+        "method": "依据出版方摘要或作者/出版元数据整理；未复现实验、估计或证明。",
+        "question": "Can deep neural networks identify robust statistical arbitrage strategies in high-dimensional markets under model ambiguity without relying on pair cointegration?"
+      },
+      "summaryBasis": "abstract_or_official_research_summary",
+      "themes": [
+        "finai",
+        "asset",
+        "ml"
+      ],
+      "title": "Detecting Data-Driven Robust Statistical Arbitrage Strategies with Deep Neural Networks",
+      "url": "https://epubs.siam.org/doi/10.1137/22M1487928",
+      "venue": "SIAM Journal on Financial Mathematics 15(2), 436–472",
+      "verifiedAt": "2026-10-10",
+      "versions": [
+        {
+          "authorEvidence": {
+            "checkedAt": "2026-10-10",
+            "kind": "preprint_record",
+            "label": "arXiv preprint page: earlier version of robust statistical arbitrage paper",
+            "url": "https://arxiv.org/abs/2203.03179"
+          },
+          "authorListComplete": true,
+          "authorOrderVerified": true,
+          "authors": [
+            "Ariel Neufeld",
+            "Julian Sester",
+            "Daiying Yin"
+          ],
+          "date": "2022-03-07",
+          "datePrecision": "day",
+          "doi": null,
+          "publicationStatus": "preprint",
+          "publicationType": "preprint",
+          "sources": [
+            {
+              "checkedAt": "2026-10-10",
+              "kind": "preprint_record",
+              "label": "arXiv preprint page: earlier version of robust statistical arbitrage paper",
+              "url": "https://arxiv.org/abs/2203.03179"
+            }
+          ],
+          "title": "Detecting Data-Driven Robust Statistical Arbitrage Strategies with Deep Neural Networks",
+          "url": "https://arxiv.org/abs/2203.03179",
+          "venue": "arXiv:2203.03179",
+          "year": 2022
+        }
+      ],
+      "year": 2024
     }
   ],
   "paradigms": [
@@ -45575,8 +45939,8 @@
   "publicCurationNote": "公开研究资料快照。主题、研究问题与研究线为编辑归纳，不代表学者本人陈述或机构背书。",
   "publicRelease": {
     "channel": "stable",
-    "snapshotDate": "2026-10-08",
-    "version": "3.3.29"
+    "snapshotDate": "2026-10-09",
+    "version": "3.3.31"
   },
   "publicationPolicy": {
     "authorshipNote": "署名位次不等于贡献排名；通讯作者、共同贡献和具体分工只按原文证据标注。",
@@ -45586,19 +45950,19 @@
     "extendedStart": "2021-10-08",
     "extendedYears": 5,
     "extensionThreshold": 5,
-    "snapshotDate": "2026-10-08",
+    "snapshotDate": "2026-10-09",
     "versionNote": "同一研究的预印本与发表版本分开保留证据；摘要来源可能与主书目版本不同。"
   },
   "publicationStats": {
-    "abstracts": 419,
+    "abstracts": 422,
     "fullTexts": 4,
     "outsideWindow": 7,
-    "papers": 432,
-    "recentPapers": 425,
+    "papers": 435,
+    "recentPapers": 428,
     "researchers": 104,
-    "reviewedSources": 11,
-    "verifiedBylines": 431,
-    "withPapers": 44
+    "reviewedSources": 14,
+    "verifiedBylines": 434,
+    "withPapers": 47
   },
   "questionClusters": [
     {
@@ -45898,7 +46262,8 @@
         "pub_yang_crypto_wash_trading",
         "pub_zhimin_chen_carbon_financialization_2024",
         "pub_yan_ji_ai_powered_trading_collusion_price_efficiency_2025",
-        "pub_yan_ji_financial_market_fragility_ai_planning_2025"
+        "pub_yan_ji_financial_market_fragility_ai_planning_2025",
+        "pub_ying_chen_optimal_trade_execution_endogenous_order_flow_2025"
       ],
       "question": "交易制度、参与者互动和市场摩擦如何影响流动性与价格效率？",
       "questionIds": [
@@ -45915,30 +46280,33 @@
         "q_pub_yang_crypto_wash_trading",
         "q_pub_zhimin_chen_carbon_financialization_2024",
         "q_pub_yan_ji_ai_powered_trading_collusion_price_efficiency_2025",
-        "q_pub_yan_ji_financial_market_fragility_ai_planning_2025"
+        "q_pub_yan_ji_financial_market_fragility_ai_planning_2025",
+        "q_pub_ying_chen_optimal_trade_execution_endogenous_order_flow_2025"
       ],
       "researcherIds": [
-        "r_bo_an",
-        "r_chen_yang_cuhk",
         "r_claire",
         "r_he",
+        "r_chen_yang_cuhk",
         "r_jian_li",
+        "r_bo_an",
         "r_junye",
         "r_lian",
         "r_michael_xiaoquan_zhang_cuhk",
         "r_nan_chen_cuhk",
         "r_ruixun_zhang_pku",
         "r_xiaoyan",
-        "r_yan_ji_hkust",
         "r_yang",
-        "r_zhimin_chen_ntu"
+        "r_zhimin_chen_ntu",
+        "r_yan_ji_hkust",
+        "r_ying_chen_nus"
       ],
-      "reviewedAt": "2026-10-07",
+      "reviewedAt": "2026-10-10",
       "themes": [
         "asset",
-        "decision",
         "digital",
-        "finai"
+        "finai",
+        "decision",
+        "ts"
       ],
       "title": "市场流动性与交易机制"
     },
@@ -46243,7 +46611,9 @@
         "pub_yi_yang_finrankgrpo",
         "pub_zhanhui_weather_risk_index_insurance",
         "pub_sicong_li_factor_models_price_impact_costs_2024",
-        "pub_ming_zhou_consumption_leisure_investment_retirement_2025"
+        "pub_ming_zhou_consumption_leisure_investment_retirement_2025",
+        "pub_ying_chen_optimal_trade_execution_endogenous_order_flow_2025",
+        "pub_ariel_neufeld_robust_stat_arb_deep_neural_networks_2024"
       ],
       "question": "在不确定性和实际约束下，如何构建投资组合并控制风险？",
       "questionIds": [
@@ -46286,7 +46656,9 @@
         "q_pub_yi_yang_finrankgrpo",
         "q_pub_zhanhui_weather_risk_index_insurance",
         "q_pub_sicong_li_factor_models_price_impact_costs_2024",
-        "q_pub_ming_zhou_consumption_leisure_investment_retirement_2025"
+        "q_pub_ming_zhou_consumption_leisure_investment_retirement_2025",
+        "q_pub_ying_chen_optimal_trade_execution_endogenous_order_flow_2025",
+        "q_pub_ariel_neufeld_robust_stat_arb_deep_neural_networks_2024"
       ],
       "researcherIds": [
         "r_gao",
@@ -46308,9 +46680,12 @@
         "r_yi_yang_hkust",
         "r_zhanhui",
         "r_sicong_li_cuhk",
-        "r_ming_zhou_ruc"
+        "r_ming_zhou_ruc",
+        "r_ying_chen_nus",
+        "r_ariel_neufeld_ntu",
+        "r_julian_sester_nus"
       ],
-      "reviewedAt": "2026-10-09",
+      "reviewedAt": "2026-10-10",
       "themes": [
         "asset",
         "finai",
@@ -46343,7 +46718,8 @@
         "pub_jia_mv_ctrl",
         "pub_li_value_diff",
         "pub_li_regime_mv",
-        "pub_ming_zhou_consumption_leisure_investment_retirement_2025"
+        "pub_ming_zhou_consumption_leisure_investment_retirement_2025",
+        "pub_ying_chen_optimal_trade_execution_endogenous_order_flow_2025"
       ],
       "question": "如何利用连续时间模型和随机控制结构学习金融决策策略？",
       "questionIds": [
@@ -46364,15 +46740,17 @@
         "q_pub_jia_mv_ctrl",
         "q_pub_li_value_diff",
         "q_pub_li_regime_mv",
-        "q_pub_ming_zhou_consumption_leisure_investment_retirement_2025"
+        "q_pub_ming_zhou_consumption_leisure_investment_retirement_2025",
+        "q_pub_ying_chen_optimal_trade_execution_endogenous_order_flow_2025"
       ],
       "researcherIds": [
         "r_gao",
         "r_lingfei",
         "r_jia",
-        "r_ming_zhou_ruc"
+        "r_ming_zhou_ruc",
+        "r_ying_chen_nus"
       ],
-      "reviewedAt": "2026-10-09",
+      "reviewedAt": "2026-10-10",
       "themes": [
         "asset",
         "finai",
@@ -46776,7 +47154,8 @@
         "pub_junye_factor_zoo",
         "pub_ke_2026_conditional_quantile_adjusted_conformal_predicti",
         "pub_yingying_dominate_historical_average",
-        "pub_yingying_multiplicative_factor_volatility"
+        "pub_yingying_multiplicative_factor_volatility",
+        "pub_ying_chen_neural_tangent_kernel_implied_volatility_2026"
       ],
       "question": "如何利用时间结构和跨序列信息，改善预测及其适用范围？",
       "questionIds": [
@@ -46793,24 +47172,26 @@
         "q_pub_junye_factor_zoo",
         "q_pub_ke_2026_conditional_quantile_adjusted_conformal_predicti",
         "q_pub_yingying_dominate_historical_average",
-        "q_pub_yingying_multiplicative_factor_volatility"
+        "q_pub_yingying_multiplicative_factor_volatility",
+        "q_pub_ying_chen_neural_tangent_kernel_implied_volatility_2026"
       ],
       "researcherIds": [
         "r_anthony_tung_nus",
         "r_difan",
         "r_guodong",
         "r_jian_li",
+        "r_wei_xu_tsinghua",
         "r_junye",
         "r_ke",
-        "r_wei_xu_tsinghua",
-        "r_yingying"
+        "r_yingying",
+        "r_ying_chen_nus"
       ],
-      "reviewedAt": "2026-10-04",
+      "reviewedAt": "2026-10-10",
       "themes": [
-        "asset",
         "finai",
-        "ml",
-        "ts"
+        "ts",
+        "asset",
+        "ml"
       ],
       "title": "时间序列预测"
     },
@@ -46831,7 +47212,8 @@
         "pub_ke_2025_matrix_garch_model_inference_and_application",
         "pub_ke_2023_testing_and_modelling_for_the_structural_change_",
         "pub_yingying_multiplicative_factor_volatility",
-        "pub_yingying_volatility_extreme_persistence"
+        "pub_yingying_volatility_extreme_persistence",
+        "pub_ying_chen_neural_tangent_kernel_implied_volatility_2026"
       ],
       "question": "如何从高频或受噪声污染的金融数据中估计波动及风险结构？",
       "questionIds": [
@@ -46847,19 +47229,22 @@
         "q_pub_ke_2025_matrix_garch_model_inference_and_application",
         "q_pub_ke_2023_testing_and_modelling_for_the_structural_change_",
         "q_pub_yingying_multiplicative_factor_volatility",
-        "q_pub_yingying_volatility_extreme_persistence"
+        "q_pub_yingying_volatility_extreme_persistence",
+        "q_pub_ying_chen_neural_tangent_kernel_implied_volatility_2026"
       ],
       "researcherIds": [
         "r_daniel_palomar_hkust",
         "r_guodong",
         "r_ke",
-        "r_yingying"
+        "r_yingying",
+        "r_ying_chen_nus"
       ],
-      "reviewedAt": "2026-10-02",
+      "reviewedAt": "2026-10-10",
       "themes": [
-        "asset",
+        "ts",
         "ml",
-        "ts"
+        "asset",
+        "finai"
       ],
       "title": "高频数据与波动测量"
     },
@@ -47102,7 +47487,8 @@
         "pub_difan_2023_less_is_more_on_the_feature_redundancy_of_pretra",
         "pub_difan_2023_towards_robust_graph_incremental_learning_on_evo",
         "pub_junye_sdf_variance",
-        "pub_yao_lu_2026_portfolio_rl_scenario_context_rollout"
+        "pub_yao_lu_2026_portfolio_rl_scenario_context_rollout",
+        "pub_ariel_neufeld_robust_stat_arb_deep_neural_networks_2024"
       ],
       "question": "当数据分布、环境或观测质量变化时，如何保持模型可靠？",
       "questionIds": [
@@ -47123,22 +47509,25 @@
         "q_pub_difan_2023_less_is_more_on_the_feature_redundancy_of_pretra",
         "q_pub_difan_2023_towards_robust_graph_incremental_learning_on_evo",
         "q_pub_junye_sdf_variance",
-        "q_pub_yao_lu_2026_portfolio_rl_scenario_context_rollout"
+        "q_pub_yao_lu_2026_portfolio_rl_scenario_context_rollout",
+        "q_pub_ariel_neufeld_robust_stat_arb_deep_neural_networks_2024"
       ],
       "researcherIds": [
         "r_chao",
         "r_daniel_palomar_hkust",
         "r_difan",
         "r_junye",
-        "r_yao_lu_nus"
+        "r_yao_lu_nus",
+        "r_ariel_neufeld_ntu",
+        "r_julian_sester_nus"
       ],
-      "reviewedAt": "2026-10-02",
+      "reviewedAt": "2026-10-10",
       "themes": [
-        "asset",
-        "decision",
-        "finai",
+        "ts",
         "ml",
-        "ts"
+        "asset",
+        "finai",
+        "decision"
       ],
       "title": "分布变化与学习稳健性"
     },
@@ -48277,11 +48666,11 @@
       {
         "awaitingEvidence": 0,
         "awaitingExtraction": 0,
-        "clustered": 65,
-        "clusters": 29,
-        "extracted": 65,
-        "multiPaperClusters": 18,
-        "papers": 65,
+        "clustered": 67,
+        "clusters": 30,
+        "extracted": 67,
+        "multiPaperClusters": 19,
+        "papers": 67,
         "singlePaperClusters": 11,
         "staleEvidence": 0,
         "themeId": "finai",
@@ -48290,11 +48679,11 @@
       {
         "awaitingEvidence": 1,
         "awaitingExtraction": 0,
-        "clustered": 92,
+        "clustered": 93,
         "clusters": 36,
-        "extracted": 92,
+        "extracted": 93,
         "multiPaperClusters": 21,
-        "papers": 93,
+        "papers": 94,
         "singlePaperClusters": 15,
         "staleEvidence": 0,
         "themeId": "decision",
@@ -48303,11 +48692,11 @@
       {
         "awaitingEvidence": 6,
         "awaitingExtraction": 0,
-        "clustered": 145,
+        "clustered": 148,
         "clusters": 29,
-        "extracted": 145,
+        "extracted": 148,
         "multiPaperClusters": 26,
-        "papers": 151,
+        "papers": 154,
         "singlePaperClusters": 3,
         "staleEvidence": 0,
         "themeId": "asset",
@@ -48316,12 +48705,12 @@
       {
         "awaitingEvidence": 7,
         "awaitingExtraction": 0,
-        "clustered": 97,
-        "clusters": 30,
-        "extracted": 97,
+        "clustered": 99,
+        "clusters": 31,
+        "extracted": 99,
         "multiPaperClusters": 18,
-        "papers": 104,
-        "singlePaperClusters": 12,
+        "papers": 106,
+        "singlePaperClusters": 13,
         "staleEvidence": 0,
         "themeId": "ts",
         "unclustered": 0
@@ -48342,22 +48731,22 @@
       {
         "awaitingEvidence": 3,
         "awaitingExtraction": 0,
-        "clustered": 242,
+        "clustered": 243,
         "clusters": 39,
-        "extracted": 242,
+        "extracted": 243,
         "multiPaperClusters": 34,
-        "papers": 245,
+        "papers": 246,
         "singlePaperClusters": 5,
         "staleEvidence": 0,
         "themeId": "ml",
         "unclustered": 0
       }
     ],
-    "clustered": 419,
+    "clustered": 422,
     "clusters": 50,
-    "extracted": 419,
+    "extracted": 422,
     "multiPaperClusters": 45,
-    "papers": 432,
+    "papers": 435,
     "singlePaperClusters": 5,
     "staleEvidence": 0,
     "unclustered": 0
@@ -58292,6 +58681,79 @@
       ],
       "reviewedAt": "2026-10-09",
       "text": "多模态社交媒体中的生活方式和观点风险信息能否改进消费者信用风险评估？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_market_liquidity_trading",
+        "qc_portfolio_risk_control",
+        "qc_continuous_time_rl"
+      ],
+      "evidence": {
+        "digest": "fd37d7fa8dc513cb247f06d2fcc6d678928edb79eeb274cd4bc4693963172ab3",
+        "excerpt": "The paper studies optimal liquidation when a large investor's trades trigger child orders and endogenously change future order flow. It models self-exciting order flow and derives closed-form or semiclosed-form execution strategies, with NASDAQ evidence comparing performance against a benchmark execution strategy.",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-10",
+          "kind": "publisher_record_with_abstract",
+          "label": "INFORMS Operations Research record: full byline, abstract, DOI, online date and issue metadata",
+          "url": "https://pubsonline.informs.org/doi/abs/10.1287/opre.2023.0151"
+        }
+      },
+      "id": "q_pub_ying_chen_optimal_trade_execution_endogenous_order_flow_2025",
+      "paperIds": [
+        "pub_ying_chen_optimal_trade_execution_endogenous_order_flow_2025"
+      ],
+      "reviewedAt": "2026-10-10",
+      "text": "How should execution policies adapt when a large investor's trades endogenously change future order flow?"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_time_series_forecasting",
+        "qc_high_frequency_volatility"
+      ],
+      "evidence": {
+        "digest": "1ca5c7f75b0ccad5316e9272b88757abde0af77f7f8ec8181795af26c4508357",
+        "excerpt": "The paper applies functional neural tangent kernel methods to nonlinear functional autoregression for implied-volatility surface forecasting. It treats volatility as a high-dimensional moneyness-maturity surface and connects S&P 500 option forecasts to delta-neutral straddle trading performance.",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-10",
+          "kind": "author_publication_page_with_abstract",
+          "label": "Coauthor publication page: current abstract for the fNTK implied-volatility paper",
+          "url": "https://www.mariagrith.com/publication/fntk/"
+        }
+      },
+      "id": "q_pub_ying_chen_neural_tangent_kernel_implied_volatility_2026",
+      "paperIds": [
+        "pub_ying_chen_neural_tangent_kernel_implied_volatility_2026"
+      ],
+      "reviewedAt": "2026-10-10",
+      "text": "Can neural tangent kernel methods improve nonlinear functional forecasting of implied-volatility surfaces and translate into economically valuable options strategies?"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_portfolio_risk_control",
+        "qc_distribution_robustness"
+      ],
+      "evidence": {
+        "digest": "22e0950d9c156d5f904eff7f6175f79c1a2d76c2e11b27319fb005d639081525",
+        "excerpt": "The paper uses deep neural networks to detect robust statistical arbitrage under model ambiguity in high-dimensional financial markets. It derives ambiguity sets from observed market data and tests performance in high dimensions, crisis periods, and settings where pair cointegration breaks down.",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-10",
+          "kind": "publisher_record_with_abstract",
+          "label": "SIAM Journal on Financial Mathematics record: full byline, affiliations, abstract, pages and online date",
+          "url": "https://epubs.siam.org/doi/10.1137/22M1487928"
+        }
+      },
+      "id": "q_pub_ariel_neufeld_robust_stat_arb_deep_neural_networks_2024",
+      "paperIds": [
+        "pub_ariel_neufeld_robust_stat_arb_deep_neural_networks_2024"
+      ],
+      "reviewedAt": "2026-10-10",
+      "text": "Can deep neural networks identify robust statistical arbitrage strategies in high-dimensional markets under model ambiguity without relying on pair cointegration?"
     }
   ],
   "researchers": [
@@ -65782,25 +66244,66 @@
       ],
       "position": "Associate Professor; Director, Centre for Quantitative Finance",
       "publicationCoverage": {
-        "abstractCount": 0,
-        "authorVerifiedCount": 0,
+        "abstractCount": 2,
+        "authorVerifiedCount": 2,
         "boundaryDateCount": 0,
-        "checkedAt": null,
-        "collectedCount": 0,
+        "checkedAt": "2026-10-10",
+        "collectedCount": 2,
         "extended": true,
         "fullTextCount": 0,
         "gaps": [
           "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
         ],
         "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
-        "paperIds": [],
-        "recentCount": 0,
-        "sourcesChecked": [],
-        "status": "partial",
+        "paperIds": [
+          "pub_ying_chen_optimal_trade_execution_endogenous_order_flow_2025",
+          "pub_ying_chen_neural_tangent_kernel_implied_volatility_2026"
+        ],
+        "recentCount": 2,
+        "sourcesChecked": [
+          {
+            "checkedAt": "2026-10-10",
+            "kind": "official_university_thesis_advisor_profile",
+            "label": "NUSGS thesis-advisor profile for Ying Chen: identity, research areas and PhD supervision context",
+            "url": "https://nusgs.nus.edu.sg/thesis-advisors/matcheny"
+          },
+          {
+            "checkedAt": "2026-10-10",
+            "kind": "official_program_student_page",
+            "label": "NUS AIDF official student page: Ying Chen supervisees in 2023-2025 intakes",
+            "url": "https://www.aidf.nus.edu.sg/education/phd-in-digital-finance-technology/our-phd-students/"
+          },
+          {
+            "checkedAt": "2026-10-10",
+            "kind": "publisher_record_with_abstract",
+            "label": "INFORMS Operations Research record: full byline, abstract, DOI, online date and issue metadata",
+            "url": "https://pubsonline.informs.org/doi/abs/10.1287/opre.2023.0151"
+          },
+          {
+            "checkedAt": "2026-10-10",
+            "kind": "publisher_metadata",
+            "label": "Crossref/Taylor metadata: full byline, online 2025-06-03, print 2026-01-02, JBES 44(1), 24-38",
+            "url": "https://api.crossref.org/works/10.1080/07350015.2025.2489087"
+          },
+          {
+            "checkedAt": "2026-10-10",
+            "kind": "author_publication_page_with_abstract",
+            "label": "Coauthor publication page: current abstract for the fNTK implied-volatility paper",
+            "url": "https://www.mariagrith.com/publication/fntk/"
+          },
+          {
+            "checkedAt": "2026-10-10",
+            "kind": "publisher_record_blocked",
+            "label": "Taylor & Francis landing page: direct access blocked in this run; kept as official publisher URL",
+            "status": "blocked",
+            "url": "https://www.tandfonline.com/doi/full/10.1080/07350015.2025.2489087"
+          }
+        ],
+        "status": "reviewed_sources",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-05",
-        "windowStart": "2021-10-05",
+        "windowEnd": "2026-10-09",
+        "windowStart": "2021-10-09",
         "windowYears": 5
       },
       "sources": [
@@ -65857,25 +66360,40 @@
       ],
       "position": "Tenure-track Assistant Professor",
       "publicationCoverage": {
-        "abstractCount": 0,
-        "authorVerifiedCount": 0,
+        "abstractCount": 1,
+        "authorVerifiedCount": 1,
         "boundaryDateCount": 0,
-        "checkedAt": null,
-        "collectedCount": 0,
+        "checkedAt": "2026-10-10",
+        "collectedCount": 1,
         "extended": true,
         "fullTextCount": 0,
         "gaps": [
           "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
         ],
         "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
-        "paperIds": [],
-        "recentCount": 0,
-        "sourcesChecked": [],
-        "status": "partial",
+        "paperIds": [
+          "pub_ariel_neufeld_robust_stat_arb_deep_neural_networks_2024"
+        ],
+        "recentCount": 1,
+        "sourcesChecked": [
+          {
+            "checkedAt": "2026-10-10",
+            "kind": "publisher_record_with_abstract",
+            "label": "SIAM Journal on Financial Mathematics record: full byline, affiliations, abstract, pages and online date",
+            "url": "https://epubs.siam.org/doi/10.1137/22M1487928"
+          },
+          {
+            "checkedAt": "2026-10-10",
+            "kind": "preprint_record",
+            "label": "arXiv preprint page: earlier version of robust statistical arbitrage paper",
+            "url": "https://arxiv.org/abs/2203.03179"
+          }
+        ],
+        "status": "reviewed_sources",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-05",
-        "windowStart": "2021-10-05",
+        "windowEnd": "2026-10-09",
+        "windowStart": "2021-10-09",
         "windowYears": 5
       },
       "sources": [
@@ -66172,25 +66690,46 @@
       ],
       "position": "Tenured Associate Professor",
       "publicationCoverage": {
-        "abstractCount": 0,
-        "authorVerifiedCount": 0,
+        "abstractCount": 1,
+        "authorVerifiedCount": 1,
         "boundaryDateCount": 0,
-        "checkedAt": null,
-        "collectedCount": 0,
+        "checkedAt": "2026-10-10",
+        "collectedCount": 1,
         "extended": true,
         "fullTextCount": 0,
         "gaps": [
           "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
         ],
         "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
-        "paperIds": [],
-        "recentCount": 0,
-        "sourcesChecked": [],
-        "status": "partial",
+        "paperIds": [
+          "pub_ariel_neufeld_robust_stat_arb_deep_neural_networks_2024"
+        ],
+        "recentCount": 1,
+        "sourcesChecked": [
+          {
+            "checkedAt": "2026-10-10",
+            "kind": "official_university_hosted_profile",
+            "label": "NTU-hosted Ariel Neufeld homepage: publication list, research focus, open positions and group members",
+            "url": "https://personal.ntu.edu.sg/ariel.neufeld/"
+          },
+          {
+            "checkedAt": "2026-10-10",
+            "kind": "publisher_record_with_abstract",
+            "label": "SIAM Journal on Financial Mathematics record: full byline, affiliations, abstract, pages and online date",
+            "url": "https://epubs.siam.org/doi/10.1137/22M1487928"
+          },
+          {
+            "checkedAt": "2026-10-10",
+            "kind": "preprint_record",
+            "label": "arXiv preprint page: earlier version of robust statistical arbitrage paper",
+            "url": "https://arxiv.org/abs/2203.03179"
+          }
+        ],
+        "status": "reviewed_sources",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-05",
-        "windowStart": "2021-10-05",
+        "windowEnd": "2026-10-09",
+        "windowStart": "2021-10-09",
         "windowYears": 5
       },
       "sources": [
@@ -66775,5 +67314,5 @@
       "name": "ML Theory & Optimization"
     }
   ],
-  "updatedAt": "2026-10-08"
+  "updatedAt": "2026-10-09"
 }
