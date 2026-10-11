@@ -45838,6 +45838,355 @@
         }
       ],
       "year": 2024
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-11",
+        "reason": "已核 arXiv 摘要；仅补核原文署名，不计为全文阅读。",
+        "source": "https://arxiv.org/abs/2607.26642",
+        "status": "available"
+      },
+      "abstractSummary": "AlphaSchema 将金融因子搜索表示为事件、情境、质量、方向和输出组成的交易语义计划。语言模型负责把计划实现为因子，代理模型利用历史评估奖励引导探索、利用与局部变异。摘要报告中国股票市场中的因子预测和组合表现；结果未独立复现。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-11",
+        "kind": "primary_preprint",
+        "label": "arXiv v1：完整作者顺序、提交历史与摘要",
+        "url": "https://arxiv.org/abs/2607.26642"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Jingyang Yi",
+        "Jian Yang",
+        "Yifei Jin",
+        "Yuqi Li",
+        "Jian Li"
+      ],
+      "authorships": [
+        {
+          "name": "Jingyang Yi",
+          "position": 1
+        },
+        {
+          "name": "Jian Yang",
+          "position": 2
+        },
+        {
+          "name": "Yifei Jin",
+          "position": 3
+        },
+        {
+          "name": "Yuqi Li",
+          "position": 4
+        },
+        {
+          "name": "Jian Li",
+          "position": 5,
+          "researcherId": "r_jian_li"
+        }
+      ],
+      "contribution": {
+        "checkedAt": "2026-10-11",
+        "note": "完整作者顺序已核；署名位次不等于贡献大小，通讯作者只在来源明确时标注。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2026-07-29",
+      "dateEvidence": {
+        "checkedAt": "2026-10-11",
+        "kind": "date_note",
+        "label": "日期、版本与书目信息核对",
+        "note": "日期为 arXiv v1 提交日期，不代表同行评审发表。",
+        "url": "https://arxiv.org/abs/2607.26642"
+      },
+      "datePrecision": "day",
+      "doi": "10.48550/arXiv.2607.26642",
+      "id": "pub_jian_li_alphaschema_2026",
+      "paradigms": [
+        "system",
+        "measurement"
+      ],
+      "publicationStatus": "preprint",
+      "publicationType": "preprint",
+      "questionId": "q_pub_jian_li_alphaschema_2026",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "如何将交易语义空间的探索与语言模型的因子代码实现分离，并利用评估反馈提高金融因子搜索的可控性与效率？",
+      "researcherIds": [
+        "r_jian_li"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-11",
+          "kind": "primary_preprint",
+          "label": "arXiv v1：完整作者顺序、提交历史与摘要",
+          "url": "https://arxiv.org/abs/2607.26642"
+        },
+        {
+          "checkedAt": "2026-10-11",
+          "kind": "paper_byline",
+          "label": "原文署名和单位核对；研究内容仍按摘要整理",
+          "url": "https://arxiv.org/html/2607.26642v1"
+        }
+      ],
+      "summary": {
+        "evidence": "AlphaSchema 将金融因子搜索表示为事件、情境、质量、方向和输出组成的交易语义计划。语言模型负责把计划实现为因子，代理模型利用历史评估奖励引导探索、利用与局部变异。摘要报告中国股票市场中的因子预测和组合表现；结果未独立复现。",
+        "gap": "摘要明确研究的问题是：如何将交易语义空间的探索与语言模型的因子代码实现分离，并利用评估反馈提高金融因子搜索的可控性与效率？",
+        "insight": "AlphaSchema 将金融因子搜索表示为事件、情境、质量、方向和输出组成的交易语义计划。语言模型负责把计划实现为因子，代理模型利用历史评估奖励引导探索、利用与局部变异。摘要报告中国股票市场中的因子预测和组合表现；结果未独立复现。",
+        "limitation": "摘要级核验，不代表完整论文复现；招生名额与申请可行性另行核验。",
+        "method": "以所列预印本摘要为研究内容依据；完整原文仅用于署名和单位核对。",
+        "question": "如何将交易语义空间的探索与语言模型的因子代码实现分离，并利用评估反馈提高金融因子搜索的可控性与效率？"
+      },
+      "summaryBasis": "abstract",
+      "themes": [
+        "finai",
+        "asset"
+      ],
+      "title": "AlphaSchema: Exploring the Space of Trading Semantics for LLM-Based Alpha Mining",
+      "url": "https://arxiv.org/abs/2607.26642",
+      "venue": "arXiv:2607.26642 v1 (preprint)",
+      "verifiedAt": "2026-10-11",
+      "versions": [],
+      "year": 2026
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-11",
+        "reason": "已核 arXiv 摘要；仅补核原文署名，不计为全文阅读。",
+        "source": "https://arxiv.org/abs/2608.19227",
+        "status": "available"
+      },
+      "abstractSummary": "M3 联合建模订单事件与限价订单簿状态的动态互动，生成未来订单流轨迹。摘要报告模型在真实股票订单数据上复现部分市场统计特征，并用于预测、压力测试及市场冲击分析；这些模拟结果不构成实盘表现保证。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-11",
+        "kind": "primary_preprint",
+        "label": "arXiv v1：完整作者顺序、提交历史与摘要",
+        "url": "https://arxiv.org/abs/2608.19227"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Yanzhi Zhang",
+        "Yu Ma",
+        "Yilin Cheng",
+        "Jian Li",
+        "Yitong Duan"
+      ],
+      "authorships": [
+        {
+          "name": "Yanzhi Zhang",
+          "position": 1
+        },
+        {
+          "name": "Yu Ma",
+          "position": 2
+        },
+        {
+          "name": "Yilin Cheng",
+          "position": 3
+        },
+        {
+          "name": "Jian Li",
+          "position": 4,
+          "researcherId": "r_jian_li"
+        },
+        {
+          "name": "Yitong Duan",
+          "position": 5
+        }
+      ],
+      "contribution": {
+        "checkedAt": "2026-10-11",
+        "note": "完整作者顺序已核；署名位次不等于贡献大小，通讯作者只在来源明确时标注。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2026-07-29",
+      "dateEvidence": {
+        "checkedAt": "2026-10-11",
+        "kind": "date_note",
+        "label": "日期、版本与书目信息核对",
+        "note": "日期为 arXiv v1 提交日期，不代表同行评审发表。 DataCite Submitted=2026-07-29T12:46:38Z；Available=2026-08；Updated=2026-08-21T00:00:34Z。提交日期与公开可用月份不同，不按 arXiv 编号倒推提交日期。",
+        "url": "https://arxiv.org/abs/2608.19227"
+      },
+      "datePrecision": "day",
+      "doi": "10.48550/arXiv.2608.19227",
+      "id": "pub_jian_li_m3_market_microstructure_2026",
+      "paradigms": [
+        "system",
+        "measurement"
+      ],
+      "publicationStatus": "preprint",
+      "publicationType": "preprint",
+      "questionId": "q_pub_jian_li_m3_market_microstructure_2026",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "如何联合生成订单事件与订单簿流动性变化，以支持金融市场轨迹模拟、压力测试和冲击分析？",
+      "researcherIds": [
+        "r_jian_li"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-11",
+          "kind": "primary_preprint",
+          "label": "arXiv v1：完整作者顺序、提交历史与摘要",
+          "url": "https://arxiv.org/abs/2608.19227"
+        },
+        {
+          "checkedAt": "2026-10-11",
+          "kind": "paper_byline",
+          "label": "原文署名和单位核对；研究内容仍按摘要整理",
+          "url": "https://arxiv.org/html/2608.19227v1"
+        },
+        {
+          "checkedAt": "2026-10-11",
+          "kind": "doi_registry",
+          "label": "DOI 注册元数据：Submitted 为7月、Available 为2026-08",
+          "url": "https://api.datacite.org/dois/10.48550/arXiv.2608.19227"
+        }
+      ],
+      "summary": {
+        "evidence": "M3 联合建模订单事件与限价订单簿状态的动态互动，生成未来订单流轨迹。摘要报告模型在真实股票订单数据上复现部分市场统计特征，并用于预测、压力测试及市场冲击分析；这些模拟结果不构成实盘表现保证。",
+        "gap": "摘要明确研究的问题是：如何联合生成订单事件与订单簿流动性变化，以支持金融市场轨迹模拟、压力测试和冲击分析？",
+        "insight": "M3 联合建模订单事件与限价订单簿状态的动态互动，生成未来订单流轨迹。摘要报告模型在真实股票订单数据上复现部分市场统计特征，并用于预测、压力测试及市场冲击分析；这些模拟结果不构成实盘表现保证。",
+        "limitation": "摘要级核验，不代表完整论文复现；招生名额与申请可行性另行核验。",
+        "method": "以所列预印本摘要为研究内容依据；完整原文仅用于署名和单位核对。",
+        "question": "如何联合生成订单事件与订单簿流动性变化，以支持金融市场轨迹模拟、压力测试和冲击分析？"
+      },
+      "summaryBasis": "abstract",
+      "themes": [
+        "finai",
+        "ts"
+      ],
+      "title": "M3: A State-Event Generative Foundation Model for Market Microstructure Dynamics",
+      "url": "https://arxiv.org/abs/2608.19227",
+      "venue": "arXiv:2608.19227 v1 (preprint)",
+      "verifiedAt": "2026-10-11",
+      "versions": [],
+      "year": 2026
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-11",
+        "reason": "已核 arXiv 摘要；仅补核原文署名，不计为全文阅读。",
+        "source": "https://arxiv.org/abs/2608.18120",
+        "status": "available"
+      },
+      "abstractSummary": "论文以 Itô signature 将价格路径转为可解释的线性特征，并构造对应的自融资对冲策略。摘要报告逼近与误差界、模拟及标普500期权实验；本次仅核对摘要和署名，未独立核验定理条件或实验。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-11",
+        "kind": "primary_preprint",
+        "label": "arXiv v1：完整作者顺序、提交历史与摘要",
+        "url": "https://arxiv.org/abs/2608.18120"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Xin Guo",
+        "Binnan Wang",
+        "Ruixun Zhang"
+      ],
+      "authorships": [
+        {
+          "name": "Xin Guo",
+          "position": 1
+        },
+        {
+          "name": "Binnan Wang",
+          "position": 2
+        },
+        {
+          "corresponding": true,
+          "name": "Ruixun Zhang",
+          "position": 3,
+          "researcherId": "r_ruixun_zhang_pku",
+          "source": {
+            "checkedAt": "2026-10-11",
+            "kind": "paper_byline",
+            "label": "原文署名和单位核对；研究内容仍按摘要整理",
+            "url": "https://arxiv.org/html/2608.18120v1"
+          }
+        }
+      ],
+      "contribution": {
+        "checkedAt": "2026-10-11",
+        "note": "原文署名明确 Ruixun Zhang 为通讯作者；未据位次推断贡献大小。",
+        "source": {
+          "checkedAt": "2026-10-11",
+          "kind": "paper_byline",
+          "label": "原文署名和单位核对；研究内容仍按摘要整理",
+          "url": "https://arxiv.org/html/2608.18120v1"
+        },
+        "status": "corresponding_verified"
+      },
+      "coverageScope": "recent",
+      "date": "2026-07-14",
+      "dateEvidence": {
+        "checkedAt": "2026-10-11",
+        "kind": "date_note",
+        "label": "日期、版本与书目信息核对",
+        "note": "日期为 arXiv v1 提交日期，不代表同行评审发表。 DataCite Submitted=2026-07-14T16:49:18Z；Available=2026-08；Updated=2026-08-20T00:00:48Z。提交日期与公开可用月份不同，不按 arXiv 编号倒推提交日期。",
+        "url": "https://arxiv.org/abs/2608.18120"
+      },
+      "datePrecision": "day",
+      "doi": "10.48550/arXiv.2608.18120",
+      "id": "pub_ruixun_zhang_tradable_ito_signatures_2026",
+      "paradigms": [
+        "theory",
+        "empirical"
+      ],
+      "publicationStatus": "preprint",
+      "publicationType": "preprint",
+      "questionId": "q_pub_ruixun_zhang_tradable_ito_signatures_2026",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "如何将价格路径的可解释特征转为可交易的自融资策略，以学习动态对冲并控制对冲误差？",
+      "researcherIds": [
+        "r_ruixun_zhang_pku"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-11",
+          "kind": "primary_preprint",
+          "label": "arXiv v1：完整作者顺序、提交历史与摘要",
+          "url": "https://arxiv.org/abs/2608.18120"
+        },
+        {
+          "checkedAt": "2026-10-11",
+          "kind": "paper_byline",
+          "label": "原文署名和单位核对；研究内容仍按摘要整理",
+          "url": "https://arxiv.org/html/2608.18120v1"
+        },
+        {
+          "checkedAt": "2026-10-11",
+          "kind": "doi_registry",
+          "label": "DOI 注册元数据：Submitted 为7月、Available 为2026-08",
+          "url": "https://api.datacite.org/dois/10.48550/arXiv.2608.18120"
+        }
+      ],
+      "summary": {
+        "evidence": "论文以 Itô signature 将价格路径转为可解释的线性特征，并构造对应的自融资对冲策略。摘要报告逼近与误差界、模拟及标普500期权实验；本次仅核对摘要和署名，未独立核验定理条件或实验。",
+        "gap": "摘要明确研究的问题是：如何将价格路径的可解释特征转为可交易的自融资策略，以学习动态对冲并控制对冲误差？",
+        "insight": "论文以 Itô signature 将价格路径转为可解释的线性特征，并构造对应的自融资对冲策略。摘要报告逼近与误差界、模拟及标普500期权实验；本次仅核对摘要和署名，未独立核验定理条件或实验。",
+        "limitation": "摘要级核验，不代表完整论文复现；招生名额与申请可行性另行核验。",
+        "method": "以所列预印本摘要为研究内容依据；完整原文仅用于署名和单位核对。",
+        "question": "如何将价格路径的可解释特征转为可交易的自融资策略，以学习动态对冲并控制对冲误差？"
+      },
+      "summaryBasis": "abstract",
+      "themes": [
+        "finai",
+        "asset",
+        "ts"
+      ],
+      "title": "Tradable Itô Signatures: A Model-Free, Interpretable Framework for Dynamic Hedging",
+      "url": "https://arxiv.org/abs/2608.18120",
+      "venue": "arXiv:2608.18120 v1 (preprint)",
+      "verifiedAt": "2026-10-11",
+      "versions": [],
+      "year": 2026
     }
   ],
   "paradigms": [
@@ -45939,8 +46288,8 @@
   "publicCurationNote": "公开研究资料快照。主题、研究问题与研究线为编辑归纳，不代表学者本人陈述或机构背书。",
   "publicRelease": {
     "channel": "stable",
-    "snapshotDate": "2026-10-09",
-    "version": "3.3.31"
+    "snapshotDate": "2026-10-10",
+    "version": "3.3.32"
   },
   "publicationPolicy": {
     "authorshipNote": "署名位次不等于贡献排名；通讯作者、共同贡献和具体分工只按原文证据标注。",
@@ -45950,18 +46299,18 @@
     "extendedStart": "2021-10-08",
     "extendedYears": 5,
     "extensionThreshold": 5,
-    "snapshotDate": "2026-10-09",
+    "snapshotDate": "2026-10-10",
     "versionNote": "同一研究的预印本与发表版本分开保留证据；摘要来源可能与主书目版本不同。"
   },
   "publicationStats": {
-    "abstracts": 422,
+    "abstracts": 425,
     "fullTexts": 4,
     "outsideWindow": 7,
-    "papers": 435,
-    "recentPapers": 428,
+    "papers": 438,
+    "recentPapers": 431,
     "researchers": 104,
     "reviewedSources": 14,
-    "verifiedBylines": 434,
+    "verifiedBylines": 437,
     "withPapers": 47
   },
   "questionClusters": [
@@ -46263,7 +46612,8 @@
         "pub_zhimin_chen_carbon_financialization_2024",
         "pub_yan_ji_ai_powered_trading_collusion_price_efficiency_2025",
         "pub_yan_ji_financial_market_fragility_ai_planning_2025",
-        "pub_ying_chen_optimal_trade_execution_endogenous_order_flow_2025"
+        "pub_ying_chen_optimal_trade_execution_endogenous_order_flow_2025",
+        "pub_jian_li_m3_market_microstructure_2026"
       ],
       "question": "交易制度、参与者互动和市场摩擦如何影响流动性与价格效率？",
       "questionIds": [
@@ -46281,7 +46631,8 @@
         "q_pub_zhimin_chen_carbon_financialization_2024",
         "q_pub_yan_ji_ai_powered_trading_collusion_price_efficiency_2025",
         "q_pub_yan_ji_financial_market_fragility_ai_planning_2025",
-        "q_pub_ying_chen_optimal_trade_execution_endogenous_order_flow_2025"
+        "q_pub_ying_chen_optimal_trade_execution_endogenous_order_flow_2025",
+        "q_pub_jian_li_m3_market_microstructure_2026"
       ],
       "researcherIds": [
         "r_claire",
@@ -46300,7 +46651,7 @@
         "r_yan_ji_hkust",
         "r_ying_chen_nus"
       ],
-      "reviewedAt": "2026-10-10",
+      "reviewedAt": "2026-10-11",
       "themes": [
         "asset",
         "digital",
@@ -46613,7 +46964,9 @@
         "pub_sicong_li_factor_models_price_impact_costs_2024",
         "pub_ming_zhou_consumption_leisure_investment_retirement_2025",
         "pub_ying_chen_optimal_trade_execution_endogenous_order_flow_2025",
-        "pub_ariel_neufeld_robust_stat_arb_deep_neural_networks_2024"
+        "pub_ariel_neufeld_robust_stat_arb_deep_neural_networks_2024",
+        "pub_jian_li_alphaschema_2026",
+        "pub_ruixun_zhang_tradable_ito_signatures_2026"
       ],
       "question": "在不确定性和实际约束下，如何构建投资组合并控制风险？",
       "questionIds": [
@@ -46658,7 +47011,9 @@
         "q_pub_sicong_li_factor_models_price_impact_costs_2024",
         "q_pub_ming_zhou_consumption_leisure_investment_retirement_2025",
         "q_pub_ying_chen_optimal_trade_execution_endogenous_order_flow_2025",
-        "q_pub_ariel_neufeld_robust_stat_arb_deep_neural_networks_2024"
+        "q_pub_ariel_neufeld_robust_stat_arb_deep_neural_networks_2024",
+        "q_pub_jian_li_alphaschema_2026",
+        "q_pub_ruixun_zhang_tradable_ito_signatures_2026"
       ],
       "researcherIds": [
         "r_gao",
@@ -46683,9 +47038,10 @@
         "r_ming_zhou_ruc",
         "r_ying_chen_nus",
         "r_ariel_neufeld_ntu",
-        "r_julian_sester_nus"
+        "r_julian_sester_nus",
+        "r_jian_li"
       ],
-      "reviewedAt": "2026-10-10",
+      "reviewedAt": "2026-10-11",
       "themes": [
         "asset",
         "finai",
@@ -47606,7 +47962,8 @@
         "pub_gao_score_q",
         "pub_gao_wasserstein_score",
         "pub_gao_prob_flow",
-        "pub_ruixun_diffusion_factor_models"
+        "pub_ruixun_diffusion_factor_models",
+        "pub_jian_li_m3_market_microstructure_2026"
       ],
       "question": "生成与扩散模型如何学习数据分布，其生成质量与效率受到什么限制？",
       "questionIds": [
@@ -47640,22 +47997,24 @@
         "q_pub_gao_score_q",
         "q_pub_gao_wasserstein_score",
         "q_pub_gao_prob_flow",
-        "q_pub_ruixun_diffusion_factor_models"
+        "q_pub_ruixun_diffusion_factor_models",
+        "q_pub_jian_li_m3_market_microstructure_2026"
       ],
       "researcherIds": [
         "r_chao",
         "r_difan",
         "r_gao",
         "r_he",
-        "r_ruixun_zhang_pku"
+        "r_ruixun_zhang_pku",
+        "r_jian_li"
       ],
-      "reviewedAt": "2026-09-29",
+      "reviewedAt": "2026-10-11",
       "themes": [
-        "asset",
+        "ml",
         "decision",
         "digital",
         "finai",
-        "ml",
+        "asset",
         "ts"
       ],
       "title": "生成模型与扩散机制"
@@ -47756,7 +48115,8 @@
         "pub_chao_2025_lightagent_mobile_agentic_foundation_models",
         "pub_difan_2025_swe_fixer_training_open_source_llms_for_effectiv",
         "pub_difan_2024_a_human_like_reasoning_framework_for_multi_phase",
-        "pub_difan_valg"
+        "pub_difan_valg",
+        "pub_jian_li_alphaschema_2026"
       ],
       "question": "如何让智能体可靠地规划任务、使用工具并完成交互式工作？",
       "questionIds": [
@@ -47775,22 +48135,24 @@
         "q_pub_chao_2025_lightagent_mobile_agentic_foundation_models",
         "q_pub_difan_2025_swe_fixer_training_open_source_llms_for_effectiv",
         "q_pub_difan_2024_a_human_like_reasoning_framework_for_multi_phase",
-        "q_pub_difan_valg"
+        "q_pub_difan_valg",
+        "q_pub_jian_li_alphaschema_2026"
       ],
       "researcherIds": [
         "r_anthony_tung_nus",
         "r_bo_an",
         "r_chao",
-        "r_difan"
+        "r_difan",
+        "r_jian_li"
       ],
-      "reviewedAt": "2026-10-04",
+      "reviewedAt": "2026-10-11",
       "themes": [
-        "asset",
-        "decision",
-        "digital",
         "finai",
+        "ts",
+        "decision",
         "ml",
-        "ts"
+        "digital",
+        "asset"
       ],
       "title": "智能体规划与工具使用"
     },
@@ -48593,24 +48955,27 @@
       "paperIds": [
         "pub_li_autocallable",
         "pub_li_lookback",
-        "pub_xianhua_peng_contract_unified_option_hedging_rl"
+        "pub_xianhua_peng_contract_unified_option_hedging_rl",
+        "pub_ruixun_zhang_tradable_ito_signatures_2026"
       ],
       "question": "如何在复杂随机模型下高效定价和对冲衍生品？",
       "questionIds": [
         "q_pub_li_autocallable",
         "q_pub_li_lookback",
-        "q_pub_xianhua_peng_contract_unified_option_hedging_rl"
+        "q_pub_xianhua_peng_contract_unified_option_hedging_rl",
+        "q_pub_ruixun_zhang_tradable_ito_signatures_2026"
       ],
       "researcherIds": [
         "r_lingfei",
-        "r_xianhua_peng"
+        "r_xianhua_peng",
+        "r_ruixun_zhang_pku"
       ],
-      "reviewedAt": "2026-10-03",
+      "reviewedAt": "2026-10-11",
       "themes": [
         "asset",
-        "decision",
+        "ts",
         "finai",
-        "ts"
+        "decision"
       ],
       "title": "衍生品定价与数值方法"
     },
@@ -48666,12 +49031,12 @@
       {
         "awaitingEvidence": 0,
         "awaitingExtraction": 0,
-        "clustered": 67,
+        "clustered": 70,
         "clusters": 30,
-        "extracted": 67,
-        "multiPaperClusters": 19,
-        "papers": 67,
-        "singlePaperClusters": 11,
+        "extracted": 70,
+        "multiPaperClusters": 20,
+        "papers": 70,
+        "singlePaperClusters": 10,
         "staleEvidence": 0,
         "themeId": "finai",
         "unclustered": 0
@@ -48692,12 +49057,12 @@
       {
         "awaitingEvidence": 6,
         "awaitingExtraction": 0,
-        "clustered": 148,
+        "clustered": 150,
         "clusters": 29,
-        "extracted": 148,
-        "multiPaperClusters": 26,
-        "papers": 154,
-        "singlePaperClusters": 3,
+        "extracted": 150,
+        "multiPaperClusters": 27,
+        "papers": 156,
+        "singlePaperClusters": 2,
         "staleEvidence": 0,
         "themeId": "asset",
         "unclustered": 0
@@ -48705,12 +49070,12 @@
       {
         "awaitingEvidence": 7,
         "awaitingExtraction": 0,
-        "clustered": 99,
+        "clustered": 101,
         "clusters": 31,
-        "extracted": 99,
-        "multiPaperClusters": 18,
-        "papers": 106,
-        "singlePaperClusters": 13,
+        "extracted": 101,
+        "multiPaperClusters": 21,
+        "papers": 108,
+        "singlePaperClusters": 10,
         "staleEvidence": 0,
         "themeId": "ts",
         "unclustered": 0
@@ -48742,11 +49107,11 @@
         "unclustered": 0
       }
     ],
-    "clustered": 422,
+    "clustered": 425,
     "clusters": 50,
-    "extracted": 422,
+    "extracted": 425,
     "multiPaperClusters": 45,
-    "papers": 435,
+    "papers": 438,
     "singlePaperClusters": 5,
     "staleEvidence": 0,
     "unclustered": 0
@@ -58754,6 +59119,78 @@
       ],
       "reviewedAt": "2026-10-10",
       "text": "Can deep neural networks identify robust statistical arbitrage strategies in high-dimensional markets under model ambiguity without relying on pair cointegration?"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_agent_planning_tools",
+        "qc_portfolio_risk_control"
+      ],
+      "evidence": {
+        "digest": "7cf1565d7e5c103d54f8afe25990ae05039f4fc93bbcda4597d031aca4d4da65",
+        "excerpt": "AlphaSchema 将金融因子搜索表示为事件、情境、质量、方向和输出组成的交易语义计划。语言模型负责把计划实现为因子，代理模型利用历史评估奖励引导探索、利用与局部变异。摘要报告中国股票市场中的因子预测和组合表现；结果未独立复现。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-11",
+          "kind": "primary_preprint",
+          "label": "arXiv v1：完整作者顺序、提交历史与摘要",
+          "url": "https://arxiv.org/abs/2607.26642"
+        }
+      },
+      "id": "q_pub_jian_li_alphaschema_2026",
+      "paperIds": [
+        "pub_jian_li_alphaschema_2026"
+      ],
+      "reviewedAt": "2026-10-11",
+      "text": "如何将交易语义空间的探索与语言模型的因子代码实现分离，并利用评估反馈提高金融因子搜索的可控性与效率？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_market_liquidity_trading",
+        "qc_generative_diffusion"
+      ],
+      "evidence": {
+        "digest": "bda39313a9569031fa23699dc464a3964f2383f246f471fc9ad4def2c7061528",
+        "excerpt": "M3 联合建模订单事件与限价订单簿状态的动态互动，生成未来订单流轨迹。摘要报告模型在真实股票订单数据上复现部分市场统计特征，并用于预测、压力测试及市场冲击分析；这些模拟结果不构成实盘表现保证。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-11",
+          "kind": "primary_preprint",
+          "label": "arXiv v1：完整作者顺序、提交历史与摘要",
+          "url": "https://arxiv.org/abs/2608.19227"
+        }
+      },
+      "id": "q_pub_jian_li_m3_market_microstructure_2026",
+      "paperIds": [
+        "pub_jian_li_m3_market_microstructure_2026"
+      ],
+      "reviewedAt": "2026-10-11",
+      "text": "如何联合生成订单事件与订单簿流动性变化，以支持金融市场轨迹模拟、压力测试和冲击分析？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_portfolio_risk_control",
+        "qc_derivative_pricing"
+      ],
+      "evidence": {
+        "digest": "53b74224400b4cfaeb797f3d674345aa944d6a8dd3b4f30a212105c2f6bc2f9d",
+        "excerpt": "论文以 Itô signature 将价格路径转为可解释的线性特征，并构造对应的自融资对冲策略。摘要报告逼近与误差界、模拟及标普500期权实验；本次仅核对摘要和署名，未独立核验定理条件或实验。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-11",
+          "kind": "primary_preprint",
+          "label": "arXiv v1：完整作者顺序、提交历史与摘要",
+          "url": "https://arxiv.org/abs/2608.18120"
+        }
+      },
+      "id": "q_pub_ruixun_zhang_tradable_ito_signatures_2026",
+      "paperIds": [
+        "pub_ruixun_zhang_tradable_ito_signatures_2026"
+      ],
+      "reviewedAt": "2026-10-11",
+      "text": "如何将价格路径的可解释特征转为可交易的自融资策略，以学习动态对冲并控制对冲误差？"
     }
   ],
   "researchers": [
@@ -61760,11 +62197,11 @@
       ],
       "position": "教授",
       "publicationCoverage": {
-        "abstractCount": 5,
-        "authorVerifiedCount": 5,
+        "abstractCount": 7,
+        "authorVerifiedCount": 7,
         "boundaryDateCount": 0,
-        "checkedAt": "2026-10-03",
-        "collectedCount": 5,
+        "checkedAt": "2026-10-11",
+        "collectedCount": 7,
         "extended": false,
         "fullTextCount": 0,
         "gaps": [
@@ -61776,9 +62213,11 @@
           "pub_jian_li_kronos",
           "pub_jian_li_factorgcl_stock_returns_prediction",
           "pub_jian_li_imm_imitative_market_making",
-          "pub_jian_li_macmic_iceberg_order_execution"
+          "pub_jian_li_macmic_iceberg_order_execution",
+          "pub_jian_li_alphaschema_2026",
+          "pub_jian_li_m3_market_microstructure_2026"
         ],
-        "recentCount": 5,
+        "recentCount": 7,
         "sourcesChecked": [
           {
             "checkedAt": "2026-09-22",
@@ -61815,13 +62254,43 @@
             "kind": "publisher",
             "label": "正式会议记录：完整作者顺序、日期及摘要",
             "url": "https://www.ijcai.org/proceedings/2024/0664"
+          },
+          {
+            "checkedAt": "2026-10-11",
+            "kind": "primary_preprint",
+            "label": "arXiv v1：完整作者顺序、提交历史与摘要",
+            "url": "https://arxiv.org/abs/2607.26642"
+          },
+          {
+            "checkedAt": "2026-10-11",
+            "kind": "paper_byline",
+            "label": "原文署名和单位核对；研究内容仍按摘要整理",
+            "url": "https://arxiv.org/html/2607.26642v1"
+          },
+          {
+            "checkedAt": "2026-10-11",
+            "kind": "primary_preprint",
+            "label": "arXiv v1：完整作者顺序、提交历史与摘要",
+            "url": "https://arxiv.org/abs/2608.19227"
+          },
+          {
+            "checkedAt": "2026-10-11",
+            "kind": "paper_byline",
+            "label": "原文署名和单位核对；研究内容仍按摘要整理",
+            "url": "https://arxiv.org/html/2608.19227v1"
+          },
+          {
+            "checkedAt": "2026-10-11",
+            "kind": "doi_registry",
+            "label": "DOI 注册元数据：Submitted 为7月、Available 为2026-08",
+            "url": "https://api.datacite.org/dois/10.48550/arXiv.2608.19227"
           }
         ],
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 2,
-        "windowEnd": "2026-10-05",
-        "windowStart": "2023-10-05",
+        "windowEnd": "2026-10-10",
+        "windowStart": "2023-10-07",
         "windowYears": 3
       },
       "sources": [
@@ -67201,11 +67670,11 @@
       ],
       "position": "长聘副教授、研究员",
       "publicationCoverage": {
-        "abstractCount": 2,
-        "authorVerifiedCount": 2,
-        "boundaryDateCount": 1,
-        "checkedAt": "2026-09-29",
-        "collectedCount": 2,
+        "abstractCount": 3,
+        "authorVerifiedCount": 3,
+        "boundaryDateCount": 0,
+        "checkedAt": "2026-10-11",
+        "collectedCount": 3,
         "extended": true,
         "fullTextCount": 0,
         "gaps": [
@@ -67214,9 +67683,10 @@
         "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
         "paperIds": [
           "pub_nan_chen_belief_two_timescale",
-          "pub_ruixun_diffusion_factor_models"
+          "pub_ruixun_diffusion_factor_models",
+          "pub_ruixun_zhang_tradable_ito_signatures_2026"
         ],
-        "recentCount": 2,
+        "recentCount": 3,
         "sourcesChecked": [
           {
             "checkedAt": "2026-09-29",
@@ -67241,13 +67711,31 @@
             "kind": "preprint_index",
             "label": "SSRN索引：同题同署名及摘要；直连403，非全文核验",
             "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5211437"
+          },
+          {
+            "checkedAt": "2026-10-11",
+            "kind": "primary_preprint",
+            "label": "arXiv v1：完整作者顺序、提交历史与摘要",
+            "url": "https://arxiv.org/abs/2608.18120"
+          },
+          {
+            "checkedAt": "2026-10-11",
+            "kind": "paper_byline",
+            "label": "原文署名和单位核对；研究内容仍按摘要整理",
+            "url": "https://arxiv.org/html/2608.18120v1"
+          },
+          {
+            "checkedAt": "2026-10-11",
+            "kind": "doi_registry",
+            "label": "DOI 注册元数据：Submitted 为7月、Available 为2026-08",
+            "url": "https://api.datacite.org/dois/10.48550/arXiv.2608.18120"
           }
         ],
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 1,
-        "windowEnd": "2026-10-05",
-        "windowStart": "2021-10-05",
+        "windowEnd": "2026-10-10",
+        "windowStart": "2021-10-07",
         "windowYears": 5
       },
       "sources": [
@@ -67314,5 +67802,5 @@
       "name": "ML Theory & Optimization"
     }
   ],
-  "updatedAt": "2026-10-09"
+  "updatedAt": "2026-10-10"
 }
