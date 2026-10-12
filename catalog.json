@@ -46187,6 +46187,249 @@
       "verifiedAt": "2026-10-11",
       "versions": [],
       "year": 2026
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-12",
+        "reason": "已核原始摘要；原文只补核署名和单位，不计为全文阅读。",
+        "source": "https://arxiv.org/abs/2603.14313",
+        "status": "available"
+      },
+      "abstractSummary": "DCS 利用冻结的语言模型表征，同时学习单次 FOMC 声明的绝对立场和相邻会议的相对变化，再通过差分一致性约束形成连续的立场轨迹。摘要报告分类表现及其与通胀指标、美国国债收益率变动的关联；这些关联不是因果识别或交易收益保证。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-12",
+        "kind": "primary_preprint",
+        "label": "arXiv：完整作者顺序、版本历史及摘要",
+        "url": "https://arxiv.org/abs/2603.14313"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Yixuan Tang",
+        "Yi Yang"
+      ],
+      "authorships": [
+        {
+          "name": "Yixuan Tang",
+          "position": 1
+        },
+        {
+          "name": "Yi Yang",
+          "position": 2,
+          "researcherId": "r_yi_yang_hkust"
+        }
+      ],
+      "contribution": {
+        "checkedAt": "2026-10-12",
+        "note": "完整作者顺序已核；署名位次不等于贡献大小，通讯作者只在来源明确时标注。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2026-03-15",
+      "dateEvidence": {
+        "checkedAt": "2026-10-12",
+        "kind": "date_note",
+        "label": "日期、版本与书目信息核对",
+        "note": "日期为 arXiv v1 提交日期；未核到同行评审正式版本。",
+        "url": "https://arxiv.org/abs/2603.14313"
+      },
+      "datePrecision": "day",
+      "doi": "10.48550/arXiv.2603.14313",
+      "id": "pub_yi_yang_mind_the_shift_fomc_llm_2026",
+      "paradigms": [
+        "measurement",
+        "empirical"
+      ],
+      "publicationStatus": "preprint",
+      "publicationType": "preprint",
+      "questionId": "q_pub_yi_yang_mind_the_shift_fomc_llm_2026",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "如何结合单次声明的绝对立场与相邻会议的相对措辞变化，从冻结的语言模型表征识别连续的货币政策信号？",
+      "researcherIds": [
+        "r_yi_yang_hkust"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-12",
+          "kind": "primary_preprint",
+          "label": "arXiv：完整作者顺序、版本历史及摘要",
+          "url": "https://arxiv.org/abs/2603.14313"
+        },
+        {
+          "checkedAt": "2026-10-12",
+          "kind": "paper_byline",
+          "label": "原文署名和港科大单位核对；内容仍按摘要整理",
+          "url": "https://arxiv.org/html/2603.14313v1"
+        }
+      ],
+      "summary": {
+        "evidence": "DCS 利用冻结的语言模型表征，同时学习单次 FOMC 声明的绝对立场和相邻会议的相对变化，再通过差分一致性约束形成连续的立场轨迹。摘要报告分类表现及其与通胀指标、美国国债收益率变动的关联；这些关联不是因果识别或交易收益保证。",
+        "gap": "摘要明确研究的问题是：如何结合单次声明的绝对立场与相邻会议的相对措辞变化，从冻结的语言模型表征识别连续的货币政策信号？",
+        "insight": "DCS 利用冻结的语言模型表征，同时学习单次 FOMC 声明的绝对立场和相邻会议的相对变化，再通过差分一致性约束形成连续的立场轨迹。摘要报告分类表现及其与通胀指标、美国国债收益率变动的关联；这些关联不是因果识别或交易收益保证。",
+        "limitation": "摘要级整理，未复现方法或实验；不能据此确认 2028 招生、资金或相近背景录取。",
+        "method": "依据所列原始摘要归纳；原文仅用于署名和单位核对。",
+        "question": "如何结合单次声明的绝对立场与相邻会议的相对措辞变化，从冻结的语言模型表征识别连续的货币政策信号？"
+      },
+      "summaryBasis": "abstract",
+      "themes": [
+        "finai",
+        "digital",
+        "ts"
+      ],
+      "title": "Mind the Shift: Decoding Monetary Policy Stance from FOMC Statements with Large Language Models",
+      "url": "https://arxiv.org/abs/2603.14313",
+      "venue": "arXiv:2603.14313 v1 (preprint)",
+      "verifiedAt": "2026-10-12",
+      "versions": [],
+      "year": 2026
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-12",
+        "reason": "已核原始摘要；原文只补核署名和单位，不计为全文阅读。",
+        "source": "https://research.cuhk.edu.hk/en/publications/adversarial-reinforcement-learning-a-duality-based-approach-to-so/",
+        "status": "available"
+      },
+      "abstractSummary": "ADRL 针对高维随机控制，利用信息松弛对偶，将问题表示为策略与对抗惩罚之间的极小极大优化。摘要报告数值实验中的较紧对偶间隙。研究内容按摘要归纳，未独立核验理论条件、算法实现或实验结果。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-12",
+        "kind": "official_publication",
+        "label": "港中文官方成果库：正式会议版本、完整署名及出版年月",
+        "url": "https://research.cuhk.edu.hk/en/publications/adversarial-reinforcement-learning-a-duality-based-approach-to-so/"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Nan Chen",
+        "Mengzhou Liu",
+        "Xiaoyan Wang",
+        "Nanyi Zhang"
+      ],
+      "authorships": [
+        {
+          "name": "Nan Chen",
+          "position": 1,
+          "researcherId": "r_nan_chen_cuhk"
+        },
+        {
+          "name": "Mengzhou Liu",
+          "position": 2
+        },
+        {
+          "name": "Xiaoyan Wang",
+          "position": 3
+        },
+        {
+          "name": "Nanyi Zhang",
+          "position": 4
+        }
+      ],
+      "contribution": {
+        "checkedAt": "2026-10-12",
+        "note": "完整作者顺序已核；署名位次不等于贡献大小，通讯作者只在来源明确时标注。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2026-01",
+      "dateEvidence": {
+        "checkedAt": "2026-10-12",
+        "kind": "date_note",
+        "label": "日期、版本与书目信息核对",
+        "note": "同一研究合并为一条记录。arXiv v1：2025-06-01；v2：2025-07-02；会议：2025-12-07至10；港中文官方成果库出版年月：2026-01。正式出版日未核到，不用会议年份或修订日期代替出版日期。",
+        "url": "https://research.cuhk.edu.hk/en/publications/adversarial-reinforcement-learning-a-duality-based-approach-to-so/"
+      },
+      "datePrecision": "month",
+      "doi": "10.1109/WSC68292.2025.11339041",
+      "id": "pub_nan_chen_adversarial_rl_optimal_control_2025",
+      "paradigms": [
+        "control",
+        "theory"
+      ],
+      "publicationStatus": "published",
+      "publicationType": "conference",
+      "questionId": "q_pub_nan_chen_adversarial_rl_optimal_control_2025",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "如何利用信息松弛对偶，把高维随机控制转为策略与惩罚的极小极大优化，并用对偶间隙评估近似策略的质量？",
+      "researcherIds": [
+        "r_nan_chen_cuhk"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-12",
+          "kind": "official_publication",
+          "label": "港中文官方成果库：正式会议版本、完整署名及出版年月",
+          "url": "https://research.cuhk.edu.hk/en/publications/adversarial-reinforcement-learning-a-duality-based-approach-to-so/"
+        },
+        {
+          "checkedAt": "2026-10-12",
+          "kind": "primary_preprint",
+          "label": "arXiv：完整作者顺序、版本历史及摘要",
+          "url": "https://arxiv.org/abs/2506.00801"
+        },
+        {
+          "checkedAt": "2026-10-12",
+          "kind": "paper_byline",
+          "label": "作者托管 WSC 原文：首页署名与单位核对",
+          "url": "https://www1.se.cuhk.edu.hk/~nchenweb/Publications/Adversarial_Reinforcement_Learning-3.pdf"
+        }
+      ],
+      "summary": {
+        "evidence": "ADRL 针对高维随机控制，利用信息松弛对偶，将问题表示为策略与对抗惩罚之间的极小极大优化。摘要报告数值实验中的较紧对偶间隙。研究内容按摘要归纳，未独立核验理论条件、算法实现或实验结果。",
+        "gap": "摘要明确研究的问题是：如何利用信息松弛对偶，把高维随机控制转为策略与惩罚的极小极大优化，并用对偶间隙评估近似策略的质量？",
+        "insight": "ADRL 针对高维随机控制，利用信息松弛对偶，将问题表示为策略与对抗惩罚之间的极小极大优化。摘要报告数值实验中的较紧对偶间隙。研究内容按摘要归纳，未独立核验理论条件、算法实现或实验结果。",
+        "limitation": "摘要级整理，未复现方法或实验；不能据此确认 2028 招生、资金或相近背景录取。 该摘要支持随机控制方法，金融应用须另据原文应用部分核验，不能仅凭作者单位推断。",
+        "method": "依据所列原始摘要归纳；原文仅用于署名和单位核对。",
+        "question": "如何利用信息松弛对偶，把高维随机控制转为策略与惩罚的极小极大优化，并用对偶间隙评估近似策略的质量？"
+      },
+      "summaryBasis": "abstract",
+      "themes": [
+        "decision",
+        "ml"
+      ],
+      "title": "Adversarial Reinforcement Learning: A Duality-Based Approach To Solving Optimal Control Problems",
+      "url": "https://research.cuhk.edu.hk/en/publications/adversarial-reinforcement-learning-a-duality-based-approach-to-so/",
+      "venue": "2025 Winter Simulation Conference (WSC 2025), pp. 271–282; published Jan 2026",
+      "verifiedAt": "2026-10-12",
+      "versions": [
+        {
+          "authorEvidence": {
+            "checkedAt": "2026-10-12",
+            "kind": "primary_preprint",
+            "label": "arXiv：完整作者顺序、版本历史及摘要",
+            "url": "https://arxiv.org/abs/2506.00801"
+          },
+          "authorListComplete": true,
+          "authorOrderVerified": true,
+          "authors": [
+            "Nan Chen",
+            "Mengzhou Liu",
+            "Xiaoyan Wang",
+            "Nanyi Zhang"
+          ],
+          "date": "2025-07-02",
+          "datePrecision": "day",
+          "doi": "10.48550/arXiv.2506.00801",
+          "publicationStatus": "preprint",
+          "publicationType": "preprint",
+          "sources": [
+            {
+              "checkedAt": "2026-10-12",
+              "kind": "primary_preprint",
+              "label": "arXiv：完整作者顺序、版本历史及摘要",
+              "url": "https://arxiv.org/abs/2506.00801"
+            }
+          ],
+          "title": "Adversarial Reinforcement Learning: A Duality-Based Approach To Solving Optimal Control Problems",
+          "url": "https://arxiv.org/abs/2506.00801",
+          "venue": "arXiv:2506.00801 v2",
+          "year": 2025
+        }
+      ],
+      "year": 2026
     }
   ],
   "paradigms": [
@@ -46288,8 +46531,8 @@
   "publicCurationNote": "公开研究资料快照。主题、研究问题与研究线为编辑归纳，不代表学者本人陈述或机构背书。",
   "publicRelease": {
     "channel": "stable",
-    "snapshotDate": "2026-10-10",
-    "version": "3.3.32"
+    "snapshotDate": "2026-10-11",
+    "version": "3.3.33"
   },
   "publicationPolicy": {
     "authorshipNote": "署名位次不等于贡献排名；通讯作者、共同贡献和具体分工只按原文证据标注。",
@@ -46299,18 +46542,18 @@
     "extendedStart": "2021-10-08",
     "extendedYears": 5,
     "extensionThreshold": 5,
-    "snapshotDate": "2026-10-10",
+    "snapshotDate": "2026-10-11",
     "versionNote": "同一研究的预印本与发表版本分开保留证据；摘要来源可能与主书目版本不同。"
   },
   "publicationStats": {
-    "abstracts": 425,
+    "abstracts": 427,
     "fullTexts": 4,
     "outsideWindow": 7,
-    "papers": 438,
-    "recentPapers": 431,
+    "papers": 440,
+    "recentPapers": 433,
     "researchers": 104,
     "reviewedSources": 14,
-    "verifiedBylines": 437,
+    "verifiedBylines": 439,
     "withPapers": 47
   },
   "questionClusters": [
@@ -46336,7 +46579,8 @@
         "pub_yanzhen_ai_news_retail_investors",
         "pub_yao_lu_2026_financial_kol_policy_completion",
         "pub_allen_huang_finbert_2023",
-        "pub_allen_huang_finentity_2023"
+        "pub_allen_huang_finentity_2023",
+        "pub_yi_yang_mind_the_shift_fomc_llm_2026"
       ],
       "question": "金融信息的生产、披露和传播如何影响投资者行为与价格形成？",
       "questionIds": [
@@ -46357,27 +46601,29 @@
         "q_pub_yanzhen_ai_news_retail_investors",
         "q_pub_yao_lu_2026_financial_kol_policy_completion",
         "q_pub_allen_huang_finbert_2023",
-        "q_pub_allen_huang_finentity_2023"
+        "q_pub_allen_huang_finentity_2023",
+        "q_pub_yi_yang_mind_the_shift_fomc_llm_2026"
       ],
       "researcherIds": [
-        "r_allen_huang_hkust",
+        "r_yanzhen",
         "r_clark",
         "r_gang",
         "r_hailiang_chen_hku",
         "r_jiayin",
         "r_xiaoyan",
         "r_yang",
-        "r_yanzhen",
         "r_yao_lu_nus",
+        "r_allen_huang_hkust",
         "r_yi_yang_hkust"
       ],
-      "reviewedAt": "2026-10-08",
+      "reviewedAt": "2026-10-12",
       "themes": [
-        "asset",
-        "decision",
-        "digital",
         "finai",
-        "ml"
+        "digital",
+        "asset",
+        "ml",
+        "decision",
+        "ts"
       ],
       "title": "金融信息与市场反应"
     },
@@ -46872,7 +47118,8 @@
         "pub_zhanhui_carbon_markets_china",
         "pub_zhanhui_transition_risk_green_finance",
         "pub_zhanhui_inferring_stock_duration",
-        "pub_zhimin_chen_carbon_financialization_2024"
+        "pub_zhimin_chen_carbon_financialization_2024",
+        "pub_yi_yang_mind_the_shift_fomc_llm_2026"
       ],
       "question": "政策、制度和宏观冲击通过哪些机制影响金融市场与实体经济？",
       "questionIds": [
@@ -46895,7 +47142,8 @@
         "q_pub_zhanhui_carbon_markets_china",
         "q_pub_zhanhui_transition_risk_green_finance",
         "q_pub_zhanhui_inferring_stock_duration",
-        "q_pub_zhimin_chen_carbon_financialization_2024"
+        "q_pub_zhimin_chen_carbon_financialization_2024",
+        "q_pub_yi_yang_mind_the_shift_fomc_llm_2026"
       ],
       "researcherIds": [
         "r_claire",
@@ -46906,15 +47154,17 @@
         "r_xiaoyan",
         "r_yang",
         "r_zhanhui",
-        "r_zhimin_chen_ntu"
+        "r_zhimin_chen_ntu",
+        "r_yi_yang_hkust"
       ],
-      "reviewedAt": "2026-10-06",
+      "reviewedAt": "2026-10-12",
       "themes": [
         "asset",
-        "decision",
+        "ts",
         "digital",
         "ml",
-        "ts"
+        "decision",
+        "finai"
       ],
       "title": "政策、宏观冲击与金融结果"
     },
@@ -47138,7 +47388,8 @@
         "pub_jian_li_macmic_iceberg_order_execution",
         "pub_ke_2025_alphaqcm_alpha_discovery_in_finance_with_distrib",
         "pub_weichen_wang_time_series_nonlinear_sieves_2025",
-        "pub_ye_causal_reinforcement_learning_iv"
+        "pub_ye_causal_reinforcement_learning_iv",
+        "pub_nan_chen_adversarial_rl_optimal_control_2025"
       ],
       "question": "如何在有限交互和不确定环境中高效学习具有保证的策略？",
       "questionIds": [
@@ -47159,7 +47410,8 @@
         "q_pub_jian_li_macmic_iceberg_order_execution",
         "q_pub_ke_2025_alphaqcm_alpha_discovery_in_finance_with_distrib",
         "q_pub_weichen_wang_time_series_nonlinear_sieves_2025",
-        "q_pub_ye_causal_reinforcement_learning_iv"
+        "q_pub_ye_causal_reinforcement_learning_iv",
+        "q_pub_nan_chen_adversarial_rl_optimal_control_2025"
       ],
       "researcherIds": [
         "r_bo_an",
@@ -47170,13 +47422,14 @@
         "r_jian_li",
         "r_ke",
         "r_weichen_wang_hku",
-        "r_ye"
+        "r_ye",
+        "r_nan_chen_cuhk"
       ],
-      "reviewedAt": "2026-10-06",
+      "reviewedAt": "2026-10-12",
       "themes": [
-        "asset",
-        "decision",
         "finai",
+        "decision",
+        "asset",
         "ml",
         "ts"
       ],
@@ -47689,7 +47942,8 @@
         "pub_difan_2023_understanding_the_generalization_of_adam_in_lear",
         "pub_guodong_2024_robust_and_optimal_tensor_estimation_via_robust_",
         "pub_guodong_2023_an_asymptotic_analysis_of_random_partition_based",
-        "pub_he_kinetic_langevin"
+        "pub_he_kinetic_langevin",
+        "pub_nan_chen_adversarial_rl_optimal_control_2025"
       ],
       "question": "优化算法在何种条件下收敛，训练路径如何影响效率与结果？",
       "questionIds": [
@@ -47714,20 +47968,22 @@
         "q_pub_difan_2023_understanding_the_generalization_of_adam_in_lear",
         "q_pub_guodong_2024_robust_and_optimal_tensor_estimation_via_robust_",
         "q_pub_guodong_2023_an_asymptotic_analysis_of_random_partition_based",
-        "q_pub_he_kinetic_langevin"
+        "q_pub_he_kinetic_langevin",
+        "q_pub_nan_chen_adversarial_rl_optimal_control_2025"
       ],
       "researcherIds": [
+        "r_ye",
         "r_daniel_palomar_hkust",
         "r_difan",
         "r_guodong",
         "r_he",
-        "r_ye"
+        "r_nan_chen_cuhk"
       ],
-      "reviewedAt": "2026-10-02",
+      "reviewedAt": "2026-10-12",
       "themes": [
-        "decision",
         "ml",
-        "ts"
+        "ts",
+        "decision"
       ],
       "title": "优化算法与训练动力学"
     },
@@ -49031,12 +49287,12 @@
       {
         "awaitingEvidence": 0,
         "awaitingExtraction": 0,
-        "clustered": 70,
-        "clusters": 30,
-        "extracted": 70,
+        "clustered": 71,
+        "clusters": 31,
+        "extracted": 71,
         "multiPaperClusters": 20,
-        "papers": 70,
-        "singlePaperClusters": 10,
+        "papers": 71,
+        "singlePaperClusters": 11,
         "staleEvidence": 0,
         "themeId": "finai",
         "unclustered": 0
@@ -49044,12 +49300,12 @@
       {
         "awaitingEvidence": 1,
         "awaitingExtraction": 0,
-        "clustered": 93,
+        "clustered": 94,
         "clusters": 36,
-        "extracted": 93,
-        "multiPaperClusters": 21,
-        "papers": 94,
-        "singlePaperClusters": 15,
+        "extracted": 94,
+        "multiPaperClusters": 22,
+        "papers": 95,
+        "singlePaperClusters": 14,
         "staleEvidence": 0,
         "themeId": "decision",
         "unclustered": 0
@@ -49070,12 +49326,12 @@
       {
         "awaitingEvidence": 7,
         "awaitingExtraction": 0,
-        "clustered": 101,
-        "clusters": 31,
-        "extracted": 101,
+        "clustered": 102,
+        "clusters": 32,
+        "extracted": 102,
         "multiPaperClusters": 21,
-        "papers": 108,
-        "singlePaperClusters": 10,
+        "papers": 109,
+        "singlePaperClusters": 11,
         "staleEvidence": 0,
         "themeId": "ts",
         "unclustered": 0
@@ -49083,11 +49339,11 @@
       {
         "awaitingEvidence": 0,
         "awaitingExtraction": 0,
-        "clustered": 54,
+        "clustered": 55,
         "clusters": 27,
-        "extracted": 54,
+        "extracted": 55,
         "multiPaperClusters": 17,
-        "papers": 54,
+        "papers": 55,
         "singlePaperClusters": 10,
         "staleEvidence": 0,
         "themeId": "digital",
@@ -49096,22 +49352,22 @@
       {
         "awaitingEvidence": 3,
         "awaitingExtraction": 0,
-        "clustered": 243,
+        "clustered": 244,
         "clusters": 39,
-        "extracted": 243,
+        "extracted": 244,
         "multiPaperClusters": 34,
-        "papers": 246,
+        "papers": 247,
         "singlePaperClusters": 5,
         "staleEvidence": 0,
         "themeId": "ml",
         "unclustered": 0
       }
     ],
-    "clustered": 425,
+    "clustered": 427,
     "clusters": 50,
-    "extracted": 425,
+    "extracted": 427,
     "multiPaperClusters": 45,
-    "papers": 438,
+    "papers": 440,
     "singlePaperClusters": 5,
     "staleEvidence": 0,
     "unclustered": 0
@@ -59191,6 +59447,54 @@
       ],
       "reviewedAt": "2026-10-11",
       "text": "如何将价格路径的可解释特征转为可交易的自融资策略，以学习动态对冲并控制对冲误差？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_financial_information",
+        "qc_policy_macro_risk"
+      ],
+      "evidence": {
+        "digest": "15392179e2f67b8652af67407fd8a81c6bbc282f20c9707f30c6a7e5301cd93a",
+        "excerpt": "DCS 利用冻结的语言模型表征，同时学习单次 FOMC 声明的绝对立场和相邻会议的相对变化，再通过差分一致性约束形成连续的立场轨迹。摘要报告分类表现及其与通胀指标、美国国债收益率变动的关联；这些关联不是因果识别或交易收益保证。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-12",
+          "kind": "primary_preprint",
+          "label": "arXiv：完整作者顺序、版本历史及摘要",
+          "url": "https://arxiv.org/abs/2603.14313"
+        }
+      },
+      "id": "q_pub_yi_yang_mind_the_shift_fomc_llm_2026",
+      "paperIds": [
+        "pub_yi_yang_mind_the_shift_fomc_llm_2026"
+      ],
+      "reviewedAt": "2026-10-12",
+      "text": "如何结合单次声明的绝对立场与相邻会议的相对措辞变化，从冻结的语言模型表征识别连续的货币政策信号？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_rl_sample_efficiency",
+        "qc_optimization_dynamics"
+      ],
+      "evidence": {
+        "digest": "4f7fc346cc030005c4b117d8abbf968c711e289b140fbed7dc89bc303c665ee3",
+        "excerpt": "ADRL 针对高维随机控制，利用信息松弛对偶，将问题表示为策略与对抗惩罚之间的极小极大优化。摘要报告数值实验中的较紧对偶间隙。研究内容按摘要归纳，未独立核验理论条件、算法实现或实验结果。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-12",
+          "kind": "official_publication",
+          "label": "港中文官方成果库：正式会议版本、完整署名及出版年月",
+          "url": "https://research.cuhk.edu.hk/en/publications/adversarial-reinforcement-learning-a-duality-based-approach-to-so/"
+        }
+      },
+      "id": "q_pub_nan_chen_adversarial_rl_optimal_control_2025",
+      "paperIds": [
+        "pub_nan_chen_adversarial_rl_optimal_control_2025"
+      ],
+      "reviewedAt": "2026-10-12",
+      "text": "如何利用信息松弛对偶，把高维随机控制转为策略与惩罚的极小极大优化，并用对偶间隙评估近似策略的质量？"
     }
   ],
   "researchers": [
@@ -62820,11 +63124,11 @@
       "nameVariants": [],
       "position": "Associate Professor",
       "publicationCoverage": {
-        "abstractCount": 7,
-        "authorVerifiedCount": 7,
+        "abstractCount": 9,
+        "authorVerifiedCount": 9,
         "boundaryDateCount": 0,
-        "checkedAt": "2026-10-08",
-        "collectedCount": 7,
+        "checkedAt": "2026-10-12",
+        "collectedCount": 9,
         "extended": false,
         "fullTextCount": 0,
         "gaps": [
@@ -62832,15 +63136,17 @@
         ],
         "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
         "paperIds": [
+          "pub_allen_huang_finbert_2023",
           "pub_allen_huang_finentity_2023",
           "pub_yi_yang_visual_retrieval",
           "pub_yi_yang_earnings_graph",
           "pub_yi_yang_finmteb",
           "pub_yi_yang_lambdarankic",
           "pub_yi_yang_finrankgrpo",
-          "pub_yi_yang_kv_embedding"
+          "pub_yi_yang_kv_embedding",
+          "pub_yi_yang_mind_the_shift_fomc_llm_2026"
         ],
-        "recentCount": 7,
+        "recentCount": 9,
         "sourcesChecked": [
           {
             "checkedAt": "2026-09-25",
@@ -62889,12 +63195,24 @@
             "kind": "faculty_page",
             "label": "Yi Yang personal research page: FinBERT and FinEntity publication corroboration",
             "url": "https://yya518.github.io/research"
+          },
+          {
+            "checkedAt": "2026-10-12",
+            "kind": "primary_preprint",
+            "label": "arXiv：完整作者顺序、版本历史及摘要",
+            "url": "https://arxiv.org/abs/2603.14313"
+          },
+          {
+            "checkedAt": "2026-10-12",
+            "kind": "paper_byline",
+            "label": "原文署名和港科大单位核对；内容仍按摘要整理",
+            "url": "https://arxiv.org/html/2603.14313v1"
           }
         ],
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 4,
-        "windowEnd": "2026-10-07",
+        "windowEnd": "2026-10-11",
         "windowStart": "2023-10-07",
         "windowYears": 3
       },
@@ -64067,11 +64385,11 @@
       "nameVariants": [],
       "position": "Professor; Department Vice-Chairman (Graduate)",
       "publicationCoverage": {
-        "abstractCount": 2,
-        "authorVerifiedCount": 2,
-        "boundaryDateCount": 2,
-        "checkedAt": "2026-09-28",
-        "collectedCount": 2,
+        "abstractCount": 3,
+        "authorVerifiedCount": 3,
+        "boundaryDateCount": 0,
+        "checkedAt": "2026-10-12",
+        "collectedCount": 3,
         "extended": true,
         "fullTextCount": 0,
         "gaps": [
@@ -64080,9 +64398,10 @@
         "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
         "paperIds": [
           "pub_nan_chen_ai_bubbles",
-          "pub_nan_chen_belief_two_timescale"
+          "pub_nan_chen_belief_two_timescale",
+          "pub_nan_chen_adversarial_rl_optimal_control_2025"
         ],
-        "recentCount": 2,
+        "recentCount": 3,
         "sourcesChecked": [
           {
             "checkedAt": "2026-09-28",
@@ -64095,13 +64414,31 @@
             "kind": "paper_pdf",
             "label": "CUHK原文首页：完整署名及摘要",
             "url": "https://www1.se.cuhk.edu.hk/~nchenweb/Publications/MARL_Nan_Chen_Short.pdf"
+          },
+          {
+            "checkedAt": "2026-10-12",
+            "kind": "official_publication",
+            "label": "港中文官方成果库：正式会议版本、完整署名及出版年月",
+            "url": "https://research.cuhk.edu.hk/en/publications/adversarial-reinforcement-learning-a-duality-based-approach-to-so/"
+          },
+          {
+            "checkedAt": "2026-10-12",
+            "kind": "primary_preprint",
+            "label": "arXiv：完整作者顺序、版本历史及摘要",
+            "url": "https://arxiv.org/abs/2506.00801"
+          },
+          {
+            "checkedAt": "2026-10-12",
+            "kind": "paper_byline",
+            "label": "作者托管 WSC 原文：首页署名与单位核对",
+            "url": "https://www1.se.cuhk.edu.hk/~nchenweb/Publications/Adversarial_Reinforcement_Learning-3.pdf"
           }
         ],
         "status": "partial",
         "threshold": 5,
-        "uncertainDateCount": 2,
-        "windowEnd": "2026-10-05",
-        "windowStart": "2021-10-05",
+        "uncertainDateCount": 3,
+        "windowEnd": "2026-10-11",
+        "windowStart": "2021-10-07",
         "windowYears": 5
       },
       "sources": [
@@ -67802,5 +68139,5 @@
       "name": "ML Theory & Optimization"
     }
   ],
-  "updatedAt": "2026-10-10"
+  "updatedAt": "2026-10-11"
 }
