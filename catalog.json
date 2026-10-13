@@ -46430,6 +46430,303 @@
         }
       ],
       "year": 2026
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-13",
+        "reason": "已直接读取arXiv原始摘要；未阅读完整方法或复现实验。",
+        "source": "https://arxiv.org/abs/2609.35086",
+        "status": "available"
+      },
+      "abstractSummary": "RADAR 在随机贴现因子框架下学习市场状态表征：检索相似历史状态，构造情境相关的噪声分布，结合条件扩散对多模态表征去噪，并以经验统计初始化扩散。摘要报告风险调整指标和资产回报、相关性信号方面的表现；未独立复现实验，不能把表征生成直接写成生成交易决策或因果识别。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-13",
+        "kind": "primary_preprint",
+        "label": "arXiv原始记录：署名、日期和摘要",
+        "url": "https://arxiv.org/abs/2609.35086"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Kelvin J. L. Koa",
+        "Xinyang Li",
+        "Ke-Wei Huang"
+      ],
+      "authorships": [
+        {
+          "name": "Kelvin J. L. Koa",
+          "position": 1
+        },
+        {
+          "name": "Xinyang Li",
+          "position": 2
+        },
+        {
+          "name": "Ke-Wei Huang",
+          "position": 3,
+          "researcherId": "r_kewei_huang_nus"
+        }
+      ],
+      "contribution": {
+        "checkedAt": "2026-10-13",
+        "note": "完整作者顺序已核；署名位次不等于贡献大小，通讯作者只在来源明确时标注。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2026-09-28",
+      "dateEvidence": {
+        "checkedAt": "2026-10-13",
+        "kind": "date_note",
+        "label": "日期、版本与书目信息核对",
+        "note": "arXiv v1提交于2026-09-28。作者主页及arXiv comments标注NeurIPS2026，但未独立核到正式会议论文集；保留预印本状态，不把作者声明升级为正式出版。",
+        "url": "https://arxiv.org/abs/2609.35086"
+      },
+      "datePrecision": "day",
+      "doi": "10.48550/arXiv.2609.35086",
+      "id": "pub_kewei_huang_radar_sdf_portfolios_2026",
+      "paradigms": [
+        "system",
+        "empirical"
+      ],
+      "publicationStatus": "preprint",
+      "publicationType": "preprint",
+      "questionId": "q_pub_kewei_huang_radar_sdf_portfolios_2026",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "如何利用相似历史市场状态构造情境相关的噪声分布并对多模态表征去噪，以支持随机贴现因子框架下的投资组合优化？",
+      "researcherIds": [
+        "r_kewei_huang_nus"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-13",
+          "kind": "primary_preprint",
+          "label": "arXiv原始记录：署名、日期和摘要",
+          "url": "https://arxiv.org/abs/2609.35086"
+        },
+        {
+          "checkedAt": "2026-10-13",
+          "kind": "official_profile",
+          "label": "NUS导师主页：研究方向与作品书目",
+          "url": "https://www.comp.nus.edu.sg/~huangkw/"
+        }
+      ],
+      "summary": {
+        "evidence": "RADAR 在随机贴现因子框架下学习市场状态表征：检索相似历史状态，构造情境相关的噪声分布，结合条件扩散对多模态表征去噪，并以经验统计初始化扩散。摘要报告风险调整指标和资产回报、相关性信号方面的表现；未独立复现实验，不能把表征生成直接写成生成交易决策或因果识别。",
+        "gap": "摘要明确研究的问题是：如何利用相似历史市场状态构造情境相关的噪声分布并对多模态表征去噪，以支持随机贴现因子框架下的投资组合优化？",
+        "insight": "RADAR 在随机贴现因子框架下学习市场状态表征：检索相似历史状态，构造情境相关的噪声分布，结合条件扩散对多模态表征去噪，并以经验统计初始化扩散。摘要报告风险调整指标和资产回报、相关性信号方面的表现；未独立复现实验，不能把表征生成直接写成生成交易决策或因果识别。",
+        "limitation": "摘要级整理，未复现方法或实验；2028招生、资金和相近背景录取仍须独立核验。 表征去噪不直接等于生成交易决策；不据风险调整指标推断因果识别。",
+        "method": "依据所列原始摘要归纳；出版记录仅用于日期、署名和版本核对。",
+        "question": "如何利用相似历史市场状态构造情境相关的噪声分布并对多模态表征去噪，以支持随机贴现因子框架下的投资组合优化？"
+      },
+      "summaryBasis": "abstract",
+      "themes": [
+        "finai",
+        "asset",
+        "ts",
+        "ml"
+      ],
+      "title": "Retrieval-Augmented Diffusion Modeling for Stochastic Discount Factor Portfolios",
+      "url": "https://arxiv.org/abs/2609.35086",
+      "venue": "arXiv:2609.35086 v1 (preprint)",
+      "verifiedAt": "2026-10-13",
+      "versions": [],
+      "year": 2026
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-13",
+        "reason": "通过搜索工具读取原始OpenReview PDF的索引摘要与署名；直接PDF访问要求浏览器验证，ACM正文不可读。仅按摘要整理，不声称阅读全文。",
+        "source": "https://openreview.net/pdf?id=eAR5VJ2xzU",
+        "status": "available"
+      },
+      "abstractSummary": "CMS-VAE针对加密市场的高波动、非平稳和跨资产依赖，用扩张卷积的VAE学习时序与资产相关性，并引入集合金融表现损失（EFPL），通过多种策略监督使合成数据与风险收益目标对齐。摘要报告生成保真度、预测和统计套利评估；这些为作者报告，未独立复现实验，也不代表实盘收益保证。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-13",
+        "kind": "publisher_metadata",
+        "label": "ACM存入Crossref的正式作者顺序、线上及印刷日期",
+        "url": "https://api.crossref.org/works/10.1145/3768292.3771253"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Yihao Ang",
+        "Yifan Bao",
+        "Qiang Huang",
+        "Qiang Wang",
+        "Xinyu Xi",
+        "Shuyu Lu",
+        "Anthony K. H. Tung",
+        "Zhiyong Huang"
+      ],
+      "authorships": [
+        {
+          "name": "Yihao Ang",
+          "position": 1
+        },
+        {
+          "name": "Yifan Bao",
+          "position": 2
+        },
+        {
+          "name": "Qiang Huang",
+          "position": 3
+        },
+        {
+          "name": "Qiang Wang",
+          "position": 4
+        },
+        {
+          "name": "Xinyu Xi",
+          "position": 5
+        },
+        {
+          "name": "Shuyu Lu",
+          "position": 6
+        },
+        {
+          "name": "Anthony K. H. Tung",
+          "position": 7,
+          "researcherId": "r_anthony_tung_nus"
+        },
+        {
+          "name": "Zhiyong Huang",
+          "position": 8
+        }
+      ],
+      "contribution": {
+        "checkedAt": "2026-10-13",
+        "note": "完整作者顺序已核；署名位次不等于贡献大小，通讯作者只在来源明确时标注。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2025-11-14",
+      "dateEvidence": {
+        "checkedAt": "2026-10-13",
+        "kind": "date_note",
+        "label": "日期、版本与书目信息核对",
+        "note": "ACM/Crossref记载线上出版2025-11-14、印刷2025-11-15；主页pp.534–542一致。同题名同作者的NeurIPS2025 Generative AI in Finance workshop PDF合并为版本，具体workshop日期未核，不视为NeurIPS主会。",
+        "url": "https://doi.org/10.1145/3768292.3771253"
+      },
+      "datePrecision": "day",
+      "doi": "10.1145/3768292.3771253",
+      "id": "pub_anthony_tung_cms_vae_crypto_market_simulation_2025",
+      "paradigms": [
+        "system",
+        "empirical",
+        "measurement"
+      ],
+      "publicationStatus": "published",
+      "publicationType": "conference",
+      "questionId": "q_pub_anthony_tung_cms_vae_crypto_market_simulation_2025",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "如何把跨资产依赖和多策略风险收益监督纳入时序生成模型，使加密市场合成数据兼顾统计保真度和下游金融效用？",
+      "researcherIds": [
+        "r_anthony_tung_nus"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-13",
+          "kind": "publisher_metadata",
+          "label": "ACM存入Crossref的正式作者顺序、线上及印刷日期",
+          "url": "https://api.crossref.org/works/10.1145/3768292.3771253"
+        },
+        {
+          "checkedAt": "2026-10-13",
+          "kind": "primary_paper_index",
+          "label": "原始workshop PDF的搜索索引摘要及署名；直接访问要求浏览器验证",
+          "status": "indexed_abstract_read_direct_access_challenge",
+          "url": "https://openreview.net/pdf?id=eAR5VJ2xzU"
+        },
+        {
+          "checkedAt": "2026-10-13",
+          "kind": "official_profile",
+          "label": "NUS导师主页：研究方向与作品书目",
+          "url": "https://www.comp.nus.edu.sg/~atung/"
+        },
+        {
+          "checkedAt": "2026-10-13",
+          "kind": "official_coauthor_profile",
+          "label": "NUS共同作者主页：同题名、同署名的ICAIF与GenAI in Finance workshop记录",
+          "url": "https://www.comp.nus.edu.sg/~huangzy/review/selectedPapers.htm"
+        },
+        {
+          "checkedAt": "2026-10-13",
+          "kind": "official_conference",
+          "label": "ICAIF2025官方收录及署名",
+          "url": "https://icaif25.org/accepted-papers/"
+        }
+      ],
+      "summary": {
+        "evidence": "CMS-VAE针对加密市场的高波动、非平稳和跨资产依赖，用扩张卷积的VAE学习时序与资产相关性，并引入集合金融表现损失（EFPL），通过多种策略监督使合成数据与风险收益目标对齐。摘要报告生成保真度、预测和统计套利评估；这些为作者报告，未独立复现实验，也不代表实盘收益保证。",
+        "gap": "摘要明确研究的问题是：如何把跨资产依赖和多策略风险收益监督纳入时序生成模型，使加密市场合成数据兼顾统计保真度和下游金融效用？",
+        "insight": "CMS-VAE针对加密市场的高波动、非平稳和跨资产依赖，用扩张卷积的VAE学习时序与资产相关性，并引入集合金融表现损失（EFPL），通过多种策略监督使合成数据与风险收益目标对齐。摘要报告生成保真度、预测和统计套利评估；这些为作者报告，未独立复现实验，也不代表实盘收益保证。",
+        "limitation": "摘要级整理，未复现方法或实验；2028招生、资金和相近背景录取仍须独立核验。 摘要证据来自原始workshop版本；正式ACM正文未逐段核验，不能假定两版所有实验和措辞相同。",
+        "method": "依据所列原始摘要归纳；出版记录仅用于日期、署名和版本核对。",
+        "question": "如何把跨资产依赖和多策略风险收益监督纳入时序生成模型，使加密市场合成数据兼顾统计保真度和下游金融效用？"
+      },
+      "summaryBasis": "abstract",
+      "themes": [
+        "finai",
+        "ts",
+        "ml",
+        "digital"
+      ],
+      "title": "CMS-VAE: A Strategy-aware Variational AutoEncoder for High-Fidelity Crypto Market Simulation",
+      "url": "https://doi.org/10.1145/3768292.3771253",
+      "venue": "Proceedings of the 6th ACM International Conference on AI in Finance (ICAIF 2025), pp. 534–542",
+      "verifiedAt": "2026-10-13",
+      "versions": [
+        {
+          "authorEvidence": {
+            "checkedAt": "2026-10-13",
+            "kind": "primary_paper_index",
+            "label": "原始workshop PDF的搜索索引摘要及署名；直接访问要求浏览器验证",
+            "status": "indexed_abstract_read_direct_access_challenge",
+            "url": "https://openreview.net/pdf?id=eAR5VJ2xzU"
+          },
+          "authorListComplete": true,
+          "authorOrderVerified": true,
+          "authors": [
+            "Yihao Ang",
+            "Yifan Bao",
+            "Qiang Huang",
+            "Qiang Wang",
+            "Xinyu Xi",
+            "Shuyu Lu",
+            "Anthony K. H. Tung",
+            "Zhiyong Huang"
+          ],
+          "date": null,
+          "datePrecision": "year",
+          "doi": null,
+          "publicationStatus": "workshop",
+          "publicationType": "workshop",
+          "sources": [
+            {
+              "checkedAt": "2026-10-13",
+              "kind": "primary_paper_index",
+              "label": "原始workshop PDF的搜索索引摘要及署名；直接访问要求浏览器验证",
+              "status": "indexed_abstract_read_direct_access_challenge",
+              "url": "https://openreview.net/pdf?id=eAR5VJ2xzU"
+            },
+            {
+              "checkedAt": "2026-10-13",
+              "kind": "official_coauthor_profile",
+              "label": "NUS共同作者主页：同题名、同署名的ICAIF与GenAI in Finance workshop记录",
+              "url": "https://www.comp.nus.edu.sg/~huangzy/review/selectedPapers.htm"
+            }
+          ],
+          "title": "CMS-VAE: A Strategy-aware Variational AutoEncoder for High-Fidelity Crypto Market Simulation",
+          "url": "https://openreview.net/pdf?id=eAR5VJ2xzU",
+          "venue": "NeurIPS 2025 Workshop: Generative AI in Finance (not main conference)",
+          "year": 2025
+        }
+      ],
+      "year": 2025
     }
   ],
   "paradigms": [
@@ -46531,8 +46828,8 @@
   "publicCurationNote": "公开研究资料快照。主题、研究问题与研究线为编辑归纳，不代表学者本人陈述或机构背书。",
   "publicRelease": {
     "channel": "stable",
-    "snapshotDate": "2026-10-11",
-    "version": "3.3.33"
+    "snapshotDate": "2026-10-12",
+    "version": "3.3.34"
   },
   "publicationPolicy": {
     "authorshipNote": "署名位次不等于贡献排名；通讯作者、共同贡献和具体分工只按原文证据标注。",
@@ -46542,19 +46839,19 @@
     "extendedStart": "2021-10-08",
     "extendedYears": 5,
     "extensionThreshold": 5,
-    "snapshotDate": "2026-10-11",
+    "snapshotDate": "2026-10-12",
     "versionNote": "同一研究的预印本与发表版本分开保留证据；摘要来源可能与主书目版本不同。"
   },
   "publicationStats": {
-    "abstracts": 427,
+    "abstracts": 429,
     "fullTexts": 4,
     "outsideWindow": 7,
-    "papers": 440,
-    "recentPapers": 433,
+    "papers": 442,
+    "recentPapers": 435,
     "researchers": 104,
     "reviewedSources": 14,
-    "verifiedBylines": 439,
-    "withPapers": 47
+    "verifiedBylines": 441,
+    "withPapers": 48
   },
   "questionClusters": [
     {
@@ -46750,7 +47047,8 @@
         "pub_zhimin_chen_carbon_financialization_2024",
         "pub_sicong_li_factor_models_price_impact_costs_2024",
         "pub_sicong_li_asset_pricing_factors_economic_targets_2023",
-        "pub_xinghua_zheng_sharpe_ratios_2024"
+        "pub_xinghua_zheng_sharpe_ratios_2024",
+        "pub_kewei_huang_radar_sdf_portfolios_2026"
       ],
       "question": "哪些风险、特征和经济机制能够解释或预测资产回报？",
       "questionIds": [
@@ -46806,7 +47104,8 @@
         "q_pub_zhimin_chen_carbon_financialization_2024",
         "q_pub_sicong_li_factor_models_price_impact_costs_2024",
         "q_pub_sicong_li_asset_pricing_factors_economic_targets_2023",
-        "q_pub_xinghua_zheng_sharpe_ratios_2024"
+        "q_pub_xinghua_zheng_sharpe_ratios_2024",
+        "q_pub_kewei_huang_radar_sdf_portfolios_2026"
       ],
       "researcherIds": [
         "r_claire",
@@ -46819,23 +47118,24 @@
         "r_ke",
         "r_lian",
         "r_qi_liu_hku",
-        "r_sicong_li_cuhk",
         "r_weichen_wang_hku",
         "r_xiaoyan",
-        "r_xinghua_zheng_hkust",
         "r_yi_yang_hkust",
         "r_yingying",
         "r_zhanhui",
-        "r_zhimin_chen_ntu"
+        "r_zhimin_chen_ntu",
+        "r_sicong_li_cuhk",
+        "r_xinghua_zheng_hkust",
+        "r_kewei_huang_nus"
       ],
-      "reviewedAt": "2026-10-08",
+      "reviewedAt": "2026-10-13",
       "themes": [
         "asset",
-        "decision",
-        "digital",
+        "ts",
         "finai",
         "ml",
-        "ts"
+        "digital",
+        "decision"
       ],
       "title": "风险溢价与资产定价"
     },
@@ -47013,7 +47313,8 @@
         "pub_yang_bitcoin_distrust_institutions",
         "pub_yang_crypto_wash_trading",
         "pub_yang_community_status_good_pricing",
-        "pub_yang_self_collateral_crypto_run"
+        "pub_yang_self_collateral_crypto_run",
+        "pub_anthony_tung_cms_vae_crypto_market_simulation_2025"
       ],
       "question": "数字货币和支付制度如何改变金融交易、风险及参与者激励？",
       "questionIds": [
@@ -47026,18 +47327,23 @@
         "q_pub_yang_bitcoin_distrust_institutions",
         "q_pub_yang_crypto_wash_trading",
         "q_pub_yang_community_status_good_pricing",
-        "q_pub_yang_self_collateral_crypto_run"
+        "q_pub_yang_self_collateral_crypto_run",
+        "q_pub_anthony_tung_cms_vae_crypto_market_simulation_2025"
       ],
       "researcherIds": [
         "r_chen_yang_cuhk",
         "r_he",
-        "r_yang"
+        "r_yang",
+        "r_anthony_tung_nus"
       ],
-      "reviewedAt": "2026-10-05",
+      "reviewedAt": "2026-10-13",
       "themes": [
         "asset",
+        "digital",
         "decision",
-        "digital"
+        "finai",
+        "ts",
+        "ml"
       ],
       "title": "数字货币与支付机制"
     },
@@ -47216,7 +47522,9 @@
         "pub_ying_chen_optimal_trade_execution_endogenous_order_flow_2025",
         "pub_ariel_neufeld_robust_stat_arb_deep_neural_networks_2024",
         "pub_jian_li_alphaschema_2026",
-        "pub_ruixun_zhang_tradable_ito_signatures_2026"
+        "pub_ruixun_zhang_tradable_ito_signatures_2026",
+        "pub_kewei_huang_radar_sdf_portfolios_2026",
+        "pub_anthony_tung_cms_vae_crypto_market_simulation_2025"
       ],
       "question": "在不确定性和实际约束下，如何构建投资组合并控制风险？",
       "questionIds": [
@@ -47263,7 +47571,9 @@
         "q_pub_ying_chen_optimal_trade_execution_endogenous_order_flow_2025",
         "q_pub_ariel_neufeld_robust_stat_arb_deep_neural_networks_2024",
         "q_pub_jian_li_alphaschema_2026",
-        "q_pub_ruixun_zhang_tradable_ito_signatures_2026"
+        "q_pub_ruixun_zhang_tradable_ito_signatures_2026",
+        "q_pub_kewei_huang_radar_sdf_portfolios_2026",
+        "q_pub_anthony_tung_cms_vae_crypto_market_simulation_2025"
       ],
       "researcherIds": [
         "r_gao",
@@ -47289,9 +47599,11 @@
         "r_ying_chen_nus",
         "r_ariel_neufeld_ntu",
         "r_julian_sester_nus",
-        "r_jian_li"
+        "r_jian_li",
+        "r_kewei_huang_nus",
+        "r_anthony_tung_nus"
       ],
-      "reviewedAt": "2026-10-11",
+      "reviewedAt": "2026-10-13",
       "themes": [
         "asset",
         "finai",
@@ -47692,7 +48004,8 @@
         "pub_weichen_wang_time_series_nonlinear_sieves_2025",
         "pub_xiaoyan_2025_the_international_commonality_of_idiosyncratic_v",
         "pub_yanzhen_deep_learning_change_point",
-        "pub_yingying_tests_principal_eigen"
+        "pub_yingying_tests_principal_eigen",
+        "pub_anthony_tung_cms_vae_crypto_market_simulation_2025"
       ],
       "question": "如何刻画具有复杂依赖、非平稳或结构变化的时间序列？",
       "questionIds": [
@@ -47722,7 +48035,8 @@
         "q_pub_weichen_wang_time_series_nonlinear_sieves_2025",
         "q_pub_xiaoyan_2025_the_international_commonality_of_idiosyncratic_v",
         "q_pub_yanzhen_deep_learning_change_point",
-        "q_pub_yingying_tests_principal_eigen"
+        "q_pub_yingying_tests_principal_eigen",
+        "q_pub_anthony_tung_cms_vae_crypto_market_simulation_2025"
       ],
       "researcherIds": [
         "r_anthony_tung_nus",
@@ -47735,13 +48049,14 @@
         "r_yanzhen",
         "r_yingying"
       ],
-      "reviewedAt": "2026-10-06",
+      "reviewedAt": "2026-10-13",
       "themes": [
-        "asset",
-        "decision",
         "finai",
+        "ts",
+        "asset",
         "ml",
-        "ts"
+        "decision",
+        "digital"
       ],
       "title": "时间依赖与模型结构"
     },
@@ -47764,7 +48079,8 @@
         "pub_ke_2026_conditional_quantile_adjusted_conformal_predicti",
         "pub_yingying_dominate_historical_average",
         "pub_yingying_multiplicative_factor_volatility",
-        "pub_ying_chen_neural_tangent_kernel_implied_volatility_2026"
+        "pub_ying_chen_neural_tangent_kernel_implied_volatility_2026",
+        "pub_kewei_huang_radar_sdf_portfolios_2026"
       ],
       "question": "如何利用时间结构和跨序列信息，改善预测及其适用范围？",
       "questionIds": [
@@ -47782,7 +48098,8 @@
         "q_pub_ke_2026_conditional_quantile_adjusted_conformal_predicti",
         "q_pub_yingying_dominate_historical_average",
         "q_pub_yingying_multiplicative_factor_volatility",
-        "q_pub_ying_chen_neural_tangent_kernel_implied_volatility_2026"
+        "q_pub_ying_chen_neural_tangent_kernel_implied_volatility_2026",
+        "q_pub_kewei_huang_radar_sdf_portfolios_2026"
       ],
       "researcherIds": [
         "r_anthony_tung_nus",
@@ -47793,9 +48110,10 @@
         "r_junye",
         "r_ke",
         "r_yingying",
-        "r_ying_chen_nus"
+        "r_ying_chen_nus",
+        "r_kewei_huang_nus"
       ],
-      "reviewedAt": "2026-10-10",
+      "reviewedAt": "2026-10-13",
       "themes": [
         "finai",
         "ts",
@@ -48219,7 +48537,9 @@
         "pub_gao_wasserstein_score",
         "pub_gao_prob_flow",
         "pub_ruixun_diffusion_factor_models",
-        "pub_jian_li_m3_market_microstructure_2026"
+        "pub_jian_li_m3_market_microstructure_2026",
+        "pub_kewei_huang_radar_sdf_portfolios_2026",
+        "pub_anthony_tung_cms_vae_crypto_market_simulation_2025"
       ],
       "question": "生成与扩散模型如何学习数据分布，其生成质量与效率受到什么限制？",
       "questionIds": [
@@ -48254,7 +48574,9 @@
         "q_pub_gao_wasserstein_score",
         "q_pub_gao_prob_flow",
         "q_pub_ruixun_diffusion_factor_models",
-        "q_pub_jian_li_m3_market_microstructure_2026"
+        "q_pub_jian_li_m3_market_microstructure_2026",
+        "q_pub_kewei_huang_radar_sdf_portfolios_2026",
+        "q_pub_anthony_tung_cms_vae_crypto_market_simulation_2025"
       ],
       "researcherIds": [
         "r_chao",
@@ -48262,9 +48584,11 @@
         "r_gao",
         "r_he",
         "r_ruixun_zhang_pku",
-        "r_jian_li"
+        "r_jian_li",
+        "r_kewei_huang_nus",
+        "r_anthony_tung_nus"
       ],
-      "reviewedAt": "2026-10-11",
+      "reviewedAt": "2026-10-13",
       "themes": [
         "ml",
         "decision",
@@ -49287,12 +49611,12 @@
       {
         "awaitingEvidence": 0,
         "awaitingExtraction": 0,
-        "clustered": 71,
-        "clusters": 31,
-        "extracted": 71,
+        "clustered": 73,
+        "clusters": 32,
+        "extracted": 73,
         "multiPaperClusters": 20,
-        "papers": 71,
-        "singlePaperClusters": 11,
+        "papers": 73,
+        "singlePaperClusters": 12,
         "staleEvidence": 0,
         "themeId": "finai",
         "unclustered": 0
@@ -49313,11 +49637,11 @@
       {
         "awaitingEvidence": 6,
         "awaitingExtraction": 0,
-        "clustered": 150,
+        "clustered": 151,
         "clusters": 29,
-        "extracted": 150,
+        "extracted": 151,
         "multiPaperClusters": 27,
-        "papers": 156,
+        "papers": 157,
         "singlePaperClusters": 2,
         "staleEvidence": 0,
         "themeId": "asset",
@@ -49326,12 +49650,12 @@
       {
         "awaitingEvidence": 7,
         "awaitingExtraction": 0,
-        "clustered": 102,
-        "clusters": 32,
-        "extracted": 102,
+        "clustered": 104,
+        "clusters": 33,
+        "extracted": 104,
         "multiPaperClusters": 21,
-        "papers": 109,
-        "singlePaperClusters": 11,
+        "papers": 111,
+        "singlePaperClusters": 12,
         "staleEvidence": 0,
         "themeId": "ts",
         "unclustered": 0
@@ -49339,11 +49663,11 @@
       {
         "awaitingEvidence": 0,
         "awaitingExtraction": 0,
-        "clustered": 55,
-        "clusters": 27,
-        "extracted": 55,
-        "multiPaperClusters": 17,
-        "papers": 55,
+        "clustered": 56,
+        "clusters": 28,
+        "extracted": 56,
+        "multiPaperClusters": 18,
+        "papers": 56,
         "singlePaperClusters": 10,
         "staleEvidence": 0,
         "themeId": "digital",
@@ -49352,22 +49676,22 @@
       {
         "awaitingEvidence": 3,
         "awaitingExtraction": 0,
-        "clustered": 244,
-        "clusters": 39,
-        "extracted": 244,
+        "clustered": 246,
+        "clusters": 40,
+        "extracted": 246,
         "multiPaperClusters": 34,
-        "papers": 247,
-        "singlePaperClusters": 5,
+        "papers": 249,
+        "singlePaperClusters": 6,
         "staleEvidence": 0,
         "themeId": "ml",
         "unclustered": 0
       }
     ],
-    "clustered": 427,
+    "clustered": 429,
     "clusters": 50,
-    "extracted": 427,
+    "extracted": 429,
     "multiPaperClusters": 45,
-    "papers": 440,
+    "papers": 442,
     "singlePaperClusters": 5,
     "staleEvidence": 0,
     "unclustered": 0
@@ -59495,6 +59819,59 @@
       ],
       "reviewedAt": "2026-10-12",
       "text": "如何利用信息松弛对偶，把高维随机控制转为策略与惩罚的极小极大优化，并用对偶间隙评估近似策略的质量？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_asset_risk_premia",
+        "qc_portfolio_risk_control",
+        "qc_time_series_forecasting",
+        "qc_generative_diffusion"
+      ],
+      "evidence": {
+        "digest": "329f85cbc5e5b06cda9a735cf980f5dfd909e983ee899d484303e0a0e89ff57d",
+        "excerpt": "RADAR 在随机贴现因子框架下学习市场状态表征：检索相似历史状态，构造情境相关的噪声分布，结合条件扩散对多模态表征去噪，并以经验统计初始化扩散。摘要报告风险调整指标和资产回报、相关性信号方面的表现；未独立复现实验，不能把表征生成直接写成生成交易决策或因果识别。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-13",
+          "kind": "primary_preprint",
+          "label": "arXiv原始记录：署名、日期和摘要",
+          "url": "https://arxiv.org/abs/2609.35086"
+        }
+      },
+      "id": "q_pub_kewei_huang_radar_sdf_portfolios_2026",
+      "paperIds": [
+        "pub_kewei_huang_radar_sdf_portfolios_2026"
+      ],
+      "reviewedAt": "2026-10-13",
+      "text": "如何利用相似历史市场状态构造情境相关的噪声分布并对多模态表征去噪，以支持随机贴现因子框架下的投资组合优化？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_crypto_payments",
+        "qc_time_series_structure",
+        "qc_generative_diffusion",
+        "qc_portfolio_risk_control"
+      ],
+      "evidence": {
+        "digest": "64bcffc67c8533fbc324e175a3b84faeabbf96a65c330bf64171c0dcb35a63ff",
+        "excerpt": "CMS-VAE针对加密市场的高波动、非平稳和跨资产依赖，用扩张卷积的VAE学习时序与资产相关性，并引入集合金融表现损失（EFPL），通过多种策略监督使合成数据与风险收益目标对齐。摘要报告生成保真度、预测和统计套利评估；这些为作者报告，未独立复现实验，也不代表实盘收益保证。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-13",
+          "kind": "primary_paper_index",
+          "label": "原始workshop PDF的搜索索引摘要及署名；直接访问要求浏览器验证",
+          "status": "indexed_abstract_read_direct_access_challenge",
+          "url": "https://openreview.net/pdf?id=eAR5VJ2xzU"
+        }
+      },
+      "id": "q_pub_anthony_tung_cms_vae_crypto_market_simulation_2025",
+      "paperIds": [
+        "pub_anthony_tung_cms_vae_crypto_market_simulation_2025"
+      ],
+      "reviewedAt": "2026-10-13",
+      "text": "如何把跨资产依赖和多策略风险收益监督纳入时序生成模型，使加密市场合成数据兼顾统计保真度和下游金融效用？"
     }
   ],
   "researchers": [
@@ -63621,25 +63998,40 @@
       "nameVariants": [],
       "position": "Associate Professor",
       "publicationCoverage": {
-        "abstractCount": 0,
-        "authorVerifiedCount": 0,
+        "abstractCount": 1,
+        "authorVerifiedCount": 1,
         "boundaryDateCount": 0,
-        "checkedAt": null,
-        "collectedCount": 0,
+        "checkedAt": "2026-10-13",
+        "collectedCount": 1,
         "extended": true,
         "fullTextCount": 0,
         "gaps": [
           "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
         ],
         "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
-        "paperIds": [],
-        "recentCount": 0,
-        "sourcesChecked": [],
+        "paperIds": [
+          "pub_kewei_huang_radar_sdf_portfolios_2026"
+        ],
+        "recentCount": 1,
+        "sourcesChecked": [
+          {
+            "checkedAt": "2026-10-13",
+            "kind": "primary_preprint",
+            "label": "arXiv原始记录：署名、日期和摘要",
+            "url": "https://arxiv.org/abs/2609.35086"
+          },
+          {
+            "checkedAt": "2026-10-13",
+            "kind": "official_profile",
+            "label": "NUS导师主页：研究方向与作品书目",
+            "url": "https://www.comp.nus.edu.sg/~huangkw/"
+          }
+        ],
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-05",
-        "windowStart": "2021-10-05",
+        "windowEnd": "2026-10-12",
+        "windowStart": "2021-10-07",
         "windowYears": 5
       },
       "sources": [
@@ -67400,11 +67792,11 @@
       ],
       "position": "Professor",
       "publicationCoverage": {
-        "abstractCount": 2,
-        "authorVerifiedCount": 2,
-        "boundaryDateCount": 1,
-        "checkedAt": "2026-10-04",
-        "collectedCount": 2,
+        "abstractCount": 3,
+        "authorVerifiedCount": 3,
+        "boundaryDateCount": 0,
+        "checkedAt": "2026-10-13",
+        "collectedCount": 3,
         "extended": true,
         "fullTextCount": 0,
         "gaps": [
@@ -67413,9 +67805,10 @@
         "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
         "paperIds": [
           "pub_anthony_tung_ts_agent",
-          "pub_anthony_tung_ctbench"
+          "pub_anthony_tung_ctbench",
+          "pub_anthony_tung_cms_vae_crypto_market_simulation_2025"
         ],
-        "recentCount": 2,
+        "recentCount": 3,
         "sourcesChecked": [
           {
             "checkedAt": "2026-10-04",
@@ -67446,13 +67839,44 @@
             "kind": "publisher",
             "label": "正式论文PDF第一页：作者顺序与摘要",
             "url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/9b905031125e56a557db38dff4fa8d21-Paper-Conference.pdf"
+          },
+          {
+            "checkedAt": "2026-10-13",
+            "kind": "publisher_metadata",
+            "label": "ACM存入Crossref的正式作者顺序、线上及印刷日期",
+            "url": "https://api.crossref.org/works/10.1145/3768292.3771253"
+          },
+          {
+            "checkedAt": "2026-10-13",
+            "kind": "primary_paper_index",
+            "label": "原始workshop PDF的搜索索引摘要及署名；直接访问要求浏览器验证",
+            "status": "indexed_abstract_read_direct_access_challenge",
+            "url": "https://openreview.net/pdf?id=eAR5VJ2xzU"
+          },
+          {
+            "checkedAt": "2026-10-13",
+            "kind": "official_profile",
+            "label": "NUS导师主页：研究方向与作品书目",
+            "url": "https://www.comp.nus.edu.sg/~atung/"
+          },
+          {
+            "checkedAt": "2026-10-13",
+            "kind": "official_coauthor_profile",
+            "label": "NUS共同作者主页：同题名、同署名的ICAIF与GenAI in Finance workshop记录",
+            "url": "https://www.comp.nus.edu.sg/~huangzy/review/selectedPapers.htm"
+          },
+          {
+            "checkedAt": "2026-10-13",
+            "kind": "official_conference",
+            "label": "ICAIF2025官方收录及署名",
+            "url": "https://icaif25.org/accepted-papers/"
           }
         ],
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 1,
-        "windowEnd": "2026-10-05",
-        "windowStart": "2021-10-05",
+        "windowEnd": "2026-10-12",
+        "windowStart": "2021-10-07",
         "windowYears": 5
       },
       "sources": [
@@ -68139,5 +68563,5 @@
       "name": "ML Theory & Optimization"
     }
   ],
-  "updatedAt": "2026-10-11"
+  "updatedAt": "2026-10-12"
 }
