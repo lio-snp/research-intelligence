@@ -46727,6 +46727,966 @@
         }
       ],
       "year": 2025
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-14",
+        "reason": "直接读取IJCAI正式摘要，并核对原文首页署名与单位；未作全文解读或独立实验复现。",
+        "source": "https://www.ijcai.org/proceedings/2024/678",
+        "status": "available"
+      },
+      "abstractSummary": "LARA针对金融价格方向预测中的低信噪比，以度量学习辅助的局部注意力筛选潜在有用样本，再迭代修正噪声标签并组合预测器。摘要报告股票、加密货币与ETF的Qlib评估；这些是作者报告，未独立复现，也不代表实盘收益保证。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-14",
+        "kind": "paper_byline",
+        "label": "完整作者顺序及位次证据",
+        "url": "https://www.ijcai.org/proceedings/2024/678"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Liang Zeng",
+        "Lei Wang",
+        "Hui Niu",
+        "Ruchen Zhang",
+        "Ling Wang",
+        "Jian Li"
+      ],
+      "authorships": [
+        {
+          "name": "Liang Zeng",
+          "position": 1
+        },
+        {
+          "name": "Lei Wang",
+          "position": 2
+        },
+        {
+          "name": "Hui Niu",
+          "position": 3
+        },
+        {
+          "name": "Ruchen Zhang",
+          "position": 4
+        },
+        {
+          "name": "Ling Wang",
+          "position": 5
+        },
+        {
+          "name": "Jian Li",
+          "position": 6,
+          "researcherId": "r_jian_li"
+        }
+      ],
+      "contribution": {
+        "checkedAt": "2026-10-14",
+        "note": "完整作者顺序已核；署名位次不等于贡献大小，通讯作者只在来源明确时标注。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": null,
+      "dateEvidence": {
+        "checkedAt": "2026-10-14",
+        "kind": "date_note",
+        "label": "日期、版本与书目信息核对",
+        "note": "正式版仅核到2024出版年，不补造具体出版日。arXiv初稿2021-07-26、最新v4修订2024-07-10；同题名同完整署名合并为一项研究，主记录以IJCAI2024正式版为准。",
+        "url": "https://www.ijcai.org/proceedings/2024/678"
+      },
+      "datePrecision": "year",
+      "doi": "10.24963/ijcai.2024/678",
+      "id": "pub_jian_li_lara_stock_prediction_2024",
+      "paradigms": [
+        "system",
+        "empirical"
+      ],
+      "publicationStatus": "published",
+      "publicationType": "conference",
+      "questionId": "q_pub_jian_li_lara_stock_prediction_2024",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "如何在低信噪比的金融序列中通过局部样本筛选和迭代标签修正，提高价格方向预测的稳健性？",
+      "researcherIds": [
+        "r_jian_li"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-14",
+          "kind": "paper_byline",
+          "label": "完整作者顺序及位次证据",
+          "url": "https://www.ijcai.org/proceedings/2024/678"
+        },
+        {
+          "checkedAt": "2026-10-14",
+          "kind": "primary_preprint",
+          "label": "arXiv v1/v4：完整署名、摘要与提交历史",
+          "url": "https://arxiv.org/abs/2107.11972"
+        },
+        {
+          "checkedAt": "2026-10-14",
+          "kind": "paper_byline",
+          "label": "正式原文首页：IIIS单位、作者顺序与摘要",
+          "url": "https://www.ijcai.org/proceedings/2024/0678.pdf"
+        }
+      ],
+      "summary": {
+        "evidence": "LARA针对金融价格方向预测中的低信噪比，以度量学习辅助的局部注意力筛选潜在有用样本，再迭代修正噪声标签并组合预测器。摘要报告股票、加密货币与ETF的Qlib评估；这些是作者报告，未独立复现，也不代表实盘收益保证。",
+        "gap": "摘要明确涉及的问题：如何在低信噪比的金融序列中通过局部样本筛选和迭代标签修正，提高价格方向预测的稳健性？",
+        "insight": "LARA针对金融价格方向预测中的低信噪比，以度量学习辅助的局部注意力筛选潜在有用样本，再迭代修正噪声标签并组合预测器。摘要报告股票、加密货币与ETF的Qlib评估；这些是作者报告，未独立复现，也不代表实盘收益保证。",
+        "limitation": "摘要级整理，未独立复核全文证明、实验或生产部署；署名位次不推断贡献大小。",
+        "method": "依据原始摘要归纳；出版元数据仅支持书目、日期和署名核对。",
+        "question": "如何在低信噪比的金融序列中通过局部样本筛选和迭代标签修正，提高价格方向预测的稳健性？"
+      },
+      "summaryBasis": "abstract",
+      "themes": [
+        "finai",
+        "ts",
+        "ml"
+      ],
+      "title": "Trade When Opportunity Comes: Price Movement Forecasting via Locality-Aware Attention and Iterative Refinement Labeling",
+      "url": "https://www.ijcai.org/proceedings/2024/678",
+      "venue": "IJCAI 2024 Main Track, pp. 6134–6142",
+      "verifiedAt": "2026-10-14",
+      "versions": [
+        {
+          "authorEvidence": {
+            "checkedAt": "2026-10-14",
+            "kind": "primary_preprint",
+            "label": "arXiv v1/v4：原始日期及完整署名",
+            "url": "https://arxiv.org/abs/2107.11972"
+          },
+          "authorListComplete": true,
+          "authorOrderVerified": true,
+          "authors": [
+            "Liang Zeng",
+            "Lei Wang",
+            "Hui Niu",
+            "Ruchen Zhang",
+            "Ling Wang",
+            "Jian Li"
+          ],
+          "date": "2024-07-10",
+          "datePrecision": "day",
+          "doi": "10.48550/arXiv.2107.11972",
+          "publicationStatus": "preprint",
+          "publicationType": "preprint",
+          "sources": [
+            {
+              "checkedAt": "2026-10-14",
+              "kind": "primary_preprint",
+              "label": "arXiv v1/v4：原始日期及完整署名",
+              "url": "https://arxiv.org/abs/2107.11972"
+            }
+          ],
+          "title": "Trade When Opportunity Comes: Price Movement Forecasting via Locality-Aware Attention and Iterative Refinement Labeling",
+          "url": "https://arxiv.org/abs/2107.11972",
+          "venue": "arXiv:2107.11972 v4 (first submitted 2021-07-26)",
+          "year": 2024
+        }
+      ],
+      "year": 2024
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-14",
+        "reason": "直接读取SSRN登记的Crossref完整署名与摘要，日期交叉核对SSRN原始记录搜索索引；SSRN页面受限，未阅读全文。",
+        "source": "https://api.crossref.org/works/10.2139/ssrn.6293478",
+        "status": "available"
+      },
+      "abstractSummary": "DORADO研究结果相关的高风险研发项目组合，利用实物期权和动态规划平衡分散投资与早期结果带来的信息价值，并以离线模型估计和强化学习处理更大、异质的项目集合。摘要用胶质母细胞瘤治疗研发作应用示例；不把该案例扩写为二级市场投资表现。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-14",
+        "kind": "publisher_metadata",
+        "label": "完整作者顺序及位次证据",
+        "url": "https://api.crossref.org/works/10.2139/ssrn.6293478"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Zixi Chen",
+        "Leonid Kogan",
+        "Andrew W. Lo",
+        "Qingyang Xu",
+        "Ruixun Zhang"
+      ],
+      "authorships": [
+        {
+          "name": "Zixi Chen",
+          "position": 1
+        },
+        {
+          "name": "Leonid Kogan",
+          "position": 2
+        },
+        {
+          "name": "Andrew W. Lo",
+          "position": 3
+        },
+        {
+          "name": "Qingyang Xu",
+          "position": 4
+        },
+        {
+          "name": "Ruixun Zhang",
+          "position": 5,
+          "researcherId": "r_ruixun_zhang_pku"
+        }
+      ],
+      "contribution": {
+        "checkedAt": "2026-10-14",
+        "note": "完整作者顺序已核；署名位次不等于贡献大小，通讯作者只在来源明确时标注。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2026-03-09",
+      "dateEvidence": {
+        "checkedAt": "2026-10-14",
+        "kind": "date_note",
+        "label": "日期、版本与书目信息核对",
+        "note": "SSRN记载写作日2026-02-06、上线日2026-03-09。作者页写Management Science forthcoming，但尚未独立核到正式出版记录；保留工作论文状态，不补造期卷或页码。",
+        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6293478"
+      },
+      "datePrecision": "day",
+      "doi": "10.2139/ssrn.6293478",
+      "id": "pub_ruixun_zhang_dorado_dynamic_rd_options_2026",
+      "paradigms": [
+        "control",
+        "system",
+        "empirical"
+      ],
+      "publicationStatus": "working_paper",
+      "publicationType": "working_paper",
+      "questionId": "q_pub_ruixun_zhang_dorado_dynamic_rd_options_2026",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "面对结果相关、投入可分阶段调整的研发项目，如何兼顾分散投资与逐步获得的信息，以优化研发组合的动态资本配置？",
+      "researcherIds": [
+        "r_ruixun_zhang_pku"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-14",
+          "kind": "publisher_metadata",
+          "label": "完整作者顺序及位次证据",
+          "url": "https://api.crossref.org/works/10.2139/ssrn.6293478"
+        },
+        {
+          "checkedAt": "2026-10-14",
+          "kind": "primary_record",
+          "label": "原始出版/预印本记录：书目和日期",
+          "status": "primary_record_search_index",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6293478"
+        },
+        {
+          "checkedAt": "2026-10-14",
+          "kind": "author_homepage",
+          "label": "作者主页：对应作品书目",
+          "url": "https://ruixunzhang.com/research"
+        }
+      ],
+      "summary": {
+        "evidence": "DORADO研究结果相关的高风险研发项目组合，利用实物期权和动态规划平衡分散投资与早期结果带来的信息价值，并以离线模型估计和强化学习处理更大、异质的项目集合。摘要用胶质母细胞瘤治疗研发作应用示例；不把该案例扩写为二级市场投资表现。",
+        "gap": "摘要明确涉及的问题：面对结果相关、投入可分阶段调整的研发项目，如何兼顾分散投资与逐步获得的信息，以优化研发组合的动态资本配置？",
+        "insight": "DORADO研究结果相关的高风险研发项目组合，利用实物期权和动态规划平衡分散投资与早期结果带来的信息价值，并以离线模型估计和强化学习处理更大、异质的项目集合。摘要用胶质母细胞瘤治疗研发作应用示例；不把该案例扩写为二级市场投资表现。",
+        "limitation": "摘要级整理，未独立复核全文证明、实验或生产部署；署名位次不推断贡献大小。",
+        "method": "依据原始摘要归纳；出版元数据仅支持书目、日期和署名核对。",
+        "question": "面对结果相关、投入可分阶段调整的研发项目，如何兼顾分散投资与逐步获得的信息，以优化研发组合的动态资本配置？"
+      },
+      "summaryBasis": "abstract",
+      "themes": [
+        "decision",
+        "asset",
+        "finai"
+      ],
+      "title": "DORADO: Dynamic Optimization of R&D Options",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6293478",
+      "venue": "SSRN working paper; Management Science forthcoming is an author-page statement",
+      "verifiedAt": "2026-10-14",
+      "versions": [],
+      "year": 2026
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-14",
+        "reason": "直接读取arXiv摘要，并核对原文首页的五位作者；未作全文证明审查。",
+        "source": "https://arxiv.org/abs/2607.17865",
+        "status": "available"
+      },
+      "abstractSummary": "论文研究签名特征用于路径回归时的逼近与统计一致性，将截断误差与OLS、LASSO和逻辑回归联系起来。摘要包括外汇已实现波动率预测、电池与EEG应用。理论结论在此作为作者陈述整理，未独立审查证明。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-14",
+        "kind": "paper_byline",
+        "label": "完整作者顺序及位次证据",
+        "url": "https://arxiv.org/pdf/2607.17865"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Blanka Horvath",
+        "Wen Su",
+        "Wu Su",
+        "Binnan Wang",
+        "Ruixun Zhang"
+      ],
+      "authorships": [
+        {
+          "name": "Blanka Horvath",
+          "position": 1
+        },
+        {
+          "name": "Wen Su",
+          "position": 2
+        },
+        {
+          "name": "Wu Su",
+          "position": 3
+        },
+        {
+          "name": "Binnan Wang",
+          "position": 4
+        },
+        {
+          "name": "Ruixun Zhang",
+          "position": 5,
+          "researcherId": "r_ruixun_zhang_pku"
+        }
+      ],
+      "contribution": {
+        "checkedAt": "2026-10-14",
+        "note": "完整作者顺序已核；署名位次不等于贡献大小，通讯作者只在来源明确时标注。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2026-07-20",
+      "dateEvidence": {
+        "checkedAt": "2026-10-14",
+        "kind": "date_note",
+        "label": "日期、版本与书目信息核对",
+        "note": "arXiv v1提交2026-07-20，v2修订2026-08-22；主日期保留初次上线，当前摘要按v2记录。原文首页另有手稿日期，不替代arXiv修订日。",
+        "url": "https://arxiv.org/abs/2607.17865"
+      },
+      "datePrecision": "day",
+      "doi": "10.48550/arXiv.2607.17865",
+      "id": "pub_ruixun_zhang_signatures_path_regression_2026",
+      "paradigms": [
+        "theory",
+        "empirical"
+      ],
+      "publicationStatus": "preprint",
+      "publicationType": "preprint",
+      "questionId": "q_pub_ruixun_zhang_signatures_path_regression_2026",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "路径回归中，签名特征的截断误差与统计估计误差如何共同影响OLS、LASSO或逻辑回归的学习表现？",
+      "researcherIds": [
+        "r_ruixun_zhang_pku"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-14",
+          "kind": "paper_byline",
+          "label": "完整作者顺序及位次证据",
+          "url": "https://arxiv.org/pdf/2607.17865"
+        },
+        {
+          "checkedAt": "2026-10-14",
+          "kind": "primary_record",
+          "label": "原始出版/预印本记录：书目和日期",
+          "url": "https://arxiv.org/abs/2607.17865"
+        },
+        {
+          "checkedAt": "2026-10-14",
+          "kind": "author_homepage",
+          "label": "作者主页：对应作品书目",
+          "url": "https://ruixunzhang.com/research"
+        }
+      ],
+      "summary": {
+        "evidence": "论文研究签名特征用于路径回归时的逼近与统计一致性，将截断误差与OLS、LASSO和逻辑回归联系起来。摘要包括外汇已实现波动率预测、电池与EEG应用。理论结论在此作为作者陈述整理，未独立审查证明。",
+        "gap": "摘要明确涉及的问题：路径回归中，签名特征的截断误差与统计估计误差如何共同影响OLS、LASSO或逻辑回归的学习表现？",
+        "insight": "论文研究签名特征用于路径回归时的逼近与统计一致性，将截断误差与OLS、LASSO和逻辑回归联系起来。摘要包括外汇已实现波动率预测、电池与EEG应用。理论结论在此作为作者陈述整理，未独立审查证明。",
+        "limitation": "摘要级整理，未独立复核全文证明、实验或生产部署；署名位次不推断贡献大小。",
+        "method": "依据原始摘要归纳；出版元数据仅支持书目、日期和署名核对。",
+        "question": "路径回归中，签名特征的截断误差与统计估计误差如何共同影响OLS、LASSO或逻辑回归的学习表现？"
+      },
+      "summaryBasis": "abstract",
+      "themes": [
+        "ml",
+        "ts",
+        "finai"
+      ],
+      "title": "How Fast Do Signatures Learn? Statistical Theory and Applications for Path Regression",
+      "url": "https://arxiv.org/abs/2607.17865",
+      "venue": "arXiv:2607.17865 v2 (preprint)",
+      "verifiedAt": "2026-10-14",
+      "versions": [],
+      "year": 2026
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-14",
+        "reason": "直接读取arXiv原始摘要与完整署名；未审查全文证明或复现实验。",
+        "source": "https://arxiv.org/abs/2605.17271",
+        "status": "available"
+      },
+      "abstractSummary": "论文用KL松弛和策略梯度优化随机过程间的双因果最优传输，保留非预见的信息结构约束，并展示稳健次级对冲及时间序列降尺度应用。这里的双因果约束是过程耦合的信息约束，不据此宣称经济因果识别；证明和实验尚未独立复核。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-14",
+        "kind": "paper_byline",
+        "label": "完整作者顺序及位次证据",
+        "url": "https://arxiv.org/abs/2605.17271"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Haoyang Cao",
+        "Jesse Hoekstra",
+        "Renyuan Xu",
+        "Yumin Xu",
+        "Ruixun Zhang"
+      ],
+      "authorships": [
+        {
+          "name": "Haoyang Cao",
+          "position": 1
+        },
+        {
+          "name": "Jesse Hoekstra",
+          "position": 2
+        },
+        {
+          "name": "Renyuan Xu",
+          "position": 3
+        },
+        {
+          "name": "Yumin Xu",
+          "position": 4
+        },
+        {
+          "name": "Ruixun Zhang",
+          "position": 5,
+          "researcherId": "r_ruixun_zhang_pku"
+        }
+      ],
+      "contribution": {
+        "checkedAt": "2026-10-14",
+        "note": "完整作者顺序已核；署名位次不等于贡献大小，通讯作者只在来源明确时标注。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2026-05-17",
+      "dateEvidence": {
+        "checkedAt": "2026-10-14",
+        "kind": "date_note",
+        "label": "日期、版本与书目信息核对",
+        "note": "按arXiv原始记录保留2026-05-17 v1提交日；当前未独立核到正式会议或期刊出版。",
+        "url": "https://arxiv.org/abs/2605.17271"
+      },
+      "datePrecision": "day",
+      "doi": "10.48550/arXiv.2605.17271",
+      "id": "pub_ruixun_zhang_bicausal_ot_policy_gradients_2026",
+      "paradigms": [
+        "theory",
+        "control",
+        "system"
+      ],
+      "publicationStatus": "preprint",
+      "publicationType": "preprint",
+      "questionId": "q_pub_ruixun_zhang_bicausal_ot_policy_gradients_2026",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "如何通过KL松弛与策略梯度求解保留非预见信息约束的双因果最优传输，并用于稳健次级对冲或时间序列降尺度？",
+      "researcherIds": [
+        "r_ruixun_zhang_pku"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-14",
+          "kind": "paper_byline",
+          "label": "完整作者顺序及位次证据",
+          "url": "https://arxiv.org/abs/2605.17271"
+        },
+        {
+          "checkedAt": "2026-10-14",
+          "kind": "author_homepage",
+          "label": "作者主页：对应作品书目",
+          "url": "https://ruixunzhang.com/research"
+        }
+      ],
+      "summary": {
+        "evidence": "论文用KL松弛和策略梯度优化随机过程间的双因果最优传输，保留非预见的信息结构约束，并展示稳健次级对冲及时间序列降尺度应用。这里的双因果约束是过程耦合的信息约束，不据此宣称经济因果识别；证明和实验尚未独立复核。",
+        "gap": "摘要明确涉及的问题：如何通过KL松弛与策略梯度求解保留非预见信息约束的双因果最优传输，并用于稳健次级对冲或时间序列降尺度？",
+        "insight": "论文用KL松弛和策略梯度优化随机过程间的双因果最优传输，保留非预见的信息结构约束，并展示稳健次级对冲及时间序列降尺度应用。这里的双因果约束是过程耦合的信息约束，不据此宣称经济因果识别；证明和实验尚未独立复核。",
+        "limitation": "摘要级整理，未独立复核全文证明、实验或生产部署；署名位次不推断贡献大小。",
+        "method": "依据原始摘要归纳；出版元数据仅支持书目、日期和署名核对。",
+        "question": "如何通过KL松弛与策略梯度求解保留非预见信息约束的双因果最优传输，并用于稳健次级对冲或时间序列降尺度？"
+      },
+      "summaryBasis": "abstract",
+      "themes": [
+        "ml",
+        "decision",
+        "finai",
+        "ts"
+      ],
+      "title": "Scalable Bi-causal Optimal Transport via KL Relaxation and Policy Gradients",
+      "url": "https://arxiv.org/abs/2605.17271",
+      "venue": "arXiv:2605.17271 (preprint)",
+      "verifiedAt": "2026-10-14",
+      "versions": [],
+      "year": 2026
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-14",
+        "reason": "直接读取SSRN登记的Crossref完整署名与摘要；上线日由原始SSRN记录搜索索引确认，SSRN页面受限；实验室目录作交叉证据，非全文阅读。",
+        "source": "https://api.crossref.org/works/10.2139/ssrn.7286866",
+        "status": "available"
+      },
+      "abstractSummary": "MacroAllocAgent以五个LLM智能体处理中文宏观金融沟通与展望材料，归纳周期概率和资产收益观点，聚合不确定性后接入Black–Litterman组合优化。摘要报告长期配置回测，未独立复现，不推断实盘收益或政策冲击的因果效应。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-14",
+        "kind": "publisher_metadata",
+        "label": "完整作者顺序及位次证据",
+        "url": "https://api.crossref.org/works/10.2139/ssrn.7286866"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Jinyuan Wang",
+        "Ningyuan Deng",
+        "Qi Li",
+        "Yi Yang"
+      ],
+      "authorships": [
+        {
+          "name": "Jinyuan Wang",
+          "position": 1
+        },
+        {
+          "name": "Ningyuan Deng",
+          "position": 2
+        },
+        {
+          "name": "Qi Li",
+          "position": 3
+        },
+        {
+          "name": "Yi Yang",
+          "position": 4,
+          "researcherId": "r_yi_yang_hkust"
+        }
+      ],
+      "contribution": {
+        "checkedAt": "2026-10-14",
+        "note": "完整作者顺序已核；署名位次不等于贡献大小，通讯作者只在来源明确时标注。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2026-08-15",
+      "dateEvidence": {
+        "checkedAt": "2026-10-14",
+        "kind": "date_note",
+        "label": "日期、版本与书目信息核对",
+        "note": "SSRN原始记录搜索索引明确标记Posted: 15 Aug 2026；Crossref created/deposited同日仅作交叉证据，不将登记日期单独当作发表日。HKUST实验室列为2026工作论文，未确认正式会议或期刊出版。",
+        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7286866"
+      },
+      "datePrecision": "day",
+      "doi": "10.2139/ssrn.7286866",
+      "id": "pub_yi_yang_macroallocagent_2026",
+      "paradigms": [
+        "system",
+        "empirical"
+      ],
+      "publicationStatus": "working_paper",
+      "publicationType": "working_paper",
+      "questionId": "q_pub_yi_yang_macroallocagent_2026",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "如何将宏观叙事转为周期概率、收益观点与不确定性，再接入Black–Litterman模型形成长期资产配置？",
+      "researcherIds": [
+        "r_yi_yang_hkust"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-14",
+          "kind": "publisher_metadata",
+          "label": "完整作者顺序及位次证据",
+          "url": "https://api.crossref.org/works/10.2139/ssrn.7286866"
+        },
+        {
+          "checkedAt": "2026-10-14",
+          "kind": "primary_record",
+          "label": "原始出版/预印本记录：书目和日期",
+          "status": "primary_record_search_index",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7286866"
+        },
+        {
+          "checkedAt": "2026-10-14",
+          "kind": "official_lab",
+          "label": "HKUST FinNLP实验室：同题名工作论文",
+          "url": "https://finnlp.hkust.edu.hk/papers.html"
+        }
+      ],
+      "summary": {
+        "evidence": "MacroAllocAgent以五个LLM智能体处理中文宏观金融沟通与展望材料，归纳周期概率和资产收益观点，聚合不确定性后接入Black–Litterman组合优化。摘要报告长期配置回测，未独立复现，不推断实盘收益或政策冲击的因果效应。",
+        "gap": "摘要明确涉及的问题：如何将宏观叙事转为周期概率、收益观点与不确定性，再接入Black–Litterman模型形成长期资产配置？",
+        "insight": "MacroAllocAgent以五个LLM智能体处理中文宏观金融沟通与展望材料，归纳周期概率和资产收益观点，聚合不确定性后接入Black–Litterman组合优化。摘要报告长期配置回测，未独立复现，不推断实盘收益或政策冲击的因果效应。",
+        "limitation": "摘要级整理，未独立复核全文证明、实验或生产部署；署名位次不推断贡献大小。",
+        "method": "依据原始摘要归纳；出版元数据仅支持书目、日期和署名核对。",
+        "question": "如何将宏观叙事转为周期概率、收益观点与不确定性，再接入Black–Litterman模型形成长期资产配置？"
+      },
+      "summaryBasis": "abstract",
+      "themes": [
+        "finai",
+        "asset",
+        "decision",
+        "digital"
+      ],
+      "title": "MacroAllocAgent: From macro narratives to strategic asset allocation via a multi-agent LLM system",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7286866",
+      "venue": "SSRN working paper",
+      "verifiedAt": "2026-10-14",
+      "versions": [],
+      "year": 2026
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-14",
+        "reason": "直接读取ACL Anthology正式摘要、完整署名与书目信息；未作全文实验审查。",
+        "source": "https://aclanthology.org/2026.findings-eacl.289/",
+        "status": "available"
+      },
+      "abstractSummary": "论文用金融情境合成文本评估13个嵌入模型对数值信息的敏感性，例如百分之二与百分之二十的区别。摘要指出不少模型未能保留这些差异。评测直接涉及金融语境，但不等于完成资产定价或交易绩效验证。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-14",
+        "kind": "paper_byline",
+        "label": "完整作者顺序及位次证据",
+        "url": "https://aclanthology.org/2026.findings-eacl.289/"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Ningyuan Deng",
+        "Hanyu Duan",
+        "Yixuan Tang",
+        "Yi Yang"
+      ],
+      "authorships": [
+        {
+          "name": "Ningyuan Deng",
+          "position": 1
+        },
+        {
+          "name": "Hanyu Duan",
+          "position": 2
+        },
+        {
+          "name": "Yixuan Tang",
+          "position": 3
+        },
+        {
+          "name": "Yi Yang",
+          "position": 4,
+          "researcherId": "r_yi_yang_hkust"
+        }
+      ],
+      "contribution": {
+        "checkedAt": "2026-10-14",
+        "note": "完整作者顺序已核；署名位次不等于贡献大小，通讯作者只在来源明确时标注。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2026-03",
+      "dateEvidence": {
+        "checkedAt": "2026-10-14",
+        "kind": "date_note",
+        "label": "日期、版本与书目信息核对",
+        "note": "ACL正式记录给出2026年3月、Findings of EACL及5448–5461页；只保留月精度，不补造出版日。",
+        "url": "https://aclanthology.org/2026.findings-eacl.289/"
+      },
+      "datePrecision": "month",
+      "doi": "10.18653/v1/2026.findings-eacl.289",
+      "id": "pub_yi_yang_numeracy_gap_embedding_models_2026",
+      "paradigms": [
+        "measurement",
+        "diagnostic"
+      ],
+      "publicationStatus": "published",
+      "publicationType": "conference",
+      "questionId": "q_pub_yi_yang_numeracy_gap_embedding_models_2026",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "金融语境中，文本嵌入模型能否区分数值变化及其含义，如何系统测量数值敏感性缺口？",
+      "researcherIds": [
+        "r_yi_yang_hkust"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-14",
+          "kind": "paper_byline",
+          "label": "完整作者顺序及位次证据",
+          "url": "https://aclanthology.org/2026.findings-eacl.289/"
+        }
+      ],
+      "summary": {
+        "evidence": "论文用金融情境合成文本评估13个嵌入模型对数值信息的敏感性，例如百分之二与百分之二十的区别。摘要指出不少模型未能保留这些差异。评测直接涉及金融语境，但不等于完成资产定价或交易绩效验证。",
+        "gap": "摘要明确涉及的问题：金融语境中，文本嵌入模型能否区分数值变化及其含义，如何系统测量数值敏感性缺口？",
+        "insight": "论文用金融情境合成文本评估13个嵌入模型对数值信息的敏感性，例如百分之二与百分之二十的区别。摘要指出不少模型未能保留这些差异。评测直接涉及金融语境，但不等于完成资产定价或交易绩效验证。",
+        "limitation": "摘要级整理，未独立复核全文证明、实验或生产部署；署名位次不推断贡献大小。",
+        "method": "依据原始摘要归纳；出版元数据仅支持书目、日期和署名核对。",
+        "question": "金融语境中，文本嵌入模型能否区分数值变化及其含义，如何系统测量数值敏感性缺口？"
+      },
+      "summaryBasis": "abstract",
+      "themes": [
+        "finai",
+        "ml",
+        "digital"
+      ],
+      "title": "Revealing the Numeracy Gap: An Empirical Investigation of Text Embedding Models",
+      "url": "https://aclanthology.org/2026.findings-eacl.289/",
+      "venue": "Findings of EACL 2026, pp. 5448–5461",
+      "verifiedAt": "2026-10-14",
+      "versions": [],
+      "year": 2026
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-14",
+        "reason": "直接读取INFORMS登记的Crossref完整署名与摘要，并用出版社原始记录搜索索引核对线上出版日；出版社直接页面受限，未阅读全文。",
+        "source": "https://api.crossref.org/works/10.1287/ijoc.2023.0195",
+        "status": "available"
+      },
+      "abstractSummary": "论文把长篇业绩电话会议拆为从问答对到整场会议的语义连贯对话单元，以辅助对比目标和风险预测任务共同学习风险相关文本表示。摘要报告美国公司电话会议数据上的改善，未独立复现，不据预测结果推断风险的因果来源。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-14",
+        "kind": "publisher_metadata",
+        "label": "完整作者顺序及位次证据",
+        "url": "https://api.crossref.org/works/10.1287/ijoc.2023.0195"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Yi He",
+        "Yi Yang",
+        "Defu Lian",
+        "Kunpeng Zhang"
+      ],
+      "authorships": [
+        {
+          "name": "Yi He",
+          "position": 1
+        },
+        {
+          "name": "Yi Yang",
+          "position": 2,
+          "researcherId": "r_yi_yang_hkust"
+        },
+        {
+          "name": "Defu Lian",
+          "position": 3
+        },
+        {
+          "name": "Kunpeng Zhang",
+          "position": 4
+        }
+      ],
+      "contribution": {
+        "checkedAt": "2026-10-14",
+        "note": "完整作者顺序已核；署名位次不等于贡献大小，通讯作者只在来源明确时标注。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2025-04-25",
+      "dateEvidence": {
+        "checkedAt": "2026-10-14",
+        "kind": "date_note",
+        "label": "日期、版本与书目信息核对",
+        "note": "正确DOI为10.1287/ijoc.2023.0195。出版社记录显示线上2025-04-25；Crossref正式印刷记录为2026年3月、38(2)、531–547页。同一DOI只计一次，主日期采用线上出版日。",
+        "url": "https://pubsonline.informs.org/doi/10.1287/ijoc.2023.0195"
+      },
+      "datePrecision": "day",
+      "doi": "10.1287/ijoc.2023.0195",
+      "id": "pub_yi_yang_divide_and_contrast_risk_prediction_2025",
+      "paradigms": [
+        "system",
+        "empirical"
+      ],
+      "publicationStatus": "published",
+      "publicationType": "journal",
+      "questionId": "q_pub_yi_yang_divide_and_contrast_risk_prediction_2025",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "如何利用业绩电话会议的分层问答结构及辅助对比学习，提取与企业市场风险有关的长文本表示？",
+      "researcherIds": [
+        "r_yi_yang_hkust"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-14",
+          "kind": "publisher_metadata",
+          "label": "完整作者顺序及位次证据",
+          "url": "https://api.crossref.org/works/10.1287/ijoc.2023.0195"
+        },
+        {
+          "checkedAt": "2026-10-14",
+          "kind": "primary_record",
+          "label": "原始出版/预印本记录：书目和日期",
+          "status": "primary_record_search_index",
+          "url": "https://pubsonline.informs.org/doi/10.1287/ijoc.2023.0195"
+        }
+      ],
+      "summary": {
+        "evidence": "论文把长篇业绩电话会议拆为从问答对到整场会议的语义连贯对话单元，以辅助对比目标和风险预测任务共同学习风险相关文本表示。摘要报告美国公司电话会议数据上的改善，未独立复现，不据预测结果推断风险的因果来源。",
+        "gap": "摘要明确涉及的问题：如何利用业绩电话会议的分层问答结构及辅助对比学习，提取与企业市场风险有关的长文本表示？",
+        "insight": "论文把长篇业绩电话会议拆为从问答对到整场会议的语义连贯对话单元，以辅助对比目标和风险预测任务共同学习风险相关文本表示。摘要报告美国公司电话会议数据上的改善，未独立复现，不据预测结果推断风险的因果来源。",
+        "limitation": "摘要级整理，未独立复核全文证明、实验或生产部署；署名位次不推断贡献大小。",
+        "method": "依据原始摘要归纳；出版元数据仅支持书目、日期和署名核对。",
+        "question": "如何利用业绩电话会议的分层问答结构及辅助对比学习，提取与企业市场风险有关的长文本表示？"
+      },
+      "summaryBasis": "abstract",
+      "themes": [
+        "finai",
+        "asset",
+        "digital",
+        "ml"
+      ],
+      "title": "Divide and Contrast: A Text-Based Method for Firm Market Risk Prediction",
+      "url": "https://pubsonline.informs.org/doi/10.1287/ijoc.2023.0195",
+      "venue": "INFORMS Journal on Computing, online 2025; print 38(2), 2026, pp. 531–547",
+      "verifiedAt": "2026-10-14",
+      "versions": [],
+      "year": 2025
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-14",
+        "reason": "直接读取HKUST官方研究门户摘要，完整署名与日期和ACM登记的Crossref元数据核对；未阅读完整论文或验证部署。",
+        "source": "https://researchportal.hkust.edu.hk/en/publications/efficient-multi-expert-tabular-language-model-for-banking/",
+        "status": "available"
+      },
+      "abstractSummary": "论文提出多专家表格语言模型，用分而治之预训练和稀疏激活微调处理银行数据库，以降低所需算力。机构摘要报告百亿参数模型及风险评估、信息预测、利润评估应用；规模、效果和部署均按作者报告整理，未独立验证生产部署。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-14",
+        "kind": "publisher_metadata",
+        "label": "完整作者顺序及位次证据",
+        "url": "https://api.crossref.org/works/10.1145/3690624.3709400"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Yue Guo",
+        "Wentao Zhang",
+        "Xiaojun Zhang",
+        "Vincent W. Zheng",
+        "Yi Yang"
+      ],
+      "authorships": [
+        {
+          "name": "Yue Guo",
+          "position": 1
+        },
+        {
+          "name": "Wentao Zhang",
+          "position": 2
+        },
+        {
+          "name": "Xiaojun Zhang",
+          "position": 3
+        },
+        {
+          "name": "Vincent W. Zheng",
+          "position": 4
+        },
+        {
+          "name": "Yi Yang",
+          "position": 5,
+          "researcherId": "r_yi_yang_hkust"
+        }
+      ],
+      "contribution": {
+        "checkedAt": "2026-10-14",
+        "note": "完整作者顺序已核；署名位次不等于贡献大小，通讯作者只在来源明确时标注。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2025-07-20",
+      "dateEvidence": {
+        "checkedAt": "2026-10-14",
+        "kind": "date_note",
+        "label": "日期、版本与书目信息核对",
+        "note": "ACM登记记录和HKUST研究门户对应10.1145/3690624.3709400；线上及印刷出版2025-07-20。KDD会议举办于2025-08-03至08-07，不将会议日替代出版日。",
+        "url": "https://doi.org/10.1145/3690624.3709400"
+      },
+      "datePrecision": "day",
+      "doi": "10.1145/3690624.3709400",
+      "id": "pub_yi_yang_multi_expert_tabular_lm_banking_2025",
+      "paradigms": [
+        "system",
+        "empirical"
+      ],
+      "publicationStatus": "published",
+      "publicationType": "conference",
+      "questionId": "q_pub_yi_yang_multi_expert_tabular_lm_banking_2025",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "如何以分而治之预训练和稀疏专家微调，在有限算力下适配银行表格数据库及多种金融预测任务？",
+      "researcherIds": [
+        "r_yi_yang_hkust"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-14",
+          "kind": "publisher_metadata",
+          "label": "完整作者顺序及位次证据",
+          "url": "https://api.crossref.org/works/10.1145/3690624.3709400"
+        },
+        {
+          "checkedAt": "2026-10-14",
+          "kind": "primary_record",
+          "label": "原始出版/预印本记录：书目和日期",
+          "url": "https://doi.org/10.1145/3690624.3709400"
+        },
+        {
+          "checkedAt": "2026-10-14",
+          "kind": "primary_abstract",
+          "label": "原始摘要证据；阅读深度为摘要",
+          "url": "https://researchportal.hkust.edu.hk/en/publications/efficient-multi-expert-tabular-language-model-for-banking/"
+        },
+        {
+          "checkedAt": "2026-10-14",
+          "kind": "author_homepage",
+          "label": "作者主页：对应作品书目",
+          "url": "https://yya518.github.io/research"
+        }
+      ],
+      "summary": {
+        "evidence": "论文提出多专家表格语言模型，用分而治之预训练和稀疏激活微调处理银行数据库，以降低所需算力。机构摘要报告百亿参数模型及风险评估、信息预测、利润评估应用；规模、效果和部署均按作者报告整理，未独立验证生产部署。",
+        "gap": "摘要明确涉及的问题：如何以分而治之预训练和稀疏专家微调，在有限算力下适配银行表格数据库及多种金融预测任务？",
+        "insight": "论文提出多专家表格语言模型，用分而治之预训练和稀疏激活微调处理银行数据库，以降低所需算力。机构摘要报告百亿参数模型及风险评估、信息预测、利润评估应用；规模、效果和部署均按作者报告整理，未独立验证生产部署。",
+        "limitation": "摘要级整理，未独立复核全文证明、实验或生产部署；署名位次不推断贡献大小。",
+        "method": "依据原始摘要归纳；出版元数据仅支持书目、日期和署名核对。",
+        "question": "如何以分而治之预训练和稀疏专家微调，在有限算力下适配银行表格数据库及多种金融预测任务？"
+      },
+      "summaryBasis": "abstract",
+      "themes": [
+        "finai",
+        "ml",
+        "digital"
+      ],
+      "title": "Efficient Multi-Expert Tabular Language Model for Banking",
+      "url": "https://doi.org/10.1145/3690624.3709400",
+      "venue": "KDD 2025, Volume 1, pp. 2271–2281",
+      "verifiedAt": "2026-10-14",
+      "versions": [],
+      "year": 2025
     }
   ],
   "paradigms": [
@@ -46828,8 +47788,8 @@
   "publicCurationNote": "公开研究资料快照。主题、研究问题与研究线为编辑归纳，不代表学者本人陈述或机构背书。",
   "publicRelease": {
     "channel": "stable",
-    "snapshotDate": "2026-10-12",
-    "version": "3.3.34"
+    "snapshotDate": "2026-10-13",
+    "version": "3.3.35"
   },
   "publicationPolicy": {
     "authorshipNote": "署名位次不等于贡献排名；通讯作者、共同贡献和具体分工只按原文证据标注。",
@@ -46839,18 +47799,18 @@
     "extendedStart": "2021-10-08",
     "extendedYears": 5,
     "extensionThreshold": 5,
-    "snapshotDate": "2026-10-12",
+    "snapshotDate": "2026-10-13",
     "versionNote": "同一研究的预印本与发表版本分开保留证据；摘要来源可能与主书目版本不同。"
   },
   "publicationStats": {
-    "abstracts": 429,
+    "abstracts": 437,
     "fullTexts": 4,
     "outsideWindow": 7,
-    "papers": 442,
-    "recentPapers": 435,
+    "papers": 450,
+    "recentPapers": 443,
     "researchers": 104,
     "reviewedSources": 14,
-    "verifiedBylines": 441,
+    "verifiedBylines": 449,
     "withPapers": 48
   },
   "questionClusters": [
@@ -46877,7 +47837,10 @@
         "pub_yao_lu_2026_financial_kol_policy_completion",
         "pub_allen_huang_finbert_2023",
         "pub_allen_huang_finentity_2023",
-        "pub_yi_yang_mind_the_shift_fomc_llm_2026"
+        "pub_yi_yang_mind_the_shift_fomc_llm_2026",
+        "pub_yi_yang_macroallocagent_2026",
+        "pub_yi_yang_numeracy_gap_embedding_models_2026",
+        "pub_yi_yang_divide_and_contrast_risk_prediction_2025"
       ],
       "question": "金融信息的生产、披露和传播如何影响投资者行为与价格形成？",
       "questionIds": [
@@ -46899,7 +47862,10 @@
         "q_pub_yao_lu_2026_financial_kol_policy_completion",
         "q_pub_allen_huang_finbert_2023",
         "q_pub_allen_huang_finentity_2023",
-        "q_pub_yi_yang_mind_the_shift_fomc_llm_2026"
+        "q_pub_yi_yang_mind_the_shift_fomc_llm_2026",
+        "q_pub_yi_yang_macroallocagent_2026",
+        "q_pub_yi_yang_numeracy_gap_embedding_models_2026",
+        "q_pub_yi_yang_divide_and_contrast_risk_prediction_2025"
       ],
       "researcherIds": [
         "r_yanzhen",
@@ -46913,7 +47879,7 @@
         "r_allen_huang_hkust",
         "r_yi_yang_hkust"
       ],
-      "reviewedAt": "2026-10-12",
+      "reviewedAt": "2026-10-14",
       "themes": [
         "finai",
         "digital",
@@ -47224,7 +48190,8 @@
         "pub_zhanhui_carbon_markets_china",
         "pub_zhanhui_longevity_shocks_debt_markets",
         "pub_zhanhui_transition_risk_green_finance",
-        "pub_zhanhui_local_gender_imbalance_risk_taking"
+        "pub_zhanhui_local_gender_imbalance_risk_taking",
+        "pub_ruixun_zhang_dorado_dynamic_rd_options_2026"
       ],
       "question": "融资约束、公司治理和企业特征如何影响企业决策及其经济结果？",
       "questionIds": [
@@ -47240,21 +48207,23 @@
         "q_pub_zhanhui_carbon_markets_china",
         "q_pub_zhanhui_longevity_shocks_debt_markets",
         "q_pub_zhanhui_transition_risk_green_finance",
-        "q_pub_zhanhui_local_gender_imbalance_risk_taking"
+        "q_pub_zhanhui_local_gender_imbalance_risk_taking",
+        "q_pub_ruixun_zhang_dorado_dynamic_rd_options_2026"
       ],
       "researcherIds": [
         "r_claire",
         "r_clark",
         "r_jiayin",
         "r_yang",
-        "r_zhanhui"
+        "r_zhanhui",
+        "r_ruixun_zhang_pku"
       ],
-      "reviewedAt": "2026-08-31",
+      "reviewedAt": "2026-10-14",
       "themes": [
         "asset",
-        "decision",
         "digital",
-        "finai"
+        "finai",
+        "decision"
       ],
       "title": "企业融资与公司决策"
     },
@@ -47269,7 +48238,8 @@
         "pub_jiayin_fintech_reduce_discrimination",
         "pub_jiayin_bnpl_credit_reporting",
         "pub_wei_xu_corporate_fraud_dynamic_business_networks_2026",
-        "pub_wei_xu_consumers_opinion_credit_risk_2024"
+        "pub_wei_xu_consumers_opinion_credit_risk_2024",
+        "pub_yi_yang_multi_expert_tabular_lm_banking_2025"
       ],
       "question": "数字技术、平台规则和信息如何改变信贷获取、风险评估与资源配置？",
       "questionIds": [
@@ -47279,16 +48249,18 @@
         "q_pub_jiayin_fintech_reduce_discrimination",
         "q_pub_jiayin_bnpl_credit_reporting",
         "q_pub_wei_xu_corporate_fraud_dynamic_business_networks_2026",
-        "q_pub_wei_xu_consumers_opinion_credit_risk_2024"
+        "q_pub_wei_xu_consumers_opinion_credit_risk_2024",
+        "q_pub_yi_yang_multi_expert_tabular_lm_banking_2025"
       ],
       "researcherIds": [
         "r_claire",
         "r_hailiang_chen_hku",
         "r_jiayin",
         "r_wei_du_ruc",
-        "r_wei_xu_ruc"
+        "r_wei_xu_ruc",
+        "r_yi_yang_hkust"
       ],
-      "reviewedAt": "2026-10-09",
+      "reviewedAt": "2026-10-14",
       "themes": [
         "digital",
         "asset",
@@ -47364,7 +48336,8 @@
         "pub_yang_trust_credit_growth",
         "pub_yang_self_collateral_crypto_run",
         "pub_yang_convergence_financial_development",
-        "pub_zhanhui_longevity_shocks_debt_markets"
+        "pub_zhanhui_longevity_shocks_debt_markets",
+        "pub_yi_yang_multi_expert_tabular_lm_banking_2025"
       ],
       "question": "银行、基金及其他金融中介如何配置资金并传导风险？",
       "questionIds": [
@@ -47380,7 +48353,8 @@
         "q_pub_yang_trust_credit_growth",
         "q_pub_yang_self_collateral_crypto_run",
         "q_pub_yang_convergence_financial_development",
-        "q_pub_zhanhui_longevity_shocks_debt_markets"
+        "q_pub_zhanhui_longevity_shocks_debt_markets",
+        "q_pub_yi_yang_multi_expert_tabular_lm_banking_2025"
       ],
       "researcherIds": [
         "r_claire",
@@ -47388,15 +48362,17 @@
         "r_lian",
         "r_xiaoyan",
         "r_yang",
-        "r_zhanhui"
+        "r_zhanhui",
+        "r_yi_yang_hkust"
       ],
-      "reviewedAt": "2026-08-31",
+      "reviewedAt": "2026-10-14",
       "themes": [
         "asset",
+        "ts",
+        "finai",
         "decision",
         "digital",
-        "finai",
-        "ts"
+        "ml"
       ],
       "title": "金融中介与风险传导"
     },
@@ -47524,7 +48500,9 @@
         "pub_jian_li_alphaschema_2026",
         "pub_ruixun_zhang_tradable_ito_signatures_2026",
         "pub_kewei_huang_radar_sdf_portfolios_2026",
-        "pub_anthony_tung_cms_vae_crypto_market_simulation_2025"
+        "pub_anthony_tung_cms_vae_crypto_market_simulation_2025",
+        "pub_ruixun_zhang_dorado_dynamic_rd_options_2026",
+        "pub_yi_yang_macroallocagent_2026"
       ],
       "question": "在不确定性和实际约束下，如何构建投资组合并控制风险？",
       "questionIds": [
@@ -47573,7 +48551,9 @@
         "q_pub_jian_li_alphaschema_2026",
         "q_pub_ruixun_zhang_tradable_ito_signatures_2026",
         "q_pub_kewei_huang_radar_sdf_portfolios_2026",
-        "q_pub_anthony_tung_cms_vae_crypto_market_simulation_2025"
+        "q_pub_anthony_tung_cms_vae_crypto_market_simulation_2025",
+        "q_pub_ruixun_zhang_dorado_dynamic_rd_options_2026",
+        "q_pub_yi_yang_macroallocagent_2026"
       ],
       "researcherIds": [
         "r_gao",
@@ -47603,7 +48583,7 @@
         "r_kewei_huang_nus",
         "r_anthony_tung_nus"
       ],
-      "reviewedAt": "2026-10-13",
+      "reviewedAt": "2026-10-14",
       "themes": [
         "asset",
         "finai",
@@ -47804,7 +48784,8 @@
         "pub_jia_mv_tx_costs",
         "pub_xiaoyan_2023_risking_or_de_risking_how_management_fees_affect",
         "pub_zhanhui_local_gender_imbalance_risk_taking",
-        "pub_ming_zhou_consumption_leisure_investment_retirement_2025"
+        "pub_ming_zhou_consumption_leisure_investment_retirement_2025",
+        "pub_ruixun_zhang_dorado_dynamic_rd_options_2026"
       ],
       "question": "风险偏好、时间偏好和模型不确定性如何改变最优决策？",
       "questionIds": [
@@ -47821,7 +48802,8 @@
         "q_pub_jia_mv_tx_costs",
         "q_pub_xiaoyan_2023_risking_or_de_risking_how_management_fees_affect",
         "q_pub_zhanhui_local_gender_imbalance_risk_taking",
-        "q_pub_ming_zhou_consumption_leisure_investment_retirement_2025"
+        "q_pub_ming_zhou_consumption_leisure_investment_retirement_2025",
+        "q_pub_ruixun_zhang_dorado_dynamic_rd_options_2026"
       ],
       "researcherIds": [
         "r_chen_yang_cuhk",
@@ -47830,9 +48812,10 @@
         "r_jia",
         "r_xiaoyan",
         "r_zhanhui",
-        "r_ming_zhou_ruc"
+        "r_ming_zhou_ruc",
+        "r_ruixun_zhang_pku"
       ],
-      "reviewedAt": "2026-10-09",
+      "reviewedAt": "2026-10-14",
       "themes": [
         "asset",
         "digital",
@@ -48005,7 +48988,8 @@
         "pub_xiaoyan_2025_the_international_commonality_of_idiosyncratic_v",
         "pub_yanzhen_deep_learning_change_point",
         "pub_yingying_tests_principal_eigen",
-        "pub_anthony_tung_cms_vae_crypto_market_simulation_2025"
+        "pub_anthony_tung_cms_vae_crypto_market_simulation_2025",
+        "pub_ruixun_zhang_signatures_path_regression_2026"
       ],
       "question": "如何刻画具有复杂依赖、非平稳或结构变化的时间序列？",
       "questionIds": [
@@ -48036,7 +49020,8 @@
         "q_pub_xiaoyan_2025_the_international_commonality_of_idiosyncratic_v",
         "q_pub_yanzhen_deep_learning_change_point",
         "q_pub_yingying_tests_principal_eigen",
-        "q_pub_anthony_tung_cms_vae_crypto_market_simulation_2025"
+        "q_pub_anthony_tung_cms_vae_crypto_market_simulation_2025",
+        "q_pub_ruixun_zhang_signatures_path_regression_2026"
       ],
       "researcherIds": [
         "r_anthony_tung_nus",
@@ -48047,9 +49032,10 @@
         "r_weichen_wang_hku",
         "r_xiaoyan",
         "r_yanzhen",
-        "r_yingying"
+        "r_yingying",
+        "r_ruixun_zhang_pku"
       ],
-      "reviewedAt": "2026-10-13",
+      "reviewedAt": "2026-10-14",
       "themes": [
         "finai",
         "ts",
@@ -48080,7 +49066,8 @@
         "pub_yingying_dominate_historical_average",
         "pub_yingying_multiplicative_factor_volatility",
         "pub_ying_chen_neural_tangent_kernel_implied_volatility_2026",
-        "pub_kewei_huang_radar_sdf_portfolios_2026"
+        "pub_kewei_huang_radar_sdf_portfolios_2026",
+        "pub_jian_li_lara_stock_prediction_2024"
       ],
       "question": "如何利用时间结构和跨序列信息，改善预测及其适用范围？",
       "questionIds": [
@@ -48099,7 +49086,8 @@
         "q_pub_yingying_dominate_historical_average",
         "q_pub_yingying_multiplicative_factor_volatility",
         "q_pub_ying_chen_neural_tangent_kernel_implied_volatility_2026",
-        "q_pub_kewei_huang_radar_sdf_portfolios_2026"
+        "q_pub_kewei_huang_radar_sdf_portfolios_2026",
+        "q_pub_jian_li_lara_stock_prediction_2024"
       ],
       "researcherIds": [
         "r_anthony_tung_nus",
@@ -48113,7 +49101,7 @@
         "r_ying_chen_nus",
         "r_kewei_huang_nus"
       ],
-      "reviewedAt": "2026-10-13",
+      "reviewedAt": "2026-10-14",
       "themes": [
         "finai",
         "ts",
@@ -48140,7 +49128,8 @@
         "pub_ke_2023_testing_and_modelling_for_the_structural_change_",
         "pub_yingying_multiplicative_factor_volatility",
         "pub_yingying_volatility_extreme_persistence",
-        "pub_ying_chen_neural_tangent_kernel_implied_volatility_2026"
+        "pub_ying_chen_neural_tangent_kernel_implied_volatility_2026",
+        "pub_ruixun_zhang_signatures_path_regression_2026"
       ],
       "question": "如何从高频或受噪声污染的金融数据中估计波动及风险结构？",
       "questionIds": [
@@ -48157,16 +49146,18 @@
         "q_pub_ke_2023_testing_and_modelling_for_the_structural_change_",
         "q_pub_yingying_multiplicative_factor_volatility",
         "q_pub_yingying_volatility_extreme_persistence",
-        "q_pub_ying_chen_neural_tangent_kernel_implied_volatility_2026"
+        "q_pub_ying_chen_neural_tangent_kernel_implied_volatility_2026",
+        "q_pub_ruixun_zhang_signatures_path_regression_2026"
       ],
       "researcherIds": [
         "r_daniel_palomar_hkust",
         "r_guodong",
         "r_ke",
         "r_yingying",
-        "r_ying_chen_nus"
+        "r_ying_chen_nus",
+        "r_ruixun_zhang_pku"
       ],
-      "reviewedAt": "2026-10-10",
+      "reviewedAt": "2026-10-14",
       "themes": [
         "ts",
         "ml",
@@ -48261,7 +49252,8 @@
         "pub_guodong_2024_robust_and_optimal_tensor_estimation_via_robust_",
         "pub_guodong_2023_an_asymptotic_analysis_of_random_partition_based",
         "pub_he_kinetic_langevin",
-        "pub_nan_chen_adversarial_rl_optimal_control_2025"
+        "pub_nan_chen_adversarial_rl_optimal_control_2025",
+        "pub_ruixun_zhang_bicausal_ot_policy_gradients_2026"
       ],
       "question": "优化算法在何种条件下收敛，训练路径如何影响效率与结果？",
       "questionIds": [
@@ -48287,7 +49279,8 @@
         "q_pub_guodong_2024_robust_and_optimal_tensor_estimation_via_robust_",
         "q_pub_guodong_2023_an_asymptotic_analysis_of_random_partition_based",
         "q_pub_he_kinetic_langevin",
-        "q_pub_nan_chen_adversarial_rl_optimal_control_2025"
+        "q_pub_nan_chen_adversarial_rl_optimal_control_2025",
+        "q_pub_ruixun_zhang_bicausal_ot_policy_gradients_2026"
       ],
       "researcherIds": [
         "r_ye",
@@ -48295,13 +49288,15 @@
         "r_difan",
         "r_guodong",
         "r_he",
-        "r_nan_chen_cuhk"
+        "r_nan_chen_cuhk",
+        "r_ruixun_zhang_pku"
       ],
-      "reviewedAt": "2026-10-12",
+      "reviewedAt": "2026-10-14",
       "themes": [
         "ml",
         "ts",
-        "decision"
+        "decision",
+        "finai"
       ],
       "title": "优化算法与训练动力学"
     },
@@ -48342,7 +49337,8 @@
         "pub_difan_2023_understanding_the_generalization_of_adam_in_lear",
         "pub_guodong_2023_cross_layer_retrospective_retrieving_via_layer_a",
         "pub_guodong_2023_encoding_recurrence_into_transformers",
-        "pub_zhimin_chen_limits_machine_learning_2025"
+        "pub_zhimin_chen_limits_machine_learning_2025",
+        "pub_ruixun_zhang_signatures_path_regression_2026"
       ],
       "question": "模型的结构、数据和训练方式如何决定其可学习性与泛化能力？",
       "questionIds": [
@@ -48378,20 +49374,22 @@
         "q_pub_difan_2023_understanding_the_generalization_of_adam_in_lear",
         "q_pub_guodong_2023_cross_layer_retrospective_retrieving_via_layer_a",
         "q_pub_guodong_2023_encoding_recurrence_into_transformers",
-        "q_pub_zhimin_chen_limits_machine_learning_2025"
+        "q_pub_zhimin_chen_limits_machine_learning_2025",
+        "q_pub_ruixun_zhang_signatures_path_regression_2026"
       ],
       "researcherIds": [
         "r_difan",
         "r_guodong",
-        "r_zhimin_chen_ntu"
+        "r_zhimin_chen_ntu",
+        "r_ruixun_zhang_pku"
       ],
-      "reviewedAt": "2026-10-06",
+      "reviewedAt": "2026-10-14",
       "themes": [
-        "asset",
-        "decision",
-        "finai",
         "ml",
-        "ts"
+        "decision",
+        "ts",
+        "asset",
+        "finai"
       ],
       "title": "学习能力与泛化理论"
     },
@@ -48418,7 +49416,9 @@
         "pub_difan_2023_towards_robust_graph_incremental_learning_on_evo",
         "pub_junye_sdf_variance",
         "pub_yao_lu_2026_portfolio_rl_scenario_context_rollout",
-        "pub_ariel_neufeld_robust_stat_arb_deep_neural_networks_2024"
+        "pub_ariel_neufeld_robust_stat_arb_deep_neural_networks_2024",
+        "pub_jian_li_lara_stock_prediction_2024",
+        "pub_ruixun_zhang_bicausal_ot_policy_gradients_2026"
       ],
       "question": "当数据分布、环境或观测质量变化时，如何保持模型可靠？",
       "questionIds": [
@@ -48440,7 +49440,9 @@
         "q_pub_difan_2023_towards_robust_graph_incremental_learning_on_evo",
         "q_pub_junye_sdf_variance",
         "q_pub_yao_lu_2026_portfolio_rl_scenario_context_rollout",
-        "q_pub_ariel_neufeld_robust_stat_arb_deep_neural_networks_2024"
+        "q_pub_ariel_neufeld_robust_stat_arb_deep_neural_networks_2024",
+        "q_pub_jian_li_lara_stock_prediction_2024",
+        "q_pub_ruixun_zhang_bicausal_ot_policy_gradients_2026"
       ],
       "researcherIds": [
         "r_chao",
@@ -48449,9 +49451,11 @@
         "r_junye",
         "r_yao_lu_nus",
         "r_ariel_neufeld_ntu",
-        "r_julian_sester_nus"
+        "r_julian_sester_nus",
+        "r_jian_li",
+        "r_ruixun_zhang_pku"
       ],
-      "reviewedAt": "2026-10-10",
+      "reviewedAt": "2026-10-14",
       "themes": [
         "ts",
         "ml",
@@ -48696,7 +49700,8 @@
         "pub_difan_2025_swe_fixer_training_open_source_llms_for_effectiv",
         "pub_difan_2024_a_human_like_reasoning_framework_for_multi_phase",
         "pub_difan_valg",
-        "pub_jian_li_alphaschema_2026"
+        "pub_jian_li_alphaschema_2026",
+        "pub_yi_yang_macroallocagent_2026"
       ],
       "question": "如何让智能体可靠地规划任务、使用工具并完成交互式工作？",
       "questionIds": [
@@ -48716,16 +49721,18 @@
         "q_pub_difan_2025_swe_fixer_training_open_source_llms_for_effectiv",
         "q_pub_difan_2024_a_human_like_reasoning_framework_for_multi_phase",
         "q_pub_difan_valg",
-        "q_pub_jian_li_alphaschema_2026"
+        "q_pub_jian_li_alphaschema_2026",
+        "q_pub_yi_yang_macroallocagent_2026"
       ],
       "researcherIds": [
         "r_anthony_tung_nus",
         "r_bo_an",
         "r_chao",
         "r_difan",
-        "r_jian_li"
+        "r_jian_li",
+        "r_yi_yang_hkust"
       ],
-      "reviewedAt": "2026-10-11",
+      "reviewedAt": "2026-10-14",
       "themes": [
         "finai",
         "ts",
@@ -48764,7 +49771,8 @@
         "pub_difan_2024_self_control_of_llm_behaviors_by_compressing_suf",
         "pub_guodong_2023_cross_layer_retrospective_retrieving_via_layer_a",
         "pub_guodong_2023_encoding_recurrence_into_transformers",
-        "pub_yi_yang_kv_embedding"
+        "pub_yi_yang_kv_embedding",
+        "pub_yi_yang_multi_expert_tabular_lm_banking_2025"
       ],
       "question": "如何降低模型训练和部署成本，同时保留所需能力？",
       "questionIds": [
@@ -48791,7 +49799,8 @@
         "q_pub_difan_2024_self_control_of_llm_behaviors_by_compressing_suf",
         "q_pub_guodong_2023_cross_layer_retrospective_retrieving_via_layer_a",
         "q_pub_guodong_2023_encoding_recurrence_into_transformers",
-        "q_pub_yi_yang_kv_embedding"
+        "q_pub_yi_yang_kv_embedding",
+        "q_pub_yi_yang_multi_expert_tabular_lm_banking_2025"
       ],
       "researcherIds": [
         "r_chao",
@@ -48799,12 +49808,13 @@
         "r_guodong",
         "r_yi_yang_hkust"
       ],
-      "reviewedAt": "2026-09-26",
+      "reviewedAt": "2026-10-14",
       "themes": [
+        "ml",
         "decision",
         "digital",
-        "ml",
-        "ts"
+        "ts",
+        "finai"
       ],
       "title": "训练、适配与计算效率"
     },
@@ -49302,7 +50312,9 @@
         "pub_sicong_li_asset_pricing_factors_economic_targets_2023",
         "pub_allen_huang_finbert_2023",
         "pub_allen_huang_finentity_2023",
-        "pub_xinghua_zheng_sharpe_ratios_2024"
+        "pub_xinghua_zheng_sharpe_ratios_2024",
+        "pub_yi_yang_numeracy_gap_embedding_models_2026",
+        "pub_yi_yang_divide_and_contrast_risk_prediction_2025"
       ],
       "question": "如何评价模型能力与可靠性，并识别和缓解系统性偏差？",
       "questionIds": [
@@ -49323,29 +50335,31 @@
         "q_pub_sicong_li_asset_pricing_factors_economic_targets_2023",
         "q_pub_allen_huang_finbert_2023",
         "q_pub_allen_huang_finentity_2023",
-        "q_pub_xinghua_zheng_sharpe_ratios_2024"
+        "q_pub_xinghua_zheng_sharpe_ratios_2024",
+        "q_pub_yi_yang_numeracy_gap_embedding_models_2026",
+        "q_pub_yi_yang_divide_and_contrast_risk_prediction_2025"
       ],
       "researcherIds": [
-        "r_allen_huang_hkust",
         "r_anthony_tung_nus",
         "r_bo_an",
         "r_chao",
         "r_difan",
         "r_lei_sha",
         "r_qi_liu_hku",
-        "r_sicong_li_cuhk",
-        "r_xinghua_zheng_hkust",
         "r_yi_yang_hkust",
-        "r_zhimin_chen_ntu"
+        "r_zhimin_chen_ntu",
+        "r_sicong_li_cuhk",
+        "r_allen_huang_hkust",
+        "r_xinghua_zheng_hkust"
       ],
-      "reviewedAt": "2026-10-08",
+      "reviewedAt": "2026-10-14",
       "themes": [
+        "finai",
+        "ts",
         "asset",
         "decision",
-        "digital",
-        "finai",
         "ml",
-        "ts"
+        "digital"
       ],
       "title": "模型评测、偏差与公平"
     },
@@ -49536,26 +50550,29 @@
         "pub_li_autocallable",
         "pub_li_lookback",
         "pub_xianhua_peng_contract_unified_option_hedging_rl",
-        "pub_ruixun_zhang_tradable_ito_signatures_2026"
+        "pub_ruixun_zhang_tradable_ito_signatures_2026",
+        "pub_ruixun_zhang_bicausal_ot_policy_gradients_2026"
       ],
       "question": "如何在复杂随机模型下高效定价和对冲衍生品？",
       "questionIds": [
         "q_pub_li_autocallable",
         "q_pub_li_lookback",
         "q_pub_xianhua_peng_contract_unified_option_hedging_rl",
-        "q_pub_ruixun_zhang_tradable_ito_signatures_2026"
+        "q_pub_ruixun_zhang_tradable_ito_signatures_2026",
+        "q_pub_ruixun_zhang_bicausal_ot_policy_gradients_2026"
       ],
       "researcherIds": [
         "r_lingfei",
         "r_xianhua_peng",
         "r_ruixun_zhang_pku"
       ],
-      "reviewedAt": "2026-10-11",
+      "reviewedAt": "2026-10-14",
       "themes": [
         "asset",
         "ts",
         "finai",
-        "decision"
+        "decision",
+        "ml"
       ],
       "title": "衍生品定价与数值方法"
     },
@@ -49611,12 +50628,12 @@
       {
         "awaitingEvidence": 0,
         "awaitingExtraction": 0,
-        "clustered": 73,
-        "clusters": 32,
-        "extracted": 73,
-        "multiPaperClusters": 20,
-        "papers": 73,
-        "singlePaperClusters": 12,
+        "clustered": 81,
+        "clusters": 34,
+        "extracted": 81,
+        "multiPaperClusters": 25,
+        "papers": 81,
+        "singlePaperClusters": 9,
         "staleEvidence": 0,
         "themeId": "finai",
         "unclustered": 0
@@ -49624,12 +50641,12 @@
       {
         "awaitingEvidence": 1,
         "awaitingExtraction": 0,
-        "clustered": 94,
+        "clustered": 97,
         "clusters": 36,
-        "extracted": 94,
-        "multiPaperClusters": 22,
-        "papers": 95,
-        "singlePaperClusters": 14,
+        "extracted": 97,
+        "multiPaperClusters": 24,
+        "papers": 98,
+        "singlePaperClusters": 12,
         "staleEvidence": 0,
         "themeId": "decision",
         "unclustered": 0
@@ -49637,11 +50654,11 @@
       {
         "awaitingEvidence": 6,
         "awaitingExtraction": 0,
-        "clustered": 151,
+        "clustered": 154,
         "clusters": 29,
-        "extracted": 151,
+        "extracted": 154,
         "multiPaperClusters": 27,
-        "papers": 157,
+        "papers": 160,
         "singlePaperClusters": 2,
         "staleEvidence": 0,
         "themeId": "asset",
@@ -49650,11 +50667,11 @@
       {
         "awaitingEvidence": 7,
         "awaitingExtraction": 0,
-        "clustered": 104,
+        "clustered": 107,
         "clusters": 33,
-        "extracted": 104,
+        "extracted": 107,
         "multiPaperClusters": 21,
-        "papers": 111,
+        "papers": 114,
         "singlePaperClusters": 12,
         "staleEvidence": 0,
         "themeId": "ts",
@@ -49663,11 +50680,11 @@
       {
         "awaitingEvidence": 0,
         "awaitingExtraction": 0,
-        "clustered": 56,
+        "clustered": 60,
         "clusters": 28,
-        "extracted": 56,
+        "extracted": 60,
         "multiPaperClusters": 18,
-        "papers": 56,
+        "papers": 60,
         "singlePaperClusters": 10,
         "staleEvidence": 0,
         "themeId": "digital",
@@ -49676,22 +50693,22 @@
       {
         "awaitingEvidence": 3,
         "awaitingExtraction": 0,
-        "clustered": 246,
-        "clusters": 40,
-        "extracted": 246,
-        "multiPaperClusters": 34,
-        "papers": 249,
-        "singlePaperClusters": 6,
+        "clustered": 252,
+        "clusters": 42,
+        "extracted": 252,
+        "multiPaperClusters": 35,
+        "papers": 255,
+        "singlePaperClusters": 7,
         "staleEvidence": 0,
         "themeId": "ml",
         "unclustered": 0
       }
     ],
-    "clustered": 429,
+    "clustered": 437,
     "clusters": 50,
-    "extracted": 429,
+    "extracted": 437,
     "multiPaperClusters": 45,
-    "papers": 442,
+    "papers": 450,
     "singlePaperClusters": 5,
     "staleEvidence": 0,
     "unclustered": 0
@@ -59872,6 +60889,203 @@
       ],
       "reviewedAt": "2026-10-13",
       "text": "如何把跨资产依赖和多策略风险收益监督纳入时序生成模型，使加密市场合成数据兼顾统计保真度和下游金融效用？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_time_series_forecasting",
+        "qc_distribution_robustness"
+      ],
+      "evidence": {
+        "digest": "e5c7868f8af14cf37211dc9814322e5d921fa3963a996e065376d4db26e71c30",
+        "excerpt": "LARA针对金融价格方向预测中的低信噪比，以度量学习辅助的局部注意力筛选潜在有用样本，再迭代修正噪声标签并组合预测器。摘要报告股票、加密货币与ETF的Qlib评估；这些是作者报告，未独立复现，也不代表实盘收益保证。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-14",
+          "kind": "primary_abstract",
+          "label": "原始摘要证据；阅读深度为摘要",
+          "url": "https://www.ijcai.org/proceedings/2024/678"
+        }
+      },
+      "id": "q_pub_jian_li_lara_stock_prediction_2024",
+      "paperIds": [
+        "pub_jian_li_lara_stock_prediction_2024"
+      ],
+      "reviewedAt": "2026-10-14",
+      "text": "如何在低信噪比的金融序列中通过局部样本筛选和迭代标签修正，提高价格方向预测的稳健性？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_corporate_finance",
+        "qc_portfolio_risk_control",
+        "qc_risk_preferences"
+      ],
+      "evidence": {
+        "digest": "170965a71da56545f9fd3c4473dd1d6292fa355c79035a8933be57e1dadef062",
+        "excerpt": "DORADO研究结果相关的高风险研发项目组合，利用实物期权和动态规划平衡分散投资与早期结果带来的信息价值，并以离线模型估计和强化学习处理更大、异质的项目集合。摘要用胶质母细胞瘤治疗研发作应用示例；不把该案例扩写为二级市场投资表现。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-14",
+          "kind": "primary_abstract",
+          "label": "原始摘要证据；阅读深度为摘要",
+          "url": "https://api.crossref.org/works/10.2139/ssrn.6293478"
+        }
+      },
+      "id": "q_pub_ruixun_zhang_dorado_dynamic_rd_options_2026",
+      "paperIds": [
+        "pub_ruixun_zhang_dorado_dynamic_rd_options_2026"
+      ],
+      "reviewedAt": "2026-10-14",
+      "text": "面对结果相关、投入可分阶段调整的研发项目，如何兼顾分散投资与逐步获得的信息，以优化研发组合的动态资本配置？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_learning_generalization",
+        "qc_time_series_structure",
+        "qc_high_frequency_volatility"
+      ],
+      "evidence": {
+        "digest": "0915b6269f492dd428edbf046daf1a2c346e650767a42d1e050ea8dc137225f1",
+        "excerpt": "论文研究签名特征用于路径回归时的逼近与统计一致性，将截断误差与OLS、LASSO和逻辑回归联系起来。摘要包括外汇已实现波动率预测、电池与EEG应用。理论结论在此作为作者陈述整理，未独立审查证明。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-14",
+          "kind": "primary_abstract",
+          "label": "原始摘要证据；阅读深度为摘要",
+          "url": "https://arxiv.org/abs/2607.17865"
+        }
+      },
+      "id": "q_pub_ruixun_zhang_signatures_path_regression_2026",
+      "paperIds": [
+        "pub_ruixun_zhang_signatures_path_regression_2026"
+      ],
+      "reviewedAt": "2026-10-14",
+      "text": "路径回归中，签名特征的截断误差与统计估计误差如何共同影响OLS、LASSO或逻辑回归的学习表现？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_optimization_dynamics",
+        "qc_distribution_robustness",
+        "qc_derivative_pricing"
+      ],
+      "evidence": {
+        "digest": "3eea95f9475bebcf1e107888c8b6a21c09e62dd1bec47876aa2aa93015bf32dd",
+        "excerpt": "论文用KL松弛和策略梯度优化随机过程间的双因果最优传输，保留非预见的信息结构约束，并展示稳健次级对冲及时间序列降尺度应用。这里的双因果约束是过程耦合的信息约束，不据此宣称经济因果识别；证明和实验尚未独立复核。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-14",
+          "kind": "primary_abstract",
+          "label": "原始摘要证据；阅读深度为摘要",
+          "url": "https://arxiv.org/abs/2605.17271"
+        }
+      },
+      "id": "q_pub_ruixun_zhang_bicausal_ot_policy_gradients_2026",
+      "paperIds": [
+        "pub_ruixun_zhang_bicausal_ot_policy_gradients_2026"
+      ],
+      "reviewedAt": "2026-10-14",
+      "text": "如何通过KL松弛与策略梯度求解保留非预见信息约束的双因果最优传输，并用于稳健次级对冲或时间序列降尺度？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_agent_planning_tools",
+        "qc_financial_information",
+        "qc_portfolio_risk_control"
+      ],
+      "evidence": {
+        "digest": "fea72dc9edb0ce2a37ec3c8da593b90b801fbc73f6b331ac78e3e1e6bddd9be4",
+        "excerpt": "MacroAllocAgent以五个LLM智能体处理中文宏观金融沟通与展望材料，归纳周期概率和资产收益观点，聚合不确定性后接入Black–Litterman组合优化。摘要报告长期配置回测，未独立复现，不推断实盘收益或政策冲击的因果效应。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-14",
+          "kind": "primary_abstract",
+          "label": "原始摘要证据；阅读深度为摘要",
+          "url": "https://api.crossref.org/works/10.2139/ssrn.7286866"
+        }
+      },
+      "id": "q_pub_yi_yang_macroallocagent_2026",
+      "paperIds": [
+        "pub_yi_yang_macroallocagent_2026"
+      ],
+      "reviewedAt": "2026-10-14",
+      "text": "如何将宏观叙事转为周期概率、收益观点与不确定性，再接入Black–Litterman模型形成长期资产配置？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_model_evaluation",
+        "qc_financial_information"
+      ],
+      "evidence": {
+        "digest": "7e5cfebef317539f4346aed3368b55fa0394067603d88a85ca5200dc23ffbcca",
+        "excerpt": "论文用金融情境合成文本评估13个嵌入模型对数值信息的敏感性，例如百分之二与百分之二十的区别。摘要指出不少模型未能保留这些差异。评测直接涉及金融语境，但不等于完成资产定价或交易绩效验证。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-14",
+          "kind": "primary_abstract",
+          "label": "原始摘要证据；阅读深度为摘要",
+          "url": "https://aclanthology.org/2026.findings-eacl.289/"
+        }
+      },
+      "id": "q_pub_yi_yang_numeracy_gap_embedding_models_2026",
+      "paperIds": [
+        "pub_yi_yang_numeracy_gap_embedding_models_2026"
+      ],
+      "reviewedAt": "2026-10-14",
+      "text": "金融语境中，文本嵌入模型能否区分数值变化及其含义，如何系统测量数值敏感性缺口？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_financial_information",
+        "qc_model_evaluation"
+      ],
+      "evidence": {
+        "digest": "29f131c32e1345cc17dde1b2f73736a4d0eae861272eba8bc486fc5fa7c84780",
+        "excerpt": "论文把长篇业绩电话会议拆为从问答对到整场会议的语义连贯对话单元，以辅助对比目标和风险预测任务共同学习风险相关文本表示。摘要报告美国公司电话会议数据上的改善，未独立复现，不据预测结果推断风险的因果来源。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-14",
+          "kind": "primary_abstract",
+          "label": "原始摘要证据；阅读深度为摘要",
+          "url": "https://api.crossref.org/works/10.1287/ijoc.2023.0195"
+        }
+      },
+      "id": "q_pub_yi_yang_divide_and_contrast_risk_prediction_2025",
+      "paperIds": [
+        "pub_yi_yang_divide_and_contrast_risk_prediction_2025"
+      ],
+      "reviewedAt": "2026-10-14",
+      "text": "如何利用业绩电话会议的分层问答结构及辅助对比学习，提取与企业市场风险有关的长文本表示？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_efficient_training_systems",
+        "qc_digital_credit_platforms",
+        "qc_financial_intermediation"
+      ],
+      "evidence": {
+        "digest": "4f5dd795da0405e34a16a12c4885f492ec2cd91de5d32be9eb1e5377becbacb0",
+        "excerpt": "论文提出多专家表格语言模型，用分而治之预训练和稀疏激活微调处理银行数据库，以降低所需算力。机构摘要报告百亿参数模型及风险评估、信息预测、利润评估应用；规模、效果和部署均按作者报告整理，未独立验证生产部署。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-14",
+          "kind": "primary_abstract",
+          "label": "原始摘要证据；阅读深度为摘要",
+          "url": "https://researchportal.hkust.edu.hk/en/publications/efficient-multi-expert-tabular-language-model-for-banking/"
+        }
+      },
+      "id": "q_pub_yi_yang_multi_expert_tabular_lm_banking_2025",
+      "paperIds": [
+        "pub_yi_yang_multi_expert_tabular_lm_banking_2025"
+      ],
+      "reviewedAt": "2026-10-14",
+      "text": "如何以分而治之预训练和稀疏专家微调，在有限算力下适配银行表格数据库及多种金融预测任务？"
     }
   ],
   "researchers": [
@@ -62878,11 +64092,11 @@
       ],
       "position": "教授",
       "publicationCoverage": {
-        "abstractCount": 7,
-        "authorVerifiedCount": 7,
+        "abstractCount": 8,
+        "authorVerifiedCount": 8,
         "boundaryDateCount": 0,
-        "checkedAt": "2026-10-11",
-        "collectedCount": 7,
+        "checkedAt": "2026-10-14",
+        "collectedCount": 8,
         "extended": false,
         "fullTextCount": 0,
         "gaps": [
@@ -62896,9 +64110,10 @@
           "pub_jian_li_imm_imitative_market_making",
           "pub_jian_li_macmic_iceberg_order_execution",
           "pub_jian_li_alphaschema_2026",
-          "pub_jian_li_m3_market_microstructure_2026"
+          "pub_jian_li_m3_market_microstructure_2026",
+          "pub_jian_li_lara_stock_prediction_2024"
         ],
-        "recentCount": 7,
+        "recentCount": 8,
         "sourcesChecked": [
           {
             "checkedAt": "2026-09-22",
@@ -62965,12 +64180,30 @@
             "kind": "doi_registry",
             "label": "DOI 注册元数据：Submitted 为7月、Available 为2026-08",
             "url": "https://api.datacite.org/dois/10.48550/arXiv.2608.19227"
+          },
+          {
+            "checkedAt": "2026-10-14",
+            "kind": "paper_byline",
+            "label": "完整作者顺序及位次证据",
+            "url": "https://www.ijcai.org/proceedings/2024/678"
+          },
+          {
+            "checkedAt": "2026-10-14",
+            "kind": "primary_preprint",
+            "label": "arXiv v1/v4：完整署名、摘要与提交历史",
+            "url": "https://arxiv.org/abs/2107.11972"
+          },
+          {
+            "checkedAt": "2026-10-14",
+            "kind": "paper_byline",
+            "label": "正式原文首页：IIIS单位、作者顺序与摘要",
+            "url": "https://www.ijcai.org/proceedings/2024/0678.pdf"
           }
         ],
         "status": "partial",
         "threshold": 5,
-        "uncertainDateCount": 2,
-        "windowEnd": "2026-10-10",
+        "uncertainDateCount": 3,
+        "windowEnd": "2026-10-13",
         "windowStart": "2023-10-07",
         "windowYears": 3
       },
@@ -63501,11 +64734,11 @@
       "nameVariants": [],
       "position": "Associate Professor",
       "publicationCoverage": {
-        "abstractCount": 9,
-        "authorVerifiedCount": 9,
+        "abstractCount": 13,
+        "authorVerifiedCount": 13,
         "boundaryDateCount": 0,
-        "checkedAt": "2026-10-12",
-        "collectedCount": 9,
+        "checkedAt": "2026-10-14",
+        "collectedCount": 13,
         "extended": false,
         "fullTextCount": 0,
         "gaps": [
@@ -63521,9 +64754,13 @@
           "pub_yi_yang_lambdarankic",
           "pub_yi_yang_finrankgrpo",
           "pub_yi_yang_kv_embedding",
-          "pub_yi_yang_mind_the_shift_fomc_llm_2026"
+          "pub_yi_yang_mind_the_shift_fomc_llm_2026",
+          "pub_yi_yang_macroallocagent_2026",
+          "pub_yi_yang_numeracy_gap_embedding_models_2026",
+          "pub_yi_yang_divide_and_contrast_risk_prediction_2025",
+          "pub_yi_yang_multi_expert_tabular_lm_banking_2025"
         ],
-        "recentCount": 9,
+        "recentCount": 13,
         "sourcesChecked": [
           {
             "checkedAt": "2026-09-25",
@@ -63584,12 +64821,68 @@
             "kind": "paper_byline",
             "label": "原文署名和港科大单位核对；内容仍按摘要整理",
             "url": "https://arxiv.org/html/2603.14313v1"
+          },
+          {
+            "checkedAt": "2026-10-14",
+            "kind": "publisher_metadata",
+            "label": "完整作者顺序及位次证据",
+            "url": "https://api.crossref.org/works/10.2139/ssrn.7286866"
+          },
+          {
+            "checkedAt": "2026-10-14",
+            "kind": "primary_record",
+            "label": "原始出版/预印本记录：书目和日期",
+            "status": "primary_record_search_index",
+            "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7286866"
+          },
+          {
+            "checkedAt": "2026-10-14",
+            "kind": "official_lab",
+            "label": "HKUST FinNLP实验室：同题名工作论文",
+            "url": "https://finnlp.hkust.edu.hk/papers.html"
+          },
+          {
+            "checkedAt": "2026-10-14",
+            "kind": "paper_byline",
+            "label": "完整作者顺序及位次证据",
+            "url": "https://aclanthology.org/2026.findings-eacl.289/"
+          },
+          {
+            "checkedAt": "2026-10-14",
+            "kind": "publisher_metadata",
+            "label": "完整作者顺序及位次证据",
+            "url": "https://api.crossref.org/works/10.1287/ijoc.2023.0195"
+          },
+          {
+            "checkedAt": "2026-10-14",
+            "kind": "primary_record",
+            "label": "原始出版/预印本记录：书目和日期",
+            "status": "primary_record_search_index",
+            "url": "https://pubsonline.informs.org/doi/10.1287/ijoc.2023.0195"
+          },
+          {
+            "checkedAt": "2026-10-14",
+            "kind": "publisher_metadata",
+            "label": "完整作者顺序及位次证据",
+            "url": "https://api.crossref.org/works/10.1145/3690624.3709400"
+          },
+          {
+            "checkedAt": "2026-10-14",
+            "kind": "primary_record",
+            "label": "原始出版/预印本记录：书目和日期",
+            "url": "https://doi.org/10.1145/3690624.3709400"
+          },
+          {
+            "checkedAt": "2026-10-14",
+            "kind": "primary_abstract",
+            "label": "原始摘要证据；阅读深度为摘要",
+            "url": "https://researchportal.hkust.edu.hk/en/publications/efficient-multi-expert-tabular-language-model-for-banking/"
           }
         ],
         "status": "partial",
         "threshold": 5,
-        "uncertainDateCount": 4,
-        "windowEnd": "2026-10-11",
+        "uncertainDateCount": 5,
+        "windowEnd": "2026-10-13",
         "windowStart": "2023-10-07",
         "windowYears": 3
       },
@@ -68431,11 +69724,11 @@
       ],
       "position": "长聘副教授、研究员",
       "publicationCoverage": {
-        "abstractCount": 3,
-        "authorVerifiedCount": 3,
+        "abstractCount": 6,
+        "authorVerifiedCount": 6,
         "boundaryDateCount": 0,
-        "checkedAt": "2026-10-11",
-        "collectedCount": 3,
+        "checkedAt": "2026-10-14",
+        "collectedCount": 6,
         "extended": true,
         "fullTextCount": 0,
         "gaps": [
@@ -68445,9 +69738,12 @@
         "paperIds": [
           "pub_nan_chen_belief_two_timescale",
           "pub_ruixun_diffusion_factor_models",
-          "pub_ruixun_zhang_tradable_ito_signatures_2026"
+          "pub_ruixun_zhang_tradable_ito_signatures_2026",
+          "pub_ruixun_zhang_dorado_dynamic_rd_options_2026",
+          "pub_ruixun_zhang_signatures_path_regression_2026",
+          "pub_ruixun_zhang_bicausal_ot_policy_gradients_2026"
         ],
-        "recentCount": 3,
+        "recentCount": 6,
         "sourcesChecked": [
           {
             "checkedAt": "2026-09-29",
@@ -68490,12 +69786,43 @@
             "kind": "doi_registry",
             "label": "DOI 注册元数据：Submitted 为7月、Available 为2026-08",
             "url": "https://api.datacite.org/dois/10.48550/arXiv.2608.18120"
+          },
+          {
+            "checkedAt": "2026-10-14",
+            "kind": "publisher_metadata",
+            "label": "完整作者顺序及位次证据",
+            "url": "https://api.crossref.org/works/10.2139/ssrn.6293478"
+          },
+          {
+            "checkedAt": "2026-10-14",
+            "kind": "primary_record",
+            "label": "原始出版/预印本记录：书目和日期",
+            "status": "primary_record_search_index",
+            "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6293478"
+          },
+          {
+            "checkedAt": "2026-10-14",
+            "kind": "paper_byline",
+            "label": "完整作者顺序及位次证据",
+            "url": "https://arxiv.org/pdf/2607.17865"
+          },
+          {
+            "checkedAt": "2026-10-14",
+            "kind": "primary_record",
+            "label": "原始出版/预印本记录：书目和日期",
+            "url": "https://arxiv.org/abs/2607.17865"
+          },
+          {
+            "checkedAt": "2026-10-14",
+            "kind": "paper_byline",
+            "label": "完整作者顺序及位次证据",
+            "url": "https://arxiv.org/abs/2605.17271"
           }
         ],
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 1,
-        "windowEnd": "2026-10-10",
+        "windowEnd": "2026-10-13",
         "windowStart": "2021-10-07",
         "windowYears": 5
       },
@@ -68563,5 +69890,5 @@
       "name": "ML Theory & Optimization"
     }
   ],
-  "updatedAt": "2026-10-12"
+  "updatedAt": "2026-10-13"
 }

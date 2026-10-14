@@ -1,12 +1,12 @@
 {
   "channel": "stable",
   "counts": {
-    "abstractOnly": 425,
+    "abstractOnly": 433,
     "fullText": 4,
     "metadataOnly": 13,
-    "papers": 442,
+    "papers": 450,
     "researchers": 104,
-    "verifiedBylines": 441
+    "verifiedBylines": 449
   },
   "files": {
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -15,12 +15,12 @@
     "atlas-model.js": "1e81aecb7b7f350d2e0d4bd747c4fbe303a9812d3684b07525520a9ba8145fed",
     "atlas.css": "60fd8f36f45d4de1dd83d441e343e6cd212f704b4760821d05b44fdc4451a407",
     "atlas.js": "9da7c13ed17e1393f93b0f3859a2361097fec585bcb86f012103eb81def18565",
-    "catalog.json": "6cd2279c67edde4c3d66aeedd72c2bc96237144c9b17cb57d83da0f66500403e",
-    "index.html": "2d91816b126f0703a612580adf05a92b58cee659b0cfa188ee55f13ac2d2f6f9",
+    "catalog.json": "6ae73219040a72dbb4e4154346b4fa21212ddf34ef4d54c46b8f8b349299adee",
+    "index.html": "0483cea1a98a3cc0ba26e072c0734d3baa1358fcc7ad382acc9643ead1f79c10",
     "publication-model.js": "9dc830314bc9b16cac37e72ba2923de8cd181a47033a8ab321781256fa837d6a"
   },
   "mode": "public",
   "schemaVersion": 1,
-  "snapshotDate": "2026-10-12",
-  "version": "3.3.34"
+  "snapshotDate": "2026-10-13",
+  "version": "3.3.35"
 }
