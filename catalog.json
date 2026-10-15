@@ -47687,6 +47687,409 @@
       "verifiedAt": "2026-10-14",
       "versions": [],
       "year": 2025
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-15",
+        "reason": "已读原始摘要、核对PDF首页署名，并定向核查3.3–3.4节Eq.6以消除token与位置歧义；不代表整篇全文审查。",
+        "source": "https://arxiv.org/abs/2606.02530",
+        "status": "available"
+      },
+      "abstractSummary": "SafeSteer针对安全对齐的能力损失，先以激活引导构造安全教师，再选择词表中的安全token子集，将on-policy蒸馏的reverse-KL限制在这些词表元素上。这里的局部化不指只在少数生成位置训练。作者在安全与通用能力基准上评估折中；未核到金融实验，也未独立复现。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-15",
+        "kind": "paper_byline",
+        "label": "完整作者顺序及位次证据",
+        "url": "https://arxiv.org/abs/2606.02530"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Hao Li",
+        "Jingkun An",
+        "Zijun Song",
+        "Pengyu Zhu",
+        "Rui Li",
+        "Hao Wang",
+        "Wendi Feng",
+        "Yesheng Liu",
+        "Lijun Li",
+        "Jin-Ge Yao",
+        "Lei Sha"
+      ],
+      "authorships": [
+        {
+          "name": "Hao Li",
+          "position": 1
+        },
+        {
+          "name": "Jingkun An",
+          "position": 2
+        },
+        {
+          "name": "Zijun Song",
+          "position": 3
+        },
+        {
+          "name": "Pengyu Zhu",
+          "position": 4
+        },
+        {
+          "name": "Rui Li",
+          "position": 5
+        },
+        {
+          "name": "Hao Wang",
+          "position": 6
+        },
+        {
+          "name": "Wendi Feng",
+          "position": 7
+        },
+        {
+          "name": "Yesheng Liu",
+          "position": 8
+        },
+        {
+          "name": "Lijun Li",
+          "position": 9
+        },
+        {
+          "name": "Jin-Ge Yao",
+          "position": 10
+        },
+        {
+          "name": "Lei Sha",
+          "position": 11,
+          "researcherId": "r_lei_sha"
+        }
+      ],
+      "contribution": {
+        "checkedAt": "2026-10-15",
+        "note": "完整作者顺序已核；署名位次不等于贡献大小，通讯作者只在来源明确时标注。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2026-06-01",
+      "dateEvidence": {
+        "checkedAt": "2026-10-15",
+        "kind": "date_note",
+        "label": "日期、版本与书目信息核对",
+        "note": "arXiv v1提交2026-06-01，v2修订2026-08-21；主日期保留初次上线。EMNLP2026 Main/Oral仅为作者/项目声明，未独立核到对应正式出版记录，保持预印本；其他同名SafeSteer作者和副标题不同，不合并。",
+        "url": "https://arxiv.org/abs/2606.02530"
+      },
+      "datePrecision": "day",
+      "doi": "10.48550/arXiv.2606.02530",
+      "id": "pub_sha_safesteer_localized_on_policy_distillation_2026",
+      "paradigms": [
+        "system",
+        "empirical"
+      ],
+      "publicationStatus": "preprint",
+      "publicationType": "preprint",
+      "questionId": "q_pub_sha_safesteer_localized_on_policy_distillation_2026",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "如何通过激活引导的教师和局限于关键安全词表子集的on-policy蒸馏，减轻LLM安全对齐对通用能力的影响？",
+      "researcherIds": [
+        "r_lei_sha"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-15",
+          "kind": "paper_byline",
+          "label": "完整作者顺序及位次证据",
+          "url": "https://arxiv.org/abs/2606.02530"
+        },
+        {
+          "checkedAt": "2026-10-15",
+          "kind": "paper_byline",
+          "label": "原文首页署名及方法局部核验：3.3–3.4节Eq.6的安全词表子集",
+          "url": "https://arxiv.org/pdf/2606.02530"
+        }
+      ],
+      "summary": {
+        "evidence": "SafeSteer针对安全对齐的能力损失，先以激活引导构造安全教师，再选择词表中的安全token子集，将on-policy蒸馏的reverse-KL限制在这些词表元素上。这里的局部化不指只在少数生成位置训练。作者在安全与通用能力基准上评估折中；未核到金融实验，也未独立复现。",
+        "gap": "摘要明确涉及的问题：如何通过激活引导的教师和局限于关键安全词表子集的on-policy蒸馏，减轻LLM安全对齐对通用能力的影响？",
+        "insight": "SafeSteer针对安全对齐的能力损失，先以激活引导构造安全教师，再选择词表中的安全token子集，将on-policy蒸馏的reverse-KL限制在这些词表元素上。这里的局部化不指只在少数生成位置训练。作者在安全与通用能力基准上评估折中；未核到金融实验，也未独立复现。",
+        "limitation": "摘要级整理，未独立复核全文证明、实验或生产部署；署名位次不推断贡献大小。",
+        "method": "依据原始摘要归纳；出版元数据仅支持书目、日期和署名核对。",
+        "question": "如何通过激活引导的教师和局限于关键安全词表子集的on-policy蒸馏，减轻LLM安全对齐对通用能力的影响？"
+      },
+      "summaryBasis": "abstract",
+      "themes": [
+        "ml"
+      ],
+      "title": "SafeSteer: Localized On-Policy Distillation for Efficient Safety Alignment",
+      "url": "https://arxiv.org/abs/2606.02530",
+      "venue": "arXiv:2606.02530 v2; EMNLP2026 Main is author-reported, proceedings unverified",
+      "verifiedAt": "2026-10-15",
+      "versions": [],
+      "year": 2026
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-15",
+        "reason": "直接读取ACL正式摘要及元数据，并核对PDF首页完整署名；未进行全文解读或独立复现。",
+        "source": "https://aclanthology.org/2026.acl-long.1168/",
+        "status": "available"
+      },
+      "abstractSummary": "SafetyMem针对推理时防御难以保存经验的问题，结合汇总攻击模式的语义安全记忆与从历史检测失败修正规则的情节安全记忆，并用对抗记忆扩展适应新攻击，无需重训参数。作者评估标准与隐蔽越狱攻击下的防御表现；未核到金融实验，也未独立复现。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-15",
+        "kind": "paper_byline",
+        "label": "完整作者顺序及位次证据",
+        "url": "https://aclanthology.org/2026.acl-long.1168/"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Hao Wang",
+        "Ziyi Ni",
+        "Huacan Wang",
+        "Pin Lyu",
+        "Lei Sha"
+      ],
+      "authorships": [
+        {
+          "name": "Hao Wang",
+          "position": 1
+        },
+        {
+          "name": "Ziyi Ni",
+          "position": 2
+        },
+        {
+          "name": "Huacan Wang",
+          "position": 3
+        },
+        {
+          "name": "Pin Lyu",
+          "position": 4
+        },
+        {
+          "name": "Lei Sha",
+          "position": 5,
+          "researcherId": "r_lei_sha"
+        }
+      ],
+      "contribution": {
+        "checkedAt": "2026-10-15",
+        "note": "完整作者顺序已核；署名位次不等于贡献大小，通讯作者只在来源明确时标注。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2026-07",
+      "dateEvidence": {
+        "checkedAt": "2026-10-15",
+        "kind": "date_note",
+        "label": "日期、版本与书目信息核对",
+        "note": "ACL正式记录只提供2026年7月，保留month精度而不补造具体日期；页码25486–25509。未核到独立预印本，不制造第二版本。",
+        "url": "https://aclanthology.org/2026.acl-long.1168/"
+      },
+      "datePrecision": "month",
+      "doi": "10.18653/v1/2026.acl-long.1168",
+      "id": "pub_sha_safetymem_dual_component_safety_memory_2026",
+      "paradigms": [
+        "system",
+        "empirical"
+      ],
+      "publicationStatus": "published",
+      "publicationType": "conference",
+      "questionId": "q_pub_sha_safetymem_dual_component_safety_memory_2026",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "如何把越狱攻击模式与历史防御失败形成可复用的双组件安全记忆，使LLM在不重训参数时适应新攻击？",
+      "researcherIds": [
+        "r_lei_sha"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-15",
+          "kind": "paper_byline",
+          "label": "完整作者顺序及位次证据",
+          "url": "https://aclanthology.org/2026.acl-long.1168/"
+        },
+        {
+          "checkedAt": "2026-10-15",
+          "kind": "paper_byline",
+          "label": "正式原文首页完整五位署名",
+          "url": "https://aclanthology.org/2026.acl-long.1168.pdf"
+        }
+      ],
+      "summary": {
+        "evidence": "SafetyMem针对推理时防御难以保存经验的问题，结合汇总攻击模式的语义安全记忆与从历史检测失败修正规则的情节安全记忆，并用对抗记忆扩展适应新攻击，无需重训参数。作者评估标准与隐蔽越狱攻击下的防御表现；未核到金融实验，也未独立复现。",
+        "gap": "摘要明确涉及的问题：如何把越狱攻击模式与历史防御失败形成可复用的双组件安全记忆，使LLM在不重训参数时适应新攻击？",
+        "insight": "SafetyMem针对推理时防御难以保存经验的问题，结合汇总攻击模式的语义安全记忆与从历史检测失败修正规则的情节安全记忆，并用对抗记忆扩展适应新攻击，无需重训参数。作者评估标准与隐蔽越狱攻击下的防御表现；未核到金融实验，也未独立复现。",
+        "limitation": "摘要级整理，未独立复核全文证明、实验或生产部署；署名位次不推断贡献大小。",
+        "method": "依据原始摘要归纳；出版元数据仅支持书目、日期和署名核对。",
+        "question": "如何把越狱攻击模式与历史防御失败形成可复用的双组件安全记忆，使LLM在不重训参数时适应新攻击？"
+      },
+      "summaryBasis": "abstract",
+      "themes": [
+        "ml"
+      ],
+      "title": "SafetyMem: Adaptive Jailbreak Defense via Dual-Component Safety Memory",
+      "url": "https://aclanthology.org/2026.acl-long.1168/",
+      "venue": "ACL 2026 Volume 1: Long Papers, pp. 25486–25509",
+      "verifiedAt": "2026-10-15",
+      "versions": [],
+      "year": 2026
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-15",
+        "reason": "直接读取ACL摘要及元数据，核对原文首页署名，并比对arXiv同题同署名摘要；未逐段比较全文版本或独立复现。",
+        "source": "https://aclanthology.org/2026.findings-acl.933/",
+        "status": "available"
+      },
+      "abstractSummary": "Safety Self-Play让单个LLM在统一强化学习循环中兼任攻击者和防御者，动态演化攻击策略并增强防御，结合UCB引导的经验池抽样回放较难的失败经验。作者以越狱基准评估安全泛化；不据此推断金融决策效果、独立多模型竞争或已验证博弈收敛。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-15",
+        "kind": "paper_byline",
+        "label": "完整作者顺序及位次证据",
+        "url": "https://aclanthology.org/2026.findings-acl.933/"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Hao Wang",
+        "Yanting Wang",
+        "Hao Li",
+        "Rui Li",
+        "Lei Sha"
+      ],
+      "authorships": [
+        {
+          "name": "Hao Wang",
+          "position": 1
+        },
+        {
+          "name": "Yanting Wang",
+          "position": 2
+        },
+        {
+          "name": "Hao Li",
+          "position": 3
+        },
+        {
+          "name": "Rui Li",
+          "position": 4
+        },
+        {
+          "name": "Lei Sha",
+          "position": 5,
+          "researcherId": "r_lei_sha"
+        }
+      ],
+      "contribution": {
+        "checkedAt": "2026-10-15",
+        "note": "完整作者顺序已核；署名位次不等于贡献大小，通讯作者只在来源明确时标注。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2026-07",
+      "dateEvidence": {
+        "checkedAt": "2026-10-15",
+        "kind": "date_note",
+        "label": "日期、版本与书目信息核对",
+        "note": "ACL正式出版月2026-07（不补造日），页码18700–18716；与arXiv2601.10589 v1（2026-01-15）同题同完整署名合并。9月15日已见标题线索，10月14日补全书目和摘要证据，不能称10月15日首次发现。",
+        "url": "https://aclanthology.org/2026.findings-acl.933/"
+      },
+      "datePrecision": "month",
+      "doi": "10.18653/v1/2026.findings-acl.933",
+      "id": "pub_sha_be_your_own_red_teamer_2026",
+      "paradigms": [
+        "control",
+        "system",
+        "empirical"
+      ],
+      "publicationStatus": "published",
+      "publicationType": "conference",
+      "questionId": "q_pub_sha_be_your_own_red_teamer_2026",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "如何让单个LLM在统一强化学习循环中通过攻击—防御自博弈与失败经验回放，提高对未知越狱攻击的安全泛化？",
+      "researcherIds": [
+        "r_lei_sha"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-15",
+          "kind": "paper_byline",
+          "label": "完整作者顺序及位次证据",
+          "url": "https://aclanthology.org/2026.findings-acl.933/"
+        },
+        {
+          "checkedAt": "2026-10-15",
+          "kind": "paper_byline",
+          "label": "正式原文首页完整五位署名",
+          "url": "https://aclanthology.org/2026.findings-acl.933.pdf"
+        },
+        {
+          "checkedAt": "2026-10-15",
+          "kind": "primary_preprint",
+          "label": "预印本身份、完整署名、摘要与提交日期",
+          "url": "https://arxiv.org/abs/2601.10589"
+        }
+      ],
+      "summary": {
+        "evidence": "Safety Self-Play让单个LLM在统一强化学习循环中兼任攻击者和防御者，动态演化攻击策略并增强防御，结合UCB引导的经验池抽样回放较难的失败经验。作者以越狱基准评估安全泛化；不据此推断金融决策效果、独立多模型竞争或已验证博弈收敛。",
+        "gap": "摘要明确涉及的问题：如何让单个LLM在统一强化学习循环中通过攻击—防御自博弈与失败经验回放，提高对未知越狱攻击的安全泛化？",
+        "insight": "Safety Self-Play让单个LLM在统一强化学习循环中兼任攻击者和防御者，动态演化攻击策略并增强防御，结合UCB引导的经验池抽样回放较难的失败经验。作者以越狱基准评估安全泛化；不据此推断金融决策效果、独立多模型竞争或已验证博弈收敛。",
+        "limitation": "摘要级整理，未独立复核全文证明、实验或生产部署；署名位次不推断贡献大小。",
+        "method": "依据原始摘要归纳；出版元数据仅支持书目、日期和署名核对。",
+        "question": "如何让单个LLM在统一强化学习循环中通过攻击—防御自博弈与失败经验回放，提高对未知越狱攻击的安全泛化？"
+      },
+      "summaryBasis": "abstract",
+      "themes": [
+        "ml",
+        "decision"
+      ],
+      "title": "Be Your Own Red Teamer: Safety Alignment via Self-Play and Reflective Experience Replay",
+      "url": "https://aclanthology.org/2026.findings-acl.933/",
+      "venue": "Findings of ACL 2026, pp. 18700–18716",
+      "verifiedAt": "2026-10-15",
+      "versions": [
+        {
+          "authorEvidence": {
+            "checkedAt": "2026-10-15",
+            "kind": "primary_preprint",
+            "label": "同题同署名预印本：v1日期及摘要",
+            "url": "https://arxiv.org/abs/2601.10589"
+          },
+          "authorListComplete": true,
+          "authorOrderVerified": true,
+          "authors": [
+            "Hao Wang",
+            "Yanting Wang",
+            "Hao Li",
+            "Rui Li",
+            "Lei Sha"
+          ],
+          "date": "2026-01-15",
+          "datePrecision": "day",
+          "doi": "10.48550/arXiv.2601.10589",
+          "publicationStatus": "preprint",
+          "publicationType": "preprint",
+          "sources": [
+            {
+              "checkedAt": "2026-10-15",
+              "kind": "primary_preprint",
+              "label": "同题同署名预印本：v1日期及摘要",
+              "url": "https://arxiv.org/abs/2601.10589"
+            }
+          ],
+          "title": "Be Your Own Red Teamer: Safety Alignment via Self-Play and Reflective Experience Replay",
+          "url": "https://arxiv.org/abs/2601.10589",
+          "venue": "arXiv:2601.10589 v1",
+          "year": 2026
+        }
+      ],
+      "year": 2026
     }
   ],
   "paradigms": [
@@ -47788,8 +48191,8 @@
   "publicCurationNote": "公开研究资料快照。主题、研究问题与研究线为编辑归纳，不代表学者本人陈述或机构背书。",
   "publicRelease": {
     "channel": "stable",
-    "snapshotDate": "2026-10-13",
-    "version": "3.3.35"
+    "snapshotDate": "2026-10-14",
+    "version": "3.3.36"
   },
   "publicationPolicy": {
     "authorshipNote": "署名位次不等于贡献排名；通讯作者、共同贡献和具体分工只按原文证据标注。",
@@ -47799,18 +48202,18 @@
     "extendedStart": "2021-10-08",
     "extendedYears": 5,
     "extensionThreshold": 5,
-    "snapshotDate": "2026-10-13",
+    "snapshotDate": "2026-10-14",
     "versionNote": "同一研究的预印本与发表版本分开保留证据；摘要来源可能与主书目版本不同。"
   },
   "publicationStats": {
-    "abstracts": 437,
+    "abstracts": 440,
     "fullTexts": 4,
     "outsideWindow": 7,
-    "papers": 450,
-    "recentPapers": 443,
+    "papers": 453,
+    "recentPapers": 446,
     "researchers": 104,
     "reviewedSources": 14,
-    "verifiedBylines": 449,
+    "verifiedBylines": 452,
     "withPapers": 48
   },
   "questionClusters": [
@@ -49632,7 +50035,10 @@
         "pub_difan_2024_what_can_transformer_learn_with_varying_depth_ca",
         "pub_jian_li_alpha_jungle",
         "pub_qi_liu_cogalpha",
-        "pub_qi_liu_alphaqt"
+        "pub_qi_liu_alphaqt",
+        "pub_sha_safesteer_localized_on_policy_distillation_2026",
+        "pub_sha_safetymem_dual_component_safety_memory_2026",
+        "pub_sha_be_your_own_red_teamer_2026"
       ],
       "question": "如何理解和改善语言模型的推理、指令遵循与偏好对齐？",
       "questionIds": [
@@ -49660,22 +50066,26 @@
         "q_pub_difan_2024_what_can_transformer_learn_with_varying_depth_ca",
         "q_pub_jian_li_alpha_jungle",
         "q_pub_qi_liu_cogalpha",
-        "q_pub_qi_liu_alphaqt"
+        "q_pub_qi_liu_alphaqt",
+        "q_pub_sha_safesteer_localized_on_policy_distillation_2026",
+        "q_pub_sha_safetymem_dual_component_safety_memory_2026",
+        "q_pub_sha_be_your_own_red_teamer_2026"
       ],
       "researcherIds": [
         "r_bo_an",
         "r_chao",
         "r_difan",
         "r_jian_li",
-        "r_qi_liu_hku"
+        "r_qi_liu_hku",
+        "r_lei_sha"
       ],
-      "reviewedAt": "2026-09-22",
+      "reviewedAt": "2026-10-15",
       "themes": [
-        "asset",
-        "decision",
-        "digital",
         "finai",
-        "ml"
+        "decision",
+        "ml",
+        "digital",
+        "asset"
       ],
       "title": "语言模型的推理与对齐"
     },
@@ -50641,11 +51051,11 @@
       {
         "awaitingEvidence": 1,
         "awaitingExtraction": 0,
-        "clustered": 97,
+        "clustered": 98,
         "clusters": 36,
-        "extracted": 97,
+        "extracted": 98,
         "multiPaperClusters": 24,
-        "papers": 98,
+        "papers": 99,
         "singlePaperClusters": 12,
         "staleEvidence": 0,
         "themeId": "decision",
@@ -50693,22 +51103,22 @@
       {
         "awaitingEvidence": 3,
         "awaitingExtraction": 0,
-        "clustered": 252,
+        "clustered": 255,
         "clusters": 42,
-        "extracted": 252,
+        "extracted": 255,
         "multiPaperClusters": 35,
-        "papers": 255,
+        "papers": 258,
         "singlePaperClusters": 7,
         "staleEvidence": 0,
         "themeId": "ml",
         "unclustered": 0
       }
     ],
-    "clustered": 437,
+    "clustered": 440,
     "clusters": 50,
-    "extracted": 437,
+    "extracted": 440,
     "multiPaperClusters": 45,
-    "papers": 450,
+    "papers": 453,
     "singlePaperClusters": 5,
     "staleEvidence": 0,
     "unclustered": 0
@@ -61086,6 +61496,75 @@
       ],
       "reviewedAt": "2026-10-14",
       "text": "如何以分而治之预训练和稀疏专家微调，在有限算力下适配银行表格数据库及多种金融预测任务？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_llm_reasoning_alignment"
+      ],
+      "evidence": {
+        "digest": "8d42f2f86c3e202fad1f667c25b86bb3088cf4fd530a3077b8ac4ba6a654fdaa",
+        "excerpt": "SafeSteer针对安全对齐的能力损失，先以激活引导构造安全教师，再选择词表中的安全token子集，将on-policy蒸馏的reverse-KL限制在这些词表元素上。这里的局部化不指只在少数生成位置训练。作者在安全与通用能力基准上评估折中；未核到金融实验，也未独立复现。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-15",
+          "kind": "primary_abstract",
+          "label": "原始摘要证据；阅读深度为摘要",
+          "url": "https://arxiv.org/abs/2606.02530"
+        }
+      },
+      "id": "q_pub_sha_safesteer_localized_on_policy_distillation_2026",
+      "paperIds": [
+        "pub_sha_safesteer_localized_on_policy_distillation_2026"
+      ],
+      "reviewedAt": "2026-10-15",
+      "text": "如何通过激活引导的教师和局限于关键安全词表子集的on-policy蒸馏，减轻LLM安全对齐对通用能力的影响？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_llm_reasoning_alignment"
+      ],
+      "evidence": {
+        "digest": "6326d11ba3ae36a0e38c3e18ab0a9f8f547e895d036fdb840a3b33bbf619ca68",
+        "excerpt": "SafetyMem针对推理时防御难以保存经验的问题，结合汇总攻击模式的语义安全记忆与从历史检测失败修正规则的情节安全记忆，并用对抗记忆扩展适应新攻击，无需重训参数。作者评估标准与隐蔽越狱攻击下的防御表现；未核到金融实验，也未独立复现。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-15",
+          "kind": "primary_abstract",
+          "label": "原始摘要证据；阅读深度为摘要",
+          "url": "https://aclanthology.org/2026.acl-long.1168/"
+        }
+      },
+      "id": "q_pub_sha_safetymem_dual_component_safety_memory_2026",
+      "paperIds": [
+        "pub_sha_safetymem_dual_component_safety_memory_2026"
+      ],
+      "reviewedAt": "2026-10-15",
+      "text": "如何把越狱攻击模式与历史防御失败形成可复用的双组件安全记忆，使LLM在不重训参数时适应新攻击？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_llm_reasoning_alignment"
+      ],
+      "evidence": {
+        "digest": "16fdcda5c74c1b6dce94625d7153e8aeef7a4f1bc6b81bb99568a9864c688ce8",
+        "excerpt": "Safety Self-Play让单个LLM在统一强化学习循环中兼任攻击者和防御者，动态演化攻击策略并增强防御，结合UCB引导的经验池抽样回放较难的失败经验。作者以越狱基准评估安全泛化；不据此推断金融决策效果、独立多模型竞争或已验证博弈收敛。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-15",
+          "kind": "primary_abstract",
+          "label": "原始摘要证据；阅读深度为摘要",
+          "url": "https://aclanthology.org/2026.findings-acl.933/"
+        }
+      },
+      "id": "q_pub_sha_be_your_own_red_teamer_2026",
+      "paperIds": [
+        "pub_sha_be_your_own_red_teamer_2026"
+      ],
+      "reviewedAt": "2026-10-15",
+      "text": "如何让单个LLM在统一强化学习循环中通过攻击—防御自博弈与失败经验回放，提高对未知越狱攻击的安全泛化？"
     }
   ],
   "researchers": [
@@ -63244,11 +63723,11 @@
       "nameVariants": [],
       "position": "教授、博士生导师",
       "publicationCoverage": {
-        "abstractCount": 4,
-        "authorVerifiedCount": 5,
+        "abstractCount": 7,
+        "authorVerifiedCount": 8,
         "boundaryDateCount": 0,
-        "checkedAt": "2026-09-10",
-        "collectedCount": 5,
+        "checkedAt": "2026-10-15",
+        "collectedCount": 8,
         "extended": false,
         "fullTextCount": 0,
         "gaps": [
@@ -63260,9 +63739,12 @@
           "pub_sha_multiview_rag",
           "pub_sha_cancer_transcriptomic",
           "pub_sha_harmonized_uncertainty",
-          "pub_sha_atm"
+          "pub_sha_atm",
+          "pub_sha_safesteer_localized_on_policy_distillation_2026",
+          "pub_sha_safetymem_dual_component_safety_memory_2026",
+          "pub_sha_be_your_own_red_teamer_2026"
         ],
-        "recentCount": 5,
+        "recentCount": 8,
         "sourcesChecked": [
           {
             "checkedAt": "2026-09-07",
@@ -63270,13 +63752,55 @@
             "label": "Lei Sha selected publications",
             "status": "checked",
             "url": "https://shalei120.github.io/"
+          },
+          {
+            "checkedAt": "2026-10-15",
+            "kind": "paper_byline",
+            "label": "完整作者顺序及位次证据",
+            "url": "https://arxiv.org/abs/2606.02530"
+          },
+          {
+            "checkedAt": "2026-10-15",
+            "kind": "paper_byline",
+            "label": "原文首页署名及方法局部核验：3.3–3.4节Eq.6的安全词表子集",
+            "url": "https://arxiv.org/pdf/2606.02530"
+          },
+          {
+            "checkedAt": "2026-10-15",
+            "kind": "paper_byline",
+            "label": "完整作者顺序及位次证据",
+            "url": "https://aclanthology.org/2026.acl-long.1168/"
+          },
+          {
+            "checkedAt": "2026-10-15",
+            "kind": "paper_byline",
+            "label": "正式原文首页完整五位署名",
+            "url": "https://aclanthology.org/2026.acl-long.1168.pdf"
+          },
+          {
+            "checkedAt": "2026-10-15",
+            "kind": "paper_byline",
+            "label": "完整作者顺序及位次证据",
+            "url": "https://aclanthology.org/2026.findings-acl.933/"
+          },
+          {
+            "checkedAt": "2026-10-15",
+            "kind": "paper_byline",
+            "label": "正式原文首页完整五位署名",
+            "url": "https://aclanthology.org/2026.findings-acl.933.pdf"
+          },
+          {
+            "checkedAt": "2026-10-15",
+            "kind": "primary_preprint",
+            "label": "预印本身份、完整署名、摘要与提交日期",
+            "url": "https://arxiv.org/abs/2601.10589"
           }
         ],
         "status": "partial",
         "threshold": 5,
-        "uncertainDateCount": 2,
-        "windowEnd": "2026-10-05",
-        "windowStart": "2023-10-05",
+        "uncertainDateCount": 4,
+        "windowEnd": "2026-10-14",
+        "windowStart": "2023-10-07",
         "windowYears": 3
       },
       "sources": [
@@ -69890,5 +70414,5 @@
       "name": "ML Theory & Optimization"
     }
   ],
-  "updatedAt": "2026-10-13"
+  "updatedAt": "2026-10-14"
 }
