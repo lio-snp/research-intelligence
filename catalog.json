@@ -48608,6 +48608,472 @@
         }
       ],
       "year": 2025
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-17",
+        "reason": "已核原始摘要及完整作者顺序；未全文审证或独立复现。",
+        "source": "https://pubsonline.informs.org/doi/10.1287/mnsc.2024.06215",
+        "status": "available"
+      },
+      "abstractSummary": "用傅里叶谱表示从低信噪比日内成交量中恢复稳定周期，并在美中股票数据上检验其与算法化交易节律、成交量预测和VWAP执行的联系；交易机制解释及收益改善均为作者报告，未复核因果性或成本后交易结果。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-17",
+        "kind": "publisher",
+        "label": "Complete byline 3 authors, Zhang 2/3, online 2025-11-14, 72(8):6652–6685; abstract read.",
+        "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2024.06215"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Lintong Wu",
+        "Ruixun Zhang",
+        "Yuehao Dai"
+      ],
+      "authorships": [
+        {
+          "name": "Lintong Wu",
+          "position": 1
+        },
+        {
+          "name": "Ruixun Zhang",
+          "position": 2,
+          "researcherId": "r_ruixun_zhang_pku"
+        },
+        {
+          "name": "Yuehao Dai",
+          "position": 3
+        }
+      ],
+      "contribution": {
+        "checkedAt": "2026-10-17",
+        "note": "完整作者顺序已核；署名位次不等于贡献大小，通讯作者只在来源明确时标注。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2025-11-14",
+      "dateEvidence": {
+        "checkedAt": "2026-10-17",
+        "kind": "date_note",
+        "label": "日期、版本与书目信息核对",
+        "note": "主日期为正式版首次在线日期；期卷及页码为Management Science 72(8), August 2026:6652–6685。Use publisher complete title including Universal.；6433–7379 is the entire issue page range, not this article; correct article pages 6652–6685. 预印本按同一作品合并，版本日期分别为2022-09-30。 SSRN当前题名也含Universal；旧不含Universal题名仅作为历史检索别名，不宣称为当前题名。SSRN2022-09-30为最初发布日，当前修订为2025-07-30。",
+        "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2024.06215"
+      },
+      "datePrecision": "day",
+      "doi": "10.1287/mnsc.2024.06215",
+      "id": "pub_ruixun_zhang_spectral_volume_models_2025",
+      "paradigms": [
+        "empirical",
+        "system"
+      ],
+      "publicationStatus": "published",
+      "publicationType": "journal",
+      "questionId": "q_pub_ruixun_zhang_spectral_volume_models_2025",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "如何从低信噪比高频成交量中稳定识别周期结构，并检验这些结构对成交量预测与执行的增量价值？",
+      "researcherIds": [
+        "r_ruixun_zhang_pku"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-17",
+          "kind": "publisher",
+          "label": "Complete byline 3 authors, Zhang 2/3, online 2025-11-14, 72(8):6652–6685; abstract read.",
+          "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2024.06215"
+        },
+        {
+          "checkedAt": "2026-10-17",
+          "kind": "preprint_repository",
+          "label": "Same Spectral Volume work; SSRN version history establishes older preprint, not a second work.",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4230610"
+        }
+      ],
+      "summary": {
+        "evidence": "用傅里叶谱表示从低信噪比日内成交量中恢复稳定周期，并在美中股票数据上检验其与算法化交易节律、成交量预测和VWAP执行的联系；交易机制解释及收益改善均为作者报告，未复核因果性或成本后交易结果。",
+        "gap": "摘要支持的论文问题：如何从低信噪比高频成交量中稳定识别周期结构，并检验这些结构对成交量预测与执行的增量价值？",
+        "insight": "用傅里叶谱表示从低信噪比日内成交量中恢复稳定周期，并在美中股票数据上检验其与算法化交易节律、成交量预测和VWAP执行的联系；交易机制解释及收益改善均为作者报告，未复核因果性或成本后交易结果。",
+        "limitation": "摘要级整理，未逐条复核全文证明或独立复现实验；署名位次不推断贡献大小。Not a full-text assessment; no independent causal identification or trading-result replication. First preprint 2022 predates three-year preference but remains within five years; journal first-online 2025 is within three years.",
+        "method": "依据原始摘要归纳；出版元数据仅支持书目、日期和署名核验。",
+        "question": "如何从低信噪比高频成交量中稳定识别周期结构，并检验这些结构对成交量预测与执行的增量价值？"
+      },
+      "summaryBasis": "abstract",
+      "themes": [
+        "ts",
+        "finai",
+        "asset"
+      ],
+      "title": "Spectral Volume Models: Universal High-Frequency Periodicities in Intraday Trading Activities",
+      "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2024.06215",
+      "venue": "Management Science 72(8), August 2026:6652–6685",
+      "verifiedAt": "2026-10-17",
+      "versions": [
+        {
+          "authorEvidence": {
+            "checkedAt": "2026-10-17",
+            "kind": "primary_preprint",
+            "label": "该预印本版本的署名和日期记录",
+            "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4230610"
+          },
+          "authorListComplete": true,
+          "authorOrderVerified": true,
+          "authors": [
+            "Lintong Wu",
+            "Ruixun Zhang",
+            "Yuehao Dai"
+          ],
+          "date": "2022-09-30",
+          "datePrecision": "day",
+          "doi": "10.2139/ssrn.4230610",
+          "publicationStatus": "preprint",
+          "publicationType": "preprint",
+          "sources": [
+            {
+              "checkedAt": "2026-10-17",
+              "kind": "primary_preprint",
+              "label": "该预印本版本的署名和日期记录",
+              "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4230610"
+            }
+          ],
+          "title": "Spectral Volume Models: Universal High-Frequency Periodicities in Intraday Trading Activities",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4230610",
+          "venue": "SSRN working paper",
+          "year": 2022
+        }
+      ],
+      "year": 2025
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-17",
+        "reason": "已核原始摘要及完整作者顺序；未全文审证或独立复现。",
+        "source": "https://onlinelibrary.wiley.com/doi/10.1111/mafi.70040",
+        "status": "available"
+      },
+      "abstractSummary": "建立ESG投资者与竞争评级机构之间的不完全信息主从博弈，刻画机构在市场份额激励和偏离基本面的声誉成本之间的取舍，以及漂绿、评级分歧与组合绿色程度的关系；这是理论模型，作者明确不使用数据。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-17",
+        "kind": "publisher",
+        "label": "Complete byline 5 authors, Zhang 5/5, first published 2026-06-02, 36(4):716–750; theoretical principal-agent/Stackelberg model and no data.",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/mafi.70040"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Qinhan Duan",
+        "Yilun Song",
+        "Ruodu Wang",
+        "Jingping Yang",
+        "Ruixun Zhang"
+      ],
+      "authorships": [
+        {
+          "name": "Qinhan Duan",
+          "position": 1
+        },
+        {
+          "name": "Yilun Song",
+          "position": 2
+        },
+        {
+          "name": "Ruodu Wang",
+          "position": 3
+        },
+        {
+          "name": "Jingping Yang",
+          "position": 4
+        },
+        {
+          "name": "Ruixun Zhang",
+          "position": 5,
+          "researcherId": "r_ruixun_zhang_pku"
+        }
+      ],
+      "contribution": {
+        "checkedAt": "2026-10-17",
+        "note": "完整作者顺序已核；署名位次不等于贡献大小，通讯作者只在来源明确时标注。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2026-06-02",
+      "dateEvidence": {
+        "checkedAt": "2026-10-17",
+        "kind": "date_note",
+        "label": "日期、版本与书目信息核对",
+        "note": "主日期为正式版首次在线日期；期卷及页码为Mathematical Finance 36(4):716–750。Replace stale SSRN forthcoming with publisher first-published date and formal volume/pages.；Do not label this paper empirical AI/ML: publisher explicitly says no data. 预印本按同一作品合并，版本日期分别为2026-03-09。",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/mafi.70040"
+      },
+      "datePrecision": "day",
+      "doi": "10.1111/mafi.70040",
+      "id": "pub_ruixun_zhang_esg_rating_game_2026",
+      "paradigms": [
+        "theory",
+        "control"
+      ],
+      "publicationStatus": "published",
+      "publicationType": "journal",
+      "questionId": "q_pub_ruixun_zhang_esg_rating_game_2026",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "当评级机构具有市场份额和声誉激励时，怎样解释ESG评级分歧，并约束收益偏好与真实绿色程度之间的扭曲？",
+      "researcherIds": [
+        "r_ruixun_zhang_pku"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-17",
+          "kind": "publisher",
+          "label": "Complete byline 5 authors, Zhang 5/5, first published 2026-06-02, 36(4):716–750; theoretical principal-agent/Stackelberg model and no data.",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/mafi.70040"
+        },
+        {
+          "checkedAt": "2026-10-17",
+          "kind": "author_manuscript",
+          "label": "Formal article byline and abstract checked; proof/body not fully reviewed.",
+          "url": "https://ruixunzhang.com/paper/2026_MF_ESGRatingGame.pdf"
+        },
+        {
+          "checkedAt": "2026-10-17",
+          "kind": "preprint_repository",
+          "label": "Same ESG Rating Game preprint; stale forthcoming label superseded by publisher.",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6301279"
+        }
+      ],
+      "summary": {
+        "evidence": "建立ESG投资者与竞争评级机构之间的不完全信息主从博弈，刻画机构在市场份额激励和偏离基本面的声誉成本之间的取舍，以及漂绿、评级分歧与组合绿色程度的关系；这是理论模型，作者明确不使用数据。",
+        "gap": "摘要支持的论文问题：当评级机构具有市场份额和声誉激励时，怎样解释ESG评级分歧，并约束收益偏好与真实绿色程度之间的扭曲？",
+        "insight": "建立ESG投资者与竞争评级机构之间的不完全信息主从博弈，刻画机构在市场份额激励和偏离基本面的声誉成本之间的取舍，以及漂绿、评级分歧与组合绿色程度的关系；这是理论模型，作者明确不使用数据。",
+        "limitation": "摘要级整理，未逐条复核全文证明或独立复现实验；署名位次不推断贡献大小。Abstract-level theory/finance fit; no independent proof review. ESG/decision fit is broader than the technical-AI core and does not by itself strengthen an ML claim.",
+        "method": "依据原始摘要归纳；出版元数据仅支持书目、日期和署名核验。",
+        "question": "当评级机构具有市场份额和声誉激励时，怎样解释ESG评级分歧，并约束收益偏好与真实绿色程度之间的扭曲？"
+      },
+      "summaryBasis": "abstract",
+      "themes": [
+        "asset",
+        "decision"
+      ],
+      "title": "The ESG Rating Game: Deviation, Disagreement, and Greenwashing",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/mafi.70040",
+      "venue": "Mathematical Finance 36(4):716–750",
+      "verifiedAt": "2026-10-17",
+      "versions": [
+        {
+          "authorEvidence": {
+            "checkedAt": "2026-10-17",
+            "kind": "primary_preprint",
+            "label": "该预印本版本的署名和日期记录",
+            "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6301279"
+          },
+          "authorListComplete": true,
+          "authorOrderVerified": true,
+          "authors": [
+            "Qinhan Duan",
+            "Yilun Song",
+            "Ruodu Wang",
+            "Jingping Yang",
+            "Ruixun Zhang"
+          ],
+          "date": "2026-03-09",
+          "datePrecision": "day",
+          "doi": "10.2139/ssrn.6301279",
+          "publicationStatus": "preprint",
+          "publicationType": "preprint",
+          "sources": [
+            {
+              "checkedAt": "2026-10-17",
+              "kind": "primary_preprint",
+              "label": "该预印本版本的署名和日期记录",
+              "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6301279"
+            }
+          ],
+          "title": "The ESG Rating Game: Deviation, Disagreement, and Greenwashing",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6301279",
+          "venue": "SSRN working paper",
+          "year": 2026
+        }
+      ],
+      "year": 2026
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-17",
+        "reason": "已核原始摘要及完整作者顺序；未全文审证或独立复现。",
+        "source": "https://pubsonline.informs.org/doi/10.1287/opre.2024.1133",
+        "status": "available"
+      },
+      "abstractSummary": "研究路径signature特征配合Lasso时的渐近与有限样本一致性条件，比较Itô和Stratonovich定义在布朗型、弱相关及均值回复过程中的适配，并以非线性函数与期权价格学习作数值示例；未审查证明或复现实验。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-17",
+        "kind": "publisher",
+        "label": "Complete byline 4 authors, Zhang 3/4, online 2025-05-05, 73(5):2530–2549; abstract read.",
+        "url": "https://pubsonline.informs.org/doi/10.1287/opre.2024.1133"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Xin Guo",
+        "Binnan Wang",
+        "Ruixun Zhang",
+        "Chaoyi Zhao"
+      ],
+      "authorships": [
+        {
+          "name": "Xin Guo",
+          "position": 1
+        },
+        {
+          "name": "Binnan Wang",
+          "position": 2
+        },
+        {
+          "name": "Ruixun Zhang",
+          "position": 3,
+          "researcherId": "r_ruixun_zhang_pku"
+        },
+        {
+          "name": "Chaoyi Zhao",
+          "position": 4
+        }
+      ],
+      "contribution": {
+        "checkedAt": "2026-10-17",
+        "note": "完整作者顺序已核；署名位次不等于贡献大小，通讯作者只在来源明确时标注。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2025-05-05",
+      "dateEvidence": {
+        "checkedAt": "2026-10-17",
+        "kind": "date_note",
+        "label": "日期、版本与书目信息核对",
+        "note": "主日期为正式版首次在线日期；期卷及页码为Operations Research 73(5), September–October 2025:2530–2549。2297–2866 is the entire issue page range; article pages are 2530–2549.；Do not propagate four-author current byline backward to arXiv v1: v1 has three authors and Zhang 2/3. 预印本按同一作品合并，版本日期分别为2023-05-17；2026-03-22。 2023v1三作者、Zhang2/3；正式版及2026v5四作者、Zhang3/4；中间v2-v4未逐版审查。",
+        "url": "https://pubsonline.informs.org/doi/10.1287/opre.2024.1133"
+      },
+      "datePrecision": "day",
+      "doi": "10.1287/opre.2024.1133",
+      "id": "pub_ruixun_zhang_signature_lasso_consistency_2025",
+      "paradigms": [
+        "theory",
+        "empirical"
+      ],
+      "publicationStatus": "published",
+      "publicationType": "journal",
+      "questionId": "q_pub_ruixun_zhang_signature_lasso_consistency_2025",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "在相关或均值回复的路径数据中，怎样选择signature定义，使稀疏回归具备可解释的一致性条件并用于价格函数学习？",
+      "researcherIds": [
+        "r_ruixun_zhang_pku"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-17",
+          "kind": "publisher",
+          "label": "Complete byline 4 authors, Zhang 3/4, online 2025-05-05, 73(5):2530–2549; abstract read.",
+          "url": "https://pubsonline.informs.org/doi/10.1287/opre.2024.1133"
+        },
+        {
+          "checkedAt": "2026-10-17",
+          "kind": "preprint_repository",
+          "label": "Current v5 dated 2026-03-22 has four authors, Zhang 3/4, singular Signature title, linked to one canonical journal work.",
+          "url": "https://arxiv.org/abs/2305.10413"
+        },
+        {
+          "checkedAt": "2026-10-17",
+          "kind": "preprint_repository",
+          "label": "v1 dated 2023-05-17 used plural Signatures and three authors Xin Guo, Ruixun Zhang, Chaoyi Zhao; Zhang 2/3. Do not copy latest byline to v1.",
+          "url": "https://arxiv.org/abs/2305.10413v1"
+        }
+      ],
+      "summary": {
+        "evidence": "研究路径signature特征配合Lasso时的渐近与有限样本一致性条件，比较Itô和Stratonovich定义在布朗型、弱相关及均值回复过程中的适配，并以非线性函数与期权价格学习作数值示例；未审查证明或复现实验。",
+        "gap": "摘要支持的论文问题：在相关或均值回复的路径数据中，怎样选择signature定义，使稀疏回归具备可解释的一致性条件并用于价格函数学习？",
+        "insight": "研究路径signature特征配合Lasso时的渐近与有限样本一致性条件，比较Itô和Stratonovich定义在布朗型、弱相关及均值回复过程中的适配，并以非线性函数与期权价格学习作数值示例；未审查证明或复现实验。",
+        "limitation": "摘要级整理，未逐条复核全文证明或独立复现实验；署名位次不推断贡献大小。Current arXiv v5 is later than the 2025 journal publication and must not count as another work. Version-specific authors are checked for v1, current v5 and journal only; intermediate v2–v4 bylines not audited. The conclusions depend on process/correlation assumptions; no universal best-signature or out-of-sample finance performance claim.",
+        "method": "依据原始摘要归纳；出版元数据仅支持书目、日期和署名核验。",
+        "question": "在相关或均值回复的路径数据中，怎样选择signature定义，使稀疏回归具备可解释的一致性条件并用于价格函数学习？"
+      },
+      "summaryBasis": "abstract",
+      "themes": [
+        "ml",
+        "ts",
+        "finai"
+      ],
+      "title": "On Consistency of Signature Using Lasso",
+      "url": "https://pubsonline.informs.org/doi/10.1287/opre.2024.1133",
+      "venue": "Operations Research 73(5), September–October 2025:2530–2549",
+      "verifiedAt": "2026-10-17",
+      "versions": [
+        {
+          "authorEvidence": {
+            "checkedAt": "2026-10-17",
+            "kind": "primary_preprint",
+            "label": "该预印本版本的署名和日期记录",
+            "url": "https://arxiv.org/abs/2305.10413v1"
+          },
+          "authorListComplete": true,
+          "authorOrderVerified": true,
+          "authors": [
+            "Xin Guo",
+            "Ruixun Zhang",
+            "Chaoyi Zhao"
+          ],
+          "date": "2023-05-17",
+          "datePrecision": "day",
+          "doi": "10.48550/arXiv.2305.10413",
+          "publicationStatus": "preprint",
+          "publicationType": "preprint",
+          "sources": [
+            {
+              "checkedAt": "2026-10-17",
+              "kind": "primary_preprint",
+              "label": "该预印本版本的署名和日期记录",
+              "url": "https://arxiv.org/abs/2305.10413v1"
+            }
+          ],
+          "title": "On Consistency of Signatures Using Lasso",
+          "url": "https://arxiv.org/abs/2305.10413v1",
+          "venue": "arXiv:2305.10413 v1",
+          "year": 2023
+        },
+        {
+          "authorEvidence": {
+            "checkedAt": "2026-10-17",
+            "kind": "primary_preprint",
+            "label": "该预印本版本的署名和日期记录",
+            "url": "https://arxiv.org/abs/2305.10413"
+          },
+          "authorListComplete": true,
+          "authorOrderVerified": true,
+          "authors": [
+            "Xin Guo",
+            "Binnan Wang",
+            "Ruixun Zhang",
+            "Chaoyi Zhao"
+          ],
+          "date": "2026-03-22",
+          "datePrecision": "day",
+          "doi": "10.48550/arXiv.2305.10413",
+          "publicationStatus": "preprint",
+          "publicationType": "preprint",
+          "sources": [
+            {
+              "checkedAt": "2026-10-17",
+              "kind": "primary_preprint",
+              "label": "该预印本版本的署名和日期记录",
+              "url": "https://arxiv.org/abs/2305.10413"
+            }
+          ],
+          "title": "On Consistency of Signature Using Lasso",
+          "url": "https://arxiv.org/abs/2305.10413",
+          "venue": "arXiv:2305.10413 v5",
+          "year": 2026
+        }
+      ],
+      "year": 2025
     }
   ],
   "paradigms": [
@@ -48709,8 +49175,8 @@
   "publicCurationNote": "公开研究资料快照。主题、研究问题与研究线为编辑归纳，不代表学者本人陈述或机构背书。",
   "publicRelease": {
     "channel": "stable",
-    "snapshotDate": "2026-10-15",
-    "version": "3.3.37"
+    "snapshotDate": "2026-10-16",
+    "version": "3.3.38"
   },
   "publicationPolicy": {
     "authorshipNote": "署名位次不等于贡献排名；通讯作者、共同贡献和具体分工只按原文证据标注。",
@@ -48720,18 +49186,18 @@
     "extendedStart": "2021-10-08",
     "extendedYears": 5,
     "extensionThreshold": 5,
-    "snapshotDate": "2026-10-15",
+    "snapshotDate": "2026-10-16",
     "versionNote": "同一研究的预印本与发表版本分开保留证据；摘要来源可能与主书目版本不同。"
   },
   "publicationStats": {
-    "abstracts": 443,
+    "abstracts": 446,
     "fullTexts": 4,
     "outsideWindow": 7,
-    "papers": 456,
-    "recentPapers": 449,
+    "papers": 459,
+    "recentPapers": 452,
     "researchers": 104,
     "reviewedSources": 13,
-    "verifiedBylines": 455,
+    "verifiedBylines": 458,
     "withPapers": 48
   },
   "questionClusters": [
@@ -49046,7 +49512,8 @@
         "pub_yan_ji_ai_powered_trading_collusion_price_efficiency_2025",
         "pub_yan_ji_financial_market_fragility_ai_planning_2025",
         "pub_ying_chen_optimal_trade_execution_endogenous_order_flow_2025",
-        "pub_jian_li_m3_market_microstructure_2026"
+        "pub_jian_li_m3_market_microstructure_2026",
+        "pub_ruixun_zhang_spectral_volume_models_2025"
       ],
       "question": "交易制度、参与者互动和市场摩擦如何影响流动性与价格效率？",
       "questionIds": [
@@ -49065,7 +49532,8 @@
         "q_pub_yan_ji_ai_powered_trading_collusion_price_efficiency_2025",
         "q_pub_yan_ji_financial_market_fragility_ai_planning_2025",
         "q_pub_ying_chen_optimal_trade_execution_endogenous_order_flow_2025",
-        "q_pub_jian_li_m3_market_microstructure_2026"
+        "q_pub_jian_li_m3_market_microstructure_2026",
+        "q_pub_ruixun_zhang_spectral_volume_models_2025"
       ],
       "researcherIds": [
         "r_claire",
@@ -49084,7 +49552,7 @@
         "r_yan_ji_hkust",
         "r_ying_chen_nus"
       ],
-      "reviewedAt": "2026-10-11",
+      "reviewedAt": "2026-10-17",
       "themes": [
         "asset",
         "digital",
@@ -49426,7 +49894,8 @@
         "pub_yi_yang_macroallocagent_2026",
         "pub_julian_sester_fast_catastrophe_bond_neural_surrogates_2026",
         "pub_julian_sester_structured_noise_mmd_signature_financial_series_2025",
-        "pub_julian_sester_distributionally_robust_deep_q_learning_2025"
+        "pub_julian_sester_distributionally_robust_deep_q_learning_2025",
+        "pub_ruixun_zhang_esg_rating_game_2026"
       ],
       "question": "在不确定性和实际约束下，如何构建投资组合并控制风险？",
       "questionIds": [
@@ -49480,7 +49949,8 @@
         "q_pub_yi_yang_macroallocagent_2026",
         "q_pub_julian_sester_fast_catastrophe_bond_neural_surrogates_2026",
         "q_pub_julian_sester_structured_noise_mmd_signature_financial_series_2025",
-        "q_pub_julian_sester_distributionally_robust_deep_q_learning_2025"
+        "q_pub_julian_sester_distributionally_robust_deep_q_learning_2025",
+        "q_pub_ruixun_zhang_esg_rating_game_2026"
       ],
       "researcherIds": [
         "r_gao",
@@ -49510,7 +49980,7 @@
         "r_kewei_huang_nus",
         "r_anthony_tung_nus"
       ],
-      "reviewedAt": "2026-10-16",
+      "reviewedAt": "2026-10-17",
       "themes": [
         "asset",
         "finai",
@@ -49668,7 +50138,8 @@
         "pub_nan_chen_ai_bubbles",
         "pub_nan_chen_belief_two_timescale",
         "pub_yan_ji_ai_powered_trading_collusion_price_efficiency_2025",
-        "pub_yan_ji_financial_market_fragility_ai_planning_2025"
+        "pub_yan_ji_financial_market_fragility_ai_planning_2025",
+        "pub_ruixun_zhang_esg_rating_game_2026"
       ],
       "question": "当多个决策主体相互影响时，如何分析或学习策略和均衡？",
       "questionIds": [
@@ -49678,7 +50149,8 @@
         "q_pub_nan_chen_ai_bubbles",
         "q_pub_nan_chen_belief_two_timescale",
         "q_pub_yan_ji_ai_powered_trading_collusion_price_efficiency_2025",
-        "q_pub_yan_ji_financial_market_fragility_ai_planning_2025"
+        "q_pub_yan_ji_financial_market_fragility_ai_planning_2025",
+        "q_pub_ruixun_zhang_esg_rating_game_2026"
       ],
       "researcherIds": [
         "r_gao",
@@ -49687,12 +50159,12 @@
         "r_ruixun_zhang_pku",
         "r_yan_ji_hkust"
       ],
-      "reviewedAt": "2026-10-07",
+      "reviewedAt": "2026-10-17",
       "themes": [
-        "asset",
         "decision",
+        "ml",
         "finai",
-        "ml"
+        "asset"
       ],
       "title": "多主体互动与均衡"
     },
@@ -49831,7 +50303,8 @@
         "pub_ye_treatment_effects_l2_boosting",
         "pub_yingying_cross_sectional_sdf",
         "pub_sicong_li_factor_models_price_impact_costs_2024",
-        "pub_sicong_li_asset_pricing_factors_economic_targets_2023"
+        "pub_sicong_li_asset_pricing_factors_economic_targets_2023",
+        "pub_ruixun_zhang_signature_lasso_consistency_2025"
       ],
       "question": "在变量很多或模型经过选择时，如何保持估计与推断的可靠性？",
       "questionIds": [
@@ -49862,27 +50335,29 @@
         "q_pub_ye_treatment_effects_l2_boosting",
         "q_pub_yingying_cross_sectional_sdf",
         "q_pub_sicong_li_factor_models_price_impact_costs_2024",
-        "q_pub_sicong_li_asset_pricing_factors_economic_targets_2023"
+        "q_pub_sicong_li_asset_pricing_factors_economic_targets_2023",
+        "q_pub_ruixun_zhang_signature_lasso_consistency_2025"
       ],
       "researcherIds": [
+        "r_ye",
         "r_daniel_palomar_hkust",
         "r_difan",
         "r_guodong",
         "r_junye",
         "r_ke",
-        "r_sicong_li_cuhk",
         "r_weichen_wang_hku",
-        "r_ye",
         "r_yingying",
-        "r_zhanhui"
+        "r_zhanhui",
+        "r_sicong_li_cuhk",
+        "r_ruixun_zhang_pku"
       ],
-      "reviewedAt": "2026-10-07",
+      "reviewedAt": "2026-10-17",
       "themes": [
-        "asset",
-        "decision",
         "finai",
         "ml",
-        "ts"
+        "ts",
+        "asset",
+        "decision"
       ],
       "title": "高维选择与统计推断"
     },
@@ -49920,7 +50395,9 @@
         "pub_yingying_tests_principal_eigen",
         "pub_anthony_tung_cms_vae_crypto_market_simulation_2025",
         "pub_ruixun_zhang_signatures_path_regression_2026",
-        "pub_julian_sester_structured_noise_mmd_signature_financial_series_2025"
+        "pub_julian_sester_structured_noise_mmd_signature_financial_series_2025",
+        "pub_ruixun_zhang_spectral_volume_models_2025",
+        "pub_ruixun_zhang_signature_lasso_consistency_2025"
       ],
       "question": "如何刻画具有复杂依赖、非平稳或结构变化的时间序列？",
       "questionIds": [
@@ -49953,7 +50430,9 @@
         "q_pub_yingying_tests_principal_eigen",
         "q_pub_anthony_tung_cms_vae_crypto_market_simulation_2025",
         "q_pub_ruixun_zhang_signatures_path_regression_2026",
-        "q_pub_julian_sester_structured_noise_mmd_signature_financial_series_2025"
+        "q_pub_julian_sester_structured_noise_mmd_signature_financial_series_2025",
+        "q_pub_ruixun_zhang_spectral_volume_models_2025",
+        "q_pub_ruixun_zhang_signature_lasso_consistency_2025"
       ],
       "researcherIds": [
         "r_anthony_tung_nus",
@@ -49968,7 +50447,7 @@
         "r_ruixun_zhang_pku",
         "r_julian_sester_nus"
       ],
-      "reviewedAt": "2026-10-16",
+      "reviewedAt": "2026-10-17",
       "themes": [
         "finai",
         "ts",
@@ -51497,7 +51976,8 @@
         "pub_xianhua_peng_contract_unified_option_hedging_rl",
         "pub_ruixun_zhang_tradable_ito_signatures_2026",
         "pub_ruixun_zhang_bicausal_ot_policy_gradients_2026",
-        "pub_julian_sester_fast_catastrophe_bond_neural_surrogates_2026"
+        "pub_julian_sester_fast_catastrophe_bond_neural_surrogates_2026",
+        "pub_ruixun_zhang_signature_lasso_consistency_2025"
       ],
       "question": "如何在复杂随机模型下高效定价和对冲衍生品？",
       "questionIds": [
@@ -51506,7 +51986,8 @@
         "q_pub_xianhua_peng_contract_unified_option_hedging_rl",
         "q_pub_ruixun_zhang_tradable_ito_signatures_2026",
         "q_pub_ruixun_zhang_bicausal_ot_policy_gradients_2026",
-        "q_pub_julian_sester_fast_catastrophe_bond_neural_surrogates_2026"
+        "q_pub_julian_sester_fast_catastrophe_bond_neural_surrogates_2026",
+        "q_pub_ruixun_zhang_signature_lasso_consistency_2025"
       ],
       "researcherIds": [
         "r_lingfei",
@@ -51514,7 +51995,7 @@
         "r_ruixun_zhang_pku",
         "r_julian_sester_nus"
       ],
-      "reviewedAt": "2026-10-16",
+      "reviewedAt": "2026-10-17",
       "themes": [
         "asset",
         "ts",
@@ -51576,11 +52057,11 @@
       {
         "awaitingEvidence": 0,
         "awaitingExtraction": 0,
-        "clustered": 84,
+        "clustered": 86,
         "clusters": 34,
-        "extracted": 84,
+        "extracted": 86,
         "multiPaperClusters": 25,
-        "papers": 84,
+        "papers": 86,
         "singlePaperClusters": 9,
         "staleEvidence": 0,
         "themeId": "finai",
@@ -51589,11 +52070,11 @@
       {
         "awaitingEvidence": 1,
         "awaitingExtraction": 0,
-        "clustered": 100,
+        "clustered": 101,
         "clusters": 36,
-        "extracted": 100,
+        "extracted": 101,
         "multiPaperClusters": 25,
-        "papers": 101,
+        "papers": 102,
         "singlePaperClusters": 11,
         "staleEvidence": 0,
         "themeId": "decision",
@@ -51602,11 +52083,11 @@
       {
         "awaitingEvidence": 6,
         "awaitingExtraction": 0,
-        "clustered": 155,
+        "clustered": 157,
         "clusters": 29,
-        "extracted": 155,
+        "extracted": 157,
         "multiPaperClusters": 27,
-        "papers": 161,
+        "papers": 163,
         "singlePaperClusters": 2,
         "staleEvidence": 0,
         "themeId": "asset",
@@ -51615,11 +52096,11 @@
       {
         "awaitingEvidence": 7,
         "awaitingExtraction": 0,
-        "clustered": 108,
+        "clustered": 110,
         "clusters": 33,
-        "extracted": 108,
+        "extracted": 110,
         "multiPaperClusters": 21,
-        "papers": 115,
+        "papers": 117,
         "singlePaperClusters": 12,
         "staleEvidence": 0,
         "themeId": "ts",
@@ -51641,22 +52122,22 @@
       {
         "awaitingEvidence": 3,
         "awaitingExtraction": 0,
-        "clustered": 256,
+        "clustered": 257,
         "clusters": 42,
-        "extracted": 256,
-        "multiPaperClusters": 35,
-        "papers": 259,
-        "singlePaperClusters": 7,
+        "extracted": 257,
+        "multiPaperClusters": 36,
+        "papers": 260,
+        "singlePaperClusters": 6,
         "staleEvidence": 0,
         "themeId": "ml",
         "unclustered": 0
       }
     ],
-    "clustered": 443,
+    "clustered": 446,
     "clusters": 50,
-    "extracted": 443,
+    "extracted": 446,
     "multiPaperClusters": 45,
-    "papers": 456,
+    "papers": 459,
     "singlePaperClusters": 5,
     "staleEvidence": 0,
     "unclustered": 0
@@ -62177,6 +62658,79 @@
       ],
       "reviewedAt": "2026-10-16",
       "text": "在连续状态与转移分布错设下，怎样将最坏情形策略学习做成可计算的深度Q算法，并界定拟合迭代保证与神经训练误差？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_time_series_structure",
+        "qc_market_liquidity_trading"
+      ],
+      "evidence": {
+        "digest": "027eb87ff8829251ced87ae10191ac4b36d91c76b09c1a0a16165b679f17b03a",
+        "excerpt": "用傅里叶谱表示从低信噪比日内成交量中恢复稳定周期，并在美中股票数据上检验其与算法化交易节律、成交量预测和VWAP执行的联系；交易机制解释及收益改善均为作者报告，未复核因果性或成本后交易结果。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-17",
+          "kind": "publisher",
+          "label": "Complete byline 3 authors, Zhang 2/3, online 2025-11-14, 72(8):6652–6685; abstract read.",
+          "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2024.06215"
+        }
+      },
+      "id": "q_pub_ruixun_zhang_spectral_volume_models_2025",
+      "paperIds": [
+        "pub_ruixun_zhang_spectral_volume_models_2025"
+      ],
+      "reviewedAt": "2026-10-17",
+      "text": "如何从低信噪比高频成交量中稳定识别周期结构，并检验这些结构对成交量预测与执行的增量价值？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_multiagent_decisions",
+        "qc_portfolio_risk_control"
+      ],
+      "evidence": {
+        "digest": "e15346ac9bcdf579baf7898989ab6ef1c314fe70807fd46ec4444bc405150f78",
+        "excerpt": "建立ESG投资者与竞争评级机构之间的不完全信息主从博弈，刻画机构在市场份额激励和偏离基本面的声誉成本之间的取舍，以及漂绿、评级分歧与组合绿色程度的关系；这是理论模型，作者明确不使用数据。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-17",
+          "kind": "publisher",
+          "label": "Complete byline 5 authors, Zhang 5/5, first published 2026-06-02, 36(4):716–750; theoretical principal-agent/Stackelberg model and no data.",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/mafi.70040"
+        }
+      },
+      "id": "q_pub_ruixun_zhang_esg_rating_game_2026",
+      "paperIds": [
+        "pub_ruixun_zhang_esg_rating_game_2026"
+      ],
+      "reviewedAt": "2026-10-17",
+      "text": "当评级机构具有市场份额和声誉激励时，怎样解释ESG评级分歧，并约束收益偏好与真实绿色程度之间的扭曲？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_high_dim_inference",
+        "qc_time_series_structure",
+        "qc_derivative_pricing"
+      ],
+      "evidence": {
+        "digest": "c30180614571969cd3eb8a55af4a1a6742c190db2e00d39055252b428812f6f6",
+        "excerpt": "研究路径signature特征配合Lasso时的渐近与有限样本一致性条件，比较Itô和Stratonovich定义在布朗型、弱相关及均值回复过程中的适配，并以非线性函数与期权价格学习作数值示例；未审查证明或复现实验。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-17",
+          "kind": "publisher",
+          "label": "Complete byline 4 authors, Zhang 3/4, online 2025-05-05, 73(5):2530–2549; abstract read.",
+          "url": "https://pubsonline.informs.org/doi/10.1287/opre.2024.1133"
+        }
+      },
+      "id": "q_pub_ruixun_zhang_signature_lasso_consistency_2025",
+      "paperIds": [
+        "pub_ruixun_zhang_signature_lasso_consistency_2025"
+      ],
+      "reviewedAt": "2026-10-17",
+      "text": "在相关或均值回复的路径数据中，怎样选择signature定义，使稀疏回归具备可解释的一致性条件并用于价格函数学习？"
     }
   ],
   "researchers": [
@@ -70935,11 +71489,11 @@
       ],
       "position": "长聘副教授、研究员",
       "publicationCoverage": {
-        "abstractCount": 6,
-        "authorVerifiedCount": 6,
+        "abstractCount": 9,
+        "authorVerifiedCount": 9,
         "boundaryDateCount": 0,
-        "checkedAt": "2026-10-14",
-        "collectedCount": 6,
+        "checkedAt": "2026-10-17",
+        "collectedCount": 9,
         "extended": true,
         "fullTextCount": 0,
         "gaps": [
@@ -70952,9 +71506,12 @@
           "pub_ruixun_zhang_tradable_ito_signatures_2026",
           "pub_ruixun_zhang_dorado_dynamic_rd_options_2026",
           "pub_ruixun_zhang_signatures_path_regression_2026",
-          "pub_ruixun_zhang_bicausal_ot_policy_gradients_2026"
+          "pub_ruixun_zhang_bicausal_ot_policy_gradients_2026",
+          "pub_ruixun_zhang_spectral_volume_models_2025",
+          "pub_ruixun_zhang_esg_rating_game_2026",
+          "pub_ruixun_zhang_signature_lasso_consistency_2025"
         ],
-        "recentCount": 6,
+        "recentCount": 9,
         "sourcesChecked": [
           {
             "checkedAt": "2026-09-29",
@@ -71028,12 +71585,60 @@
             "kind": "paper_byline",
             "label": "完整作者顺序及位次证据",
             "url": "https://arxiv.org/abs/2605.17271"
+          },
+          {
+            "checkedAt": "2026-10-17",
+            "kind": "publisher",
+            "label": "Complete byline 3 authors, Zhang 2/3, online 2025-11-14, 72(8):6652–6685; abstract read.",
+            "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2024.06215"
+          },
+          {
+            "checkedAt": "2026-10-17",
+            "kind": "preprint_repository",
+            "label": "Same Spectral Volume work; SSRN version history establishes older preprint, not a second work.",
+            "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4230610"
+          },
+          {
+            "checkedAt": "2026-10-17",
+            "kind": "publisher",
+            "label": "Complete byline 5 authors, Zhang 5/5, first published 2026-06-02, 36(4):716–750; theoretical principal-agent/Stackelberg model and no data.",
+            "url": "https://onlinelibrary.wiley.com/doi/10.1111/mafi.70040"
+          },
+          {
+            "checkedAt": "2026-10-17",
+            "kind": "author_manuscript",
+            "label": "Formal article byline and abstract checked; proof/body not fully reviewed.",
+            "url": "https://ruixunzhang.com/paper/2026_MF_ESGRatingGame.pdf"
+          },
+          {
+            "checkedAt": "2026-10-17",
+            "kind": "preprint_repository",
+            "label": "Same ESG Rating Game preprint; stale forthcoming label superseded by publisher.",
+            "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6301279"
+          },
+          {
+            "checkedAt": "2026-10-17",
+            "kind": "publisher",
+            "label": "Complete byline 4 authors, Zhang 3/4, online 2025-05-05, 73(5):2530–2549; abstract read.",
+            "url": "https://pubsonline.informs.org/doi/10.1287/opre.2024.1133"
+          },
+          {
+            "checkedAt": "2026-10-17",
+            "kind": "preprint_repository",
+            "label": "Current v5 dated 2026-03-22 has four authors, Zhang 3/4, singular Signature title, linked to one canonical journal work.",
+            "url": "https://arxiv.org/abs/2305.10413"
+          },
+          {
+            "checkedAt": "2026-10-17",
+            "kind": "preprint_repository",
+            "label": "v1 dated 2023-05-17 used plural Signatures and three authors Xin Guo, Ruixun Zhang, Chaoyi Zhao; Zhang 2/3. Do not copy latest byline to v1.",
+            "url": "https://arxiv.org/abs/2305.10413v1"
           }
         ],
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 1,
-        "windowEnd": "2026-10-13",
+        "windowEnd": "2026-10-16",
         "windowStart": "2021-10-07",
         "windowYears": 5
       },
@@ -71101,5 +71706,5 @@
       "name": "ML Theory & Optimization"
     }
   ],
-  "updatedAt": "2026-10-15"
+  "updatedAt": "2026-10-16"
 }
