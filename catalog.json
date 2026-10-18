@@ -49074,6 +49074,339 @@
         }
       ],
       "year": 2025
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-18",
+        "reason": "官方机构库提供完整摘要和署名；未全文审证或独立复现。",
+        "source": "https://scholars.cityu.edu.hk/en/publications/growing-the-efficient-frontier-on-panel-trees/",
+        "status": "available"
+      },
+      "abstractSummary": "用受经济目标引导且可解释的面板树处理非平衡资产收益面板，构造测试资产与切点投资组合；摘要报告其推进均值—方差有效前沿，并以稀疏结构刻画横截面定价和样本外组合表现。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-18",
+        "kind": "official_institutional_repository",
+        "label": "Complete byline, abstract, journal issue date, online date, DOI and publication status.",
+        "url": "https://scholars.cityu.edu.hk/en/publications/growing-the-efficient-frontier-on-panel-trees/"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Lin William Cong",
+        "Guanhao Feng",
+        "Jingyu He",
+        "Xin He"
+      ],
+      "authorships": [
+        {
+          "name": "Lin William Cong",
+          "position": 1,
+          "researcherId": "r_lin_william_cong_ntu"
+        },
+        {
+          "name": "Guanhao Feng",
+          "position": 2,
+          "researcherId": "r_guanhao_feng_cityu"
+        },
+        {
+          "name": "Jingyu He",
+          "position": 3,
+          "researcherId": "r_jingyu_he_cityu"
+        },
+        {
+          "name": "Xin He",
+          "position": 4
+        }
+      ],
+      "contribution": {
+        "checkedAt": "2026-10-18",
+        "note": "完整作者顺序已核；署名位次不等于贡献大小，通讯作者只在来源明确时标注。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2025-05",
+      "dateEvidence": {
+        "checkedAt": "2026-10-18",
+        "kind": "date_note",
+        "label": "日期、版本与书目信息核对",
+        "note": "主日期为正式卷期月份 2025-05（未补造日），首次在线日期另为 2025-02-18。Journal of Financial Economics 167，article 104024。 同题预印本合并为一作；arXiv v1 2025-01-28、v2 2025-02-04；NBER 2022-12；SSRN4316289无已核日期，保留来源别名。",
+        "url": "https://scholars.cityu.edu.hk/en/publications/growing-the-efficient-frontier-on-panel-trees/"
+      },
+      "datePrecision": "month",
+      "doi": "10.1016/j.jfineco.2025.104024",
+      "id": "pub_cityu_he_feng_panel_trees_2025",
+      "paradigms": [
+        "empirical",
+        "system"
+      ],
+      "publicationStatus": "published",
+      "publicationType": "journal",
+      "questionId": "q_pub_cityu_he_feng_panel_trees_2025",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "如何用兼顾经济目标、稀疏性和可解释性的面板树构造测试资产与交易因子，并检验其对有效前沿和横截面定价的增量价值？",
+      "researcherIds": [
+        "r_lin_william_cong_ntu",
+        "r_guanhao_feng_cityu",
+        "r_jingyu_he_cityu"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-18",
+          "kind": "official_institutional_repository",
+          "label": "Complete byline, abstract, journal issue date, online date, DOI and publication status.",
+          "url": "https://scholars.cityu.edu.hk/en/publications/growing-the-efficient-frontier-on-panel-trees/"
+        },
+        {
+          "checkedAt": "2026-10-18",
+          "kind": "author_deposited_preprint",
+          "label": "Matching full byline, abstract and v1/v2 dates; one-work merge.",
+          "url": "https://arxiv.org/abs/2501.16730"
+        },
+        {
+          "checkedAt": "2026-10-18",
+          "kind": "primary_search_result",
+          "label": "NBER working-paper identifier, DOI, issue month and matching complete byline.",
+          "url": "https://www.nber.org/papers/w30805"
+        }
+      ],
+      "summary": {
+        "evidence": "用受经济目标引导且可解释的面板树处理非平衡资产收益面板，构造测试资产与切点投资组合；摘要报告其推进均值—方差有效前沿，并以稀疏结构刻画横截面定价和样本外组合表现。",
+        "gap": "摘要支持的论文问题：如何用兼顾经济目标、稀疏性和可解释性的面板树构造测试资产与交易因子，并检验其对有效前沿和横截面定价的增量价值？",
+        "insight": "用受经济目标引导且可解释的面板树处理非平衡资产收益面板，构造测试资产与切点投资组合；摘要报告其推进均值—方差有效前沿，并以稀疏结构刻画横截面定价和样本外组合表现。",
+        "limitation": "摘要级整理，未复现实验、做信息泄漏或交易成本审查；作者位次不代表贡献大小。",
+        "method": "依据出版方摘要或作者/出版元数据整理；未复现实验、估计或证明。",
+        "question": "如何用兼顾经济目标、稀疏性和可解释性的面板树构造测试资产与交易因子，并检验其对有效前沿和横截面定价的增量价值？"
+      },
+      "summaryBasis": "abstract",
+      "themes": [
+        "asset",
+        "finai",
+        "ml"
+      ],
+      "title": "Growing the efficient frontier on panel trees",
+      "url": "https://scholars.cityu.edu.hk/en/publications/growing-the-efficient-frontier-on-panel-trees/",
+      "venue": "Journal of Financial Economics 167:104024",
+      "verifiedAt": "2026-10-18",
+      "versions": [
+        {
+          "authorEvidence": {
+            "checkedAt": "2026-10-18",
+            "kind": "primary_preprint",
+            "label": "同一作品的预印本版本；完整署名匹配正式记录",
+            "url": "https://arxiv.org/abs/2501.16730"
+          },
+          "authorListComplete": true,
+          "authorOrderVerified": true,
+          "authors": [
+            "Lin William Cong",
+            "Guanhao Feng",
+            "Jingyu He",
+            "Xin He"
+          ],
+          "date": "2025-02-04",
+          "datePrecision": "day",
+          "doi": "10.48550/arXiv.2501.16730",
+          "publicationStatus": "preprint",
+          "publicationType": "preprint",
+          "sources": [
+            {
+              "checkedAt": "2026-10-18",
+              "kind": "primary_preprint",
+              "label": "同一作品的预印本版本；完整署名匹配正式记录",
+              "url": "https://arxiv.org/abs/2501.16730"
+            }
+          ],
+          "title": "Growing the efficient frontier on panel trees",
+          "url": "https://arxiv.org/abs/2501.16730",
+          "venue": "arxiv 2501.16730",
+          "year": 2025
+        },
+        {
+          "authorEvidence": {
+            "checkedAt": "2026-10-18",
+            "kind": "primary_preprint",
+            "label": "同一作品的预印本版本；完整署名匹配正式记录",
+            "url": "https://www.nber.org/papers/w30805"
+          },
+          "authorListComplete": true,
+          "authorOrderVerified": true,
+          "authors": [
+            "Lin William Cong",
+            "Guanhao Feng",
+            "Jingyu He",
+            "Xin He"
+          ],
+          "date": "2022-12",
+          "datePrecision": "month",
+          "doi": "10.3386/w30805",
+          "publicationStatus": "preprint",
+          "publicationType": "preprint",
+          "sources": [
+            {
+              "checkedAt": "2026-10-18",
+              "kind": "primary_preprint",
+              "label": "同一作品的预印本版本；完整署名匹配正式记录",
+              "url": "https://www.nber.org/papers/w30805"
+            }
+          ],
+          "title": "Growing the efficient frontier on panel trees",
+          "url": "https://www.nber.org/papers/w30805",
+          "venue": "NBER_working_paper w30805",
+          "year": 2022
+        }
+      ],
+      "year": 2025
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-18",
+        "reason": "官方机构库提供完整摘要和署名；未全文审证或独立复现。",
+        "source": "https://scholars.cityu.edu.hk/en/publications/can-news-predict-firm-bankruptcy/",
+        "status": "available"
+      },
+      "abstractSummary": "从道琼斯新闻全文用 ChatGPT 提取公司层面预测变量，与 FinBERT、词典及财务变量比较；摘要报告新闻情绪对破产预测有增量信息，全文强于标题，并反映部分宏观风险信息。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-18",
+        "kind": "official_institutional_repository",
+        "label": "Complete byline, abstract, journal issue date, online date, DOI and publication status.",
+        "url": "https://scholars.cityu.edu.hk/en/publications/can-news-predict-firm-bankruptcy/"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Siyu Bie",
+        "Guanhao Feng",
+        "Naixin Guo",
+        "Jingyu He"
+      ],
+      "authorships": [
+        {
+          "name": "Siyu Bie",
+          "position": 1
+        },
+        {
+          "name": "Guanhao Feng",
+          "position": 2,
+          "researcherId": "r_guanhao_feng_cityu"
+        },
+        {
+          "name": "Naixin Guo",
+          "position": 3
+        },
+        {
+          "name": "Jingyu He",
+          "position": 4,
+          "researcherId": "r_jingyu_he_cityu"
+        }
+      ],
+      "contribution": {
+        "checkedAt": "2026-10-18",
+        "note": "完整作者顺序已核；署名位次不等于贡献大小，通讯作者只在来源明确时标注。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2026-06",
+      "dateEvidence": {
+        "checkedAt": "2026-10-18",
+        "kind": "date_note",
+        "label": "日期、版本与书目信息核对",
+        "note": "主日期为正式卷期月份 2026-06（未补造日），首次在线日期另为 2025-07-21。Journal of Financial Markets 79，article 101002。 同题预印本合并为一作；SSRN5022837写作2024-11-15、首次发布2024-12-13、修订2025-06-09；未核5055291别名不合并。",
+        "url": "https://scholars.cityu.edu.hk/en/publications/can-news-predict-firm-bankruptcy/"
+      },
+      "datePrecision": "month",
+      "doi": "10.1016/j.finmar.2025.101002",
+      "id": "pub_cityu_he_feng_news_bankruptcy_2026",
+      "paradigms": [
+        "empirical",
+        "system"
+      ],
+      "publicationStatus": "published",
+      "publicationType": "journal",
+      "questionId": "q_pub_cityu_he_feng_news_bankruptcy_2026",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "大语言模型从实时新闻全文提取的公司信息，能否在财务变量和既有文本方法之外提高破产风险预测，并识别不同预测期限与宏观状态下的信息价值？",
+      "researcherIds": [
+        "r_jingyu_he_cityu",
+        "r_guanhao_feng_cityu"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-18",
+          "kind": "official_institutional_repository",
+          "label": "Complete byline, abstract, journal issue date, online date, DOI and publication status.",
+          "url": "https://scholars.cityu.edu.hk/en/publications/can-news-predict-firm-bankruptcy/"
+        },
+        {
+          "checkedAt": "2026-10-18",
+          "kind": "publisher_search_result",
+          "label": "Publisher indexed result independently matches full byline, DOI, abstract and June 2026 issue.",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1386418125000424"
+        },
+        {
+          "checkedAt": "2026-10-18",
+          "kind": "author_deposited_preprint_search_result",
+          "label": "Matching ordered authors, abstract and preprint date; journal status takes precedence.",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5022837"
+        }
+      ],
+      "summary": {
+        "evidence": "从道琼斯新闻全文用 ChatGPT 提取公司层面预测变量，与 FinBERT、词典及财务变量比较；摘要报告新闻情绪对破产预测有增量信息，全文强于标题，并反映部分宏观风险信息。",
+        "gap": "摘要支持的论文问题：大语言模型从实时新闻全文提取的公司信息，能否在财务变量和既有文本方法之外提高破产风险预测，并识别不同预测期限与宏观状态下的信息价值？",
+        "insight": "从道琼斯新闻全文用 ChatGPT 提取公司层面预测变量，与 FinBERT、词典及财务变量比较；摘要报告新闻情绪对破产预测有增量信息，全文强于标题，并反映部分宏观风险信息。",
+        "limitation": "摘要级整理，未复现实验、做信息泄漏或交易成本审查；作者位次不代表贡献大小。",
+        "method": "依据出版方摘要或作者/出版元数据整理；未复现实验、估计或证明。",
+        "question": "大语言模型从实时新闻全文提取的公司信息，能否在财务变量和既有文本方法之外提高破产风险预测，并识别不同预测期限与宏观状态下的信息价值？"
+      },
+      "summaryBasis": "abstract",
+      "themes": [
+        "finai",
+        "digital",
+        "ts"
+      ],
+      "title": "Can news predict firm bankruptcy?",
+      "url": "https://scholars.cityu.edu.hk/en/publications/can-news-predict-firm-bankruptcy/",
+      "venue": "Journal of Financial Markets 79:101002",
+      "verifiedAt": "2026-10-18",
+      "versions": [
+        {
+          "authorEvidence": {
+            "checkedAt": "2026-10-18",
+            "kind": "primary_preprint",
+            "label": "同一作品的预印本版本；完整署名匹配正式记录",
+            "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5022837"
+          },
+          "authorListComplete": true,
+          "authorOrderVerified": true,
+          "authors": [
+            "Siyu Bie",
+            "Guanhao Feng",
+            "Naixin Guo",
+            "Jingyu He"
+          ],
+          "date": "2025-06-09",
+          "datePrecision": "day",
+          "doi": "10.2139/ssrn.5022837",
+          "publicationStatus": "preprint",
+          "publicationType": "preprint",
+          "sources": [
+            {
+              "checkedAt": "2026-10-18",
+              "kind": "primary_preprint",
+              "label": "同一作品的预印本版本；完整署名匹配正式记录",
+              "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5022837"
+            }
+          ],
+          "title": "Can news predict firm bankruptcy?",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5022837",
+          "venue": "SSRN 5022837",
+          "year": 2025
+        }
+      ],
+      "year": 2026
     }
   ],
   "paradigms": [
@@ -49175,8 +49508,8 @@
   "publicCurationNote": "公开研究资料快照。主题、研究问题与研究线为编辑归纳，不代表学者本人陈述或机构背书。",
   "publicRelease": {
     "channel": "stable",
-    "snapshotDate": "2026-10-16",
-    "version": "3.3.38"
+    "snapshotDate": "2026-10-17",
+    "version": "3.3.39"
   },
   "publicationPolicy": {
     "authorshipNote": "署名位次不等于贡献排名；通讯作者、共同贡献和具体分工只按原文证据标注。",
@@ -49186,19 +49519,19 @@
     "extendedStart": "2021-10-08",
     "extendedYears": 5,
     "extensionThreshold": 5,
-    "snapshotDate": "2026-10-16",
+    "snapshotDate": "2026-10-17",
     "versionNote": "同一研究的预印本与发表版本分开保留证据；摘要来源可能与主书目版本不同。"
   },
   "publicationStats": {
-    "abstracts": 446,
+    "abstracts": 448,
     "fullTexts": 4,
     "outsideWindow": 7,
-    "papers": 459,
-    "recentPapers": 452,
-    "researchers": 104,
+    "papers": 461,
+    "recentPapers": 454,
+    "researchers": 106,
     "reviewedSources": 13,
-    "verifiedBylines": 458,
-    "withPapers": 48
+    "verifiedBylines": 460,
+    "withPapers": 51
   },
   "questionClusters": [
     {
@@ -49227,7 +49560,8 @@
         "pub_yi_yang_mind_the_shift_fomc_llm_2026",
         "pub_yi_yang_macroallocagent_2026",
         "pub_yi_yang_numeracy_gap_embedding_models_2026",
-        "pub_yi_yang_divide_and_contrast_risk_prediction_2025"
+        "pub_yi_yang_divide_and_contrast_risk_prediction_2025",
+        "pub_cityu_he_feng_news_bankruptcy_2026"
       ],
       "question": "金融信息的生产、披露和传播如何影响投资者行为与价格形成？",
       "questionIds": [
@@ -49252,7 +49586,8 @@
         "q_pub_yi_yang_mind_the_shift_fomc_llm_2026",
         "q_pub_yi_yang_macroallocagent_2026",
         "q_pub_yi_yang_numeracy_gap_embedding_models_2026",
-        "q_pub_yi_yang_divide_and_contrast_risk_prediction_2025"
+        "q_pub_yi_yang_divide_and_contrast_risk_prediction_2025",
+        "q_pub_cityu_he_feng_news_bankruptcy_2026"
       ],
       "researcherIds": [
         "r_yanzhen",
@@ -49264,9 +49599,11 @@
         "r_yang",
         "r_yao_lu_nus",
         "r_allen_huang_hkust",
-        "r_yi_yang_hkust"
+        "r_yi_yang_hkust",
+        "r_jingyu_he_cityu",
+        "r_guanhao_feng_cityu"
       ],
-      "reviewedAt": "2026-10-14",
+      "reviewedAt": "2026-10-18",
       "themes": [
         "finai",
         "digital",
@@ -49401,7 +49738,8 @@
         "pub_sicong_li_factor_models_price_impact_costs_2024",
         "pub_sicong_li_asset_pricing_factors_economic_targets_2023",
         "pub_xinghua_zheng_sharpe_ratios_2024",
-        "pub_kewei_huang_radar_sdf_portfolios_2026"
+        "pub_kewei_huang_radar_sdf_portfolios_2026",
+        "pub_cityu_he_feng_panel_trees_2025"
       ],
       "question": "哪些风险、特征和经济机制能够解释或预测资产回报？",
       "questionIds": [
@@ -49458,7 +49796,8 @@
         "q_pub_sicong_li_factor_models_price_impact_costs_2024",
         "q_pub_sicong_li_asset_pricing_factors_economic_targets_2023",
         "q_pub_xinghua_zheng_sharpe_ratios_2024",
-        "q_pub_kewei_huang_radar_sdf_portfolios_2026"
+        "q_pub_kewei_huang_radar_sdf_portfolios_2026",
+        "q_pub_cityu_he_feng_panel_trees_2025"
       ],
       "researcherIds": [
         "r_claire",
@@ -49479,9 +49818,12 @@
         "r_zhimin_chen_ntu",
         "r_sicong_li_cuhk",
         "r_xinghua_zheng_hkust",
-        "r_kewei_huang_nus"
+        "r_kewei_huang_nus",
+        "r_lin_william_cong_ntu",
+        "r_guanhao_feng_cityu",
+        "r_jingyu_he_cityu"
       ],
-      "reviewedAt": "2026-10-13",
+      "reviewedAt": "2026-10-18",
       "themes": [
         "asset",
         "ts",
@@ -49895,7 +50237,8 @@
         "pub_julian_sester_fast_catastrophe_bond_neural_surrogates_2026",
         "pub_julian_sester_structured_noise_mmd_signature_financial_series_2025",
         "pub_julian_sester_distributionally_robust_deep_q_learning_2025",
-        "pub_ruixun_zhang_esg_rating_game_2026"
+        "pub_ruixun_zhang_esg_rating_game_2026",
+        "pub_cityu_he_feng_panel_trees_2025"
       ],
       "question": "在不确定性和实际约束下，如何构建投资组合并控制风险？",
       "questionIds": [
@@ -49950,7 +50293,8 @@
         "q_pub_julian_sester_fast_catastrophe_bond_neural_surrogates_2026",
         "q_pub_julian_sester_structured_noise_mmd_signature_financial_series_2025",
         "q_pub_julian_sester_distributionally_robust_deep_q_learning_2025",
-        "q_pub_ruixun_zhang_esg_rating_game_2026"
+        "q_pub_ruixun_zhang_esg_rating_game_2026",
+        "q_pub_cityu_he_feng_panel_trees_2025"
       ],
       "researcherIds": [
         "r_gao",
@@ -49978,9 +50322,12 @@
         "r_julian_sester_nus",
         "r_jian_li",
         "r_kewei_huang_nus",
-        "r_anthony_tung_nus"
+        "r_anthony_tung_nus",
+        "r_lin_william_cong_ntu",
+        "r_guanhao_feng_cityu",
+        "r_jingyu_he_cityu"
       ],
-      "reviewedAt": "2026-10-17",
+      "reviewedAt": "2026-10-18",
       "themes": [
         "asset",
         "finai",
@@ -52057,11 +52404,11 @@
       {
         "awaitingEvidence": 0,
         "awaitingExtraction": 0,
-        "clustered": 86,
+        "clustered": 88,
         "clusters": 34,
-        "extracted": 86,
+        "extracted": 88,
         "multiPaperClusters": 25,
-        "papers": 86,
+        "papers": 88,
         "singlePaperClusters": 9,
         "staleEvidence": 0,
         "themeId": "finai",
@@ -52083,11 +52430,11 @@
       {
         "awaitingEvidence": 6,
         "awaitingExtraction": 0,
-        "clustered": 157,
+        "clustered": 158,
         "clusters": 29,
-        "extracted": 157,
+        "extracted": 158,
         "multiPaperClusters": 27,
-        "papers": 163,
+        "papers": 164,
         "singlePaperClusters": 2,
         "staleEvidence": 0,
         "themeId": "asset",
@@ -52096,12 +52443,12 @@
       {
         "awaitingEvidence": 7,
         "awaitingExtraction": 0,
-        "clustered": 110,
+        "clustered": 111,
         "clusters": 33,
-        "extracted": 110,
-        "multiPaperClusters": 21,
-        "papers": 117,
-        "singlePaperClusters": 12,
+        "extracted": 111,
+        "multiPaperClusters": 22,
+        "papers": 118,
+        "singlePaperClusters": 11,
         "staleEvidence": 0,
         "themeId": "ts",
         "unclustered": 0
@@ -52109,11 +52456,11 @@
       {
         "awaitingEvidence": 0,
         "awaitingExtraction": 0,
-        "clustered": 60,
+        "clustered": 61,
         "clusters": 28,
-        "extracted": 60,
+        "extracted": 61,
         "multiPaperClusters": 18,
-        "papers": 60,
+        "papers": 61,
         "singlePaperClusters": 10,
         "staleEvidence": 0,
         "themeId": "digital",
@@ -52122,22 +52469,22 @@
       {
         "awaitingEvidence": 3,
         "awaitingExtraction": 0,
-        "clustered": 257,
+        "clustered": 258,
         "clusters": 42,
-        "extracted": 257,
+        "extracted": 258,
         "multiPaperClusters": 36,
-        "papers": 260,
+        "papers": 261,
         "singlePaperClusters": 6,
         "staleEvidence": 0,
         "themeId": "ml",
         "unclustered": 0
       }
     ],
-    "clustered": 446,
+    "clustered": 448,
     "clusters": 50,
-    "extracted": 446,
+    "extracted": 448,
     "multiPaperClusters": 45,
-    "papers": 459,
+    "papers": 461,
     "singlePaperClusters": 5,
     "staleEvidence": 0,
     "unclustered": 0
@@ -62731,6 +63078,53 @@
       ],
       "reviewedAt": "2026-10-17",
       "text": "在相关或均值回复的路径数据中，怎样选择signature定义，使稀疏回归具备可解释的一致性条件并用于价格函数学习？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_asset_risk_premia",
+        "qc_portfolio_risk_control"
+      ],
+      "evidence": {
+        "digest": "776700deb7642894b62ac5dcc184b7d1f6ce38f7198b82856a1c283ad3ca5639",
+        "excerpt": "用受经济目标引导且可解释的面板树处理非平衡资产收益面板，构造测试资产与切点投资组合；摘要报告其推进均值—方差有效前沿，并以稀疏结构刻画横截面定价和样本外组合表现。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-18",
+          "kind": "official_institutional_repository",
+          "label": "Complete byline, abstract, journal issue date, online date, DOI and publication status.",
+          "url": "https://scholars.cityu.edu.hk/en/publications/growing-the-efficient-frontier-on-panel-trees/"
+        }
+      },
+      "id": "q_pub_cityu_he_feng_panel_trees_2025",
+      "paperIds": [
+        "pub_cityu_he_feng_panel_trees_2025"
+      ],
+      "reviewedAt": "2026-10-18",
+      "text": "如何用兼顾经济目标、稀疏性和可解释性的面板树构造测试资产与交易因子，并检验其对有效前沿和横截面定价的增量价值？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_financial_information"
+      ],
+      "evidence": {
+        "digest": "51fea919b1bb1d14fdca455f5dfcdb923d32e671a0b49d3640beb4f64490b9be",
+        "excerpt": "从道琼斯新闻全文用 ChatGPT 提取公司层面预测变量，与 FinBERT、词典及财务变量比较；摘要报告新闻情绪对破产预测有增量信息，全文强于标题，并反映部分宏观风险信息。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-18",
+          "kind": "official_institutional_repository",
+          "label": "Complete byline, abstract, journal issue date, online date, DOI and publication status.",
+          "url": "https://scholars.cityu.edu.hk/en/publications/can-news-predict-firm-bankruptcy/"
+        }
+      },
+      "id": "q_pub_cityu_he_feng_news_bankruptcy_2026",
+      "paperIds": [
+        "pub_cityu_he_feng_news_bankruptcy_2026"
+      ],
+      "reviewedAt": "2026-10-18",
+      "text": "大语言模型从实时新闻全文提取的公司信息，能否在财务变量和既有文本方法之外提高破产风险预测，并识别不同预测期限与宏观状态下的信息价值？"
     }
   ],
   "researchers": [
@@ -71126,26 +71520,47 @@
       ],
       "position": "President’s Chair Professor of Finance, Computing and Data Science; Founding Director, GIFTS",
       "publicationCoverage": {
-        "abstractCount": 0,
-        "authorVerifiedCount": 0,
+        "abstractCount": 1,
+        "authorVerifiedCount": 1,
         "boundaryDateCount": 0,
-        "checkedAt": null,
-        "collectedCount": 0,
-        "extended": true,
+        "checkedAt": "2026-10-18",
+        "collectedCount": 1,
+        "extended": false,
         "fullTextCount": 0,
         "gaps": [
           "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
         ],
         "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
-        "paperIds": [],
-        "recentCount": 0,
-        "sourcesChecked": [],
+        "paperIds": [
+          "pub_cityu_he_feng_panel_trees_2025"
+        ],
+        "recentCount": 1,
+        "sourcesChecked": [
+          {
+            "checkedAt": "2026-10-18",
+            "kind": "official_institutional_repository",
+            "label": "Complete byline, abstract, journal issue date, online date, DOI and publication status.",
+            "url": "https://scholars.cityu.edu.hk/en/publications/growing-the-efficient-frontier-on-panel-trees/"
+          },
+          {
+            "checkedAt": "2026-10-18",
+            "kind": "author_deposited_preprint",
+            "label": "Matching full byline, abstract and v1/v2 dates; one-work merge.",
+            "url": "https://arxiv.org/abs/2501.16730"
+          },
+          {
+            "checkedAt": "2026-10-18",
+            "kind": "primary_search_result",
+            "label": "NBER working-paper identifier, DOI, issue month and matching complete byline.",
+            "url": "https://www.nber.org/papers/w30805"
+          }
+        ],
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-05",
-        "windowStart": "2021-10-05",
-        "windowYears": 5
+        "windowEnd": "2026-10-17",
+        "windowStart": "2023-10-17",
+        "windowYears": 3
       },
       "sources": [
         {
@@ -71671,6 +72086,286 @@
       ],
       "verification": "verified",
       "verifiedAt": "2026-09-29"
+    },
+    {
+      "department": "Department of Decision Analytics and Operations; Department of Economics and Finance",
+      "education": [
+        {
+          "degree": "PhD in Econometrics and Statistics",
+          "institution": "University of Chicago Booth School of Business",
+          "sources": [
+            {
+              "checkedAt": "2026-10-18",
+              "kind": "official_faculty_profile",
+              "label": "Current identity, joint-listed departments, title, education and explicit method-finance research interests.",
+              "url": "https://www.cb.cityu.edu.hk/staff/jingyuhe/"
+            }
+          ],
+          "verification": "verified"
+        },
+        {
+          "degree": "MS in Statistics",
+          "institution": "University of Chicago",
+          "sources": [
+            {
+              "checkedAt": "2026-10-18",
+              "kind": "official_faculty_profile",
+              "label": "Current identity, joint-listed departments, title, education and explicit method-finance research interests.",
+              "url": "https://www.cb.cityu.edu.hk/staff/jingyuhe/"
+            }
+          ],
+          "verification": "verified"
+        },
+        {
+          "degree": "BS in Statistics",
+          "institution": "University of Science and Technology of China",
+          "sources": [
+            {
+              "checkedAt": "2026-10-18",
+              "kind": "official_faculty_profile",
+              "label": "Current identity, joint-listed departments, title, education and explicit method-finance research interests.",
+              "url": "https://www.cb.cityu.edu.hk/staff/jingyuhe/"
+            }
+          ],
+          "verification": "verified"
+        }
+      ],
+      "homepage": "https://www.cb.cityu.edu.hk/staff/jingyuhe/",
+      "id": "r_jingyu_he_cityu",
+      "institution": "CityU",
+      "institutionFull": "City University of Hong Kong",
+      "name": "Jingyu He / 何靖宇",
+      "nameVariants": [
+        "Jingyu He",
+        "何靖宇"
+      ],
+      "position": "Associate Professor",
+      "publicationCoverage": {
+        "abstractCount": 2,
+        "authorVerifiedCount": 2,
+        "boundaryDateCount": 0,
+        "checkedAt": "2026-10-18",
+        "collectedCount": 2,
+        "extended": false,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [
+          "pub_cityu_he_feng_panel_trees_2025",
+          "pub_cityu_he_feng_news_bankruptcy_2026"
+        ],
+        "recentCount": 2,
+        "sourcesChecked": [
+          {
+            "checkedAt": "2026-10-18",
+            "kind": "official_faculty_profile",
+            "label": "Current identity, joint-listed departments, title, education and explicit method-finance research interests.",
+            "url": "https://www.cb.cityu.edu.hk/staff/jingyuhe/"
+          },
+          {
+            "checkedAt": "2026-10-18",
+            "kind": "official_institutional_repository",
+            "label": "Complete byline, abstract, journal issue date, online date, DOI and publication status.",
+            "url": "https://scholars.cityu.edu.hk/en/publications/growing-the-efficient-frontier-on-panel-trees/"
+          },
+          {
+            "checkedAt": "2026-10-18",
+            "kind": "author_deposited_preprint",
+            "label": "Matching full byline, abstract and v1/v2 dates; one-work merge.",
+            "url": "https://arxiv.org/abs/2501.16730"
+          },
+          {
+            "checkedAt": "2026-10-18",
+            "kind": "primary_search_result",
+            "label": "NBER working-paper identifier, DOI, issue month and matching complete byline.",
+            "url": "https://www.nber.org/papers/w30805"
+          },
+          {
+            "checkedAt": "2026-10-18",
+            "kind": "official_institutional_repository",
+            "label": "Complete byline, abstract, journal issue date, online date, DOI and publication status.",
+            "url": "https://scholars.cityu.edu.hk/en/publications/can-news-predict-firm-bankruptcy/"
+          },
+          {
+            "checkedAt": "2026-10-18",
+            "kind": "publisher_search_result",
+            "label": "Publisher indexed result independently matches full byline, DOI, abstract and June 2026 issue.",
+            "url": "https://www.sciencedirect.com/science/article/pii/S1386418125000424"
+          },
+          {
+            "checkedAt": "2026-10-18",
+            "kind": "author_deposited_preprint_search_result",
+            "label": "Matching ordered authors, abstract and preprint date; journal status takes precedence.",
+            "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5022837"
+          }
+        ],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-10-17",
+        "windowStart": "2023-10-17",
+        "windowYears": 3
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-10-18",
+          "kind": "official_faculty_profile",
+          "label": "Current identity, joint-listed departments, title, education and explicit method-finance research interests.",
+          "url": "https://www.cb.cityu.edu.hk/staff/jingyuhe/"
+        }
+      ],
+      "summary": "研究主题：Machine learning in finance、Empirical asset pricing、Bayesian statistics。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "finai",
+        "asset",
+        "ts",
+        "ml"
+      ],
+      "topics": [
+        "Machine learning in finance",
+        "Empirical asset pricing",
+        "Bayesian statistics"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18"
+    },
+    {
+      "department": "Department of Decision Analytics and Operations; Department of Economics and Finance",
+      "education": [
+        {
+          "degree": "PhD in Econometrics and Statistics",
+          "institution": "University of Chicago",
+          "sources": [
+            {
+              "checkedAt": "2026-10-18",
+              "kind": "official_faculty_profile",
+              "label": "Current identity, joint-listed departments, title, education and explicit method-finance research interests.",
+              "url": "https://www.cb.cityu.edu.hk/staff/gufeng/"
+            }
+          ],
+          "verification": "verified"
+        },
+        {
+          "degree": "MBA in Economics and Finance",
+          "institution": "University of Chicago",
+          "sources": [
+            {
+              "checkedAt": "2026-10-18",
+              "kind": "official_faculty_profile",
+              "label": "Current identity, joint-listed departments, title, education and explicit method-finance research interests.",
+              "url": "https://www.cb.cityu.edu.hk/staff/gufeng/"
+            }
+          ],
+          "verification": "verified"
+        }
+      ],
+      "homepage": "https://www.cb.cityu.edu.hk/staff/gufeng/",
+      "id": "r_guanhao_feng_cityu",
+      "institution": "CityU",
+      "institutionFull": "City University of Hong Kong",
+      "name": "Guanhao (Gavin) Feng / 馮冠豪",
+      "nameVariants": [
+        "Guanhao (Gavin) Feng",
+        "馮冠豪",
+        "Guanhao Feng",
+        "Gavin Feng"
+      ],
+      "position": "Associate Professor",
+      "publicationCoverage": {
+        "abstractCount": 2,
+        "authorVerifiedCount": 2,
+        "boundaryDateCount": 0,
+        "checkedAt": "2026-10-18",
+        "collectedCount": 2,
+        "extended": false,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [
+          "pub_cityu_he_feng_panel_trees_2025",
+          "pub_cityu_he_feng_news_bankruptcy_2026"
+        ],
+        "recentCount": 2,
+        "sourcesChecked": [
+          {
+            "checkedAt": "2026-10-18",
+            "kind": "official_faculty_profile",
+            "label": "Current identity, joint-listed departments, title, education and explicit method-finance research interests.",
+            "url": "https://www.cb.cityu.edu.hk/staff/gufeng/"
+          },
+          {
+            "checkedAt": "2026-10-18",
+            "kind": "official_institutional_repository",
+            "label": "Complete byline, abstract, journal issue date, online date, DOI and publication status.",
+            "url": "https://scholars.cityu.edu.hk/en/publications/growing-the-efficient-frontier-on-panel-trees/"
+          },
+          {
+            "checkedAt": "2026-10-18",
+            "kind": "author_deposited_preprint",
+            "label": "Matching full byline, abstract and v1/v2 dates; one-work merge.",
+            "url": "https://arxiv.org/abs/2501.16730"
+          },
+          {
+            "checkedAt": "2026-10-18",
+            "kind": "primary_search_result",
+            "label": "NBER working-paper identifier, DOI, issue month and matching complete byline.",
+            "url": "https://www.nber.org/papers/w30805"
+          },
+          {
+            "checkedAt": "2026-10-18",
+            "kind": "official_institutional_repository",
+            "label": "Complete byline, abstract, journal issue date, online date, DOI and publication status.",
+            "url": "https://scholars.cityu.edu.hk/en/publications/can-news-predict-firm-bankruptcy/"
+          },
+          {
+            "checkedAt": "2026-10-18",
+            "kind": "publisher_search_result",
+            "label": "Publisher indexed result independently matches full byline, DOI, abstract and June 2026 issue.",
+            "url": "https://www.sciencedirect.com/science/article/pii/S1386418125000424"
+          },
+          {
+            "checkedAt": "2026-10-18",
+            "kind": "author_deposited_preprint_search_result",
+            "label": "Matching ordered authors, abstract and preprint date; journal status takes precedence.",
+            "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5022837"
+          }
+        ],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-10-17",
+        "windowStart": "2023-10-17",
+        "windowYears": 3
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-10-18",
+          "kind": "official_faculty_profile",
+          "label": "Current identity, joint-listed departments, title, education and explicit method-finance research interests.",
+          "url": "https://www.cb.cityu.edu.hk/staff/gufeng/"
+        }
+      ],
+      "summary": "研究主题：Machine learning、Generative AI、Bayesian statistics、Financial econometrics、Empirical asset pricing、FinTech。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "finai",
+        "asset",
+        "ts",
+        "ml"
+      ],
+      "topics": [
+        "Machine learning",
+        "Generative AI",
+        "Bayesian statistics",
+        "Financial econometrics",
+        "Empirical asset pricing",
+        "FinTech"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-18"
     }
   ],
   "schemaVersion": 3,
@@ -71706,5 +72401,5 @@
       "name": "ML Theory & Optimization"
     }
   ],
-  "updatedAt": "2026-10-16"
+  "updatedAt": "2026-10-17"
 }
