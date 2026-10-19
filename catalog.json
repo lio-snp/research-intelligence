@@ -49407,6 +49407,356 @@
         }
       ],
       "year": 2026
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-19",
+        "reason": "官方机构库/出版方摘要已核；SSRN修订细节仅主索引可读、直连403，不混合早晚版本数值。",
+        "source": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5994158",
+        "status": "available"
+      },
+      "abstractSummary": "用DeepSeek分别从股权与公司债投资者视角提取同一公司新闻的情绪强度，比较其对两类市场次日成交量及持续性的预测关联。修订摘要强调公司债的交易发生和条件成交量，以及负面新闻的不对称关联；不能把预测联系写成已识别的因果溢出。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-19",
+        "kind": "official_institutional_repository",
+        "label": "Complete four-author order; working paper/preprint; repository date 2025-12-31; 55-page version and abstract.",
+        "status": "live_page",
+        "url": "https://scholars.cityu.edu.hk/en/publications/one-news-two-markets-llm-derived-sentiment-and-trading-volume/"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Siyu Bie",
+        "Guanhao Feng",
+        "Naixin Guo",
+        "Jingyu He"
+      ],
+      "authorships": [
+        {
+          "name": "Siyu Bie",
+          "position": 1
+        },
+        {
+          "name": "Guanhao Feng",
+          "position": 2,
+          "researcherId": "r_guanhao_feng_cityu"
+        },
+        {
+          "name": "Naixin Guo",
+          "position": 3
+        },
+        {
+          "name": "Jingyu He",
+          "position": 4,
+          "researcherId": "r_jingyu_he_cityu"
+        }
+      ],
+      "contribution": {
+        "checkedAt": "2026-10-19",
+        "note": "完整作者顺序已核；署名位次不等于贡献大小，通讯作者只在来源明确时标注。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2026-01-22",
+      "dateEvidence": {
+        "checkedAt": "2026-10-19",
+        "kind": "date_note",
+        "label": "日期、版本与书目信息核对",
+        "note": "2025-12-31 is independently labelled Date Written in the SSRN primary index and is also the repository publication-date label. It is not assumed to be a placeholder, nor is it used as SSRN first-posted date. Canonical first-posted date uses the primary-index 2026-01-22, with access limitation explicit; the stable local ID retains _2025 for continuity, not publication-year semantics. Written/repository 2025-12-31 (55 pages); SSRN posted 2026-01-22, revised 2026-08-19 (45 pages). Direct SSRN403; exact posting/revision days from primary search index, Crossref date fields year-only. No journal acceptance.",
+        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5994158"
+      },
+      "datePrecision": "day",
+      "doi": "10.2139/ssrn.5994158",
+      "id": "pub_cityu_he_feng_llm_sentiment_two_markets_2025",
+      "paradigms": [
+        "empirical",
+        "system"
+      ],
+      "publicationStatus": "preprint",
+      "publicationType": "preprint",
+      "questionId": "q_pub_cityu_he_feng_llm_sentiment_two_markets_2025",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "同一公司新闻对股权和债权投资者的信息含义有何不同，LLM提取的市场专属情绪强度能否解释成交量反应及持续性的差异？",
+      "researcherIds": [
+        "r_guanhao_feng_cityu",
+        "r_jingyu_he_cityu"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-19",
+          "kind": "official_institutional_repository",
+          "label": "Complete four-author order; working paper/preprint; repository date 2025-12-31; 55-page version and abstract.",
+          "status": "live_page",
+          "url": "https://scholars.cityu.edu.hk/en/publications/one-news-two-markets-llm-derived-sentiment-and-trading-volume/"
+        },
+        {
+          "checkedAt": "2026-10-19",
+          "kind": "primary_preprint_record",
+          "label": "Same title and complete four-author order; written 2025-12-31, posted 2026-01-22, revised 2026-08-19; 45-page revised abstract. Direct current page not successfully fetched.",
+          "status": "primary_page_search_index_only; direct page 403",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5994158"
+        },
+        {
+          "checkedAt": "2026-10-19",
+          "kind": "publisher_registered_metadata",
+          "label": "DOI, full author order, posted-content/preprint and publication year 2026. Crossref created timestamp 2026-01-22 corroborates identifier registration, not an independent exact posting-day field.",
+          "status": "live_https_curl",
+          "url": "https://api.crossref.org/works/10.2139/ssrn.5994158"
+        }
+      ],
+      "summary": {
+        "evidence": "用DeepSeek分别从股权与公司债投资者视角提取同一公司新闻的情绪强度，比较其对两类市场次日成交量及持续性的预测关联。修订摘要强调公司债的交易发生和条件成交量，以及负面新闻的不对称关联；不能把预测联系写成已识别的因果溢出。",
+        "gap": "摘要支持的论文问题：同一公司新闻对股权和债权投资者的信息含义有何不同，LLM提取的市场专属情绪强度能否解释成交量反应及持续性的差异？",
+        "insight": "用DeepSeek分别从股权与公司债投资者视角提取同一公司新闻的情绪强度，比较其对两类市场次日成交量及持续性的预测关联。修订摘要强调公司债的交易发生和条件成交量，以及负面新闻的不对称关联；不能把预测联系写成已识别的因果溢出。",
+        "limitation": "摘要级整理，未全文审证或复现；预测关联不是因果识别，偏好对齐不等于真实投资收益；位次不代表贡献。",
+        "method": "依据出版方摘要或作者/出版元数据整理；未复现实验、估计或证明。",
+        "question": "同一公司新闻对股权和债权投资者的信息含义有何不同，LLM提取的市场专属情绪强度能否解释成交量反应及持续性的差异？"
+      },
+      "summaryBasis": "abstract",
+      "themes": [
+        "finai",
+        "asset",
+        "digital"
+      ],
+      "title": "One News, Two Markets: LLM-Derived Sentiment and Trading Volume",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5994158",
+      "venue": "SSRN working paper",
+      "verifiedAt": "2026-10-19",
+      "versions": [
+        {
+          "authorEvidence": {
+            "checkedAt": "2026-10-19",
+            "kind": "institutional_working_paper_record",
+            "label": "同一作品的历史版本，保留该版完整作者顺序",
+            "url": "https://scholars.cityu.edu.hk/en/publications/one-news-two-markets-llm-derived-sentiment-and-trading-volume/"
+          },
+          "authorListComplete": true,
+          "authorOrderVerified": true,
+          "authors": [
+            "Siyu Bie",
+            "Guanhao Feng",
+            "Naixin Guo",
+            "Jingyu He"
+          ],
+          "date": "2025-12-31",
+          "datePrecision": "day",
+          "doi": "",
+          "publicationStatus": "preprint",
+          "publicationType": "preprint",
+          "sources": [
+            {
+              "checkedAt": "2026-10-19",
+              "kind": "institutional_working_paper_record",
+              "label": "同一作品的历史版本，保留该版完整作者顺序",
+              "url": "https://scholars.cityu.edu.hk/en/publications/one-news-two-markets-llm-derived-sentiment-and-trading-volume/"
+            }
+          ],
+          "title": "One News, Two Markets: LLM-Derived Sentiment and Trading Volume",
+          "url": "https://scholars.cityu.edu.hk/en/publications/one-news-two-markets-llm-derived-sentiment-and-trading-volume/",
+          "venue": "institutional_working_paper_record ",
+          "year": 2025
+        }
+      ],
+      "year": 2026
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-19",
+        "reason": "正式出版方摘要已核；arXiv早晚版本署名分别保留，未全文审证或复现。",
+        "source": "https://aclanthology.org/2025.emnlp-main.917/",
+        "status": "available"
+      },
+      "abstractSummary": "按不同人物画像评估LLM经济风险偏好，提出Risk Disparity Score，并比较DPO与ICL对齐。作者报告简单情境较合理、复杂任务表现下降，DPO对损失相关参数有改善；这不等于已验证真实投资者个体偏好或真实市场决策收益。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-19",
+        "kind": "publisher_proceedings",
+        "label": "Formal EMNLP 2025 paper; complete byline, DOI, pages 18174–18188 and issue month 2025-11; abstract supports RDS evaluation and DPO/ICL study.",
+        "status": "live_page",
+        "url": "https://aclanthology.org/2025.emnlp-main.917/"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Jiaxin Liu",
+        "Yixuan Tang",
+        "Yi Yang",
+        "Kar Yan Tam"
+      ],
+      "authorships": [
+        {
+          "name": "Jiaxin Liu",
+          "position": 1
+        },
+        {
+          "name": "Yixuan Tang",
+          "position": 2
+        },
+        {
+          "name": "Yi Yang",
+          "position": 3,
+          "researcherId": "r_yi_yang_hkust"
+        },
+        {
+          "name": "Kar Yan Tam",
+          "position": 4
+        }
+      ],
+      "contribution": {
+        "checkedAt": "2026-10-19",
+        "note": "完整作者顺序已核；署名位次不等于贡献大小，通讯作者只在来源明确时标注。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2025-11",
+      "dateEvidence": {
+        "checkedAt": "2026-10-19",
+        "kind": "date_note",
+        "label": "日期、版本与书目信息核对",
+        "note": "正式EMNLP2025卷期为2025-11（月精度），pages18174–18188；不以会议日程补造出版日。arXiv v1 2025-03-09署名三人，Yi Yang2/3；v2 2025-09-13及正式版四人，Yi Yang3/4。合并为一作。",
+        "url": "https://aclanthology.org/2025.emnlp-main.917/"
+      },
+      "datePrecision": "month",
+      "doi": "10.18653/v1/2025.emnlp-main.917",
+      "id": "pub_yi_yang_economic_risk_preferences_llms_2025",
+      "paradigms": [
+        "empirical",
+        "system"
+      ],
+      "publicationStatus": "published",
+      "publicationType": "conference",
+      "questionId": "q_pub_yi_yang_economic_risk_preferences_llms_2025",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "如何评估并对齐LLM在不同人物画像和任务复杂度下的经济风险偏好，同时区分简单分类的一致性与复杂风险决策中的有效性？",
+      "researcherIds": [
+        "r_yi_yang_hkust"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-19",
+          "kind": "publisher_proceedings",
+          "label": "Formal EMNLP 2025 paper; complete byline, DOI, pages 18174–18188 and issue month 2025-11; abstract supports RDS evaluation and DPO/ICL study.",
+          "status": "live_page",
+          "url": "https://aclanthology.org/2025.emnlp-main.917/"
+        },
+        {
+          "checkedAt": "2026-10-19",
+          "kind": "publisher_paper_pdf",
+          "label": "First-page four-author order and HKUST affiliation. PDF opened for byline/abstract verification, not full-paper review.",
+          "status": "live_pdf_text",
+          "url": "https://aclanthology.org/2025.emnlp-main.917.pdf"
+        },
+        {
+          "checkedAt": "2026-10-19",
+          "kind": "author_deposited_preprint",
+          "label": "v1 2025-03-09 has three authors; v2 2025-09-13 has four authors matching EMNLP record. Same title and one-work merge.",
+          "status": "live_page",
+          "url": "https://arxiv.org/abs/2503.06646"
+        },
+        {
+          "checkedAt": "2026-10-19",
+          "kind": "version_specific_author_preprint",
+          "label": "v1 author order Jiaxin Liu; Yi Yang; Kar Yan Tam; Yang is 2/3 in this historical version only.",
+          "status": "live_page",
+          "url": "https://arxiv.org/abs/2503.06646v1"
+        },
+        {
+          "checkedAt": "2026-10-19",
+          "kind": "author_publications",
+          "label": "Lists EMNLP 2025 risk-preference paper with four authors, including Yi Yang 3/4. Other listed papers outside this bounded task were not restaged.",
+          "status": "live_page",
+          "url": "https://yya518.github.io/research"
+        }
+      ],
+      "summary": {
+        "evidence": "按不同人物画像评估LLM经济风险偏好，提出Risk Disparity Score，并比较DPO与ICL对齐。作者报告简单情境较合理、复杂任务表现下降，DPO对损失相关参数有改善；这不等于已验证真实投资者个体偏好或真实市场决策收益。",
+        "gap": "摘要支持的论文问题：如何评估并对齐LLM在不同人物画像和任务复杂度下的经济风险偏好，同时区分简单分类的一致性与复杂风险决策中的有效性？",
+        "insight": "按不同人物画像评估LLM经济风险偏好，提出Risk Disparity Score，并比较DPO与ICL对齐。作者报告简单情境较合理、复杂任务表现下降，DPO对损失相关参数有改善；这不等于已验证真实投资者个体偏好或真实市场决策收益。",
+        "limitation": "摘要级整理，未全文审证或复现；预测关联不是因果识别，偏好对齐不等于真实投资收益；位次不代表贡献。",
+        "method": "依据出版方摘要或作者/出版元数据整理；未复现实验、估计或证明。",
+        "question": "如何评估并对齐LLM在不同人物画像和任务复杂度下的经济风险偏好，同时区分简单分类的一致性与复杂风险决策中的有效性？"
+      },
+      "summaryBasis": "abstract",
+      "themes": [
+        "finai",
+        "decision",
+        "ml"
+      ],
+      "title": "Evaluating and Aligning Human Economic Risk Preferences in LLMs",
+      "url": "https://aclanthology.org/2025.emnlp-main.917/",
+      "venue": "EMNLP 2025",
+      "verifiedAt": "2026-10-19",
+      "versions": [
+        {
+          "authorEvidence": {
+            "checkedAt": "2026-10-19",
+            "kind": "arxiv",
+            "label": "同一作品的历史版本，保留该版完整作者顺序",
+            "url": "https://arxiv.org/abs/2503.06646v1"
+          },
+          "authorListComplete": true,
+          "authorOrderVerified": true,
+          "authors": [
+            "Jiaxin Liu",
+            "Yi Yang",
+            "Kar Yan Tam"
+          ],
+          "date": "2025-03-09",
+          "datePrecision": "day",
+          "doi": "10.48550/arXiv.2503.06646",
+          "publicationStatus": "preprint",
+          "publicationType": "preprint",
+          "sources": [
+            {
+              "checkedAt": "2026-10-19",
+              "kind": "arxiv",
+              "label": "同一作品的历史版本，保留该版完整作者顺序",
+              "url": "https://arxiv.org/abs/2503.06646v1"
+            }
+          ],
+          "title": "Evaluating and Aligning Human Economic Risk Preferences in LLMs",
+          "url": "https://arxiv.org/abs/2503.06646v1",
+          "venue": "arxiv 2503.06646v1",
+          "year": 2025
+        },
+        {
+          "authorEvidence": {
+            "checkedAt": "2026-10-19",
+            "kind": "arxiv",
+            "label": "同一作品的历史版本，保留该版完整作者顺序",
+            "url": "https://arxiv.org/abs/2503.06646v2"
+          },
+          "authorListComplete": true,
+          "authorOrderVerified": true,
+          "authors": [
+            "Jiaxin Liu",
+            "Yixuan Tang",
+            "Yi Yang",
+            "Kar Yan Tam"
+          ],
+          "date": "2025-09-13",
+          "datePrecision": "day",
+          "doi": "10.48550/arXiv.2503.06646",
+          "publicationStatus": "preprint",
+          "publicationType": "preprint",
+          "sources": [
+            {
+              "checkedAt": "2026-10-19",
+              "kind": "arxiv",
+              "label": "同一作品的历史版本，保留该版完整作者顺序",
+              "url": "https://arxiv.org/abs/2503.06646v2"
+            }
+          ],
+          "title": "Evaluating and Aligning Human Economic Risk Preferences in LLMs",
+          "url": "https://arxiv.org/abs/2503.06646v2",
+          "venue": "arxiv 2503.06646v2",
+          "year": 2025
+        }
+      ],
+      "year": 2025
     }
   ],
   "paradigms": [
@@ -49508,8 +49858,8 @@
   "publicCurationNote": "公开研究资料快照。主题、研究问题与研究线为编辑归纳，不代表学者本人陈述或机构背书。",
   "publicRelease": {
     "channel": "stable",
-    "snapshotDate": "2026-10-17",
-    "version": "3.3.39"
+    "snapshotDate": "2026-10-18",
+    "version": "3.3.40"
   },
   "publicationPolicy": {
     "authorshipNote": "署名位次不等于贡献排名；通讯作者、共同贡献和具体分工只按原文证据标注。",
@@ -49519,18 +49869,18 @@
     "extendedStart": "2021-10-08",
     "extendedYears": 5,
     "extensionThreshold": 5,
-    "snapshotDate": "2026-10-17",
+    "snapshotDate": "2026-10-18",
     "versionNote": "同一研究的预印本与发表版本分开保留证据；摘要来源可能与主书目版本不同。"
   },
   "publicationStats": {
-    "abstracts": 448,
+    "abstracts": 450,
     "fullTexts": 4,
     "outsideWindow": 7,
-    "papers": 461,
-    "recentPapers": 454,
+    "papers": 463,
+    "recentPapers": 456,
     "researchers": 106,
     "reviewedSources": 13,
-    "verifiedBylines": 460,
+    "verifiedBylines": 462,
     "withPapers": 51
   },
   "questionClusters": [
@@ -49561,7 +49911,8 @@
         "pub_yi_yang_macroallocagent_2026",
         "pub_yi_yang_numeracy_gap_embedding_models_2026",
         "pub_yi_yang_divide_and_contrast_risk_prediction_2025",
-        "pub_cityu_he_feng_news_bankruptcy_2026"
+        "pub_cityu_he_feng_news_bankruptcy_2026",
+        "pub_cityu_he_feng_llm_sentiment_two_markets_2025"
       ],
       "question": "金融信息的生产、披露和传播如何影响投资者行为与价格形成？",
       "questionIds": [
@@ -49587,7 +49938,8 @@
         "q_pub_yi_yang_macroallocagent_2026",
         "q_pub_yi_yang_numeracy_gap_embedding_models_2026",
         "q_pub_yi_yang_divide_and_contrast_risk_prediction_2025",
-        "q_pub_cityu_he_feng_news_bankruptcy_2026"
+        "q_pub_cityu_he_feng_news_bankruptcy_2026",
+        "q_pub_cityu_he_feng_llm_sentiment_two_markets_2025"
       ],
       "researcherIds": [
         "r_yanzhen",
@@ -49603,7 +49955,7 @@
         "r_jingyu_he_cityu",
         "r_guanhao_feng_cityu"
       ],
-      "reviewedAt": "2026-10-18",
+      "reviewedAt": "2026-10-19",
       "themes": [
         "finai",
         "digital",
@@ -49855,7 +50207,8 @@
         "pub_yan_ji_financial_market_fragility_ai_planning_2025",
         "pub_ying_chen_optimal_trade_execution_endogenous_order_flow_2025",
         "pub_jian_li_m3_market_microstructure_2026",
-        "pub_ruixun_zhang_spectral_volume_models_2025"
+        "pub_ruixun_zhang_spectral_volume_models_2025",
+        "pub_cityu_he_feng_llm_sentiment_two_markets_2025"
       ],
       "question": "交易制度、参与者互动和市场摩擦如何影响流动性与价格效率？",
       "questionIds": [
@@ -49875,7 +50228,8 @@
         "q_pub_yan_ji_financial_market_fragility_ai_planning_2025",
         "q_pub_ying_chen_optimal_trade_execution_endogenous_order_flow_2025",
         "q_pub_jian_li_m3_market_microstructure_2026",
-        "q_pub_ruixun_zhang_spectral_volume_models_2025"
+        "q_pub_ruixun_zhang_spectral_volume_models_2025",
+        "q_pub_cityu_he_feng_llm_sentiment_two_markets_2025"
       ],
       "researcherIds": [
         "r_claire",
@@ -49892,9 +50246,11 @@
         "r_yang",
         "r_zhimin_chen_ntu",
         "r_yan_ji_hkust",
-        "r_ying_chen_nus"
+        "r_ying_chen_nus",
+        "r_guanhao_feng_cityu",
+        "r_jingyu_he_cityu"
       ],
-      "reviewedAt": "2026-10-17",
+      "reviewedAt": "2026-10-19",
       "themes": [
         "asset",
         "digital",
@@ -50534,7 +50890,8 @@
         "pub_xiaoyan_2023_risking_or_de_risking_how_management_fees_affect",
         "pub_zhanhui_local_gender_imbalance_risk_taking",
         "pub_ming_zhou_consumption_leisure_investment_retirement_2025",
-        "pub_ruixun_zhang_dorado_dynamic_rd_options_2026"
+        "pub_ruixun_zhang_dorado_dynamic_rd_options_2026",
+        "pub_yi_yang_economic_risk_preferences_llms_2025"
       ],
       "question": "风险偏好、时间偏好和模型不确定性如何改变最优决策？",
       "questionIds": [
@@ -50552,7 +50909,8 @@
         "q_pub_xiaoyan_2023_risking_or_de_risking_how_management_fees_affect",
         "q_pub_zhanhui_local_gender_imbalance_risk_taking",
         "q_pub_ming_zhou_consumption_leisure_investment_retirement_2025",
-        "q_pub_ruixun_zhang_dorado_dynamic_rd_options_2026"
+        "q_pub_ruixun_zhang_dorado_dynamic_rd_options_2026",
+        "q_pub_yi_yang_economic_risk_preferences_llms_2025"
       ],
       "researcherIds": [
         "r_chen_yang_cuhk",
@@ -50562,9 +50920,10 @@
         "r_xiaoyan",
         "r_zhanhui",
         "r_ming_zhou_ruc",
-        "r_ruixun_zhang_pku"
+        "r_ruixun_zhang_pku",
+        "r_yi_yang_hkust"
       ],
-      "reviewedAt": "2026-10-14",
+      "reviewedAt": "2026-10-19",
       "themes": [
         "asset",
         "digital",
@@ -51399,7 +51758,8 @@
         "pub_qi_liu_alphaqt",
         "pub_sha_safesteer_localized_on_policy_distillation_2026",
         "pub_sha_safetymem_dual_component_safety_memory_2026",
-        "pub_sha_be_your_own_red_teamer_2026"
+        "pub_sha_be_your_own_red_teamer_2026",
+        "pub_yi_yang_economic_risk_preferences_llms_2025"
       ],
       "question": "如何理解和改善语言模型的推理、指令遵循与偏好对齐？",
       "questionIds": [
@@ -51430,7 +51790,8 @@
         "q_pub_qi_liu_alphaqt",
         "q_pub_sha_safesteer_localized_on_policy_distillation_2026",
         "q_pub_sha_safetymem_dual_component_safety_memory_2026",
-        "q_pub_sha_be_your_own_red_teamer_2026"
+        "q_pub_sha_be_your_own_red_teamer_2026",
+        "q_pub_yi_yang_economic_risk_preferences_llms_2025"
       ],
       "researcherIds": [
         "r_bo_an",
@@ -51438,9 +51799,10 @@
         "r_difan",
         "r_jian_li",
         "r_qi_liu_hku",
-        "r_lei_sha"
+        "r_lei_sha",
+        "r_yi_yang_hkust"
       ],
-      "reviewedAt": "2026-10-15",
+      "reviewedAt": "2026-10-19",
       "themes": [
         "finai",
         "decision",
@@ -52404,11 +52766,11 @@
       {
         "awaitingEvidence": 0,
         "awaitingExtraction": 0,
-        "clustered": 88,
+        "clustered": 90,
         "clusters": 34,
-        "extracted": 88,
+        "extracted": 90,
         "multiPaperClusters": 25,
-        "papers": 88,
+        "papers": 90,
         "singlePaperClusters": 9,
         "staleEvidence": 0,
         "themeId": "finai",
@@ -52417,11 +52779,11 @@
       {
         "awaitingEvidence": 1,
         "awaitingExtraction": 0,
-        "clustered": 101,
+        "clustered": 102,
         "clusters": 36,
-        "extracted": 101,
+        "extracted": 102,
         "multiPaperClusters": 25,
-        "papers": 102,
+        "papers": 103,
         "singlePaperClusters": 11,
         "staleEvidence": 0,
         "themeId": "decision",
@@ -52430,11 +52792,11 @@
       {
         "awaitingEvidence": 6,
         "awaitingExtraction": 0,
-        "clustered": 158,
+        "clustered": 159,
         "clusters": 29,
-        "extracted": 158,
+        "extracted": 159,
         "multiPaperClusters": 27,
-        "papers": 164,
+        "papers": 165,
         "singlePaperClusters": 2,
         "staleEvidence": 0,
         "themeId": "asset",
@@ -52456,11 +52818,11 @@
       {
         "awaitingEvidence": 0,
         "awaitingExtraction": 0,
-        "clustered": 61,
+        "clustered": 62,
         "clusters": 28,
-        "extracted": 61,
+        "extracted": 62,
         "multiPaperClusters": 18,
-        "papers": 61,
+        "papers": 62,
         "singlePaperClusters": 10,
         "staleEvidence": 0,
         "themeId": "digital",
@@ -52469,22 +52831,22 @@
       {
         "awaitingEvidence": 3,
         "awaitingExtraction": 0,
-        "clustered": 258,
+        "clustered": 259,
         "clusters": 42,
-        "extracted": 258,
+        "extracted": 259,
         "multiPaperClusters": 36,
-        "papers": 261,
+        "papers": 262,
         "singlePaperClusters": 6,
         "staleEvidence": 0,
         "themeId": "ml",
         "unclustered": 0
       }
     ],
-    "clustered": 448,
+    "clustered": 450,
     "clusters": 50,
-    "extracted": 448,
+    "extracted": 450,
     "multiPaperClusters": 45,
-    "papers": 461,
+    "papers": 463,
     "singlePaperClusters": 5,
     "staleEvidence": 0,
     "unclustered": 0
@@ -63125,6 +63487,56 @@
       ],
       "reviewedAt": "2026-10-18",
       "text": "大语言模型从实时新闻全文提取的公司信息，能否在财务变量和既有文本方法之外提高破产风险预测，并识别不同预测期限与宏观状态下的信息价值？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_financial_information",
+        "qc_market_liquidity_trading"
+      ],
+      "evidence": {
+        "digest": "34ddaeac5baa1a17a8b6c7b6a2609905cae6d1884b1b098158d8ddf984774735",
+        "excerpt": "用DeepSeek分别从股权与公司债投资者视角提取同一公司新闻的情绪强度，比较其对两类市场次日成交量及持续性的预测关联。修订摘要强调公司债的交易发生和条件成交量，以及负面新闻的不对称关联；不能把预测联系写成已识别的因果溢出。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-19",
+          "kind": "primary_preprint_record",
+          "label": "Same title and complete four-author order; written 2025-12-31, posted 2026-01-22, revised 2026-08-19; 45-page revised abstract. Direct current page not successfully fetched.",
+          "status": "primary_page_search_index_only; direct page 403",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5994158"
+        }
+      },
+      "id": "q_pub_cityu_he_feng_llm_sentiment_two_markets_2025",
+      "paperIds": [
+        "pub_cityu_he_feng_llm_sentiment_two_markets_2025"
+      ],
+      "reviewedAt": "2026-10-19",
+      "text": "同一公司新闻对股权和债权投资者的信息含义有何不同，LLM提取的市场专属情绪强度能否解释成交量反应及持续性的差异？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_risk_preferences",
+        "qc_llm_reasoning_alignment"
+      ],
+      "evidence": {
+        "digest": "693fa19502cd264c3f47abc624c64bd5575cc96f42348f62adac653653367fea",
+        "excerpt": "按不同人物画像评估LLM经济风险偏好，提出Risk Disparity Score，并比较DPO与ICL对齐。作者报告简单情境较合理、复杂任务表现下降，DPO对损失相关参数有改善；这不等于已验证真实投资者个体偏好或真实市场决策收益。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-19",
+          "kind": "publisher_proceedings",
+          "label": "Formal EMNLP 2025 paper; complete byline, DOI, pages 18174–18188 and issue month 2025-11; abstract supports RDS evaluation and DPO/ICL study.",
+          "status": "live_page",
+          "url": "https://aclanthology.org/2025.emnlp-main.917/"
+        }
+      },
+      "id": "q_pub_yi_yang_economic_risk_preferences_llms_2025",
+      "paperIds": [
+        "pub_yi_yang_economic_risk_preferences_llms_2025"
+      ],
+      "reviewedAt": "2026-10-19",
+      "text": "如何评估并对齐LLM在不同人物画像和任务复杂度下的经济风险偏好，同时区分简单分类的一致性与复杂风险决策中的有效性？"
     }
   ],
   "researchers": [
@@ -66818,11 +67230,11 @@
       "nameVariants": [],
       "position": "Associate Professor",
       "publicationCoverage": {
-        "abstractCount": 13,
-        "authorVerifiedCount": 13,
+        "abstractCount": 14,
+        "authorVerifiedCount": 14,
         "boundaryDateCount": 0,
-        "checkedAt": "2026-10-14",
-        "collectedCount": 13,
+        "checkedAt": "2026-10-19",
+        "collectedCount": 14,
         "extended": false,
         "fullTextCount": 0,
         "gaps": [
@@ -66842,9 +67254,10 @@
           "pub_yi_yang_macroallocagent_2026",
           "pub_yi_yang_numeracy_gap_embedding_models_2026",
           "pub_yi_yang_divide_and_contrast_risk_prediction_2025",
-          "pub_yi_yang_multi_expert_tabular_lm_banking_2025"
+          "pub_yi_yang_multi_expert_tabular_lm_banking_2025",
+          "pub_yi_yang_economic_risk_preferences_llms_2025"
         ],
-        "recentCount": 13,
+        "recentCount": 14,
         "sourcesChecked": [
           {
             "checkedAt": "2026-09-25",
@@ -66961,13 +67374,41 @@
             "kind": "primary_abstract",
             "label": "原始摘要证据；阅读深度为摘要",
             "url": "https://researchportal.hkust.edu.hk/en/publications/efficient-multi-expert-tabular-language-model-for-banking/"
+          },
+          {
+            "checkedAt": "2026-10-19",
+            "kind": "publisher_proceedings",
+            "label": "Formal EMNLP 2025 paper; complete byline, DOI, pages 18174–18188 and issue month 2025-11; abstract supports RDS evaluation and DPO/ICL study.",
+            "status": "live_page",
+            "url": "https://aclanthology.org/2025.emnlp-main.917/"
+          },
+          {
+            "checkedAt": "2026-10-19",
+            "kind": "publisher_paper_pdf",
+            "label": "First-page four-author order and HKUST affiliation. PDF opened for byline/abstract verification, not full-paper review.",
+            "status": "live_pdf_text",
+            "url": "https://aclanthology.org/2025.emnlp-main.917.pdf"
+          },
+          {
+            "checkedAt": "2026-10-19",
+            "kind": "author_deposited_preprint",
+            "label": "v1 2025-03-09 has three authors; v2 2025-09-13 has four authors matching EMNLP record. Same title and one-work merge.",
+            "status": "live_page",
+            "url": "https://arxiv.org/abs/2503.06646"
+          },
+          {
+            "checkedAt": "2026-10-19",
+            "kind": "version_specific_author_preprint",
+            "label": "v1 author order Jiaxin Liu; Yi Yang; Kar Yan Tam; Yang is 2/3 in this historical version only.",
+            "status": "live_page",
+            "url": "https://arxiv.org/abs/2503.06646v1"
           }
         ],
         "status": "partial",
         "threshold": 5,
-        "uncertainDateCount": 5,
-        "windowEnd": "2026-10-13",
-        "windowStart": "2023-10-07",
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-10-18",
+        "windowStart": "2023-10-18",
         "windowYears": 3
       },
       "sources": [
@@ -72141,11 +72582,11 @@
       ],
       "position": "Associate Professor",
       "publicationCoverage": {
-        "abstractCount": 2,
-        "authorVerifiedCount": 2,
+        "abstractCount": 3,
+        "authorVerifiedCount": 3,
         "boundaryDateCount": 0,
-        "checkedAt": "2026-10-18",
-        "collectedCount": 2,
+        "checkedAt": "2026-10-19",
+        "collectedCount": 3,
         "extended": false,
         "fullTextCount": 0,
         "gaps": [
@@ -72154,9 +72595,10 @@
         "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
         "paperIds": [
           "pub_cityu_he_feng_panel_trees_2025",
-          "pub_cityu_he_feng_news_bankruptcy_2026"
+          "pub_cityu_he_feng_news_bankruptcy_2026",
+          "pub_cityu_he_feng_llm_sentiment_two_markets_2025"
         ],
-        "recentCount": 2,
+        "recentCount": 3,
         "sourcesChecked": [
           {
             "checkedAt": "2026-10-18",
@@ -72199,13 +72641,34 @@
             "kind": "author_deposited_preprint_search_result",
             "label": "Matching ordered authors, abstract and preprint date; journal status takes precedence.",
             "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5022837"
+          },
+          {
+            "checkedAt": "2026-10-19",
+            "kind": "official_institutional_repository",
+            "label": "Complete four-author order; working paper/preprint; repository date 2025-12-31; 55-page version and abstract.",
+            "status": "live_page",
+            "url": "https://scholars.cityu.edu.hk/en/publications/one-news-two-markets-llm-derived-sentiment-and-trading-volume/"
+          },
+          {
+            "checkedAt": "2026-10-19",
+            "kind": "primary_preprint_record",
+            "label": "Same title and complete four-author order; written 2025-12-31, posted 2026-01-22, revised 2026-08-19; 45-page revised abstract. Direct current page not successfully fetched.",
+            "status": "primary_page_search_index_only; direct page 403",
+            "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5994158"
+          },
+          {
+            "checkedAt": "2026-10-19",
+            "kind": "publisher_registered_metadata",
+            "label": "DOI, full author order, posted-content/preprint and publication year 2026. Crossref created timestamp 2026-01-22 corroborates identifier registration, not an independent exact posting-day field.",
+            "status": "live_https_curl",
+            "url": "https://api.crossref.org/works/10.2139/ssrn.5994158"
           }
         ],
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-17",
-        "windowStart": "2023-10-17",
+        "windowEnd": "2026-10-18",
+        "windowStart": "2023-10-18",
         "windowYears": 3
       },
       "sources": [
@@ -72274,11 +72737,11 @@
       ],
       "position": "Associate Professor",
       "publicationCoverage": {
-        "abstractCount": 2,
-        "authorVerifiedCount": 2,
+        "abstractCount": 3,
+        "authorVerifiedCount": 3,
         "boundaryDateCount": 0,
-        "checkedAt": "2026-10-18",
-        "collectedCount": 2,
+        "checkedAt": "2026-10-19",
+        "collectedCount": 3,
         "extended": false,
         "fullTextCount": 0,
         "gaps": [
@@ -72287,9 +72750,10 @@
         "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
         "paperIds": [
           "pub_cityu_he_feng_panel_trees_2025",
-          "pub_cityu_he_feng_news_bankruptcy_2026"
+          "pub_cityu_he_feng_news_bankruptcy_2026",
+          "pub_cityu_he_feng_llm_sentiment_two_markets_2025"
         ],
-        "recentCount": 2,
+        "recentCount": 3,
         "sourcesChecked": [
           {
             "checkedAt": "2026-10-18",
@@ -72332,13 +72796,34 @@
             "kind": "author_deposited_preprint_search_result",
             "label": "Matching ordered authors, abstract and preprint date; journal status takes precedence.",
             "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5022837"
+          },
+          {
+            "checkedAt": "2026-10-19",
+            "kind": "official_institutional_repository",
+            "label": "Complete four-author order; working paper/preprint; repository date 2025-12-31; 55-page version and abstract.",
+            "status": "live_page",
+            "url": "https://scholars.cityu.edu.hk/en/publications/one-news-two-markets-llm-derived-sentiment-and-trading-volume/"
+          },
+          {
+            "checkedAt": "2026-10-19",
+            "kind": "primary_preprint_record",
+            "label": "Same title and complete four-author order; written 2025-12-31, posted 2026-01-22, revised 2026-08-19; 45-page revised abstract. Direct current page not successfully fetched.",
+            "status": "primary_page_search_index_only; direct page 403",
+            "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5994158"
+          },
+          {
+            "checkedAt": "2026-10-19",
+            "kind": "publisher_registered_metadata",
+            "label": "DOI, full author order, posted-content/preprint and publication year 2026. Crossref created timestamp 2026-01-22 corroborates identifier registration, not an independent exact posting-day field.",
+            "status": "live_https_curl",
+            "url": "https://api.crossref.org/works/10.2139/ssrn.5994158"
           }
         ],
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-17",
-        "windowStart": "2023-10-17",
+        "windowEnd": "2026-10-18",
+        "windowStart": "2023-10-18",
         "windowYears": 3
       },
       "sources": [
@@ -72401,5 +72886,5 @@
       "name": "ML Theory & Optimization"
     }
   ],
-  "updatedAt": "2026-10-17"
+  "updatedAt": "2026-10-18"
 }
