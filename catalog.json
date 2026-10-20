@@ -49757,6 +49757,331 @@
         }
       ],
       "year": 2025
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-20",
+        "reason": "依据正式出版摘要及首页署名核对，非全文实验审查；未核到金融实验，未独立复现。 正式版出版月2026-07；arXiv v1于2026-02-03提交，v2于2026-04-29修订，两版本与正式版完整八位作者顺序一致，Qi Liu为6/8。同一作品合并计数，未把会议日期范围转换为单一出版日。",
+        "source": "https://aclanthology.org/2026.findings-acl.1974/",
+        "status": "available"
+      },
+      "abstractSummary": "针对长程智能体任务中稀疏结果奖励难以定位错误、逐步估计奖励又易引入噪声的问题，CSO从失败轨迹出发，用过程奖励模型筛选候选关键步骤，再由专家提出替代动作并交回原策略执行至终点；仅把验证可成功完成任务的替代构成DPO偏好数据。作者在通用深度检索任务上评估，尚无金融任务证据，未独立复现。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-20",
+        "kind": "official_publisher",
+        "label": "Formal title, complete eight-author order, DOI, July 2026 month, pages and abstract.",
+        "status": "live_page",
+        "url": "https://aclanthology.org/2026.findings-acl.1974/"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Mukai Li",
+        "Qingcheng Zeng",
+        "Tianqing Fang",
+        "Zhenwen Liang",
+        "Linfeng Song",
+        "Qi Liu",
+        "Haitao Mi",
+        "Dong Yu"
+      ],
+      "authorships": [
+        {
+          "name": "Mukai Li",
+          "position": 1,
+          "researcherId": null
+        },
+        {
+          "name": "Qingcheng Zeng",
+          "position": 2,
+          "researcherId": null
+        },
+        {
+          "name": "Tianqing Fang",
+          "position": 3,
+          "researcherId": null
+        },
+        {
+          "name": "Zhenwen Liang",
+          "position": 4,
+          "researcherId": null
+        },
+        {
+          "name": "Linfeng Song",
+          "position": 5,
+          "researcherId": null
+        },
+        {
+          "name": "Qi Liu",
+          "position": 6,
+          "researcherId": "r_qi_liu_hku"
+        },
+        {
+          "name": "Haitao Mi",
+          "position": 7,
+          "researcherId": null
+        },
+        {
+          "name": "Dong Yu",
+          "position": 8,
+          "researcherId": null
+        }
+      ],
+      "contribution": {
+        "checkedAt": "2026-10-20",
+        "note": "完整作者顺序已核；不由位次推断贡献、通讯或共同贡献。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2026-07",
+      "dateEvidence": {
+        "checkedAt": "2026-10-20",
+        "kind": "date_note",
+        "label": "版本日期与完整署名差异核验",
+        "note": "正式版出版月2026-07；arXiv v1于2026-02-03提交，v2于2026-04-29修订，两版本与正式版完整八位作者顺序一致，Qi Liu为6/8。同一作品合并计数，未把会议日期范围转换为单一出版日。",
+        "url": "https://aclanthology.org/2026.findings-acl.1974/"
+      },
+      "datePrecision": "month",
+      "doi": "10.18653/v1/2026.findings-acl.1974",
+      "id": "pub_qi_liu_verified_critical_step_optimization_2026",
+      "paradigms": [
+        "control",
+        "system",
+        "empirical"
+      ],
+      "publicationStatus": "published",
+      "publicationType": "conference",
+      "questionId": "q_pub_qi_liu_verified_critical_step_optimization_2026",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "如何从智能体失败轨迹中识别并验证能改变任务结果的关键决策，以较少步骤监督实现可靠的信用分配？",
+      "researcherIds": [
+        "r_qi_liu_hku"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-20",
+          "kind": "official_publisher",
+          "label": "Formal title, complete eight-author order, DOI, July 2026 month, pages and abstract.",
+          "status": "live_page",
+          "url": "https://aclanthology.org/2026.findings-acl.1974/"
+        },
+        {
+          "checkedAt": "2026-10-20",
+          "kind": "official_publisher_pdf",
+          "label": "First page confirms all eight ordered authors and HKU attribution; no full-text result audit.",
+          "status": "live_page",
+          "url": "https://aclanthology.org/2026.findings-acl.1974.pdf"
+        },
+        {
+          "checkedAt": "2026-10-20",
+          "kind": "primary_preprint_record",
+          "label": "Title, full eight-author order, v1/v2 dates and abstract match the formal work.",
+          "status": "live_page",
+          "url": "https://arxiv.org/abs/2602.03412"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "ml",
+        "decision"
+      ],
+      "title": "Verified Critical Step Optimization for LLM Agents",
+      "url": "https://aclanthology.org/2026.findings-acl.1974/",
+      "venue": "Findings of the Association for Computational Linguistics: ACL 2026",
+      "verifiedAt": "2026-10-20",
+      "versions": [
+        {
+          "authorEvidence": {
+            "checkedAt": "2026-10-20",
+            "kind": "primary_preprint_record",
+            "label": "预印本完整署名、摘要与版本历史",
+            "status": "live_page",
+            "url": "https://arxiv.org/abs/2602.03412"
+          },
+          "authorListComplete": true,
+          "authorOrderVerified": true,
+          "authors": [
+            "Mukai Li",
+            "Qingcheng Zeng",
+            "Tianqing Fang",
+            "Zhenwen Liang",
+            "Linfeng Song",
+            "Qi Liu",
+            "Haitao Mi",
+            "Dong Yu"
+          ],
+          "date": "2026-04-29",
+          "datePrecision": "day",
+          "doi": "10.48550/arXiv.2602.03412",
+          "publicationStatus": "preprint",
+          "publicationType": "preprint",
+          "sources": [
+            {
+              "checkedAt": "2026-10-20",
+              "kind": "primary_preprint_record",
+              "label": "预印本完整署名、摘要与版本历史",
+              "status": "live_page",
+              "url": "https://arxiv.org/abs/2602.03412"
+            }
+          ],
+          "title": "Verified Critical Step Optimization for LLM Agents",
+          "url": "https://arxiv.org/abs/2602.03412",
+          "venue": "arXiv",
+          "year": 2026
+        }
+      ],
+      "year": 2026
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-20",
+        "reason": "依据正式出版摘要及首页署名核对，非全文实验审查；未核到金融实验，未独立复现。 正式版：Hao Wang、Lei Sha、Jie M. Zhang，Lei Sha为2/3，算法为Dual-Granularity GRPO (DG-GRPO)；arXiv v1：Hao Wang、Rui Li、Lei Sha、Jie M. Zhang，Lei Sha为3/4，算法称Bi-Level GRPO。保留各版本证据，不推断署名变化原因或全文完全一致。正式版只核到2026-07，不把会议日期范围转换为单一出版日。",
+        "source": "https://proceedings.mlr.press/v306/wang26gn.html",
+        "status": "available"
+      },
+      "abstractSummary": "针对仅监督程序最终输出可能掩盖中间推理错误的问题，StepCodeReasoner在程序中插入可核验的执行状态锚点，并结合轨迹间比较与轨迹内信用分配来训练代码推理。正式版将算法称为Dual-Granularity GRPO；作者在代码推理与生成基准上评估，未核到金融实验，未独立复现。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-20",
+        "kind": "official_publisher",
+        "label": "Formal title, three ordered authors, July month, venue, pages, BibTeX and DG-GRPO abstract.",
+        "status": "live_page",
+        "url": "https://proceedings.mlr.press/v306/wang26gn.html"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Hao Wang",
+        "Lei Sha",
+        "Jie M. Zhang"
+      ],
+      "authorships": [
+        {
+          "name": "Hao Wang",
+          "position": 1,
+          "researcherId": null
+        },
+        {
+          "name": "Lei Sha",
+          "position": 2,
+          "researcherId": "r_lei_sha"
+        },
+        {
+          "name": "Jie M. Zhang",
+          "position": 3,
+          "researcherId": null
+        }
+      ],
+      "contribution": {
+        "checkedAt": "2026-10-20",
+        "note": "完整作者顺序已核；不由位次推断贡献、通讯或共同贡献。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2026-07",
+      "dateEvidence": {
+        "checkedAt": "2026-10-20",
+        "kind": "date_note",
+        "label": "版本日期与完整署名差异核验",
+        "note": "正式版：Hao Wang、Lei Sha、Jie M. Zhang，Lei Sha为2/3，算法为Dual-Granularity GRPO (DG-GRPO)；arXiv v1：Hao Wang、Rui Li、Lei Sha、Jie M. Zhang，Lei Sha为3/4，算法称Bi-Level GRPO。保留各版本证据，不推断署名变化原因或全文完全一致。正式版只核到2026-07，不把会议日期范围转换为单一出版日。",
+        "url": "https://proceedings.mlr.press/v306/wang26gn.html"
+      },
+      "datePrecision": "month",
+      "doi": "",
+      "id": "pub_sha_stepcodereasoner_execution_traces_rl_2026",
+      "paradigms": [
+        "control",
+        "system",
+        "empirical"
+      ],
+      "publicationStatus": "published",
+      "publicationType": "conference",
+      "questionId": "q_pub_sha_stepcodereasoner_execution_traces_rl_2026",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "如何用可执行的中间状态监督与轨迹内外的信用分配，使代码推理同时满足过程一致性和最终输出正确性？",
+      "researcherIds": [
+        "r_lei_sha"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-20",
+          "kind": "official_publisher",
+          "label": "Formal title, three ordered authors, July month, venue, pages, BibTeX and DG-GRPO abstract.",
+          "status": "live_page",
+          "url": "https://proceedings.mlr.press/v306/wang26gn.html"
+        },
+        {
+          "checkedAt": "2026-10-20",
+          "kind": "official_publisher_linked_pdf",
+          "label": "First-page three-author byline and DG-GRPO abstract match formal HTML; Lei second of three.",
+          "status": "live_page",
+          "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26gn/wang26gn.pdf"
+        },
+        {
+          "checkedAt": "2026-10-20",
+          "kind": "primary_preprint_record",
+          "label": "v1 date, four-author order and Bi-Level GRPO abstract.",
+          "status": "live_page",
+          "url": "https://arxiv.org/abs/2605.11922"
+        },
+        {
+          "checkedAt": "2026-10-20",
+          "kind": "primary_preprint_pdf",
+          "label": "First page confirms Hao Wang, Rui Li, Lei Sha, Jie M. Zhang; Lei third of four.",
+          "status": "live_page",
+          "url": "https://arxiv.org/pdf/2605.11922"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "ml",
+        "decision"
+      ],
+      "title": "StepCodeReasoner: Aligning Code Reasoning with Stepwise Execution Traces via Reinforcement Learning",
+      "url": "https://proceedings.mlr.press/v306/wang26gn.html",
+      "venue": "Proceedings of the 43rd International Conference on Machine Learning (PMLR 306)",
+      "verifiedAt": "2026-10-20",
+      "versions": [
+        {
+          "authorEvidence": {
+            "checkedAt": "2026-10-20",
+            "kind": "primary_preprint_record",
+            "label": "预印本完整署名、摘要与版本历史",
+            "status": "live_page",
+            "url": "https://arxiv.org/abs/2605.11922"
+          },
+          "authorListComplete": true,
+          "authorOrderVerified": true,
+          "authors": [
+            "Hao Wang",
+            "Rui Li",
+            "Lei Sha",
+            "Jie M. Zhang"
+          ],
+          "date": "2026-05-12",
+          "datePrecision": "day",
+          "doi": "10.48550/arXiv.2605.11922",
+          "publicationStatus": "preprint",
+          "publicationType": "preprint",
+          "sources": [
+            {
+              "checkedAt": "2026-10-20",
+              "kind": "primary_preprint_record",
+              "label": "预印本完整署名、摘要与版本历史",
+              "status": "live_page",
+              "url": "https://arxiv.org/abs/2605.11922"
+            }
+          ],
+          "title": "StepCodeReasoner: Aligning Code Reasoning with Stepwise Execution Traces via Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2605.11922",
+          "venue": "arXiv",
+          "year": 2026
+        }
+      ],
+      "year": 2026
     }
   ],
   "paradigms": [
@@ -49858,8 +50183,8 @@
   "publicCurationNote": "公开研究资料快照。主题、研究问题与研究线为编辑归纳，不代表学者本人陈述或机构背书。",
   "publicRelease": {
     "channel": "stable",
-    "snapshotDate": "2026-10-18",
-    "version": "3.3.40"
+    "snapshotDate": "2026-10-19",
+    "version": "3.3.42"
   },
   "publicationPolicy": {
     "authorshipNote": "署名位次不等于贡献排名；通讯作者、共同贡献和具体分工只按原文证据标注。",
@@ -49869,18 +50194,18 @@
     "extendedStart": "2021-10-08",
     "extendedYears": 5,
     "extensionThreshold": 5,
-    "snapshotDate": "2026-10-18",
+    "snapshotDate": "2026-10-19",
     "versionNote": "同一研究的预印本与发表版本分开保留证据；摘要来源可能与主书目版本不同。"
   },
   "publicationStats": {
-    "abstracts": 450,
+    "abstracts": 452,
     "fullTexts": 4,
     "outsideWindow": 7,
-    "papers": 463,
-    "recentPapers": 456,
+    "papers": 465,
+    "recentPapers": 458,
     "researchers": 106,
     "reviewedSources": 13,
-    "verifiedBylines": 462,
+    "verifiedBylines": 464,
     "withPapers": 51
   },
   "questionClusters": [
@@ -51759,7 +52084,9 @@
         "pub_sha_safesteer_localized_on_policy_distillation_2026",
         "pub_sha_safetymem_dual_component_safety_memory_2026",
         "pub_sha_be_your_own_red_teamer_2026",
-        "pub_yi_yang_economic_risk_preferences_llms_2025"
+        "pub_yi_yang_economic_risk_preferences_llms_2025",
+        "pub_qi_liu_verified_critical_step_optimization_2026",
+        "pub_sha_stepcodereasoner_execution_traces_rl_2026"
       ],
       "question": "如何理解和改善语言模型的推理、指令遵循与偏好对齐？",
       "questionIds": [
@@ -51791,7 +52118,9 @@
         "q_pub_sha_safesteer_localized_on_policy_distillation_2026",
         "q_pub_sha_safetymem_dual_component_safety_memory_2026",
         "q_pub_sha_be_your_own_red_teamer_2026",
-        "q_pub_yi_yang_economic_risk_preferences_llms_2025"
+        "q_pub_yi_yang_economic_risk_preferences_llms_2025",
+        "q_pub_qi_liu_verified_critical_step_optimization_2026",
+        "q_pub_sha_stepcodereasoner_execution_traces_rl_2026"
       ],
       "researcherIds": [
         "r_bo_an",
@@ -51802,7 +52131,7 @@
         "r_lei_sha",
         "r_yi_yang_hkust"
       ],
-      "reviewedAt": "2026-10-19",
+      "reviewedAt": "2026-10-20",
       "themes": [
         "finai",
         "decision",
@@ -51834,7 +52163,9 @@
         "pub_difan_2024_a_human_like_reasoning_framework_for_multi_phase",
         "pub_difan_valg",
         "pub_jian_li_alphaschema_2026",
-        "pub_yi_yang_macroallocagent_2026"
+        "pub_yi_yang_macroallocagent_2026",
+        "pub_qi_liu_verified_critical_step_optimization_2026",
+        "pub_sha_stepcodereasoner_execution_traces_rl_2026"
       ],
       "question": "如何让智能体可靠地规划任务、使用工具并完成交互式工作？",
       "questionIds": [
@@ -51855,7 +52186,9 @@
         "q_pub_difan_2024_a_human_like_reasoning_framework_for_multi_phase",
         "q_pub_difan_valg",
         "q_pub_jian_li_alphaschema_2026",
-        "q_pub_yi_yang_macroallocagent_2026"
+        "q_pub_yi_yang_macroallocagent_2026",
+        "q_pub_qi_liu_verified_critical_step_optimization_2026",
+        "q_pub_sha_stepcodereasoner_execution_traces_rl_2026"
       ],
       "researcherIds": [
         "r_anthony_tung_nus",
@@ -51863,9 +52196,11 @@
         "r_chao",
         "r_difan",
         "r_jian_li",
-        "r_yi_yang_hkust"
+        "r_yi_yang_hkust",
+        "r_lei_sha",
+        "r_qi_liu_hku"
       ],
-      "reviewedAt": "2026-10-14",
+      "reviewedAt": "2026-10-20",
       "themes": [
         "finai",
         "ts",
@@ -52779,11 +53114,11 @@
       {
         "awaitingEvidence": 1,
         "awaitingExtraction": 0,
-        "clustered": 102,
+        "clustered": 104,
         "clusters": 36,
-        "extracted": 102,
+        "extracted": 104,
         "multiPaperClusters": 25,
-        "papers": 103,
+        "papers": 105,
         "singlePaperClusters": 11,
         "staleEvidence": 0,
         "themeId": "decision",
@@ -52831,22 +53166,22 @@
       {
         "awaitingEvidence": 3,
         "awaitingExtraction": 0,
-        "clustered": 259,
+        "clustered": 261,
         "clusters": 42,
-        "extracted": 259,
+        "extracted": 261,
         "multiPaperClusters": 36,
-        "papers": 262,
+        "papers": 264,
         "singlePaperClusters": 6,
         "staleEvidence": 0,
         "themeId": "ml",
         "unclustered": 0
       }
     ],
-    "clustered": 450,
+    "clustered": 452,
     "clusters": 50,
-    "extracted": 450,
+    "extracted": 452,
     "multiPaperClusters": 45,
-    "papers": 463,
+    "papers": 465,
     "singlePaperClusters": 5,
     "staleEvidence": 0,
     "unclustered": 0
@@ -63537,6 +63872,56 @@
       ],
       "reviewedAt": "2026-10-19",
       "text": "如何评估并对齐LLM在不同人物画像和任务复杂度下的经济风险偏好，同时区分简单分类的一致性与复杂风险决策中的有效性？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_agent_planning_tools",
+        "qc_llm_reasoning_alignment"
+      ],
+      "evidence": {
+        "digest": "d6cfbe6bfb2a6b845845caa2871445fd2778887fb5f5b3119a464f6bde5dbc08",
+        "excerpt": "针对长程智能体任务中稀疏结果奖励难以定位错误、逐步估计奖励又易引入噪声的问题，CSO从失败轨迹出发，用过程奖励模型筛选候选关键步骤，再由专家提出替代动作并交回原策略执行至终点；仅把验证可成功完成任务的替代构成DPO偏好数据。作者在通用深度检索任务上评估，尚无金融任务证据，未独立复现。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-20",
+          "kind": "official_publisher",
+          "label": "Formal title, complete eight-author order, DOI, July 2026 month, pages and abstract.",
+          "status": "live_page",
+          "url": "https://aclanthology.org/2026.findings-acl.1974/"
+        }
+      },
+      "id": "q_pub_qi_liu_verified_critical_step_optimization_2026",
+      "paperIds": [
+        "pub_qi_liu_verified_critical_step_optimization_2026"
+      ],
+      "reviewedAt": "2026-10-20",
+      "text": "如何从智能体失败轨迹中识别并验证能改变任务结果的关键决策，以较少步骤监督实现可靠的信用分配？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_llm_reasoning_alignment",
+        "qc_agent_planning_tools"
+      ],
+      "evidence": {
+        "digest": "7fe1a1cbe2a874e50491052f4f552f52f36e9fc1d54d465373bd1b1e731673a6",
+        "excerpt": "针对仅监督程序最终输出可能掩盖中间推理错误的问题，StepCodeReasoner在程序中插入可核验的执行状态锚点，并结合轨迹间比较与轨迹内信用分配来训练代码推理。正式版将算法称为Dual-Granularity GRPO；作者在代码推理与生成基准上评估，未核到金融实验，未独立复现。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-20",
+          "kind": "official_publisher",
+          "label": "Formal title, three ordered authors, July month, venue, pages, BibTeX and DG-GRPO abstract.",
+          "status": "live_page",
+          "url": "https://proceedings.mlr.press/v306/wang26gn.html"
+        }
+      },
+      "id": "q_pub_sha_stepcodereasoner_execution_traces_rl_2026",
+      "paperIds": [
+        "pub_sha_stepcodereasoner_execution_traces_rl_2026"
+      ],
+      "reviewedAt": "2026-10-20",
+      "text": "如何用可执行的中间状态监督与轨迹内外的信用分配，使代码推理同时满足过程一致性和最终输出正确性？"
     }
   ],
   "researchers": [
@@ -65695,11 +66080,11 @@
       "nameVariants": [],
       "position": "教授、博士生导师",
       "publicationCoverage": {
-        "abstractCount": 7,
-        "authorVerifiedCount": 8,
+        "abstractCount": 8,
+        "authorVerifiedCount": 9,
         "boundaryDateCount": 0,
-        "checkedAt": "2026-10-15",
-        "collectedCount": 8,
+        "checkedAt": "2026-10-20",
+        "collectedCount": 9,
         "extended": false,
         "fullTextCount": 0,
         "gaps": [
@@ -65714,9 +66099,10 @@
           "pub_sha_atm",
           "pub_sha_safesteer_localized_on_policy_distillation_2026",
           "pub_sha_safetymem_dual_component_safety_memory_2026",
-          "pub_sha_be_your_own_red_teamer_2026"
+          "pub_sha_be_your_own_red_teamer_2026",
+          "pub_sha_stepcodereasoner_execution_traces_rl_2026"
         ],
-        "recentCount": 8,
+        "recentCount": 9,
         "sourcesChecked": [
           {
             "checkedAt": "2026-09-07",
@@ -65766,12 +66152,40 @@
             "kind": "primary_preprint",
             "label": "预印本身份、完整署名、摘要与提交日期",
             "url": "https://arxiv.org/abs/2601.10589"
+          },
+          {
+            "checkedAt": "2026-10-20",
+            "kind": "official_publisher",
+            "label": "Formal title, three ordered authors, July month, venue, pages, BibTeX and DG-GRPO abstract.",
+            "status": "live_page",
+            "url": "https://proceedings.mlr.press/v306/wang26gn.html"
+          },
+          {
+            "checkedAt": "2026-10-20",
+            "kind": "official_publisher_linked_pdf",
+            "label": "First-page three-author byline and DG-GRPO abstract match formal HTML; Lei second of three.",
+            "status": "live_page",
+            "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26gn/wang26gn.pdf"
+          },
+          {
+            "checkedAt": "2026-10-20",
+            "kind": "primary_preprint_record",
+            "label": "v1 date, four-author order and Bi-Level GRPO abstract.",
+            "status": "live_page",
+            "url": "https://arxiv.org/abs/2605.11922"
+          },
+          {
+            "checkedAt": "2026-10-20",
+            "kind": "primary_preprint_pdf",
+            "label": "First page confirms Hao Wang, Rui Li, Lei Sha, Jie M. Zhang; Lei third of four.",
+            "status": "live_page",
+            "url": "https://arxiv.org/pdf/2605.11922"
           }
         ],
         "status": "partial",
         "threshold": 5,
-        "uncertainDateCount": 4,
-        "windowEnd": "2026-10-14",
+        "uncertainDateCount": 5,
+        "windowEnd": "2026-10-19",
         "windowStart": "2023-10-07",
         "windowYears": 3
       },
@@ -68158,11 +68572,11 @@
       "nameVariants": [],
       "position": "Assistant Professor; Director of BASc(FinTech)",
       "publicationCoverage": {
-        "abstractCount": 2,
-        "authorVerifiedCount": 2,
+        "abstractCount": 3,
+        "authorVerifiedCount": 3,
         "boundaryDateCount": 0,
-        "checkedAt": "2026-09-19",
-        "collectedCount": 2,
+        "checkedAt": "2026-10-20",
+        "collectedCount": 3,
         "extended": true,
         "fullTextCount": 0,
         "gaps": [
@@ -68171,9 +68585,10 @@
         "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
         "paperIds": [
           "pub_qi_liu_cogalpha",
-          "pub_qi_liu_alphaqt"
+          "pub_qi_liu_alphaqt",
+          "pub_qi_liu_verified_critical_step_optimization_2026"
         ],
-        "recentCount": 2,
+        "recentCount": 3,
         "sourcesChecked": [
           {
             "checkedAt": "2026-09-19",
@@ -68203,13 +68618,34 @@
             "kind": "publisher",
             "label": "Publisher PDF page 1 byline and corresponding-author footnote",
             "url": "https://aclanthology.org/2026.findings-acl.138.pdf"
+          },
+          {
+            "checkedAt": "2026-10-20",
+            "kind": "official_publisher",
+            "label": "Formal title, complete eight-author order, DOI, July 2026 month, pages and abstract.",
+            "status": "live_page",
+            "url": "https://aclanthology.org/2026.findings-acl.1974/"
+          },
+          {
+            "checkedAt": "2026-10-20",
+            "kind": "official_publisher_pdf",
+            "label": "First page confirms all eight ordered authors and HKU attribution; no full-text result audit.",
+            "status": "live_page",
+            "url": "https://aclanthology.org/2026.findings-acl.1974.pdf"
+          },
+          {
+            "checkedAt": "2026-10-20",
+            "kind": "primary_preprint_record",
+            "label": "Title, full eight-author order, v1/v2 dates and abstract match the formal work.",
+            "status": "live_page",
+            "url": "https://arxiv.org/abs/2602.03412"
           }
         ],
         "status": "partial",
         "threshold": 5,
-        "uncertainDateCount": 2,
-        "windowEnd": "2026-10-05",
-        "windowStart": "2021-10-05",
+        "uncertainDateCount": 3,
+        "windowEnd": "2026-10-19",
+        "windowStart": "2021-10-07",
         "windowYears": 5
       },
       "sources": [
@@ -72886,5 +73322,5 @@
       "name": "ML Theory & Optimization"
     }
   ],
-  "updatedAt": "2026-10-18"
+  "updatedAt": "2026-10-19"
 }
