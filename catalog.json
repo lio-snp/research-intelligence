@@ -50160,6 +50160,167 @@
         }
       ],
       "year": 2026
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-22",
+        "reason": "内容依据所列来源整理；摘要概览与全文解读分别标注。",
+        "source": "https://link.springer.com/article/10.1007/s00245-024-10184-9",
+        "status": "available"
+      },
+      "abstractSummary": "神经网络近似求解凸半无限规划，以识别金融市场中的无模型静态套利并输出对应策略；论文同时提供理论论证和真实金融数据数值例子，面向多证券市场与快速执行。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-22",
+        "kind": "publisher_record_with_abstract",
+        "label": "Springer正式记录：完整作者、发表日、卷和文章号、摘要",
+        "status": "read",
+        "url": "https://link.springer.com/article/10.1007/s00245-024-10184-9"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Ariel Neufeld",
+        "Julian Sester"
+      ],
+      "authorships": [
+        {
+          "name": "Ariel Neufeld",
+          "position": 1,
+          "researcherId": "r_ariel_neufeld_ntu"
+        },
+        {
+          "name": "Julian Sester",
+          "position": 2,
+          "researcherId": "r_julian_sester_nus"
+        }
+      ],
+      "contribution": {
+        "checkedAt": "2026-10-22",
+        "note": "位次为1/2与2/2；不从署名顺序推断贡献比例或指导资格。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2024-09-21",
+      "dateEvidence": {
+        "checkedAt": "2026-10-22",
+        "kind": "publisher_record_with_abstract",
+        "label": "Springer正式记录：完整作者、发表日、卷和文章号、摘要",
+        "status": "read",
+        "url": "https://link.springer.com/article/10.1007/s00245-024-10184-9"
+      },
+      "datePrecision": "day",
+      "doi": "10.1007/s00245-024-10184-9",
+      "id": "pub_ariel_neufeld_model_free_static_arbitrage_neural_networks_2024",
+      "paradigms": [],
+      "publicationStatus": "published",
+      "publicationType": "journal",
+      "questionId": "q_pub_ariel_neufeld_model_free_static_arbitrage_neural_networks_2024",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "如何用一个神经网络近似求解凸半无限规划，从而在多证券金融市场识别并快速构造无模型静态套利策略？",
+      "researcherIds": [
+        "r_ariel_neufeld_ntu",
+        "r_julian_sester_nus"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-22",
+          "kind": "publisher_record_with_abstract",
+          "label": "Springer正式记录：完整作者、发表日、卷和文章号、摘要",
+          "status": "read",
+          "url": "https://link.springer.com/article/10.1007/s00245-024-10184-9"
+        },
+        {
+          "checkedAt": "2026-10-22",
+          "kind": "preprint_record",
+          "label": "arXiv原始记录：作者顺序、v1与v2日期、摘要",
+          "status": "read",
+          "url": "https://arxiv.org/abs/2306.16422"
+        },
+        {
+          "checkedAt": "2026-10-22",
+          "kind": "university_hosted_author_page",
+          "label": "NTU托管主页：任职、金融论文目录与一般PhD open positions",
+          "status": "read",
+          "url": "https://personal.ntu.edu.sg/ariel.neufeld/"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "finai",
+        "asset",
+        "ml"
+      ],
+      "title": "Neural Networks Can Detect Model-Free Static Arbitrage Strategies",
+      "url": "https://link.springer.com/article/10.1007/s00245-024-10184-9",
+      "venue": "Applied Mathematics & Optimization 90, article 41 (2024)",
+      "verifiedAt": "2026-10-22",
+      "versions": [
+        {
+          "authorEvidence": {
+            "checkedAt": "2026-10-22",
+            "kind": "primary_preprint",
+            "label": "arXiv原始版本：完整作者顺序与版本日期",
+            "url": "https://arxiv.org/abs/2306.16422v1"
+          },
+          "authorListComplete": true,
+          "authorOrderVerified": true,
+          "authors": [
+            "Ariel Neufeld",
+            "Julian Sester"
+          ],
+          "date": "2023-06-19",
+          "datePrecision": "day",
+          "doi": null,
+          "publicationStatus": "preprint",
+          "publicationType": "preprint",
+          "sources": [
+            {
+              "checkedAt": "2026-10-22",
+              "kind": "primary_preprint",
+              "label": "arXiv原始版本：完整作者顺序与版本日期",
+              "url": "https://arxiv.org/abs/2306.16422v1"
+            }
+          ],
+          "title": "Neural Networks Can Detect Model-Free Static Arbitrage Strategies",
+          "url": "https://arxiv.org/abs/2306.16422v1",
+          "venue": "arXiv:2306.16422 v1",
+          "year": 2023
+        },
+        {
+          "authorEvidence": {
+            "checkedAt": "2026-10-22",
+            "kind": "primary_preprint",
+            "label": "arXiv原始版本：完整作者顺序与版本日期",
+            "url": "https://arxiv.org/abs/2306.16422v2"
+          },
+          "authorListComplete": true,
+          "authorOrderVerified": true,
+          "authors": [
+            "Ariel Neufeld",
+            "Julian Sester"
+          ],
+          "date": "2024-08-13",
+          "datePrecision": "day",
+          "doi": null,
+          "publicationStatus": "preprint",
+          "publicationType": "preprint",
+          "sources": [
+            {
+              "checkedAt": "2026-10-22",
+              "kind": "primary_preprint",
+              "label": "arXiv原始版本：完整作者顺序与版本日期",
+              "url": "https://arxiv.org/abs/2306.16422v2"
+            }
+          ],
+          "title": "Neural Networks Can Detect Model-Free Static Arbitrage Strategies",
+          "url": "https://arxiv.org/abs/2306.16422v2",
+          "venue": "arXiv:2306.16422 v2",
+          "year": 2024
+        }
+      ],
+      "year": 2024
     }
   ],
   "paradigms": [
@@ -50261,8 +50422,8 @@
   "publicCurationNote": "公开研究资料快照。主题、研究问题与研究线为编辑归纳，不代表学者本人陈述或机构背书。",
   "publicRelease": {
     "channel": "stable",
-    "snapshotDate": "2026-10-20",
-    "version": "3.3.44"
+    "snapshotDate": "2026-10-21",
+    "version": "3.3.47"
   },
   "publicationPolicy": {
     "authorshipNote": "署名位次不等于贡献排名；通讯作者、共同贡献和具体分工只按原文证据标注。",
@@ -50272,18 +50433,18 @@
     "extendedStart": "2021-10-08",
     "extendedYears": 5,
     "extensionThreshold": 5,
-    "snapshotDate": "2026-10-20",
+    "snapshotDate": "2026-10-21",
     "versionNote": "同一研究的预印本与发表版本分开保留证据；摘要来源可能与主书目版本不同。"
   },
   "publicationStats": {
-    "abstracts": 453,
+    "abstracts": 454,
     "fullTexts": 4,
     "outsideWindow": 7,
-    "papers": 465,
-    "recentPapers": 458,
+    "papers": 466,
+    "recentPapers": 459,
     "researchers": 106,
-    "reviewedSources": 12,
-    "verifiedBylines": 464,
+    "reviewedSources": 11,
+    "verifiedBylines": 465,
     "withPapers": 51
   },
   "questionClusters": [
@@ -50611,7 +50772,8 @@
         "pub_ying_chen_optimal_trade_execution_endogenous_order_flow_2025",
         "pub_jian_li_m3_market_microstructure_2026",
         "pub_ruixun_zhang_spectral_volume_models_2025",
-        "pub_cityu_he_feng_llm_sentiment_two_markets_2025"
+        "pub_cityu_he_feng_llm_sentiment_two_markets_2025",
+        "pub_ariel_neufeld_model_free_static_arbitrage_neural_networks_2024"
       ],
       "question": "交易制度、参与者互动和市场摩擦如何影响流动性与价格效率？",
       "questionIds": [
@@ -50632,7 +50794,8 @@
         "q_pub_ying_chen_optimal_trade_execution_endogenous_order_flow_2025",
         "q_pub_jian_li_m3_market_microstructure_2026",
         "q_pub_ruixun_zhang_spectral_volume_models_2025",
-        "q_pub_cityu_he_feng_llm_sentiment_two_markets_2025"
+        "q_pub_cityu_he_feng_llm_sentiment_two_markets_2025",
+        "q_pub_ariel_neufeld_model_free_static_arbitrage_neural_networks_2024"
       ],
       "researcherIds": [
         "r_claire",
@@ -50651,15 +50814,18 @@
         "r_yan_ji_hkust",
         "r_ying_chen_nus",
         "r_guanhao_feng_cityu",
-        "r_jingyu_he_cityu"
+        "r_jingyu_he_cityu",
+        "r_ariel_neufeld_ntu",
+        "r_julian_sester_nus"
       ],
-      "reviewedAt": "2026-10-19",
+      "reviewedAt": "2026-10-22",
       "themes": [
         "asset",
         "digital",
         "finai",
         "decision",
-        "ts"
+        "ts",
+        "ml"
       ],
       "title": "市场流动性与交易机制"
     },
@@ -51778,7 +51944,8 @@
         "pub_guodong_2023_an_asymptotic_analysis_of_random_partition_based",
         "pub_he_kinetic_langevin",
         "pub_nan_chen_adversarial_rl_optimal_control_2025",
-        "pub_ruixun_zhang_bicausal_ot_policy_gradients_2026"
+        "pub_ruixun_zhang_bicausal_ot_policy_gradients_2026",
+        "pub_ariel_neufeld_model_free_static_arbitrage_neural_networks_2024"
       ],
       "question": "优化算法在何种条件下收敛，训练路径如何影响效率与结果？",
       "questionIds": [
@@ -51805,7 +51972,8 @@
         "q_pub_guodong_2023_an_asymptotic_analysis_of_random_partition_based",
         "q_pub_he_kinetic_langevin",
         "q_pub_nan_chen_adversarial_rl_optimal_control_2025",
-        "q_pub_ruixun_zhang_bicausal_ot_policy_gradients_2026"
+        "q_pub_ruixun_zhang_bicausal_ot_policy_gradients_2026",
+        "q_pub_ariel_neufeld_model_free_static_arbitrage_neural_networks_2024"
       ],
       "researcherIds": [
         "r_ye",
@@ -51814,14 +51982,17 @@
         "r_guodong",
         "r_he",
         "r_nan_chen_cuhk",
-        "r_ruixun_zhang_pku"
+        "r_ruixun_zhang_pku",
+        "r_ariel_neufeld_ntu",
+        "r_julian_sester_nus"
       ],
-      "reviewedAt": "2026-10-14",
+      "reviewedAt": "2026-10-22",
       "themes": [
         "ml",
         "ts",
         "decision",
-        "finai"
+        "finai",
+        "asset"
       ],
       "title": "优化算法与训练动力学"
     },
@@ -53185,12 +53356,12 @@
       {
         "awaitingEvidence": 0,
         "awaitingExtraction": 0,
-        "clustered": 90,
+        "clustered": 91,
         "clusters": 34,
-        "extracted": 90,
-        "multiPaperClusters": 25,
-        "papers": 90,
-        "singlePaperClusters": 9,
+        "extracted": 91,
+        "multiPaperClusters": 26,
+        "papers": 91,
+        "singlePaperClusters": 8,
         "staleEvidence": 0,
         "themeId": "finai",
         "unclustered": 0
@@ -53211,12 +53382,12 @@
       {
         "awaitingEvidence": 5,
         "awaitingExtraction": 0,
-        "clustered": 160,
-        "clusters": 29,
-        "extracted": 160,
+        "clustered": 161,
+        "clusters": 30,
+        "extracted": 161,
         "multiPaperClusters": 27,
-        "papers": 165,
-        "singlePaperClusters": 2,
+        "papers": 166,
+        "singlePaperClusters": 3,
         "staleEvidence": 0,
         "themeId": "asset",
         "unclustered": 0
@@ -53250,22 +53421,22 @@
       {
         "awaitingEvidence": 2,
         "awaitingExtraction": 0,
-        "clustered": 262,
-        "clusters": 42,
-        "extracted": 262,
+        "clustered": 263,
+        "clusters": 43,
+        "extracted": 263,
         "multiPaperClusters": 36,
-        "papers": 264,
-        "singlePaperClusters": 6,
+        "papers": 265,
+        "singlePaperClusters": 7,
         "staleEvidence": 0,
         "themeId": "ml",
         "unclustered": 0
       }
     ],
-    "clustered": 453,
+    "clustered": 454,
     "clusters": 50,
-    "extracted": 453,
+    "extracted": 454,
     "multiPaperClusters": 45,
-    "papers": 465,
+    "papers": 466,
     "singlePaperClusters": 5,
     "staleEvidence": 0,
     "unclustered": 0
@@ -64031,6 +64202,31 @@
       ],
       "reviewedAt": "2026-10-21",
       "text": "如何在资产很多、历史样本有限时，利用资产特征和图网络学习动态协方差，并保证半正定以服务组合风险控制？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_market_liquidity_trading",
+        "qc_optimization_dynamics"
+      ],
+      "evidence": {
+        "digest": "7eb0b2231f53e03287c7e70f0511b3ef685d589d9d5006715480c6968f8dcec0",
+        "excerpt": "神经网络近似求解凸半无限规划，以识别金融市场中的无模型静态套利并输出对应策略；论文同时提供理论论证和真实金融数据数值例子，面向多证券市场与快速执行。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-22",
+          "kind": "publisher_record_with_abstract",
+          "label": "Springer正式记录：完整作者、发表日、卷和文章号、摘要",
+          "status": "read",
+          "url": "https://link.springer.com/article/10.1007/s00245-024-10184-9"
+        }
+      },
+      "id": "q_pub_ariel_neufeld_model_free_static_arbitrage_neural_networks_2024",
+      "paperIds": [
+        "pub_ariel_neufeld_model_free_static_arbitrage_neural_networks_2024"
+      ],
+      "reviewedAt": "2026-10-22",
+      "text": "如何用一个神经网络近似求解凸半无限规划，从而在多证券金融市场识别并快速构造无模型静态套利策略？"
     }
   ],
   "researchers": [
@@ -71939,11 +72135,11 @@
       ],
       "position": "Tenure-track Assistant Professor",
       "publicationCoverage": {
-        "abstractCount": 4,
-        "authorVerifiedCount": 4,
-        "boundaryDateCount": 0,
-        "checkedAt": "2026-10-16",
-        "collectedCount": 4,
+        "abstractCount": 5,
+        "authorVerifiedCount": 5,
+        "boundaryDateCount": 1,
+        "checkedAt": "2026-10-22",
+        "collectedCount": 5,
         "extended": true,
         "fullTextCount": 0,
         "gaps": [
@@ -71954,9 +72150,10 @@
           "pub_ariel_neufeld_robust_stat_arb_deep_neural_networks_2024",
           "pub_julian_sester_fast_catastrophe_bond_neural_surrogates_2026",
           "pub_julian_sester_structured_noise_mmd_signature_financial_series_2025",
-          "pub_julian_sester_distributionally_robust_deep_q_learning_2025"
+          "pub_julian_sester_distributionally_robust_deep_q_learning_2025",
+          "pub_ariel_neufeld_model_free_static_arbitrage_neural_networks_2024"
         ],
-        "recentCount": 4,
+        "recentCount": 5,
         "sourcesChecked": [
           {
             "checkedAt": "2026-10-10",
@@ -72035,12 +72232,26 @@
             "kind": "paper_html",
             "label": "原始预印本/出版元数据：书目或版本核对",
             "url": "https://arxiv.org/html/2505.19058v2"
+          },
+          {
+            "checkedAt": "2026-10-22",
+            "kind": "publisher_record_with_abstract",
+            "label": "Springer正式记录：完整作者、发表日、卷和文章号、摘要",
+            "status": "read",
+            "url": "https://link.springer.com/article/10.1007/s00245-024-10184-9"
+          },
+          {
+            "checkedAt": "2026-10-22",
+            "kind": "preprint_record",
+            "label": "arXiv原始记录：作者顺序、v1与v2日期、摘要",
+            "status": "read",
+            "url": "https://arxiv.org/abs/2306.16422"
           }
         ],
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 1,
-        "windowEnd": "2026-10-15",
+        "windowEnd": "2026-10-21",
         "windowStart": "2021-10-09",
         "windowYears": 5
       },
@@ -72370,11 +72581,11 @@
       ],
       "position": "Tenured Associate Professor",
       "publicationCoverage": {
-        "abstractCount": 1,
-        "authorVerifiedCount": 1,
+        "abstractCount": 2,
+        "authorVerifiedCount": 2,
         "boundaryDateCount": 0,
-        "checkedAt": "2026-10-10",
-        "collectedCount": 1,
+        "checkedAt": "2026-10-22",
+        "collectedCount": 2,
         "extended": true,
         "fullTextCount": 0,
         "gaps": [
@@ -72382,9 +72593,10 @@
         ],
         "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
         "paperIds": [
-          "pub_ariel_neufeld_robust_stat_arb_deep_neural_networks_2024"
+          "pub_ariel_neufeld_robust_stat_arb_deep_neural_networks_2024",
+          "pub_ariel_neufeld_model_free_static_arbitrage_neural_networks_2024"
         ],
-        "recentCount": 1,
+        "recentCount": 2,
         "sourcesChecked": [
           {
             "checkedAt": "2026-10-10",
@@ -72403,12 +72615,26 @@
             "kind": "preprint_record",
             "label": "arXiv preprint page: earlier version of robust statistical arbitrage paper",
             "url": "https://arxiv.org/abs/2203.03179"
+          },
+          {
+            "checkedAt": "2026-10-22",
+            "kind": "publisher_record_with_abstract",
+            "label": "Springer正式记录：完整作者、发表日、卷和文章号、摘要",
+            "status": "read",
+            "url": "https://link.springer.com/article/10.1007/s00245-024-10184-9"
+          },
+          {
+            "checkedAt": "2026-10-22",
+            "kind": "preprint_record",
+            "label": "arXiv原始记录：作者顺序、v1与v2日期、摘要",
+            "status": "read",
+            "url": "https://arxiv.org/abs/2306.16422"
           }
         ],
-        "status": "reviewed_sources",
+        "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-09",
+        "windowEnd": "2026-10-21",
         "windowStart": "2021-10-09",
         "windowYears": 5
       },
@@ -73443,5 +73669,5 @@
       "name": "ML Theory & Optimization"
     }
   ],
-  "updatedAt": "2026-10-20"
+  "updatedAt": "2026-10-21"
 }
