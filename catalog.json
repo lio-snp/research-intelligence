@@ -50469,6 +50469,1089 @@
         }
       ],
       "year": 2024
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-24",
+        "reason": "摘要级证据；部分原文片段已核对，不表示完成全文审阅或独立复现。",
+        "source": "https://arxiv.org/pdf/2602.14670",
+        "status": "available"
+      },
+      "abstractSummary": "LLM智能体用技能、工具及成功/失败经验记忆迭代挖掘金融公式alpha，控制因子相关性与冗余；评估为金融历史数据回测，不是实盘盈利证明。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-23",
+        "kind": "primary_author_manuscript",
+        "label": "v2，2026-08-19，12页，首面KDD2026会议信息、DOI、完整作者与SIGS归属",
+        "status": "direct_partial_full_text_read",
+        "url": "https://arxiv.org/pdf/2602.14670"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Yanlong Wang",
+        "Jian Xu",
+        "Hongkang Zhang",
+        "Shao-Lun Huang",
+        "Danny Dongning Sun",
+        "Xiao-Ping Zhang"
+      ],
+      "authorships": [
+        {
+          "name": "Yanlong Wang",
+          "position": 1
+        },
+        {
+          "name": "Jian Xu",
+          "position": 2
+        },
+        {
+          "name": "Hongkang Zhang",
+          "position": 3
+        },
+        {
+          "corresponding": true,
+          "name": "Shao-Lun Huang",
+          "position": 4,
+          "researcherId": "r_shaolun_huang_tsinghua_sigs",
+          "source": {
+            "checkedAt": "2026-10-23",
+            "kind": "primary_author_manuscript",
+            "label": "v2，2026-08-19，12页，首面KDD2026会议信息、DOI、完整作者与SIGS归属",
+            "status": "direct_partial_full_text_read",
+            "url": "https://arxiv.org/pdf/2602.14670"
+          }
+        },
+        {
+          "corresponding": true,
+          "name": "Danny Dongning Sun",
+          "position": 5,
+          "source": {
+            "checkedAt": "2026-10-23",
+            "kind": "primary_author_manuscript",
+            "label": "v2，2026-08-19，12页，首面KDD2026会议信息、DOI、完整作者与SIGS归属",
+            "status": "direct_partial_full_text_read",
+            "url": "https://arxiv.org/pdf/2602.14670"
+          }
+        },
+        {
+          "corresponding": true,
+          "name": "Xiao-Ping Zhang",
+          "position": 6,
+          "researcherId": "r_xiaoping_zhang_tsinghua_sigs",
+          "source": {
+            "checkedAt": "2026-10-23",
+            "kind": "primary_author_manuscript",
+            "label": "v2，2026-08-19，12页，首面KDD2026会议信息、DOI、完整作者与SIGS归属",
+            "status": "direct_partial_full_text_read",
+            "url": "https://arxiv.org/pdf/2602.14670"
+          }
+        }
+      ],
+      "contribution": {
+        "note": "署名顺序不等于贡献；通讯标记只按所列原文，未推断贡献比例。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": null,
+      "dateEvidence": {
+        "checkedAt": "2026-10-23",
+        "kind": "official_conference_paper_list",
+        "label": "FactorMiner列于AI for Sciences；六位作者及SIGS归属；动态页直接find未呈现完整列表",
+        "note": "KDD2026正式作品；精确出版社发表日未核，主日期仅2026年。arXiv首稿2026-02-16，v2为2026-08-19，均合并同一作品。",
+        "status": "primary_search_full_entry_read",
+        "url": "https://kdd2026.kdd.org/papers/"
+      },
+      "datePrecision": "year",
+      "doi": "10.1145/3770855.3818978",
+      "id": "pub_factorminer_financial_alpha_2026",
+      "paradigms": [],
+      "publicationStatus": "published",
+      "publicationType": "conference",
+      "questionId": "q_pub_factorminer_financial_alpha_2026",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "如何利用可复用技能和成功、失败经验记忆，提高金融因子搜索效率并降低重复与冗余？",
+      "researcherIds": [
+        "r_shaolun_huang_tsinghua_sigs",
+        "r_xiaoping_zhang_tsinghua_sigs"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-23",
+          "kind": "primary_paper_repository",
+          "label": "factorminer_abs",
+          "status": "direct_read",
+          "url": "https://arxiv.org/abs/2602.14670"
+        },
+        {
+          "checkedAt": "2026-10-23",
+          "kind": "primary_author_manuscript",
+          "label": "v2，2026-08-19，12页，首面KDD2026会议信息、DOI、完整作者与SIGS归属",
+          "status": "direct_partial_full_text_read",
+          "url": "https://arxiv.org/pdf/2602.14670"
+        },
+        {
+          "checkedAt": "2026-10-23",
+          "kind": "official_conference_paper_list",
+          "label": "FactorMiner列于AI for Sciences；六位作者及SIGS归属；动态页直接find未呈现完整列表",
+          "status": "primary_search_full_entry_read",
+          "url": "https://kdd2026.kdd.org/papers/"
+        },
+        {
+          "checkedAt": "2026-10-23",
+          "kind": "publisher_landing",
+          "label": "DOI来自当前原始PDF；未将403当作已读publisher全文",
+          "status": "403_direct_fetch",
+          "url": "https://dl.acm.org/doi/10.1145/3770855.3818978"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "finai",
+        "decision"
+      ],
+      "title": "FactorMiner: A Self-Evolving Agent with Skills and Experience Memory for Financial Alpha Discovery",
+      "url": "https://doi.org/10.1145/3770855.3818978",
+      "venue": "KDD 2026, Proceedings V.2",
+      "verifiedAt": "2026-10-24",
+      "versions": [
+        {
+          "authorEvidence": {
+            "checkedAt": "2026-10-23",
+            "kind": "primary_author_manuscript",
+            "label": "v2，2026-08-19，12页，首面KDD2026会议信息、DOI、完整作者与SIGS归属",
+            "status": "direct_partial_full_text_read",
+            "url": "https://arxiv.org/pdf/2602.14670"
+          },
+          "authorListComplete": true,
+          "authorOrderVerified": true,
+          "authors": [
+            "Yanlong Wang",
+            "Jian Xu",
+            "Hongkang Zhang",
+            "Shao-Lun Huang",
+            "Danny Dongning Sun",
+            "Xiao-Ping Zhang"
+          ],
+          "date": "2026-08-19",
+          "datePrecision": "day",
+          "doi": "10.48550/arxiv.2602.14670",
+          "publicationStatus": "preprint",
+          "publicationType": "preprint",
+          "sources": [
+            {
+              "checkedAt": "2026-10-23",
+              "kind": "primary_paper_repository",
+              "label": "factorminer_abs",
+              "status": "direct_read",
+              "url": "https://arxiv.org/abs/2602.14670"
+            },
+            {
+              "checkedAt": "2026-10-23",
+              "kind": "primary_author_manuscript",
+              "label": "v2，2026-08-19，12页，首面KDD2026会议信息、DOI、完整作者与SIGS归属",
+              "status": "direct_partial_full_text_read",
+              "url": "https://arxiv.org/pdf/2602.14670"
+            }
+          ],
+          "title": "FactorMiner: A Self-Evolving Agent with Skills and Experience Memory for Financial Alpha Discovery",
+          "url": "https://arxiv.org/abs/2602.14670v2",
+          "venue": "arXiv:2602.14670 v2（修订版本；首稿2026-02-16）",
+          "year": 2026
+        }
+      ],
+      "year": 2026
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-24",
+        "reason": "摘要级证据；部分原文片段已核对，不表示完成全文审阅或独立复现。",
+        "source": "https://arxiv.org/pdf/2503.06929",
+        "status": "available"
+      },
+      "abstractSummary": "Transformer与股票代码嵌入输出高斯混合收益分布，研究中国股票的厚尾、偏度及波动不确定性，并以CRPS、MSE、QLIKE及GARCH基线检验。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-23",
+        "kind": "primary_author_manuscript",
+        "label": "23页，首面明确submitted for EC25 review，不等于EC25录用；张晓平与Danny Sun通讯",
+        "status": "direct_byline_abstract_intro_read",
+        "url": "https://arxiv.org/pdf/2503.06929"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Yanlong Wang",
+        "Jian Xu",
+        "Shao-Lun Huang",
+        "Danny Dongning Sun",
+        "Xiao-Ping Zhang"
+      ],
+      "authorships": [
+        {
+          "name": "Yanlong Wang",
+          "position": 1
+        },
+        {
+          "name": "Jian Xu",
+          "position": 2
+        },
+        {
+          "name": "Shao-Lun Huang",
+          "position": 3,
+          "researcherId": "r_shaolun_huang_tsinghua_sigs"
+        },
+        {
+          "corresponding": true,
+          "name": "Danny Dongning Sun",
+          "position": 4,
+          "source": {
+            "checkedAt": "2026-10-23",
+            "kind": "primary_author_manuscript",
+            "label": "23页，首面明确submitted for EC25 review，不等于EC25录用；张晓平与Danny Sun通讯",
+            "status": "direct_byline_abstract_intro_read",
+            "url": "https://arxiv.org/pdf/2503.06929"
+          }
+        },
+        {
+          "corresponding": true,
+          "name": "Xiao-Ping Zhang",
+          "position": 5,
+          "researcherId": "r_xiaoping_zhang_tsinghua_sigs",
+          "source": {
+            "checkedAt": "2026-10-23",
+            "kind": "primary_author_manuscript",
+            "label": "23页，首面明确submitted for EC25 review，不等于EC25录用；张晓平与Danny Sun通讯",
+            "status": "direct_byline_abstract_intro_read",
+            "url": "https://arxiv.org/pdf/2503.06929"
+          }
+        }
+      ],
+      "contribution": {
+        "note": "署名顺序不等于贡献；通讯标记只按所列原文，未推断贡献比例。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2025-03-10",
+      "datePrecision": "day",
+      "doi": "10.48550/arxiv.2503.06929",
+      "id": "pub_gaussian_mixture_stock_uncertainty_2025",
+      "paradigms": [],
+      "publicationStatus": "preprint",
+      "publicationType": "preprint",
+      "questionId": "q_pub_gaussian_mixture_stock_uncertainty_2025",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "如何预测可随时间变化且含厚尾/偏度的股票收益分布，并验证分布及波动风险估计？",
+      "researcherIds": [
+        "r_shaolun_huang_tsinghua_sigs",
+        "r_xiaoping_zhang_tsinghua_sigs"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-23",
+          "kind": "primary_paper_repository",
+          "label": "gaussian_abs",
+          "status": "direct_abstract_read",
+          "url": "https://arxiv.org/abs/2503.06929"
+        },
+        {
+          "checkedAt": "2026-10-23",
+          "kind": "primary_author_manuscript",
+          "label": "23页，首面明确submitted for EC25 review，不等于EC25录用；张晓平与Danny Sun通讯",
+          "status": "direct_byline_abstract_intro_read",
+          "url": "https://arxiv.org/pdf/2503.06929"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "finai",
+        "ts",
+        "asset"
+      ],
+      "title": "Assessing Uncertainty in Stock Returns: A Gaussian Mixture Distribution-Based Method",
+      "url": "https://arxiv.org/abs/2503.06929",
+      "venue": "arXiv preprint",
+      "verifiedAt": "2026-10-24",
+      "versions": [],
+      "year": 2025
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-24",
+        "reason": "摘要级证据；部分原文片段已核对，不表示完成全文审阅或独立复现。",
+        "source": "https://www.nber.org/papers/w34861",
+        "status": "available"
+      },
+      "abstractSummary": "端到端联合学习收益预测与Markowitz组合优化，把投资者风险偏好、持仓约束及市场摩擦纳入训练目标，避免仅优化均方预测误差。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-23",
+        "kind": "primary_working_paper_issuer",
+        "label": "完整作者顺序、2026年2月、工作论文34861、摘要",
+        "status": "primary_search_full_abstract_read_direct_fetch_403",
+        "url": "https://www.nber.org/papers/w34861"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Yijie Wang",
+        "Hao Gao",
+        "Campbell R. Harvey",
+        "Yan Liu",
+        "Xinyuan Tao"
+      ],
+      "authorships": [
+        {
+          "name": "Yijie Wang",
+          "position": 1
+        },
+        {
+          "name": "Hao Gao",
+          "position": 2
+        },
+        {
+          "name": "Campbell R. Harvey",
+          "position": 3
+        },
+        {
+          "name": "Yan Liu",
+          "position": 4,
+          "researcherId": "r_yan_liu_tsinghua_sigs"
+        },
+        {
+          "name": "Xinyuan Tao",
+          "position": 5
+        }
+      ],
+      "contribution": {
+        "note": "署名顺序不等于贡献；通讯标记只按所列原文，未推断贡献比例。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2026-02",
+      "dateEvidence": {
+        "checkedAt": "2026-10-23",
+        "kind": "primary_working_paper_issuer",
+        "label": "完整作者顺序、2026年2月、工作论文34861、摘要",
+        "note": "NBER34861为2026年2月工作论文；与SSRN5947774及6290354合并为一项作品，不当作三篇。早稿和修订日期不替代NBER发行月。",
+        "status": "primary_search_full_abstract_read_direct_fetch_403",
+        "url": "https://www.nber.org/papers/w34861"
+      },
+      "datePrecision": "month",
+      "doi": "10.3386/w34861",
+      "id": "pub_yan_liu_ml_meets_markowitz_2026",
+      "paradigms": [],
+      "publicationStatus": "working_paper",
+      "publicationType": "working_paper",
+      "questionId": "q_pub_yan_liu_ml_meets_markowitz_2026",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "预测模型如何对齐真实组合效用、持仓约束和交易摩擦，而非平均预测损失？",
+      "researcherIds": [
+        "r_yan_liu_tsinghua_sigs"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-23",
+          "kind": "primary_working_paper_issuer",
+          "label": "完整作者顺序、2026年2月、工作论文34861、摘要",
+          "status": "primary_search_full_abstract_read_direct_fetch_403",
+          "url": "https://www.nber.org/papers/w34861"
+        },
+        {
+          "checkedAt": "2026-10-23",
+          "kind": "official_coauthor_homepage",
+          "label": "Machine Learning Meets Markowitz列为working paper；链SSRN5947774及NBER34861",
+          "status": "direct_read_and_html_href_checked",
+          "url": "https://people.duke.edu/~charvey/new_research.htm"
+        },
+        {
+          "checkedAt": "2026-10-23",
+          "kind": "primary_working_paper_repository",
+          "label": "同题NBER版本，86页，2026-02-24 posted，2026-04-03 revised",
+          "status": "primary_search_full_abstract_read_direct_fetch_403",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6290354"
+        },
+        {
+          "checkedAt": "2026-10-23",
+          "kind": "primary_working_paper_repository",
+          "label": "早稿入口；与NBER版合并不重复计数",
+          "status": "url_verified_from_official_coauthor_direct_403",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5947774"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "finai",
+        "asset",
+        "ml"
+      ],
+      "title": "Machine Learning Meets Markowitz",
+      "url": "https://www.nber.org/papers/w34861",
+      "venue": "NBER Working Paper 34861",
+      "verifiedAt": "2026-10-24",
+      "versions": [
+        {
+          "authorEvidence": {
+            "checkedAt": "2026-10-23",
+            "kind": "primary_working_paper_repository",
+            "label": "同题NBER版本，86页，2026-02-24 posted，2026-04-03 revised",
+            "status": "primary_search_full_abstract_read_direct_fetch_403",
+            "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6290354"
+          },
+          "authorListComplete": true,
+          "authorOrderVerified": true,
+          "authors": [
+            "Yijie Wang",
+            "Hao Gao",
+            "Campbell R. Harvey",
+            "Yan Liu",
+            "Xinyuan Tao"
+          ],
+          "date": "2026-02-24",
+          "datePrecision": "day",
+          "doi": "10.2139/ssrn.6290354",
+          "publicationStatus": "working_paper",
+          "publicationType": "working_paper",
+          "sources": [
+            {
+              "checkedAt": "2026-10-23",
+              "kind": "primary_working_paper_repository",
+              "label": "同题NBER版本，86页，2026-02-24 posted，2026-04-03 revised",
+              "status": "primary_search_full_abstract_read_direct_fetch_403",
+              "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6290354"
+            }
+          ],
+          "title": "Machine Learning Meets Markowitz",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6290354",
+          "venue": "SSRN working paper 6290354（NBER同稿；修订2026-04-03）",
+          "year": 2026
+        }
+      ],
+      "year": 2026
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-24",
+        "reason": "摘要级证据；部分原文片段已核对，不表示完成全文审阅或独立复现。",
+        "source": "https://arxiv.org/abs/2601.00593",
+        "status": "available"
+      },
+      "abstractSummary": "将机器学习收益预测的不确定性边界用于股票排序与资产定价组合，论文研究美国股票并报告风险及组合效果；不能直接称为conformal方法。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-23",
+        "kind": "primary_paper_repository",
+        "label": "uncertainty_abs",
+        "status": "direct_abstract_read",
+        "url": "https://arxiv.org/abs/2601.00593"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Yan Liu",
+        "Ye Luo",
+        "Zigan Wang",
+        "Xiaowei Zhang"
+      ],
+      "authorships": [
+        {
+          "name": "Yan Liu",
+          "position": 1,
+          "researcherId": "r_yan_liu_tsinghua_sigs"
+        },
+        {
+          "name": "Ye Luo",
+          "position": 2,
+          "researcherId": "r_ye"
+        },
+        {
+          "name": "Zigan Wang",
+          "position": 3
+        },
+        {
+          "name": "Xiaowei Zhang",
+          "position": 4
+        }
+      ],
+      "contribution": {
+        "note": "署名顺序不等于贡献；通讯标记只按所列原文，未推断贡献比例。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2026-01-02",
+      "datePrecision": "day",
+      "doi": "10.48550/arxiv.2601.00593",
+      "id": "pub_uncertainty_adjusted_sorting_2026",
+      "paradigms": [],
+      "publicationStatus": "preprint",
+      "publicationType": "preprint",
+      "questionId": "q_pub_uncertainty_adjusted_sorting_2026",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "如何让横截面选股排序同时利用期望收益与预测不确定性，降低高噪声信号导致的组合风险？",
+      "researcherIds": [
+        "r_yan_liu_tsinghua_sigs",
+        "r_ye"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-23",
+          "kind": "primary_paper_repository",
+          "label": "uncertainty_abs",
+          "status": "direct_abstract_read",
+          "url": "https://arxiv.org/abs/2601.00593"
+        },
+        {
+          "checkedAt": "2026-10-23",
+          "kind": "primary_working_paper_repository",
+          "label": "同题早稿2025-12-20；与arXiv合并",
+          "status": "primary_search_metadata_read",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6013574"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "finai",
+        "asset"
+      ],
+      "title": "Uncertainty-Adjusted Sorting for Asset Pricing with Machine Learning",
+      "url": "https://arxiv.org/abs/2601.00593",
+      "venue": "arXiv / SSRN working paper",
+      "verifiedAt": "2026-10-24",
+      "versions": [
+        {
+          "authorEvidence": {
+            "checkedAt": "2026-10-23",
+            "kind": "primary_working_paper_repository",
+            "label": "同题早稿2025-12-20；与arXiv合并",
+            "status": "primary_search_metadata_read",
+            "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6013574"
+          },
+          "authorListComplete": true,
+          "authorOrderVerified": true,
+          "authors": [
+            "Yan Liu",
+            "Ye Luo",
+            "Zigan Wang",
+            "Xiaowei Zhang"
+          ],
+          "date": "2025-12-20",
+          "datePrecision": "day",
+          "doi": "10.2139/ssrn.6013574",
+          "publicationStatus": "working_paper",
+          "publicationType": "working_paper",
+          "sources": [
+            {
+              "checkedAt": "2026-10-23",
+              "kind": "primary_working_paper_repository",
+              "label": "同题早稿2025-12-20；与arXiv合并",
+              "status": "primary_search_metadata_read",
+              "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6013574"
+            }
+          ],
+          "title": "Uncertainty-Adjusted Sorting for Asset Pricing with Machine Learning",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6013574",
+          "venue": "SSRN working paper 6013574（早稿）",
+          "year": 2025
+        }
+      ],
+      "year": 2026
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-24",
+        "reason": "摘要级证据；部分原文片段已核对，不表示完成全文审阅或独立复现。",
+        "source": "https://journal.hep.com.cn/fitee/EN/PDF/10.1631/FITEE.2500227",
+        "status": "available"
+      },
+      "abstractSummary": "对DeepSeek-R1及蒸馏模型进行金融任务/推理基准评估，讨论落地限制；是金融LLM能力评测，不是新交易RL算法或实盘盈利证明。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-23",
+        "kind": "official_publisher_paper",
+        "label": "完整作者、首面期刊页码日期、摘要/引言/结论/贡献；Qiang Yang为通讯",
+        "status": "direct_partial_full_text_read",
+        "url": "https://journal.hep.com.cn/fitee/EN/PDF/10.1631/FITEE.2500227"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Shuoling Liu",
+        "Liyuan Chen",
+        "Jiangpeng Yan",
+        "Yuhang Jiang",
+        "Xiaoyu Wang",
+        "Xiu Li",
+        "Qiang Yang"
+      ],
+      "authorships": [
+        {
+          "name": "Shuoling Liu",
+          "position": 1
+        },
+        {
+          "name": "Liyuan Chen",
+          "position": 2
+        },
+        {
+          "name": "Jiangpeng Yan",
+          "position": 3
+        },
+        {
+          "name": "Yuhang Jiang",
+          "position": 4
+        },
+        {
+          "name": "Xiaoyu Wang",
+          "position": 5
+        },
+        {
+          "name": "Xiu Li",
+          "position": 6,
+          "researcherId": "r_xiu_li_tsinghua_sigs"
+        },
+        {
+          "corresponding": true,
+          "name": "Qiang Yang",
+          "position": 7,
+          "researcherId": "r_qiang_yang_hkust",
+          "source": {
+            "checkedAt": "2026-10-23",
+            "kind": "official_publisher_paper",
+            "label": "完整作者、首面期刊页码日期、摘要/引言/结论/贡献；Qiang Yang为通讯",
+            "status": "direct_partial_full_text_read",
+            "url": "https://journal.hep.com.cn/fitee/EN/PDF/10.1631/FITEE.2500227"
+          }
+        }
+      ],
+      "contribution": {
+        "note": "署名顺序不等于贡献；通讯标记只按所列原文，未推断贡献比例。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": null,
+      "dateEvidence": {
+        "checkedAt": "2026-10-23",
+        "kind": "official_publisher_paper",
+        "label": "完整作者、首面期刊页码日期、摘要/引言/结论/贡献；Qiang Yang为通讯",
+        "note": "原始PDF标Online2025-06-27，期刊landing现标Published Online2025-12-02；DOI/26(10):1862–1870和作者一致。保留精确日冲突，主书目仅2025年，不虚构唯一在线日期。",
+        "status": "direct_partial_full_text_read",
+        "url": "https://journal.hep.com.cn/fitee/EN/PDF/10.1631/FITEE.2500227"
+      },
+      "datePrecision": "year",
+      "doi": "10.1631/fitee.2500227",
+      "id": "pub_deepseek_r1_financial_benchmark_2025",
+      "paradigms": [],
+      "publicationStatus": "published",
+      "publicationType": "journal",
+      "questionId": "q_pub_deepseek_r1_financial_benchmark_2025",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "通用推理LLM在具体金融任务上的能力与可靠性边界如何被可复现基准揭示？",
+      "researcherIds": [
+        "r_xiu_li_tsinghua_sigs",
+        "r_qiang_yang_hkust"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-23",
+          "kind": "official_publisher_paper",
+          "label": "完整作者、首面期刊页码日期、摘要/引言/结论/贡献；Qiang Yang为通讯",
+          "status": "direct_partial_full_text_read",
+          "url": "https://journal.hep.com.cn/fitee/EN/PDF/10.1631/FITEE.2500227"
+        },
+        {
+          "checkedAt": "2026-10-23",
+          "kind": "official_journal_article",
+          "label": "deepseek_journal",
+          "status": "direct_read",
+          "url": "https://jzus.zju.edu.cn/iparticle.php?doi=10.1631/FITEE.2500227"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "finai"
+      ],
+      "title": "When DeepSeek-R1 meets financial applications: benchmarking, opportunities, and limitations",
+      "url": "https://doi.org/10.1631/FITEE.2500227",
+      "venue": "Frontiers of Information Technology & Electronic Engineering 26(10), 1862-1870 (2025)",
+      "verifiedAt": "2026-10-24",
+      "versions": [],
+      "year": 2025
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-24",
+        "reason": "摘要级证据；部分原文片段已核对，不表示完成全文审阅或独立复现。",
+        "source": "https://arxiv.org/abs/2603.22305",
+        "status": "available"
+      },
+      "abstractSummary": "中国市场日度热点新闻映射至宏观/行业ETF组合权重；Compression-Perception-Allocation智能体流程以固定回测评价九个LLM，数据覆盖2024至2025年中。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-23",
+        "kind": "primary_paper_repository",
+        "label": "cnbuzz_abs",
+        "status": "direct_abstract_read",
+        "url": "https://arxiv.org/abs/2603.22305"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Liyuan Chen",
+        "Shilong Li",
+        "Jiangpeng Yan",
+        "Shuoling Liu",
+        "Qiang Yang",
+        "Xiu Li"
+      ],
+      "authorships": [
+        {
+          "name": "Liyuan Chen",
+          "position": 1
+        },
+        {
+          "name": "Shilong Li",
+          "position": 2
+        },
+        {
+          "name": "Jiangpeng Yan",
+          "position": 3
+        },
+        {
+          "name": "Shuoling Liu",
+          "position": 4
+        },
+        {
+          "name": "Qiang Yang",
+          "position": 5,
+          "researcherId": "r_qiang_yang_hkust"
+        },
+        {
+          "name": "Xiu Li",
+          "position": 6,
+          "researcherId": "r_xiu_li_tsinghua_sigs"
+        }
+      ],
+      "contribution": {
+        "note": "署名顺序不等于贡献；通讯标记只按所列原文，未推断贡献比例。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2026-03-18",
+      "datePrecision": "day",
+      "doi": "10.48550/arxiv.2603.22305",
+      "id": "pub_cnbuzz2portfolio_news_allocation_2026",
+      "paradigms": [],
+      "publicationStatus": "preprint",
+      "publicationType": "preprint",
+      "questionId": "q_pub_cnbuzz2portfolio_news_allocation_2026",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "金融Agent如何把新闻叙事转成可检验配置逻辑，并区分推理能力、市场噪声与回测运气？",
+      "researcherIds": [
+        "r_qiang_yang_hkust",
+        "r_xiu_li_tsinghua_sigs"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-23",
+          "kind": "primary_paper_repository",
+          "label": "cnbuzz_abs",
+          "status": "direct_abstract_read",
+          "url": "https://arxiv.org/abs/2603.22305"
+        },
+        {
+          "checkedAt": "2026-10-23",
+          "kind": "primary_author_manuscript",
+          "label": "13页，李秀为SIGS，完整六位作者，ETF组合基准",
+          "status": "direct_byline_abstract_intro_read",
+          "url": "https://arxiv.org/pdf/2603.22305"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "finai",
+        "decision",
+        "asset"
+      ],
+      "title": "CN-Buzz2Portfolio: A Chinese-Market Dataset and Benchmark for LLM-Based Macro and Sector Asset Allocation from Daily Trending Financial News",
+      "url": "https://arxiv.org/abs/2603.22305",
+      "venue": "arXiv preprint",
+      "verifiedAt": "2026-10-24",
+      "versions": [],
+      "year": 2026
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-24",
+        "reason": "摘要级证据；部分原文片段已核对，不表示完成全文审阅或独立复现。",
+        "source": "https://arxiv.org/abs/2303.16158",
+        "status": "available"
+      },
+      "abstractSummary": "以企业盈利预测和分析师预测效率检验为金融任务，研究正则化和测量噪声能否产生通常被解释为行为偏差的反应不足/过度反应。不是纯通用ML方法，但也不是交易RL或金融LLM研究。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-23",
+        "kind": "preprint_record",
+        "label": "原始预印本：完整作者、v1日期、v4修订与摘要",
+        "status": "read",
+        "url": "https://arxiv.org/abs/2303.16158"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Murray Z. Frank",
+        "Jing Gao",
+        "Keer Yang"
+      ],
+      "authorships": [
+        {
+          "name": "Murray Z. Frank",
+          "position": 1
+        },
+        {
+          "name": "Jing Gao",
+          "position": 2,
+          "researcherId": "r_jing_gao_phbs"
+        },
+        {
+          "name": "Keer Yang",
+          "position": 3
+        }
+      ],
+      "contribution": {
+        "note": "署名顺序不等于贡献；通讯标记只按所列原文，未推断贡献比例。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2023-03-25",
+      "datePrecision": "day",
+      "doi": "10.48550/arxiv.2303.16158",
+      "id": "pub_jing_gao_behavioral_ml_forecast_bias",
+      "paradigms": [],
+      "publicationStatus": "preprint",
+      "publicationType": "preprint",
+      "questionId": "q_pub_jing_gao_behavioral_ml_forecast_bias",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "正则化与测量噪声如何影响企业盈利预测，并产生看似行为偏差的反应不足或过度反应？",
+      "researcherIds": [
+        "r_jing_gao_phbs"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-23",
+          "kind": "preprint_record",
+          "label": "原始预印本：完整作者、v1日期、v4修订与摘要",
+          "status": "read",
+          "url": "https://arxiv.org/abs/2303.16158"
+        },
+        {
+          "checkedAt": "2026-10-23",
+          "kind": "working_paper_repository",
+          "label": "同一作品SSRN版本；摘要表述有修订，不重复计数",
+          "status": "prior_primary_abstract_today_403",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4395903"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "finai",
+        "asset",
+        "ts"
+      ],
+      "title": "Behavioral Machine Learning? Regularization and Forecast Bias",
+      "url": "https://arxiv.org/abs/2303.16158",
+      "venue": "arXiv:2303.16158 / SSRN working paper 4395903",
+      "verifiedAt": "2026-10-24",
+      "versions": [
+        {
+          "authorEvidence": {
+            "checkedAt": "2026-10-23",
+            "kind": "preprint_record",
+            "label": "arXiv完整作者及v4修订日期",
+            "status": "read",
+            "url": "https://arxiv.org/abs/2303.16158"
+          },
+          "authorListComplete": true,
+          "authorOrderVerified": true,
+          "authors": [
+            "Murray Z. Frank",
+            "Jing Gao",
+            "Keer Yang"
+          ],
+          "date": "2025-12-23",
+          "datePrecision": "day",
+          "doi": "10.48550/arxiv.2303.16158",
+          "publicationStatus": "preprint",
+          "publicationType": "preprint",
+          "sources": [
+            {
+              "checkedAt": "2026-10-23",
+              "kind": "preprint_record",
+              "label": "arXiv版本历史；只计一项作品",
+              "status": "read",
+              "url": "https://arxiv.org/abs/2303.16158"
+            }
+          ],
+          "title": "Behavioral Machine Learning? Regularization and Forecast Bias",
+          "url": "https://arxiv.org/abs/2303.16158v4",
+          "venue": "arXiv:2303.16158 v4（同一作品的修订稿）",
+          "year": 2025
+        }
+      ],
+      "year": 2023
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-24",
+        "reason": "摘要级证据；部分原文片段已核对，不表示完成全文审阅或独立复现。",
+        "source": "https://yuexuanren.github.io/ConformalPI.pdf",
+        "status": "available"
+      },
+      "abstractSummary": "将盘中累计异常收益的推断转为反事实收益预测，为高频金融场景构造共形区间；多控制资产版本使用合成控制。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-23",
+        "kind": "author_manuscript",
+        "label": "作者原稿：完整署名、日期、摘要及已核正文片段",
+        "status": "read",
+        "url": "https://yuexuanren.github.io/ConformalPI.pdf"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Yuexuan Ren"
+      ],
+      "authorships": [
+        {
+          "name": "Yuexuan Ren",
+          "position": 1,
+          "researcherId": "r_yuexuan_ren_tsinghua_sigs"
+        }
+      ],
+      "contribution": {
+        "note": "署名顺序不等于贡献；通讯标记只按所列原文，未推断贡献比例。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2024-11-11",
+      "datePrecision": "day",
+      "doi": "",
+      "id": "pub_yuexuan_ren_conformal_highfreq_event_2024",
+      "paradigms": [],
+      "publicationStatus": "working_paper",
+      "publicationType": "working_paper",
+      "questionId": "q_pub_yuexuan_ren_conformal_highfreq_event_2024",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "如何用共形预测为盘中金融事件的反事实累计收益构造可信区间？",
+      "researcherIds": [
+        "r_yuexuan_ren_tsinghua_sigs"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-23",
+          "kind": "author_manuscript",
+          "label": "作者原稿：完整署名、日期、摘要及已核正文片段",
+          "status": "read",
+          "url": "https://yuexuanren.github.io/ConformalPI.pdf"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "ts",
+        "asset",
+        "finai"
+      ],
+      "title": "Conformal Prediction for High-frequency Event Studies",
+      "url": "https://yuexuanren.github.io/ConformalPI.pdf",
+      "venue": "Author working paper",
+      "verifiedAt": "2026-10-24",
+      "versions": [],
+      "year": 2024
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-24",
+        "reason": "摘要级证据；部分原文片段已核对，不表示完成全文审阅或独立复现。",
+        "source": "https://www.aeaweb.org/articles?id=10.1257/aer.20221338",
+        "status": "available"
+      },
+      "abstractSummary": "用高频观测的局部高斯结构推断非参数时变beta，研究杠杆ETF跟踪表现与盘中事件；属于金融计量，不算独立AI/ML模型作品。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-23",
+        "kind": "publisher_record",
+        "label": "AER正式书目与摘要：作者顺序、卷期与页码",
+        "status": "read",
+        "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20221338"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Tim Bollerslev",
+        "Jia Li",
+        "Yuexuan Ren"
+      ],
+      "authorships": [
+        {
+          "name": "Tim Bollerslev",
+          "position": 1
+        },
+        {
+          "name": "Jia Li",
+          "position": 2
+        },
+        {
+          "name": "Yuexuan Ren",
+          "position": 3,
+          "researcherId": "r_yuexuan_ren_tsinghua_sigs"
+        }
+      ],
+      "contribution": {
+        "note": "署名顺序不等于贡献；通讯标记只按所列原文，未推断贡献比例。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2024-03",
+      "datePrecision": "month",
+      "doi": "10.1257/aer.20221338",
+      "id": "pub_yuexuan_ren_spot_regressions_2024",
+      "paradigms": [],
+      "publicationStatus": "published",
+      "publicationType": "journal",
+      "questionId": "q_pub_yuexuan_ren_spot_regressions_2024",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "如何利用高频数据的局部结构，为时变beta和盘中金融事件效应作可靠推断？",
+      "researcherIds": [
+        "r_yuexuan_ren_tsinghua_sigs"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-23",
+          "kind": "publisher_record",
+          "label": "AER正式书目与摘要：作者顺序、卷期与页码",
+          "status": "read",
+          "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20221338"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "ts",
+        "asset"
+      ],
+      "title": "Optimal Inference for Spot Regressions",
+      "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20221338",
+      "venue": "American Economic Review 114(3):678-708",
+      "verifiedAt": "2026-10-24",
+      "versions": [],
+      "year": 2024
     }
   ],
   "paradigms": [
@@ -50570,8 +51653,8 @@
   "publicCurationNote": "公开研究资料快照。主题、研究问题与研究线为编辑归纳，不代表学者本人陈述或机构背书。",
   "publicRelease": {
     "channel": "stable",
-    "snapshotDate": "2026-10-22",
-    "version": "3.3.48"
+    "snapshotDate": "2026-10-23",
+    "version": "3.3.49"
   },
   "publicationPolicy": {
     "authorshipNote": "署名位次不等于贡献排名；通讯作者、共同贡献和具体分工只按原文证据标注。",
@@ -50581,19 +51664,19 @@
     "extendedStart": "2021-10-08",
     "extendedYears": 5,
     "extensionThreshold": 5,
-    "snapshotDate": "2026-10-22",
+    "snapshotDate": "2026-10-23",
     "versionNote": "同一研究的预印本与发表版本分开保留证据；摘要来源可能与主书目版本不同。"
   },
   "publicationStats": {
-    "abstracts": 455,
+    "abstracts": 464,
     "fullTexts": 4,
     "outsideWindow": 7,
-    "papers": 467,
-    "recentPapers": 460,
-    "researchers": 106,
+    "papers": 476,
+    "recentPapers": 469,
+    "researchers": 111,
     "reviewedSources": 11,
-    "verifiedBylines": 466,
-    "withPapers": 51
+    "verifiedBylines": 475,
+    "withPapers": 58
   },
   "questionClusters": [
     {
@@ -50624,7 +51707,8 @@
         "pub_yi_yang_numeracy_gap_embedding_models_2026",
         "pub_yi_yang_divide_and_contrast_risk_prediction_2025",
         "pub_cityu_he_feng_news_bankruptcy_2026",
-        "pub_cityu_he_feng_llm_sentiment_two_markets_2025"
+        "pub_cityu_he_feng_llm_sentiment_two_markets_2025",
+        "pub_cnbuzz2portfolio_news_allocation_2026"
       ],
       "question": "金融信息的生产、披露和传播如何影响投资者行为与价格形成？",
       "questionIds": [
@@ -50651,7 +51735,8 @@
         "q_pub_yi_yang_numeracy_gap_embedding_models_2026",
         "q_pub_yi_yang_divide_and_contrast_risk_prediction_2025",
         "q_pub_cityu_he_feng_news_bankruptcy_2026",
-        "q_pub_cityu_he_feng_llm_sentiment_two_markets_2025"
+        "q_pub_cityu_he_feng_llm_sentiment_two_markets_2025",
+        "q_pub_cnbuzz2portfolio_news_allocation_2026"
       ],
       "researcherIds": [
         "r_yanzhen",
@@ -50665,9 +51750,11 @@
         "r_allen_huang_hkust",
         "r_yi_yang_hkust",
         "r_jingyu_he_cityu",
-        "r_guanhao_feng_cityu"
+        "r_guanhao_feng_cityu",
+        "r_qiang_yang_hkust",
+        "r_xiu_li_tsinghua_sigs"
       ],
-      "reviewedAt": "2026-10-19",
+      "reviewedAt": "2026-10-24",
       "themes": [
         "finai",
         "digital",
@@ -50803,7 +51890,9 @@
         "pub_sicong_li_asset_pricing_factors_economic_targets_2023",
         "pub_xinghua_zheng_sharpe_ratios_2024",
         "pub_kewei_huang_radar_sdf_portfolios_2026",
-        "pub_cityu_he_feng_panel_trees_2025"
+        "pub_cityu_he_feng_panel_trees_2025",
+        "pub_factorminer_financial_alpha_2026",
+        "pub_uncertainty_adjusted_sorting_2026"
       ],
       "question": "哪些风险、特征和经济机制能够解释或预测资产回报？",
       "questionIds": [
@@ -50861,7 +51950,9 @@
         "q_pub_sicong_li_asset_pricing_factors_economic_targets_2023",
         "q_pub_xinghua_zheng_sharpe_ratios_2024",
         "q_pub_kewei_huang_radar_sdf_portfolios_2026",
-        "q_pub_cityu_he_feng_panel_trees_2025"
+        "q_pub_cityu_he_feng_panel_trees_2025",
+        "q_pub_factorminer_financial_alpha_2026",
+        "q_pub_uncertainty_adjusted_sorting_2026"
       ],
       "researcherIds": [
         "r_claire",
@@ -50885,9 +51976,13 @@
         "r_kewei_huang_nus",
         "r_lin_william_cong_ntu",
         "r_guanhao_feng_cityu",
-        "r_jingyu_he_cityu"
+        "r_jingyu_he_cityu",
+        "r_shaolun_huang_tsinghua_sigs",
+        "r_xiaoping_zhang_tsinghua_sigs",
+        "r_yan_liu_tsinghua_sigs",
+        "r_ye"
       ],
-      "reviewedAt": "2026-10-18",
+      "reviewedAt": "2026-10-24",
       "themes": [
         "asset",
         "ts",
@@ -51312,7 +52407,10 @@
         "pub_julian_sester_distributionally_robust_deep_q_learning_2025",
         "pub_ruixun_zhang_esg_rating_game_2026",
         "pub_cityu_he_feng_panel_trees_2025",
-        "pub_ke_2026_machine_learning_vast_dynamic_conditional_covari"
+        "pub_ke_2026_machine_learning_vast_dynamic_conditional_covari",
+        "pub_cnbuzz2portfolio_news_allocation_2026",
+        "pub_uncertainty_adjusted_sorting_2026",
+        "pub_yan_liu_ml_meets_markowitz_2026"
       ],
       "question": "在不确定性和实际约束下，如何构建投资组合并控制风险？",
       "questionIds": [
@@ -51369,7 +52467,10 @@
         "q_pub_julian_sester_distributionally_robust_deep_q_learning_2025",
         "q_pub_ruixun_zhang_esg_rating_game_2026",
         "q_pub_cityu_he_feng_panel_trees_2025",
-        "q_pub_ke_2026_machine_learning_vast_dynamic_conditional_covari"
+        "q_pub_ke_2026_machine_learning_vast_dynamic_conditional_covari",
+        "q_pub_cnbuzz2portfolio_news_allocation_2026",
+        "q_pub_uncertainty_adjusted_sorting_2026",
+        "q_pub_yan_liu_ml_meets_markowitz_2026"
       ],
       "researcherIds": [
         "r_gao",
@@ -51400,9 +52501,13 @@
         "r_anthony_tung_nus",
         "r_lin_william_cong_ntu",
         "r_guanhao_feng_cityu",
-        "r_jingyu_he_cityu"
+        "r_jingyu_he_cityu",
+        "r_qiang_yang_hkust",
+        "r_xiu_li_tsinghua_sigs",
+        "r_yan_liu_tsinghua_sigs",
+        "r_ye"
       ],
-      "reviewedAt": "2026-10-21",
+      "reviewedAt": "2026-10-24",
       "themes": [
         "asset",
         "finai",
@@ -51665,7 +52770,8 @@
         "pub_jiayin_fintech_reduce_discrimination",
         "pub_yanzhen_causal_fused_lasso",
         "pub_ye_treatment_effects_l2_boosting",
-        "pub_ye_causal_reinforcement_learning_iv"
+        "pub_ye_causal_reinforcement_learning_iv",
+        "pub_yuexuan_ren_conformal_highfreq_event_2024"
       ],
       "question": "如何识别和估计干预效应，并刻画不同个体或群体的异质性？",
       "questionIds": [
@@ -51676,16 +52782,18 @@
         "q_pub_jiayin_fintech_reduce_discrimination",
         "q_pub_yanzhen_causal_fused_lasso",
         "q_pub_ye_treatment_effects_l2_boosting",
-        "q_pub_ye_causal_reinforcement_learning_iv"
+        "q_pub_ye_causal_reinforcement_learning_iv",
+        "q_pub_yuexuan_ren_conformal_highfreq_event_2024"
       ],
       "researcherIds": [
         "r_difan",
         "r_guodong",
         "r_jiayin",
         "r_yanzhen",
-        "r_ye"
+        "r_ye",
+        "r_yuexuan_ren_tsinghua_sigs"
       ],
-      "reviewedAt": "2026-08-31",
+      "reviewedAt": "2026-10-24",
       "themes": [
         "asset",
         "decision",
@@ -51906,7 +53014,9 @@
         "pub_kewei_huang_radar_sdf_portfolios_2026",
         "pub_jian_li_lara_stock_prediction_2024",
         "pub_ke_2026_machine_learning_vast_dynamic_conditional_covari",
-        "pub_weichen_wang_robust_volatility_proxies_2024"
+        "pub_weichen_wang_robust_volatility_proxies_2024",
+        "pub_gaussian_mixture_stock_uncertainty_2025",
+        "pub_jing_gao_behavioral_ml_forecast_bias"
       ],
       "question": "如何利用时间结构和跨序列信息，改善预测及其适用范围？",
       "questionIds": [
@@ -51928,7 +53038,9 @@
         "q_pub_kewei_huang_radar_sdf_portfolios_2026",
         "q_pub_jian_li_lara_stock_prediction_2024",
         "q_pub_ke_2026_machine_learning_vast_dynamic_conditional_covari",
-        "q_pub_weichen_wang_robust_volatility_proxies_2024"
+        "q_pub_weichen_wang_robust_volatility_proxies_2024",
+        "q_pub_gaussian_mixture_stock_uncertainty_2025",
+        "q_pub_jing_gao_behavioral_ml_forecast_bias"
       ],
       "researcherIds": [
         "r_anthony_tung_nus",
@@ -51941,9 +53053,12 @@
         "r_yingying",
         "r_ying_chen_nus",
         "r_kewei_huang_nus",
-        "r_weichen_wang_hku"
+        "r_weichen_wang_hku",
+        "r_jing_gao_phbs",
+        "r_shaolun_huang_tsinghua_sigs",
+        "r_xiaoping_zhang_tsinghua_sigs"
       ],
-      "reviewedAt": "2026-10-23",
+      "reviewedAt": "2026-10-24",
       "themes": [
         "finai",
         "ts",
@@ -51972,7 +53087,8 @@
         "pub_yingying_volatility_extreme_persistence",
         "pub_ying_chen_neural_tangent_kernel_implied_volatility_2026",
         "pub_ruixun_zhang_signatures_path_regression_2026",
-        "pub_weichen_wang_robust_volatility_proxies_2024"
+        "pub_weichen_wang_robust_volatility_proxies_2024",
+        "pub_yuexuan_ren_spot_regressions_2024"
       ],
       "question": "如何从高频或受噪声污染的金融数据中估计波动及风险结构？",
       "questionIds": [
@@ -51991,7 +53107,8 @@
         "q_pub_yingying_volatility_extreme_persistence",
         "q_pub_ying_chen_neural_tangent_kernel_implied_volatility_2026",
         "q_pub_ruixun_zhang_signatures_path_regression_2026",
-        "q_pub_weichen_wang_robust_volatility_proxies_2024"
+        "q_pub_weichen_wang_robust_volatility_proxies_2024",
+        "q_pub_yuexuan_ren_spot_regressions_2024"
       ],
       "researcherIds": [
         "r_daniel_palomar_hkust",
@@ -52000,9 +53117,10 @@
         "r_yingying",
         "r_ying_chen_nus",
         "r_ruixun_zhang_pku",
-        "r_weichen_wang_hku"
+        "r_weichen_wang_hku",
+        "r_yuexuan_ren_tsinghua_sigs"
       ],
-      "reviewedAt": "2026-10-23",
+      "reviewedAt": "2026-10-24",
       "themes": [
         "ts",
         "ml",
@@ -52032,7 +53150,10 @@
         "pub_yanzhen_deep_learning_change_point",
         "pub_yingying_tests_principal_eigen",
         "pub_yingying_volatility_extreme_persistence",
-        "pub_xinghua_zheng_sharpe_ratios_2024"
+        "pub_xinghua_zheng_sharpe_ratios_2024",
+        "pub_gaussian_mixture_stock_uncertainty_2025",
+        "pub_yuexuan_ren_conformal_highfreq_event_2024",
+        "pub_yuexuan_ren_spot_regressions_2024"
       ],
       "question": "复杂数据条件下，如何量化不确定性、构造有效检验并诊断模型失配？",
       "questionIds": [
@@ -52052,21 +53173,28 @@
         "q_pub_yanzhen_deep_learning_change_point",
         "q_pub_yingying_tests_principal_eigen",
         "q_pub_yingying_volatility_extreme_persistence",
-        "q_pub_xinghua_zheng_sharpe_ratios_2024"
+        "q_pub_xinghua_zheng_sharpe_ratios_2024",
+        "q_pub_gaussian_mixture_stock_uncertainty_2025",
+        "q_pub_yuexuan_ren_conformal_highfreq_event_2024",
+        "q_pub_yuexuan_ren_spot_regressions_2024"
       ],
       "researcherIds": [
         "r_guodong",
         "r_ke",
         "r_xinghua_zheng_hkust",
         "r_yanzhen",
-        "r_yingying"
+        "r_yingying",
+        "r_shaolun_huang_tsinghua_sigs",
+        "r_xiaoping_zhang_tsinghua_sigs",
+        "r_yuexuan_ren_tsinghua_sigs"
       ],
-      "reviewedAt": "2026-10-08",
+      "reviewedAt": "2026-10-24",
       "themes": [
         "asset",
         "decision",
         "ml",
-        "ts"
+        "ts",
+        "finai"
       ],
       "title": "不确定性量化与模型检验"
     },
@@ -52099,7 +53227,8 @@
         "pub_he_kinetic_langevin",
         "pub_nan_chen_adversarial_rl_optimal_control_2025",
         "pub_ruixun_zhang_bicausal_ot_policy_gradients_2026",
-        "pub_ariel_neufeld_model_free_static_arbitrage_neural_networks_2024"
+        "pub_ariel_neufeld_model_free_static_arbitrage_neural_networks_2024",
+        "pub_yan_liu_ml_meets_markowitz_2026"
       ],
       "question": "优化算法在何种条件下收敛，训练路径如何影响效率与结果？",
       "questionIds": [
@@ -52127,7 +53256,8 @@
         "q_pub_he_kinetic_langevin",
         "q_pub_nan_chen_adversarial_rl_optimal_control_2025",
         "q_pub_ruixun_zhang_bicausal_ot_policy_gradients_2026",
-        "q_pub_ariel_neufeld_model_free_static_arbitrage_neural_networks_2024"
+        "q_pub_ariel_neufeld_model_free_static_arbitrage_neural_networks_2024",
+        "q_pub_yan_liu_ml_meets_markowitz_2026"
       ],
       "researcherIds": [
         "r_ye",
@@ -52138,9 +53268,10 @@
         "r_nan_chen_cuhk",
         "r_ruixun_zhang_pku",
         "r_ariel_neufeld_ntu",
-        "r_julian_sester_nus"
+        "r_julian_sester_nus",
+        "r_yan_liu_tsinghua_sigs"
       ],
-      "reviewedAt": "2026-10-22",
+      "reviewedAt": "2026-10-24",
       "themes": [
         "ml",
         "ts",
@@ -52493,7 +53624,8 @@
         "pub_sha_be_your_own_red_teamer_2026",
         "pub_yi_yang_economic_risk_preferences_llms_2025",
         "pub_qi_liu_verified_critical_step_optimization_2026",
-        "pub_sha_stepcodereasoner_execution_traces_rl_2026"
+        "pub_sha_stepcodereasoner_execution_traces_rl_2026",
+        "pub_deepseek_r1_financial_benchmark_2025"
       ],
       "question": "如何理解和改善语言模型的推理、指令遵循与偏好对齐？",
       "questionIds": [
@@ -52527,7 +53659,8 @@
         "q_pub_sha_be_your_own_red_teamer_2026",
         "q_pub_yi_yang_economic_risk_preferences_llms_2025",
         "q_pub_qi_liu_verified_critical_step_optimization_2026",
-        "q_pub_sha_stepcodereasoner_execution_traces_rl_2026"
+        "q_pub_sha_stepcodereasoner_execution_traces_rl_2026",
+        "q_pub_deepseek_r1_financial_benchmark_2025"
       ],
       "researcherIds": [
         "r_bo_an",
@@ -52536,9 +53669,11 @@
         "r_jian_li",
         "r_qi_liu_hku",
         "r_lei_sha",
-        "r_yi_yang_hkust"
+        "r_yi_yang_hkust",
+        "r_qiang_yang_hkust",
+        "r_xiu_li_tsinghua_sigs"
       ],
-      "reviewedAt": "2026-10-20",
+      "reviewedAt": "2026-10-24",
       "themes": [
         "finai",
         "decision",
@@ -52572,7 +53707,9 @@
         "pub_jian_li_alphaschema_2026",
         "pub_yi_yang_macroallocagent_2026",
         "pub_qi_liu_verified_critical_step_optimization_2026",
-        "pub_sha_stepcodereasoner_execution_traces_rl_2026"
+        "pub_sha_stepcodereasoner_execution_traces_rl_2026",
+        "pub_cnbuzz2portfolio_news_allocation_2026",
+        "pub_factorminer_financial_alpha_2026"
       ],
       "question": "如何让智能体可靠地规划任务、使用工具并完成交互式工作？",
       "questionIds": [
@@ -52595,7 +53732,9 @@
         "q_pub_jian_li_alphaschema_2026",
         "q_pub_yi_yang_macroallocagent_2026",
         "q_pub_qi_liu_verified_critical_step_optimization_2026",
-        "q_pub_sha_stepcodereasoner_execution_traces_rl_2026"
+        "q_pub_sha_stepcodereasoner_execution_traces_rl_2026",
+        "q_pub_cnbuzz2portfolio_news_allocation_2026",
+        "q_pub_factorminer_financial_alpha_2026"
       ],
       "researcherIds": [
         "r_anthony_tung_nus",
@@ -52605,9 +53744,13 @@
         "r_jian_li",
         "r_yi_yang_hkust",
         "r_lei_sha",
-        "r_qi_liu_hku"
+        "r_qi_liu_hku",
+        "r_qiang_yang_hkust",
+        "r_shaolun_huang_tsinghua_sigs",
+        "r_xiaoping_zhang_tsinghua_sigs",
+        "r_xiu_li_tsinghua_sigs"
       ],
-      "reviewedAt": "2026-10-20",
+      "reviewedAt": "2026-10-24",
       "themes": [
         "finai",
         "ts",
@@ -53191,7 +54334,9 @@
         "pub_allen_huang_finentity_2023",
         "pub_xinghua_zheng_sharpe_ratios_2024",
         "pub_yi_yang_numeracy_gap_embedding_models_2026",
-        "pub_yi_yang_divide_and_contrast_risk_prediction_2025"
+        "pub_yi_yang_divide_and_contrast_risk_prediction_2025",
+        "pub_deepseek_r1_financial_benchmark_2025",
+        "pub_jing_gao_behavioral_ml_forecast_bias"
       ],
       "question": "如何评价模型能力与可靠性，并识别和缓解系统性偏差？",
       "questionIds": [
@@ -53214,7 +54359,9 @@
         "q_pub_allen_huang_finentity_2023",
         "q_pub_xinghua_zheng_sharpe_ratios_2024",
         "q_pub_yi_yang_numeracy_gap_embedding_models_2026",
-        "q_pub_yi_yang_divide_and_contrast_risk_prediction_2025"
+        "q_pub_yi_yang_divide_and_contrast_risk_prediction_2025",
+        "q_pub_deepseek_r1_financial_benchmark_2025",
+        "q_pub_jing_gao_behavioral_ml_forecast_bias"
       ],
       "researcherIds": [
         "r_anthony_tung_nus",
@@ -53227,9 +54374,12 @@
         "r_zhimin_chen_ntu",
         "r_sicong_li_cuhk",
         "r_allen_huang_hkust",
-        "r_xinghua_zheng_hkust"
+        "r_xinghua_zheng_hkust",
+        "r_jing_gao_phbs",
+        "r_qiang_yang_hkust",
+        "r_xiu_li_tsinghua_sigs"
       ],
-      "reviewedAt": "2026-10-14",
+      "reviewedAt": "2026-10-24",
       "themes": [
         "finai",
         "ts",
@@ -53510,12 +54660,12 @@
       {
         "awaitingEvidence": 0,
         "awaitingExtraction": 0,
-        "clustered": 91,
-        "clusters": 34,
-        "extracted": 91,
-        "multiPaperClusters": 26,
-        "papers": 91,
-        "singlePaperClusters": 8,
+        "clustered": 99,
+        "clusters": 35,
+        "extracted": 99,
+        "multiPaperClusters": 28,
+        "papers": 99,
+        "singlePaperClusters": 7,
         "staleEvidence": 0,
         "themeId": "finai",
         "unclustered": 0
@@ -53523,11 +54673,11 @@
       {
         "awaitingEvidence": 1,
         "awaitingExtraction": 0,
-        "clustered": 104,
+        "clustered": 106,
         "clusters": 36,
-        "extracted": 104,
+        "extracted": 106,
         "multiPaperClusters": 25,
-        "papers": 105,
+        "papers": 107,
         "singlePaperClusters": 11,
         "staleEvidence": 0,
         "themeId": "decision",
@@ -53536,12 +54686,12 @@
       {
         "awaitingEvidence": 5,
         "awaitingExtraction": 0,
-        "clustered": 162,
+        "clustered": 169,
         "clusters": 30,
-        "extracted": 162,
-        "multiPaperClusters": 27,
-        "papers": 167,
-        "singlePaperClusters": 3,
+        "extracted": 169,
+        "multiPaperClusters": 28,
+        "papers": 174,
+        "singlePaperClusters": 2,
         "staleEvidence": 0,
         "themeId": "asset",
         "unclustered": 0
@@ -53549,11 +54699,11 @@
       {
         "awaitingEvidence": 6,
         "awaitingExtraction": 0,
-        "clustered": 113,
+        "clustered": 117,
         "clusters": 33,
-        "extracted": 113,
+        "extracted": 117,
         "multiPaperClusters": 22,
-        "papers": 119,
+        "papers": 123,
         "singlePaperClusters": 11,
         "staleEvidence": 0,
         "themeId": "ts",
@@ -53575,22 +54725,22 @@
       {
         "awaitingEvidence": 2,
         "awaitingExtraction": 0,
-        "clustered": 263,
+        "clustered": 264,
         "clusters": 43,
-        "extracted": 263,
+        "extracted": 264,
         "multiPaperClusters": 36,
-        "papers": 265,
+        "papers": 266,
         "singlePaperClusters": 7,
         "staleEvidence": 0,
         "themeId": "ml",
         "unclustered": 0
       }
     ],
-    "clustered": 455,
+    "clustered": 464,
     "clusters": 50,
-    "extracted": 455,
+    "extracted": 464,
     "multiPaperClusters": 45,
-    "papers": 467,
+    "papers": 476,
     "singlePaperClusters": 5,
     "staleEvidence": 0,
     "unclustered": 0
@@ -64406,6 +65556,232 @@
       ],
       "reviewedAt": "2026-10-23",
       "text": "在真实波动不可观测、收益厚尾且样本有限时，如何构造稳健波动代理，使金融波动预测模型的实证优劣比较更稳定？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_agent_planning_tools",
+        "qc_asset_risk_premia"
+      ],
+      "evidence": {
+        "digest": "53ff8c17514da2ebd0da338915496baba2ae11b48099c09960e170a23b53e475",
+        "excerpt": "LLM智能体用技能、工具及成功/失败经验记忆迭代挖掘金融公式alpha，控制因子相关性与冗余；评估为金融历史数据回测，不是实盘盈利证明。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-23",
+          "kind": "primary_author_manuscript",
+          "label": "v2，2026-08-19，12页，首面KDD2026会议信息、DOI、完整作者与SIGS归属",
+          "status": "direct_partial_full_text_read",
+          "url": "https://arxiv.org/pdf/2602.14670"
+        }
+      },
+      "id": "q_pub_factorminer_financial_alpha_2026",
+      "paperIds": [
+        "pub_factorminer_financial_alpha_2026"
+      ],
+      "reviewedAt": "2026-10-24",
+      "text": "如何利用可复用技能和成功、失败经验记忆，提高金融因子搜索效率并降低重复与冗余？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_time_series_forecasting",
+        "qc_statistical_testing"
+      ],
+      "evidence": {
+        "digest": "233ff4cc0b5a88e275901fd02b9df9cf03f929ae4307e2e8e4c75e1f3847df09",
+        "excerpt": "Transformer与股票代码嵌入输出高斯混合收益分布，研究中国股票的厚尾、偏度及波动不确定性，并以CRPS、MSE、QLIKE及GARCH基线检验。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-23",
+          "kind": "primary_author_manuscript",
+          "label": "23页，首面明确submitted for EC25 review，不等于EC25录用；张晓平与Danny Sun通讯",
+          "status": "direct_byline_abstract_intro_read",
+          "url": "https://arxiv.org/pdf/2503.06929"
+        }
+      },
+      "id": "q_pub_gaussian_mixture_stock_uncertainty_2025",
+      "paperIds": [
+        "pub_gaussian_mixture_stock_uncertainty_2025"
+      ],
+      "reviewedAt": "2026-10-24",
+      "text": "如何预测可随时间变化且含厚尾/偏度的股票收益分布，并验证分布及波动风险估计？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_portfolio_risk_control",
+        "qc_optimization_dynamics"
+      ],
+      "evidence": {
+        "digest": "76d0c1e706e4fbcd2ec8b950114f93271c363b6402c98ecbcb046fb707cc7e60",
+        "excerpt": "端到端联合学习收益预测与Markowitz组合优化，把投资者风险偏好、持仓约束及市场摩擦纳入训练目标，避免仅优化均方预测误差。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-23",
+          "kind": "primary_working_paper_issuer",
+          "label": "完整作者顺序、2026年2月、工作论文34861、摘要",
+          "status": "primary_search_full_abstract_read_direct_fetch_403",
+          "url": "https://www.nber.org/papers/w34861"
+        }
+      },
+      "id": "q_pub_yan_liu_ml_meets_markowitz_2026",
+      "paperIds": [
+        "pub_yan_liu_ml_meets_markowitz_2026"
+      ],
+      "reviewedAt": "2026-10-24",
+      "text": "预测模型如何对齐真实组合效用、持仓约束和交易摩擦，而非平均预测损失？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_asset_risk_premia",
+        "qc_portfolio_risk_control"
+      ],
+      "evidence": {
+        "digest": "4dee8605ac5e17841ff57d80c5fed0fea05960593072c13f5303ff079818fa55",
+        "excerpt": "将机器学习收益预测的不确定性边界用于股票排序与资产定价组合，论文研究美国股票并报告风险及组合效果；不能直接称为conformal方法。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-23",
+          "kind": "primary_paper_repository",
+          "label": "uncertainty_abs",
+          "status": "direct_abstract_read",
+          "url": "https://arxiv.org/abs/2601.00593"
+        }
+      },
+      "id": "q_pub_uncertainty_adjusted_sorting_2026",
+      "paperIds": [
+        "pub_uncertainty_adjusted_sorting_2026"
+      ],
+      "reviewedAt": "2026-10-24",
+      "text": "如何让横截面选股排序同时利用期望收益与预测不确定性，降低高噪声信号导致的组合风险？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_model_evaluation",
+        "qc_llm_reasoning_alignment"
+      ],
+      "evidence": {
+        "digest": "0555c504a712f66ee715060c5cfc50deb59d4edc13d8d447f857ba4ee7d59340",
+        "excerpt": "对DeepSeek-R1及蒸馏模型进行金融任务/推理基准评估，讨论落地限制；是金融LLM能力评测，不是新交易RL算法或实盘盈利证明。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-23",
+          "kind": "official_publisher_paper",
+          "label": "完整作者、首面期刊页码日期、摘要/引言/结论/贡献；Qiang Yang为通讯",
+          "status": "direct_partial_full_text_read",
+          "url": "https://journal.hep.com.cn/fitee/EN/PDF/10.1631/FITEE.2500227"
+        }
+      },
+      "id": "q_pub_deepseek_r1_financial_benchmark_2025",
+      "paperIds": [
+        "pub_deepseek_r1_financial_benchmark_2025"
+      ],
+      "reviewedAt": "2026-10-24",
+      "text": "通用推理LLM在具体金融任务上的能力与可靠性边界如何被可复现基准揭示？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_financial_information",
+        "qc_portfolio_risk_control",
+        "qc_agent_planning_tools"
+      ],
+      "evidence": {
+        "digest": "e624f67901cf2d60057f0e0635e30082ec4717b21a6a41a59803b9521dafaeda",
+        "excerpt": "中国市场日度热点新闻映射至宏观/行业ETF组合权重；Compression-Perception-Allocation智能体流程以固定回测评价九个LLM，数据覆盖2024至2025年中。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-23",
+          "kind": "primary_paper_repository",
+          "label": "cnbuzz_abs",
+          "status": "direct_abstract_read",
+          "url": "https://arxiv.org/abs/2603.22305"
+        }
+      },
+      "id": "q_pub_cnbuzz2portfolio_news_allocation_2026",
+      "paperIds": [
+        "pub_cnbuzz2portfolio_news_allocation_2026"
+      ],
+      "reviewedAt": "2026-10-24",
+      "text": "金融Agent如何把新闻叙事转成可检验配置逻辑，并区分推理能力、市场噪声与回测运气？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_model_evaluation",
+        "qc_time_series_forecasting"
+      ],
+      "evidence": {
+        "digest": "01f8023f65793176760f304af5eadb05b84812a96b3c670c1803f83f3d5d9a28",
+        "excerpt": "以企业盈利预测和分析师预测效率检验为金融任务，研究正则化和测量噪声能否产生通常被解释为行为偏差的反应不足/过度反应。不是纯通用ML方法，但也不是交易RL或金融LLM研究。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-23",
+          "kind": "preprint_record",
+          "label": "原始预印本：完整作者、v1日期、v4修订与摘要",
+          "status": "read",
+          "url": "https://arxiv.org/abs/2303.16158"
+        }
+      },
+      "id": "q_pub_jing_gao_behavioral_ml_forecast_bias",
+      "paperIds": [
+        "pub_jing_gao_behavioral_ml_forecast_bias"
+      ],
+      "reviewedAt": "2026-10-24",
+      "text": "正则化与测量噪声如何影响企业盈利预测，并产生看似行为偏差的反应不足或过度反应？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_statistical_testing",
+        "qc_causal_heterogeneity"
+      ],
+      "evidence": {
+        "digest": "84fd0a75762b33a9367ba84cf694eaca7dfdf6f180bdfeec006429aacf54677b",
+        "excerpt": "将盘中累计异常收益的推断转为反事实收益预测，为高频金融场景构造共形区间；多控制资产版本使用合成控制。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-23",
+          "kind": "author_manuscript",
+          "label": "作者原稿：完整署名、日期、摘要及已核正文片段",
+          "status": "read",
+          "url": "https://yuexuanren.github.io/ConformalPI.pdf"
+        }
+      },
+      "id": "q_pub_yuexuan_ren_conformal_highfreq_event_2024",
+      "paperIds": [
+        "pub_yuexuan_ren_conformal_highfreq_event_2024"
+      ],
+      "reviewedAt": "2026-10-24",
+      "text": "如何用共形预测为盘中金融事件的反事实累计收益构造可信区间？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_high_frequency_volatility",
+        "qc_statistical_testing"
+      ],
+      "evidence": {
+        "digest": "15dcc80905573b798cc1de2154880dd0a790e1674ba8f623824feef6ed0cf27f",
+        "excerpt": "用高频观测的局部高斯结构推断非参数时变beta，研究杠杆ETF跟踪表现与盘中事件；属于金融计量，不算独立AI/ML模型作品。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-23",
+          "kind": "publisher_record",
+          "label": "AER正式书目与摘要：作者顺序、卷期与页码",
+          "status": "read",
+          "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20221338"
+        }
+      },
+      "id": "q_pub_yuexuan_ren_spot_regressions_2024",
+      "paperIds": [
+        "pub_yuexuan_ren_spot_regressions_2024"
+      ],
+      "reviewedAt": "2026-10-24",
+      "text": "如何利用高频数据的局部结构，为时变beta和盘中金融事件效应作可靠推断？"
     }
   ],
   "researchers": [
@@ -65357,11 +66733,11 @@
       "nameVariants": [],
       "position": "Associate Professor; Associate Director, Institute of Digital Economy and Innovation",
       "publicationCoverage": {
-        "abstractCount": 4,
-        "authorVerifiedCount": 4,
+        "abstractCount": 5,
+        "authorVerifiedCount": 5,
         "boundaryDateCount": 1,
-        "checkedAt": "2026-08-31",
-        "collectedCount": 5,
+        "checkedAt": "2026-10-24",
+        "collectedCount": 6,
         "extended": true,
         "fullTextCount": 1,
         "gaps": [
@@ -65373,9 +66749,10 @@
           "paper_ye_high_dimensional_l2_boosting",
           "pub_ye_treatment_effects_l2_boosting",
           "pub_ye_causal_reinforcement_learning_iv",
-          "pub_ye_entrepreneur_traits_credit_outcomes"
+          "pub_ye_entrepreneur_traits_credit_outcomes",
+          "pub_uncertainty_adjusted_sorting_2026"
         ],
-        "recentCount": 3,
+        "recentCount": 4,
         "sourcesChecked": [
           {
             "checkedAt": "2026-08-31",
@@ -65404,13 +66781,27 @@
             "label": "Ye Luo official CV",
             "status": "checked",
             "url": "https://www.hkubs.hku.hk/wp-content/uploads/2021/09/CV-LuoYe.pdf"
+          },
+          {
+            "checkedAt": "2026-10-23",
+            "kind": "primary_paper_repository",
+            "label": "uncertainty_abs",
+            "status": "direct_abstract_read",
+            "url": "https://arxiv.org/abs/2601.00593"
+          },
+          {
+            "checkedAt": "2026-10-23",
+            "kind": "primary_working_paper_repository",
+            "label": "同题早稿2025-12-20；与arXiv合并",
+            "status": "primary_search_metadata_read",
+            "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6013574"
           }
         ],
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 5,
-        "windowEnd": "2026-10-05",
-        "windowStart": "2021-10-05",
+        "windowEnd": "2026-10-23",
+        "windowStart": "2021-10-07",
         "windowYears": 5
       },
       "sources": [
@@ -68556,25 +69947,71 @@
       "nameVariants": [],
       "position": "讲席教授、博士生导师",
       "publicationCoverage": {
-        "abstractCount": 0,
-        "authorVerifiedCount": 0,
+        "abstractCount": 2,
+        "authorVerifiedCount": 2,
         "boundaryDateCount": 0,
-        "checkedAt": null,
-        "collectedCount": 0,
+        "checkedAt": "2026-10-24",
+        "collectedCount": 2,
         "extended": true,
         "fullTextCount": 0,
         "gaps": [
           "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
         ],
         "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
-        "paperIds": [],
-        "recentCount": 0,
-        "sourcesChecked": [],
+        "paperIds": [
+          "pub_yan_liu_ml_meets_markowitz_2026",
+          "pub_uncertainty_adjusted_sorting_2026"
+        ],
+        "recentCount": 2,
+        "sourcesChecked": [
+          {
+            "checkedAt": "2026-10-23",
+            "kind": "primary_working_paper_issuer",
+            "label": "完整作者顺序、2026年2月、工作论文34861、摘要",
+            "status": "primary_search_full_abstract_read_direct_fetch_403",
+            "url": "https://www.nber.org/papers/w34861"
+          },
+          {
+            "checkedAt": "2026-10-23",
+            "kind": "official_coauthor_homepage",
+            "label": "Machine Learning Meets Markowitz列为working paper；链SSRN5947774及NBER34861",
+            "status": "direct_read_and_html_href_checked",
+            "url": "https://people.duke.edu/~charvey/new_research.htm"
+          },
+          {
+            "checkedAt": "2026-10-23",
+            "kind": "primary_working_paper_repository",
+            "label": "同题NBER版本，86页，2026-02-24 posted，2026-04-03 revised",
+            "status": "primary_search_full_abstract_read_direct_fetch_403",
+            "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6290354"
+          },
+          {
+            "checkedAt": "2026-10-23",
+            "kind": "primary_working_paper_repository",
+            "label": "早稿入口；与NBER版合并不重复计数",
+            "status": "url_verified_from_official_coauthor_direct_403",
+            "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5947774"
+          },
+          {
+            "checkedAt": "2026-10-23",
+            "kind": "primary_paper_repository",
+            "label": "uncertainty_abs",
+            "status": "direct_abstract_read",
+            "url": "https://arxiv.org/abs/2601.00593"
+          },
+          {
+            "checkedAt": "2026-10-23",
+            "kind": "primary_working_paper_repository",
+            "label": "同题早稿2025-12-20；与arXiv合并",
+            "status": "primary_search_metadata_read",
+            "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6013574"
+          }
+        ],
         "status": "partial",
         "threshold": 5,
-        "uncertainDateCount": 0,
-        "windowEnd": "2026-10-05",
-        "windowStart": "2021-10-05",
+        "uncertainDateCount": 1,
+        "windowEnd": "2026-10-23",
+        "windowStart": "2021-10-07",
         "windowYears": 5
       },
       "sources": [
@@ -73212,25 +74649,57 @@
       ],
       "position": "Professor Emeritus",
       "publicationCoverage": {
-        "abstractCount": 0,
-        "authorVerifiedCount": 0,
+        "abstractCount": 2,
+        "authorVerifiedCount": 2,
         "boundaryDateCount": 0,
-        "checkedAt": null,
-        "collectedCount": 0,
+        "checkedAt": "2026-10-24",
+        "collectedCount": 2,
         "extended": true,
         "fullTextCount": 0,
         "gaps": [
           "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
         ],
         "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
-        "paperIds": [],
-        "recentCount": 0,
-        "sourcesChecked": [],
+        "paperIds": [
+          "pub_deepseek_r1_financial_benchmark_2025",
+          "pub_cnbuzz2portfolio_news_allocation_2026"
+        ],
+        "recentCount": 2,
+        "sourcesChecked": [
+          {
+            "checkedAt": "2026-10-23",
+            "kind": "official_publisher_paper",
+            "label": "完整作者、首面期刊页码日期、摘要/引言/结论/贡献；Qiang Yang为通讯",
+            "status": "direct_partial_full_text_read",
+            "url": "https://journal.hep.com.cn/fitee/EN/PDF/10.1631/FITEE.2500227"
+          },
+          {
+            "checkedAt": "2026-10-23",
+            "kind": "official_journal_article",
+            "label": "deepseek_journal",
+            "status": "direct_read",
+            "url": "https://jzus.zju.edu.cn/iparticle.php?doi=10.1631/FITEE.2500227"
+          },
+          {
+            "checkedAt": "2026-10-23",
+            "kind": "primary_paper_repository",
+            "label": "cnbuzz_abs",
+            "status": "direct_abstract_read",
+            "url": "https://arxiv.org/abs/2603.22305"
+          },
+          {
+            "checkedAt": "2026-10-23",
+            "kind": "primary_author_manuscript",
+            "label": "13页，李秀为SIGS，完整六位作者，ETF组合基准",
+            "status": "direct_byline_abstract_intro_read",
+            "url": "https://arxiv.org/pdf/2603.22305"
+          }
+        ],
         "status": "partial",
         "threshold": 5,
-        "uncertainDateCount": 0,
-        "windowEnd": "2026-10-05",
-        "windowStart": "2021-10-05",
+        "uncertainDateCount": 1,
+        "windowEnd": "2026-10-23",
+        "windowStart": "2021-10-07",
         "windowYears": 5
       },
       "sources": [
@@ -73829,6 +75298,472 @@
       ],
       "verification": "verified",
       "verifiedAt": "2026-10-18"
+    },
+    {
+      "department": "深圳国际研究生院 / 清华-伯克利深圳学院（深圳）",
+      "education": [],
+      "homepage": "https://www.sigs.tsinghua.edu.cn/hsl/main.htm",
+      "id": "r_shaolun_huang_tsinghua_sigs",
+      "institution": "Tsinghua",
+      "institutionFull": "清华大学",
+      "name": "黄绍伦 / Shao-Lun Huang",
+      "nameVariants": [
+        "Shao-Lun Huang",
+        "黄绍伦"
+      ],
+      "position": "副教授、博士生导师",
+      "publicationCoverage": {
+        "abstractCount": 2,
+        "authorVerifiedCount": 2,
+        "boundaryDateCount": 1,
+        "checkedAt": "2026-10-24",
+        "collectedCount": 2,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [
+          "pub_factorminer_financial_alpha_2026",
+          "pub_gaussian_mixture_stock_uncertainty_2025"
+        ],
+        "recentCount": 2,
+        "sourcesChecked": [
+          {
+            "checkedAt": "2026-10-23",
+            "kind": "primary_paper_repository",
+            "label": "factorminer_abs",
+            "status": "direct_read",
+            "url": "https://arxiv.org/abs/2602.14670"
+          },
+          {
+            "checkedAt": "2026-10-23",
+            "kind": "primary_author_manuscript",
+            "label": "v2，2026-08-19，12页，首面KDD2026会议信息、DOI、完整作者与SIGS归属",
+            "status": "direct_partial_full_text_read",
+            "url": "https://arxiv.org/pdf/2602.14670"
+          },
+          {
+            "checkedAt": "2026-10-23",
+            "kind": "official_conference_paper_list",
+            "label": "FactorMiner列于AI for Sciences；六位作者及SIGS归属；动态页直接find未呈现完整列表",
+            "status": "primary_search_full_entry_read",
+            "url": "https://kdd2026.kdd.org/papers/"
+          },
+          {
+            "checkedAt": "2026-10-23",
+            "kind": "publisher_landing",
+            "label": "DOI来自当前原始PDF；未将403当作已读publisher全文",
+            "status": "403_direct_fetch",
+            "url": "https://dl.acm.org/doi/10.1145/3770855.3818978"
+          },
+          {
+            "checkedAt": "2026-10-23",
+            "kind": "primary_paper_repository",
+            "label": "gaussian_abs",
+            "status": "direct_abstract_read",
+            "url": "https://arxiv.org/abs/2503.06929"
+          },
+          {
+            "checkedAt": "2026-10-23",
+            "kind": "primary_author_manuscript",
+            "label": "23页，首面明确submitted for EC25 review，不等于EC25录用；张晓平与Danny Sun通讯",
+            "status": "direct_byline_abstract_intro_read",
+            "url": "https://arxiv.org/pdf/2503.06929"
+          }
+        ],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 1,
+        "windowEnd": "2026-10-23",
+        "windowStart": "2021-10-23",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-10-23",
+          "kind": "official_university_profile",
+          "label": "黄绍伦，SIGS/TBSI副教授、博士生导师，深圳地址；非北京主校归属推断",
+          "status": "direct_read",
+          "url": "https://www.sigs.tsinghua.edu.cn/hsl/main.htm"
+        }
+      ],
+      "summary": "研究主题：金融因子智能体、股票收益分布预测、统计学习、风险敏感决策。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "finai",
+        "decision",
+        "ts",
+        "ml"
+      ],
+      "topics": [
+        "金融因子智能体",
+        "股票收益分布预测",
+        "统计学习",
+        "风险敏感决策"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "department": "深圳国际研究生院 / 清华-伯克利深圳学院（深圳）",
+      "education": [],
+      "homepage": "https://www.sigs.tsinghua.edu.cn/zxp1/main.htm",
+      "id": "r_xiaoping_zhang_tsinghua_sigs",
+      "institution": "Tsinghua",
+      "institutionFull": "清华大学",
+      "name": "张晓平 / Xiao-Ping Zhang",
+      "nameVariants": [
+        "Xiao-Ping Zhang",
+        "张晓平"
+      ],
+      "position": "鹏瑞教授、博士生导师；信息和数据科学首席教授",
+      "publicationCoverage": {
+        "abstractCount": 2,
+        "authorVerifiedCount": 2,
+        "boundaryDateCount": 1,
+        "checkedAt": "2026-10-24",
+        "collectedCount": 2,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [
+          "pub_factorminer_financial_alpha_2026",
+          "pub_gaussian_mixture_stock_uncertainty_2025"
+        ],
+        "recentCount": 2,
+        "sourcesChecked": [
+          {
+            "checkedAt": "2026-10-23",
+            "kind": "primary_paper_repository",
+            "label": "factorminer_abs",
+            "status": "direct_read",
+            "url": "https://arxiv.org/abs/2602.14670"
+          },
+          {
+            "checkedAt": "2026-10-23",
+            "kind": "primary_author_manuscript",
+            "label": "v2，2026-08-19，12页，首面KDD2026会议信息、DOI、完整作者与SIGS归属",
+            "status": "direct_partial_full_text_read",
+            "url": "https://arxiv.org/pdf/2602.14670"
+          },
+          {
+            "checkedAt": "2026-10-23",
+            "kind": "official_conference_paper_list",
+            "label": "FactorMiner列于AI for Sciences；六位作者及SIGS归属；动态页直接find未呈现完整列表",
+            "status": "primary_search_full_entry_read",
+            "url": "https://kdd2026.kdd.org/papers/"
+          },
+          {
+            "checkedAt": "2026-10-23",
+            "kind": "publisher_landing",
+            "label": "DOI来自当前原始PDF；未将403当作已读publisher全文",
+            "status": "403_direct_fetch",
+            "url": "https://dl.acm.org/doi/10.1145/3770855.3818978"
+          },
+          {
+            "checkedAt": "2026-10-23",
+            "kind": "primary_paper_repository",
+            "label": "gaussian_abs",
+            "status": "direct_abstract_read",
+            "url": "https://arxiv.org/abs/2503.06929"
+          },
+          {
+            "checkedAt": "2026-10-23",
+            "kind": "primary_author_manuscript",
+            "label": "23页，首面明确submitted for EC25 review，不等于EC25录用；张晓平与Danny Sun通讯",
+            "status": "direct_byline_abstract_intro_read",
+            "url": "https://arxiv.org/pdf/2503.06929"
+          }
+        ],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 1,
+        "windowEnd": "2026-10-23",
+        "windowStart": "2021-10-23",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-10-23",
+          "kind": "official_university_profile",
+          "label": "张晓平，鹏瑞教授、博士生导师，TBSI信息和数据科学首席教授；xiaoping.zhang@sz.tsinghua.edu.cn",
+          "status": "direct_read",
+          "url": "https://www.sigs.tsinghua.edu.cn/zxp1/main.htm"
+        }
+      ],
+      "summary": "研究主题：金融因子智能体、金融风险分布建模、统计信号处理。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "finai",
+        "asset",
+        "ts",
+        "ml"
+      ],
+      "topics": [
+        "金融因子智能体",
+        "金融风险分布建模",
+        "统计信号处理"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "department": "深圳国际研究生院（深圳）",
+      "education": [],
+      "homepage": "https://www.sigs.tsinghua.edu.cn/lx/list.htm",
+      "id": "r_xiu_li_tsinghua_sigs",
+      "institution": "Tsinghua",
+      "institutionFull": "清华大学",
+      "name": "李秀 / Xiu Li",
+      "nameVariants": [
+        "Xiu Li",
+        "李秀"
+      ],
+      "position": "教授、博士生导师",
+      "publicationCoverage": {
+        "abstractCount": 2,
+        "authorVerifiedCount": 2,
+        "boundaryDateCount": 0,
+        "checkedAt": "2026-10-24",
+        "collectedCount": 2,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [
+          "pub_deepseek_r1_financial_benchmark_2025",
+          "pub_cnbuzz2portfolio_news_allocation_2026"
+        ],
+        "recentCount": 2,
+        "sourcesChecked": [
+          {
+            "checkedAt": "2026-10-23",
+            "kind": "official_publisher_paper",
+            "label": "完整作者、首面期刊页码日期、摘要/引言/结论/贡献；Qiang Yang为通讯",
+            "status": "direct_partial_full_text_read",
+            "url": "https://journal.hep.com.cn/fitee/EN/PDF/10.1631/FITEE.2500227"
+          },
+          {
+            "checkedAt": "2026-10-23",
+            "kind": "official_journal_article",
+            "label": "deepseek_journal",
+            "status": "direct_read",
+            "url": "https://jzus.zju.edu.cn/iparticle.php?doi=10.1631/FITEE.2500227"
+          },
+          {
+            "checkedAt": "2026-10-23",
+            "kind": "primary_paper_repository",
+            "label": "cnbuzz_abs",
+            "status": "direct_abstract_read",
+            "url": "https://arxiv.org/abs/2603.22305"
+          },
+          {
+            "checkedAt": "2026-10-23",
+            "kind": "primary_author_manuscript",
+            "label": "13页，李秀为SIGS，完整六位作者，ETF组合基准",
+            "status": "direct_byline_abstract_intro_read",
+            "url": "https://arxiv.org/pdf/2603.22305"
+          }
+        ],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 1,
+        "windowEnd": "2026-10-23",
+        "windowStart": "2021-10-23",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-10-23",
+          "kind": "official_university_profile",
+          "label": "李秀，SIGS教授、博士生导师；li.xiu@sz.tsinghua.edu.cn，实验室主线含具身/多智能体/多模态/AI4Science",
+          "status": "direct_read",
+          "url": "https://www.sigs.tsinghua.edu.cn/lx/list.htm"
+        }
+      ],
+      "summary": "研究主题：金融语言模型评测、新闻驱动资产配置、机器学习。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "finai",
+        "decision",
+        "ml"
+      ],
+      "topics": [
+        "金融语言模型评测",
+        "新闻驱动资产配置",
+        "机器学习"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "department": "汇丰商学院（深圳）",
+      "education": [],
+      "homepage": "https://english.phbs.pku.edu.cn/info/3812/62292.htm",
+      "id": "r_jing_gao_phbs",
+      "institution": "PKU",
+      "institutionFull": "北京大学",
+      "name": "高婧 / Jing Gao",
+      "nameVariants": [
+        "Jing Gao",
+        "高婧"
+      ],
+      "position": "金融学助理教授",
+      "publicationCoverage": {
+        "abstractCount": 1,
+        "authorVerifiedCount": 1,
+        "boundaryDateCount": 0,
+        "checkedAt": "2026-10-24",
+        "collectedCount": 1,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [
+          "pub_jing_gao_behavioral_ml_forecast_bias"
+        ],
+        "recentCount": 0,
+        "sourcesChecked": [
+          {
+            "checkedAt": "2026-10-23",
+            "kind": "preprint_record",
+            "label": "原始预印本：完整作者、v1日期、v4修订与摘要",
+            "status": "read",
+            "url": "https://arxiv.org/abs/2303.16158"
+          },
+          {
+            "checkedAt": "2026-10-23",
+            "kind": "working_paper_repository",
+            "label": "同一作品SSRN版本；摘要表述有修订，不重复计数",
+            "status": "prior_primary_abstract_today_403",
+            "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4395903"
+          }
+        ],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 0,
+        "windowEnd": "2026-10-23",
+        "windowStart": "2021-10-23",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-10-23",
+          "kind": "official_faculty_profile",
+          "label": "PHBS现任教师页：身份与深圳单位",
+          "status": "read",
+          "url": "https://english.phbs.pku.edu.cn/info/3812/62292.htm"
+        },
+        {
+          "checkedAt": "2026-10-23",
+          "kind": "official_faculty_news",
+          "label": "PHBS2026新教师介绍：中文姓名及研究方向",
+          "status": "read",
+          "url": "https://www.phbs.pku.edu.cn/info/1151/180781.htm"
+        }
+      ],
+      "summary": "研究主题：盈利预测、正则化与预测偏差、金融机器学习。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "finai",
+        "asset",
+        "ts"
+      ],
+      "topics": [
+        "盈利预测",
+        "正则化与预测偏差",
+        "金融机器学习"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "department": "经济管理学院金融系 / 经管深圳研究院 / 深圳国际研究生院（深圳）",
+      "education": [],
+      "homepage": "https://www.sigs.tsinghua.edu.cn/ryx/main.psp",
+      "id": "r_yuexuan_ren_tsinghua_sigs",
+      "institution": "Tsinghua",
+      "institutionFull": "清华大学",
+      "name": "任玥璇 / Yuexuan Ren",
+      "nameVariants": [
+        "Yuexuan Ren",
+        "任玥璇"
+      ],
+      "position": "助理教授、博士生导师",
+      "publicationCoverage": {
+        "abstractCount": 2,
+        "authorVerifiedCount": 2,
+        "boundaryDateCount": 0,
+        "checkedAt": "2026-10-24",
+        "collectedCount": 2,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [
+          "pub_yuexuan_ren_conformal_highfreq_event_2024",
+          "pub_yuexuan_ren_spot_regressions_2024"
+        ],
+        "recentCount": 2,
+        "sourcesChecked": [
+          {
+            "checkedAt": "2026-10-23",
+            "kind": "author_manuscript",
+            "label": "作者原稿：完整署名、日期、摘要及已核正文片段",
+            "status": "read",
+            "url": "https://yuexuanren.github.io/ConformalPI.pdf"
+          },
+          {
+            "checkedAt": "2026-10-23",
+            "kind": "publisher_record",
+            "label": "AER正式书目与摘要：作者顺序、卷期与页码",
+            "status": "read",
+            "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20221338"
+          }
+        ],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 1,
+        "windowEnd": "2026-10-23",
+        "windowStart": "2021-10-23",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-10-23",
+          "kind": "official_faculty_profile",
+          "label": "SIGS现任主页：助理教授、博士生导师和深圳办公地点",
+          "status": "read",
+          "url": "https://www.sigs.tsinghua.edu.cn/ryx/main.psp"
+        },
+        {
+          "checkedAt": "2026-10-23",
+          "kind": "official_faculty_profile",
+          "label": "经管学院现任教师与研究领域",
+          "status": "read",
+          "url": "https://www.sem.tsinghua.edu.cn/info/1207/37222.htm"
+        }
+      ],
+      "summary": "研究主题：共形预测、高频金融事件研究、金融计量推断。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "ts",
+        "asset",
+        "finai"
+      ],
+      "topics": [
+        "共形预测",
+        "高频金融事件研究",
+        "金融计量推断"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-24"
     }
   ],
   "schemaVersion": 3,
@@ -73864,5 +75799,5 @@
       "name": "ML Theory & Optimization"
     }
   ],
-  "updatedAt": "2026-10-22"
+  "updatedAt": "2026-10-23"
 }
