@@ -51552,6 +51552,270 @@
       "verifiedAt": "2026-10-24",
       "versions": [],
       "year": 2024
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-25",
+        "reason": "摘要与部分正文已核读；按摘要级入库，不声称完成逐页全文精读或实验复现。",
+        "source": "https://www.ijcai.org/proceedings/2023/674",
+        "status": "available"
+      },
+      "abstractSummary": "以ESG冲击和产业链图为输入，用交叉注意力图神经网络回归产业链聚合盈利比率与经营利润率，并在两个真实数据集评估；研究对象是ESG与经营财务表现，不是直接股票收益或资产定价，也不能仅凭预测/注意力解释认定因果效应。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-25",
+        "kind": "primary_paper_pdf",
+        "label": "IJCAI原文：署名、共同通讯、摘要及产业链财务指标",
+        "status": "direct_byline_abstract_and_selected_sections_read",
+        "url": "https://www.ijcai.org/proceedings/2023/0674.pdf"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Bin Liu",
+        "Jiujun He",
+        "Ziyuan Li",
+        "Xiaoyang Huang",
+        "Xiang Zhang",
+        "Guosheng Yin"
+      ],
+      "authorships": [
+        {
+          "name": "Bin Liu",
+          "position": 1,
+          "researcherId": null
+        },
+        {
+          "name": "Jiujun He",
+          "position": 2,
+          "researcherId": null
+        },
+        {
+          "name": "Ziyuan Li",
+          "position": 3,
+          "researcherId": null
+        },
+        {
+          "name": "Xiaoyang Huang",
+          "position": 4,
+          "researcherId": null
+        },
+        {
+          "corresponding": true,
+          "name": "Xiang Zhang",
+          "position": 5,
+          "researcherId": null,
+          "source": {
+            "checkedAt": "2026-10-25",
+            "kind": "primary_paper_pdf",
+            "label": "IJCAI原文：署名、共同通讯、摘要及产业链财务指标",
+            "status": "direct_byline_abstract_and_selected_sections_read",
+            "url": "https://www.ijcai.org/proceedings/2023/0674.pdf"
+          }
+        },
+        {
+          "corresponding": true,
+          "name": "Guosheng Yin",
+          "position": 6,
+          "researcherId": "r_guosheng_yin",
+          "source": {
+            "checkedAt": "2026-10-25",
+            "kind": "primary_paper_pdf",
+            "label": "IJCAI原文：署名、共同通讯、摘要及产业链财务指标",
+            "status": "direct_byline_abstract_and_selected_sections_read",
+            "url": "https://www.ijcai.org/proceedings/2023/0674.pdf"
+          }
+        }
+      ],
+      "contribution": {
+        "note": "作者位次不是贡献排名；具体工作分工未核。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": null,
+      "datePrecision": "year",
+      "doi": "10.24963/ijcai.2023/674",
+      "id": "pub_guosheng_yin_esg_industrial_chain_gnn_2023",
+      "paradigms": [
+        "empirical"
+      ],
+      "publicationStatus": "published",
+      "publicationType": "conference",
+      "questionId": "q_pub_guosheng_yin_esg_industrial_chain_gnn_2023",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "如何用产业链图和ESG变化预测、解释产业层面的盈利与经营利润率差异，并区分预测解释与因果影响？",
+      "researcherIds": [
+        "r_guosheng_yin"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-25",
+          "kind": "official_conference_paper",
+          "label": "IJCAI正式论文页：完整作者、页码、DOI与摘要",
+          "status": "direct_read",
+          "url": "https://www.ijcai.org/proceedings/2023/674"
+        },
+        {
+          "checkedAt": "2026-10-25",
+          "kind": "primary_paper_pdf",
+          "label": "IJCAI原文：署名、共同通讯、摘要及产业链财务指标",
+          "status": "direct_byline_abstract_and_selected_sections_read",
+          "url": "https://www.ijcai.org/proceedings/2023/0674.pdf"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "finai",
+        "ts",
+        "ml"
+      ],
+      "title": "Interpret ESG Rating’s Impact on the Industrial Chain Using Graph Neural Networks",
+      "url": "https://www.ijcai.org/proceedings/2023/674",
+      "venue": "IJCAI 2023, AI for Good, 6076–6084",
+      "verifiedAt": "2026-10-25",
+      "versions": [],
+      "year": 2023
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-25",
+        "reason": "摘要与部分正文已核读；按摘要级入库，不声称完成逐页全文精读或实验复现。",
+        "source": "https://arxiv.org/html/2303.16532v2",
+        "status": "available"
+      },
+      "abstractSummary": "在期货价格预测中结合时空图神经网络、价格缺口/移动平均/变点三个辅助任务及基于互信息参数重要性的持续学习；关联预印本v2还用预测信号构建多空top-10组合并计交易成本。这里只归纳已核预印本的金融任务与方法，不把期刊摘要新增的美国股票实验归给会议版，不将短期回测当作稳健收益证明。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-25",
+        "kind": "official_conference_paper_list",
+        "label": "ICDM 2024 DM483：四位作者及研究关键词",
+        "status": "direct_read",
+        "url": "https://icdm2024.org/accepted_papers/"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Zhizhong Tan",
+        "Min Hu",
+        "Bin Liu",
+        "Guosheng Yin"
+      ],
+      "authorships": [
+        {
+          "name": "Zhizhong Tan",
+          "position": 1,
+          "researcherId": null
+        },
+        {
+          "name": "Min Hu",
+          "position": 2,
+          "researcherId": null
+        },
+        {
+          "name": "Bin Liu",
+          "position": 3,
+          "researcherId": null
+        },
+        {
+          "name": "Guosheng Yin",
+          "position": 4,
+          "researcherId": "r_guosheng_yin"
+        }
+      ],
+      "contribution": {
+        "note": "作者位次不是贡献排名；具体工作分工未核。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": null,
+      "datePrecision": "year",
+      "doi": "10.1109/icdm59182.2024.00104",
+      "id": "pub_guosheng_yin_futures_hcgnn_2024",
+      "paradigms": [
+        "empirical"
+      ],
+      "publicationStatus": "published",
+      "publicationType": "conference",
+      "questionId": "q_pub_guosheng_yin_futures_hcgnn_2024",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "如何结合跨合约图关系与异构趋势辅助任务，在持续学习中减轻遗忘并改善期货价格预测及交易信号评价？",
+      "researcherIds": [
+        "r_guosheng_yin"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-25",
+          "kind": "official_conference_paper_list",
+          "label": "ICDM 2024 DM483：四位作者及研究关键词",
+          "status": "direct_read",
+          "url": "https://icdm2024.org/accepted_papers/"
+        },
+        {
+          "checkedAt": "2026-10-25",
+          "kind": "author_research_repository",
+          "label": "作者仓库明确列ICDM短版与TKDE期刊版，保留各版作者顺序",
+          "status": "direct_read",
+          "url": "https://github.com/bruce803/HCGNN"
+        },
+        {
+          "checkedAt": "2026-10-25",
+          "kind": "primary_author_manuscript",
+          "label": "2023-12-19 v2：四作者、摘要、方法与回测设定",
+          "status": "direct_byline_abstract_and_selected_sections_read",
+          "url": "https://arxiv.org/html/2303.16532v2"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "finai",
+        "ts",
+        "ml",
+        "asset"
+      ],
+      "title": "Futures Quantitative Investment With Heterogeneous Continual Graph Neural Network",
+      "url": "https://doi.org/10.1109/ICDM59182.2024.00104",
+      "venue": "IEEE ICDM 2024, short paper, 851–856",
+      "verifiedAt": "2026-10-25",
+      "versions": [
+        {
+          "authorEvidence": {
+            "checkedAt": "2026-10-25",
+            "kind": "primary_author_manuscript",
+            "label": "2023-12-19 v2：四作者、摘要、方法与回测设定",
+            "status": "direct_byline_abstract_and_selected_sections_read",
+            "url": "https://arxiv.org/html/2303.16532v2"
+          },
+          "authorListComplete": true,
+          "authorOrderVerified": true,
+          "authors": [
+            "Min Hu",
+            "Zhizhong Tan",
+            "Bin Liu",
+            "Guosheng Yin"
+          ],
+          "date": "2023-12-19",
+          "datePrecision": "day",
+          "doi": "",
+          "publicationStatus": "preprint",
+          "publicationType": "preprint",
+          "sources": [
+            {
+              "checkedAt": "2026-10-25",
+              "kind": "primary_author_manuscript",
+              "label": "2023-12-19 v2：四作者、摘要、方法与回测设定",
+              "status": "direct_byline_abstract_and_selected_sections_read",
+              "url": "https://arxiv.org/html/2303.16532v2"
+            }
+          ],
+          "title": "Graph Portfolio: High-Frequency Factor Predictor via Heterogeneous Continual GNNs",
+          "url": "https://arxiv.org/html/2303.16532v2",
+          "venue": "arXiv:2303.16532v2",
+          "year": 2023
+        }
+      ],
+      "year": 2024
     }
   ],
   "paradigms": [
@@ -51653,30 +51917,30 @@
   "publicCurationNote": "公开研究资料快照。主题、研究问题与研究线为编辑归纳，不代表学者本人陈述或机构背书。",
   "publicRelease": {
     "channel": "stable",
-    "snapshotDate": "2026-10-23",
-    "version": "3.3.49"
+    "snapshotDate": "2026-10-25",
+    "version": "3.3.50"
   },
   "publicationPolicy": {
     "authorshipNote": "署名位次不等于贡献排名；通讯作者、共同贡献和具体分工只按原文证据标注。",
     "coverageNote": "近三年资料不足时回溯五年；日期不完整与补充文献分别标明，收录不承诺穷尽。",
-    "defaultStart": "2023-10-08",
+    "defaultStart": "2023-10-25",
     "defaultYears": 3,
-    "extendedStart": "2021-10-08",
+    "extendedStart": "2021-10-25",
     "extendedYears": 5,
     "extensionThreshold": 5,
-    "snapshotDate": "2026-10-23",
+    "snapshotDate": "2026-10-25",
     "versionNote": "同一研究的预印本与发表版本分开保留证据；摘要来源可能与主书目版本不同。"
   },
   "publicationStats": {
-    "abstracts": 464,
+    "abstracts": 466,
     "fullTexts": 4,
     "outsideWindow": 7,
-    "papers": 476,
-    "recentPapers": 469,
-    "researchers": 111,
+    "papers": 478,
+    "recentPapers": 471,
+    "researchers": 112,
     "reviewedSources": 11,
-    "verifiedBylines": 475,
-    "withPapers": 58
+    "verifiedBylines": 477,
+    "withPapers": 59
   },
   "questionClusters": [
     {
@@ -52090,7 +52354,8 @@
         "pub_zhanhui_longevity_shocks_debt_markets",
         "pub_zhanhui_transition_risk_green_finance",
         "pub_zhanhui_local_gender_imbalance_risk_taking",
-        "pub_ruixun_zhang_dorado_dynamic_rd_options_2026"
+        "pub_ruixun_zhang_dorado_dynamic_rd_options_2026",
+        "pub_guosheng_yin_esg_industrial_chain_gnn_2023"
       ],
       "question": "融资约束、公司治理和企业特征如何影响企业决策及其经济结果？",
       "questionIds": [
@@ -52107,7 +52372,8 @@
         "q_pub_zhanhui_longevity_shocks_debt_markets",
         "q_pub_zhanhui_transition_risk_green_finance",
         "q_pub_zhanhui_local_gender_imbalance_risk_taking",
-        "q_pub_ruixun_zhang_dorado_dynamic_rd_options_2026"
+        "q_pub_ruixun_zhang_dorado_dynamic_rd_options_2026",
+        "q_pub_guosheng_yin_esg_industrial_chain_gnn_2023"
       ],
       "researcherIds": [
         "r_claire",
@@ -52115,14 +52381,17 @@
         "r_jiayin",
         "r_yang",
         "r_zhanhui",
-        "r_ruixun_zhang_pku"
+        "r_ruixun_zhang_pku",
+        "r_guosheng_yin"
       ],
-      "reviewedAt": "2026-10-14",
+      "reviewedAt": "2026-10-25",
       "themes": [
         "asset",
         "digital",
         "finai",
-        "decision"
+        "decision",
+        "ts",
+        "ml"
       ],
       "title": "企业融资与公司决策"
     },
@@ -53016,7 +53285,8 @@
         "pub_ke_2026_machine_learning_vast_dynamic_conditional_covari",
         "pub_weichen_wang_robust_volatility_proxies_2024",
         "pub_gaussian_mixture_stock_uncertainty_2025",
-        "pub_jing_gao_behavioral_ml_forecast_bias"
+        "pub_jing_gao_behavioral_ml_forecast_bias",
+        "pub_guosheng_yin_futures_hcgnn_2024"
       ],
       "question": "如何利用时间结构和跨序列信息，改善预测及其适用范围？",
       "questionIds": [
@@ -53040,7 +53310,8 @@
         "q_pub_ke_2026_machine_learning_vast_dynamic_conditional_covari",
         "q_pub_weichen_wang_robust_volatility_proxies_2024",
         "q_pub_gaussian_mixture_stock_uncertainty_2025",
-        "q_pub_jing_gao_behavioral_ml_forecast_bias"
+        "q_pub_jing_gao_behavioral_ml_forecast_bias",
+        "q_pub_guosheng_yin_futures_hcgnn_2024"
       ],
       "researcherIds": [
         "r_anthony_tung_nus",
@@ -53056,9 +53327,10 @@
         "r_weichen_wang_hku",
         "r_jing_gao_phbs",
         "r_shaolun_huang_tsinghua_sigs",
-        "r_xiaoping_zhang_tsinghua_sigs"
+        "r_xiaoping_zhang_tsinghua_sigs",
+        "r_guosheng_yin"
       ],
-      "reviewedAt": "2026-10-24",
+      "reviewedAt": "2026-10-25",
       "themes": [
         "finai",
         "ts",
@@ -53889,7 +54161,9 @@
         "pub_ke_2024_big_portfolio_selection_by_graph_based_condition",
         "pub_yi_yang_earnings_graph",
         "pub_wei_xu_corporate_fraud_dynamic_business_networks_2026",
-        "pub_ke_2026_machine_learning_vast_dynamic_conditional_covari"
+        "pub_ke_2026_machine_learning_vast_dynamic_conditional_covari",
+        "pub_guosheng_yin_esg_industrial_chain_gnn_2023",
+        "pub_guosheng_yin_futures_hcgnn_2024"
       ],
       "question": "如何利用或学习图结构，获得适合下游任务的表示？",
       "questionIds": [
@@ -53911,7 +54185,9 @@
         "q_pub_ke_2024_big_portfolio_selection_by_graph_based_condition",
         "q_pub_yi_yang_earnings_graph",
         "q_pub_wei_xu_corporate_fraud_dynamic_business_networks_2026",
-        "q_pub_ke_2026_machine_learning_vast_dynamic_conditional_covari"
+        "q_pub_ke_2026_machine_learning_vast_dynamic_conditional_covari",
+        "q_pub_guosheng_yin_esg_industrial_chain_gnn_2023",
+        "q_pub_guosheng_yin_futures_hcgnn_2024"
       ],
       "researcherIds": [
         "r_chao",
@@ -53921,9 +54197,10 @@
         "r_ke",
         "r_yi_yang_hkust",
         "r_wei_du_ruc",
-        "r_wei_xu_ruc"
+        "r_wei_xu_ruc",
+        "r_guosheng_yin"
       ],
-      "reviewedAt": "2026-10-21",
+      "reviewedAt": "2026-10-25",
       "themes": [
         "ml",
         "decision",
@@ -54660,11 +54937,11 @@
       {
         "awaitingEvidence": 0,
         "awaitingExtraction": 0,
-        "clustered": 99,
+        "clustered": 101,
         "clusters": 35,
-        "extracted": 99,
+        "extracted": 101,
         "multiPaperClusters": 28,
-        "papers": 99,
+        "papers": 101,
         "singlePaperClusters": 7,
         "staleEvidence": 0,
         "themeId": "finai",
@@ -54686,11 +54963,11 @@
       {
         "awaitingEvidence": 5,
         "awaitingExtraction": 0,
-        "clustered": 169,
+        "clustered": 170,
         "clusters": 30,
-        "extracted": 169,
+        "extracted": 170,
         "multiPaperClusters": 28,
-        "papers": 174,
+        "papers": 175,
         "singlePaperClusters": 2,
         "staleEvidence": 0,
         "themeId": "asset",
@@ -54699,12 +54976,12 @@
       {
         "awaitingEvidence": 6,
         "awaitingExtraction": 0,
-        "clustered": 117,
-        "clusters": 33,
-        "extracted": 117,
+        "clustered": 119,
+        "clusters": 34,
+        "extracted": 119,
         "multiPaperClusters": 22,
-        "papers": 123,
-        "singlePaperClusters": 11,
+        "papers": 125,
+        "singlePaperClusters": 12,
         "staleEvidence": 0,
         "themeId": "ts",
         "unclustered": 0
@@ -54725,22 +55002,22 @@
       {
         "awaitingEvidence": 2,
         "awaitingExtraction": 0,
-        "clustered": 264,
-        "clusters": 43,
-        "extracted": 264,
+        "clustered": 266,
+        "clusters": 44,
+        "extracted": 266,
         "multiPaperClusters": 36,
-        "papers": 266,
-        "singlePaperClusters": 7,
+        "papers": 268,
+        "singlePaperClusters": 8,
         "staleEvidence": 0,
         "themeId": "ml",
         "unclustered": 0
       }
     ],
-    "clustered": 464,
+    "clustered": 466,
     "clusters": 50,
-    "extracted": 464,
+    "extracted": 466,
     "multiPaperClusters": 45,
-    "papers": 476,
+    "papers": 478,
     "singlePaperClusters": 5,
     "staleEvidence": 0,
     "unclustered": 0
@@ -65782,6 +66059,54 @@
       ],
       "reviewedAt": "2026-10-24",
       "text": "如何利用高频数据的局部结构，为时变beta和盘中金融事件效应作可靠推断？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_graph_representation",
+        "qc_corporate_finance"
+      ],
+      "evidence": {
+        "digest": "3edf9505366d1c7cc145d157c6700e2642d881970efb6614ad8a4af3fc27cb0c",
+        "excerpt": "以ESG冲击和产业链图为输入，用交叉注意力图神经网络回归产业链聚合盈利比率与经营利润率，并在两个真实数据集评估；研究对象是ESG与经营财务表现，不是直接股票收益或资产定价，也不能仅凭预测/注意力解释认定因果效应。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-25",
+          "kind": "abstract_summary",
+          "label": "已有摘要概览所列来源",
+          "url": "https://www.ijcai.org/proceedings/2023/674"
+        }
+      },
+      "id": "q_pub_guosheng_yin_esg_industrial_chain_gnn_2023",
+      "paperIds": [
+        "pub_guosheng_yin_esg_industrial_chain_gnn_2023"
+      ],
+      "reviewedAt": "2026-10-25",
+      "text": "如何用产业链图和ESG变化预测、解释产业层面的盈利与经营利润率差异，并区分预测解释与因果影响？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_time_series_forecasting",
+        "qc_graph_representation"
+      ],
+      "evidence": {
+        "digest": "c94abc1da4f38b01d96a6ae5ddb579fe2283e7eb9332a914cae3e60e2fc1ac05",
+        "excerpt": "在期货价格预测中结合时空图神经网络、价格缺口/移动平均/变点三个辅助任务及基于互信息参数重要性的持续学习；关联预印本v2还用预测信号构建多空top-10组合并计交易成本。这里只归纳已核预印本的金融任务与方法，不把期刊摘要新增的美国股票实验归给会议版，不将短期回测当作稳健收益证明。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-25",
+          "kind": "abstract_summary",
+          "label": "已有摘要概览所列来源",
+          "url": "https://arxiv.org/html/2303.16532v2"
+        }
+      },
+      "id": "q_pub_guosheng_yin_futures_hcgnn_2024",
+      "paperIds": [
+        "pub_guosheng_yin_futures_hcgnn_2024"
+      ],
+      "reviewedAt": "2026-10-25",
+      "text": "如何结合跨合约图关系与异构趋势辅助任务，在持续学习中减轻遗忘并改善期货价格预测及交易信号评价？"
     }
   ],
   "researchers": [
@@ -75764,6 +76089,121 @@
       ],
       "verification": "verified",
       "verifiedAt": "2026-10-24"
+    },
+    {
+      "department": "Department of Statistics and Actuarial Science, School of Computing and Data Science",
+      "education": [],
+      "homepage": "https://saasresearch.hku.hk/~gyin/",
+      "id": "r_guosheng_yin",
+      "institution": "HKU",
+      "institutionFull": "The University of Hong Kong",
+      "name": "尹国圣 / Guosheng Yin",
+      "nameVariants": [
+        "Guosheng Yin",
+        "Yin, Guosheng",
+        "尹国圣",
+        "尹國聖"
+      ],
+      "position": "Chair Professor of Statistics; Patrick S C Poon Professor in Statistics and Actuarial Science",
+      "publicationCoverage": {
+        "abstractCount": 2,
+        "authorVerifiedCount": 2,
+        "boundaryDateCount": 0,
+        "checkedAt": "2026-10-25",
+        "collectedCount": 2,
+        "extended": true,
+        "fullTextCount": 0,
+        "gaps": [
+          "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
+        ],
+        "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
+        "paperIds": [
+          "pub_guosheng_yin_esg_industrial_chain_gnn_2023",
+          "pub_guosheng_yin_futures_hcgnn_2024"
+        ],
+        "recentCount": 2,
+        "sourcesChecked": [
+          {
+            "checkedAt": "2026-10-25",
+            "kind": "official_conference_paper",
+            "label": "IJCAI正式论文页：完整作者、页码、DOI与摘要",
+            "status": "direct_read",
+            "url": "https://www.ijcai.org/proceedings/2023/674"
+          },
+          {
+            "checkedAt": "2026-10-25",
+            "kind": "primary_paper_pdf",
+            "label": "IJCAI原文：署名、共同通讯、摘要及产业链财务指标",
+            "status": "direct_byline_abstract_and_selected_sections_read",
+            "url": "https://www.ijcai.org/proceedings/2023/0674.pdf"
+          },
+          {
+            "checkedAt": "2026-10-25",
+            "kind": "official_conference_paper_list",
+            "label": "ICDM 2024 DM483：四位作者及研究关键词",
+            "status": "direct_read",
+            "url": "https://icdm2024.org/accepted_papers/"
+          },
+          {
+            "checkedAt": "2026-10-25",
+            "kind": "author_research_repository",
+            "label": "作者仓库明确列ICDM短版与TKDE期刊版，保留各版作者顺序",
+            "status": "direct_read",
+            "url": "https://github.com/bruce803/HCGNN"
+          },
+          {
+            "checkedAt": "2026-10-25",
+            "kind": "primary_author_manuscript",
+            "label": "2023-12-19 v2：四作者、摘要、方法与回测设定",
+            "status": "direct_byline_abstract_and_selected_sections_read",
+            "url": "https://arxiv.org/html/2303.16532v2"
+          },
+          {
+            "checkedAt": "2026-10-25",
+            "kind": "official_institutional_publication_record",
+            "label": "HKU正式记录：TKDE 37(7),4104–4116；四作者及摘要",
+            "status": "direct_read",
+            "url": "https://hub.hku.hk/handle/10722/361935"
+          },
+          {
+            "checkedAt": "2026-10-25",
+            "kind": "official_author_publication_list",
+            "label": "作者完整出版列表：TKDE条目额外列Liang,W.，与正式记录冲突",
+            "status": "direct_read",
+            "url": "https://saasresearch.hku.hk/~gyin/materials/pub.pdf"
+          }
+        ],
+        "status": "partial",
+        "threshold": 5,
+        "uncertainDateCount": 2,
+        "windowEnd": "2026-10-25",
+        "windowStart": "2021-10-25",
+        "windowYears": 5
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-10-25",
+          "kind": "official_university_profile",
+          "label": "HKU官方个人主页：2024年至今统计学讲座教授",
+          "status": "direct_read",
+          "url": "https://saasresearch.hku.hk/~gyin/"
+        }
+      ],
+      "summary": "研究主题：金融时间序列预测、图神经网络与持续学习、期货量化投资、ESG与产业链财务表现。主题关联为编辑归纳，请结合论文和官方来源判断。",
+      "themes": [
+        "finai",
+        "ts",
+        "ml",
+        "asset"
+      ],
+      "topics": [
+        "金融时间序列预测",
+        "图神经网络与持续学习",
+        "期货量化投资",
+        "ESG与产业链财务表现"
+      ],
+      "verification": "verified",
+      "verifiedAt": "2026-10-25"
     }
   ],
   "schemaVersion": 3,
@@ -75799,5 +76239,5 @@
       "name": "ML Theory & Optimization"
     }
   ],
-  "updatedAt": "2026-10-23"
+  "updatedAt": "2026-10-25"
 }
