@@ -51816,6 +51816,105 @@
         }
       ],
       "year": 2024
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-27",
+        "reason": "摘要与§3.2定向正文已核，按摘要级归纳；金融案例为简化模拟，未核真实市场验证。",
+        "source": "https://arxiv.org/html/2606.20356v1",
+        "status": "available"
+      },
+      "abstractSummary": "在共同冲击分布存在Wasserstein不确定性的离散时间平均场控制中，构造稳健Q-learning并分析收敛与有限迭代界；金融数值案例以陷入困境、正常、资本充足三种状态模拟金融机构群体，比较冲击分布误设下的稳健性与名义表现。另有流行病案例。金融部分属于简化有限状态模拟，未核真实金融数据或实盘部署。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-27",
+        "kind": "primary_preprint",
+        "label": "arXiv原始记录：完整作者顺序、摘要、v1提交历史",
+        "status": "direct_read",
+        "url": "https://arxiv.org/abs/2606.20356"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Mathieu Laurière",
+        "Ariel Neufeld",
+        "Kyunghyun Park"
+      ],
+      "authorships": [
+        {
+          "name": "Mathieu Laurière",
+          "position": 1,
+          "researcherId": null
+        },
+        {
+          "name": "Ariel Neufeld",
+          "position": 2,
+          "researcherId": "r_ariel_neufeld_ntu"
+        },
+        {
+          "name": "Kyunghyun Park",
+          "position": 3,
+          "researcherId": null
+        }
+      ],
+      "contribution": {
+        "checkedAt": "2026-10-27",
+        "note": "Neufeld署名2/3；作者位次不等于贡献大小。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2026-06-18",
+      "dateEvidence": {
+        "checkedAt": "2026-10-27",
+        "kind": "primary_preprint",
+        "label": "arXiv原始记录：完整作者顺序、摘要、v1提交历史",
+        "note": "平台v1首次提交2026-06-18；HTML稿内显示2026-08-24。分别保留，不据稿内日期虚构新版本或正式发表。",
+        "status": "direct_read",
+        "url": "https://arxiv.org/abs/2606.20356"
+      },
+      "datePrecision": "day",
+      "doi": "10.48550/arxiv.2606.20356",
+      "id": "pub_ariel_neufeld_robust_q_mean_field_common_noise_2026",
+      "paradigms": [
+        "theory",
+        "control"
+      ],
+      "publicationStatus": "preprint",
+      "publicationType": "preprint",
+      "questionId": "q_pub_ariel_neufeld_robust_q_mean_field_common_noise_2026",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "共同冲击分布被误设时，稳健强化学习如何降低金融机构群体陷入困境的风险，并平衡名义表现与最坏情形表现？",
+      "researcherIds": [
+        "r_ariel_neufeld_ntu"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-27",
+          "kind": "primary_preprint",
+          "label": "arXiv原始记录：完整作者顺序、摘要、v1提交历史",
+          "status": "direct_read",
+          "url": "https://arxiv.org/abs/2606.20356"
+        },
+        {
+          "checkedAt": "2026-10-27",
+          "kind": "primary_author_manuscript",
+          "label": "原稿摘要、署名及§3.2金融系统风险模拟，定向核读",
+          "status": "direct_read",
+          "url": "https://arxiv.org/html/2606.20356v1"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "decision",
+        "finai"
+      ],
+      "title": "Robust Q-learning for mean-field control under Wasserstein uncertainty in common noise",
+      "url": "https://arxiv.org/abs/2606.20356v1",
+      "venue": "arXiv:2606.20356v1",
+      "verifiedAt": "2026-10-27",
+      "versions": [],
+      "year": 2026
     }
   ],
   "paradigms": [
@@ -51917,29 +52016,29 @@
   "publicCurationNote": "公开研究资料快照。主题、研究问题与研究线为编辑归纳，不代表学者本人陈述或机构背书。",
   "publicRelease": {
     "channel": "stable",
-    "snapshotDate": "2026-10-25",
-    "version": "3.3.50"
+    "snapshotDate": "2026-10-26",
+    "version": "3.3.51"
   },
   "publicationPolicy": {
     "authorshipNote": "署名位次不等于贡献排名；通讯作者、共同贡献和具体分工只按原文证据标注。",
     "coverageNote": "近三年资料不足时回溯五年；日期不完整与补充文献分别标明，收录不承诺穷尽。",
-    "defaultStart": "2023-10-25",
+    "defaultStart": "2023-10-26",
     "defaultYears": 3,
-    "extendedStart": "2021-10-25",
+    "extendedStart": "2021-10-26",
     "extendedYears": 5,
     "extensionThreshold": 5,
-    "snapshotDate": "2026-10-25",
+    "snapshotDate": "2026-10-26",
     "versionNote": "同一研究的预印本与发表版本分开保留证据；摘要来源可能与主书目版本不同。"
   },
   "publicationStats": {
-    "abstracts": 466,
+    "abstracts": 467,
     "fullTexts": 4,
     "outsideWindow": 7,
-    "papers": 478,
-    "recentPapers": 471,
+    "papers": 479,
+    "recentPapers": 472,
     "researchers": 112,
     "reviewedSources": 11,
-    "verifiedBylines": 477,
+    "verifiedBylines": 478,
     "withPapers": 59
   },
   "questionClusters": [
@@ -52505,7 +52604,8 @@
         "pub_yang_self_collateral_crypto_run",
         "pub_yang_convergence_financial_development",
         "pub_zhanhui_longevity_shocks_debt_markets",
-        "pub_yi_yang_multi_expert_tabular_lm_banking_2025"
+        "pub_yi_yang_multi_expert_tabular_lm_banking_2025",
+        "pub_ariel_neufeld_robust_q_mean_field_common_noise_2026"
       ],
       "question": "银行、基金及其他金融中介如何配置资金并传导风险？",
       "questionIds": [
@@ -52522,7 +52622,8 @@
         "q_pub_yang_self_collateral_crypto_run",
         "q_pub_yang_convergence_financial_development",
         "q_pub_zhanhui_longevity_shocks_debt_markets",
-        "q_pub_yi_yang_multi_expert_tabular_lm_banking_2025"
+        "q_pub_yi_yang_multi_expert_tabular_lm_banking_2025",
+        "q_pub_ariel_neufeld_robust_q_mean_field_common_noise_2026"
       ],
       "researcherIds": [
         "r_claire",
@@ -52531,9 +52632,10 @@
         "r_xiaoyan",
         "r_yang",
         "r_zhanhui",
-        "r_yi_yang_hkust"
+        "r_yi_yang_hkust",
+        "r_ariel_neufeld_ntu"
       ],
-      "reviewedAt": "2026-10-14",
+      "reviewedAt": "2026-10-26",
       "themes": [
         "asset",
         "ts",
@@ -53672,7 +53774,8 @@
         "pub_ariel_neufeld_robust_stat_arb_deep_neural_networks_2024",
         "pub_jian_li_lara_stock_prediction_2024",
         "pub_ruixun_zhang_bicausal_ot_policy_gradients_2026",
-        "pub_julian_sester_distributionally_robust_deep_q_learning_2025"
+        "pub_julian_sester_distributionally_robust_deep_q_learning_2025",
+        "pub_ariel_neufeld_robust_q_mean_field_common_noise_2026"
       ],
       "question": "当数据分布、环境或观测质量变化时，如何保持模型可靠？",
       "questionIds": [
@@ -53697,7 +53800,8 @@
         "q_pub_ariel_neufeld_robust_stat_arb_deep_neural_networks_2024",
         "q_pub_jian_li_lara_stock_prediction_2024",
         "q_pub_ruixun_zhang_bicausal_ot_policy_gradients_2026",
-        "q_pub_julian_sester_distributionally_robust_deep_q_learning_2025"
+        "q_pub_julian_sester_distributionally_robust_deep_q_learning_2025",
+        "q_pub_ariel_neufeld_robust_q_mean_field_common_noise_2026"
       ],
       "researcherIds": [
         "r_chao",
@@ -53710,7 +53814,7 @@
         "r_jian_li",
         "r_ruixun_zhang_pku"
       ],
-      "reviewedAt": "2026-10-16",
+      "reviewedAt": "2026-10-26",
       "themes": [
         "ts",
         "ml",
@@ -54937,11 +55041,11 @@
       {
         "awaitingEvidence": 0,
         "awaitingExtraction": 0,
-        "clustered": 101,
+        "clustered": 102,
         "clusters": 35,
-        "extracted": 101,
+        "extracted": 102,
         "multiPaperClusters": 28,
-        "papers": 101,
+        "papers": 102,
         "singlePaperClusters": 7,
         "staleEvidence": 0,
         "themeId": "finai",
@@ -54950,12 +55054,12 @@
       {
         "awaitingEvidence": 1,
         "awaitingExtraction": 0,
-        "clustered": 106,
+        "clustered": 107,
         "clusters": 36,
-        "extracted": 106,
-        "multiPaperClusters": 25,
-        "papers": 107,
-        "singlePaperClusters": 11,
+        "extracted": 107,
+        "multiPaperClusters": 26,
+        "papers": 108,
+        "singlePaperClusters": 10,
         "staleEvidence": 0,
         "themeId": "decision",
         "unclustered": 0
@@ -55013,11 +55117,11 @@
         "unclustered": 0
       }
     ],
-    "clustered": 466,
+    "clustered": 467,
     "clusters": 50,
-    "extracted": 466,
+    "extracted": 467,
     "multiPaperClusters": 45,
-    "papers": 478,
+    "papers": 479,
     "singlePaperClusters": 5,
     "staleEvidence": 0,
     "unclustered": 0
@@ -66107,6 +66211,30 @@
       ],
       "reviewedAt": "2026-10-25",
       "text": "如何结合跨合约图关系与异构趋势辅助任务，在持续学习中减轻遗忘并改善期货价格预测及交易信号评价？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_financial_intermediation",
+        "qc_distribution_robustness"
+      ],
+      "evidence": {
+        "digest": "10c005235121e84f6d935c939f8b0cb5c8147b5fce61a42ecb11c9ddc1e88127",
+        "excerpt": "在共同冲击分布存在Wasserstein不确定性的离散时间平均场控制中，构造稳健Q-learning并分析收敛与有限迭代界；金融数值案例以陷入困境、正常、资本充足三种状态模拟金融机构群体，比较冲击分布误设下的稳健性与名义表现。另有流行病案例。金融部分属于简化有限状态模拟，未核真实金融数据或实盘部署。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-27",
+          "kind": "abstract_summary",
+          "label": "已有摘要概览所列来源",
+          "url": "https://arxiv.org/html/2606.20356v1"
+        }
+      },
+      "id": "q_pub_ariel_neufeld_robust_q_mean_field_common_noise_2026",
+      "paperIds": [
+        "pub_ariel_neufeld_robust_q_mean_field_common_noise_2026"
+      ],
+      "reviewedAt": "2026-10-26",
+      "text": "共同冲击分布被误设时，稳健强化学习如何降低金融机构群体陷入困境的风险，并平衡名义表现与最坏情形表现？"
     }
   ],
   "researchers": [
@@ -74538,11 +74666,11 @@
       ],
       "position": "Tenured Associate Professor",
       "publicationCoverage": {
-        "abstractCount": 2,
-        "authorVerifiedCount": 2,
+        "abstractCount": 3,
+        "authorVerifiedCount": 3,
         "boundaryDateCount": 0,
-        "checkedAt": "2026-10-22",
-        "collectedCount": 2,
+        "checkedAt": "2026-10-27",
+        "collectedCount": 3,
         "extended": true,
         "fullTextCount": 0,
         "gaps": [
@@ -74551,9 +74679,10 @@
         "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
         "paperIds": [
           "pub_ariel_neufeld_robust_stat_arb_deep_neural_networks_2024",
-          "pub_ariel_neufeld_model_free_static_arbitrage_neural_networks_2024"
+          "pub_ariel_neufeld_model_free_static_arbitrage_neural_networks_2024",
+          "pub_ariel_neufeld_robust_q_mean_field_common_noise_2026"
         ],
-        "recentCount": 2,
+        "recentCount": 3,
         "sourcesChecked": [
           {
             "checkedAt": "2026-10-10",
@@ -74586,13 +74715,27 @@
             "label": "arXiv原始记录：作者顺序、v1与v2日期、摘要",
             "status": "read",
             "url": "https://arxiv.org/abs/2306.16422"
+          },
+          {
+            "checkedAt": "2026-10-27",
+            "kind": "primary_preprint",
+            "label": "arXiv原始记录：完整作者顺序、摘要、v1提交历史",
+            "status": "direct_read",
+            "url": "https://arxiv.org/abs/2606.20356"
+          },
+          {
+            "checkedAt": "2026-10-27",
+            "kind": "primary_author_manuscript",
+            "label": "原稿摘要、署名及§3.2金融系统风险模拟，定向核读",
+            "status": "direct_read",
+            "url": "https://arxiv.org/html/2606.20356v1"
           }
         ],
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-21",
-        "windowStart": "2021-10-09",
+        "windowEnd": "2026-10-26",
+        "windowStart": "2021-10-26",
         "windowYears": 5
       },
       "sources": [
@@ -76239,5 +76382,5 @@
       "name": "ML Theory & Optimization"
     }
   ],
-  "updatedAt": "2026-10-25"
+  "updatedAt": "2026-10-26"
 }
