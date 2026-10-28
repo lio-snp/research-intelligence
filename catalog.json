@@ -51915,6 +51915,98 @@
       "verifiedAt": "2026-10-27",
       "versions": [],
       "year": 2026
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-28",
+        "reason": "已读原始摘要；未核全文实验设计、真实市场收益或部署。",
+        "source": "https://arxiv.org/abs/2309.13064",
+        "status": "available"
+      },
+      "abstractSummary": "用人工精选的少量金融指令微调LLaMA-65B，涵盖CFA、SEC披露与量化金融问答；摘要报告金融专家偏好和零样本金融NLP评测。本轮未核评测设计，也没有实盘收益证据。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-28",
+        "kind": "primary_preprint",
+        "label": "arXiv原始记录：完整作者顺序、摘要、v1首次提交历史",
+        "status": "direct_read",
+        "url": "https://arxiv.org/abs/2309.13064"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Yi Yang",
+        "Yixuan Tang",
+        "Kar Yan Tam"
+      ],
+      "authorships": [
+        {
+          "name": "Yi Yang",
+          "position": 1,
+          "researcherId": "r_yi_yang_hkust"
+        },
+        {
+          "name": "Yixuan Tang",
+          "position": 2,
+          "researcherId": null
+        },
+        {
+          "name": "Kar Yan Tam",
+          "position": 3,
+          "researcherId": null
+        }
+      ],
+      "contribution": {
+        "checkedAt": "2026-10-28",
+        "note": "杨毅署名1/3；作者位次不等于贡献大小。",
+        "status": "unchecked"
+      },
+      "coverageScope": "supplementary",
+      "date": "2023-09-15",
+      "dateEvidence": {
+        "checkedAt": "2026-10-28",
+        "kind": "primary_preprint",
+        "label": "arXiv原始记录：完整作者顺序、摘要、v1首次提交历史",
+        "note": "2023-09-15为v1首次提交日；2024年HKUST IEMS简报是同一研究介绍，未据此认定正式发表或新作品。",
+        "status": "direct_read",
+        "url": "https://arxiv.org/abs/2309.13064"
+      },
+      "datePrecision": "day",
+      "doi": "10.48550/arxiv.2309.13064",
+      "id": "pub_yi_yang_investlm_2023",
+      "paradigms": [
+        "empirical",
+        "system"
+      ],
+      "publicationStatus": "preprint",
+      "publicationType": "preprint",
+      "questionId": "q_pub_yi_yang_investlm_2023",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "少量高质量金融指令微调，能否改善大模型对金融文本和投资问题的回答，并在金融NLP基准上泛化？",
+      "researcherIds": [
+        "r_yi_yang_hkust"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-28",
+          "kind": "primary_preprint",
+          "label": "arXiv原始记录：完整作者顺序、摘要、v1首次提交历史",
+          "status": "direct_read",
+          "url": "https://arxiv.org/abs/2309.13064"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "finai",
+        "ml"
+      ],
+      "title": "InvestLM: A Large Language Model for Investment using Financial Domain Instruction Tuning",
+      "url": "https://arxiv.org/abs/2309.13064v1",
+      "venue": "arXiv:2309.13064v1",
+      "verifiedAt": "2026-10-28",
+      "versions": [],
+      "year": 2023
     }
   ],
   "paradigms": [
@@ -52016,29 +52108,29 @@
   "publicCurationNote": "公开研究资料快照。主题、研究问题与研究线为编辑归纳，不代表学者本人陈述或机构背书。",
   "publicRelease": {
     "channel": "stable",
-    "snapshotDate": "2026-10-26",
-    "version": "3.3.51"
+    "snapshotDate": "2026-10-27",
+    "version": "3.3.52"
   },
   "publicationPolicy": {
     "authorshipNote": "署名位次不等于贡献排名；通讯作者、共同贡献和具体分工只按原文证据标注。",
     "coverageNote": "近三年资料不足时回溯五年；日期不完整与补充文献分别标明，收录不承诺穷尽。",
-    "defaultStart": "2023-10-26",
+    "defaultStart": "2023-10-27",
     "defaultYears": 3,
-    "extendedStart": "2021-10-26",
+    "extendedStart": "2021-10-27",
     "extendedYears": 5,
     "extensionThreshold": 5,
-    "snapshotDate": "2026-10-26",
+    "snapshotDate": "2026-10-27",
     "versionNote": "同一研究的预印本与发表版本分开保留证据；摘要来源可能与主书目版本不同。"
   },
   "publicationStats": {
-    "abstracts": 467,
+    "abstracts": 468,
     "fullTexts": 4,
-    "outsideWindow": 7,
-    "papers": 479,
+    "outsideWindow": 8,
+    "papers": 480,
     "recentPapers": 472,
     "researchers": 112,
     "reviewedSources": 11,
-    "verifiedBylines": 478,
+    "verifiedBylines": 479,
     "withPapers": 59
   },
   "questionClusters": [
@@ -54001,7 +54093,8 @@
         "pub_yi_yang_economic_risk_preferences_llms_2025",
         "pub_qi_liu_verified_critical_step_optimization_2026",
         "pub_sha_stepcodereasoner_execution_traces_rl_2026",
-        "pub_deepseek_r1_financial_benchmark_2025"
+        "pub_deepseek_r1_financial_benchmark_2025",
+        "pub_yi_yang_investlm_2023"
       ],
       "question": "如何理解和改善语言模型的推理、指令遵循与偏好对齐？",
       "questionIds": [
@@ -54036,7 +54129,8 @@
         "q_pub_yi_yang_economic_risk_preferences_llms_2025",
         "q_pub_qi_liu_verified_critical_step_optimization_2026",
         "q_pub_sha_stepcodereasoner_execution_traces_rl_2026",
-        "q_pub_deepseek_r1_financial_benchmark_2025"
+        "q_pub_deepseek_r1_financial_benchmark_2025",
+        "q_pub_yi_yang_investlm_2023"
       ],
       "researcherIds": [
         "r_bo_an",
@@ -54049,7 +54143,7 @@
         "r_qiang_yang_hkust",
         "r_xiu_li_tsinghua_sigs"
       ],
-      "reviewedAt": "2026-10-24",
+      "reviewedAt": "2026-10-27",
       "themes": [
         "finai",
         "decision",
@@ -54717,7 +54811,8 @@
         "pub_yi_yang_numeracy_gap_embedding_models_2026",
         "pub_yi_yang_divide_and_contrast_risk_prediction_2025",
         "pub_deepseek_r1_financial_benchmark_2025",
-        "pub_jing_gao_behavioral_ml_forecast_bias"
+        "pub_jing_gao_behavioral_ml_forecast_bias",
+        "pub_yi_yang_investlm_2023"
       ],
       "question": "如何评价模型能力与可靠性，并识别和缓解系统性偏差？",
       "questionIds": [
@@ -54742,7 +54837,8 @@
         "q_pub_yi_yang_numeracy_gap_embedding_models_2026",
         "q_pub_yi_yang_divide_and_contrast_risk_prediction_2025",
         "q_pub_deepseek_r1_financial_benchmark_2025",
-        "q_pub_jing_gao_behavioral_ml_forecast_bias"
+        "q_pub_jing_gao_behavioral_ml_forecast_bias",
+        "q_pub_yi_yang_investlm_2023"
       ],
       "researcherIds": [
         "r_anthony_tung_nus",
@@ -54760,7 +54856,7 @@
         "r_qiang_yang_hkust",
         "r_xiu_li_tsinghua_sigs"
       ],
-      "reviewedAt": "2026-10-24",
+      "reviewedAt": "2026-10-27",
       "themes": [
         "finai",
         "ts",
@@ -55041,11 +55137,11 @@
       {
         "awaitingEvidence": 0,
         "awaitingExtraction": 0,
-        "clustered": 102,
+        "clustered": 103,
         "clusters": 35,
-        "extracted": 102,
+        "extracted": 103,
         "multiPaperClusters": 28,
-        "papers": 102,
+        "papers": 103,
         "singlePaperClusters": 7,
         "staleEvidence": 0,
         "themeId": "finai",
@@ -55106,22 +55202,22 @@
       {
         "awaitingEvidence": 2,
         "awaitingExtraction": 0,
-        "clustered": 266,
+        "clustered": 267,
         "clusters": 44,
-        "extracted": 266,
+        "extracted": 267,
         "multiPaperClusters": 36,
-        "papers": 268,
+        "papers": 269,
         "singlePaperClusters": 8,
         "staleEvidence": 0,
         "themeId": "ml",
         "unclustered": 0
       }
     ],
-    "clustered": 467,
+    "clustered": 468,
     "clusters": 50,
-    "extracted": 467,
+    "extracted": 468,
     "multiPaperClusters": 45,
-    "papers": 479,
+    "papers": 480,
     "singlePaperClusters": 5,
     "staleEvidence": 0,
     "unclustered": 0
@@ -66235,6 +66331,30 @@
       ],
       "reviewedAt": "2026-10-26",
       "text": "共同冲击分布被误设时，稳健强化学习如何降低金融机构群体陷入困境的风险，并平衡名义表现与最坏情形表现？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_llm_reasoning_alignment",
+        "qc_model_evaluation"
+      ],
+      "evidence": {
+        "digest": "df92422cd252c852d3b1bb938d08eddb95950442c55550824e2efd8ed644a4a8",
+        "excerpt": "用人工精选的少量金融指令微调LLaMA-65B，涵盖CFA、SEC披露与量化金融问答；摘要报告金融专家偏好和零样本金融NLP评测。本轮未核评测设计，也没有实盘收益证据。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-28",
+          "kind": "abstract_summary",
+          "label": "已有摘要概览所列来源",
+          "url": "https://arxiv.org/abs/2309.13064"
+        }
+      },
+      "id": "q_pub_yi_yang_investlm_2023",
+      "paperIds": [
+        "pub_yi_yang_investlm_2023"
+      ],
+      "reviewedAt": "2026-10-27",
+      "text": "少量高质量金融指令微调，能否改善大模型对金融文本和投资问题的回答，并在金融NLP基准上泛化？"
     }
   ],
   "researchers": [
@@ -69981,7 +70101,7 @@
         "abstractCount": 14,
         "authorVerifiedCount": 14,
         "boundaryDateCount": 0,
-        "checkedAt": "2026-10-21",
+        "checkedAt": "2026-10-28",
         "collectedCount": 14,
         "extended": false,
         "fullTextCount": 0,
@@ -70156,6 +70276,13 @@
             "kind": "primary_preprint",
             "label": "arXiv版本历史：v2日期、完整作者顺序",
             "url": "https://arxiv.org/abs/2603.14313"
+          },
+          {
+            "checkedAt": "2026-10-28",
+            "kind": "primary_preprint",
+            "label": "arXiv原始记录：完整作者顺序、摘要、v1首次提交历史",
+            "status": "direct_read",
+            "url": "https://arxiv.org/abs/2309.13064"
           }
         ],
         "status": "partial",
@@ -76382,5 +76509,5 @@
       "name": "ML Theory & Optimization"
     }
   ],
-  "updatedAt": "2026-10-26"
+  "updatedAt": "2026-10-27"
 }
