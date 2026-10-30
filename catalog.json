@@ -50972,7 +50972,8 @@
         },
         {
           "name": "Xiaowei Zhang",
-          "position": 4
+          "position": 4,
+          "researcherId": "r_xiaowei_zhang_hkust"
         }
       ],
       "contribution": {
@@ -50993,7 +50994,8 @@
       "researchQuestion": "如何让横截面选股排序同时利用期望收益与预测不确定性，降低高噪声信号导致的组合风险？",
       "researcherIds": [
         "r_yan_liu_tsinghua_sigs",
-        "r_ye"
+        "r_ye",
+        "r_xiaowei_zhang_hkust"
       ],
       "selectedReading": false,
       "sources": [
@@ -52007,6 +52009,302 @@
       "verifiedAt": "2026-10-28",
       "versions": [],
       "year": 2023
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-30",
+        "reason": "摘要级内容核对；数值或数据实验不表示实盘部署或独立复现。",
+        "source": "https://researchportal.hkust.edu.hk/en/publications/time-varying-graph-learning-for-data-with-heavy-tailed-distributi/",
+        "status": "available"
+      },
+      "abstractSummary": "以Student-t信号模型和非负VAR图动态估计厚尾数据中的时变网络，并用小批量半在线更新处理噪声和缺失；摘要明确包括金融市场数据实验。金融关系学习是直接应用，但不能由此推断交易收益或真实资金验证。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-30",
+        "kind": "official_repository",
+        "label": "official_repository",
+        "status": "direct_abstract_read",
+        "url": "https://researchportal.hkust.edu.hk/en/publications/time-varying-graph-learning-for-data-with-heavy-tailed-distributi/"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Amirhossein Javaheri",
+        "Jiaxi Ying",
+        "Daniel P. Palomar",
+        "Farokh Marvasti"
+      ],
+      "authorships": [
+        {
+          "name": "Amirhossein Javaheri",
+          "position": 1,
+          "researcherId": null
+        },
+        {
+          "name": "Jiaxi Ying",
+          "position": 2,
+          "researcherId": null
+        },
+        {
+          "name": "Daniel P. Palomar",
+          "position": 3,
+          "researcherId": "r_daniel_palomar_hkust"
+        },
+        {
+          "name": "Farokh Marvasti",
+          "position": 4,
+          "researcherId": null
+        }
+      ],
+      "contribution": {
+        "checkedAt": "2026-10-30",
+        "note": "署名位次不等于贡献大小；未推断贡献比例。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2025-07-14",
+      "dateEvidence": {
+        "checkedAt": "2026-10-30",
+        "kind": "official_repository",
+        "label": "official_repository",
+        "note": "期刊在线发表2025-07-14，当前版本2025-08-14；arXiv首次提交2024-12-31。EUSIPCO2024为原文标明的早期会议版本，仅保留版本说明，会议完整署名未独立核验，不另计作品。",
+        "status": "direct_abstract_read",
+        "url": "https://researchportal.hkust.edu.hk/en/publications/time-varying-graph-learning-for-data-with-heavy-tailed-distributi/"
+      },
+      "datePrecision": "day",
+      "doi": "10.1109/tsp.2025.3588173",
+      "id": "pub_palomar_time_varying_heavy_tailed_graph_2025",
+      "paradigms": [
+        "empirical",
+        "system"
+      ],
+      "publicationStatus": "published",
+      "publicationType": "journal",
+      "questionId": "q_pub_palomar_time_varying_heavy_tailed_graph_2025",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "金融市场厚尾、噪声和缺失观测并存时，如何稳健学习随时间变化的资产依赖图？",
+      "researcherIds": [
+        "r_daniel_palomar_hkust"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-30",
+          "kind": "official_repository",
+          "label": "official_repository",
+          "status": "direct_abstract_read",
+          "url": "https://researchportal.hkust.edu.hk/en/publications/time-varying-graph-learning-for-data-with-heavy-tailed-distributi/"
+        },
+        {
+          "checkedAt": "2026-10-30",
+          "kind": "primary_paper_repository",
+          "label": "primary_paper_repository",
+          "status": "direct_abstract_read",
+          "url": "https://arxiv.org/abs/2501.00606"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "finai",
+        "ml",
+        "ts"
+      ],
+      "title": "Time-Varying Graph Learning for Data With Heavy-Tailed Distribution",
+      "url": "https://doi.org/10.1109/TSP.2025.3588173",
+      "venue": "IEEE Transactions on Signal Processing 73:3044–3060, article 11080072",
+      "verifiedAt": "2026-10-30",
+      "versions": [
+        {
+          "authorEvidence": {
+            "checkedAt": "2026-10-30",
+            "kind": "primary_paper_repository",
+            "label": "primary_paper_repository",
+            "status": "direct_abstract_read",
+            "url": "https://arxiv.org/abs/2501.00606"
+          },
+          "authorListComplete": true,
+          "authorOrderVerified": true,
+          "authors": [
+            "Amirhossein Javaheri",
+            "Jiaxi Ying",
+            "Daniel P. Palomar",
+            "Farokh Marvasti"
+          ],
+          "date": "2024-12-31",
+          "doi": "10.48550/arXiv.2501.00606",
+          "publicationStatus": "preprint",
+          "sources": [
+            {
+              "checkedAt": "2026-10-30",
+              "kind": "primary_paper_repository",
+              "label": "primary_paper_repository",
+              "status": "direct_abstract_read",
+              "url": "https://arxiv.org/abs/2501.00606"
+            }
+          ],
+          "title": "Time-Varying Graph Learning for Data with Heavy-Tailed Distribution",
+          "url": "https://arxiv.org/abs/2501.00606"
+        },
+        {
+          "authorEvidence": {},
+          "authorListComplete": false,
+          "authorOrderVerified": false,
+          "authors": [],
+          "doi": "10.23919/EUSIPCO63174.2024.10714943",
+          "sources": [
+            {
+              "checkedAt": "2026-10-30",
+              "kind": "author_hosted_paper",
+              "label": "Journal first page identifies earlier conference version; conference byline unverified",
+              "status": "first_page_read",
+              "url": "https://palomar.home.ece.ust.hk/papers/2025/JavaheriYingPalomarMarvasti-TSP2025.pdf"
+            }
+          ],
+          "title": "Learning Time-Varying Graphs for Heavy-Tailed Data Clustering",
+          "url": "https://doi.org/10.23919/EUSIPCO63174.2024.10714943",
+          "venue": "EUSIPCO 2024"
+        }
+      ],
+      "year": 2025
+    },
+    {
+      "abstractAvailability": {
+        "checkedAt": "2026-10-30",
+        "reason": "摘要级内容核对；数值或数据实验不表示实盘部署或独立复现。",
+        "source": "https://pubsonline.informs.org/doi/10.1287/mnsc.2022.00204",
+        "status": "available"
+      },
+      "abstractSummary": "用核岭回归利用高维条件期望的平滑性，改善嵌套模拟的计算收敛率，并在投资组合风险管理与输入不确定性量化的数值例子中演示。方法具有明确金融风险应用，但这里的数值实验不等于实盘投资检验。",
+      "authorEvidence": {
+        "checkedAt": "2026-10-30",
+        "kind": "publisher_record_with_abstract",
+        "label": "publisher_record_with_abstract",
+        "status": "read",
+        "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2022.00204"
+      },
+      "authorListComplete": true,
+      "authorOrderVerified": true,
+      "authors": [
+        "Wenjia Wang",
+        "Yanyuan Wang",
+        "Xiaowei Zhang"
+      ],
+      "authorships": [
+        {
+          "name": "Wenjia Wang",
+          "position": 1,
+          "researcherId": null
+        },
+        {
+          "name": "Yanyuan Wang",
+          "position": 2,
+          "researcherId": null
+        },
+        {
+          "corresponding": true,
+          "name": "Xiaowei Zhang",
+          "position": 3,
+          "researcherId": "r_xiaowei_zhang_hkust",
+          "source": {
+            "checkedAt": "2026-10-30",
+            "kind": "publisher_record_with_abstract",
+            "label": "publisher_record_with_abstract",
+            "status": "read",
+            "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2022.00204"
+          }
+        }
+      ],
+      "contribution": {
+        "checkedAt": "2026-10-30",
+        "note": "署名位次不等于贡献大小；未推断贡献比例。",
+        "status": "unchecked"
+      },
+      "coverageScope": "recent",
+      "date": "2024-03-20",
+      "dateEvidence": {
+        "checkedAt": "2026-10-30",
+        "kind": "publisher_record_with_abstract",
+        "label": "publisher_record_with_abstract",
+        "note": "2024-03-20为正式在线日期，卷期为2024年12月；2022预印本与2024正式版合并，DOI中的2022不是正式发表年份。",
+        "status": "read",
+        "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2022.00204"
+      },
+      "datePrecision": "day",
+      "doi": "10.1287/mnsc.2022.00204",
+      "id": "pub_xiaowei_zhang_smooth_nested_simulation_2024",
+      "paradigms": [
+        "theory",
+        "empirical"
+      ],
+      "publicationStatus": "published",
+      "publicationType": "journal",
+      "questionId": "q_pub_xiaowei_zhang_smooth_nested_simulation_2024",
+      "questionStatus": "extracted",
+      "readDepth": "abstract",
+      "researchQuestion": "如何利用条件期望的平滑性与核岭回归，降低高维投资组合风险嵌套模拟的计算成本？",
+      "researcherIds": [
+        "r_xiaowei_zhang_hkust"
+      ],
+      "selectedReading": false,
+      "sources": [
+        {
+          "checkedAt": "2026-10-30",
+          "kind": "publisher_record_with_abstract",
+          "label": "publisher_record_with_abstract",
+          "status": "read",
+          "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2022.00204"
+        },
+        {
+          "checkedAt": "2026-10-30",
+          "kind": "primary_paper_repository",
+          "label": "primary_paper_repository",
+          "status": "direct_abstract_read",
+          "url": "https://arxiv.org/abs/2201.02958"
+        }
+      ],
+      "summaryBasis": "abstract",
+      "themes": [
+        "finai",
+        "ml",
+        "asset"
+      ],
+      "title": "Smooth Nested Simulation: Bridging Cubic and Square Root Convergence Rates in High Dimensions",
+      "url": "https://doi.org/10.1287/mnsc.2022.00204",
+      "venue": "Management Science 70(12):9031–9057 (December 2024)",
+      "verifiedAt": "2026-10-30",
+      "versions": [
+        {
+          "authorEvidence": {
+            "checkedAt": "2026-10-30",
+            "kind": "primary_paper_repository",
+            "label": "primary_paper_repository",
+            "status": "direct_abstract_read",
+            "url": "https://arxiv.org/abs/2201.02958"
+          },
+          "authorListComplete": true,
+          "authorOrderVerified": true,
+          "authors": [
+            "Wenjia Wang",
+            "Yanyuan Wang",
+            "Xiaowei Zhang"
+          ],
+          "date": "2022-01-09",
+          "doi": "10.48550/arXiv.2201.02958",
+          "publicationStatus": "preprint",
+          "sources": [
+            {
+              "checkedAt": "2026-10-30",
+              "kind": "primary_paper_repository",
+              "label": "primary_paper_repository",
+              "status": "direct_abstract_read",
+              "url": "https://arxiv.org/abs/2201.02958"
+            }
+          ],
+          "title": "Smooth Nested Simulation: Bridging Cubic and Square Root Convergence Rates in High Dimensions",
+          "url": "https://arxiv.org/abs/2201.02958"
+        }
+      ],
+      "year": 2024
     }
   ],
   "paradigms": [
@@ -52108,30 +52406,30 @@
   "publicCurationNote": "公开研究资料快照。主题、研究问题与研究线为编辑归纳，不代表学者本人陈述或机构背书。",
   "publicRelease": {
     "channel": "stable",
-    "snapshotDate": "2026-10-27",
-    "version": "3.3.52"
+    "snapshotDate": "2026-10-29",
+    "version": "3.3.53"
   },
   "publicationPolicy": {
     "authorshipNote": "署名位次不等于贡献排名；通讯作者、共同贡献和具体分工只按原文证据标注。",
     "coverageNote": "近三年资料不足时回溯五年；日期不完整与补充文献分别标明，收录不承诺穷尽。",
-    "defaultStart": "2023-10-27",
+    "defaultStart": "2023-10-29",
     "defaultYears": 3,
-    "extendedStart": "2021-10-27",
+    "extendedStart": "2021-10-29",
     "extendedYears": 5,
     "extensionThreshold": 5,
-    "snapshotDate": "2026-10-27",
+    "snapshotDate": "2026-10-29",
     "versionNote": "同一研究的预印本与发表版本分开保留证据；摘要来源可能与主书目版本不同。"
   },
   "publicationStats": {
-    "abstracts": 468,
+    "abstracts": 470,
     "fullTexts": 4,
     "outsideWindow": 8,
-    "papers": 480,
-    "recentPapers": 472,
+    "papers": 482,
+    "recentPapers": 474,
     "researchers": 112,
     "reviewedSources": 11,
-    "verifiedBylines": 479,
-    "withPapers": 59
+    "verifiedBylines": 481,
+    "withPapers": 60
   },
   "questionClusters": [
     {
@@ -52325,6 +52623,8 @@
         "pub_lian_attention_spillover_asset_pricing",
         "pub_lian_wealth_redistribution_bubbles",
         "pub_qi_liu_cogalpha",
+        "pub_sicong_li_factor_models_price_impact_costs_2024",
+        "pub_sicong_li_asset_pricing_factors_economic_targets_2023",
         "pub_weichen_wang_oos_sharpe_high_dim_portfolio_2025",
         "pub_xiaoyan_2026_uncertainty_risk_resolution_before_earnings_anno",
         "pub_xiaoyan_2026_foreign_capital_in_the_chinese_stock_market_a_fi",
@@ -52334,6 +52634,7 @@
         "pub_xiaoyan_2025_when_do_short_sellers_trade_evidence_from_intrad",
         "pub_xiaoyan_2023_finding_anomalies_in_china",
         "pub_xiaoyan_undated_the_china_u_s_equity_valuation_gap",
+        "pub_xinghua_zheng_sharpe_ratios_2024",
         "pub_yi_yang_lambdarankic",
         "pub_yi_yang_finrankgrpo",
         "pub_yingying_dominate_historical_average",
@@ -52341,9 +52642,6 @@
         "pub_zhanhui_inferring_stock_duration",
         "pub_zhimin_chen_limits_machine_learning_2025",
         "pub_zhimin_chen_carbon_financialization_2024",
-        "pub_sicong_li_factor_models_price_impact_costs_2024",
-        "pub_sicong_li_asset_pricing_factors_economic_targets_2023",
-        "pub_xinghua_zheng_sharpe_ratios_2024",
         "pub_kewei_huang_radar_sdf_portfolios_2026",
         "pub_cityu_he_feng_panel_trees_2025",
         "pub_factorminer_financial_alpha_2026",
@@ -52385,6 +52683,8 @@
         "q_pub_lian_attention_spillover_asset_pricing",
         "q_pub_lian_wealth_redistribution_bubbles",
         "q_pub_qi_liu_cogalpha",
+        "q_pub_sicong_li_factor_models_price_impact_costs_2024",
+        "q_pub_sicong_li_asset_pricing_factors_economic_targets_2023",
         "q_pub_weichen_wang_oos_sharpe_high_dim_portfolio_2025",
         "q_pub_xiaoyan_2026_uncertainty_risk_resolution_before_earnings_anno",
         "q_pub_xiaoyan_2026_foreign_capital_in_the_chinese_stock_market_a_fi",
@@ -52394,6 +52694,7 @@
         "q_pub_xiaoyan_2025_when_do_short_sellers_trade_evidence_from_intrad",
         "q_pub_xiaoyan_2023_finding_anomalies_in_china",
         "q_pub_xiaoyan_undated_the_china_u_s_equity_valuation_gap",
+        "q_pub_xinghua_zheng_sharpe_ratios_2024",
         "q_pub_yi_yang_lambdarankic",
         "q_pub_yi_yang_finrankgrpo",
         "q_pub_yingying_dominate_historical_average",
@@ -52401,9 +52702,6 @@
         "q_pub_zhanhui_inferring_stock_duration",
         "q_pub_zhimin_chen_limits_machine_learning_2025",
         "q_pub_zhimin_chen_carbon_financialization_2024",
-        "q_pub_sicong_li_factor_models_price_impact_costs_2024",
-        "q_pub_sicong_li_asset_pricing_factors_economic_targets_2023",
-        "q_pub_xinghua_zheng_sharpe_ratios_2024",
         "q_pub_kewei_huang_radar_sdf_portfolios_2026",
         "q_pub_cityu_he_feng_panel_trees_2025",
         "q_pub_factorminer_financial_alpha_2026",
@@ -52420,14 +52718,14 @@
         "r_ke",
         "r_lian",
         "r_qi_liu_hku",
+        "r_sicong_li_cuhk",
         "r_weichen_wang_hku",
         "r_xiaoyan",
+        "r_xinghua_zheng_hkust",
         "r_yi_yang_hkust",
         "r_yingying",
         "r_zhanhui",
         "r_zhimin_chen_ntu",
-        "r_sicong_li_cuhk",
-        "r_xinghua_zheng_hkust",
         "r_kewei_huang_nus",
         "r_lin_william_cong_ntu",
         "r_guanhao_feng_cityu",
@@ -52435,9 +52733,10 @@
         "r_shaolun_huang_tsinghua_sigs",
         "r_xiaoping_zhang_tsinghua_sigs",
         "r_yan_liu_tsinghua_sigs",
-        "r_ye"
+        "r_ye",
+        "r_xiaowei_zhang_hkust"
       ],
-      "reviewedAt": "2026-10-24",
+      "reviewedAt": "2026-10-29",
       "themes": [
         "asset",
         "ts",
@@ -52845,7 +53144,9 @@
         "pub_li_drawdown_speed",
         "pub_li_regime_mv",
         "pub_li_parisian",
+        "pub_ming_zhou_consumption_leisure_investment_retirement_2025",
         "pub_ruixun_diffusion_factor_models",
+        "pub_sicong_li_factor_models_price_impact_costs_2024",
         "pub_weichen_wang_oos_sharpe_high_dim_portfolio_2025",
         "pub_xianhua_peng_cel",
         "pub_xianhua_peng_cefol",
@@ -52855,8 +53156,6 @@
         "pub_yao_lu_2026_financial_kol_policy_completion",
         "pub_yi_yang_finrankgrpo",
         "pub_zhanhui_weather_risk_index_insurance",
-        "pub_sicong_li_factor_models_price_impact_costs_2024",
-        "pub_ming_zhou_consumption_leisure_investment_retirement_2025",
         "pub_ying_chen_optimal_trade_execution_endogenous_order_flow_2025",
         "pub_ariel_neufeld_robust_stat_arb_deep_neural_networks_2024",
         "pub_jian_li_alphaschema_2026",
@@ -52873,7 +53172,8 @@
         "pub_ke_2026_machine_learning_vast_dynamic_conditional_covari",
         "pub_cnbuzz2portfolio_news_allocation_2026",
         "pub_uncertainty_adjusted_sorting_2026",
-        "pub_yan_liu_ml_meets_markowitz_2026"
+        "pub_yan_liu_ml_meets_markowitz_2026",
+        "pub_xiaowei_zhang_smooth_nested_simulation_2024"
       ],
       "question": "在不确定性和实际约束下，如何构建投资组合并控制风险？",
       "questionIds": [
@@ -52905,7 +53205,9 @@
         "q_pub_li_drawdown_speed",
         "q_pub_li_regime_mv",
         "q_pub_li_parisian",
+        "q_pub_ming_zhou_consumption_leisure_investment_retirement_2025",
         "q_pub_ruixun_diffusion_factor_models",
+        "q_pub_sicong_li_factor_models_price_impact_costs_2024",
         "q_pub_weichen_wang_oos_sharpe_high_dim_portfolio_2025",
         "q_pub_xianhua_peng_cel",
         "q_pub_xianhua_peng_cefol",
@@ -52915,8 +53217,6 @@
         "q_pub_yao_lu_2026_financial_kol_policy_completion",
         "q_pub_yi_yang_finrankgrpo",
         "q_pub_zhanhui_weather_risk_index_insurance",
-        "q_pub_sicong_li_factor_models_price_impact_costs_2024",
-        "q_pub_ming_zhou_consumption_leisure_investment_retirement_2025",
         "q_pub_ying_chen_optimal_trade_execution_endogenous_order_flow_2025",
         "q_pub_ariel_neufeld_robust_stat_arb_deep_neural_networks_2024",
         "q_pub_jian_li_alphaschema_2026",
@@ -52933,7 +53233,8 @@
         "q_pub_ke_2026_machine_learning_vast_dynamic_conditional_covari",
         "q_pub_cnbuzz2portfolio_news_allocation_2026",
         "q_pub_uncertainty_adjusted_sorting_2026",
-        "q_pub_yan_liu_ml_meets_markowitz_2026"
+        "q_pub_yan_liu_ml_meets_markowitz_2026",
+        "q_pub_xiaowei_zhang_smooth_nested_simulation_2024"
       ],
       "researcherIds": [
         "r_gao",
@@ -52948,14 +53249,14 @@
         "r_junye",
         "r_ke",
         "r_lian",
+        "r_ming_zhou_ruc",
         "r_ruixun_zhang_pku",
+        "r_sicong_li_cuhk",
         "r_weichen_wang_hku",
         "r_xianhua_peng",
         "r_yao_lu_nus",
         "r_yi_yang_hkust",
         "r_zhanhui",
-        "r_sicong_li_cuhk",
-        "r_ming_zhou_ruc",
         "r_ying_chen_nus",
         "r_ariel_neufeld_ntu",
         "r_julian_sester_nus",
@@ -52968,9 +53269,10 @@
         "r_qiang_yang_hkust",
         "r_xiu_li_tsinghua_sigs",
         "r_yan_liu_tsinghua_sigs",
-        "r_ye"
+        "r_ye",
+        "r_xiaowei_zhang_hkust"
       ],
-      "reviewedAt": "2026-10-24",
+      "reviewedAt": "2026-10-29",
       "themes": [
         "asset",
         "finai",
@@ -53393,7 +53695,8 @@
         "pub_ruixun_zhang_signatures_path_regression_2026",
         "pub_julian_sester_structured_noise_mmd_signature_financial_series_2025",
         "pub_ruixun_zhang_spectral_volume_models_2025",
-        "pub_ruixun_zhang_signature_lasso_consistency_2025"
+        "pub_ruixun_zhang_signature_lasso_consistency_2025",
+        "pub_palomar_time_varying_heavy_tailed_graph_2025"
       ],
       "question": "如何刻画具有复杂依赖、非平稳或结构变化的时间序列？",
       "questionIds": [
@@ -53428,7 +53731,8 @@
         "q_pub_ruixun_zhang_signatures_path_regression_2026",
         "q_pub_julian_sester_structured_noise_mmd_signature_financial_series_2025",
         "q_pub_ruixun_zhang_spectral_volume_models_2025",
-        "q_pub_ruixun_zhang_signature_lasso_consistency_2025"
+        "q_pub_ruixun_zhang_signature_lasso_consistency_2025",
+        "q_pub_palomar_time_varying_heavy_tailed_graph_2025"
       ],
       "researcherIds": [
         "r_anthony_tung_nus",
@@ -53443,7 +53747,7 @@
         "r_ruixun_zhang_pku",
         "r_julian_sester_nus"
       ],
-      "reviewedAt": "2026-10-17",
+      "reviewedAt": "2026-10-29",
       "themes": [
         "finai",
         "ts",
@@ -53928,7 +54232,8 @@
         "pub_difan_2024_reverse_transition_kernel_a_flexible_framework_t",
         "pub_he_kinetic_langevin",
         "pub_jia_importance_mrw",
-        "pub_junye_annealed_smc"
+        "pub_junye_annealed_smc",
+        "pub_xiaowei_zhang_smooth_nested_simulation_2024"
       ],
       "question": "如何高效且可靠地从复杂概率分布中采样或进行近似推断？",
       "questionIds": [
@@ -53939,20 +54244,23 @@
         "q_pub_difan_2024_reverse_transition_kernel_a_flexible_framework_t",
         "q_pub_he_kinetic_langevin",
         "q_pub_jia_importance_mrw",
-        "q_pub_junye_annealed_smc"
+        "q_pub_junye_annealed_smc",
+        "q_pub_xiaowei_zhang_smooth_nested_simulation_2024"
       ],
       "researcherIds": [
         "r_difan",
         "r_he",
         "r_jia",
-        "r_junye"
+        "r_junye",
+        "r_xiaowei_zhang_hkust"
       ],
-      "reviewedAt": "2026-08-31",
+      "reviewedAt": "2026-10-29",
       "themes": [
         "asset",
         "decision",
         "ml",
-        "ts"
+        "ts",
+        "finai"
       ],
       "title": "采样与概率推断"
     },
@@ -54357,11 +54665,12 @@
         "pub_hailiang_chen_sociolink_startup_recommendations_2023",
         "pub_jian_li_factorgcl_stock_returns_prediction",
         "pub_ke_2024_big_portfolio_selection_by_graph_based_condition",
-        "pub_yi_yang_earnings_graph",
         "pub_wei_xu_corporate_fraud_dynamic_business_networks_2026",
+        "pub_yi_yang_earnings_graph",
         "pub_ke_2026_machine_learning_vast_dynamic_conditional_covari",
         "pub_guosheng_yin_esg_industrial_chain_gnn_2023",
-        "pub_guosheng_yin_futures_hcgnn_2024"
+        "pub_guosheng_yin_futures_hcgnn_2024",
+        "pub_palomar_time_varying_heavy_tailed_graph_2025"
       ],
       "question": "如何利用或学习图结构，获得适合下游任务的表示？",
       "questionIds": [
@@ -54381,11 +54690,12 @@
         "q_pub_hailiang_chen_sociolink_startup_recommendations_2023",
         "q_pub_jian_li_factorgcl_stock_returns_prediction",
         "q_pub_ke_2024_big_portfolio_selection_by_graph_based_condition",
-        "q_pub_yi_yang_earnings_graph",
         "q_pub_wei_xu_corporate_fraud_dynamic_business_networks_2026",
+        "q_pub_yi_yang_earnings_graph",
         "q_pub_ke_2026_machine_learning_vast_dynamic_conditional_covari",
         "q_pub_guosheng_yin_esg_industrial_chain_gnn_2023",
-        "q_pub_guosheng_yin_futures_hcgnn_2024"
+        "q_pub_guosheng_yin_futures_hcgnn_2024",
+        "q_pub_palomar_time_varying_heavy_tailed_graph_2025"
       ],
       "researcherIds": [
         "r_chao",
@@ -54393,19 +54703,20 @@
         "r_hailiang_chen_hku",
         "r_jian_li",
         "r_ke",
-        "r_yi_yang_hkust",
         "r_wei_du_ruc",
         "r_wei_xu_ruc",
-        "r_guosheng_yin"
+        "r_yi_yang_hkust",
+        "r_guosheng_yin",
+        "r_daniel_palomar_hkust"
       ],
-      "reviewedAt": "2026-10-25",
+      "reviewedAt": "2026-10-29",
       "themes": [
-        "ml",
+        "asset",
         "decision",
         "digital",
-        "ts",
         "finai",
-        "asset"
+        "ml",
+        "ts"
       ],
       "title": "图表示与结构学习"
     },
@@ -55137,12 +55448,12 @@
       {
         "awaitingEvidence": 0,
         "awaitingExtraction": 0,
-        "clustered": 103,
-        "clusters": 35,
-        "extracted": 103,
+        "clustered": 105,
+        "clusters": 36,
+        "extracted": 105,
         "multiPaperClusters": 28,
-        "papers": 103,
-        "singlePaperClusters": 7,
+        "papers": 105,
+        "singlePaperClusters": 8,
         "staleEvidence": 0,
         "themeId": "finai",
         "unclustered": 0
@@ -55163,12 +55474,12 @@
       {
         "awaitingEvidence": 5,
         "awaitingExtraction": 0,
-        "clustered": 170,
+        "clustered": 171,
         "clusters": 30,
-        "extracted": 170,
-        "multiPaperClusters": 28,
-        "papers": 175,
-        "singlePaperClusters": 2,
+        "extracted": 171,
+        "multiPaperClusters": 29,
+        "papers": 176,
+        "singlePaperClusters": 1,
         "staleEvidence": 0,
         "themeId": "asset",
         "unclustered": 0
@@ -55176,11 +55487,11 @@
       {
         "awaitingEvidence": 6,
         "awaitingExtraction": 0,
-        "clustered": 119,
+        "clustered": 120,
         "clusters": 34,
-        "extracted": 119,
+        "extracted": 120,
         "multiPaperClusters": 22,
-        "papers": 125,
+        "papers": 126,
         "singlePaperClusters": 12,
         "staleEvidence": 0,
         "themeId": "ts",
@@ -55202,22 +55513,22 @@
       {
         "awaitingEvidence": 2,
         "awaitingExtraction": 0,
-        "clustered": 267,
+        "clustered": 269,
         "clusters": 44,
-        "extracted": 267,
+        "extracted": 269,
         "multiPaperClusters": 36,
-        "papers": 269,
+        "papers": 271,
         "singlePaperClusters": 8,
         "staleEvidence": 0,
         "themeId": "ml",
         "unclustered": 0
       }
     ],
-    "clustered": 468,
+    "clustered": 470,
     "clusters": 50,
-    "extracted": 468,
+    "extracted": 470,
     "multiPaperClusters": 45,
-    "papers": 480,
+    "papers": 482,
     "singlePaperClusters": 5,
     "staleEvidence": 0,
     "unclustered": 0
@@ -66355,6 +66666,54 @@
       ],
       "reviewedAt": "2026-10-27",
       "text": "少量高质量金融指令微调，能否改善大模型对金融文本和投资问题的回答，并在金融NLP基准上泛化？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_graph_representation",
+        "qc_time_series_structure"
+      ],
+      "evidence": {
+        "digest": "c87afb6feb63e9d8c4fe0311c9f6a1b7cd29234f5b61b4c1e41517696ecb4946",
+        "excerpt": "以Student-t信号模型和非负VAR图动态估计厚尾数据中的时变网络，并用小批量半在线更新处理噪声和缺失；摘要明确包括金融市场数据实验。金融关系学习是直接应用，但不能由此推断交易收益或真实资金验证。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-30",
+          "kind": "abstract_summary",
+          "label": "已有摘要概览所列来源",
+          "url": "https://researchportal.hkust.edu.hk/en/publications/time-varying-graph-learning-for-data-with-heavy-tailed-distributi/"
+        }
+      },
+      "id": "q_pub_palomar_time_varying_heavy_tailed_graph_2025",
+      "paperIds": [
+        "pub_palomar_time_varying_heavy_tailed_graph_2025"
+      ],
+      "reviewedAt": "2026-10-29",
+      "text": "金融市场厚尾、噪声和缺失观测并存时，如何稳健学习随时间变化的资产依赖图？"
+    },
+    {
+      "basis": "abstract_summary",
+      "clusterIds": [
+        "qc_portfolio_risk_control",
+        "qc_sampling_inference"
+      ],
+      "evidence": {
+        "digest": "567402622de09dbefc7e59a05f951b04bd4d06358c489fbd68e82e6f1e3bb9b1",
+        "excerpt": "用核岭回归利用高维条件期望的平滑性，改善嵌套模拟的计算收敛率，并在投资组合风险管理与输入不确定性量化的数值例子中演示。方法具有明确金融风险应用，但这里的数值实验不等于实盘投资检验。",
+        "field": "abstractSummary",
+        "source": {
+          "checkedAt": "2026-10-30",
+          "kind": "abstract_summary",
+          "label": "已有摘要概览所列来源",
+          "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2022.00204"
+        }
+      },
+      "id": "q_pub_xiaowei_zhang_smooth_nested_simulation_2024",
+      "paperIds": [
+        "pub_xiaowei_zhang_smooth_nested_simulation_2024"
+      ],
+      "reviewedAt": "2026-10-29",
+      "text": "如何利用条件期望的平滑性与核岭回归，降低高维投资组合风险嵌套模拟的计算成本？"
     }
   ],
   "researchers": [
@@ -72414,11 +72773,11 @@
       "nameVariants": [],
       "position": "Professor",
       "publicationCoverage": {
-        "abstractCount": 4,
-        "authorVerifiedCount": 4,
+        "abstractCount": 5,
+        "authorVerifiedCount": 5,
         "boundaryDateCount": 1,
-        "checkedAt": "2026-10-02",
-        "collectedCount": 4,
+        "checkedAt": "2026-10-30",
+        "collectedCount": 5,
         "extended": true,
         "fullTextCount": 0,
         "gaps": [
@@ -72429,9 +72788,10 @@
           "pub_palomar_fdr_index_tracking",
           "pub_palomar_learning_fdr_nn",
           "pub_palomar_2026_robust_state_space_asymmetric_laplace",
-          "pub_palomar_2025_garch_unified_penalty"
+          "pub_palomar_2025_garch_unified_penalty",
+          "pub_palomar_time_varying_heavy_tailed_graph_2025"
         ],
-        "recentCount": 4,
+        "recentCount": 5,
         "sourcesChecked": [
           {
             "checkedAt": "2026-09-28",
@@ -72462,13 +72822,27 @@
             "kind": "author_manuscript",
             "label": "作者托管期刊PDF索引：完整作者与DOI；直开404",
             "url": "https://faculty.sist.shanghaitech.edu.cn/zhao/pubs/GaoZhaoPalolmar-TSP-GARCH.pdf"
+          },
+          {
+            "checkedAt": "2026-10-30",
+            "kind": "official_repository",
+            "label": "official_repository",
+            "status": "direct_abstract_read",
+            "url": "https://researchportal.hkust.edu.hk/en/publications/time-varying-graph-learning-for-data-with-heavy-tailed-distributi/"
+          },
+          {
+            "checkedAt": "2026-10-30",
+            "kind": "primary_paper_repository",
+            "label": "primary_paper_repository",
+            "status": "direct_abstract_read",
+            "url": "https://arxiv.org/abs/2501.00606"
           }
         ],
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 2,
-        "windowEnd": "2026-10-05",
-        "windowStart": "2021-10-05",
+        "windowEnd": "2026-10-29",
+        "windowStart": "2021-10-29",
         "windowYears": 5
       },
       "sources": [
@@ -72513,25 +72887,57 @@
       "nameVariants": [],
       "position": "Associate Professor; Program Director of MSc in Financial Technology",
       "publicationCoverage": {
-        "abstractCount": 0,
-        "authorVerifiedCount": 0,
+        "abstractCount": 2,
+        "authorVerifiedCount": 2,
         "boundaryDateCount": 0,
-        "checkedAt": null,
-        "collectedCount": 0,
+        "checkedAt": "2026-10-30",
+        "collectedCount": 2,
         "extended": true,
         "fullTextCount": 0,
         "gaps": [
           "日期不完整、仅有精选列表及不可访问的资料可能造成覆盖缺口；请以列出的来源与逐篇证据为准。"
         ],
         "note": "收录范围截至资料快照日期；来源核对不代表该学者的全部成果已收齐。",
-        "paperIds": [],
-        "recentCount": 0,
-        "sourcesChecked": [],
+        "paperIds": [
+          "pub_uncertainty_adjusted_sorting_2026",
+          "pub_xiaowei_zhang_smooth_nested_simulation_2024"
+        ],
+        "recentCount": 2,
+        "sourcesChecked": [
+          {
+            "checkedAt": "2026-10-30",
+            "kind": "publisher_record_with_abstract",
+            "label": "publisher_record_with_abstract",
+            "status": "read",
+            "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2022.00204"
+          },
+          {
+            "checkedAt": "2026-10-30",
+            "kind": "primary_paper_repository",
+            "label": "primary_paper_repository",
+            "status": "direct_abstract_read",
+            "url": "https://arxiv.org/abs/2201.02958"
+          },
+          {
+            "checkedAt": "2026-10-23",
+            "kind": "primary_paper_repository",
+            "label": "uncertainty_abs",
+            "status": "direct_abstract_read",
+            "url": "https://arxiv.org/abs/2601.00593"
+          },
+          {
+            "checkedAt": "2026-10-23",
+            "kind": "primary_working_paper_repository",
+            "label": "同题早稿2025-12-20；与arXiv合并",
+            "status": "primary_search_metadata_read",
+            "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6013574"
+          }
+        ],
         "status": "partial",
         "threshold": 5,
         "uncertainDateCount": 0,
-        "windowEnd": "2026-10-05",
-        "windowStart": "2021-10-05",
+        "windowEnd": "2026-10-29",
+        "windowStart": "2021-10-29",
         "windowYears": 5
       },
       "sources": [
@@ -76509,5 +76915,5 @@
       "name": "ML Theory & Optimization"
     }
   ],
-  "updatedAt": "2026-10-27"
+  "updatedAt": "2026-10-29"
 }
